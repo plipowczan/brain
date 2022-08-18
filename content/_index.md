@@ -1,26 +1,26 @@
 ---
-title: 🪴 Quartz 3.2
+title: Who am I and what is this place?
+toc: true
+openToc: true
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+![[4a_round_nobg.png]]
 
-1. Extremely fast natural-language [[notes/search|search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+👋 I'm an architect and .NET developer for over 15 years. Automation and integration specialist. Husband and father of two children. Enthusiast of modern technologies and sports.
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+---
+This is the place where I organize and share my knowledge. You can find all my thoughts and notes:
 
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
+## You will find here:
+* My habits - what habits I
+* My all free and paid publications and articles
 
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
+## Search
 
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
+You can search all the information contained here with the help of the search engine available on this page, which you can enable with the shortcut **⌘ /** or **CTRL /**.
 
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
+## Concept
 
+This entire project is based on the concept of the so-called [digital garden](https://joelhooks.com/digital-garden). I generate the whole site in Hugo based on the Quartz project [Quartz](https://quartz.jzhao.xyz/) 
+
+> **Important!** If you find a mistake in some definitions or want to suggest a change, I will be very grateful for it. You can do this with a Pull Request sent to [this repository]([plipowczan/brain (github.com)](https://github.com/plipowczan/brain), [reporting Issue](https://github.com/plipowczan/brain/issues/new) or simply by emailing me at [e-mail](mailto:pawel@lipowczan.pl).
