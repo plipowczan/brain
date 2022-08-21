@@ -1,6 +1,6 @@
 name: Pawel Lipowczan
 enableToc: true
-openToc: false
+openToc: true
 enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
@@ -15,8 +15,7 @@ GitHubLink: https://github.com/plipowczan/brain/tree/hugo/content
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  These is Pawel Lipowczan digital garden based on Obsidian and Quarts 3.2
 page_title:
   "🪴 Brain"
 links:
@@ -24,3 +23,5 @@ links:
     link: https://twitter.com/pawellipowczan
   - link_name: Github
     link: https://github.com/plipowczan
+  - link_name: LinkedIn
+    link: https://linkedin.com/in/pawellipowczan 
