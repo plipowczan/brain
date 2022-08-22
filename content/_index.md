@@ -12,8 +12,10 @@ openToc: true
 This is the place where I organize and share my knowledge. You can find all my thoughts and notes:
 
 ## You will find here:
-* My habits - what habits I
-* My all free and paid publications and articles
+* More information about me [[ABOUT/About]]
+* My habits - what habits I developed, which I tried and ditched because the didn't fit, and which I currently [[ABOUT/HABITS/Habits]]
+* My all free and paid publications and articles [[ARTICLES/Articles]]
+* My projects - the ones I was working on in the past and current [[PROJECTS/Projects]]
 
 ## Search
 
