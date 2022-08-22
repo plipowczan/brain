@@ -15,9 +15,9 @@ type: dailyjournal
 3.  
 
 ## What would make today great? (top 3 priorities)
-1.  
-2.  
-3.  
+- [ ] 
+- [ ]  
+- [ ]  
 
 ---
 # Evening
