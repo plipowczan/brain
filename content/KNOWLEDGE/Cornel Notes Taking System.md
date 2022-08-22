@@ -1,14 +1,14 @@
 
 ---
-title: "{{title}}"
-date: {{date: YYYY-MM-DD}}
+title: "Cornel Notes Taking System"
+date: 2022-08-21
 toc: true
 openToc: true
 tags: journal
 type: dailyjournal
 ---
 
-# {{title}}
+# Cornel Notes Taking System
 
 Cornell Note Taking System is a solution for taking, organizing and reviewing notes and has been devised by Prof. Walter Pauk of Cornell University in the 1950s. It turned out to be an effective way to take notes and organize information. This system allows you to quickly identify and record key information. It also provides a way to review and recall information later.
 
