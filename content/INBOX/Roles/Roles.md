@@ -7,8 +7,8 @@ tags:
 type: basic-note
 ---
 # Roles
-[[INBOX/Roles/Father]]
-[[INBOX/Roles/Husband]]
+[[INBOX/ROLES/Father]]
+[[INBOX/ROLES/Husband]]
 [[INBOX/Roles/Developer]]
 [[INBOX/Roles/Founder]]
 [[INBOX/Roles/AutomationSpecialist]]
