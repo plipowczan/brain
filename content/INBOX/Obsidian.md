@@ -18,3 +18,4 @@ Learninig notes: [[templates/learning_notes]]
 ## External Templates
 [OB_Template/0A_3_1_Project.md at main · llZektorll/OB_Template (github.com)](https://github.com/llZektorll/OB_Template/blob/main/0A_Templates/0A_3_Project/0A_3_1_Project.md)
 [obsidian-template/templates at master · tuan3w/obsidian-template (github.com)](https://github.com/tuan3w/obsidian-template/tree/master/templates)
+[6 Useful Templates for Obsidian (filipedonadio.com)](https://filipedonadio.com/6-useful-templates-for-obsidian/)
