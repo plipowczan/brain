@@ -15,7 +15,7 @@ GitHubLink: https://github.com/plipowczan/brain/tree/hugo/content
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
-  These is Pawel Lipowczan digital garden based on Obsidian and Quarts 3.2
+  These is Pawel Lipowczan digital garden based on Obsidian and Quarts 3.3
 page_title:
   "🪴 Brain"
 links:
@@ -24,4 +24,4 @@ links:
   - link_name: Github
     link: https://github.com/plipowczan
   - link_name: LinkedIn
-    link: https://linkedin.com/in/pawellipowczan 
+    link: https://linkedin.com/in/pawellipowczan

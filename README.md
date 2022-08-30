@@ -1,19 +1,13 @@
-# Quartz
+# What is this place
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+This is source code of my digital garden - the place where I organize and share my knowledge. You can find all my thoughts and notes:
 
-1. Extremely fast full-text search by pressing `Ctrl` + `k`
-2. Customizable and hackable design based on Hugo
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in CJK + Latex Support
-5. Support for both Markdown Links and Wikilinks
+## Search
 
-Check out some of the [amazing gardens that community members](https://quartz.jzhao.xyz/notes/showcase/) have published with Quartz!
+You can search all the information contained here with the help of the search engine available on this page, which you can enable with the shortcut **⌘ /** or **CTRL /**.
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+## Concept
 
-🔗 Get Started: https://quartz.jzhao.xyz/
+This entire project is based on the concept of the so-called [digital garden](https://joelhooks.com/digital-garden). I generate the whole site in Hugo based on the Quartz project [Quartz](https://quartz.jzhao.xyz/). The documentation about the version of quartz I'm using you can find [[]]
 
-![Quartz Example Screenshot](./screenshot.png)*Quartz Example Screenshot*
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+> **Important!** If you find a mistake in some definitions or want to suggest a change, I will be very grateful for it. You can do this with a Pull Request sent to [this repository](https://github.com/plipowczan/brain), [reporting Issue](https://github.com/plipowczan/brain/issues/new) or simply by emailing me at [e-mail](mailto:pawel@lipowczan.pl).
