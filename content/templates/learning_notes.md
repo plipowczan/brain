@@ -1,9 +1,9 @@
 ---
 title: "{{title}}"
 date: {{date: YYYY-MM-DD}}
-toc: true
+enableToc: true
 openToc: true
-tags: learn
+tags: ["learn"]
 type: learning-note
 ---
 
@@ -24,4 +24,4 @@ Class:
 Highlight ==what’s important!==
 
 ---
-Based on the Cornel Notes Taking System [[KNOWLEDGE/Cornel Notes Taking System]]
+Based on the Cornel Notes Taking System [[KNOWLEDGES/Cornel Notes Taking System]]

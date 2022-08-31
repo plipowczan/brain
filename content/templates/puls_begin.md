@@ -1,9 +1,9 @@
 ---
 title: "{{title}}"
 date: {{date: YYYY-MM-DD}}
-toc: true
+enableToc: true
 openToc: true
-tags: puls
+tags: ["puls"]
 type: puls
 ---
 

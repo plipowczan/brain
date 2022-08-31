@@ -1,9 +1,9 @@
 ---
 title: "Digital Garden"
 date:  2022-08-22
-toc: true
+enableToc: true
 openToc: true
-tags: digitalgarder, notes
+tags: ["digitalgarder", "notes"]
 type: basic-note
 ---
 # Digital Garden

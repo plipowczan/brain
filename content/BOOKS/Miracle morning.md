@@ -1,9 +1,9 @@
 ---
 title: "Miracle morning"
 date:  2022-08-21
-toc: true
+enableToc: true
 openToc: true
-tags: book, morning routine, waking up early
+tags: ["book", "morning routine", "waking up early"]
 type: book-note
 ---
 

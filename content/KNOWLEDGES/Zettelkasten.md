@@ -1,9 +1,9 @@
 ---
 title: "Zettelkasten"
 date:  2022-08-28
-toc: true
+enableToc: true
 openToc: true
-tags: knowledge
+tags: ["knowledge"]
 type: knowledge-note
 ---
 

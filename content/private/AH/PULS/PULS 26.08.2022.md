@@ -1,9 +1,9 @@
 ---
 title: "PULS 26.08.2022"
 date:  2022-08-26
-toc: true
+enableToc: true
 openToc: true
-tags: puls
+tags: ["puls"]
 type: puls
 ---
 
