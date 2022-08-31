@@ -7,5 +7,5 @@ tags: husband wife
 type: basic-note
 ---
 # Husband
-![[PRIVATE/ATTACHMENTS/IMG_20220727_203730.jpg]]
+![[ATTACHMENTS/IMG_20220727_203730.jpg]]
 I'm a husband of a wonderful woman.

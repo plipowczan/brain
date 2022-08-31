@@ -51,9 +51,9 @@ Flight: 00:50
 
 # Flight
 Outgoing:
-![[PRIVATE/ATTACHMENTS/Pasted image 20220828131700.png]]
+![[ATTACHMENTS/Pasted image 20220828131700.png]]
 Incomming:
-![[PRIVATE/ATTACHMENTS/Pasted image 20220828131754.png]]
+![[ATTACHMENTS/Pasted image 20220828131754.png]]
 
 # Car
 

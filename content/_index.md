@@ -4,7 +4,7 @@ enableToc: false
 openToc: true
 ---
 
-![[PRIVATE/ATTACHMENTS/4a_round_nobg.png]]
+![[ATTACHMENTS/4a_round_nobg.png]]
 
 👋 I'm an architect and .NET developer for over 15 years. Automation and integration specialist. Husband and father of two children. Enthusiast of modern technologies and sports.
 
