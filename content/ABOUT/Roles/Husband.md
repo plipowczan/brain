@@ -1,11 +1,11 @@
 ---
 title: "Husband"
 date:  2022-08-21
-toc: true
+enableToc: true
 openToc: true
-tags: husband, wife
+tags: husband wife
 type: basic-note
 ---
 # Husband
-![[IMG_20220727_203730.jpg]]
+![[PRIVATE/ATTACHMENTS/IMG_20220727_203730.jpg]]
 I'm a husband of a wonderful woman.

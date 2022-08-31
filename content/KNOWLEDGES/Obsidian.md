@@ -1,9 +1,9 @@
 ---
 title: "Obsidian"
 date:  2022-08-24
-toc: true
+enableToc: true
 openToc: true
-tags: obsidian
+tags: ["obsidian"]
 type: basic-note
 ---
 # Obsidian

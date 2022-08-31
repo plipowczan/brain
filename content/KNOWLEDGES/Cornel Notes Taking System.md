@@ -1,10 +1,9 @@
-
 ---
 title: "Cornel Notes Taking System"
 date: 2022-08-21
-toc: true
+enableToc: true
 openToc: true
-tags: journal
+tags: ["journaling", "notes"]
 type: dailyjournal
 ---
 
@@ -21,7 +20,7 @@ Divide notes page into 4 sections:
 4. Summary section
 
 Like this:
-![[Pasted image 20220821205449.png]]
+![[PRIVATE/ATTACHMENTS/Pasted image 20220821205449.png]]
 
 As you listen to a lecture or read a chapter, record the main ideas in the "Notes" section. Then, write down key details and your thoughts in the "Keywords/comments/questions" section.
 

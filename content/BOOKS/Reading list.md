@@ -1,7 +1,7 @@
 ---
 title: "Reading list"
 date:  2022-08-28
-toc: true
+enableToc: true
 openToc: true
 tags: 
 type: basic-note

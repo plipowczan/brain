@@ -1,9 +1,9 @@
 ---
 title: "Projects"
 date:  2022-08-22
-toc: true
+enableToc: true
 openToc: true
-tags: projects, sharefund, automationhouse
+tags: ["projects", "sharefund", "automationhouse"]
 type: basic-note
 ---
 # Projects

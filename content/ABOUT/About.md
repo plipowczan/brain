@@ -1,9 +1,9 @@
 ---
 title: "About"
 date:  2022-08-22
-toc: true
+enableToc: true
 openToc: true
-tags: about, pawellipowczan
+tags: ["about", "pawellipowczan"]
 type: basic-note
 ---
 # About

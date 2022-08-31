@@ -1,9 +1,9 @@
 ---
 title: "Habits"
 date:  2022-08-22
-toc: true
+enableToc: true
 openToc: true
-tags: habits, 
+tags: ["habits", "exercises", "walking"]
 type: basic-note
 ---
 # Habits
@@ -20,5 +20,5 @@ type: basic-note
 
 ### Rozpoczęcie pracy 8:00
 1. Task planning (10 min)
-2. Journaling - [[KNOWLEDGE/5 minute journal]] (10 min)
+2. Journaling - [[KNOWLEDGES/5 minute journal]] (10 min)
 3. Own work
