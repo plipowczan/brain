@@ -7,7 +7,7 @@ tags: ["puls"]
 type: puls
 ---
 
-PULS {{date: DD.MM.YYYY}}
+PULS {{date: YYYY.MM.DD}}
 
 🔥Good news:
 
@@ -17,3 +17,5 @@ PULS {{date: DD.MM.YYYY}}
 🛑Roadblocks:
 
 🧠Final word:
+
+Base on the concept of weekly recuring meetings: [[PROJECTS/AH/PULS]]
