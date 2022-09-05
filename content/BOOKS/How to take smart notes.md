@@ -30,7 +30,7 @@ Everyone who would like to make good notes and take advantage of them in the eff
 
 This was the "why" for taking notes while reading and looking for the purpose of reading and learning specified stuff. The important thing for me was finding the purpose of note taking - it is not just collecting information; it is seeking to develop ideas and arguments. I try to read with a pen in my hand - I always did but now I know that it makes sense.
 
-# 📒 Summary + Notes
+# Summary + Notes
 
 Systematically make three types of notes to develop your ideas and arguments:
 1. Fleeting notes - they don’t go in a slip-box; they’re simply for capturing ideas and thoughts. You can take them in a notebook, on a scrap of paper, or wherever works for you. Keep these notes in one place so you can go through them later.
