@@ -59,5 +59,7 @@ Elaboration - looking for connections with what you already know. Your slip-box 
 
 Make smart notes part of your reading routine. #hint
 
+Read with a clear purpose or goal in mind #hint 
+
 ## Summary
 Niklas Luhmann’s Zettelkasten, or slip-box, is an innovative way to externalize your thoughts and build up a reservoir of ideas, arguments, and information. Used correctly, it’ll become like a conversation partner and will ultimately make it easier for you to write academic papers, think more clearly, and improve both your long-term learning and understanding.
