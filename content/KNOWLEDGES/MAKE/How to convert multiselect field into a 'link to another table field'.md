@@ -1,5 +1,5 @@
 ---
-title: "How to update an array field in Airtable"
+title: "How to convert multiselect field into a 'link to another table field'"
 date:  2022-09-05
 enableToc: true
 openToc: true
