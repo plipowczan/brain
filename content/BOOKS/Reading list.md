@@ -10,6 +10,7 @@ type: basic-note
 - [ ] How to take smart notes - Stone Ahrens [[BOOKS/How to take smart notes]]
 - [ ] W sercu emocji dziecka - Izabelle Filliozat 
 - [ ] Twoje kompetentne dziecko - Jesper Juul
+- [ ] [Building a Second Brain](https://lubimyczytac.pl/ksiazka/5025240/building-a-second-brain)
 
 [[ABOUT/How i read books]]
 
