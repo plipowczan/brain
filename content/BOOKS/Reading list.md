@@ -8,6 +8,10 @@ type: basic-note
 ---
 # Reading list
 - [ ] How to take smart notes - Stone Ahrens [[BOOKS/How to take smart notes]]
+- [ ] W sercu emocji dziecka - Izabelle Filliozat 
+- [ ] Twoje kompetentne dziecko - Jesper Juul
+
+[[ABOUT/How i read books]]
 
 # Tags
 ```query
