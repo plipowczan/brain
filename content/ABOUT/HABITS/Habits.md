@@ -21,4 +21,4 @@ type: basic-note
 ### Rozpoczęcie pracy 8:00
 1. Task planning (10 min)
 2. Journaling - [[KNOWLEDGES/5 minute journal]] (10 min)
-3. Own work
+3. Own work (1 hour)
