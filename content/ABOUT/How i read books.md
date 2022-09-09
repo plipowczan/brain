@@ -17,4 +17,4 @@ Until a few months ago, I was a staunch opponent of ebooks and ereaders. I belon
 Since I don't like to read an I know that this is one of the most important thing, to learn on someone else knowledge, the only books I read are non fiction ones.
 
 # How I do It
-Since I don't like to read 
+Since I don't like to read I like audiobooks and services like [Blinkist: Powerful ideas—15 minutes at a time](https://www.blinkist.com/) where each book is presented in a very concise way in few (about 10) "blinks".
