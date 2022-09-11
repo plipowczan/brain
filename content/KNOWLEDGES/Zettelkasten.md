@@ -34,4 +34,4 @@ My workflow:
 Work in progress #inbox/todo
 
 ## Resources
-[Zettelkasten - jak robić wartościowe notatki | Paweł Kadysz (pwlk.pl)](https://pwlk.pl/zettelkasten/)
+[Zettelkasten - jak robić wartościowe notatki | Paweł Kadysz (pwlk.pl)](https://pwlk.pl/zettelkasten/) #reading-list/social-sciences 
