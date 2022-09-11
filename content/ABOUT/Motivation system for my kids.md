@@ -32,3 +32,32 @@ It is based on the Revolut Junior account and app [[tools/Revolut Junior]] and [
 2. They get additional amount of money at the end of week when all days are completed
 3. They are not allowed to use cell or TV for entertainment purposes before they complete all tasks for the day
 
+# Tasks 2022
+## Emily (2013)
+Monday - Saturday
+1. Gymnastics/Physical Exercises 
+2. Reading
+3. English
+4. Bedding + Wash Teeth
+5. Vacuuming
+6. Cleaning up your stuff
+
+Wednesday
+1. Empty trash
+
+## Mateusz (2010)
+Monday - Saturday
+1. Gymnastics/Physical Exercises 
+2. Reading in English
+3. Bedding + Wash Teeth
+4. Empty dishwasher (empty)
+5. Cleaning up your stuff
+
+Monday, Wednesday
+1. Laundry
+Tuesday, Thursday
+1. Watering plants
+
+Saturday
+1. Empty trash
+2. Budget
