@@ -8,8 +8,8 @@ type: basic-note
 ---
 # Polygon
 ## Find information:
-[Cryptocurrency Prices, Charts And Market Capitalizations | CoinMarketCap](https://coinmarketcap.com/)
-[Cryptocurrency Prices, Charts, and Crypto Market Cap | CoinGecko](https://www.coingecko.com/)
+[Polygon price today, MATIC to USD live, marketcap and chart | CoinMarketCap](https://coinmarketcap.com/currencies/polygon/)
+[Polygon Price in USD: MATIC Live Price Chart & News | CoinGecko](https://www.coingecko.com/en/coins/polygon)
 
 1. Actual market cap: **7,913,860,663**
 3. Circulating supply: **8.73B**
@@ -33,3 +33,6 @@ type: basic-note
 ## Resources:
 [Kryptowaluty 2019: kurs inwestowania od podstaw + prognozy | Udemy](https://www.udemy.com/course/kryptowaluty/learn/practice/1021824/introduction#overview)
 [(50) 2 Projekty, Które Pozytywnie Zaskakują Pod Względem Rozwoju! - YouTube](https://www.youtube.com/watch?v=dm2u2ZhEsn0)
+
+---
+Template: [[templates/crypto_dyor]]

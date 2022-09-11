@@ -33,3 +33,5 @@ Hints:
 My workflow:
 Work in progress #inbox/todo
 
+## Resources
+[Zettelkasten - jak robić wartościowe notatki | Paweł Kadysz (pwlk.pl)](https://pwlk.pl/zettelkasten/)

@@ -3,7 +3,7 @@ title: "tool"
 date:  2022-09-06
 enableToc: true
 openToc: true
-tags: ["tool"]
+tags: ["tool", "kindle"]
 type: tool
 ---
 # Tool
