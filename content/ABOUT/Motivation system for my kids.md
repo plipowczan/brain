@@ -15,7 +15,7 @@ It is in constant development so it might change over time.
 1. Schedules - created a weekly schedules on which kids could track their progress and show me how they did. It demanded some effort since this was made on paper - we had to plan it each week and print the schedules. They were not doing 
 
 ## Why
-I believe that nothing should be given for three at least the money since it spoils the kids. That is why I developed a motivation earning system for my kids.
+I believe that nothing should be given for free at least the money since it spoils the kids. That is why I developed a motivation earning system for my kids.
 
 ## How does it work
 ### Description
@@ -28,9 +28,10 @@ It is based on the Revolut Junior account and app [[tools/Revolut Junior]] and [
 4. At the end of day I check if all tasks from the day are completed - if so I transfer the money (automatically for all tasks - each task has its own amount - for the simplicity the amounts are the same because of the additional rules - see below).
 
 ### Additional rules:
-1. They get money only when all tasks from that day are completed
-2. They get additional amount of money at the end of week when all days are completed
-3. They are not allowed to use cell or TV for entertainment purposes before they complete all tasks for the day
+1. They get money each day only when all tasks from that day are completed.
+2. They get additional amount of money at the end of week when tasks for all days are completed.
+3. They are not allowed to use cell or TV for entertainment purposes before they complete all tasks for the day.
+4. They need to have at least one goal for money collecting and the amount of money they collect doesn't exceed the goal value.
 
 # Tasks 2022
 ## Emily (2013)
