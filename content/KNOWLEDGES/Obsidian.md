@@ -19,7 +19,7 @@ type: basic-note
 Basic note: [[templates/basic_notes]]
 Daily journal: [[templates/daily_journal]]
 Book: [[templates/book]]
-Knowledge: [[templates/knowledge_note]]
+Knowledge: [[templates/knowledge_note_info]]
 Learning notes: [[templates/learning_notes]]
 [PULS](PROJECTS/AH/PULS) ([Automation House](PROJECTS/AH/AutomationHouse) Routine): Monday: [[templates/puls_begin]] Friday: [[templates/puls_end]]
 Plane trip planning: [[templates/plane_trip_planning]]
