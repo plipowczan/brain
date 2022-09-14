@@ -42,6 +42,7 @@ Monday - Saturday
 4. Bedding + Wash Teeth
 5. Vacuuming
 6. Cleaning up your stuff
+7. Ukulele
 
 Wednesday
 1. Empty trash
@@ -53,6 +54,7 @@ Monday - Saturday
 3. Bedding + Wash Teeth
 4. Empty dishwasher (empty)
 5. Cleaning up your stuff
+6. Ukulele
 
 Monday, Wednesday
 1. Laundry
