@@ -1,23 +1,25 @@
 ---
-title: "tool"
-date:  2022-09-06
+title: "{{title}}"
+date:  {{date: YYYY-MM-DD}}
 enableToc: true
 openToc: true
 tags: ["tool"]
 type: tool
 ---
-# Tool
-Brief description of the tool.
+# {{Title}}
+#todo/replace  Brief description of the tool.
 
 ## Links
 ### Description
-
-### Download
-
+#todo/complete
+### Download or use
+#todo/complete
 ## Reasoning for
-what it can be used for and how and why do I use it
-
+#todo/replace What it can be used for and how and why do I use it
 ## Alternatives considered
-
+#todo/complete
 ## Resources
-Link to relevant blog posts here.
+#todo/replace Link to relevant blog posts here.
+
+---
+Template: [[templates/tool]]
