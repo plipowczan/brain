@@ -11,7 +11,6 @@ type: book-note
 
 Date Finished: TBD
 Author: Tiago Forte
-Tags:
 
 ---
 
@@ -20,13 +19,10 @@ The book about building your second brain. The thing is that our brain is good i
 # 🎨 Impressions
 
 ## How I Discovered It
-
+In one of the videos on YT where there was a mention about the archipelago of ideas.
 ## Who Should Read It?
-
+Anyone who wants to take advantage of note taking and using all the information that you would forget in order to use it in the future in your upcoming projects.
 # ☘️ How the Book Changed Me
-
-How my life / behavior / thoughts / ideas have changed as a result of reading the book.
-
-# ✍️ My Top 3 Quotes
+I try to create notes whenever I can and put them here in using [[TOOLS/Obsidian]]. 
 
 # 📒 Summary + Notes
