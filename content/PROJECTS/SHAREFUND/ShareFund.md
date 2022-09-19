@@ -9,7 +9,7 @@ type: basic-note
 # ShareFund
 
 ## Description
-A tool that helps in distributing shares in a cost-free startup. Aimed at startup founders and project creators. It responds to the needs of building projects together and instead of paying for adding value to the business each member receive a piece of a company. Another words the tool helps with fairly distributing shares in the project.
+A tool that helps in distributing shares in a non incorporated startup. Aimed at startup founders and project creators. It responds to the needs of building projects together and instead of paying for adding value to the business each member receive a piece of a project. Another words the tool helps with fairly distributing shares in the project.
 
 ## Technology stack
 1. ASP .NET 6 WebApi
