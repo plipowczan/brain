@@ -69,5 +69,5 @@ Thinking about your dreams - what dreams we had - often in our sleep we think ab
 6. blessing
 
 # Resources
-[[BOOK/Atomic habits]]
+[[BOOKS/Atomic habits]]
 

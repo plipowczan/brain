@@ -12,7 +12,8 @@ type: basic-note
 - [ ] Twoje kompetentne dziecko - Jesper Juul
 - [ ] [Building a Second Brain](https://lubimyczytac.pl/ksiazka/5025240/building-a-second-brain)[[BOOKS/Building a Second Brain]]
 - [ ] [[BOOKS/The One Thing]]
-- [ ] [[BOOK/Atomic habits]]
+- [ ] [[BOOKS/Atomic habits]]
+- [ ] [[BOOKS/Millionaire Fastlane]]
 
 [[ABOUT/How i read books]]
 
