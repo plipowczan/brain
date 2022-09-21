@@ -8,6 +8,7 @@ type: knowledge-note
 ---
 #todo 
 # Export git logs to file
+[[TOOLS/Git]]
 
 ## 🗒️Task:
 A description of the task that your readers are looking to accomplish.
@@ -17,7 +18,7 @@ If you have different pricing tiers, this should include information about which
 
 ## 📝Instructions:
 
--   Enter into command line
+-   Enter into command line or PowerShell 
 ```cmd
 git log --after="<date from>" --before="<date to>" --pretty=format:'%h %ad %s' --date=short > "<path>"
 ```

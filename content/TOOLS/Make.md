@@ -3,7 +3,7 @@ title: "tool"
 date:  2022-09-06
 enableToc: true
 openToc: true
-tags: ["tool", "make", "automation", "integration"]
+tags: ["tool", "make", "automation", "integration", "nocode"]
 type: tool
 ---
 # Tool
@@ -26,4 +26,4 @@ I use it in several things:
 [Work Super Smart - Automate.io](https://automate.io/)
 [IFTTT](https://ifttt.com/)
 ## Resources
-[How to Use Make (Integromat) in 2022 [Actions, Triggers & Operations] (cloudwards.net)](https://www.cloudwards.net/how-to-use-integromat/)
+[How to Use Make (Integromat) in 2022 Actions, Triggers & Operations (cloudwards.net)](https://www.cloudwards.net/how-to-use-integromat/)
