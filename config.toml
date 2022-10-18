@@ -1,6 +1,6 @@
 baseURL = "https://brain.lipowczan.pl/"
 languageCode = "en-us"
-googleAnalytics = "G-XYFD95KB4J"
+googleAnalytics = "G-KWKM71N1YF"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
