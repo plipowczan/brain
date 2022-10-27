@@ -16,7 +16,7 @@ There are dozens ways you can approach to work on the tasks. This is one way whi
 To be able to track the progress of the task.
 
 ## 🛠️Prerequisites (if applicable): 
-Get familiar with [Azure DevOps Services | Microsoft Azure](https://azure.microsoft.com/pl-pl/products/devops/)  environment which I choose the most 
+Get familiar with [Azure DevOps Services | Microsoft Azure](https://azure.microsoft.com/pl-pl/products/devops/)  the environment I choose most often when working on the dotnet projects.
 [What is Azure DevOps? - Azure DevOps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?view=azure-devops)
 Set up a project using the Agile process - you can adjust the process however I use the defaults: [Agile process work item types & workflow in Azure Boards - Azure Boards | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/boards/work-items/guidance/agile-process-workflow?view=azure-devops).
 Tools used in this tutorial:
