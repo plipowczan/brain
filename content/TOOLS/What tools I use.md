@@ -21,3 +21,10 @@ type: basic-note
 [[TOOLS/VisualStudioCode]]
 
 ## Productivity
+
+### Mail management
+[[TOOLS/Outlook]]
+
+### Task management
+[[TOOLS/ClickUp]]
+[[TOOLS/Microsoft To Do]]
