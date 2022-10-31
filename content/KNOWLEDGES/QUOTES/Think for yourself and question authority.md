@@ -1,10 +1,11 @@
 ---
 title: "Think for yourself and question authority"
+author: Timothy Leary
 date:  2022-09-18
 enableToc: true
 openToc: true
-tags: ["basic", "quote", "thinking"]
-type: quote-note
+tags: ["quote", "leary"]
+type: quote
 ---
 
 > Think for yourself and question authority.
