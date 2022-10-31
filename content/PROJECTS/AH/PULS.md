@@ -28,4 +28,4 @@ The 3 priorities and/or goals should be derived either from current challenges o
 
 At the end of week attendees should summarize priorities and/or goals for the passing week.
 
-puls notes template start of week: [[templates/puls_begin]] end of week: [[templates/puls_end]]
+puls notes template start of week: [[templates/puls]] end of week: [[templates/puls_end]]

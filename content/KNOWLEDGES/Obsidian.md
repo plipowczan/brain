@@ -21,7 +21,7 @@ Daily journal: [[templates/daily_journal]]
 Book: [[templates/book]]
 Knowledge: [[templates/knowledge_note_info]]
 Learning notes: [[templates/learning_notes]]
-[PULS](PROJECTS/AH/PULS) ([Automation House](PROJECTS/AH/AutomationHouse) Routine): Monday: [[templates/puls_begin]] Friday: [[templates/puls_end]]
+[PULS](PROJECTS/AH/PULS) ([Automation House](PROJECTS/AH/AutomationHouse) Routine): Monday: [[templates/puls]] Friday: [[templates/puls_end]]
 Plane trip planning: [[templates/plane_trip_planning]]
 ## External Templates
 [OB_Template/0A_3_1_Project.md at main · llZektorll/OB_Template (github.com)](https://github.com/llZektorll/OB_Template/blob/main/0A_Templates/0A_3_Project/0A_3_1_Project.md)
