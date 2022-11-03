@@ -9,7 +9,6 @@ type: puls
 
 <%-* 
 let new_path = tp.file.folder(true) + "/" + tp.date.now("YYYYMM") + "/" + "PULS " + tp.date.now("YYYY.MM.DD");
-console.log(new_path);
 await tp.file.move(new_path);
 -%>
 [[PULS <% tp.date.now("YYYY.MM.DD") %>]]
