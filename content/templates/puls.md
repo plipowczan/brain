@@ -17,10 +17,7 @@ await tp.file.move(new_path);
 
 📋Priorities:
 🟥🟧🟨🟩  
-1. Holding - Calculators feedback - waiting for further feedback.  
-2. Holding - P&L  
-3. Unifiedpost - don't understand one remark and waiting for Glenn to explain  
-4. Employee agreement generator - tests
+1. 
 
 🛑Roadblocks:
 
