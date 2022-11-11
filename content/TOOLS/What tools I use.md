@@ -11,6 +11,7 @@ type: basic-note
 ## Automation
 [[TOOLS/Make]]
 [[TOOLS/Zapier]]
+[[TOOLS/TextExpander]]
 
 ## Programming
 ### .NET
@@ -20,6 +21,10 @@ type: basic-note
 ### WEB
 [[TOOLS/VisualStudioCode]]
 
+### JAVASCRIPT
+[[TOOLS/VisualStudioCode]]
+[[TOOLS/RunJS]]
+
 ## Productivity
 
 ### Mail management
@@ -28,3 +33,55 @@ type: basic-note
 ### Task management
 [[TOOLS/ClickUp]]
 [[TOOLS/Microsoft To Do]]
+
+### Notes
+[[TOOLS/Obsidian]]
+[[TOOLS/OneNote]]
+[[TOOLS/Notion]]
+[[TOOLS/ClickUp]]
+
+### Calendar
+[[TOOLS/Outlook]]
+
+### Focus
+[[TOOLS/Windows]]
+[[TOOLS/Rize]]
+
+### Clipboard manager
+[[TOOLS/Windows]]
+
+### Password manager
+[[TOOLS/Dashlane]]
+[[TOOLS/Authenticator]]
+[[TOOLS/Edge]]
+
+### Window manager
+[[TOOLS/PowerToys]]
+
+### Launcher
+[[TOOLS/PowerToys]]
+
+### Mindmaps
+[[TOOLS/Obsidian]]
+
+### Meditation and breathing exercises
+[[TOOLS/Breathwrk]]
+
+### Video editing
+[[TOOLS/Movavi]]
+[[TOOLS/Descript]]
+[[TOOLS/Happyscribe]]
+
+## News and feed
+[[TOOLS/Feedly]]
+
+## Browser
+[[TOOLS/Edge]]
+[[TOOLS/Brave]]
+[[TOOLS/Firefox]]
+
+## Books
+[[TOOLS/LubimyCzytac]]
+[[TOOLS/Blinkist]]
+[[TOOLS/Audioteka]]
+[[TOOLS/Goodreads]]
