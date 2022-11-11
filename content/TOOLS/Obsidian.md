@@ -31,8 +31,7 @@ Evernote
 Notion
 ## Resources
 [[KNOWLEDGES/Obsidian]]
-
-
+[[KNOWLEDGES/HOWTOS/How to create mind map]]
 
 ---
 Template: [[templates/tool]]
