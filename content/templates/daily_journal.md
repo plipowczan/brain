@@ -1,13 +1,18 @@
 ---
-title: "{{title}}"
-date: {{date: YYYY-MM-DD}}
+title: "<% tp.date.now("YYYYMMDD") %>"
+date: <% tp.date.now("YYYY-MM-DD") %>
 enableToc: true
 openToc: true
 tags: ["journal"]
 type: dailyjournal
 ---
 
-{{date: YYYY-MM-DD}}
+<%-* 
+let new_path = tp.file.folder(true) + "/" + tp.date.now("YYYYMM") + "/" + tp.date.now("YYYYMMDD");
+await tp.file.move(new_path);
+-%>
+[[<% tp.date.now("YYYYMMDD") %>]]
+
 # Morning
 ## I am grateful for:
 1. 
@@ -25,6 +30,3 @@ type: dailyjournal
 
 ## How can I improve?
 1.  
-
----
-template: [[templates/daily_journal]]
