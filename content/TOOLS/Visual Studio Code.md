@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool"]
 type: tool
 ---
-# VisualStudioCode
+# Visual Studio Code
 #todo/replace  Brief description of the tool.
 
 ## Links

@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "miro"]
 type: tool
 ---
-# Tool
+# Miro
 Tool for creating different kind of diagrams, presentations, mind maps etc. 
 
 ## Links

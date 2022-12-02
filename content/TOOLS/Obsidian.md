@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "obsidian", "notes"]
 type: tool
 ---
-# Tool
+# Obsidian
 Note taking and maintaining tool.
 
 ## Links
