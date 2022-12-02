@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "make", "automation", "integration", "nocode"]
 type: tool
 ---
-# Tool
+# Make
 Make allows you to visually create, build, and automate workflows.
 
 ## Links

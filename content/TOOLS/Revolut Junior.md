@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "revolut", "junior", "mobile", "aplication"]
 type: tool
 ---
-# Tool
+# Revolut Junior
 Money management app for kids.
 
 ## Links

@@ -16,13 +16,13 @@ type: basic-note
 ## Programming
 ### .NET
 [[TOOLS/VisualStudio]]
-[[TOOLS/VisualStudioCode]]
+[[TOOLS/Visual Studio Code]]
 
 ### WEB
-[[TOOLS/VisualStudioCode]]
+[[TOOLS/Visual Studio Code]]
 
 ### JAVASCRIPT
-[[TOOLS/VisualStudioCode]]
+[[TOOLS/Visual Studio Code]]
 [[TOOLS/RunJS]]
 
 ## Productivity
