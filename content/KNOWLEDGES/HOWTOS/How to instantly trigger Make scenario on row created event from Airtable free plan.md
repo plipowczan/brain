@@ -1,9 +1,9 @@
 ---
-title: "Untitled"
+title: "How to instantly trigger Make scenario on row created event from Airtable free plan"
 date:  2022-12-02
 enableToc: true
 openToc: true
-tags: ["knowledge", "howto"]
+tags: ["knowledge", "howto", "Airtable", "Make", "instant"]
 type: knowledge-note
 ---
 
