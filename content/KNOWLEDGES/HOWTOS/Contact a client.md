@@ -7,7 +7,7 @@ tags: ["knowledge", "howto"]
 type: knowledge-note
 ---
 
-# Untitled
+# Contact a client
 
 ## 🗒️Task:
 Contact a client
