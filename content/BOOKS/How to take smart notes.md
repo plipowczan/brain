@@ -20,7 +20,7 @@ The book is about how you should take notes in order to take advantage of them i
 
 ## How I Discovered It
 
-I explored [[KNOWLEDGES/Zettelkasten]] concept and in one article on the Internet this book was mentioned.
+I explored [[KNOWLEDGES/INFOS/Zettelkasten]] concept and in one article on the Internet this book was mentioned.
 
 ## Who Should Read It?
 

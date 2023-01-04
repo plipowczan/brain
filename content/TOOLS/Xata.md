@@ -1,12 +1,12 @@
 ---
-title: "Airtable"
-date:   2022-09-21
+title: "Xata"
+date:   2023-01-04
 enableToc: true
 openToc: true
-tags: ["tool", "database", "nocode"]
+tags: ["tool", "database", "lowcode"]
 type: tool
 ---
-# Airtable
+# Xata
 #todo/replace  Brief description of the tool.
 
 ## Links
