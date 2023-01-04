@@ -18,10 +18,8 @@ The society broadens your perspective and right people gives you good hints and 
 
 When you look backwards you notice that all the dots form a straight line and when you look ahead you notice that there are so many dots and it is all a mess ( #todo/check Steve Jobs?).
 
-You need to be in the right place in the right time but the most important thing is that you need to be prepared for that. However the opportunities are like busses. When one is gone there will "always" be another one - hate that word "always" because you cannot be certain so more appropriate would be writing "there is a high probability". Sometimes the problem is that there are too many opportunities and then you need to learn how to say "no" and pick the right one - pareto 20/80 - find the 20 percent which gives you 80 percent of results. [[KNOWLEDGE\Pareto]]
+You need to be in the right place in the right time but the most important thing is that you need to be prepared for that. However the opportunities are like busses. When one is gone there will "always" be another one - hate that word "always" because you cannot be certain so more appropriate would be writing "there is a high probability". Sometimes the problem is that there are too many opportunities and then you need to learn how to say "no" and pick the right one - pareto 20/80 - find the 20 percent which gives you 80 percent of results. [[KNOWLEDGES/INFOS/Pareto principle]]
 
 There is one thing that is worth doing ... "doing" - whatever it is just do it (nike ;) - you most likely fail but you will learn on the way so you either gain experience or cash [[ABOUT/I have a business and not business has me]].
 
 One of the most important thing in running a business is to create an appropriate team. Finding a good person for the right position is very hard, and the costs of hiring the wrong employee are very high. So it occurs that the old Russian proverb is very true: "Trust, but verify" [Trust, but verify - Wikipedia](https://en.wikipedia.org/wiki/Trust,_but_verify). 
-
-

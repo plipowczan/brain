@@ -24,4 +24,4 @@ Class:
 Highlight ==what’s important!==
 
 ---
-Based on the Cornel Notes Taking System [[KNOWLEDGES/Cornel Notes Taking System]]
+Based on the Cornel Notes Taking System [[KNOWLEDGES/INFOS/Cornel Notes Taking System]]
