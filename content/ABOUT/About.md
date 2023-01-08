@@ -20,3 +20,7 @@ Hello! I’m Pawel Lipowczan. I have been a .NET architect and developer for mor
 - I am interested in blockchain, NFT and web3 technology,  
 - I hike in the mountains,  
 - I travel 😉
+
+## MY PERSONALITY TESTS
+[[ABOUT/DISC]]
+[[ABOUT/CLIFTONSTRENGTHS]]

@@ -20,7 +20,7 @@ type: basic-note
 
 ### Rozpoczęcie pracy 8:00
 1. Task planning (10 min)
-2. Journaling - [[KNOWLEDGES/INFOS/5 Minute Journal]] (10 min)
+2. Journaling - [[LIFE/KNOWLEDGE/INFO/5 Minute Journal]] (10 min)
 3. Own work (1 hour)
 
 ## To consider/implement
@@ -69,5 +69,5 @@ Thinking about your dreams - what dreams we had - often in our sleep we think ab
 6. blessing
 
 # Resources
-[[BOOKS/Atomic habits]]
+[[LIFE/BOOKS/Atomic habits]]
 

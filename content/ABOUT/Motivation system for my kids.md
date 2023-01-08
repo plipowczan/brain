@@ -19,11 +19,11 @@ I believe that nothing should be given for free at least the money since it spoi
 
 ## How does it work
 ### Description
-It is based on the Revolut Junior account and app [[tools/Revolut Junior]] and [[tools/Revolut]]
+It is based on the Revolut Junior account and app [[LIFE/TOOLS/Revolut Junior]] and [[LIFE/TOOLS/Revolut]]
 
 ### The workflow:
-1. I create tasks for my kids in the [[TOOLS/Revolut]] app ex.: Wash teeth - I'm able to create a recuring tasks and most of them are recuring ones.
-2. If they complete the task they mark it in their [[TOOLS/Revolut Junior]] app.
+1. I create tasks for my kids in the [[LIFE/TOOLS/Revolut]] app ex.: Wash teeth - I'm able to create a recuring tasks and most of them are recuring ones.
+2. If they complete the task they mark it in their [[LIFE/TOOLS/Revolut Junior]] app.
 3. I get notification whenever they complete the task.
 4. At the end of day I check if all tasks from the day are completed - if so I transfer the money (automatically for all tasks - each task has its own amount - for the simplicity the amounts are the same because of the additional rules - see below).
 
