@@ -10,4 +10,4 @@ type: basic-note
 
 1. Work or invest in a project that when done will still bring income.
 
-[[BOOKS/Millionaire Fastlane]]
+[[BUSINESS/BOOKS/Millionaire Fastlane]]

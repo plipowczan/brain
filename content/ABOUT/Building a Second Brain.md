@@ -7,12 +7,12 @@ tags: ["knowledge", "second-brain", "notes"]
 type: knowledge-note
 ---
 
-From: [[BOOKS/Building a Second Brain]]
+From: [[LIFE/BOOKS/Building a Second Brain]]
 
 1. Borrowed Creativity - creativity is all about remixing knowledge
 2. The Capture Habit - whenever you come up with an idea you should write it down. Whenever you read, watch or listen to something and there is an idea behind it you should try to write it down in your own words:
 	1. Listen - god to have a recorder - watch might be handy since it is always near and you can use it without interrupting your listening even when you are driving
-	2. Read paper/Watch video - always read with a pen in your hand [[BOOKS/How to take smart notes]]
+	2. Read paper/Watch video - always read with a pen in your hand [[LIFE/BOOKS/How to take smart notes]]
 	3. Read e-reader - highlight text and paraphrase it
 3. Idea Recycling - reuse the ideas, materials and notes down the line, when you put all your thoughts in your second brain you won't forget them and be able to use them again in another projects
 4. Projects Over Categories - instead of categorizing notes the better solution is to put them in specified projects. In this way you would be able to take advantage of them straight away in your projects. You doesn't have to put it in a specified folder - just link or bookmark them in the specified project.
@@ -23,4 +23,4 @@ From: [[BOOKS/Building a Second Brain]]
 9. Make it Easier for Your Future Self - when making notes you should do it in the way you could be able to understand it in the future without the context.
 10. Keep Your Ideas Moving - there is a catch - you shouldn't just take notes and make huge database of information. Unless it becomes useful and you can implement it or make use of it all the information is useless. It is not about perfect note taking system - it is about the system which allows to keep your ideas moving - linking them together and be able to take advantage of them whenever you can.
 
-[(71) How to Organise your Life - Building a Second Brain - YouTube](https://www.youtube.com/watch?v=K-ssUVyfn5g) #todo/watch
+[(71) How to Organise your Life - Building a Second Brain - YouTube](https://www.youtube.com/watch?v=K-ssUVyfn5g)

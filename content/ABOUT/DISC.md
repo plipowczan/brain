@@ -17,4 +17,4 @@ type: knowledge-note
 - [ ] Focus what is important to me and what are my needs.
 
 ## Resources
-[[KNOWLEDGES/INFOS/DISC]]
+[[LIFE/KNOWLEDGE/INFO/DISC]]
