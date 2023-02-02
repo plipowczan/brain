@@ -14,7 +14,7 @@ type: basic-note
 3. Celery juice or water with lemon (10 min)
 4. Brushing teeth (left hand) (5 min)
 5. Tabata (5 min)
-6. Cold shower (5 min)
+6. Cold shower [[LIFE/KNOWLEDGE/INFO/Cold shower]] (5 min)
 7. Walking with autiobook/podcast (20 min)
 8. Breakfast (20 min)
 

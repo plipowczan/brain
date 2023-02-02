@@ -22,7 +22,7 @@ type: knowledge-note
 -   Feature 3
 -   Etc.
 
-## 📖Further reading
+## 📖Further reading/watching
 #todo/replace Links to related articles or other content around this specific feature.
 
 ---
