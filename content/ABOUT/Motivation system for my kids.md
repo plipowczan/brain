@@ -64,3 +64,14 @@ Tuesday, Thursday
 Saturday
 1. Empty trash
 2. Budget
+
+## Update 2023 01
+We needed to update the system to motivate children even more and implemented a rule where if they don't do certain task they will pay for it. To make it work we needed to introduce weekly checklists where they check done tasks and we settle the final amount at the end of week.
+
+## Update 2023 02
+Moreover I got some inspiration from podcast: [Paul ORFALEA czyli jak zarobić MILIARDY dzięki zamartwianiu się – Zen Jaskiniowca – zrozumieć i wcielić](https://zenjaskiniowca.pl/paul-orfalea-czyli-jak-zarobic-miliardy-dzieki-zamartwianiu-sie/)
+
+We can introduce a rule from this podcast ex. give 5 USD from which 3 they can spend 1 share with others and 1 save for later. 
+
+
+
