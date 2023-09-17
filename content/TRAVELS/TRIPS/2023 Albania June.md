@@ -19,6 +19,9 @@ Czech Republic -> Slovakia -> Hungary -> Serbia
 Serbia -> Kosovo -> Albania
 ![[ATTACHMENTS/Pasted image 20230716071359.png]]
 
+## Interesting places:
+#todo/complete 
+
 ## Photos:
 https://1drv.ms/a/s!AvSfVn9Qx6rRjr1CY0L4P78O7SP6hA?e=r7cFyr
 

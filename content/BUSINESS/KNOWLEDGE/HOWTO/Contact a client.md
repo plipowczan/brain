@@ -18,7 +18,7 @@ No relation with client.
 ## 📝Instructions:
 #todo/check  The bottom line is:
 1. To remind ourselves in the form of a question in the context of current topics - is there time and space? We have been talking about X in recent weeks, how can we continue this?
-2. Add a simple motivator/personalisation as to why it's worth it - e.g. it's the end of the year, we have the capacity, the automation will already start working and helping, the automation will work nicely with the previous ones, etc.
+2. Add a simple motivator/personalization as to why it's worth it - e.g. it's the end of the year, we have the capacity, the automation will already start working and helping, the automation will work nicely with the previous ones, etc.
 3.  Frequency
     1.  Call ➝ If we have a good relationship, we'll call boldly 1-2 days after we send the proposal, ask how it's going, if they've had time, if they've read, etc.
     2.  Follow-up mail after proposal shipment 2-7 days (depending on relationship, insights, etc.) ➝ whether they got it, if there are questions, etc. etc.

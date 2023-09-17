@@ -71,6 +71,9 @@ We needed to update the system to motivate children even more and implemented a 
 ## Update 2023 02
 Moreover I got some inspiration from podcast: [Paul ORFALEA czyli jak zarobić MILIARDY dzięki zamartwianiu się – Zen Jaskiniowca – zrozumieć i wcielić](https://zenjaskiniowca.pl/paul-orfalea-czyli-jak-zarobic-miliardy-dzieki-zamartwianiu-sie/)
 
+## Update 2023 09
+Changed electronic task creation to paper schedule. Each task in schedule is worth let's say 1zł. They have about 50 tasks so they can earn 50zł. However we by default each week take 20zł for keep. Like in real life - the keep expenses we all have.
+
 We can introduce a rule from this podcast ex. give 5 USD from which 3 they can spend 1 share with others and 1 save for later. 
 
 
