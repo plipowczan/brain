@@ -6,27 +6,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a personal knowledge management system (digital garden) built with:
 - **Obsidian** for authoring markdown content
-- **Hugo** (v0.96.0 extended) as the static site generator
-- **Quartz 3.3** theme for digital garden functionality
+- **Quartz 4** (Node.js + TypeScript) as the static site generator
 - **GitHub Pages** for hosting at https://brain.lipowczan.pl/
 
 ## Common Commands
 
 ```bash
-# Serve locally (builds link index + starts Hugo server)
-make serve
+# Serve locally with hot reload
+npx quartz build --serve
 
-# Update Quartz theme to latest (interactive patch)
-make update
+# Build for production
+npx quartz build
 
-# Force update Quartz (non-interactive)
-make update-force
-
-# Show all available targets
-make help
+# Install dependencies
+npm install
 ```
-
-The build process runs `hugo-obsidian` first to generate link indices (`contentIndex.json`, `linkIndex.json`), then starts the Hugo server.
 
 ## Architecture
 
@@ -34,9 +28,7 @@ The build process runs `hugo-obsidian` first to generate link indices (`contentI
 ```
 /content/**/*.md (Obsidian vault)
     ↓
-hugo-obsidian (generates link indices in /assets/indices/)
-    ↓
-Hugo + Quartz templates (/layouts/)
+Quartz 4 build (Node.js + plugins)
     ↓
 /public/ (static HTML)
     ↓
@@ -46,10 +38,8 @@ GitHub Pages (via .github/workflows/deploy.yaml)
 ### Key Directories
 - `/content/` - Markdown knowledge base organized by topic (ABOUT, BUSINESS, CODE, etc.)
 - `/content/.obsidian/` - Obsidian vault configuration
-- `/layouts/` - Hugo templates (custom and Quartz overrides)
-- `/data/config.yaml` - Quartz site configuration (name, links, features)
-- `/data/graphConfig.yaml` - Knowledge graph visualization settings
-- `/assets/` - JS, CSS, and generated link indices
+- `/quartz/` - Quartz 4 build system, plugins, and components (from upstream)
+- `/quartz/static/` - Static assets (favicon, etc.)
 
 ### Content Conventions
 - Uses Obsidian internal linking syntax: `[[note-name]]`
@@ -58,17 +48,18 @@ GitHub Pages (via .github/workflows/deploy.yaml)
 
 ## CI/CD
 
-Deployment triggers on push to `hugo` branch:
+Deployment triggers on push to `v4` branch:
 1. Checkout with full history (for git info/last-modified dates)
-2. Run `hugo-obsidian` to build link indices
-3. Run `hugo --minify`
-4. Deploy to GitHub Pages (`master` branch) with CNAME
+2. `npm ci` to install dependencies
+3. `npx quartz build` to generate static site
+4. Deploy to GitHub Pages via GitHub Actions (pages artifact)
 
 ## Configuration Files
 
 | File | Purpose |
 |------|---------|
-| `config.toml` | Hugo base config (URL, markdown rendering, analytics) |
-| `data/config.yaml` | Quartz theme settings (author, social links, features) |
-| `data/graphConfig.yaml` | Local/global graph visualization parameters |
+| `quartz.config.ts` | Site config: title, URL, analytics, theme colors, plugins |
+| `quartz.layout.ts` | Page layout: component arrangement, footer links |
+| `package.json` | Node.js dependencies |
+| `tsconfig.json` | TypeScript configuration |
 | `.prettierrc` | Formatting: 100 char width, trailing commas, 2-space tabs, no semicolons |
