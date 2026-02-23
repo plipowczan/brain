@@ -1,8 +1,6 @@
 .DS_Store
 public
-resources
-.idea
+node_modules
+.quartz-cache
 content/.obsidian
-assets/indices/linkIndex.json
-assets/indices/contentIndex.json
-linkmap
+prof/
