@@ -192,8 +192,9 @@ summary: "One-line description for indexes"
 4. Overlap → merge into existing note. New topic → create note from template
 5. Fill frontmatter (title, date, tags, type, `source:`, `agent-created: true`, `summary:`)
 6. Add wikilinks to related notes + update those notes to link back
-7. Move source to `_raw/processed/YYYY-MM-DD_originalname.ext`
-8. Update all three indexes. Report results.
+7. **Move attachments**: find all image/media files referenced by the source (`.png`, `.jpg`, `.jpeg`, `.gif`, `.svg`, `.webm`, `.pdf` etc.) that landed in `content/` root or `_raw/inbox/`. Move them to `content/ATTACHMENTS/`. Update any `![[filename]]` references in the new note to point to the moved file.
+8. Move source to `_raw/processed/YYYY-MM-DD_originalname.ext`
+9. Update all three indexes. Report results.
 
 ### COMPILE — `compile X`, `write article about X`
 
