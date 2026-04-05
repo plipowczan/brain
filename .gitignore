@@ -4,3 +4,4 @@ node_modules
 .quartz-cache
 prof/
 .hugo_build.lock
+.claude/settings.local.json
