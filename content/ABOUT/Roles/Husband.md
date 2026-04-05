@@ -3,7 +3,7 @@ title: "Husband"
 date:  2022-08-21
 enableToc: true
 openToc: true
-tags: husband wife
+tags: ["husband", "wife"]
 type: basic-note
 ---
 # Husband

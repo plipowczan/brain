@@ -1,5 +1,5 @@
 ---
-title: "tool"
+title: "Kindle"
 date:  2022-09-06
 enableToc: true
 openToc: true
@@ -28,7 +28,7 @@ Ebook reader from Amazon.
 # What I think about it
 ## Pros
 - Great battery - It took about 3 moths from the first charge to discharge it completely and I we (me and my family) use it almost everyday
-- It doesn't emit blue light [[KNOWLEDGE/Blue light]] - doesn't tire the eyes, it also adjust automatically to the external light.
+- It doesn't emit blue light [[LIFE/KNOWLEDGE/INFO/Blue light]] - doesn't tire the eyes, it also adjust automatically to the external light.
 - It is super clear, sharp and the text is visible, even when the sun is shining hard
 
 ## Cons

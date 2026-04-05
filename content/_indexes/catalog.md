@@ -26,10 +26,10 @@ entries: 160
 ## ABOUT/Roles
 - **AutomationSpecialist** | basic-note | 2026-04-05 | [about, todo/complete] | Placeholder — do uzupelnienia | -> Roles
 - **Developer** | basic-note | 2026-04-05 | [about, todo/complete] | Placeholder — do uzupelnienia | -> Roles
-- **Father** | basic-note | 2022-08-21 | [f, a, t, h, e, r, ,,  , k, i, d, s] | ![[ATTACHMENTS/Pasted image 20220821212724.png]] | -> -
+- **Father** | basic-note | 2022-08-21 | [father, kids] | ![[ATTACHMENTS/Pasted image 20220821212724.png]] | -> -
 - **Founder** | basic-note | 2026-04-05 | [about, todo/complete] | Placeholder — do uzupelnienia | -> Roles
 - **Friend** | basic-note | 2026-04-05 | [about, todo/complete] | Placeholder — do uzupelnienia | -> Roles
-- **Husband** | basic-note | 2022-08-21 | [h, u, s, b, a, n, d,  , w, i, f, e] | ![[ATTACHMENTS/IMG_20220727_203730.jpg]] | -> -
+- **Husband** | basic-note | 2022-08-21 | [husband, wife] | ![[ATTACHMENTS/IMG_20220727_203730.jpg]] | -> -
 - **Roles** | basic-note | 2022-08-21 | [] | [[ABOUT/Roles/Father]] | -> Father, Husband, Developer, Founder, AutomationSpecialist, Son
 - **Son** | basic-note | 2026-04-05 | [about, todo/complete] | Placeholder — do uzupelnienia | -> Roles
 
@@ -193,7 +193,7 @@ entries: 160
 - **Work attendance management system** | basic-note | 2026-04-05 | [projects, todo/complete] | Placeholder — do uzupelnienia | -> ShareFund
 
 ## PROJECTS/AH
-- **PULS** | knowledge-note | 2022-08-24 | [k, n, o, w, l, e, d, g, e, ,,  , p, u, l, s, ,,  , m, e, e, t, i, n, g] | Attendees: Cs, Team Leaders, Members | -> puls, puls_end
+- **PULS** | knowledge-note | 2022-08-24 | [knowledge, puls, meeting] | Attendees: Cs, Team Leaders, Members | -> puls, puls_end
 
 ## PROJECTS/SECONDBRAIN
 - **Programmer and what's next** | basic-note | 2022-09-18 | [basic, programming] | when you end up school you know nothing about programming - it doesn't matter if | -> Pareto principle, I have a business and not business has me

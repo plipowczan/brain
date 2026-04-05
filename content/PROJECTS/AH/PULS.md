@@ -3,7 +3,7 @@ title: "PULS"
 date:  2022-08-24
 enableToc: true
 openToc: true
-tags: knowledge, puls, meeting
+tags: ["knowledge", "puls", "meeting"]
 type: knowledge-note
 ---
 

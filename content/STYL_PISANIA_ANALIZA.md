@@ -101,7 +101,7 @@ I understood why this is importand and why the organization where I work in is b
 1. You cannot loose.
  1. You are a winner from the start. Think of what you have and on start you have a lot. If you think about 3 things every day what you can be grateful [[LIFE/KNOWLEDGE/INFO/5 Minute Journal]] I guarantee - no matter who you are and in what situation you would be able to find those 3 things.
  2. Business/life is an endless game and if it is endless you cannot loose.
-2. Development is a choice - you don't have to do it but it gives you a great advantage in terms of building a business but if you just do it the development will come since you will learn on. Avoid constant pressure that you need more, that there is something you can do. [[BOOK/Company of one]] #reading-list/business-finance
+2. Development is a choice - you don't have to do it but it gives you a great advantage in terms of building a business but if you just do it the development will come since you will learn on. Avoid constant pressure that you need more, that there is something you can do. [[BUSINESS/BOOKS/Company of one]] #reading-list/business-finance
 3. Enjoy it all - do it for fun (business and life). Enjoy the process and not only when you achieve something. Goal alternative:
  1. Values - what values you follow in life - write it down and stick to it and all decisions you make confront with those values.
  2. Direction - instead of defining a goal you can define a direction - you will avoid the pressure of not reaching the destination when you won't achieve the goal, if only you will go in the direction you defined you will be able to get somewhere and enjoy the process.
