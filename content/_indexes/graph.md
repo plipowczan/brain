@@ -50,7 +50,7 @@ LIFE/TOOLS/Microsoft To Do -> BUSINESS/TOOLS/Outlook, LIFE/KNOWLEDGE/INFO/Pomodo
 LIFE/TOOLS/Obsidian -> LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/HOWTO/How to create mind map
 LIFE/TOOLS/Revolut -> ABOUT/Motivation system for my kids, LIFE/TOOLS/Revolut Junior
 LIFE/TOOLS/Windows -> ATTACHMENTS/Pasted image 20221111233159.png, ATTACHMENTS/Pasted image 20221111233121.png
-NOCODE/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field' -> NOCODE/TOOLS/Make, ATTACHMENTS/Pasted image 20220905171437.png, convert multiselect into link to another.json, ATTACHMENTS/Pasted image 20220905171755.png
+NOCODE/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field' -> NOCODE/TOOLS/Make, ATTACHMENTS/Pasted image 20220905171437.png, ATTACHMENTS/Pasted image 20220905171755.png
 NOCODE/KNOWLEDGE/HOWTO/How to convert pdf to Goodle Docs or Word -> Pasted image 20231216175543.png, Pasted image 20231216175730.png
 NOCODE/KNOWLEDGE/HOWTO/How to instantly trigger Make scenario on row created event from Airtable free plan -> ATTACHMENTS/Pasted image 20221202165500.png, ATTACHMENTS/Pasted image 20221202165602.png, ATTACHMENTS/Pasted image 20221202165729.png, ATTACHMENTS/Pasted image 20221202165759.png, ATTACHMENTS/Pasted image 20221202170021.png, ATTACHMENTS/Pasted image 20221202170551.png, ATTACHMENTS/Pasted image 20221202170630.png, ATTACHMENTS/Pasted image 20221202170735.png, ATTACHMENTS/Pasted image 20221202171020.png, ATTACHMENTS/Pasted image 20221202171226.png, ATTACHMENTS/Pasted image 20221202171517.png, ATTACHMENTS/Pasted image 20221202171724.png, ATTACHMENTS/Pasted image 20221202171934.png, ATTACHMENTS/Pasted image 20221202172110.png, ATTACHMENTS/screen-recording-2022-12-02-17_42.webm
 NOCODE/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension -> NOCODE/TOOLS/Airtable, NOCODE/TOOLS/Sendgrid
@@ -218,6 +218,5 @@ Pasted image 20250619200613.png <- TRAVELS/TRIPS/2025 07 Beskidy
 TRAVELS/TOOLS/Ventusky <- TRAVELS/TRIPS/2022 Iceland October
 WEB3/Crypto Exchanges <- WEB3/My web3
 WEB3/Influencers <- WEB3/My web3
-convert multiselect into link to another.json <- NOCODE/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field'
 ścieżka/do/pliku <- STYL_PISANIA_ANALIZA, STYL_PISANIA_ANALIZA, STYL_PISANIA_ANALIZA
 
