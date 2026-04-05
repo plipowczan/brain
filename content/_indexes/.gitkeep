@@ -1,0 +1,5 @@
+Auto-maintained navigation indexes for the LLM agent. Do not edit manually.
+- vault-map.md  — L0: folder counts, tag cloud, recent changes (read first, always)
+- catalog.md    — L1: one-line entry per note with summary and links (read for search)
+- graph.md      — L2: wikilink graph, outgoing + incoming (read for link traversal)
+Rebuilt via "reindex" command. Updated incrementally after every note create/edit.
