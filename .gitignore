@@ -5,3 +5,4 @@ node_modules
 prof/
 .hugo_build.lock
 .claude/settings.local.json
+content/.obsidian/workspace.json
