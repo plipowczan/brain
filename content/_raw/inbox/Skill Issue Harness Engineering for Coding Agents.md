@@ -23,7 +23,7 @@ But over the course of dozens of projects and hundreds of agent sessions, we kep
 
 Yes, models will get smarter, and some existing failure modes will disappear. And then because they are smarter, we will give them new problems which are bigger and harder, and they will **continue to fail in unexpected ways**. Unexpected failures modes are a fundamental problem for non-deterministic systems.
 
-![gpt-6](https://www.humanlayer.dev/blog/skill-issue/gpt-6.png)
+![[8df07b7892567ce3be7d722c706b6760_MD5.png]]
 
 So instead of praying for `gpt-6.4-codex-ultrahigh_extended` to save us all, we try to focus on answering the question of *"how do we get the most out of **today's** models?"*
 
@@ -39,7 +39,7 @@ These are all technically separate concepts, but they are all part of the coding
 
 **Harness engineering**, coined by [Viv](https://x.com/Vtrivedy10), describes the practice of leveraging these configuration points to customize and improve your coding agent's output quality and reliability.
 
-![harness components](https://www.humanlayer.dev/blog/skill-issue/harness-components.png) *Image from [Viv's post](https://blog.langchain.com/the-anatomy-of-an-agent-harness/)*
+![[6318674ef60137bf8c8100a4de582e44_MD5.png]] *Image from [Viv's post](https://blog.langchain.com/the-anatomy-of-an-agent-harness/)*
 
 As [Mitchell Hashimoto put it](https://mitchellh.com/writing/my-ai-adoption-journey#step-5-engineer-the-harness), harness engineering
 
@@ -51,7 +51,7 @@ We view harness engineering as a subset of [context engineering](https://www.hum
 
 Harness engineering then is the subset of context engineering which primarily involves leveraging harness configuration points to carefully manage the context windows of coding agents.
 
-![harness engineering as context engineering](https://www.humanlayer.dev/blog/skill-issue/harness-engineering.png)
+![[71d70656bdedcfb208d66ee992fcd8a5_MD5.png]]
 
 It answers:
 
@@ -68,7 +68,7 @@ Skills, MCP servers, sub-agents, hooks, and back-pressure mechanisms are all tac
 
 Viv’s posts on harness engineering are worth reading alongside this one — [the first](https://www.vtrivedy.com/posts/claude-code-sdk-haas-harness-as-a-service) frames the four customization levers (system prompt, tools/MCPs, context, sub-agents), and [the second](https://blog.langchain.com/the-anatomy-of-an-agent-harness/) works backwards from what models *can’t* do natively to derive why each harness component exists.
 
-![working backwards from what models can't do natively](https://www.humanlayer.dev/blog/skill-issue/backwards.png) *Image from [Viv's post](https://blog.langchain.com/the-anatomy-of-an-agent-harness/)*
+![[506a529fed25dcdebd9d06978436e3a0_MD5.png]] *Image from [Viv's post](https://blog.langchain.com/the-anatomy-of-an-agent-harness/)*
 
 We’d add two levers he doesn’t emphasize:
 
@@ -77,7 +77,7 @@ We’d add two levers he doesn’t emphasize:
 
 After months of solving hard problems in complex brownfield enterprise-scale codebases, we have found that sub-agents are a particularly powerful lever. When working on hard problems that require many, many context windows to solve, **sub-agents are the key to maintaining coherency across many sessions**. Sub-agents **function as a "context firewall"** that ensures discrete tasks can run in isolated context windows so none of the intermediate noise accumulates in your parent thread which is responsible for orchestration, and you can maintain coherency for much, much longer.
 
-![context firewall](https://www.humanlayer.dev/blog/skill-issue/context-firewall.png)
+![[2f59ec0b0011bf55b1bc1ddc2a076d73_MD5.png]]
 
 OpenAI recently wrote a [blog post](https://openai.com/index/harness-engineering/) on the topic as well. There's some great content in there, and it seems to indicate that they view harness engineering as configuring everything *outside* of the agent's runtime. It's more focused on back-pressure and verification mechanisms. (Although this may be a mis-reading; the post is somewhat unclear: the word "harness" only appears once in the text of the post, and in reference to evals rather than harness engineering itself.)
 
@@ -91,7 +91,7 @@ This *can* mean that a model will perform better when coupled with the harness i
 
 But it cuts both ways: **models can be over-fitted to their harness**. Viv cites [Terminal Bench 2.0](https://terminalbench.com/) where Opus 4.6 in Claude Code comes in position #33, but when placed in a different harness that wasn't seen during post-training, it comes in at #5 (+/- about 4 positions in either direction).
 
-![terminal bench](https://www.humanlayer.dev/blog/skill-issue/terminal-bench.png)
+![[2942c80552adc258cd7b6be4548b80af_MD5.png]]
 
 ## \## Engineering Your Harness
 
@@ -143,7 +143,7 @@ When you plug an MCP server into your coding agent, the list of available tools,
 
 We’ve seen this firsthand: plug too many MCP tools into your agent, and the context window fills up with tool descriptions, pushing you into [the dumb zone](https://youtu.be/rmvDxxNubIg?si=O17nmS3SScaAkpp-&t=355) much faster:
 
-![too many tools](https://www.humanlayer.dev/blog/skill-issue/too-many-tools.png)
+![[d8a977c214632cf594f9f7d7aaf377e7_MD5.png]]
 
 The [instruction budget](https://www.aihero.dev/a-complete-guide-to-agents-md#the-instruction-budget) matters too — every irrelevant tool description is an instruction the agent has to process without any benefit.
 
@@ -206,7 +206,7 @@ Sub-agents are a popular but often misunderstood harness configuration point. We
 
 They provide a way to encapsulate an entire coding agent session's worth of work such that the dispatching agent only sees the prompt it writes for the sub-agent, and the sub-agent's final result. None of the intermediate tool calls, tool results, or other messages end up in the parent coding agent's context window.
 
-![sub-agents](https://www.humanlayer.dev/blog/skill-issue/sub-agents.png)
+![[7c975cecdeae2bb0c72956e99373431f_MD5.png]]
 
 Breaking work up into discrete tasks and delegating it to sub-agents is how we keep our primary coding agent thread in the "smart zone." This is how we handle research, implementation, and a number of other context-heavy tasks in our day-to-day workflows.
 
@@ -224,13 +224,13 @@ This is also why we're skeptical of the "just make the context window bigger" ap
 
 Consider the needle-in-a-haystack problem. A bigger context window doesn't make the model better at finding the needle — it just makes the haystack bigger. For our purposes, it means you can stuff more instructions (each user message is *at least* one instruction, and usually several) into the context window - putting you deeper and deeper into the "dumb zone".
 
-![long context](https://www.humanlayer.dev/blog/skill-issue/long-context.jpg)
+![[eebe76916f1dc9ae54894252f78e111a_MD5.jpg]]
 
 If you think you need longer context, you may just need better context window isolation. Sub-agents solve this structurally: each one gets a fresh, small, high-relevance context window with a fresh "instruction budget" for its task, and only the condensed result flows back to the parent - allowing you to stitch together many context windows for a single problem.
 
 The limit case probably looks something like this, although at some point you're crossing [Recursive Language Model](https://alexzhang13.github.io/blog/2025/rlm/) territory.
 
-![limit case](https://www.humanlayer.dev/blog/skill-issue/limit-case.png)
+![[2518ca5e606cf2b49080c2d7dc1513ae_MD5.png]]
 
 (Note: some arrows omitted for brevity.)
 
@@ -245,7 +245,7 @@ Great examples of things to use sub-agents for include:
 
 These types of tasks often have a straightforward question and simple answer, but require lots of intermediate tool calls that you don't want or need in your parent session. Sub-agents should return highly condensed responses that also follow the principle of progressive disclosure. For example, our sub-agents provide an answer to the question but also cite sources in `filepath:line` format or with URLs so that the parent agent isn't exposed to all the sources the sub-agent used, but if it needs more details or confirmation, it has the information that it needs to go find the relevant context:
 
-![compaction](https://www.humanlayer.dev/blog/skill-issue/compaction.png)
+![[8f7e6a92fa0cc6b7ed86125cd22719e0_MD5.png]]
 
 Dex spoke about this more extensively [here](https://www.youtube.com/watch?v=IS_y40zY-hc).
 
@@ -263,7 +263,7 @@ Fortunately you can still use this powerful context encapsulation pattern by wri
 
 A *very* rough approximation of a server to do this can be found [here](https://github.com/humanlayer/claudelayer/blob/main/src/index.ts). **Warning**: using this pattern with a coding agent that supports sub-agents will allow the harness's native sub-agents to dispatch sub-agents via MCP. This can result in an unpredictable game of telephone:
 
-![telephone](https://www.humanlayer.dev/blog/skill-issue/sub-agent-telephone.png)
+![[6f5aa7cb1393bcd71cac9a417b65f88d_MD5.png]]
 
 Jokes aside, practically you have to be very careful when you write your sub-agents' system prompts to carefully specify the scope of their role:
 
