@@ -3,7 +3,7 @@ title: "Father"
 date:  2022-08-21
 enableToc: true
 openToc: true
-tags: father, kids
+tags: ["father", "kids"]
 type: basic-note
 ---
 # Father

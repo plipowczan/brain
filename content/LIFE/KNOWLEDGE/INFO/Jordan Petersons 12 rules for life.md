@@ -14,7 +14,7 @@ How to win in losing times - Jordan Petersons 12 rules for life.
 
 ## 🔗 Links 
 [12 Rules for Life: An Antidote to Chaos by Jordan B. Peterson | Goodreads](https://www.goodreads.com/book/show/30257963-12-rules-for-life)
-[[BOOKS/12 Rules for Life: An Antidote to Chaos]]
+[[LIFE/BOOKS/12 Rules for Life]]
 
 ## 🧩Features:
 - Straighten up - Hierarchies are a common facet of life in societies around the world, so give yourself an advantage with good posture.

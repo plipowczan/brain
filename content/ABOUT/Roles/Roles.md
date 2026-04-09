@@ -9,11 +9,11 @@ type: basic-note
 # Roles
 [[ABOUT/Roles/Father]]
 [[ABOUT/Roles/Husband]]
-[[INBOX/Roles/Developer]]
-[[INBOX/Roles/Founder]]
-[[INBOX/Roles/AutomationSpecialist]]
-[[INBOX/Roles/Son]]
-[[INBOX/Roles/Friend]]
+[[ABOUT/Roles/Developer]]
+[[ABOUT/Roles/Founder]]
+[[ABOUT/Roles/AutomationSpecialist]]
+[[ABOUT/Roles/Son]]
+[[ABOUT/Roles/Friend]]
 
 
 

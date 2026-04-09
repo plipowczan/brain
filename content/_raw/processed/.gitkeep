@@ -1,0 +1,4 @@
+Archive of ingested source documents.
+Files are moved here automatically after processing, prefixed with date: YYYY-MM-DD_originalname.ext
+Keeps provenance — you can re-ingest or reference originals if needed.
+Safe to clean up periodically.

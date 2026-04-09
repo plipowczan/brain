@@ -1,0 +1,4 @@
+Health check and lint reports from the agent.
+Format: YYYY-MM-DD_health-report.md
+Generated via "lint" or "health check" command.
+Contains: missing frontmatter, broken links, orphans, stubs, TODO audit, connection suggestions.
