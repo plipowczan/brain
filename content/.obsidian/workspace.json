@@ -1,56 +1,38 @@
 {
   "main": {
-    "id": "f4629af4a0746a0a",
+    "id": "fee778d813bd095d",
     "type": "split",
     "children": [
       {
-        "id": "d9bc973f18d50a1e",
+        "id": "bc08a76bbfb93f77",
         "type": "tabs",
         "children": [
           {
-            "id": "6858dc715eb8be1c",
+            "id": "d9a7becf0fa82b80",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TRAVELS/TRIPS/2025 07 Beskidy.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025 07 Beskidy"
-            }
-          },
-          {
-            "id": "8a84aa8add9b5f47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PROJECTS/Projects.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Projects"
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 1
+        "stacked": true
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5ade24f62238aa5e",
+    "id": "6208630da67d0cdf",
     "type": "split",
     "children": [
       {
-        "id": "f7d606a32958d754",
+        "id": "e766fa4518e924ca",
         "type": "tabs",
         "children": [
           {
-            "id": "84e2aa8061f038a0",
+            "id": "30f80fd9648a4454",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,12 +45,12 @@
             }
           },
           {
-            "id": "d9bf4edadb83c337",
+            "id": "e6891458eb1dc08e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "people",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +62,17 @@
             }
           },
           {
-            "id": "f865facb0c509fa5",
+            "id": "b39b6fe1278b9d60",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "6e64a85cd91a7957",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,19 +88,20 @@
     "width": 300
   },
   "right": {
-    "id": "29a136055e6a69f8",
+    "id": "67bf62176968a187",
     "type": "split",
     "children": [
       {
-        "id": "4484ae92afd900ba",
+        "id": "1eafd113a1ff9bc0",
         "type": "tabs",
         "children": [
           {
-            "id": "8873a495296c9f1a",
+            "id": "0b5ac069c6484697",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TRAVELS/TRIPS/2025 07 Beskidy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,61 +111,106 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2025 07 Beskidy"
             }
           },
           {
-            "id": "0f7e9db63b43e353",
+            "id": "854937f5e97c1253",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TRAVELS/TRIPS/2025 07 Beskidy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 2025 07 Beskidy"
             }
           },
           {
-            "id": "4c4ed9a8fc426eb1",
+            "id": "312c2147de818819",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "15bec75d964fcba4",
+            "id": "a74430c049114ea7",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Untitled.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled"
             }
           },
           {
-            "id": "80b3b789e1701438",
+            "id": "2875b4e7542b9a31",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "calendar",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "aad1ba5f0bd7550c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "TRAVELS/TRIPS/2025 07 Beskidy.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3628873693012117,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 2025 07 Beskidy"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,40 +221,48 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "audio-recorder:Start/stop recording": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "84e2aa8061f038a0",
+  "active": "30f80fd9648a4454",
   "lastOpenFiles": [
-    "PROJECTS/Trendy 2026.md",
-    "STYL_PISANIA_ANALIZA.md",
-    "LIFE/BOOKS/Learn Like a Pro.md",
-    "LIFE/BOOKS/Atomic habits.md",
-    "LIFE/NOTES/Distractions.md",
-    "LIFE/BOOKS/The Mental Toughness Handbook.md",
-    "LIFE/BOOKS/Dopamine Detox.md",
-    "LIFE/NOTES",
-    "LIFE/BOOKS/Sapiens. Od zwierząt do bogów.md",
+    "Excalidraw/Drawing 2026-04-08 13.50.24.excalidraw.md",
+    "Untitled.base",
+    "Excalidraw",
+    "_raw/inbox/anthropicsskills Public repository for Agent Skills.md",
+    "_raw/inbox/ClickUp.md",
+    "_raw/inbox/Skill Issue Harness Engineering for Coding Agents.md",
     "TRAVELS/TRIPS/2025 07 Beskidy.md",
-    "Pasted image 20250619200613.png",
+    "_raw/inbox",
+    "_raw",
+    "ABOUT/Bucket list.md",
     "TRAVELS/TRIPS/2024 07 Bieszczady.md",
-    "LIFE/KNOWLEDGE/INFO/5 second rule.md",
-    "BUSINESS/BOOKS/Amp It Up.md",
-    "BUSINESS/BOOKS/The One Thing.md",
-    "BUSINESS/BOOKS/The Inevitable.md",
-    "BUSINESS/BOOKS/Millionaire Fastlane.md",
-    "LIFE/BOOKS/Zaprojektuj swoją przyszłość.md",
-    "LIFE/BOOKS/Włam się do mózgu.md",
-    "GENERAL/What tools I use.md",
-    "GENERAL/Reading list.md",
-    "PROJECTS/AH/PULS.md",
-    "PROJECTS/AH/AutomationHouse.md",
-    "PROJECTS/SECONDBRAIN/Programmer and what's next.md",
-    "ABOUT/I have a business and not business has me.md",
-    "PROJECTS/SHAREFUND/ShareFund.md",
+    "Pasted image 20250619200613.png",
+    "Pasted image 20240625221302.png",
     "PROJECTS/Hospital Logistics.md",
-    "PROJECTS/Projects.md"
+    "LIFE/KNOWLEDGE/INFO/5 second rule.md",
+    "LIFE/BOOKS/Zaprojektuj swoją przyszłość.md",
+    "BUSINESS/BOOKS/Amp It Up.md",
+    "TRAVELS/itinerary sample.md",
+    "TRAVELS/TRIPS/Untitled.md",
+    "TRAVELS/Tools.md",
+    "TRAVELS/My travels.md",
+    "BUSINESS/KNOWLEDGE/HOWTO/Contact a client.md",
+    "TRAVELS/TRIPS/2023 Greece January.md",
+    "TRAVELS/TRIPS/2023 Albania June.md",
+    "TRAVELS/TRIPS/2022 Iceland October.md",
+    "LIFE/KNOWLEDGE/INFO/Trust.md",
+    "LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey.md",
+    "INVESTMENTS/Qualcomm.md",
+    "INVESTMENTS",
+    "BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to.md",
+    "ATTACHMENTS/Pasted image 20230716071359.png",
+    "ATTACHMENTS/Pasted image 20230716071014.png",
+    "ATTACHMENTS/Pasted image 20230716070543.png",
+    "ABOUT/Roles/Roles.md",
+    "NOCODE/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension.md",
+    "WEB3/KNOWLEDGE/INFO",
+    "WEB3/KNOWLEDGE"
   ]
 }

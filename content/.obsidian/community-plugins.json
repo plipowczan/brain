@@ -1,7 +1,9 @@
 [
-  "obsidian-git",
+  "calendar",
   "dataview",
   "templater-obsidian",
-  "obsidian-excalidraw-plugin",
-  "obsidian-local-images-plus"
+  "obsidian-minimal-settings",
+  "obsidian-style-settings",
+  "obsidian-markmind",
+  "obsidian-excalidraw-plugin"
 ]
