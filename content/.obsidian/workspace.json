@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d9bc973f18d50a1e",
+        "id": "7db14e2b557730f1",
         "type": "tabs",
         "children": [
           {
-            "id": "6858dc715eb8be1c",
+            "id": "383f36196d9e85e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TRAVELS/TRIPS/2025 07 Beskidy.md",
+                "file": "_raw/inbox/Modular Web Framework for Laravel & Nuxt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025 07 Beskidy"
-            }
-          },
-          {
-            "id": "8a84aa8add9b5f47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_raw/inbox/Thread by @karpathy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Thread by @karpathy"
+              "title": "Modular Web Framework for Laravel & Nuxt"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,46 +175,53 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "8a84aa8add9b5f47",
+  "active": "383f36196d9e85e8",
   "lastOpenFiles": [
-    "ATTACHMENTS/Pasted image 20250619200613.png",
-    "ATTACHMENTS/Pasted image 20240625221302.png",
-    "_raw/inbox/karpathyautoresearch AI agents running research on single-GPU nanochat training automatically.md",
-    "867d12609b6546a821b924cdf3e4b427_MD5.png",
-    "_raw/inbox/Thread by @karpathy.md",
-    "PROJECTS/Projects.md",
+    "_raw/inbox/Modular Web Framework for Laravel & Nuxt.md",
+    "_raw/inbox/services.md",
+    "_raw/inbox/finances.md",
+    "_raw/inbox/company-info.md",
+    "_raw/inbox/tone-of-voice.md",
+    "_raw/inbox/logo.svg",
+    "_raw/inbox/brand-design.md",
+    "_raw/inbox/learning.md",
+    "_raw/inbox/goals.md",
+    "_raw/inbox/legal-entities.md",
+    "_raw/inbox/personal/learning.md",
+    "_raw/inbox/personal/goals.md",
+    "_raw/inbox/personal",
+    "_raw/inbox/brand/linkedin/2026-04-02-vbt-pierwsze-spotkanie.md",
+    "_raw/inbox/brand/linkedin/agentic-coding-flow.png",
+    "_raw/inbox/brand/linkedin/agentic-coding-flow.excalidraw",
+    "_raw/inbox/brand/linkedin/2026-04-02-cto-agentic-coding-posts.md",
+    "_raw/inbox/brand/linkedin/2026-04-01-portfolio-i18n.md",
+    "_raw/inbox/brand/linkedin/2026-03-25-tech-news-w13.md",
+    "_raw/inbox/brand/linkedin/2026-03-27-value-builders-tribe-dolaczenie.md",
+    "_raw/inbox/brand/linkedin/2026-03-24-srodowisko-agentowe-posts.md",
+    "_raw/inbox/brand/linkedin/2026-03-18-qamera-workflow-post1.md",
+    "_raw/inbox/brand/linkedin/2026-03-17-context-rot-opus.md",
+    "_raw/inbox/brand/linkedin",
+    "_raw/inbox/brand/tone-of-voice.md",
+    "_raw/inbox/brand/logo.svg",
+    "_raw/inbox/brand/brand-design.md",
+    "_raw/inbox/brand",
+    "ATTACHMENTS/7ac28b457524339150fb33c6fed73443_MD5.svg",
+    "ATTACHMENTS/1fcbe6adf0c8b89e5195a678c654d9ff_MD5.svg",
+    "ATTACHMENTS/25d398e12d47023c0189e12d5b9e9f15_MD5.svg",
+    "ATTACHMENTS/36fb83a70fea26022b3e450396fffda1_MD5.svg",
+    "ATTACHMENTS/ed76c18f34496558494ccecd17f5d656_MD5.svg",
+    "ATTACHMENTS/0af06fc68ea47f3128b162c77a29425d_MD5.png",
+    "ATTACHMENTS/16f94e278398e0e7e35fd16219694985_MD5.png",
+    "ABOUT/Roles/Developer.md",
+    "_outputs/reports/2026-04-05_health-report.md",
+    "TRAVELS/TRIPS/2025 07 Beskidy.md",
+    "_raw/inbox/excalidrawexcalidraw Virtual whiteboard for sketching hand-drawn like diagrams.md",
+    "_raw/processed/2026-04-05_excalidraw.md",
+    "CODE/KNOWLEDGE/INFO",
     "raw/inbox",
     "raw",
-    "_indexes/graph.md",
-    "_indexes/catalog.md",
-    "_indexes/vault-map.md",
     "_outputs/answers",
     "_outputs/reports",
-    "_outputs",
-    "_indexes",
-    "_raw/inbox",
-    "_raw/processed",
-    "_raw",
-    "PROJECTS/Trendy 2026.md",
-    "STYL_PISANIA_ANALIZA.md",
-    "LIFE/BOOKS/Learn Like a Pro.md",
-    "LIFE/BOOKS/Atomic habits.md",
-    "LIFE/NOTES/Distractions.md",
-    "LIFE/BOOKS/The Mental Toughness Handbook.md",
-    "LIFE/BOOKS/Dopamine Detox.md",
-    "LIFE/NOTES",
-    "LIFE/BOOKS/Sapiens. Od zwierząt do bogów.md",
-    "TRAVELS/TRIPS/2025 07 Beskidy.md",
-    "Pasted image 20250619200613.png",
-    "TRAVELS/TRIPS/2024 07 Bieszczady.md",
-    "LIFE/KNOWLEDGE/INFO/5 second rule.md",
-    "BUSINESS/BOOKS/Amp It Up.md",
-    "BUSINESS/BOOKS/The One Thing.md",
-    "BUSINESS/BOOKS/The Inevitable.md",
-    "BUSINESS/BOOKS/Millionaire Fastlane.md",
-    "LIFE/BOOKS/Zaprojektuj swoją przyszłość.md",
-    "LIFE/BOOKS/Włam się do mózgu.md",
-    "GENERAL/What tools I use.md",
-    "GENERAL/Reading list.md"
+    "_outputs"
   ]
 }
