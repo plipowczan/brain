@@ -4,7 +4,10 @@
       "Bash(grep -E \"\\\\.\\(ts|js|json|sh|py\\)$\")",
       "Bash(git log:*)",
       "Bash(git ls-files:*)",
-      "Bash(git pull:*)"
+      "Bash(git pull:*)",
+      "Bash(git diff:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)"
     ]
   }
 }

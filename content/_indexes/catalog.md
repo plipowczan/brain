@@ -1,6 +1,6 @@
 ---
-updated: 2026-04-05
-entries: 160
+updated: 2026-04-09
+entries: 163
 ---
 # Note Catalog
 
@@ -66,11 +66,14 @@ entries: 160
 - **How to set Hugo RSS feed** | knowledge-note | 2022-10-30 | [knowledge, howto, RSS, Hugo] | Add RSS feed to your Hugo web site. | -> knowledge_note_how_to
 
 ## CODE/KNOWLEDGE/INFO
-- **LLM Knowledge Bases** | knowledge-note | 2026-04-05 | [knowledge, info, llm, knowledge-base, obsidian, ai] | Using LLMs to build and maintain personal knowledge bases — methodology describe | -> Obsidian, Building a Second Brain, Zettelkasten, Digital Garden, Autoresearch, knowledge_note_info
+- **Harness Engineering** | knowledge-note | 2026-04-09 | [knowledge, info, ai, coding-agents, context-engineering, claude] | Configuring coding agent harness (CLAUDE.md, MCP, skills, sub-agents, hooks) to maximize output quality | -> Agent Skills, LLM Knowledge Bases, knowledge_note_info
+- **LLM Knowledge Bases** | knowledge-note | 2026-04-05 | [knowledge, info, llm, knowledge-base, obsidian, ai] | Using LLMs to build and maintain personal knowledge bases — methodology describe | -> Obsidian, Building a Second Brain, Zettelkasten, Digital Garden, Harness Engineering, Autoresearch, knowledge_note_info
 
 ## CODE/TOOLS
+- **Agent Skills** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's system for dynamically loading specialized instructions into Claude — reusable skill packages | -> Harness Engineering, LLM Knowledge Bases, tool
 - **Autoresearch** | tool | 2026-04-05 | [tool, ai, research, llm, autonomous-agents] | Karpathy's framework for AI agents running autonomous ML research experiments ov | -> LLM Knowledge Bases, tool
 - **Git** | tool | 2022-12-02 | [tool] | - | -> tool
+- **Nucleify** | tool | 2026-04-09 | [tool, framework, laravel, nuxt, fullstack, modular] | Modular full-stack framework for Laravel 11 + Nuxt 3 — 40+ production modules, Atomic Design, override system | -> tool
 - **RunJS** | tool | 2023-01-08 | [tool] | - | -> tool
 - **Visual Studio** | tool | 2023-01-08 | [tool, visualstudio, code] | It is integrated development environment (IDE). A creative platform to edit, deb | -> tool
 - **VisualStudioCode** | tool | 2022-09-22 | [tool] | - | -> tool

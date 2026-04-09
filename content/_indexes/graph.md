@@ -1,7 +1,7 @@
 ---
-updated: 2026-04-05
-nodes: 160
-edges: 165
+updated: 2026-04-09
+nodes: 163
+edges: 175
 ---
 # Link Graph
 
@@ -31,7 +31,9 @@ BUSINESS/TOOLS/Outlook -> LIFE/TOOLS/Microsoft To Do
 CODE/GENERAL/Common workflow I use in dotnet projects using Azure DevOps -> CODE/TOOLS/Visual Studio
 CODE/GENERAL/How to deal with pull request merge conflicts -> CODE/TOOLS/Visual Studio
 CODE/KNOWLEDGE/HOWTO/Export git logs to file -> CODE/TOOLS/Git
-CODE/KNOWLEDGE/INFO/LLM Knowledge Bases -> Obsidian, Building a Second Brain, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/KNOWLEDGE/INFO/Digital Garden, CODE/TOOLS/Autoresearch
+CODE/KNOWLEDGE/INFO/Harness Engineering -> CODE/TOOLS/Agent Skills, CODE/KNOWLEDGE/INFO/LLM Knowledge Bases
+CODE/KNOWLEDGE/INFO/LLM Knowledge Bases -> Obsidian, Building a Second Brain, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/KNOWLEDGE/INFO/Digital Garden, CODE/KNOWLEDGE/INFO/Harness Engineering, CODE/TOOLS/Autoresearch
+CODE/TOOLS/Agent Skills -> CODE/KNOWLEDGE/INFO/Harness Engineering, CODE/KNOWLEDGE/INFO/LLM Knowledge Bases
 CODE/TOOLS/Autoresearch -> CODE/KNOWLEDGE/INFO/LLM Knowledge Bases
 GENERAL/Reading list -> LIFE/BOOKS/How to take smart notes, LIFE/BOOKS/Building a Second Brain, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/Atomic habits, BUSINESS/BOOKS/Millionaire Fastlane, ABOUT/How i read books
 GENERAL/What tools I use -> NOCODE/TOOLS/Make, NOCODE/TOOLS/Zapier, LIFE/TOOLS/TextExpander, CODE/TOOLS/Visual Studio, CODE/TOOLS/Visual Studio Code, CODE/TOOLS/RunJS, BUSINESS/TOOLS/Outlook, BUSINESS/TOOLS/ClickUp, LIFE/TOOLS/Microsoft To Do, LIFE/TOOLS/Obsidian, LIFE/TOOLS/OneNote, NOCODE/TOOLS/Notion, LIFE/TOOLS/Windows, LIFE/TOOLS/Dashlane, LIFE/TOOLS/Authenticator, LIFE/TOOLS/Edge, LIFE/TOOLS/PowerToys, BUSINESS/TOOLS/Movavi, BUSINESS/TOOLS/Descript, BUSINESS/TOOLS/Happyscribe, LIFE/TOOLS/Feedly, LIFE/TOOLS/Brave, LIFE/TOOLS/Firefox, LIFE/TOOLS/LubimyCzytac, LIFE/TOOLS/Goodreads, BUSINESS/TOOLS/Blinkist, LIFE/TOOLS/Audioteka
@@ -116,7 +118,9 @@ BUSINESS/TOOLS/Miro <- LIFE/KNOWLEDGE/HOWTO/How to create mind map, NOCODE/TOOLS
 BUSINESS/TOOLS/Movavi <- GENERAL/What tools I use
 BUSINESS/TOOLS/Outlook <- GENERAL/What tools I use, LIFE/TOOLS/Microsoft To Do
 Building a Second Brain <- CODE/KNOWLEDGE/INFO/LLM Knowledge Bases
-CODE/KNOWLEDGE/INFO/LLM Knowledge Bases <- CODE/TOOLS/Autoresearch
+CODE/KNOWLEDGE/INFO/Harness Engineering <- CODE/KNOWLEDGE/INFO/LLM Knowledge Bases, CODE/TOOLS/Agent Skills
+CODE/KNOWLEDGE/INFO/LLM Knowledge Bases <- CODE/TOOLS/Autoresearch, CODE/KNOWLEDGE/INFO/Harness Engineering, CODE/TOOLS/Agent Skills
+CODE/TOOLS/Agent Skills <- CODE/KNOWLEDGE/INFO/Harness Engineering
 CODE/TOOLS/Autoresearch <- CODE/KNOWLEDGE/INFO/LLM Knowledge Bases
 CODE/TOOLS/Git <- CODE/KNOWLEDGE/HOWTO/Export git logs to file
 CODE/TOOLS/RunJS <- GENERAL/What tools I use
