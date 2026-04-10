@@ -1,16 +1,31 @@
 ---
 title: "Authenticator"
-date: 2026-04-05
+date: 2022-09-06
 enableToc: true
 openToc: true
-tags: ["tool", "todo/complete"]
+tags: ["tool", "security", "2fa"]
 type: tool
-agent-created: true
-summary: "Placeholder — do uzupelnienia"
+agent-reviewed: 2026-04-09
 ---
-
 # Authenticator
 
-#todo/complete Notatka do uzupelnienia.
+Two-factor authentication app for securing online accounts.
 
-Powiazane: [[GENERAL/What tools I use]]
+## Links
+### Description
+Microsoft Authenticator — generates time-based one-time passwords (TOTP) and supports push notifications for Microsoft accounts.
+### Download or use
+Available on iOS and Android app stores.
+
+## Reasoning for
+Essential security layer for all important accounts. I use it alongside [[1Password]] — 1Password for passwords, Authenticator for 2FA codes.
+
+## Alternatives considered
+- Google Authenticator — simpler but less features
+- Authy — multi-device sync but more complex
+
+## Resources
+[Microsoft Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app)
+
+---
+Template: [[templates/tool]]

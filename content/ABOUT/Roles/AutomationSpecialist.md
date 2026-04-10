@@ -1,16 +1,29 @@
 ---
 title: "AutomationSpecialist"
-date: 2026-04-05
+date: 2022-08-21
 enableToc: true
 openToc: true
-tags: ["about", "todo/complete"]
+tags: ["about", "automation", "integration"]
 type: basic-note
-agent-created: true
-summary: "Placeholder — do uzupelnienia"
+agent-reviewed: 2026-04-09
 ---
+# Automation Specialist
 
-# AutomationSpecialist
+I automate business processes — primarily with code and AI agents, supplemented by tools like [[Make]] and [[n8n]] where they fit.
 
-#todo/complete Notatka do uzupelnienia.
+## What I automate
+- Business process workflows (document processing, approvals, notifications)
+- System integrations (SQL Server, BigQuery, Airtable, APIs)
+- AI-powered workflows (chatbots, voicebots via [[VAPI]], RAG systems)
+- Data pipelines and reporting
 
-Powiazane: [[ABOUT/Roles/Roles]]
+## Approach
+Code-first. I use no-code/low-code tools when the client lacks a technical team or for rapid prototyping, but the default is writing code with AI agent assistance.
+
+## Past projects
+- Invoice automation (OCR + bank integration) — 95% error reduction
+- Creative system for event agency — 50% acceleration
+- System integration for PHU Impex — SQL Server + Airtable + BigQuery
+- Contextual chatbot — 70%+ automation rate
+
+Powiazane: [[Roles]]

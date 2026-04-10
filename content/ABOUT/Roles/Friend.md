@@ -1,16 +1,16 @@
 ---
 title: "Friend"
-date: 2026-04-05
+date: 2022-08-21
 enableToc: true
 openToc: true
-tags: ["about", "todo/complete"]
+tags: ["about", "friend"]
 type: basic-note
-agent-created: true
-summary: "Placeholder — do uzupelnienia"
+agent-reviewed: 2026-04-09
 ---
-
 # Friend
 
-#todo/complete Notatka do uzupelnienia.
+I value deep, long-term friendships over a wide social circle. I prefer quality time — hiking, shared meals, honest conversations — over large social events.
 
-Powiazane: [[ABOUT/Roles/Roles]]
+My closest friends are often people I've worked with or built something together. Shared challenges create the strongest bonds.
+
+Powiazane: [[Roles]]

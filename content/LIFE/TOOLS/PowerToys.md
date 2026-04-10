@@ -1,16 +1,34 @@
 ---
 title: "PowerToys"
-date: 2026-04-05
+date: 2022-09-06
 enableToc: true
 openToc: true
-tags: ["tool", "todo/complete"]
+tags: ["tool", "windows", "productivity"]
 type: tool
-agent-created: true
-summary: "Placeholder — do uzupelnienia"
+agent-reviewed: 2026-04-09
 ---
-
 # PowerToys
 
-#todo/complete Notatka do uzupelnienia.
+Microsoft PowerToys — a set of utilities for power users to tune and streamline their Windows experience.
 
-Powiazane: [[GENERAL/What tools I use]]
+## Links
+### Description
+Open-source collection of tools from Microsoft that enhance Windows productivity.
+### Download or use
+[Microsoft PowerToys on GitHub](https://github.com/microsoft/PowerToys)
+
+## Reasoning for
+I use it primarily for:
+- **FancyZones** — window management and snapping to custom layouts
+- **PowerToys Run** — quick launcher (Alt+Space) to find files, apps, and run commands
+- **Color Picker** — quick color sampling
+- **File Explorer add-ons** — Markdown and SVG preview
+
+## Alternatives considered
+- Individual tools for each feature — but PowerToys bundles everything in one package
+
+## Resources
+[PowerToys Documentation](https://learn.microsoft.com/en-us/windows/powertoys/)
+
+---
+Template: [[templates/tool]]
