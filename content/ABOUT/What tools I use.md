@@ -1,83 +1,56 @@
 ---
 title: "What tools I use"
-date:  2022-09-06
+date: 2022-09-06
 enableToc: true
 openToc: true
-tags: ["tools"]
+tags: ["tools", "about"]
 type: basic-note
+agent-reviewed: 2026-04-09
 ---
 # What tools I use
 
-## Automation
-[[NOCODE/TOOLS/Make]]
-[[NOCODE/TOOLS/Zapier]]
-[[LIFE/TOOLS/TextExpander]]
-
-## Programming
-### .NET
-[[CODE/TOOLS/Visual Studio]]
+## AI & Development
+[[AI/TOOLS/Claude Code]]
+[[AI/TOOLS/Cursor]]
 [[CODE/TOOLS/Visual Studio Code]]
+[[CODE/TOOLS/Git]]
+[[CODE/TOOLS/Docker]]
+[[CODE/TOOLS/Supabase]]
 
-### WEB
-[[CODE/TOOLS/Visual Studio Code]]
-
-### JAVASCRIPT
-[[CODE/TOOLS/Visual Studio Code]]
-[[CODE/TOOLS/RunJS]]
+## Automation & Integration
+[[BUSINESS/TOOLS/Make]]
+[[BUSINESS/TOOLS/n8n]]
+[[AI/TOOLS/VAPI]]
 
 ## Productivity
-
-### Mail management
-[[BUSINESS/TOOLS/Outlook]]
-
 ### Task management
 [[BUSINESS/TOOLS/ClickUp]]
 [[LIFE/TOOLS/Microsoft To Do]]
 
 ### Notes
 [[LIFE/TOOLS/Obsidian]]
-[[LIFE/TOOLS/OneNote]]
-[[NOCODE/TOOLS/Notion]]
-[[BUSINESS/TOOLS/ClickUp]]
+[[BUSINESS/TOOLS/Notion]]
 
-### Calendar
+### Mail & Calendar
 [[BUSINESS/TOOLS/Outlook]]
 
-### Focus
-[[LIFE/TOOLS/Windows]]
-
-### Clipboard manager
-[[LIFE/TOOLS/Windows]]
-
 ### Password manager
-[[LIFE/TOOLS/Dashlane]]
+[[BUSINESS/TOOLS/1Password]]
 [[LIFE/TOOLS/Authenticator]]
-[[LIFE/TOOLS/Edge]]
 
-### Window manager
+### Window manager & Launcher
 [[LIFE/TOOLS/PowerToys]]
 
-### Launcher
-[[LIFE/TOOLS/PowerToys]]
-
-### Mindmaps
-[[LIFE/TOOLS/Obsidian]]
-
-### Video editing
-[[BUSINESS/TOOLS/Movavi]]
-[[BUSINESS/TOOLS/Descript]]
-[[BUSINESS/TOOLS/Happyscribe]]
-
-## News and feed
-[[LIFE/TOOLS/Feedly]]
+### Diagrams & Whiteboard
+[[BUSINESS/TOOLS/Excalidraw]]
+[[BUSINESS/TOOLS/Miro]]
 
 ## Browser
 [[LIFE/TOOLS/Edge]]
-[[LIFE/TOOLS/Brave]]
-[[LIFE/TOOLS/Firefox]]
 
 ## Books
-[[LIFE/TOOLS/LubimyCzytac]]
-[[LIFE/TOOLS/Goodreads]]
-[[BUSINESS/TOOLS/Blinkist]]
-[[LIFE/TOOLS/Audioteka]]
+[[LIFE/TOOLS/Kindle]]
+
+## Infrastructure
+[[CODE/TOOLS/Google Cloud]]
+[[AI/TOOLS/NemoClaw]]

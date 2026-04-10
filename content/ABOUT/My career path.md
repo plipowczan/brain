@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic", "career", "programer", "about"]
 type: basic-note
+agent-reviewed: 2026-04-09
 ---
 #todo Add backlinks
 # My career path
@@ -54,3 +55,17 @@ Last but not least lesson I learned would be that time is very important. It is 
 
 # Resources
 This article is published also here: [MY CAREER PATH - Pawel Lipowczan](https://pawel.lipowczan.pl/my-career-path/)
+
+## 2024-2026: CTO & Agentic Coding
+
+After years of consulting and leading technical teams, I made a significant shift. Together with a partner, I co-founded **200IQ Labs** and took the role of CTO. We're building [[PROJECTS/QAMERA-AI/Qamera AI]] — an AI-powered virtual photo studio for e-commerce.
+
+The biggest change in how I work: I no longer write most of the code myself. Instead, I design environments for AI coding agents — specifications, context files, review loops, and guardrails. 99% of small code fixes in Qamera AI are done by agents. My role shifted from "developer who writes code" to "architect who designs systems for agents to write code."
+
+Key areas I focus on now:
+1. [[AI/KNOWLEDGE/INFO/Agentic Coding]] — designing agent environments, not manual coding
+2. [[AI/KNOWLEDGE/INFO/Context Engineering]] — CLAUDE.md, MCP servers, skills, sub-agents
+3. [[BUSINESS/KNOWLEDGE/INFO/Product-Market Fit]] — validating Qamera AI with real customers
+4. [[BUSINESS/KNOWLEDGE/INFO/Build in Public]] — sharing the journey on LinkedIn
+
+I also continue consulting through [[PROJECTS/PLSOFT/PLSoft]], helping companies integrate AI into their workflows, and I'm becoming a trainer/mentor at [[PROJECTS/VALUE-BUILDERS/Value Builders]].
