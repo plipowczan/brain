@@ -1,0 +1,293 @@
+content\STYL_PISANIA_ANALIZA.md
+content\_index.md
+content\ABOUT\About.md
+content\ABOUT\Bucket list.md
+content\ABOUT\Building a Second Brain.md
+content\ABOUT\CLIFTONSTRENGTHS.md
+content\ABOUT\DISC.md
+content\ABOUT\How i read books.md
+content\ABOUT\I have a business and not business has me.md
+content\ABOUT\Motivation system for my kids.md
+content\ABOUT\My career path.md
+content\ABOUT\Principles.md
+content\ABOUT\What tools I use.md
+content\ABOUT\HABITS\Habits.md
+content\ABOUT\Roles\AutomationSpecialist.md
+content\ABOUT\Roles\Developer.md
+content\ABOUT\Roles\Father.md
+content\ABOUT\Roles\Founder.md
+content\ABOUT\Roles\Friend.md
+content\ABOUT\Roles\Husband.md
+content\ABOUT\Roles\Roles.md
+content\ABOUT\Roles\Son.md
+content\AI\KNOWLEDGE\INFO\Agentic Coding.md
+content\AI\KNOWLEDGE\INFO\AI Agent Security.md
+content\AI\KNOWLEDGE\INFO\AI Trends 2026.md
+content\AI\KNOWLEDGE\INFO\Context Engineering.md
+content\AI\KNOWLEDGE\INFO\Harness Engineering.md
+content\AI\KNOWLEDGE\INFO\LLM Knowledge Bases.md
+content\AI\KNOWLEDGE\INFO\Skills 2.0 Testing.md
+content\AI\KNOWLEDGE\INFO\Specification-Driven Development.md
+content\AI\NOTES\Hackathon Hacknation.md
+content\AI\TOOLS\Agent Skills.md
+content\AI\TOOLS\Autoresearch.md
+content\AI\TOOLS\Awesome Claude Code.md
+content\AI\TOOLS\Claude Code Best Practice.md
+content\AI\TOOLS\Claude Code.md
+content\AI\TOOLS\Cursor.md
+content\AI\TOOLS\Graphify.md
+content\AI\TOOLS\NemoClaw.md
+content\AI\TOOLS\UI UX Pro Max.md
+content\AI\TOOLS\VAPI.md
+content\BUSINESS\BOOKS\Amp It Up.md
+content\BUSINESS\BOOKS\Company of one.md
+content\BUSINESS\BOOKS\Millionaire Fastlane.md
+content\BUSINESS\BOOKS\The Inevitable.md
+content\BUSINESS\BOOKS\The One Thing.md
+content\BUSINESS\KNOWLEDGE\HOWTO\Contact a client.md
+content\BUSINESS\KNOWLEDGE\HOWTO\How to convert multiselect field into a 'link to another table field'.md
+content\BUSINESS\KNOWLEDGE\HOWTO\How to convert pdf to Goodle Docs or Word.md
+content\BUSINESS\KNOWLEDGE\HOWTO\How to create an app in Make.md
+content\BUSINESS\KNOWLEDGE\HOWTO\How to instantly trigger Make scenario on row created event from Airtable free plan.md
+content\BUSINESS\KNOWLEDGE\HOWTO\How to send emails directly from Free Airtable using Sendgrid extension.md
+content\BUSINESS\KNOWLEDGE\HOWTO\React when employee doesn't do what he is supposed to.md
+content\BUSINESS\KNOWLEDGE\HOWTO\Synchronize Airtable with Webflow.md
+content\BUSINESS\KNOWLEDGE\HOWTO\Test email rating.md
+content\BUSINESS\KNOWLEDGE\INFO\Build in Public.md
+content\BUSINESS\KNOWLEDGE\INFO\Data Maturity Model.md
+content\BUSINESS\KNOWLEDGE\INFO\LinkedIn Strategy.md
+content\BUSINESS\KNOWLEDGE\INFO\Process Mapping.md
+content\BUSINESS\KNOWLEDGE\INFO\Product-Market Fit.md
+content\BUSINESS\NOTES\El Padre Case Study.md
+content\BUSINESS\TOOLS\Airtable.md
+content\BUSINESS\TOOLS\ClickUp.md
+content\BUSINESS\TOOLS\Excalidraw.md
+content\BUSINESS\TOOLS\Make.md
+content\BUSINESS\TOOLS\Miro.md
+content\BUSINESS\TOOLS\n8n.md
+content\BUSINESS\TOOLS\Notion.md
+content\BUSINESS\TOOLS\Outlook.md
+content\BUSINESS\TOOLS\Sendgrid.md
+content\BUSINESS\TOOLS\Zapier.md
+content\CODE\KNOWLEDGE\HOWTO\Apple-style Animations with AI.md
+content\CODE\KNOWLEDGE\HOWTO\Common workflow I use in dotnet projects using Azure DevOps.md
+content\CODE\KNOWLEDGE\HOWTO\Export git logs to file.md
+content\CODE\KNOWLEDGE\HOWTO\How I work on HTML email templates.md
+content\CODE\KNOWLEDGE\HOWTO\How to deal with pull request merge conflicts.md
+content\CODE\KNOWLEDGE\HOWTO\How to set Hugo RSS feed.md
+content\CODE\KNOWLEDGE\HOWTO\Vibe Coding.md
+content\CODE\KNOWLEDGE\INFO\AI Chatbots Architecture.md
+content\CODE\TOOLS\Awesome Design MD.md
+content\CODE\TOOLS\Docker.md
+content\CODE\TOOLS\Excalidraw.md
+content\CODE\TOOLS\Git.md
+content\CODE\TOOLS\Google Cloud.md
+content\CODE\TOOLS\Next.js.md
+content\CODE\TOOLS\Nucleify.md
+content\CODE\TOOLS\OpenSpec.md
+content\CODE\TOOLS\OPSX Workflow.md
+content\CODE\TOOLS\React.md
+content\CODE\TOOLS\Remotion.md
+content\CODE\TOOLS\RunJS.md
+content\CODE\TOOLS\Supabase.md
+content\CODE\TOOLS\Visual Studio Code.md
+content\CODE\TOOLS\Visual Studio.md
+content\CRYPTO\KNOWLEDGE\INFO\Bitcoin.md
+content\CRYPTO\KNOWLEDGE\INFO\CEX.md
+content\CRYPTO\KNOWLEDGE\INFO\Stan rynku krypto 2026.md
+content\CRYPTO\NOTES\Cosmos.md
+content\CRYPTO\NOTES\Crypto Exchanges.md
+content\CRYPTO\NOTES\Filecoin.md
+content\CRYPTO\NOTES\Influencers.md
+content\CRYPTO\NOTES\My web3.md
+content\CRYPTO\NOTES\Polygon.md
+content\CRYPTO\NOTES\What mistakes I made on the crypto market in 2021-2022.md
+content\KNOWLEDGES\QUOTES\By failing to prepare you are preparing to fail.md
+content\KNOWLEDGES\QUOTES\Hofstadter's law.md
+content\KNOWLEDGES\QUOTES\Importance and urgency.md
+content\KNOWLEDGES\QUOTES\In this world, nothing is certain except death and taxes.md
+content\KNOWLEDGES\QUOTES\Not everyone gets the opportunity to be stressed.md
+content\KNOWLEDGES\QUOTES\Parkinson's law.md
+content\KNOWLEDGES\QUOTES\Quotes.md
+content\KNOWLEDGES\QUOTES\Think for yourself and question authority.md
+content\LIFE\BOOKS\12 Rules for Life.md
+content\LIFE\BOOKS\Atomic habits.md
+content\LIFE\BOOKS\Building a Second Brain.md
+content\LIFE\BOOKS\Dopamine Detox.md
+content\LIFE\BOOKS\How to take smart notes.md
+content\LIFE\BOOKS\Learn Like a Pro.md
+content\LIFE\BOOKS\Miracle morning.md
+content\LIFE\BOOKS\Sapiens. Od zwierz¹t do bogów.md
+content\LIFE\BOOKS\The Mental Toughness Handbook.md
+content\LIFE\BOOKS\W³am siê do mózgu.md
+content\LIFE\BOOKS\Zaprojektuj swoj¹ przysz³oœæ.md
+content\LIFE\KNOWLEDGE\HOWTO\How to clean desktop on Windows.md
+content\LIFE\KNOWLEDGE\HOWTO\How to create a task for delegation.md
+content\LIFE\KNOWLEDGE\HOWTO\How to create mind map.md
+content\LIFE\KNOWLEDGE\HOWTO\How to download webm video from URL (html page).md
+content\LIFE\KNOWLEDGE\HOWTO\How to learn.md
+content\LIFE\KNOWLEDGE\HOWTO\When to exercise.md
+content\LIFE\KNOWLEDGE\INFO\5 Minute Journal.md
+content\LIFE\KNOWLEDGE\INFO\5 second rule.md
+content\LIFE\KNOWLEDGE\INFO\6 life tips from Kevin Kelly.md
+content\LIFE\KNOWLEDGE\INFO\Blue light.md
+content\LIFE\KNOWLEDGE\INFO\Cold shower.md
+content\LIFE\KNOWLEDGE\INFO\Cornel Notes Taking System.md
+content\LIFE\KNOWLEDGE\INFO\Digital Garden.md
+content\LIFE\KNOWLEDGE\INFO\DISC.md
+content\LIFE\KNOWLEDGE\INFO\Eisenhower Matrix.md
+content\LIFE\KNOWLEDGE\INFO\Gratitude.md
+content\LIFE\KNOWLEDGE\INFO\Jordan Petersons 12 rules for life.md
+content\LIFE\KNOWLEDGE\INFO\Mind map.md
+content\LIFE\KNOWLEDGE\INFO\Obsidian.md
+content\LIFE\KNOWLEDGE\INFO\Pareto principle.md
+content\LIFE\KNOWLEDGE\INFO\Pomodoro.md
+content\LIFE\KNOWLEDGE\INFO\Quartz.md
+content\LIFE\KNOWLEDGE\INFO\Second Brain Design.md
+content\LIFE\KNOWLEDGE\INFO\The Tale of the Old Man and His Son's Journey.md
+content\LIFE\KNOWLEDGE\INFO\Trust.md
+content\LIFE\KNOWLEDGE\INFO\Zettelkasten.md
+content\LIFE\NOTES\Distractions.md
+content\LIFE\NOTES\Programmer and what's next.md
+content\LIFE\NOTES\Reading list.md
+content\LIFE\TOOLS\Authenticator.md
+content\LIFE\TOOLS\Edge.md
+content\LIFE\TOOLS\Kindle.md
+content\LIFE\TOOLS\Microsoft To Do.md
+content\LIFE\TOOLS\Obsidian.md
+content\LIFE\TOOLS\OneNote.md
+content\LIFE\TOOLS\PowerToys.md
+content\LIFE\TOOLS\Revolut Junior.md
+content\LIFE\TOOLS\Revolut.md
+content\LIFE\TOOLS\TextExpander.md
+content\LIFE\TOOLS\Windows.md
+content\NOCODE\KNOWLEDGE\HOWTO\Lead Generation Pipeline.md
+content\NOCODE\KNOWLEDGE\INFO\Automation Tool Selection.md
+content\PROJECTS\Projects.md
+content\PROJECTS\AGENTIC-SYSTEMS\Agentic Systems.md
+content\PROJECTS\ARCHIVE\Drug Temperature Control System.md
+content\PROJECTS\ARCHIVE\Genti Retail.md
+content\PROJECTS\ARCHIVE\Trendy 2026.md
+content\PROJECTS\ARCHIVE\Work attendance management system.md
+content\PROJECTS\ARCHIVE\AH\PULS.md
+content\PROJECTS\ARCHIVE\SHAREFUND\ShareFund.md
+content\PROJECTS\BRAIN\Brain.md
+content\PROJECTS\PLSOFT\PLSoft.md
+content\PROJECTS\QAMERA-AI\Qamera AI.md
+content\PROJECTS\VALUE-BUILDERS\Value Builders.md
+content\PROJECTS\VALUE-BUILDERS-TRIBE\Value Builders Tribe.md
+content\templates\basic_notes.md
+content\templates\blog_post.md
+content\templates\book.md
+content\templates\crypto_dyor.md
+content\templates\daily_journal.md
+content\templates\eisenhower_matrix.md
+content\templates\knowledge_note_how_to.md
+content\templates\knowledge_note_info.md
+content\templates\learning_notes.md
+content\templates\meeting_notes.md
+content\templates\okr.md
+content\templates\plane_trip_planning.md
+content\templates\puls.md
+content\templates\quote.md
+content\templates\tool.md
+content\TRAVELS\itinerary sample.md
+content\TRAVELS\My travels.md
+content\TRAVELS\TOOLS\Ventusky.md
+content\TRAVELS\TRIPS\2022 Iceland October.md
+content\TRAVELS\TRIPS\2023 Albania June.md
+content\TRAVELS\TRIPS\2023 Greece January.md
+content\TRAVELS\TRIPS\2024 07 Bieszczady.md
+content\TRAVELS\TRIPS\2025 07 Beskidy.md
+content\_indexes\catalog.md
+content\_indexes\graph.md
+content\_indexes\vault-map.md
+content\_outputs\reports\2026-04-05_health-report.md
+content\_raw\processed\2026-04-05_excalidraw.md
+content\_raw\processed\2026-04-05_karpathyautoresearch.md
+content\_raw\processed\2026-04-05_Thread by @karpathy.md
+content\_raw\processed\2026-04-09_anthropicsskills_agent_skills.md
+content\_raw\processed\2026-04-09_karpathy_autoresearch.md
+content\_raw\processed\2026-04-09_llm-wiki.md
+content\_raw\processed\2026-04-09_nucleify_modular_framework.md
+content\_raw\processed\2026-04-09_skill_issue_harness_engineering.md
+content\_raw\processed\2026-04-10_hesreallyhim-awesome-claude-code.md
+content\_raw\processed\2026-04-10_safishamsi-graphify.md
+content\_raw\processed\2026-04-10_shanraisshan-claude-code-best-practice.md
+content\_raw\processed\2026-04-10_voltagent-awesome-design-md.md
+content\ATTACHMENTS\20201208_CliftonStrenghts_34_results_pawel_lipowczan.pdf
+content\ATTACHMENTS\DISC Pawe³ Lipowczan.pdf
+content\ATTACHMENTS\0af06fc68ea47f3128b162c77a29425d_MD5.png
+content\ATTACHMENTS\16f94e278398e0e7e35fd16219694985_MD5.png
+content\ATTACHMENTS\1fcbe6adf0c8b89e5195a678c654d9ff_MD5.svg
+content\ATTACHMENTS\2518ca5e606cf2b49080c2d7dc1513ae_MD5.png
+content\ATTACHMENTS\25d398e12d47023c0189e12d5b9e9f15_MD5.svg
+content\ATTACHMENTS\2942c80552adc258cd7b6be4548b80af_MD5.png
+content\ATTACHMENTS\2f59ec0b0011bf55b1bc1ddc2a076d73_MD5.png
+content\ATTACHMENTS\36fb83a70fea26022b3e450396fffda1_MD5.svg
+content\ATTACHMENTS\4a_round_nobg.png
+content\ATTACHMENTS\506a529fed25dcdebd9d06978436e3a0_MD5.png
+content\ATTACHMENTS\6318674ef60137bf8c8100a4de582e44_MD5.png
+content\ATTACHMENTS\6f5aa7cb1393bcd71cac9a417b65f88d_MD5.png
+content\ATTACHMENTS\71d70656bdedcfb208d66ee992fcd8a5_MD5.png
+content\ATTACHMENTS\7ac28b457524339150fb33c6fed73443_MD5.svg
+content\ATTACHMENTS\7c975cecdeae2bb0c72956e99373431f_MD5.png
+content\ATTACHMENTS\867d12609b6546a821b924cdf3e4b427_MD5.png
+content\ATTACHMENTS\8df07b7892567ce3be7d722c706b6760_MD5.png
+content\ATTACHMENTS\8f7e6a92fa0cc6b7ed86125cd22719e0_MD5.png
+content\ATTACHMENTS\d8a977c214632cf594f9f7d7aaf377e7_MD5.png
+content\ATTACHMENTS\ed76c18f34496558494ccecd17f5d656_MD5.svg
+content\ATTACHMENTS\eebe76916f1dc9ae54894252f78e111a_MD5.jpg
+content\ATTACHMENTS\IMG_20220727_203730.jpg
+content\ATTACHMENTS\Pasted image 20220821205449.png
+content\ATTACHMENTS\Pasted image 20220821212724.png
+content\ATTACHMENTS\Pasted image 20220828131700.png
+content\ATTACHMENTS\Pasted image 20220828131754.png
+content\ATTACHMENTS\Pasted image 20220905171437.png
+content\ATTACHMENTS\Pasted image 20220905171755.png
+content\ATTACHMENTS\Pasted image 20221027221450.png
+content\ATTACHMENTS\Pasted image 20221027221914.png
+content\ATTACHMENTS\Pasted image 20221027222236.png
+content\ATTACHMENTS\Pasted image 20221027222410.png
+content\ATTACHMENTS\Pasted image 20221027222414.png
+content\ATTACHMENTS\Pasted image 20221027222642.png
+content\ATTACHMENTS\Pasted image 20221027222756.png
+content\ATTACHMENTS\Pasted image 20221027222843.png
+content\ATTACHMENTS\Pasted image 20221027223106.png
+content\ATTACHMENTS\Pasted image 20221027223207.png
+content\ATTACHMENTS\Pasted image 20221107103611.png
+content\ATTACHMENTS\Pasted image 20221107103703.png
+content\ATTACHMENTS\Pasted image 20221107104314.png
+content\ATTACHMENTS\Pasted image 20221107104405.png
+content\ATTACHMENTS\Pasted image 20221111233121.png
+content\ATTACHMENTS\Pasted image 20221111233159.png
+content\ATTACHMENTS\Pasted image 20221202165500.png
+content\ATTACHMENTS\Pasted image 20221202165602.png
+content\ATTACHMENTS\Pasted image 20221202165729.png
+content\ATTACHMENTS\Pasted image 20221202165759.png
+content\ATTACHMENTS\Pasted image 20221202165852.png
+content\ATTACHMENTS\Pasted image 20221202170021.png
+content\ATTACHMENTS\Pasted image 20221202170551.png
+content\ATTACHMENTS\Pasted image 20221202170630.png
+content\ATTACHMENTS\Pasted image 20221202170735.png
+content\ATTACHMENTS\Pasted image 20221202171020.png
+content\ATTACHMENTS\Pasted image 20221202171226.png
+content\ATTACHMENTS\Pasted image 20221202171517.png
+content\ATTACHMENTS\Pasted image 20221202171724.png
+content\ATTACHMENTS\Pasted image 20221202171846.png
+content\ATTACHMENTS\Pasted image 20221202171934.png
+content\ATTACHMENTS\Pasted image 20221202172110.png
+content\ATTACHMENTS\Pasted image 20221202174738.png
+content\ATTACHMENTS\Pasted image 20221202174909.png
+content\ATTACHMENTS\Pasted image 20221202175300.png
+content\ATTACHMENTS\Pasted image 20221202175317.png
+content\ATTACHMENTS\Pasted image 20221202175425.png
+content\ATTACHMENTS\Pasted image 20221202175507.png
+content\ATTACHMENTS\Pasted image 20230716070543.png
+content\ATTACHMENTS\Pasted image 20230716071014.png
+content\ATTACHMENTS\Pasted image 20230716071359.png
+content\ATTACHMENTS\Pasted image 20231216175543.png
+content\ATTACHMENTS\Pasted image 20231216175730.png
+content\ATTACHMENTS\Pasted image 20240625221302.png
+content\ATTACHMENTS\Pasted image 20250619200613.png
+content\ATTACHMENTS\pawel_lipowczan_2023.jpg
