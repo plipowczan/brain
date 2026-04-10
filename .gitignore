@@ -6,3 +6,4 @@ prof/
 .hugo_build.lock
 .claude/settings.local.json
 content/.obsidian/workspace.json
+.claude/settings.local.json
