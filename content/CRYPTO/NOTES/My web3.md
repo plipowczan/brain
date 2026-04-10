@@ -8,18 +8,18 @@ type: knowledge-note
 ---
 # My web3
 ## EXCHANGES
-[[WEB3/Crypto Exchanges]]
+[[Crypto Exchanges]]
 
 ## INFLUENCERS
-[[WEB3/Influencers]]
+[[Influencers]]
 
-## TOOLS
+## KNOWLEDGE
 ```dataview
 table title
-from "WEB3/TOOLS"
+from "CRYPTO/KNOWLEDGE"
 ```
-## PROJECTS
+## NOTES
 ```dataview
 table title
-from "WEB3/PROJECTS"
+from "CRYPTO/NOTES"
 ```

@@ -18,7 +18,7 @@ No download - online.
 I use it for small and easy automations based on few different apps and steps.
 
 ## Alternatives considered
-[[NOCODE/TOOLS/Make]]
+[[Make]]
 [8 Million+ Ready Automations For 900+ Apps | Integrately](https://integrately.com/)
 [Work Super Smart - Automate.io](https://automate.io/)
 [IFTTT](https://ifttt.com/)

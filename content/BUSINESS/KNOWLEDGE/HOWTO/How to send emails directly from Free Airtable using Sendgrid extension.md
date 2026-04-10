@@ -13,8 +13,8 @@ type: knowledge-note
 Lets assume we have multiple records in Airtable database. Each record contains email in Email field and we would like to send emails to all records on the list.
 
 ## 🛠️Prerequisites (if applicable): 
-Airtable account [[NOCODE/TOOLS/Airtable|Airtable]]
-Sendgrid account with administrative access [[NOCODE/TOOLS/Sendgrid|Sendgrid]]
+Airtable account [[Airtable]]
+Sendgrid account with administrative access [[Sendgrid]]
 
 ## 📝Instructions:
 #todo/replace

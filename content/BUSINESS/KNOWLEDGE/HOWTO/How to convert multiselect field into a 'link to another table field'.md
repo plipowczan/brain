@@ -8,7 +8,7 @@ type: knowledge-note
 ---
 
 # I had to convert a multiselect field into a “Link to another table”
-I prepared a scenario in [[NOCODE/TOOLS/Make]] for this purpose
+I prepared a scenario in [[Make]] for this purpose
 ![[ATTACHMENTS/Pasted image 20220905171437.png]]
 Blueprint can be downloaded here:
 ![[convert multiselect into link to another.json]]

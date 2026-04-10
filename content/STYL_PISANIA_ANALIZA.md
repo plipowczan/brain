@@ -187,7 +187,7 @@ How to:
 
 ### Fragment 6: Notatki projektowe - techniczne szczegóły
 
-**Źródło:** `PROJECTS/SHAREFUND/ShareFund.md`
+**Źródło:** `PROJECTS/ARCHIVE/SHAREFUND/ShareFund.md`
 
 ```
 # ShareFund
@@ -227,7 +227,7 @@ To avoid wasting time, suffering unnecessary financial losses, sacrificing relat
 
 ### Fragment 7: Refleksje i lekcje wyciągnięte z doświadczeń
 
-**Źródło:** `WEB3/What mistakes I made on the crypto market in 2021-2022.md`
+**Źródło:** `CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022.md`
 
 ```
 # What mistakes I made on the crypto market in 2021-2022
@@ -387,7 +387,7 @@ from "KATEGORIA"
 
 - `ABOUT/My career path.md`
 - `ABOUT/I have a business and not business has me.md`
-- `WEB3/What mistakes I made on the crypto market in 2021-2022.md`
+- `CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022.md`
 
 ### Notatka z książki
 
@@ -403,8 +403,8 @@ from "KATEGORIA"
 
 ### Notatka projektowa
 
-- `PROJECTS/SHAREFUND/ShareFund.md`
-- `PROJECTS/Hospital Logistics.md`
+- `PROJECTS/ARCHIVE/SHAREFUND/ShareFund.md`
+- `PROJECTS/ARCHIVE/Drug Temperature Control System.md`
 
 ### Notatka podróży
 

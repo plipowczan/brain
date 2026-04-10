@@ -13,4 +13,4 @@ summary: "Placeholder — do uzupelnienia"
 
 #todo/complete Notatka do uzupelnienia.
 
-Powiazane: [[PROJECTS/SHAREFUND/ShareFund]]
+Powiazane: [[ShareFund]]

@@ -27,8 +27,6 @@ Aktualnie Airtable służy mi głównie jako structured data store:
 Nie jest już sercem automatyzacji — tę rolę przejął kod + AI agenci. Airtable pozostaje świetny jako flexible database z UI.
 
 ## Alternatives considered
-[[Xata]]
-[[Altogic]]
 [[Notion]]
 [[ClickUp]]
 ## 📖 Resources

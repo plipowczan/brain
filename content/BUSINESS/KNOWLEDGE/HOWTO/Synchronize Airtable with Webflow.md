@@ -8,8 +8,7 @@ type: knowledge-note
 ---
 
 # Synchronize Airtable with Webflow
-[[NOCODE/TOOLS/Airtable]]
-[[NOCODE/TOOLS/Webflow]]
+[[Airtable]]
 
 ## 🗒️Task:
 You have a data in Airtable and you would like to synchronize it with Webflow.

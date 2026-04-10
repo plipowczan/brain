@@ -18,7 +18,7 @@ It is a nice place to take notes and organize your knowledge base.
 #todo/replace What it can be used for and how and why do I use it
 To build a knowledge base, structured database or management dashboard for your data. Moreover it is really useful in terms of building information pages and organize your project information.
 ## Alternatives considered
-[[NOCODE/TOOLS/Airtable]]
+[[Airtable]]
 [[BUSINESS/TOOLS/ClickUp]]
 ## Resources
 #todo/replace Link to relevant blog posts here.

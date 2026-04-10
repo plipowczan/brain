@@ -23,4 +23,4 @@ await tp.file.move(new_path);
 
 🧠Final word:
 
-Base on the concept of weekly recuring meetings: [[PROJECTS/AH/PULS]]
+Base on the concept of weekly recuring meetings: [[PULS]]
