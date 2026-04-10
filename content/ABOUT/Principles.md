@@ -5,9 +5,13 @@ enableToc: true
 openToc: true
 tags: ["basic", "principles"]
 type: basic-note
+agent-reviewed: 2026-04-09
 ---
 # Principles
 
 1. Work or invest in a project that when done will still bring income.
+2. Technology as leverage — technology is a multiplier for business goals, not an end in itself.
+3. Design environments for agents, not code manually.
+4. Code-first. No-code only when client lacks technical team.
 
-[[BUSINESS/BOOKS/Millionaire Fastlane]]
+[[Millionaire Fastlane]]
