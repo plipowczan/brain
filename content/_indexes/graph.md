@@ -1,7 +1,7 @@
 ---
-updated: 2026-04-10T12:00:00Z
-nodes: 182
-edges: 326
+updated: 2026-04-10T14:00:00Z
+nodes: 185
+edges: 348
 ---
 # Link Graph
 
@@ -33,7 +33,9 @@ AI/KNOWLEDGE/INFO/Specification-Driven Development -> Agentic Coding, Context En
 AI/NOTES/Hackathon Hacknation -> Claude Code, Agentic Coding
 AI/TOOLS/Agent Skills -> Harness Engineering, LLM Knowledge Bases
 AI/TOOLS/Autoresearch -> LLM Knowledge Bases
-AI/TOOLS/Awesome Claude Code -> Claude Code, UI UX Pro Max, Agent Skills, Context Engineering
+AI/TOOLS/Awesome Claude Code -> Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify
+AI/TOOLS/Claude Code Best Practice -> Claude Code, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills
+AI/TOOLS/Graphify -> Claude Code, Awesome Claude Code, LLM Knowledge Bases, Context Engineering
 AI/TOOLS/Claude Code -> Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor
 AI/TOOLS/Cursor -> Qamera AI, Claude Code, Visual Studio Code
 AI/TOOLS/NemoClaw -> Agentic Systems
@@ -65,6 +67,7 @@ CODE/KNOWLEDGE/HOWTO/Export git logs to file -> CODE/TOOLS/Git
 CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts -> CODE/TOOLS/Visual Studio
 CODE/KNOWLEDGE/HOWTO/Vibe Coding -> Cursor, Claude Code
 CODE/KNOWLEDGE/INFO/AI Chatbots Architecture -> n8n, VAPI, Agentic Systems
+CODE/TOOLS/Awesome Design MD -> Claude Code, Cursor
 CODE/TOOLS/Docker -> Qamera AI, NemoClaw
 CODE/TOOLS/Excalidraw -> Claude Code, Obsidian
 CODE/TOOLS/Google Cloud -> Qamera AI
@@ -136,8 +139,9 @@ ABOUT/Roles/Founder <- ABOUT/Roles/Roles
 ABOUT/Roles/Friend <- ABOUT/Roles/Roles
 ABOUT/Roles/Husband <- ABOUT/Roles/Roles
 ABOUT/Roles/Son <- ABOUT/Roles/Roles
-Agent Skills <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, LIFE/KNOWLEDGE/INFO/Second Brain Design
-Agentic Coding <- AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/NOTES/Hackathon Hacknation, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI
+Agent Skills <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, LIFE/KNOWLEDGE/INFO/Second Brain Design
+Awesome Claude Code <- AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify
+Agentic Coding <- AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Claude Code Best Practice, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI
 Agentic Systems <- AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/NemoClaw, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Make, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, PROJECTS/Projects, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, PROJECTS/VALUE-BUILDERS/Value Builders
 AI/KNOWLEDGE/INFO/Agentic Coding <- ABOUT/My career path
 AI/KNOWLEDGE/INFO/Context Engineering <- ABOUT/My career path
@@ -167,7 +171,8 @@ BUSINESS/TOOLS/n8n <- ABOUT/What tools I use
 BUSINESS/TOOLS/Notion <- ABOUT/What tools I use
 BUSINESS/TOOLS/Outlook <- ABOUT/What tools I use, LIFE/TOOLS/Microsoft To Do
 CEX <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026
-Claude Code <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Cursor, AI/TOOLS/UI UX Pro Max, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Excalidraw, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, CODE/TOOLS/Remotion, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/BRAIN/Brain
+Claude Code <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Cursor, AI/TOOLS/Graphify, AI/TOOLS/UI UX Pro Max, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Awesome Design MD, CODE/TOOLS/Excalidraw, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, CODE/TOOLS/Remotion, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/BRAIN/Brain
+Claude Code Best Practice <- AI/TOOLS/Awesome Claude Code
 ClickUp <- BUSINESS/TOOLS/Airtable
 CODE/TOOLS/Docker <- ABOUT/What tools I use
 CODE/TOOLS/Git <- ABOUT/What tools I use, CODE/KNOWLEDGE/HOWTO/Export git logs to file
@@ -176,16 +181,17 @@ CODE/TOOLS/Supabase <- ABOUT/What tools I use
 CODE/TOOLS/Visual Studio <- CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet projects using Azure DevOps, CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts
 CODE/TOOLS/Visual Studio Code <- ABOUT/What tools I use
 Company of one <- BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
-Context Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Context Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 Crypto Exchanges <- CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026, CRYPTO/NOTES/My web3
-Cursor <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/Agentic Coding, AI/TOOLS/Claude Code, AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/HOWTO/Vibe Coding, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Cursor <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/Agentic Coding, AI/TOOLS/Claude Code, AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Awesome Design MD, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 Damon Zahariades <- LIFE/BOOKS/The Mental Toughness Handbook
 Digital Garden <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/BRAIN/Brain
 El Padre Case Study <- BUSINESS/KNOWLEDGE/INFO/Process Mapping
 Google Cloud <- PROJECTS/QAMERA-AI/Qamera AI
+Graphify <- AI/TOOLS/Awesome Claude Code
 Gosia Lipowczan <- LIFE/BOOKS/Dopamine Detox
 Habits <- LIFE/BOOKS/Dopamine Detox
-Harness Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Agent Skills, AI/TOOLS/Claude Code
+Harness Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Agent Skills, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice
 How to take smart notes <- PROJECTS/BRAIN/Brain
 I have a business and not business has me <- BUSINESS/BOOKS/Company of one
 Influencers <- CRYPTO/NOTES/My web3
@@ -222,7 +228,7 @@ LIFE/TOOLS/PowerToys <- ABOUT/What tools I use
 LIFE/TOOLS/Revolut <- ABOUT/Motivation system for my kids
 LIFE/TOOLS/Revolut Junior <- ABOUT/Motivation system for my kids, LIFE/TOOLS/Revolut
 LinkedIn Strategy <- BUSINESS/KNOWLEDGE/INFO/Build in Public
-LLM Knowledge Bases <- AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/TOOLS/Agent Skills, AI/TOOLS/Autoresearch, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, PROJECTS/BRAIN/Brain
+LLM Knowledge Bases <- AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/TOOLS/Agent Skills, AI/TOOLS/Autoresearch, AI/TOOLS/Graphify, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, PROJECTS/BRAIN/Brain
 Make <- ABOUT/Roles/AutomationSpecialist, BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field', BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Zapier, BUSINESS/TOOLS/n8n, NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection
 Meurisse Thibaut <- LIFE/BOOKS/Dopamine Detox
 Microsoft To Do <- BUSINESS/TOOLS/ClickUp

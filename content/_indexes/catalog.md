@@ -1,6 +1,6 @@
 ---
-updated: 2026-04-10T12:00:00Z
-entries: 182
+updated: 2026-04-10T14:00:00Z
+entries: 185
 ---
 # Note Catalog
 
@@ -46,8 +46,10 @@ entries: 182
 ## AI/TOOLS
 - **Agent Skills** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's system for dynamically loading specialized instructions into Claude — reusable skill packages | → Harness Engineering, LLM Knowledge Bases
 - **Autoresearch** | tool | 2026-04-05 | [tool, ai, research, llm, autonomous-agents] | Karpathy's framework for AI agents running autonomous ML research experiments overnight | → LLM Knowledge Bases
-- **Awesome Claude Code** | tool | 2026-03-31 | [tool, ai, claude-code, resources] | Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations | → Claude Code, UI UX Pro Max, Agent Skills, Context Engineering
+- **Awesome Claude Code** | tool | 2026-03-31 | [tool, ai, claude-code, resources] | Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations | → Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify
 - **Claude Code** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's CLI for AI-assisted development — primary dev environment | → Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor
+- **Claude Code Best Practice** | tool | 2026-04-10 | [tool, ai, claude-code, coding-agents, resources] | 69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering | → Claude Code, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills
+- **Graphify** | tool | 2026-04-10 | [tool, ai, llm, knowledge-base, knowledge-management, coding-agents] | AI skill — code/docs/images → queryable knowledge graph with clustering, 71x token reduction | → Claude Code, Awesome Claude Code, LLM Knowledge Bases, Context Engineering
 - **Cursor** | tool | 2026-04-09 | [tool, ai, ide, coding-agents] | AI-powered IDE based on VS Code with built-in coding agents | → Qamera AI, Claude Code, Visual Studio Code
 - **NemoClaw** | tool | 2026-04-09 | [tool, ai, inference, self-hosted] | Self-hosted AI inference setup — OpenClaw gateway + NVIDIA Nemotron model | → Agentic Systems
 - **UI UX Pro Max** | tool | 2026-03-31 | [tool, ai, design, claude-code, skills] | Claude Code design system skill — adapts UI/UX guidance per project type (portfolio, SaaS, e-commerce) | → Claude Code, Cursor, Vibe Coding
@@ -107,6 +109,7 @@ entries: 182
 - **AI Chatbots Architecture** | knowledge-note | 2025-11-01 | [knowledge, info, ai, chatbots, rag] | LLM chatbot architecture — RAG, function calling, voicebots via VAPI, implementation costs and metrics | → n8n, VAPI, Agentic Systems
 
 ## CODE/TOOLS
+- **Awesome Design MD** | tool | 2026-04-10 | [tool, ai, design, coding-agents, frontend, ui] | Collection of DESIGN.md files from real brands — drop into project, AI agent generates matching UI | → Claude Code, Cursor
 - **Docker** | tool | 2026-04-09 | [tool, devops, containers] | Container platform for packaging and deploying applications | → Qamera AI, NemoClaw
 - **Excalidraw** | tool | 2026-03-31 | [tool, ai, diagrams, claude-code] | Diagram generation skill for Claude Code — integrates with Obsidian and VS Code for process mapping | → Claude Code, Obsidian
 - **Git** | tool | 2022-12-02 | [tool] | Template: tool | → -
