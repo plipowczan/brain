@@ -16,7 +16,7 @@ directly — that is your domain. You have full autonomy to create and edit note
 
 | Directory | Purpose | In build? |
 |-----------|---------|:-:|
-| `/content/<TOPIC>/` | Wiki articles (ABOUT, BUSINESS, CODE, GENERAL, HARDWARE, INVESTMENTS, KNOWLEDGES, LIFE, NOCODE, PROJECTS, TRAVELS, WEB3) | Yes |
+| `/content/<TOPIC>/` | Wiki articles (ABOUT, AI, BUSINESS, CODE, GENERAL, HARDWARE, INVESTMENTS, KNOWLEDGES, LIFE, NOCODE, PROJECTS, TRAVELS, WEB3) | Yes |
 | `/content/_raw/inbox/` | Drop zone for source documents | No |
 | `/content/_raw/processed/` | Archive of ingested sources | No |
 | `/content/_indexes/` | Auto-maintained navigation indexes | No |
@@ -25,6 +25,8 @@ directly — that is your domain. You have full autonomy to create and edit note
 | `/content/templates/` | Obsidian note templates | No |
 
 Sub-patterns within topics: `BOOKS/`, `TOOLS/`, `KNOWLEDGE/INFO/`, `KNOWLEDGE/HOWTO/`, `NOTES/`, `HABITS/`
+
+GitHub/open-source repositories → individual `tool` notes in the topic folder matching their domain (e.g., `AI/TOOLS/`, `CODE/TOOLS/`). Each repo gets its own note, not merged into a parent tool note.
 
 ## Navigation Protocol (Progressive Disclosure)
 
