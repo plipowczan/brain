@@ -1,6 +1,6 @@
 ---
-updated: 2026-04-10T14:00:00Z
-entries: 185
+updated: 2026-04-12T12:00:00Z
+entries: 186
 ---
 # Note Catalog
 
@@ -123,6 +123,7 @@ entries: 185
 - **RunJS** | tool | 2023-01-08 | [tool] | Template: tool | → -
 - **Supabase** | tool | 2026-04-09 | [tool, database, backend, baas] | Open-source Firebase alternative — Postgres database, auth, storage, realtime | → Qamera AI, Next.js, Airtable
 - **Visual Studio** | tool | 2023-01-08 | [tool, visualstudio, code] | It is integrated development environment (IDE). A creative platform to edit, debug and compile code... | → -
+- **MakerKit** | tool | 2026-04-12 | [tool, nextjs, saas, boilerplate, fullstack, react] | Production-ready Next.js SaaS starter kit with auth, billing, teams and multi-tenancy | → Agent Skills
 - **VisualStudioCode** | tool | 2022-09-22 | [tool] | Template: tool | → -
 
 ## CRYPTO/KNOWLEDGE/INFO

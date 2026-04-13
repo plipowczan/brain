@@ -1,7 +1,7 @@
 ---
-updated: 2026-04-10T14:00:00Z
-nodes: 185
-edges: 348
+updated: 2026-04-12T12:00:00Z
+nodes: 186
+edges: 349
 ---
 # Link Graph
 
@@ -76,6 +76,7 @@ CODE/TOOLS/OPSX Workflow -> Claude Code, Agentic Coding, Context Engineering
 CODE/TOOLS/OpenSpec -> Claude Code, OPSX Workflow, Agentic Coding, Context Engineering
 CODE/TOOLS/React -> Qamera AI, Next.js
 CODE/TOOLS/Remotion -> Claude Code
+CODE/TOOLS/MakerKit -> Agent Skills
 CODE/TOOLS/Supabase -> Qamera AI, Next.js, Airtable
 CRYPTO/KNOWLEDGE/INFO/Bitcoin -> What mistakes I made on the crypto market in 2021-2022, CEX
 CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026 -> Bitcoin, What mistakes I made on the crypto market in 2021-2022, CEX, Crypto Exchanges
@@ -139,7 +140,7 @@ ABOUT/Roles/Founder <- ABOUT/Roles/Roles
 ABOUT/Roles/Friend <- ABOUT/Roles/Roles
 ABOUT/Roles/Husband <- ABOUT/Roles/Roles
 ABOUT/Roles/Son <- ABOUT/Roles/Roles
-Agent Skills <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, LIFE/KNOWLEDGE/INFO/Second Brain Design
+Agent Skills <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, CODE/TOOLS/MakerKit, LIFE/KNOWLEDGE/INFO/Second Brain Design
 Awesome Claude Code <- AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify
 Agentic Coding <- AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Claude Code Best Practice, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI
 Agentic Systems <- AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/NemoClaw, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Make, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, PROJECTS/Projects, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, PROJECTS/VALUE-BUILDERS/Value Builders
