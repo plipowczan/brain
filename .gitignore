@@ -6,4 +6,14 @@ prof/
 .hugo_build.lock
 .claude/settings.local.json
 content/.obsidian/workspace.json
+content/.obsidian/workspace
+content/.obsidian/graph.json
+
+# Obsidian — plugin binaries (downloaded automatically by Obsidian)
+content/.obsidian/plugins/*/main.js
+content/.obsidian/plugins/*/styles.css
+
+# Obsidian — theme files (downloaded automatically)
+content/.obsidian/themes/*/theme.css
+
 .claude/settings.local.json
