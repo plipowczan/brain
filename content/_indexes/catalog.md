@@ -1,6 +1,6 @@
 ---
-updated: 2026-04-12T12:00:00Z
-entries: 186
+updated: 2026-04-14T12:00:00Z
+entries: 187
 ---
 # Note Catalog
 
@@ -79,6 +79,7 @@ entries: 186
 - **LinkedIn Strategy** | knowledge-note | 2026-04-09 | [knowledge, info, business, linkedin, branding, content] | Data-driven LinkedIn publishing strategy — formats, timing, content pillars | → Agentic Coding, Qamera AI, Build in Public
 - **Process Mapping** | knowledge-note | 2025-12-01 | [knowledge, info, business, processes, optimization] | Process mapping methodology — 4 elements (Action, Actor, Tool, Mode), optimization via delete → simplify → automate | → Make, n8n, El Padre Case Study, Airtable, Agentic Systems
 - **Product-Market Fit** | knowledge-note | 2026-04-09 | [knowledge, info, business, pmf, startup] | When your product satisfies strong market demand — the key milestone for startups | → Qamera AI, Company of one, Principles
+- **Autonomous Sales Agent Playbook** | knowledge-note | 2026-04-14 | [knowledge, info, business, ai, agents, sales, automation, lead-generation] | Playbook for building autonomous AI sales agents replacing $1.4k/mo SaaS stacks with ~$20/mo agent architecture | → Agentic Coding, Make, n8n
 
 ## BUSINESS/NOTES
 - **El Padre Case Study** | basic-note | 2025-11-16 | [basic, case-study, ai, automation, events] | Event agency AI offer automation — 10-50% faster, 75-120h/mo saved, ROI at 2-3 FTE equivalent | → Make, Airtable, Agentic Systems
@@ -239,7 +240,7 @@ entries: 186
 - **Brain** | basic-note | 2026-04-09 | [project, digital-garden, obsidian, quartz] | This digital garden — Obsidian vault + Quartz 4, published at brain.lipowczan.pl | → Obsidian, Quartz, Claude Code, Zettelkasten, Digital Garden, LLM Knowledge Bases, Building a Second Brain, How to take smart notes
 
 ## PROJECTS/PLSOFT
-- **PLSoft** | basic-note | 2026-04-09 | [project, consulting, plsoft] | Technology consulting practice — AI integration, process automation, architecture | → VAPI, About, Qamera AI
+- **PLSoft** | basic-note | 2026-04-09 | [project, consulting, plsoft] | Technology consulting practice — AI integration, process automation, architecture (CEIDG details added) | → VAPI, About, Qamera AI
 
 ## PROJECTS/QAMERA-AI
 - **Qamera AI** | basic-note | 2026-04-09 | [project, ai, saas, product, qamera] | AI-powered virtual photo studio for e-commerce — B2B SaaS by 200IQ Labs | → Next.js, Supabase, Google Cloud, Agentic Coding, About, PLSoft, Agentic Systems

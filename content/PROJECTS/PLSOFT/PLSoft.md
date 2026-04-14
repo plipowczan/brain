@@ -33,6 +33,17 @@ My solo consulting practice (Jednoosobowa Dzialalnosc Gospodarcza), operating si
 - Contextual chatbot — 70%+ automation rate
 - Voice agents via [[VAPI]]
 
+## 📒 Company Details (CEIDG)
+- **Firma**: PLSOFT PAWEŁ LIPOWCZAN
+- **NIP**: 5482378017
+- **REGON**: 240836787
+- **Status**: Aktywny
+- **Data rozpoczęcia**: 2008-03-01
+- **Adres**: ul. dr Michała Grażyńskiego 15, 43-450 Ustroń, woj. śląskie
+- **PKD główne**: 62.01.Z — Działalność związana z oprogramowaniem
+- **Adres do doręczeń elektronicznych**: AE:PL-37808-07390-JTCTR-23
+- Źródło: [CEIDG](https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=1941b3a6-b989-4e39-b759-6da365bf6bf6)
+
 ## 🔗 Links
 - [[About]] — my profile
 - [[Qamera AI]] — my product company (separate entity)

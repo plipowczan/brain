@@ -1,7 +1,7 @@
 ---
-updated: 2026-04-12T12:00:00Z
-nodes: 186
-edges: 349
+updated: 2026-04-14T12:00:00Z
+nodes: 187
+edges: 352
 ---
 # Link Graph
 
@@ -50,6 +50,7 @@ BUSINESS/KNOWLEDGE/INFO/Data Maturity Model -> Airtable, Make, n8n, Claude Code
 BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy -> Agentic Coding, Qamera AI, Build in Public
 BUSINESS/KNOWLEDGE/INFO/Process Mapping -> Make, n8n, El Padre Case Study, Airtable, Agentic Systems
 BUSINESS/KNOWLEDGE/INFO/Product-Market Fit -> Qamera AI, Company of one, Principles
+BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook -> Agentic Coding, Make, n8n
 BUSINESS/NOTES/El Padre Case Study -> Make, Airtable, Agentic Systems
 BUSINESS/TOOLS/1Password -> Authenticator
 BUSINESS/TOOLS/Airtable -> Notion, ClickUp
@@ -144,7 +145,7 @@ Agent Skills <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engi
 Awesome Claude Code <- AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify
 Agentic Coding <- AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Claude Code Best Practice, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI
 Agentic Systems <- AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/NemoClaw, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Make, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, PROJECTS/Projects, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, PROJECTS/VALUE-BUILDERS/Value Builders
-AI/KNOWLEDGE/INFO/Agentic Coding <- ABOUT/My career path
+AI/KNOWLEDGE/INFO/Agentic Coding <- ABOUT/My career path, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook
 AI/KNOWLEDGE/INFO/Context Engineering <- ABOUT/My career path
 AI/TOOLS/Claude Code <- ABOUT/What tools I use
 AI/TOOLS/Cursor <- ABOUT/What tools I use
@@ -166,9 +167,9 @@ BUSINESS/KNOWLEDGE/INFO/Product-Market Fit <- ABOUT/My career path
 BUSINESS/TOOLS/1Password <- ABOUT/What tools I use
 BUSINESS/TOOLS/ClickUp <- ABOUT/What tools I use, BUSINESS/TOOLS/Notion, LIFE/TOOLS/Microsoft To Do
 BUSINESS/TOOLS/Excalidraw <- ABOUT/What tools I use
-BUSINESS/TOOLS/Make <- ABOUT/What tools I use
+BUSINESS/TOOLS/Make <- ABOUT/What tools I use, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook
 BUSINESS/TOOLS/Miro <- ABOUT/What tools I use, LIFE/KNOWLEDGE/HOWTO/How to create mind map
-BUSINESS/TOOLS/n8n <- ABOUT/What tools I use
+BUSINESS/TOOLS/n8n <- ABOUT/What tools I use, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook
 BUSINESS/TOOLS/Notion <- ABOUT/What tools I use
 BUSINESS/TOOLS/Outlook <- ABOUT/What tools I use, LIFE/TOOLS/Microsoft To Do
 CEX <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026
