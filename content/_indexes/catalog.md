@@ -1,6 +1,6 @@
 ---
-updated: 2026-04-14T12:00:00Z
-entries: 187
+updated: 2026-04-26T00:00:00Z
+entries: 192
 ---
 # Note Catalog
 
@@ -50,6 +50,7 @@ entries: 187
 - **Claude Code** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's CLI for AI-assisted development — primary dev environment | → Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor
 - **Claude Code Best Practice** | tool | 2026-04-10 | [tool, ai, claude-code, coding-agents, resources] | 69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering | → Claude Code, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills
 - **Graphify** | tool | 2026-04-10 | [tool, ai, llm, knowledge-base, knowledge-management, coding-agents] | AI skill — code/docs/images → queryable knowledge graph with clustering, 71x token reduction | → Claude Code, Awesome Claude Code, LLM Knowledge Bases, Context Engineering
+- **Karpathy Skills** | tool | 2026-04-26 | [tool, ai, claude-code, coding-agents, context-engineering] | Single CLAUDE.md addressing 4 LLM-coder pitfalls (assumptions, overengineering, scope creep, weak goals) | → Awesome Claude Code, Context Engineering, Claude Code Best Practice, Agent Skills
 - **Cursor** | tool | 2026-04-09 | [tool, ai, ide, coding-agents] | AI-powered IDE based on VS Code with built-in coding agents | → Qamera AI, Claude Code, Visual Studio Code
 - **NemoClaw** | tool | 2026-04-09 | [tool, ai, inference, self-hosted] | Self-hosted AI inference setup — OpenClaw gateway + NVIDIA Nemotron model | → Agentic Systems
 - **UI UX Pro Max** | tool | 2026-03-31 | [tool, ai, design, claude-code, skills] | Claude Code design system skill — adapts UI/UX guidance per project type (portfolio, SaaS, e-commerce) | → Claude Code, Cursor, Vibe Coding
@@ -125,6 +126,10 @@ entries: 187
 - **Supabase** | tool | 2026-04-09 | [tool, database, backend, baas] | Open-source Firebase alternative — Postgres database, auth, storage, realtime | → Qamera AI, Next.js, Airtable
 - **Visual Studio** | tool | 2023-01-08 | [tool, visualstudio, code] | It is integrated development environment (IDE). A creative platform to edit, debug and compile code... | → -
 - **MakerKit** | tool | 2026-04-12 | [tool, nextjs, saas, boilerplate, fullstack, react] | Production-ready Next.js SaaS starter kit with auth, billing, teams and multi-tenancy | → Agent Skills
+- **Marp** | tool | 2026-04-26 | [tool, presentation, markdown, slides, open-source] | Markdown Presentation Ecosystem — Markdown → HTML/PDF/PPTX slide decks via CLI/VS Code/framework | → Marpit, Marp Core, Marp CLI
+- **Marp CLI** | tool | 2026-04-26 | [tool, presentation, markdown, cli, slides] | CLI for Marp/Marpit — Markdown → HTML/PDF/PPTX/PNG, watch & server mode | → Marp, Marpit
+- **Marp Core** | tool | 2026-04-26 | [tool, presentation, markdown, framework, slides] | Marpit + official themes + math + emoji + auto-scaling — default engine for Marp tooling | → Marpit, Marp CLI
+- **Marpit** | tool | 2026-04-26 | [tool, presentation, framework, markdown, slides] | Skinny framework: Markdown + CSS theme → static HTML/CSS slide deck — fundament całego Marp | → Marp, Marp Core
 - **VisualStudioCode** | tool | 2022-09-22 | [tool] | Template: tool | → -
 
 ## CRYPTO/KNOWLEDGE/INFO
