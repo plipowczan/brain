@@ -1,7 +1,7 @@
 ---
 updated: 2026-04-26T00:00:00Z
-nodes: 192
-edges: 367
+nodes: 193
+edges: 379
 ---
 # Link Graph
 
@@ -73,6 +73,7 @@ CODE/KNOWLEDGE/HOWTO/Export git logs to file -> CODE/TOOLS/Git
 CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts -> CODE/TOOLS/Visual Studio
 CODE/KNOWLEDGE/HOWTO/Vibe Coding -> Cursor, Claude Code
 CODE/KNOWLEDGE/INFO/AI Chatbots Architecture -> n8n, VAPI, Agentic Systems
+CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO -> Qamera AI, OpenSpec, OPSX Workflow, Specification-Driven Development, Context Engineering, Claude Code, Awesome Claude Code, Claude Code Best Practice, Vibe Coding, Agentic Coding, Brain
 CODE/TOOLS/Awesome Design MD -> Claude Code, Cursor
 CODE/TOOLS/Docker -> Qamera AI, NemoClaw
 CODE/TOOLS/Excalidraw -> Claude Code, Obsidian
@@ -125,7 +126,7 @@ PROJECTS/ARCHIVE/Work attendance management system -> ShareFund
 PROJECTS/BRAIN/Brain -> Obsidian, Quartz, Claude Code, Zettelkasten, Digital Garden, LLM Knowledge Bases, Building a Second Brain, How to take smart notes
 PROJECTS/PLSOFT/PLSoft -> VAPI, About, Qamera AI
 PROJECTS/Projects -> Qamera AI, PLSoft, Agentic Systems, Value Builders, Value Builders Tribe, Brain, ShareFund, PROJECTS/ARCHIVE/AH/AutomationHouse, PROJECTS/ARCHIVE/Drug Temperature Control System, PROJECTS/ARCHIVE/Genti Retail
-PROJECTS/QAMERA-AI/Qamera AI -> Next.js, Supabase, Google Cloud, Agentic Coding, About, PLSoft, Agentic Systems
+PROJECTS/QAMERA-AI/Qamera AI -> Next.js, Supabase, Google Cloud, Agentic Coding, About, PLSoft, Agentic Systems, Spec-driven SEO and GEO
 PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe -> Qamera AI, Agentic Systems, Value Builders, Build in Public
 PROJECTS/VALUE-BUILDERS/Value Builders -> Qamera AI, Agentic Systems, PLSoft, Value Builders Tribe
 TRAVELS/TRIPS/2022 Iceland October -> TRAVELS/TOOLS/Ventusky
@@ -147,8 +148,8 @@ ABOUT/Roles/Friend <- ABOUT/Roles/Roles
 ABOUT/Roles/Husband <- ABOUT/Roles/Roles
 ABOUT/Roles/Son <- ABOUT/Roles/Roles
 Agent Skills <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Karpathy Skills, CODE/TOOLS/MakerKit, LIFE/KNOWLEDGE/INFO/Second Brain Design
-Awesome Claude Code <- AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills
-Agentic Coding <- AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Claude Code Best Practice, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI
+Awesome Claude Code <- AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
+Agentic Coding <- AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Claude Code Best Practice, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI
 Agentic Systems <- AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/NemoClaw, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Make, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, PROJECTS/Projects, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, PROJECTS/VALUE-BUILDERS/Value Builders
 AI/KNOWLEDGE/INFO/Agentic Coding <- ABOUT/My career path, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook
 AI/KNOWLEDGE/INFO/Context Engineering <- ABOUT/My career path
@@ -160,7 +161,7 @@ Airtable <- BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airta
 Authenticator <- BUSINESS/TOOLS/1Password
 Autoresearch <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases
 Bitcoin <- CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026
-Brain <- LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, PROJECTS/Projects
+Brain <- CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, PROJECTS/Projects
 Build in Public <- BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe
 Building a Second Brain <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, PROJECTS/BRAIN/Brain
 BUSINESS/BOOKS/Company of one <- ABOUT/I have a business and not business has me
@@ -178,8 +179,8 @@ BUSINESS/TOOLS/n8n <- ABOUT/What tools I use, BUSINESS/KNOWLEDGE/INFO/Autonomous
 BUSINESS/TOOLS/Notion <- ABOUT/What tools I use
 BUSINESS/TOOLS/Outlook <- ABOUT/What tools I use, LIFE/TOOLS/Microsoft To Do
 CEX <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026
-Claude Code <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Cursor, AI/TOOLS/Graphify, AI/TOOLS/UI UX Pro Max, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Awesome Design MD, CODE/TOOLS/Excalidraw, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, CODE/TOOLS/Remotion, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/BRAIN/Brain
-Claude Code Best Practice <- AI/TOOLS/Awesome Claude Code, AI/TOOLS/Karpathy Skills
+Claude Code <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Cursor, AI/TOOLS/Graphify, AI/TOOLS/UI UX Pro Max, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/Awesome Design MD, CODE/TOOLS/Excalidraw, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, CODE/TOOLS/Remotion, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/BRAIN/Brain
+Claude Code Best Practice <- AI/TOOLS/Awesome Claude Code, AI/TOOLS/Karpathy Skills, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
 ClickUp <- BUSINESS/TOOLS/Airtable
 CODE/TOOLS/Docker <- ABOUT/What tools I use
 CODE/TOOLS/Git <- ABOUT/What tools I use, CODE/KNOWLEDGE/HOWTO/Export git logs to file
@@ -188,7 +189,7 @@ CODE/TOOLS/Supabase <- ABOUT/What tools I use
 CODE/TOOLS/Visual Studio <- CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet projects using Azure DevOps, CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts
 CODE/TOOLS/Visual Studio Code <- ABOUT/What tools I use
 Company of one <- BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
-Context Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Context Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 Crypto Exchanges <- CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026, CRYPTO/NOTES/My web3
 Cursor <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/Agentic Coding, AI/TOOLS/Claude Code, AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Awesome Design MD, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 Damon Zahariades <- LIFE/BOOKS/The Mental Toughness Handbook
@@ -253,7 +254,9 @@ Next.js <- CODE/TOOLS/React, CODE/TOOLS/Supabase, PROJECTS/QAMERA-AI/Qamera AI
 Notion <- BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/ClickUp
 Nucleify <- CODE/TOOLS/Next.js
 Obsidian <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, BUSINESS/TOOLS/Excalidraw, CODE/TOOLS/Excalidraw, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/BRAIN/Brain
-OPSX Workflow <- CODE/TOOLS/OpenSpec
+OpenSpec <- CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
+OPSX Workflow <- CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OpenSpec
+Specification-Driven Development <- CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
 PLSoft <- ABOUT/Roles/Founder, AI/TOOLS/VAPI, BUSINESS/BOOKS/Company of one, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/n8n, PROJECTS/Projects, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS/Value Builders
 Principles <- ABOUT/Roles/Founder, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
 PROJECTS/AGENTIC-SYSTEMS/Agentic Systems <- ABOUT/About
@@ -268,7 +271,7 @@ PROJECTS/QAMERA-AI/Qamera AI <- ABOUT/About, ABOUT/My career path
 PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe <- ABOUT/About
 PROJECTS/VALUE-BUILDERS/Value Builders <- ABOUT/About, ABOUT/My career path
 PROJECTS/Work attendance management system <- PROJECTS/ARCHIVE/SHAREFUND/ShareFund
-Qamera AI <- ABOUT/Roles/Developer, ABOUT/Roles/Founder, AI/KNOWLEDGE/INFO/Agentic Coding, AI/TOOLS/Claude Code, AI/TOOLS/Cursor, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/n8n, CODE/TOOLS/Docker, CODE/TOOLS/Google Cloud, CODE/TOOLS/Next.js, CODE/TOOLS/React, CODE/TOOLS/Supabase, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/PLSOFT/PLSoft, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, PROJECTS/VALUE-BUILDERS/Value Builders
+Qamera AI <- ABOUT/Roles/Developer, ABOUT/Roles/Founder, AI/KNOWLEDGE/INFO/Agentic Coding, AI/TOOLS/Claude Code, AI/TOOLS/Cursor, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/n8n, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/Docker, CODE/TOOLS/Google Cloud, CODE/TOOLS/Next.js, CODE/TOOLS/React, CODE/TOOLS/Supabase, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/PLSOFT/PLSoft, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, PROJECTS/VALUE-BUILDERS/Value Builders
 Quartz <- PROJECTS/BRAIN/Brain
 Roles <- ABOUT/Roles/AutomationSpecialist, ABOUT/Roles/Developer, ABOUT/Roles/Founder, ABOUT/Roles/Friend, ABOUT/Roles/Son
 Sendgrid <- BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension
@@ -279,7 +282,7 @@ UI UX Pro Max <- AI/TOOLS/Awesome Claude Code
 Value Builders <- PROJECTS/Projects, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe
 Value Builders Tribe <- PROJECTS/Projects, PROJECTS/VALUE-BUILDERS/Value Builders
 VAPI <- ABOUT/Roles/AutomationSpecialist, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, PROJECTS/PLSOFT/PLSoft
-Vibe Coding <- AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI
+Vibe Coding <- AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
 Visual Studio Code <- AI/TOOLS/Cursor
 What mistakes I made on the crypto market in 2021-2022 <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026
 Zapier <- BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection

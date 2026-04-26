@@ -1,6 +1,6 @@
 ---
 updated: 2026-04-26T00:00:00Z
-entries: 192
+entries: 193
 ---
 # Note Catalog
 
@@ -109,6 +109,7 @@ entries: 192
 
 ## CODE/KNOWLEDGE/INFO
 - **AI Chatbots Architecture** | knowledge-note | 2025-11-01 | [knowledge, info, ai, chatbots, rag] | LLM chatbot architecture — RAG, function calling, voicebots via VAPI, implementation costs and metrics | → n8n, VAPI, Agentic Systems
+- **Spec-driven SEO and GEO** | knowledge-note | 2026-04-26 | [knowledge, info, seo, geo, claude-code, openspec] | Synthesis of SEO + GEO patterns from portfolio + Qamera AI case studies — code-stack only top 20% controls | → OpenSpec, OPSX Workflow, Specification-Driven Development, Claude Code, Awesome Claude Code, Claude Code Best Practice, Vibe Coding, Agentic Coding, Qamera AI, Brain
 
 ## CODE/TOOLS
 - **Awesome Design MD** | tool | 2026-04-10 | [tool, ai, design, coding-agents, frontend, ui] | Collection of DESIGN.md files from real brands — drop into project, AI agent generates matching UI | → Claude Code, Cursor
@@ -248,7 +249,7 @@ entries: 192
 - **PLSoft** | basic-note | 2026-04-09 | [project, consulting, plsoft] | Technology consulting practice — AI integration, process automation, architecture (CEIDG details added) | → VAPI, About, Qamera AI
 
 ## PROJECTS/QAMERA-AI
-- **Qamera AI** | basic-note | 2026-04-09 | [project, ai, saas, product, qamera] | AI-powered virtual photo studio for e-commerce — B2B SaaS by 200IQ Labs | → Next.js, Supabase, Google Cloud, Agentic Coding, About, PLSoft, Agentic Systems
+- **Qamera AI** | basic-note | 2026-04-09 | [project, ai, saas, product, qamera] | AI-powered virtual photo studio for e-commerce — B2B SaaS by 200IQ Labs | → Next.js, Supabase, Google Cloud, Agentic Coding, About, PLSoft, Agentic Systems, Spec-driven SEO and GEO
 
 ## PROJECTS/VALUE-BUILDERS
 - **Value Builders** | basic-note | 2026-04-09 | [project, training, education] | Course where I serve as a trainer — teaching AI and technology to builders | → Qamera AI, Agentic Systems, PLSoft, Value Builders Tribe
