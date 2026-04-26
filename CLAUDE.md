@@ -186,65 +186,15 @@ summary: "One-line description for indexes"
 
 ## Workflows
 
-### INGEST — `ingest`, `process inbox`
+Each workflow is a skill with a matching slash command:
 
-1. Read `vault-map.md` to understand current structure
-2. Scan `_raw/inbox/` for files
-3. For each file: determine topic/type, check `catalog.md` for overlaps
-4. Overlap → merge into existing note. New topic → create note from template
-5. Fill frontmatter (title, date, tags, type, `source:`, `agent-created: true`, `summary:`)
-6. Add wikilinks to related notes + update those notes to link back
-7. **Move attachments**: find all image/media files referenced by the source (`.png`, `.jpg`, `.jpeg`, `.gif`, `.svg`, `.webm`, `.pdf` etc.) that landed in `content/` root or `_raw/inbox/`. Move them to `content/ATTACHMENTS/`. Update any `![[filename]]` references in the new note to point to the moved file.
-8. Move source to `_raw/processed/YYYY-MM-DD_originalname.ext`
-9. Update all three indexes. Report results.
-
-### COMPILE — `compile X`, `write article about X`
-
-1. Read `vault-map.md` → `catalog.md` → relevant notes for topic X
-2. Follow `graph.md` link chains for related content
-3. Write synthesized article using closest template, cite sources as `[[wikilinks]]`
-4. Set `type: compiled-note`, `agent-created: true`, `summary:`
-5. Place in appropriate topic folder
-6. Update cited notes to link back. Update all three indexes.
-
-### INDEX — `reindex`, `update indexes`, or bootstrap
-
-Full rebuild of all three index files from scratch. Use when:
-- Indexes are missing or corrupted
-- `updated` timestamp is stale vs. newest file
-- User explicitly requests reindex
-
-Scan all `.md` files (excluding `_raw/`, `_indexes/`, `_outputs/`, `templates/`, `.obsidian/`).
-For each: extract frontmatter, extract wikilinks, generate one-line summary.
-Build `vault-map.md`, `catalog.md`, `graph.md`.
-
-### Q&A — `research X`, `what do my notes say about X`
-
-1. Read `vault-map.md` → identify relevant folders/tags
-2. Read matching sections of `catalog.md` → identify candidate notes
-3. Read `graph.md` for link chains from candidates
-4. Read actual notes (only the ones identified)
-5. Synthesize answer citing `[[sources]]`. Distinguish wiki content vs. inference. Flag gaps.
-6. If substantial: offer to save to `_outputs/answers/`, promote to wiki article, or file back into existing notes
-
-### LINT — `lint`, `health check`, `audit`
-
-Check for: missing frontmatter, broken wikilinks (cross-ref `graph.md`), orphan notes, stub notes, inconsistent tags, TODO markers, missing summaries, unlinked related notes, stale content (>1yr), template compliance.
-
-Save report to `_outputs/reports/YYYY-MM-DD_health-report.md`. Print summary counts.
-
-### OUTPUT — `generate report about X`, `create summary of X`
-
-Research topic via indexes, generate requested format (summary, reading list, topic map, timeline). Save to `_outputs/` or topic folder if user wants it published. Update indexes.
-
-### ENHANCE — `enhance [[Note]]`, `improve X`
-
-1. Read note, check `catalog.md` and `graph.md` for context
-2. Identify gaps: empty `#todo` sections, missing frontmatter, missing wikilinks
-3. Fill content from related notes
-4. Add bidirectional wikilinks, set `agent-reviewed: YYYY-MM-DD`
-5. Preserve all existing user-authored content — only add, never remove
-6. Update all three indexes.
+- **INGEST** (`ingest`, `process inbox`) — `.claude/skills/ingest/`, command `/ingest`
+- **COMPILE** (`compile X`, `write article about X`) — `.claude/skills/compile/`, command `/compile`
+- **INDEX** (`reindex`, `update indexes`) — `.claude/skills/reindex/`, command `/reindex`
+- **Q&A** (`research X`, `what do my notes say about X`) — `.claude/skills/qa/`, command `/qa`
+- **LINT** (`lint`, `health check`, `audit`) — `.claude/skills/lint/`, command `/lint`
+- **OUTPUT** (`generate report about X`) — `.claude/skills/output/`, command `/output`
+- **ENHANCE** (`enhance [[Note]]`, `improve X`) — `.claude/skills/enhance/`, command `/enhance`
 
 ## Build & Deploy
 
