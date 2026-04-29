@@ -111,7 +111,7 @@ Wytyczne biasują w stronę **caution over speed**. Dla trywialnych zadań (typo
 
 Z mojej perspektywy to jest dobry baseline CLAUDE.md do podpięcia obok już istniejących project-specific instrukcji. Trzy z czterech zasad pokrywają się z tym, co już robię ręcznie ("don't add features beyond what's asked", "match existing style", "surgical changes"). Czwarta — Goal-Driven — to dokładnie to, czego brakuje większości moich proszków: zamiast "add X", piszę "write test that fails when X is missing, then make it pass". To zmienia LLM z wykonawcy w autonomous worker.
 
-Dla mojego setupu warto rozważyć cherry-pick zasady #4 do mojego głównego `~/.claude/CLAUDE.md`, bo zasady #1–3 częściowo pokrywam już przez [[Context Engineering]] i [[Claude Code Best Practice]].
+Dla mojego setupu warto rozważyć cherry-pick zasady #4 do mojego głównego `~/.claude/CLAUDE.md`, bo zasady #1–3 częściowo pokrywam już przez [[Context Engineering]] i [[Claude Code Best Practice]]. Strukturalna alternatywa wymuszająca te zasady przez workflow gates — zobacz [[Archon]].
 
 ## Alternatives considered
 

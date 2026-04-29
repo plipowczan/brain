@@ -53,7 +53,7 @@ Wcześniejsze, nieaktywne integracje (Marp Web, Marp React, Marp Vue) — nadal 
 
 Markdown-first workflow do prezentacji idealnie pasuje do mojego stacku — Obsidian, Hugo, Quartz, wszystko już bazuje na MD. Zamiast walczyć z PowerPointem albo Keynote'em, piszę treść jak normalną notatkę i wrzucam do CLI. Eksport do PPTX zostawia drogę odwrotu, gdy klient żąda edytowalnego pliku.
 
-Powiązane: w moim setupie istnieje skill **`create-marp-deck`** — interview-driven workflow do generowania decków, z gradient section dividers i automatic HTML/PPTX export. To jest dokładnie ten use case.
+Powiązane: w moim setupie istnieje skill **`create-marp-deck`** — interview-driven workflow do generowania decków, z gradient section dividers i automatic HTML/PPTX export. To jest dokładnie ten use case. Pełny opis 4-fazowego procesu (Brainstorm → React → Iterate → Export) w [[Claude Code Marp Workflow]].
 
 ## Alternatives considered
 

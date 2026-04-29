@@ -74,6 +74,8 @@ Skill registries (ClawHub, skills.sh) mogą wykonywać arbitrary code — traktu
 - [Agent Skills spec](https://agentskills.io/)
 - [[Harness Engineering]] — skills jako jeden z key levers harness engineering
 - [[LLM Knowledge Bases]] — LLM-driven knowledge management, pokrewny pattern
+- [[Vercel Skills]] — `npx skills` CLI instalujący SKILL.md z dowolnego repo do 50+ agentów
+- [[Karpathy Skills]] — single CLAUDE.md zamiast load-on-demand skili
 
 ---
 Template: [[templates/tool]]
