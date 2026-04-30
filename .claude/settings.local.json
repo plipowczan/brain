@@ -53,7 +53,10 @@
       "Bash(mv \"content/_raw/inbox/hesreallyhimawesome-claude-code A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic.md\" \"content/_raw/processed/2026-04-10_hesreallyhim-awesome-claude-code.md\")",
       "Bash(mv \"content/_raw/inbox/safishamsigraphify AI coding assistant skill \\(Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae\\). Turn any folder of code, docs, papers, or images into a queryable knowledge graph.md\" \"content/_raw/processed/2026-04-10_safishamsi-graphify.md\")",
       "Bash(mv \"content/_raw/inbox/shanraisshanclaude-code-best-practice practice made claude perfect.md\" \"content/_raw/processed/2026-04-10_shanraisshan-claude-code-best-practice.md\")",
-      "Bash(mv \"content/_raw/inbox/VoltAgentawesome-design-md A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.md\" \"content/_raw/processed/2026-04-10_voltagent-awesome-design-md.md\")"
+      "Bash(mv \"content/_raw/inbox/VoltAgentawesome-design-md A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.md\" \"content/_raw/processed/2026-04-10_voltagent-awesome-design-md.md\")",
+      "Bash(cat)",
+      "Bash(sed -n '187,197p' C:/Users/pawel/Development/Repositories/brain/CLAUDE.md)",
+      "Read(//tmp/**)"
     ]
   }
 }

@@ -69,7 +69,7 @@ Event-driven handlers firing outside the agentic loop:
 User-invoked prompt templates covering: version control, code analysis, testing, context loading, documentation, CI/deployment, project management
 
 ### CLAUDE.md Files
-Language-specific i domain-specific configurations, project scaffolding, MCP setup
+Language-specific i domain-specific configurations, project scaffolding, MCP setup. Patrz też [[Karpathy Skills]] — pojedynczy CLAUDE.md adresujący 4 typowe pitfalle LLM-coderów.
 
 ### Status Lines & Alternative Clients
 Custom status bars, IDE integrations, usage monitors, orchestrators

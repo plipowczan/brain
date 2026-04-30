@@ -1,6 +1,6 @@
 ---
-updated: 2026-04-20T12:00:00Z
-entries: 191
+updated: 2026-04-30T00:00:00Z
+entries: 202
 ---
 # Note Catalog
 
@@ -40,12 +40,14 @@ entries: 191
 - **Skills 2.0 Testing** | knowledge-note | 2026-03-08 | [knowledge, info, ai, skills, testing, agents] | Evolution from manual skills to tested, benchmarked, auto-triggered skill system with 4-agent eval pipeline | → Agent Skills, Agentic Systems, Claude Code, Context Engineering
 - **Specification-Driven Development** | knowledge-note | 2026-04-09 | [knowledge, info, ai, sdd, methodology] | OpenSpec framework — writing detailed specs before AI agents implement code | → Agentic Coding, Context Engineering
 - **Token Optimization for Claude Code** | knowledge-note | 2026-04-20 | [knowledge, info, ai, claude-code, token-optimization, context-engineering] | Curated list of 10 open-source tools reducing Claude Code tokens 40–98% — proxies, sandboxes, code graphs, CLAUDE.md templates | → Context Engineering, Harness Engineering, Claude Code, Claude Code Best Practice, Agent Skills, Graphify
+- **DELEGATE-52** | knowledge-note | 2026-04-29 | [knowledge, info, ai, llm, benchmark, delegated-work, vibe-coding, reliability, evaluation] | Microsoft Research benchmark — frontier LLMs corrupt 25% dokumentu po 20 delegowanych edytach na 52 domenach; Python jedyna domena gdzie modele są ready | → Skills 2.0 Testing, Karpathy Skills, Vibe Coding, Agentic Coding, Context Engineering, Harness Engineering, Archon, Claude Code, Cursor, Brain, PLSoft
 
 ## AI/NOTES
 - **Hackathon Hacknation** | basic-note | 2025-12-12 | [basic, notes, hackathon, ai, govtech] | 24h hackathon building budget system with AI — lessons on validation, AI limitations, team dynamics | → Claude Code, Agentic Coding
 
 ## AI/TOOLS
-- **Agent Skills** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's system for dynamically loading specialized instructions into Claude — reusable skill packages | → Harness Engineering, LLM Knowledge Bases
+- **Agent Skills** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's system for dynamically loading specialized instructions into Claude — reusable skill packages | → Harness Engineering, LLM Knowledge Bases, Vercel Skills, Karpathy Skills
+- **Archon** | tool | 2026-04-29 | [tool, ai, coding-agents, harness, workflow, open-source] | Open-source harness builder — YAML workflows for AI coding agents (plan/implement/validate/review/PR), deterministic + parallel via worktrees | → Karpathy Skills, Harness Engineering, Claude Code, Agent Skills, Awesome Claude Code, Qamera AI, PLSoft
 - **Autoresearch** | tool | 2026-04-05 | [tool, ai, research, llm, autonomous-agents] | Karpathy's framework for AI agents running autonomous ML research experiments overnight | → LLM Knowledge Bases
 - **Awesome Claude Code** | tool | 2026-03-31 | [tool, ai, claude-code, resources] | Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations | → Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify
 - **Claude Code** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's CLI for AI-assisted development — primary dev environment | → Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor
@@ -53,6 +55,9 @@ entries: 191
 - **Claude Peers MCP** | tool | 2026-04-20 | [tool, ai, mcp, claude-code, multi-agent, coordination] | MCP enabling multiple Claude Code sessions to discover each other and exchange messages instantly via local broker | → Claude Code, Agent Skills, Agentic Systems, Harness Engineering, Context Engineering
 - **CLI-Anything** | tool | 2026-04-20 | [tool, ai, cli, coding-agents, agent-native, claude-code] | Claude Code plugin that auto-generates agent-native CLIs for any software via 7-phase pipeline — 30+ harnesses, 2152 tests | → Claude Code, Agent Skills, Harness Engineering, Context Engineering, Awesome Claude Code, Agentic Coding, Agentic Systems, Qamera AI
 - **Graphify** | tool | 2026-04-10 | [tool, ai, llm, knowledge-base, knowledge-management, coding-agents] | AI skill — code/docs/images → queryable knowledge graph with clustering, 71x token reduction | → Claude Code, Awesome Claude Code, LLM Knowledge Bases, Context Engineering
+- **Karpathy Skills** | tool | 2026-04-26 | [tool, ai, claude-code, coding-agents, context-engineering] | Single CLAUDE.md addressing 4 LLM-coder pitfalls (assumptions, overengineering, scope creep, weak goals) | → Awesome Claude Code, Context Engineering, Claude Code Best Practice, Agent Skills, Archon
+- **LightRAG** | tool | 2026-04-29 | [tool, ai, rag, knowledge-graph, llm, open-source] | EMNLP2025 RAG framework — łączy KG entity extraction z dual-level retrieval, bije NaiveRAG/HyDE/GraphRAG na 4 domenach | → AI Chatbots Architecture, LLM Knowledge Bases, Brain, Graphify, Qamera AI
+- **Vercel Skills** | tool | 2026-04-29 | [tool, ai, claude-code, skills, cli, open-source] | npx skills — CLI dla open agent skills ecosystemu, instaluje SKILL.md z dowolnego repo do 50+ agentów (Claude Code, Codex, Cursor, OpenCode...) | → Agent Skills, Karpathy Skills, Awesome Claude Code, Claude Code, Cursor, Brain
 - **Cursor** | tool | 2026-04-09 | [tool, ai, ide, coding-agents] | AI-powered IDE based on VS Code with built-in coding agents | → Qamera AI, Claude Code, Visual Studio Code
 - **NemoClaw** | tool | 2026-04-09 | [tool, ai, inference, self-hosted] | Self-hosted AI inference setup — OpenClaw gateway + NVIDIA Nemotron model | → Agentic Systems
 - **UI UX Pro Max** | tool | 2026-03-31 | [tool, ai, design, claude-code, skills] | Claude Code design system skill — adapts UI/UX guidance per project type (portfolio, SaaS, e-commerce) | → Claude Code, Cursor, Vibe Coding
@@ -109,9 +114,11 @@ entries: 191
 - **How to deal with pull request merge conflicts** | knowledge-note | 2022-10-27 | [knowledge, howto, git, merge, conflict] | Resolve merge conflict in git Tools used to solve this task. Visual Studio - Checkout... | → CODE/TOOLS/Visual Studio
 - **How to set Hugo RSS feed** | knowledge-note | 2022-10-30 | [knowledge, howto, RSS, Hugo] | Add RSS feed to your Hugo web site. 1. Grab a copy of that template,... | → -
 - **Vibe Coding** | knowledge-note | 2025-12-24 | [knowledge, howto, ai, ui, design, vibe-coding] | Creating UI with AI by describing vibe/impression — 3 pillars, design tokens, prompt templates | → Cursor, Claude Code
+- **Claude Code Marp Workflow** | knowledge-note | 2026-04-29 | [knowledge, howto, ai, claude-code, presentation, markdown, marp] | 4-fazowy workflow tworzenia prezentacji w Markdown: Brainstorm (interview) → React (first draft) → Iterate (chat lub VS Code) → Export (HTML/PPTX) | → Marp, Marp CLI, Marpit, Marp Core, Vercel Skills, Karpathy Skills, Claude Code, Cursor
 
 ## CODE/KNOWLEDGE/INFO
 - **AI Chatbots Architecture** | knowledge-note | 2025-11-01 | [knowledge, info, ai, chatbots, rag] | LLM chatbot architecture — RAG, function calling, voicebots via VAPI, implementation costs and metrics | → n8n, VAPI, Agentic Systems
+- **Spec-driven SEO and GEO** | knowledge-note | 2026-04-26 | [knowledge, info, seo, geo, claude-code, openspec] | Synthesis of SEO + GEO patterns from portfolio + Qamera AI case studies — code-stack only top 20% controls | → OpenSpec, OPSX Workflow, Specification-Driven Development, Claude Code, Awesome Claude Code, Claude Code Best Practice, Vibe Coding, Agentic Coding, Qamera AI, Brain
 
 ## CODE/TOOLS
 - **Awesome Design MD** | tool | 2026-04-10 | [tool, ai, design, coding-agents, frontend, ui] | Collection of DESIGN.md files from real brands — drop into project, AI agent generates matching UI | → Claude Code, Cursor
@@ -129,6 +136,10 @@ entries: 191
 - **Supabase** | tool | 2026-04-09 | [tool, database, backend, baas] | Open-source Firebase alternative — Postgres database, auth, storage, realtime | → Qamera AI, Next.js, Airtable
 - **Visual Studio** | tool | 2023-01-08 | [tool, visualstudio, code] | It is integrated development environment (IDE). A creative platform to edit, debug and compile code... | → -
 - **MakerKit** | tool | 2026-04-12 | [tool, nextjs, saas, boilerplate, fullstack, react] | Production-ready Next.js SaaS starter kit with auth, billing, teams and multi-tenancy | → Agent Skills
+- **Marp** | tool | 2026-04-26 | [tool, presentation, markdown, slides, open-source] | Markdown Presentation Ecosystem — Markdown → HTML/PDF/PPTX slide decks via CLI/VS Code/framework | → Marpit, Marp Core, Marp CLI
+- **Marp CLI** | tool | 2026-04-26 | [tool, presentation, markdown, cli, slides] | CLI for Marp/Marpit — Markdown → HTML/PDF/PPTX/PNG, watch & server mode | → Marp, Marpit
+- **Marp Core** | tool | 2026-04-26 | [tool, presentation, markdown, framework, slides] | Marpit + official themes + math + emoji + auto-scaling — default engine for Marp tooling | → Marpit, Marp CLI
+- **Marpit** | tool | 2026-04-26 | [tool, presentation, framework, markdown, slides] | Skinny framework: Markdown + CSS theme → static HTML/CSS slide deck — fundament całego Marp | → Marp, Marp Core
 - **VisualStudioCode** | tool | 2022-09-22 | [tool] | Template: tool | → -
 
 ## CRYPTO/KNOWLEDGE/INFO
@@ -247,7 +258,7 @@ entries: 191
 - **PLSoft** | basic-note | 2026-04-09 | [project, consulting, plsoft] | Technology consulting practice — AI integration, process automation, architecture (CEIDG details added) | → VAPI, About, Qamera AI
 
 ## PROJECTS/QAMERA-AI
-- **Qamera AI** | basic-note | 2026-04-09 | [project, ai, saas, product, qamera] | AI-powered virtual photo studio for e-commerce — B2B SaaS by 200IQ Labs | → Next.js, Supabase, Google Cloud, Agentic Coding, About, PLSoft, Agentic Systems
+- **Qamera AI** | basic-note | 2026-04-09 | [project, ai, saas, product, qamera] | AI-powered virtual photo studio for e-commerce — B2B SaaS by 200IQ Labs | → Next.js, Supabase, Google Cloud, Agentic Coding, About, PLSoft, Agentic Systems, Spec-driven SEO and GEO
 
 ## PROJECTS/VALUE-BUILDERS
 - **Value Builders** | basic-note | 2026-04-09 | [project, training, education] | Course where I serve as a trainer — teaching AI and technology to builders | → Qamera AI, Agentic Systems, PLSoft, Value Builders Tribe
