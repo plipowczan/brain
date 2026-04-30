@@ -1,6 +1,6 @@
 ---
-updated: 2026-04-30T12:00:00Z
-entries: 203
+updated: 2026-04-30T15:30:00Z
+entries: 204
 ---
 # Note Catalog
 
@@ -50,6 +50,7 @@ entries: 203
 - **Agent Skills** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's system for dynamically loading specialized instructions into Claude — reusable skill packages | → Harness Engineering, LLM Knowledge Bases, Vercel Skills, Karpathy Skills
 - **Archon** | tool | 2026-04-29 | [tool, ai, coding-agents, harness, workflow, open-source] | Open-source harness builder — YAML workflows for AI coding agents (plan/implement/validate/review/PR), deterministic + parallel via worktrees | → Karpathy Skills, Harness Engineering, Claude Code, Agent Skills, Awesome Claude Code, Qamera AI, PLSoft
 - **Autoresearch** | tool | 2026-04-05 | [tool, ai, research, llm, autonomous-agents] | Karpathy's framework for AI agents running autonomous ML research experiments overnight | → LLM Knowledge Bases
+- **Awesome Agent Skills** | tool | 2026-04-30 | [tool, ai, agent-skills, claude-code, codex, gemini-cli, cursor, resources, curated-list] | VoltAgent-curated list of 1000+ Agent Skills from official dev teams and community — cross-platform (Claude Code, Codex, Gemini CLI, Cursor, etc.) | → Agent Skills, Awesome Claude Code, Vercel Skills, Karpathy Skills, Harness Engineering, Context Engineering, Progressive Disclosure, Skills 2.0 Testing, Claude Code, AI Agent Security
 - **Awesome Claude Code** | tool | 2026-03-31 | [tool, ai, claude-code, resources] | Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations | → Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify
 - **Claude Code** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's CLI for AI-assisted development — primary dev environment | → Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor
 - **Claude Code Best Practice** | tool | 2026-04-10 | [tool, ai, claude-code, coding-agents, resources] | 69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering | → Claude Code, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills
