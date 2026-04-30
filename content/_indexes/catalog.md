@@ -1,6 +1,6 @@
 ---
-updated: 2026-04-14T12:00:00Z
-entries: 187
+updated: 2026-04-20T12:00:00Z
+entries: 191
 ---
 # Note Catalog
 
@@ -39,6 +39,7 @@ entries: 187
 - **LLM Knowledge Bases** | knowledge-note | 2026-04-05 | [knowledge, info, llm, knowledge-base, obsidian, ai] | Using LLMs to build and maintain personal knowledge bases — methodology described by Andrej Karpathy | → Obsidian, Building a Second Brain, Zettelkasten, Digital Garden, Harness Engineering, Autoresearch
 - **Skills 2.0 Testing** | knowledge-note | 2026-03-08 | [knowledge, info, ai, skills, testing, agents] | Evolution from manual skills to tested, benchmarked, auto-triggered skill system with 4-agent eval pipeline | → Agent Skills, Agentic Systems, Claude Code, Context Engineering
 - **Specification-Driven Development** | knowledge-note | 2026-04-09 | [knowledge, info, ai, sdd, methodology] | OpenSpec framework — writing detailed specs before AI agents implement code | → Agentic Coding, Context Engineering
+- **Token Optimization for Claude Code** | knowledge-note | 2026-04-20 | [knowledge, info, ai, claude-code, token-optimization, context-engineering] | Curated list of 10 open-source tools reducing Claude Code tokens 40–98% — proxies, sandboxes, code graphs, CLAUDE.md templates | → Context Engineering, Harness Engineering, Claude Code, Claude Code Best Practice, Agent Skills, Graphify
 
 ## AI/NOTES
 - **Hackathon Hacknation** | basic-note | 2025-12-12 | [basic, notes, hackathon, ai, govtech] | 24h hackathon building budget system with AI — lessons on validation, AI limitations, team dynamics | → Claude Code, Agentic Coding
@@ -49,6 +50,8 @@ entries: 187
 - **Awesome Claude Code** | tool | 2026-03-31 | [tool, ai, claude-code, resources] | Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations | → Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify
 - **Claude Code** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's CLI for AI-assisted development — primary dev environment | → Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor
 - **Claude Code Best Practice** | tool | 2026-04-10 | [tool, ai, claude-code, coding-agents, resources] | 69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering | → Claude Code, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills
+- **Claude Peers MCP** | tool | 2026-04-20 | [tool, ai, mcp, claude-code, multi-agent, coordination] | MCP enabling multiple Claude Code sessions to discover each other and exchange messages instantly via local broker | → Claude Code, Agent Skills, Agentic Systems, Harness Engineering, Context Engineering
+- **CLI-Anything** | tool | 2026-04-20 | [tool, ai, cli, coding-agents, agent-native, claude-code] | Claude Code plugin that auto-generates agent-native CLIs for any software via 7-phase pipeline — 30+ harnesses, 2152 tests | → Claude Code, Agent Skills, Harness Engineering, Context Engineering, Awesome Claude Code, Agentic Coding, Agentic Systems, Qamera AI
 - **Graphify** | tool | 2026-04-10 | [tool, ai, llm, knowledge-base, knowledge-management, coding-agents] | AI skill — code/docs/images → queryable knowledge graph with clustering, 71x token reduction | → Claude Code, Awesome Claude Code, LLM Knowledge Bases, Context Engineering
 - **Cursor** | tool | 2026-04-09 | [tool, ai, ide, coding-agents] | AI-powered IDE based on VS Code with built-in coding agents | → Qamera AI, Claude Code, Visual Studio Code
 - **NemoClaw** | tool | 2026-04-09 | [tool, ai, inference, self-hosted] | Self-hosted AI inference setup — OpenClaw gateway + NVIDIA Nemotron model | → Agentic Systems
@@ -79,6 +82,7 @@ entries: 187
 - **LinkedIn Strategy** | knowledge-note | 2026-04-09 | [knowledge, info, business, linkedin, branding, content] | Data-driven LinkedIn publishing strategy — formats, timing, content pillars | → Agentic Coding, Qamera AI, Build in Public
 - **Process Mapping** | knowledge-note | 2025-12-01 | [knowledge, info, business, processes, optimization] | Process mapping methodology — 4 elements (Action, Actor, Tool, Mode), optimization via delete → simplify → automate | → Make, n8n, El Padre Case Study, Airtable, Agentic Systems
 - **Product-Market Fit** | knowledge-note | 2026-04-09 | [knowledge, info, business, pmf, startup] | When your product satisfies strong market demand — the key milestone for startups | → Qamera AI, Company of one, Principles
+- **AI 70-20-10 Rule** | knowledge-note | 2026-04-20 | [knowledge, info, ai, strategy, business, change-management, people] | BCG framework — 10% of AI value from algorithms, 20% from tech, 70% from rethinking people and process redesign | → Autonomous Sales Agent Playbook, AI Trends 2026, Product-Market Fit, Build in Public, PLSoft, Qamera AI, Agentic Coding, Harness Engineering
 - **Autonomous Sales Agent Playbook** | knowledge-note | 2026-04-14 | [knowledge, info, business, ai, agents, sales, automation, lead-generation] | Playbook for building autonomous AI sales agents replacing $1.4k/mo SaaS stacks with ~$20/mo agent architecture | → Agentic Coding, Make, n8n
 
 ## BUSINESS/NOTES

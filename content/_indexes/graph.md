@@ -1,7 +1,7 @@
 ---
-updated: 2026-04-14T12:00:00Z
-nodes: 187
-edges: 352
+updated: 2026-04-20T12:00:00Z
+nodes: 191
+edges: 377
 ---
 # Link Graph
 
@@ -30,11 +30,14 @@ AI/KNOWLEDGE/INFO/Harness Engineering -> Agent Skills, LLM Knowledge Bases
 AI/KNOWLEDGE/INFO/LLM Knowledge Bases -> Obsidian, Building a Second Brain, Zettelkasten, Digital Garden, Harness Engineering, Autoresearch
 AI/KNOWLEDGE/INFO/Skills 2.0 Testing -> Agent Skills, Agentic Systems, Claude Code, Context Engineering
 AI/KNOWLEDGE/INFO/Specification-Driven Development -> Agentic Coding, Context Engineering
+AI/KNOWLEDGE/INFO/Token Optimization for Claude Code -> Context Engineering, Harness Engineering, Claude Code, Claude Code Best Practice, Agent Skills, Graphify
 AI/NOTES/Hackathon Hacknation -> Claude Code, Agentic Coding
 AI/TOOLS/Agent Skills -> Harness Engineering, LLM Knowledge Bases
 AI/TOOLS/Autoresearch -> LLM Knowledge Bases
 AI/TOOLS/Awesome Claude Code -> Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify
 AI/TOOLS/Claude Code Best Practice -> Claude Code, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills
+AI/TOOLS/Claude Peers MCP -> Claude Code, Agent Skills, Agentic Systems, Harness Engineering, Context Engineering, Qamera AI, PLSoft
+AI/TOOLS/CLI-Anything -> Claude Code, Agent Skills, Harness Engineering, Context Engineering, Awesome Claude Code, Agentic Coding, Agentic Systems, Qamera AI
 AI/TOOLS/Graphify -> Claude Code, Awesome Claude Code, LLM Knowledge Bases, Context Engineering
 AI/TOOLS/Claude Code -> Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor
 AI/TOOLS/Cursor -> Qamera AI, Claude Code, Visual Studio Code
@@ -50,6 +53,7 @@ BUSINESS/KNOWLEDGE/INFO/Data Maturity Model -> Airtable, Make, n8n, Claude Code
 BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy -> Agentic Coding, Qamera AI, Build in Public
 BUSINESS/KNOWLEDGE/INFO/Process Mapping -> Make, n8n, El Padre Case Study, Airtable, Agentic Systems
 BUSINESS/KNOWLEDGE/INFO/Product-Market Fit -> Qamera AI, Company of one, Principles
+BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule -> Autonomous Sales Agent Playbook, AI Trends 2026, Product-Market Fit, Build in Public, PLSoft, Qamera AI, Agentic Coding, Harness Engineering
 BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook -> Agentic Coding, Make, n8n
 BUSINESS/NOTES/El Padre Case Study -> Make, Airtable, Agentic Systems
 BUSINESS/TOOLS/1Password -> Authenticator
