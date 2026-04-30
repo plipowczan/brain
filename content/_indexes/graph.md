@@ -1,7 +1,7 @@
 ---
-updated: 2026-04-30T00:00:00Z
-nodes: 202
-edges: 447
+updated: 2026-04-30T12:00:00Z
+nodes: 203
+edges: 467
 ---
 # Link Graph
 
@@ -25,8 +25,9 @@ ABOUT/What tools I use -> AI/TOOLS/Claude Code, AI/TOOLS/Cursor, CODE/TOOLS/Visu
 AI/KNOWLEDGE/INFO/AI Agent Security -> Claude Code, NemoClaw, Agentic Systems
 AI/KNOWLEDGE/INFO/AI Trends 2026 -> Agentic Coding, Agentic Systems, NemoClaw
 AI/KNOWLEDGE/INFO/Agentic Coding -> Context Engineering, Agent Skills, Qamera AI, Claude Code, Agentic Systems, Cursor, Harness Engineering
-AI/KNOWLEDGE/INFO/Context Engineering -> Agent Skills, Harness Engineering, Agentic Coding, LLM Knowledge Bases, Claude Code
-AI/KNOWLEDGE/INFO/Harness Engineering -> Agent Skills, LLM Knowledge Bases
+AI/KNOWLEDGE/INFO/Context Engineering -> Progressive Disclosure, Harness Engineering, Agent Skills, Token Optimization for Claude Code, Agentic Coding, LLM Knowledge Bases, Claude Code, Claude Code Best Practice, Skills 2.0 Testing
+AI/KNOWLEDGE/INFO/Progressive Disclosure -> Context Engineering, Harness Engineering, Agent Skills, LLM Knowledge Bases, Token Optimization for Claude Code, Graphify, Claude Code, Claude Code Best Practice, Brain
+AI/KNOWLEDGE/INFO/Harness Engineering -> Agent Skills, Progressive Disclosure, Context Engineering, LLM Knowledge Bases
 AI/KNOWLEDGE/INFO/LLM Knowledge Bases -> Obsidian, Building a Second Brain, Zettelkasten, Digital Garden, Harness Engineering, Autoresearch
 AI/KNOWLEDGE/INFO/Skills 2.0 Testing -> Agent Skills, Agentic Systems, Claude Code, Context Engineering
 AI/KNOWLEDGE/INFO/DELEGATE-52 -> Skills 2.0 Testing, Karpathy Skills, Vibe Coding, Agentic Coding, Context Engineering, Harness Engineering, Archon, Claude Code, Cursor, Brain, PLSoft
@@ -198,7 +199,8 @@ CODE/TOOLS/Supabase <- ABOUT/What tools I use
 CODE/TOOLS/Visual Studio <- CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet projects using Azure DevOps, CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts
 CODE/TOOLS/Visual Studio Code <- ABOUT/What tools I use
 Company of one <- BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
-Context Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Context Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/CLI-Anything, AI/TOOLS/Claude Peers MCP, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Progressive Disclosure <- AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering
 Crypto Exchanges <- CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026, CRYPTO/NOTES/My web3
 Cursor <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/Agentic Coding, AI/TOOLS/Claude Code, AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Awesome Design MD, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 Damon Zahariades <- LIFE/BOOKS/The Mental Toughness Handbook
@@ -208,7 +210,7 @@ Google Cloud <- PROJECTS/QAMERA-AI/Qamera AI
 Graphify <- AI/TOOLS/Awesome Claude Code
 Gosia Lipowczan <- LIFE/BOOKS/Dopamine Detox
 Habits <- LIFE/BOOKS/Dopamine Detox
-Harness Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Agent Skills, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice
+Harness Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Agent Skills, AI/TOOLS/Archon, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/CLI-Anything, AI/TOOLS/Claude Peers MCP, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule
 How to take smart notes <- PROJECTS/BRAIN/Brain
 I have a business and not business has me <- BUSINESS/BOOKS/Company of one
 Influencers <- CRYPTO/NOTES/My web3

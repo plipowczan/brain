@@ -1,6 +1,6 @@
 ---
-updated: 2026-04-30T00:00:00Z
-entries: 202
+updated: 2026-04-30T12:00:00Z
+entries: 203
 ---
 # Note Catalog
 
@@ -34,7 +34,8 @@ entries: 202
 - **Agentic Coding** | knowledge-note | 2026-04-09 | [knowledge, info, ai, coding-agents, paradigm] | Paradigm shift: designing agent environments instead of writing code manually | → Context Engineering, Agent Skills, Qamera AI, Claude Code, Agentic Systems, Cursor, Harness Engineering
 - **AI Agent Security** | knowledge-note | 2026-02-09 | [knowledge, info, ai, security, agents] | Security analysis of autonomous AI agents — OpenClaw case study, CVEs, supply chain risks, safety practices | → Claude Code, NemoClaw, Agentic Systems
 - **AI Trends 2026** | knowledge-note | 2026-01-01 | [knowledge, info, ai, trends, strategy] | 2026 AI shift from experimentation to operationalization — agentic AI, reasoning models, EU AI Act, domain-specific models | → Agentic Coding, Agentic Systems, NemoClaw
-- **Context Engineering** | knowledge-note | 2026-04-09 | [knowledge, info, ai, context-engineering, llm] | Designing optimal context for LLM agents — CLAUDE.md, MCP, skills, sub-agents | → Agent Skills, Harness Engineering, Agentic Coding, LLM Knowledge Bases, Claude Code
+- **Context Engineering** | knowledge-note | 2026-04-09 | [knowledge, info, ai, context-engineering, llm, agents] | Designing optimal context for LLM agents — attention budget, just-in-time retrieval, compaction, sub-agents | → Progressive Disclosure, Harness Engineering, Agent Skills, Token Optimization for Claude Code, Agentic Coding, LLM Knowledge Bases, Claude Code, Claude Code Best Practice, Skills 2.0 Testing
+- **Progressive Disclosure** | knowledge-note | 2026-04-30 | [knowledge, info, ai, context-engineering, progressive-disclosure, agents, memory] | Index-first context priming — show what exists and retrieval cost, let the agent decide what to fetch | → Context Engineering, Harness Engineering, Agent Skills, LLM Knowledge Bases, Token Optimization for Claude Code, Graphify, Claude Code, Claude Code Best Practice, Brain
 - **Harness Engineering** | knowledge-note | 2026-04-09 | [knowledge, info, ai, coding-agents, context-engineering, claude] | Configuring coding agent harness (CLAUDE.md, MCP, skills, sub-agents, hooks) to maximize output quality | → Agent Skills, LLM Knowledge Bases
 - **LLM Knowledge Bases** | knowledge-note | 2026-04-05 | [knowledge, info, llm, knowledge-base, obsidian, ai] | Using LLMs to build and maintain personal knowledge bases — methodology described by Andrej Karpathy | → Obsidian, Building a Second Brain, Zettelkasten, Digital Garden, Harness Engineering, Autoresearch
 - **Skills 2.0 Testing** | knowledge-note | 2026-03-08 | [knowledge, info, ai, skills, testing, agents] | Evolution from manual skills to tested, benchmarked, auto-triggered skill system with 4-agent eval pipeline | → Agent Skills, Agentic Systems, Claude Code, Context Engineering
