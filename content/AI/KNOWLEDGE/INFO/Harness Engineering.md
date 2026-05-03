@@ -23,6 +23,8 @@ Kluczowy insight: większość failures agentów to **nie problem modelu, lecz k
 
 ## 🔗 Links
 - [[Agent Skills]] — progressive disclosure wiedzy i narzędzi
+- [[Progressive Disclosure]] — pattern leżący u podstaw skills, sub-agents i context retrieval
+- [[Context Engineering]] — szersza dyscyplina; harness to praktyczna implementacja
 - [[LLM Knowledge Bases]] — LLM-maintained wiki pattern, pokrewna filozofia
 
 ## 🧩 Features:
