@@ -124,6 +124,8 @@ Dla mojego setupu warto rozważyć cherry-pick zasady #4 do mojego głównego `~
 - Karpathy obserwacje (X): https://x.com/karpathy/status/2015883857489522876
 - Multica (powiązany projekt autora): https://github.com/multica-ai/multica
 - License: MIT
+- [[Superpowers]] — methodology framework wymuszający Karpathy-style discipline przez 7 mandatory skilli
+- [[gstack]] — opposite extreme (23+ opinionated role-skille zamiast 1 CLAUDE.md)
 
 ---
 Template: [[templates/tool]]

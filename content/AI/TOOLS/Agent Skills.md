@@ -76,6 +76,10 @@ Skill registries (ClawHub, skills.sh) mogą wykonywać arbitrary code — traktu
 - [[LLM Knowledge Bases]] — LLM-driven knowledge management, pokrewny pattern
 - [[Vercel Skills]] — `npx skills` CLI instalujący SKILL.md z dowolnego repo do 50+ agentów
 - [[Karpathy Skills]] — single CLAUDE.md zamiast load-on-demand skili
+- [[Superpowers]] — methodology framework wymuszający użycie skilli (brainstorm/plan/TDD/review)
+- [[gstack]] — opiniowany 23+ skill-stack od Garry'ego Tana (CEO YC)
+- [[Hermes Agent]] — kompatybilny z `agentskills.io` standardem, autonomous skill creation
+- [[Agent Zero]] / [[Space Agent]] — agentic frameworks używające SKILL.md jako portable capabilities
 
 ---
 Template: [[templates/tool]]

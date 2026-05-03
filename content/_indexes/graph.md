@@ -1,7 +1,7 @@
 ---
-updated: 2026-04-29T00:00:00Z
-nodes: 198
-edges: 422
+updated: 2026-05-03T00:00:00Z
+nodes: 204
+edges: 470
 ---
 # Link Graph
 
@@ -32,15 +32,15 @@ AI/KNOWLEDGE/INFO/Skills 2.0 Testing -> Agent Skills, Agentic Systems, Claude Co
 AI/KNOWLEDGE/INFO/DELEGATE-52 -> Skills 2.0 Testing, Karpathy Skills, Vibe Coding, Agentic Coding, Context Engineering, Harness Engineering, Archon, Claude Code, Cursor, Brain, PLSoft
 AI/KNOWLEDGE/INFO/Specification-Driven Development -> Agentic Coding, Context Engineering
 AI/NOTES/Hackathon Hacknation -> Claude Code, Agentic Coding
-AI/TOOLS/Agent Skills -> Harness Engineering, LLM Knowledge Bases, Vercel Skills, Karpathy Skills
+AI/TOOLS/Agent Skills -> Harness Engineering, LLM Knowledge Bases, Vercel Skills, Karpathy Skills, Superpowers, gstack, Hermes Agent, Agent Zero, Space Agent
 AI/TOOLS/Archon -> Karpathy Skills, Harness Engineering, Claude Code, Agent Skills, Awesome Claude Code, Qamera AI, PLSoft
 AI/TOOLS/Autoresearch -> LLM Knowledge Bases
-AI/TOOLS/Awesome Claude Code -> Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify, Karpathy Skills
+AI/TOOLS/Awesome Claude Code -> Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify, Karpathy Skills, Superpowers, gstack
 AI/TOOLS/Claude Code Best Practice -> Claude Code, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills
 AI/TOOLS/Graphify -> Claude Code, Awesome Claude Code, LLM Knowledge Bases, Context Engineering
-AI/TOOLS/Karpathy Skills -> Awesome Claude Code, Context Engineering, Claude Code Best Practice, Agent Skills, Archon
+AI/TOOLS/Karpathy Skills -> Awesome Claude Code, Context Engineering, Claude Code Best Practice, Agent Skills, Archon, Superpowers, gstack
 AI/TOOLS/LightRAG -> AI Chatbots Architecture, LLM Knowledge Bases, Brain, Graphify, Qamera AI
-AI/TOOLS/Vercel Skills -> Agent Skills, Karpathy Skills, Awesome Claude Code, Claude Code, Cursor, Brain
+AI/TOOLS/Vercel Skills -> Agent Skills, Karpathy Skills, Awesome Claude Code, Claude Code, Cursor, Brain, Hermes Agent, Agent Zero, Space Agent, Superpowers
 CODE/TOOLS/Marp -> Marpit, Marp Core, Marp CLI, Claude Code Marp Workflow
 CODE/TOOLS/Marp CLI -> Marp, Marpit
 CODE/TOOLS/Marp Core -> Marpit, Marp CLI
@@ -48,7 +48,13 @@ CODE/TOOLS/Marpit -> Marp, Marp Core
 AI/TOOLS/Claude Code -> Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor
 AI/TOOLS/Cursor -> Qamera AI, Claude Code, Visual Studio Code
 AI/TOOLS/NemoClaw -> Agentic Systems
-AI/TOOLS/UI UX Pro Max -> Claude Code, Cursor, Vibe Coding
+AI/TOOLS/UI UX Pro Max -> Claude Code, Cursor, Vibe Coding, gstack, Awesome Claude Code
+AI/TOOLS/Agent Zero -> Space Agent, Agent Skills, Agentic Systems, Harness Engineering, Claude Code, Hermes Agent, Superpowers
+AI/TOOLS/Space Agent -> Agent Zero, Agent Skills, Agentic Systems, Claude Code, Paperclip
+AI/TOOLS/gstack -> Claude Code, Agent Skills, Awesome Claude Code, Superpowers, Karpathy Skills, Archon, Cursor
+AI/TOOLS/Hermes Agent -> Claude Code, Agent Zero, Paperclip, Agent Skills, Vercel Skills, NemoClaw, DELEGATE-52, LinkedIn Strategy, Brain
+AI/TOOLS/Superpowers -> Claude Code, Cursor, Agent Skills, Karpathy Skills, gstack, Archon, Qamera AI
+AI/TOOLS/Paperclip -> Claude Code, Cursor, Agentic Systems, Agentic Coding, Autonomous Sales Agent Playbook, Archon, Hermes Agent, Qamera AI, PLSoft, Value Builders, Brain, Principles
 AI/TOOLS/VAPI -> PLSoft
 BUSINESS/BOOKS/Company of one -> I have a business and not business has me, PLSoft
 BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field' -> Make
@@ -123,7 +129,7 @@ LIFE/TOOLS/Obsidian -> LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/O
 LIFE/TOOLS/Revolut -> ABOUT/Motivation system for my kids, LIFE/TOOLS/Revolut Junior
 NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline -> n8n, Airtable, Make
 NOCODE/KNOWLEDGE/INFO/Automation Tool Selection -> Zapier, Make, n8n
-PROJECTS/AGENTIC-SYSTEMS/Agentic Systems -> Claude Code, Cursor, Agentic Coding, Context Engineering, Qamera AI
+PROJECTS/AGENTIC-SYSTEMS/Agentic Systems -> Claude Code, Cursor, Agentic Coding, Context Engineering, Qamera AI, Paperclip, Hermes Agent, Agent Zero, Space Agent, Superpowers
 PROJECTS/ARCHIVE/Drug Temperature Control System -> ShareFund
 PROJECTS/ARCHIVE/Genti Retail -> ShareFund
 PROJECTS/ARCHIVE/SHAREFUND/ShareFund -> PROJECTS/Hospital Logistics, PROJECTS/Genti Retail, PROJECTS/Drug Temperature Control System, PROJECTS/Work attendance management system
@@ -152,8 +158,14 @@ ABOUT/Roles/Founder <- ABOUT/Roles/Roles
 ABOUT/Roles/Friend <- ABOUT/Roles/Roles
 ABOUT/Roles/Husband <- ABOUT/Roles/Roles
 ABOUT/Roles/Son <- ABOUT/Roles/Roles
-Agent Skills <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Karpathy Skills, AI/TOOLS/Archon, AI/TOOLS/Vercel Skills, CODE/TOOLS/MakerKit, LIFE/KNOWLEDGE/INFO/Second Brain Design
-Awesome Claude Code <- AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
+Agent Skills <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Karpathy Skills, AI/TOOLS/Archon, AI/TOOLS/Vercel Skills, AI/TOOLS/Agent Zero, AI/TOOLS/Space Agent, AI/TOOLS/gstack, AI/TOOLS/Hermes Agent, AI/TOOLS/Superpowers, CODE/TOOLS/MakerKit, LIFE/KNOWLEDGE/INFO/Second Brain Design
+Agent Zero <- AI/TOOLS/Space Agent, AI/TOOLS/Hermes Agent, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Space Agent <- AI/TOOLS/Agent Zero, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+gstack <- AI/TOOLS/Awesome Claude Code, AI/TOOLS/Karpathy Skills, AI/TOOLS/Agent Skills, AI/TOOLS/UI UX Pro Max, AI/TOOLS/Superpowers
+Hermes Agent <- AI/TOOLS/Agent Zero, AI/TOOLS/Paperclip, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Superpowers <- AI/TOOLS/Awesome Claude Code, AI/TOOLS/Karpathy Skills, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, AI/TOOLS/gstack, AI/TOOLS/Agent Zero, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Paperclip <- AI/TOOLS/Space Agent, AI/TOOLS/Hermes Agent, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Awesome Claude Code <- AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills, AI/TOOLS/UI UX Pro Max, AI/TOOLS/gstack, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
 Agentic Coding <- AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Claude Code Best Practice, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI
 Agentic Systems <- AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/NemoClaw, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Make, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, PROJECTS/Projects, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, PROJECTS/VALUE-BUILDERS/Value Builders
 AI/KNOWLEDGE/INFO/Agentic Coding <- ABOUT/My career path, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook
@@ -196,7 +208,6 @@ CODE/TOOLS/Visual Studio Code <- ABOUT/What tools I use
 Company of one <- BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
 Context Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 Crypto Exchanges <- CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026, CRYPTO/NOTES/My web3
-Cursor <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/Agentic Coding, AI/TOOLS/Claude Code, AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Awesome Design MD, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 Damon Zahariades <- LIFE/BOOKS/The Mental Toughness Handbook
 Digital Garden <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/BRAIN/Brain
 El Padre Case Study <- BUSINESS/KNOWLEDGE/INFO/Process Mapping
@@ -209,10 +220,13 @@ How to take smart notes <- PROJECTS/BRAIN/Brain
 I have a business and not business has me <- BUSINESS/BOOKS/Company of one
 Influencers <- CRYPTO/NOTES/My web3
 Jordan Petersons 12 rules for life <- LIFE/BOOKS/12 Rules for Life
-Karpathy Skills <- AI/TOOLS/Awesome Claude Code, AI/TOOLS/Archon, AI/TOOLS/Vercel Skills, AI/TOOLS/Agent Skills, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, AI/KNOWLEDGE/INFO/DELEGATE-52
-Archon <- AI/TOOLS/Karpathy Skills, AI/KNOWLEDGE/INFO/DELEGATE-52
+Karpathy Skills <- AI/TOOLS/Awesome Claude Code, AI/TOOLS/Archon, AI/TOOLS/Vercel Skills, AI/TOOLS/Agent Skills, AI/TOOLS/gstack, AI/TOOLS/Superpowers, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, AI/KNOWLEDGE/INFO/DELEGATE-52
+Vercel Skills <- AI/TOOLS/Agent Skills, AI/TOOLS/Hermes Agent, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow
+NemoClaw <- ABOUT/What tools I use, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/TOOLS/Hermes Agent, CODE/TOOLS/Docker
+DELEGATE-52 <- AI/TOOLS/Hermes Agent
+Archon <- AI/TOOLS/Karpathy Skills, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/TOOLS/gstack, AI/TOOLS/Superpowers, AI/TOOLS/Paperclip
+Cursor <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/Agentic Coding, AI/TOOLS/Claude Code, AI/TOOLS/UI UX Pro Max, AI/TOOLS/gstack, AI/TOOLS/Superpowers, AI/TOOLS/Paperclip, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Awesome Design MD, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 LightRAG <- (none yet)
-Vercel Skills <- AI/TOOLS/Agent Skills, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow
 Claude Code Marp Workflow <- CODE/TOOLS/Marp
 Kindle <- ABOUT/How i read books, LIFE/KNOWLEDGE/INFO/Blue light
 LIFE/BOOKS/12 Rules for Life <- LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life

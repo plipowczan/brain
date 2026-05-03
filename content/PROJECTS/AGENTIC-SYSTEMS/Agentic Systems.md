@@ -79,3 +79,7 @@ A project to build and maintain replicable AI agent environments across two comp
 - [[Agentic Coding]]
 - [[Context Engineering]]
 - [[Qamera AI]] — primary product using this architecture
+- [[Paperclip]] — gotowy control plane do company-of-agents (org chart + budgety + governance)
+- [[Hermes Agent]] — single self-improving agent z TUI/messaging/cron, kompatybilny z `agentskills.io`
+- [[Agent Zero]] / [[Space Agent]] — alternative agentic frameworks (Linux/canvas vs frontend runtime)
+- [[Superpowers]] — methodology framework, alternatywa dla custom workflow gates

@@ -7,6 +7,7 @@ tags: ["tool", "ai", "claude-code", "resources"]
 type: tool
 agent-created: true
 agent-reviewed: 2026-04-10
+agent-reviewed: 2026-05-03
 summary: "Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations"
 ---
 
@@ -44,6 +45,7 @@ Specialized skill packages enabling Claude Code to perform domain-specific tasks
 - **cc-devops-skills** (akin-ozer) — detailed DevOps/IaC skills for cloud platforms
 - **Claude Scientific Skills** (K-Dense) — research, science, engineering, analysis, finance
 - **[[Graphify]]** (safishamsi) — code/docs/images → queryable knowledge graph
+- **[[gstack]]** (garrytan, YC) — 23+ opinionated skille jako wirtualny zespół (CEO/Designer/QA/SRE/Release)
 
 ### Workflows & Knowledge Guides
 Structured development processes i przewodniki:

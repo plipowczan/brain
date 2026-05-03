@@ -1,6 +1,6 @@
 ---
-updated: 2026-04-29T00:00:00Z
-entries: 198
+updated: 2026-05-03T00:00:00Z
+entries: 204
 ---
 # Note Catalog
 
@@ -45,19 +45,25 @@ entries: 198
 - **Hackathon Hacknation** | basic-note | 2025-12-12 | [basic, notes, hackathon, ai, govtech] | 24h hackathon building budget system with AI — lessons on validation, AI limitations, team dynamics | → Claude Code, Agentic Coding
 
 ## AI/TOOLS
-- **Agent Skills** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's system for dynamically loading specialized instructions into Claude — reusable skill packages | → Harness Engineering, LLM Knowledge Bases, Vercel Skills, Karpathy Skills
+- **Agent Skills** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's system for dynamically loading specialized instructions into Claude — reusable skill packages | → Harness Engineering, LLM Knowledge Bases, Vercel Skills, Karpathy Skills, Superpowers, gstack, Hermes Agent, Agent Zero, Space Agent
+- **Agent Zero** | tool | 2026-05-03 | [tool, ai, agents, framework, open-source, linux] | Open agentic framework — Linux-native AI agent z terminalem, browserem, Office canvas i multi-agent cooperation; baza pod Space Agent | → Space Agent, Agent Skills, Agentic Systems, Harness Engineering, Claude Code, Hermes Agent, Superpowers
 - **Archon** | tool | 2026-04-29 | [tool, ai, coding-agents, harness, workflow, open-source] | Open-source harness builder — YAML workflows for AI coding agents (plan/implement/validate/review/PR), deterministic + parallel via worktrees | → Karpathy Skills, Harness Engineering, Claude Code, Agent Skills, Awesome Claude Code, Qamera AI, PLSoft
 - **Autoresearch** | tool | 2026-04-05 | [tool, ai, research, llm, autonomous-agents] | Karpathy's framework for AI agents running autonomous ML research experiments overnight | → LLM Knowledge Bases
-- **Awesome Claude Code** | tool | 2026-03-31 | [tool, ai, claude-code, resources] | Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations | → Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify
+- **Awesome Claude Code** | tool | 2026-03-31 | [tool, ai, claude-code, resources] | Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations | → Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify, Superpowers, gstack, Karpathy Skills
 - **Claude Code** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's CLI for AI-assisted development — primary dev environment | → Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor
 - **Claude Code Best Practice** | tool | 2026-04-10 | [tool, ai, claude-code, coding-agents, resources] | 69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering | → Claude Code, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills
 - **Graphify** | tool | 2026-04-10 | [tool, ai, llm, knowledge-base, knowledge-management, coding-agents] | AI skill — code/docs/images → queryable knowledge graph with clustering, 71x token reduction | → Claude Code, Awesome Claude Code, LLM Knowledge Bases, Context Engineering
-- **Karpathy Skills** | tool | 2026-04-26 | [tool, ai, claude-code, coding-agents, context-engineering] | Single CLAUDE.md addressing 4 LLM-coder pitfalls (assumptions, overengineering, scope creep, weak goals) | → Awesome Claude Code, Context Engineering, Claude Code Best Practice, Agent Skills, Archon
+- **gstack** | tool | 2026-05-03 | [tool, ai, claude-code, coding-agents, skills, workflow, open-source] | Garry Tan's (YC) opinionated Claude Code stack — 23+ skills jako wirtualny zespół (CEO/Designer/EngMgr/QA/SRE), MIT, sprint-driven | → Claude Code, Agent Skills, Awesome Claude Code, Superpowers, Karpathy Skills, Archon, Cursor
+- **Hermes Agent** | tool | 2026-05-03 | [tool, ai, agents, open-source, self-improving, messaging, memory] | Nous Research self-improving agent — TUI + multi-platform messaging gateway, autonomous skill creation, FTS5 cross-session search, Honcho user modeling, runtime na $5 VPS | → Claude Code, Agent Zero, Paperclip, Agent Skills, Vercel Skills, NemoClaw, DELEGATE-52, LinkedIn Strategy, Brain
+- **Karpathy Skills** | tool | 2026-04-26 | [tool, ai, claude-code, coding-agents, context-engineering] | Single CLAUDE.md addressing 4 LLM-coder pitfalls (assumptions, overengineering, scope creep, weak goals) | → Awesome Claude Code, Context Engineering, Claude Code Best Practice, Agent Skills, Archon, Superpowers, gstack
 - **LightRAG** | tool | 2026-04-29 | [tool, ai, rag, knowledge-graph, llm, open-source] | EMNLP2025 RAG framework — łączy KG entity extraction z dual-level retrieval, bije NaiveRAG/HyDE/GraphRAG na 4 domenach | → AI Chatbots Architecture, LLM Knowledge Bases, Brain, Graphify, Qamera AI
-- **Vercel Skills** | tool | 2026-04-29 | [tool, ai, claude-code, skills, cli, open-source] | npx skills — CLI dla open agent skills ecosystemu, instaluje SKILL.md z dowolnego repo do 50+ agentów (Claude Code, Codex, Cursor, OpenCode...) | → Agent Skills, Karpathy Skills, Awesome Claude Code, Claude Code, Cursor, Brain
+- **Paperclip** | tool | 2026-05-03 | [tool, ai, agents, orchestration, company-of-agents, open-source, self-hosted] | paperclipai/paperclip — Node.js + React control plane do prowadzenia "firmy" z agentów AI: org chart, goals, budgety, governance, heartbeats, audit log; bring-your-own-agent | → Claude Code, Cursor, Agentic Systems, Agentic Coding, Autonomous Sales Agent Playbook, Archon, Hermes Agent, Qamera AI, PLSoft, Value Builders, Brain, Principles
+- **Space Agent** | tool | 2026-05-03 | [tool, ai, agents, frontend-runtime, skills, open-source] | Frontend-runtime agent z agent0ai — przebudowuje swój workspace w locie (pages, widgets, workflows) przez SKILL.md w plain text/JS | → Agent Zero, Agent Skills, Agentic Systems, Claude Code, Paperclip
+- **Superpowers** | tool | 2026-05-03 | [tool, ai, claude-code, skills, methodology, tdd, open-source] | Jesse Vincent (obra) opinionated software development methodology dla coding agentów — composable skille (brainstorm→worktree→plan→subagent→TDD→review→finish), auto-trigger, multi-host | → Claude Code, Cursor, Agent Skills, Karpathy Skills, gstack, Archon, Qamera AI
+- **Vercel Skills** | tool | 2026-04-29 | [tool, ai, claude-code, skills, cli, open-source] | npx skills — CLI dla open agent skills ecosystemu, instaluje SKILL.md z dowolnego repo do 50+ agentów (Claude Code, Codex, Cursor, OpenCode...) | → Agent Skills, Karpathy Skills, Awesome Claude Code, Claude Code, Cursor, Brain, Hermes Agent, Agent Zero, Space Agent, Superpowers
 - **Cursor** | tool | 2026-04-09 | [tool, ai, ide, coding-agents] | AI-powered IDE based on VS Code with built-in coding agents | → Qamera AI, Claude Code, Visual Studio Code
 - **NemoClaw** | tool | 2026-04-09 | [tool, ai, inference, self-hosted] | Self-hosted AI inference setup — OpenClaw gateway + NVIDIA Nemotron model | → Agentic Systems
-- **UI UX Pro Max** | tool | 2026-03-31 | [tool, ai, design, claude-code, skills] | Claude Code design system skill — adapts UI/UX guidance per project type (portfolio, SaaS, e-commerce) | → Claude Code, Cursor, Vibe Coding
+- **UI UX Pro Max** | tool | 2026-03-31 | [tool, ai, design, claude-code, skills] | Claude Code design system skill — adapts UI/UX guidance per project type; v2.0 dodaje Design System Generator (161 reasoning rules, 67 styles, 161 palet, 57 font pairings) | → Claude Code, Cursor, Vibe Coding, gstack, Awesome Claude Code
 - **VAPI** | tool | 2026-04-09 | [tool, ai, voicebot, voice-agents] | Platform for building AI voice agents and voicebots | → PLSoft
 
 ## BUSINESS/BOOKS
@@ -233,7 +239,7 @@ entries: 198
 - **Projects** | basic-note | 2022-08-22 | [projects] | 1. Qamera AI — AI virtual photo studio (CTO @ 200IQ Labs) 2. PLSoft —... | → Qamera AI, PLSoft, Agentic Systems, Value Builders, Value Builders Tribe, Brain, ShareFund, PROJECTS/ARCHIVE/AH/AutomationHouse, PROJECTS/ARCHIVE/Drug Temperature Control System, PROJECTS/ARCHIVE/Genti Retail
 
 ## PROJECTS/AGENTIC-SYSTEMS
-- **Agentic Systems** | basic-note | 2026-04-09 | [project, ai, agents, architecture] | Multi-agent architecture for two companies — shared skills, separate contexts | → Claude Code, Cursor, Agentic Coding, Context Engineering, Qamera AI
+- **Agentic Systems** | basic-note | 2026-04-09 | [project, ai, agents, architecture] | Multi-agent architecture for two companies — shared skills, separate contexts | → Claude Code, Cursor, Agentic Coding, Context Engineering, Qamera AI, Paperclip, Hermes Agent, Agent Zero, Space Agent, Superpowers
 
 ## PROJECTS/ARCHIVE
 - **Drug Temperature Control System** | basic-note | 2026-04-05 | [projects, todo/complete] | Placeholder — do uzupelnienia | → ShareFund

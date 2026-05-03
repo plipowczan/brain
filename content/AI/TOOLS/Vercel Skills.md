@@ -133,6 +133,9 @@ Słaby punkt: `npx` overhead na każdy install (downloads CLI). Dla Mass install
 - Skills directory: https://skills.sh/
 - Agent docs links (per agent): w README sekcja "Related Links" — 30+ pozycji
 - Env vars: `INSTALL_INTERNAL_SKILLS`, `DISABLE_TELEMETRY`, `DO_NOT_TRACK`
+- [[Hermes Agent]] — TUI/messaging agent zgodny z tym samym `agentskills.io` standardem
+- [[Agent Zero]] / [[Space Agent]] — agentic frameworks używające otwartego SKILL.md
+- [[Superpowers]] — methodology stack rozprowadzany jako plugin marketplace
 
 ---
 Template: [[templates/tool]]
