@@ -1,6 +1,6 @@
 ---
-updated: 2026-05-03T00:00:00Z
-entries: 210
+updated: 2026-05-09T00:00:00Z
+entries: 216
 ---
 # Note Catalog
 
@@ -34,6 +34,9 @@ entries: 210
 - **Agentic Coding** | knowledge-note | 2026-04-09 | [knowledge, info, ai, coding-agents, paradigm] | Paradigm shift: designing agent environments instead of writing code manually | → Context Engineering, Agent Skills, Qamera AI, Claude Code, Agentic Systems, Cursor, Harness Engineering
 - **AI Agent Security** | knowledge-note | 2026-02-09 | [knowledge, info, ai, security, agents] | Security analysis of autonomous AI agents — OpenClaw case study, CVEs, supply chain risks, safety practices | → Claude Code, NemoClaw, Agentic Systems
 - **AI Trends 2026** | knowledge-note | 2026-01-01 | [knowledge, info, ai, trends, strategy] | 2026 AI shift from experimentation to operationalization — agentic AI, reasoning models, EU AI Act, domain-specific models | → Agentic Coding, Agentic Systems, NemoClaw
+- **AI UX Design Tools** | knowledge-note | 2026-05-09 | [knowledge, info, ai, ux, design, product] | Hub for AI-driven UX/product design tools — methodology skills (UX RULER) and generative platforms (UX Pilot) | → UX RULER, UX Pilot, Agent Skills, UI UX Pro Max, Awesome Agent Skills, Spec-driven SEO and GEO
+- **Building Claude Skills Guide** | knowledge-note | 2026-05-09 | [knowledge, info, ai, claude, skills, claude-code, guide] | Pointer do PDF "Complete Guide to Building Skill for Claude" — kompendium tworzenia własnych skilli | → Agent Skills, Awesome Agent Skills, Awesome Claude Code, Karpathy Skills, Vercel Skills, Superpowers, gstack, UX RULER, Progressive Disclosure, Token Optimization for Claude Code
+- **GPT Image 2 + Seedance Workflow** | knowledge-note | 2026-05-09 | [knowledge, info, ai, video, image-generation, workflow, ads] | Storyboard-driven AI video ad pipeline — GPT Image 2 generuje frame-by-frame storyboard, Seedance 2 zamienia każdy frame w klip | → Awesome Nano Banana Pro Prompts, Agentic Systems
 - **Context Engineering** | knowledge-note | 2026-04-09 | [knowledge, info, ai, context-engineering, llm, agents] | Designing optimal context for LLM agents — attention budget, just-in-time retrieval, compaction, sub-agents | → Progressive Disclosure, Harness Engineering, Agent Skills, Token Optimization for Claude Code, Agentic Coding, LLM Knowledge Bases, Claude Code, Claude Code Best Practice, Skills 2.0 Testing
 - **Progressive Disclosure** | knowledge-note | 2026-04-30 | [knowledge, info, ai, context-engineering, progressive-disclosure, agents, memory] | Index-first context priming — show what exists and retrieval cost, let the agent decide what to fetch | → Context Engineering, Harness Engineering, Agent Skills, LLM Knowledge Bases, Token Optimization for Claude Code, Graphify, Claude Code, Claude Code Best Practice, Brain
 - **Harness Engineering** | knowledge-note | 2026-04-09 | [knowledge, info, ai, coding-agents, context-engineering, claude] | Configuring coding agent harness (CLAUDE.md, MCP, skills, sub-agents, hooks) to maximize output quality | → Agent Skills, LLM Knowledge Bases
@@ -53,6 +56,7 @@ entries: 210
 - **Autoresearch** | tool | 2026-04-05 | [tool, ai, research, llm, autonomous-agents] | Karpathy's framework for AI agents running autonomous ML research experiments overnight | → LLM Knowledge Bases
 - **Awesome Agent Skills** | tool | 2026-04-30 | [tool, ai, agent-skills, claude-code, codex, gemini-cli, cursor, resources, curated-list] | VoltAgent-curated list of 1000+ Agent Skills from official dev teams and community — cross-platform (Claude Code, Codex, Gemini CLI, Cursor, etc.) | → Agent Skills, Awesome Claude Code, Vercel Skills, Karpathy Skills, Harness Engineering, Context Engineering, Progressive Disclosure, Skills 2.0 Testing, Claude Code, AI Agent Security
 - **Awesome Claude Code** | tool | 2026-03-31 | [tool, ai, claude-code, resources] | Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations | → Claude Code, UI UX Pro Max, Agent Skills, Context Engineering, Claude Code Best Practice, Graphify, Superpowers, gstack, Karpathy Skills
+- **Awesome Nano Banana Pro Prompts** | tool | 2026-05-09 | [tool, ai, image-generation, prompts, curated-list, open-source] | Curated 10K+ prompt library for Google Nano Banana Pro — preview images, 16 languages, free & open source | → GPT Image 2 + Seedance Workflow, Awesome Claude Code, Awesome Agent Skills, Karpathy Skills
 - **Claude Code** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's CLI for AI-assisted development — primary dev environment | → Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor
 - **Claude Code Best Practice** | tool | 2026-04-10 | [tool, ai, claude-code, coding-agents, resources] | 69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering | → Claude Code, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills
 - **Claude Peers MCP** | tool | 2026-04-20 | [tool, ai, mcp, claude-code, multi-agent, coordination] | MCP enabling multiple Claude Code sessions to discover each other and exchange messages instantly via local broker | → Claude Code, Agent Skills, Agentic Systems, Harness Engineering, Context Engineering
@@ -68,7 +72,9 @@ entries: 210
 - **Vercel Skills** | tool | 2026-04-29 | [tool, ai, claude-code, skills, cli, open-source] | npx skills — CLI dla open agent skills ecosystemu, instaluje SKILL.md z dowolnego repo do 50+ agentów (Claude Code, Codex, Cursor, OpenCode...) | → Agent Skills, Karpathy Skills, Awesome Claude Code, Claude Code, Cursor, Brain, Hermes Agent, Agent Zero, Space Agent, Superpowers
 - **Cursor** | tool | 2026-04-09 | [tool, ai, ide, coding-agents] | AI-powered IDE based on VS Code with built-in coding agents | → Qamera AI, Claude Code, Visual Studio Code
 - **NemoClaw** | tool | 2026-04-09 | [tool, ai, inference, self-hosted] | Self-hosted AI inference setup — OpenClaw gateway + NVIDIA Nemotron model | → Agentic Systems
-- **UI UX Pro Max** | tool | 2026-03-31 | [tool, ai, design, claude-code, skills] | Claude Code design system skill — adapts UI/UX guidance per project type; v2.0 dodaje Design System Generator (161 reasoning rules, 67 styles, 161 palet, 57 font pairings) | → Claude Code, Cursor, Vibe Coding, gstack, Awesome Claude Code
+- **UI UX Pro Max** | tool | 2026-03-31 | [tool, ai, design, claude-code, skills] | Claude Code design system skill — adapts UI/UX guidance per project type; v2.0 dodaje Design System Generator (161 reasoning rules, 67 styles, 161 palet, 57 font pairings) | → Claude Code, Cursor, Vibe Coding, gstack, Awesome Claude Code, AI UX Design Tools, UX Pilot
+- **UX Pilot** | tool | 2026-05-09 | [tool, ai, ux, design, wireframe, figma] | AI generator wireframe'ów i hi-fi UI — sketch/PRD → ekran w ~12s, two-way Figma sync, GitHub code export | → AI UX Design Tools, UX RULER, UI UX Pro Max
+- **UX RULER** | tool | 2026-05-09 | [tool, ai, ux, skills, claude-code, open-source, methodology] | Open-source UX skill dla agentów (Claude Code, Codex) — proces od misji do metryki, decyzje zapisane w repo (PRODUCT.md, ROADMAP.md, ADR) | → AI UX Design Tools, UX Pilot, Agent Skills, Karpathy Skills, Superpowers, Awesome Agent Skills, Spec-driven SEO and GEO
 - **VAPI** | tool | 2026-04-09 | [tool, ai, voicebot, voice-agents] | Platform for building AI voice agents and voicebots | → PLSoft
 
 ## BUSINESS/BOOKS
