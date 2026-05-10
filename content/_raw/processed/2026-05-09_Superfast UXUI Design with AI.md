@@ -125,7 +125,7 @@ Retrieve Designs in Figma
 
 Pull UX Pilot designs into Figma for faster wireframing and prototype refinement
 
-![Retrieve Designs in Figma](https://uxpilot.ai/_next/image?url=%2Fassets%2Fimages%2Fflexible-1-alt.png&w=1920&q=75)
+![[594cf8f2ed17223d6f7e5027ecb9fed7_MD5.png]]
 
 (Code And Export)
 
@@ -133,7 +133,7 @@ Sync code with Github
 
 Receive ready-to-use code in your Github repositories automatically
 
-![Sync code with Github](https://uxpilot.ai/_next/image?url=%2Fassets%2Fimages%2Fflexible-2-alt.png&w=1920&q=75)
+![[97e5ffa91ea4ca98f98f8aedfd7c22aa_MD5.png]]
 
 ## Community & Learning
 
@@ -199,4 +199,4 @@ Create your first design now
 
 Generate designs in seconds
 
-![UX Pilot Dashboard](https://uxpilot.ai/_next/image?url=%2Fassets%2Fimages%2Fget-your-own-sec-alt.png&w=1920&q=75)
+![[53fb2e795252e6e22de5d111944cdb9e_MD5.png]]

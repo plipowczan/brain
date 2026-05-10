@@ -8,7 +8,7 @@ description:
 tags:
   - "clippings"
 ---
-## Feed post![View Raphael Guilhem’s profile](https://media.licdn.com/dms/image/v2/D4E03AQEcUFRh9KExgg/profile-displayphoto-scale_100_100/B4EZpUBfFdHMAg-/0/1762346267546?e=1779926400&v=beta&t=2K91FJx04H3hE5oBQ1GA8G2KvU7wcD5l42MHpfsZpSw)
+## Feed post![[2a79254783774eb248ea66cb4a80abcb_MD5.jpg]]
 
 View Raphael Guilhem’s profile
 
@@ -16,7 +16,7 @@ GPT Image 2 + Seedance 2 = Incredible video ads It makes your video workflows fa
 
 <video src="blob:https://www.linkedin.com/131cb4e1-af56-47ce-82c4-d69a5245eadd" controls=""></video>
 
-![](https://media.licdn.com/dms/image/v2/D4E05AQGFhh4tM4_m3w/videocover-high/B4EZ4BsiMSIMBU-/0/1778144914543?e=1778911200&v=beta&t=KZDeQw3mUXSNG3Zippfmm7SXYgVshKRSJpBw16GJPrU)
+![[a9a2395ba39cbd0971edc2813632cc7b_MD5.jpg]]
 
 Current Time 0:03
 

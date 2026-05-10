@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-09T00:00:00Z
-nodes: 216
-edges: 552
+updated: 2026-05-10T00:00:00Z
+nodes: 217
+edges: 556
 ---
 # Link Graph
 
@@ -108,6 +108,7 @@ CODE/TOOLS/React -> Qamera AI, Next.js
 CODE/TOOLS/Remotion -> Claude Code
 CODE/TOOLS/MakerKit -> Agent Skills
 CODE/TOOLS/Supabase -> Qamera AI, Next.js, Airtable
+CODE/TOOLS/Scrapling -> Firecrawl, Agent Zero, Hermes Agent, LightRAG
 CRYPTO/KNOWLEDGE/INFO/Bitcoin -> What mistakes I made on the crypto market in 2021-2022, CEX
 CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026 -> Bitcoin, What mistakes I made on the crypto market in 2021-2022, CEX, Crypto Exchanges
 CRYPTO/NOTES/My web3 -> Crypto Exchanges, Influencers
@@ -171,10 +172,10 @@ ABOUT/Roles/Friend <- ABOUT/Roles/Roles
 ABOUT/Roles/Husband <- ABOUT/Roles/Roles
 ABOUT/Roles/Son <- ABOUT/Roles/Roles
 Agent Skills <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/AI UX Design Tools, AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Karpathy Skills, AI/TOOLS/Archon, AI/TOOLS/Vercel Skills, AI/TOOLS/Agent Zero, AI/TOOLS/Space Agent, AI/TOOLS/gstack, AI/TOOLS/Hermes Agent, AI/TOOLS/Superpowers, AI/TOOLS/UX RULER, CODE/TOOLS/MakerKit, LIFE/KNOWLEDGE/INFO/Second Brain Design
-Agent Zero <- AI/TOOLS/Space Agent, AI/TOOLS/Hermes Agent, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Agent Zero <- AI/TOOLS/Space Agent, AI/TOOLS/Hermes Agent, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, CODE/TOOLS/Scrapling
 Space Agent <- AI/TOOLS/Agent Zero, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 gstack <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Karpathy Skills, AI/TOOLS/Agent Skills, AI/TOOLS/UI UX Pro Max, AI/TOOLS/Superpowers
-Hermes Agent <- AI/TOOLS/Agent Zero, AI/TOOLS/Paperclip, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+Hermes Agent <- AI/TOOLS/Agent Zero, AI/TOOLS/Paperclip, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, CODE/TOOLS/Scrapling
 Superpowers <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Karpathy Skills, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, AI/TOOLS/gstack, AI/TOOLS/Agent Zero, AI/TOOLS/UX RULER, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 Paperclip <- AI/TOOLS/Space Agent, AI/TOOLS/Hermes Agent, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 Awesome Claude Code <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Nano Banana Pro Prompts, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills, AI/TOOLS/UI UX Pro Max, AI/TOOLS/gstack, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
@@ -239,7 +240,7 @@ NemoClaw <- ABOUT/What tools I use, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOW
 DELEGATE-52 <- AI/TOOLS/Hermes Agent
 Archon <- AI/TOOLS/Karpathy Skills, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/TOOLS/gstack, AI/TOOLS/Superpowers, AI/TOOLS/Paperclip
 Cursor <- ABOUT/Roles/Developer, AI/KNOWLEDGE/INFO/Agentic Coding, AI/TOOLS/Claude Code, AI/TOOLS/UI UX Pro Max, AI/TOOLS/gstack, AI/TOOLS/Superpowers, AI/TOOLS/Paperclip, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Awesome Design MD, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
-LightRAG <- (none yet)
+LightRAG <- CODE/TOOLS/Scrapling
 Claude Code Marp Workflow <- CODE/TOOLS/Marp
 Kindle <- ABOUT/How i read books, LIFE/KNOWLEDGE/INFO/Blue light
 LIFE/BOOKS/12 Rules for Life <- LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life

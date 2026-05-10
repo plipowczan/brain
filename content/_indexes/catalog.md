@@ -1,6 +1,6 @@
 ---
-updated: 2026-05-09T00:00:00Z
-entries: 216
+updated: 2026-05-10T00:00:00Z
+entries: 217
 ---
 # Note Catalog
 
@@ -147,6 +147,7 @@ entries: 216
 - **React** | tool | 2026-04-09 | [tool, frontend, javascript, framework] | Frontend UI library — currently learning for Qamera AI frontend | → Qamera AI, Next.js
 - **Remotion** | tool | 2026-01-31 | [tool, ai, video, react] | React-based video production — code-driven explainers, dynamic data, AI-assisted via Claude Code | → Claude Code
 - **RunJS** | tool | 2023-01-08 | [tool] | Template: tool | → -
+- **Scrapling** | tool | 2026-05-10 | [tool, python, web-scraping, crawler, automation, mcp, open-source] | Adaptive Python scraping framework — fetchers, spiders, anti-bot bypass, MCP server | → Firecrawl, Agent Zero, Hermes Agent, LightRAG
 - **Supabase** | tool | 2026-04-09 | [tool, database, backend, baas] | Open-source Firebase alternative — Postgres database, auth, storage, realtime | → Qamera AI, Next.js, Airtable
 - **Visual Studio** | tool | 2023-01-08 | [tool, visualstudio, code] | It is integrated development environment (IDE). A creative platform to edit, debug and compile code... | → -
 - **MakerKit** | tool | 2026-04-12 | [tool, nextjs, saas, boilerplate, fullstack, react] | Production-ready Next.js SaaS starter kit with auth, billing, teams and multi-tenancy | → Agent Skills
