@@ -47,3 +47,5 @@ My solo consulting practice (Jednoosobowa Dzialalnosc Gospodarcza), operating si
 ## 🔗 Links
 - [[About]] — my profile
 - [[Qamera AI]] — my product company (separate entity)
+- [[agentic-ai-private]] — agent system + context for PLSoft + personal scope
+- [[Agentic AI Repos]] — full 3-repo architecture

@@ -76,6 +76,8 @@ A project to build and maintain replicable AI agent environments across two comp
 - **Sandbox** — potencjał na autonomiczne zadania nocne (analizy, raporty), ale model bezpieczeństwa wymaga dopracowania przed real data
 
 ## 🔗 Links
+- [[Agentic AI Repos]] — implementation hub: 3 actual repos (system + private + skills submodules)
+- [[agentic-ai-system]] · [[agentic-ai-private]] · [[Agentic Skills Submodules]]
 - [[Agentic Coding]]
 - [[Context Engineering]]
 - [[Qamera AI]] — primary product using this architecture

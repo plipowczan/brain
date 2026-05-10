@@ -1,6 +1,6 @@
 ---
-updated: 2026-05-10T00:00:00Z
-entries: 217
+updated: 2026-05-10T13:00:00Z
+entries: 222
 ---
 # Note Catalog
 
@@ -236,6 +236,7 @@ entries: 217
 - **Microsoft To Do** | tool | 2022-10-28 | [tool, microsoft, todo] | Task management software. This is a simple task management app which helps to keep track... | → BUSINESS/TOOLS/Outlook, LIFE/KNOWLEDGE/INFO/Pomodoro, BUSINESS/TOOLS/ClickUp
 - **OneNote** | tool | 2023-01-08 | [tool] | Template: tool | → -
 - **PowerToys** | tool | 2022-09-06 | [tool, windows, productivity] | Microsoft PowerToys — a set of utilities for power users to tune and streamline their... | → -
+- **Pstryk** | tool | 2026-05-10 | [tool, energy, dynamic-pricing, household, savings, poland] | Polski sprzedawca prądu po cenach dynamicznych godzinowych z Tarczą 0,61 zł/kWh, miernikiem WiFi i transparentną aplikacją | → -
 - **Revolut** | tool | 2022-09-06 | [tool, revolut, bank, money] | One application to manage all aspects of your finances. One app, all things money /... | → ABOUT/Motivation system for my kids, LIFE/TOOLS/Revolut Junior
 - **TextExpander** | tool | 2023-01-08 | [tool] | Template: tool | → -
 - **tool** | tool | 2022-09-06 | [tool, obsidian, notes] | Note taking and maintaining tool. Obsidian Releases · obsidianmd/obsidian-releases (github.com) 1. MarkMindCkm/obsidian-markmind: A mind map,... | → LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/HOWTO/How to create mind map
@@ -252,7 +253,11 @@ entries: 217
 - **Projects** | basic-note | 2022-08-22 | [projects] | 1. Qamera AI — AI virtual photo studio (CTO @ 200IQ Labs) 2. PLSoft —... | → Qamera AI, PLSoft, Agentic Systems, Value Builders, Value Builders Tribe, Brain, ShareFund, PROJECTS/ARCHIVE/AH/AutomationHouse, PROJECTS/ARCHIVE/Drug Temperature Control System, PROJECTS/ARCHIVE/Genti Retail
 
 ## PROJECTS/AGENTIC-SYSTEMS
-- **Agentic Systems** | basic-note | 2026-04-09 | [project, ai, agents, architecture] | Multi-agent architecture for two companies — shared skills, separate contexts | → Claude Code, Cursor, Agentic Coding, Context Engineering, Qamera AI, Paperclip, Hermes Agent, Agent Zero, Space Agent, Superpowers
+- **Agentic Systems** | basic-note | 2026-04-09 | [project, ai, agents, architecture] | Multi-agent architecture for two companies — shared skills, separate contexts | → Agentic AI Repos, agentic-ai-system, agentic-ai-private, Agentic Skills Submodules, Claude Code, Cursor, Agentic Coding, Context Engineering, Qamera AI, Paperclip, Hermes Agent, Agent Zero, Space Agent, Superpowers
+- **Agentic AI Repos** | knowledge-note | 2026-05-10 | [project, ai, agents, architecture, claude-code, skills] | Hub: 3 repos (agentic-ai-system, agentic-ai-private, shared-skills+private-skills) forming 200IQ LABS + PLSoft agent infrastructure | → agentic-ai-system, agentic-ai-private, Agentic Skills Submodules, Agentic Systems, Qamera AI, PLSoft, Agent Skills, Awesome Claude Code, Superpowers, Karpathy Skills
+- **agentic-ai-system** | basic-note | 2026-05-10 | [project, ai, agents, 200iq-labs, qamera, claude-code] | 200IQ LABS PSA multi-agent advisory repo — context, tools, orchestration for Qamera AI | → Agentic AI Repos, agentic-ai-private, Agentic Skills Submodules, Qamera AI, Agentic Systems, OpenSpec, Claude Code
+- **agentic-ai-private** | basic-note | 2026-05-10 | [project, ai, agents, plsoft, personal, claude-code] | PLSoft (JDG) + personal multi-agent advisory repo — separate from 200IQ LABS | → Agentic AI Repos, agentic-ai-system, Agentic Skills Submodules, PLSoft, About, Tech News Weekly, Value Builders
+- **Agentic Skills Submodules** | basic-note | 2026-05-10 | [project, ai, skills, claude-code, open-source, 200iq-labs] | shared-skills (Apache 2.0) + private-skills (proprietary) — git submodules feeding both agentic-ai repos | → Agentic AI Repos, agentic-ai-system, agentic-ai-private, Agent Skills, Awesome Claude Code, Awesome Agent Skills, Karpathy Skills, Vercel Skills, Superpowers, gstack, Progressive Disclosure, Token Optimization for Claude Code, Building Claude Skills Guide
 
 ## PROJECTS/ARCHIVE
 - **Drug Temperature Control System** | basic-note | 2026-04-05 | [projects, todo/complete] | Placeholder — do uzupelnienia | → ShareFund

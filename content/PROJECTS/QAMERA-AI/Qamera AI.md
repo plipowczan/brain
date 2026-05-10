@@ -37,4 +37,6 @@ Primary niche: swimwear & lingerie brands (high sizing complexity, ad censorship
 - [[About]] — my role
 - [[PLSoft]] — my consulting practice (separate entity)
 - [[Agentic Systems]] — agent architecture used in development
+- [[agentic-ai-system]] — 200IQ LABS multi-agent advisory repo (orchestrator + context)
+- [[Agentic AI Repos]] — full 3-repo architecture
 - [[Spec-driven SEO and GEO]] — SEO foundation case study (2026-04, 9 spec-driven changes in 5 days)

@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-10T00:00:00Z
-nodes: 217
-edges: 556
+updated: 2026-05-10T13:00:00Z
+nodes: 222
+edges: 600
 ---
 # Link Graph
 
@@ -142,15 +142,19 @@ LIFE/TOOLS/Obsidian -> LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/O
 LIFE/TOOLS/Revolut -> ABOUT/Motivation system for my kids, LIFE/TOOLS/Revolut Junior
 NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline -> n8n, Airtable, Make
 NOCODE/KNOWLEDGE/INFO/Automation Tool Selection -> Zapier, Make, n8n
-PROJECTS/AGENTIC-SYSTEMS/Agentic Systems -> Claude Code, Cursor, Agentic Coding, Context Engineering, Qamera AI, Paperclip, Hermes Agent, Agent Zero, Space Agent, Superpowers
+PROJECTS/AGENTIC-SYSTEMS/Agentic Systems -> Agentic AI Repos, agentic-ai-system, agentic-ai-private, Agentic Skills Submodules, Claude Code, Cursor, Agentic Coding, Context Engineering, Qamera AI, Paperclip, Hermes Agent, Agent Zero, Space Agent, Superpowers
+PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos -> agentic-ai-system, agentic-ai-private, Agentic Skills Submodules, Agentic Systems, Qamera AI, PLSoft, Agent Skills, Awesome Claude Code, Superpowers, Karpathy Skills
+PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system -> Agentic AI Repos, agentic-ai-private, Agentic Skills Submodules, Qamera AI, Agentic Systems, OpenSpec, Claude Code
+PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private -> Agentic AI Repos, agentic-ai-system, Agentic Skills Submodules, PLSoft, About, Tech News Weekly, Value Builders
+PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules -> Agentic AI Repos, agentic-ai-system, agentic-ai-private, Agent Skills, Awesome Claude Code, Awesome Agent Skills, Karpathy Skills, Vercel Skills, Superpowers, gstack, Progressive Disclosure, Token Optimization for Claude Code, Building Claude Skills Guide
 PROJECTS/ARCHIVE/Drug Temperature Control System -> ShareFund
 PROJECTS/ARCHIVE/Genti Retail -> ShareFund
 PROJECTS/ARCHIVE/SHAREFUND/ShareFund -> PROJECTS/Hospital Logistics, PROJECTS/Genti Retail, PROJECTS/Drug Temperature Control System, PROJECTS/Work attendance management system
 PROJECTS/ARCHIVE/Work attendance management system -> ShareFund
 PROJECTS/BRAIN/Brain -> Obsidian, Quartz, Claude Code, Zettelkasten, Digital Garden, LLM Knowledge Bases, Building a Second Brain, How to take smart notes
-PROJECTS/PLSOFT/PLSoft -> VAPI, About, Qamera AI
+PROJECTS/PLSOFT/PLSoft -> VAPI, About, Qamera AI, agentic-ai-private, Agentic AI Repos
 PROJECTS/Projects -> Qamera AI, PLSoft, Agentic Systems, Value Builders, Value Builders Tribe, Brain, ShareFund, PROJECTS/ARCHIVE/AH/AutomationHouse, PROJECTS/ARCHIVE/Drug Temperature Control System, PROJECTS/ARCHIVE/Genti Retail
-PROJECTS/QAMERA-AI/Qamera AI -> Next.js, Supabase, Google Cloud, Agentic Coding, About, PLSoft, Agentic Systems, Spec-driven SEO and GEO
+PROJECTS/QAMERA-AI/Qamera AI -> Next.js, Supabase, Google Cloud, Agentic Coding, About, PLSoft, Agentic Systems, agentic-ai-system, Agentic AI Repos, Spec-driven SEO and GEO
 PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe -> Qamera AI, Agentic Systems, Value Builders, Build in Public
 PROJECTS/VALUE-BUILDERS/Value Builders -> Qamera AI, Agentic Systems, PLSoft, Value Builders Tribe
 TRAVELS/TRIPS/2022 Iceland October -> TRAVELS/TOOLS/Ventusky
@@ -296,15 +300,19 @@ OPSX Workflow <- CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OpenSpe
 Specification-Driven Development <- CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
 PLSoft <- ABOUT/Roles/Founder, AI/TOOLS/VAPI, BUSINESS/BOOKS/Company of one, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/n8n, PROJECTS/Projects, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS/Value Builders
 Principles <- ABOUT/Roles/Founder, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
-PROJECTS/AGENTIC-SYSTEMS/Agentic Systems <- ABOUT/About
+PROJECTS/AGENTIC-SYSTEMS/Agentic Systems <- ABOUT/About, PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system
+PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos <- PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, PROJECTS/PLSOFT/PLSoft, PROJECTS/QAMERA-AI/Qamera AI
+PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system <- PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI
+PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private <- PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/PLSOFT/PLSoft
+PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules <- PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 PROJECTS/ARCHIVE/AH/AutomationHouse <- PROJECTS/Projects
 PROJECTS/ARCHIVE/Drug Temperature Control System <- PROJECTS/Projects
 PROJECTS/ARCHIVE/Genti Retail <- PROJECTS/Projects
 PROJECTS/Drug Temperature Control System <- PROJECTS/ARCHIVE/SHAREFUND/ShareFund
 PROJECTS/Genti Retail <- PROJECTS/ARCHIVE/SHAREFUND/ShareFund
 PROJECTS/Hospital Logistics <- PROJECTS/ARCHIVE/SHAREFUND/ShareFund
-PROJECTS/PLSOFT/PLSoft <- ABOUT/About, ABOUT/My career path
-PROJECTS/QAMERA-AI/Qamera AI <- ABOUT/About, ABOUT/My career path
+PROJECTS/PLSOFT/PLSoft <- ABOUT/About, ABOUT/My career path, PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private
+PROJECTS/QAMERA-AI/Qamera AI <- ABOUT/About, ABOUT/My career path, PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system
 PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe <- ABOUT/About
 PROJECTS/VALUE-BUILDERS/Value Builders <- ABOUT/About, ABOUT/My career path
 PROJECTS/Work attendance management system <- PROJECTS/ARCHIVE/SHAREFUND/ShareFund
