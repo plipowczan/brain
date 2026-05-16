@@ -56,7 +56,8 @@
       "Bash(mv \"content/_raw/inbox/VoltAgentawesome-design-md A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.md\" \"content/_raw/processed/2026-04-10_voltagent-awesome-design-md.md\")",
       "Bash(cat)",
       "Bash(sed -n '187,197p' C:/Users/pawel/Development/Repositories/brain/CLAUDE.md)",
-      "Read(//tmp/**)"
+      "Read(//tmp/**)",
+      "PowerShell(Get-ChildItem -LiteralPath 'C:\\\\PROJEKTY\\\\brain\\\\content\\\\_raw\\\\inbox\\\\' -Force | ForEach-Object { \"{0}`t{1}\" -f $_.Length, $_.Name })"
     ]
   }
 }

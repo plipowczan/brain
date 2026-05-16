@@ -50,6 +50,7 @@ Output: video ad gdzie **każda klatka jest intencjonalna**. No guessing, no cre
 
 - [[Awesome Nano Banana Pro Prompts]] — biblioteka promptów dla Google Nano Banana Pro (alternatywny image model)
 - [[Agentic Systems]] — szerszy kontekst pipeline'ów multi-model
+- [[Open Design]] — bundle'uje ten sam stos: gpt-image-2 + Seedance 2.0 + HyperFrames jako built-in media generation z prompt gallery (93 prompty)
 
 ---
 Template: [[templates/knowledge_note_info]]

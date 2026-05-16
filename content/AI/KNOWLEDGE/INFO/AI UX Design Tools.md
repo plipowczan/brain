@@ -25,6 +25,8 @@ W praktyce sensowny stack to: **UX RULER** dla decyzji i pamięci produktowej (`
 
 - [[UX RULER]] — open-source UX skill dla agentów (Claude Code, Codex), proces od misji do metryki, zapis decyzji w repo
 - [[UX Pilot]] — generator wireframe'ów i hi-fi UI z AI, eksport do Figmy i kodu
+- [[Open Design]] — local-first OSS alternatywa do Claude Design: 31 design skills, 72+ design systems, 16 CLI agents, HTML/PDF/PPTX/MP4 export, BYOK
+- [[UI UX Pro Max]] — Claude Code design system skill (v2.0 Design System Generator)
 
 ## 🧩 Features porównanie
 

@@ -32,7 +32,7 @@ Workflow:
 3. Skopiuj do właściwej ścieżki dla Twojego harness (patrz tabela ścieżek poniżej)
 4. Zweryfikuj zgodnie z Quality Standards przed użyciem produkcyjnym
 
-Komplementarne do [[Awesome Claude Code]] — to drugie jest *Claude-Code-only* i obejmuje też workflows/hooks/slash commands/CLAUDE.md; Awesome Agent Skills jest *cross-platform* i skupia się tylko na skillach.
+Komplementarne do [[Awesome Claude Code]] — to drugie jest *Claude-Code-only* i obejmuje też workflows/hooks/slash commands/CLAUDE.md; Awesome Agent Skills jest *cross-platform* i skupia się tylko na skillach. Większe end-to-end systemy cross-harness żyją osobno — patrz [[Everything Claude Code]] (60 agents/230 skills/hooks) i [[Open Design]] (31 design skills + 16 CLI auto-detect).
 
 ## 🧩 Notable categories
 

@@ -7,6 +7,7 @@ tags: ["tool", "ai", "agents", "open-source", "self-improving", "messaging", "me
 type: tool
 source: "_raw/inbox/NousResearchhermes-agent The agent that grows with you.md"
 agent-created: true
+agent-reviewed: 2026-05-16
 summary: "Nous Research self-improving agent — TUI + Telegram/Discord/Slack/WhatsApp/Signal gateway, autonomous skill creation, FTS5 cross-session search, Honcho user modeling, runtime na $5 VPS"
 ---
 
@@ -70,6 +71,8 @@ Ryzyka:
 - **[[Claude Code]]** — silniejszy w native coding, słabszy w cross-platform messaging i memory loop
 - **[[Agent Zero]]** — Linux/GUI sandbox vs Hermes TUI/messaging; inna filozofia interakcji
 - **[[Paperclip]]** — orkiestrator company-of-agents, Hermes to single self-improving agent
+- **[[Ruflo]]** — agent orchestration platform (98 agentów, swarm + federation), Hermes to single-agent (Ruflo to wielo-agentowa platforma z MCP)
+- **[[Everything Claude Code]]** — cross-harness perf system, w rc.1 wprost integruje Hermes jako operator workflow layer
 - **OpenClaw** — direct precursor; Hermes ma wbudowaną migrację (`hermes claw migrate`)
 
 ## 🔗 Resources

@@ -7,7 +7,7 @@ tags: ["tool", "ai", "claude-code", "resources"]
 type: tool
 agent-created: true
 agent-reviewed: 2026-04-10
-agent-reviewed: 2026-05-03
+agent-reviewed: 2026-05-16
 summary: "Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations"
 ---
 
@@ -39,7 +39,7 @@ Wiele narzędzi, które sam używam — [[UI UX Pro Max]], [[Agent Skills]] — 
 ### Agent Skills
 Specialized skill packages enabling Claude Code to perform domain-specific tasks. Wyróżniające się:
 - **[[Superpowers]]** (obra) — core SDLC competencies: planning, reviewing, testing, debugging
-- **Everything Claude Code** (affaan-m) — comprehensive resources covering all engineering domains
+- **[[Everything Claude Code]]** (affaan-m) — cross-harness perf system (60 agents, 230 skills, AgentShield), MIT, Hackathon winner
 - **Compound Engineering Plugin** (EveryInc) — agents + skills built around learning from past mistakes
 - **Trail of Bits Security Skills** — professional security auditing with CodeQL and Semgrep
 - **cc-devops-skills** (akin-ozer) — detailed DevOps/IaC skills for cloud platforms

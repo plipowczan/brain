@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["project", "ai", "agents", "architecture"]
 type: basic-note
-agent-reviewed: 2026-04-10
+agent-reviewed: 2026-05-16
 agent-created: true
 summary: "Multi-agent architecture for two companies — shared skills, separate contexts"
 ---
@@ -85,3 +85,5 @@ A project to build and maintain replicable AI agent environments across two comp
 - [[Hermes Agent]] — single self-improving agent z TUI/messaging/cron, kompatybilny z `agentskills.io`
 - [[Agent Zero]] / [[Space Agent]] — alternative agentic frameworks (Linux/canvas vs frontend runtime)
 - [[Superpowers]] — methodology framework, alternatywa dla custom workflow gates
+- [[Ruflo]] — agent orchestration platform z federacją cross-machine i SONA self-learning (peer dla naszego custom multi-agent stacku)
+- [[Everything Claude Code]] — cross-harness perf system (60 agents/230 skills) — referencja jak skalować skille/instincts/hooks
