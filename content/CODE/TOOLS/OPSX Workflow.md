@@ -161,6 +161,17 @@ AI zna konwencje projektu bez powtarzania w każdym promcie.
 - **Liniowe phase-gate workflows** — walczą z rzeczywistością iteracyjnej pracy
 - **Cursor/Windsurf bez struktury** — brak persistent artifacts, context loss
 
+## 🧭 Use case: PRD z analizy + oferty klienckiej
+
+OPSX świetnie sprawdza się jako **silnik generowania PRD** z dwóch wejść: analizy biznesowej (np. mapa procesu AS-IS) i oferty (zakres + stack + harmonogram). Pipeline:
+
+- Analiza ([[Process Mapping]] — 4 elementy: Akcja/Aktor/Narzędzie/Tryb) → `proposal.md` (problem statement)
+- Discovery ([[UX RULER]] 7 etapów) → `PRODUCT.md`, decision-log, north-star-metric
+- Oferta → `openspec/config.yaml` context (stack, konwencje, harmonogram)
+- `/opsx:ff` lub `/opsx:continue` → `specs/*.md` (Given/When/Then per feature) + `design.md` + `tasks.md` w DAG
+
+Pełna synteza: [[2026-05-16_PRD-z-analizy-i-oferty]]. Wzorzec end-to-end: [[El Padre Case Study]].
+
 ## 📖 Resources
 
 - [OpenSpec GitHub](https://github.com/Fission-AI/openspec) — repo z kodem i dokumentacją
@@ -168,6 +179,9 @@ AI zna konwencje projektu bez powtarzania w każdym promcie.
 - [[Claude Code]] — primary AI coding assistant
 - [[Agentic Coding]] — podejście do kodowania z AI agentami
 - [[Context Engineering]] — zarządzanie kontekstem w pracy z LLM
+- [[Process Mapping]] — analiza AS-IS jako wejście do proposal
+- [[UX RULER]] — discovery produktowy generujący artefakty do repo
+- [[El Padre Case Study]] — case oferty 6-tygodniowej rozpisanej jako spec + tasks
 
 ---
 Template: [[templates/tool]]

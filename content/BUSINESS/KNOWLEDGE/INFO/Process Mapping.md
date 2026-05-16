@@ -116,8 +116,22 @@ Powiązane: [[Agentic Systems]]
 - Technologia nie służy do komplikowania — służy do budowania **Operational Excellence**
 - Zacznij od zmapowania jednego procesu — nie czekaj na wielki projekt transformacji
 
+## 🧭 Mapa procesu jako wejście do PRD
+
+Mapa AS-IS z 4 elementami (Akcja/Aktor/Narzędzie/Tryb) to **najlepsze możliwe wejście do PRD** dla klienta. Każdy krok manualny + każde miejsce bez integracji = kandydat na feature w spec. Pipeline:
+
+1. AS-IS map (ten dokument) → identyfikacja pain points
+2. **Elon's principle** (usuń → uprość → automatyzuj) → filtr features, które w ogóle powinny trafić do PRD
+3. [[UX RULER]] → discovery (Mission/Audience/User/Need/Infrastructure/Product/Value)
+4. [[OpenSpec]] / [[OPSX Workflow]] → formalizacja jako proposal + specs + design + tasks (DAG, wersjonowane w repo)
+
+Pełna synteza: [[2026-05-16_PRD-z-analizy-i-oferty]].
+
 ## 🔗 Zasoby
 
 - [BPMN Specification](https://www.bpmn.org/) — standard modelowania procesów biznesowych
 - [Fireflies.ai](https://fireflies.ai/) — AI meeting transcription
 - Prezentacja z Infoshare Katowice 2025
+- [[OPSX Workflow]] — formalizacja mapy procesu jako PRD w repo
+- [[UX RULER]] — discovery layer między mapą a spec
+- [[Specification-Driven Development]] — metodyka spec-first

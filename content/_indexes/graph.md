@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-16T11:00:00Z
+updated: 2026-05-16T12:30:00Z
 nodes: 225
 edges: 649
 ---
@@ -77,7 +77,7 @@ BUSINESS/KNOWLEDGE/HOWTO/Synchronize Airtable with Webflow -> Airtable
 BUSINESS/KNOWLEDGE/INFO/Build in Public -> Qamera AI, Agentic Systems, LinkedIn Strategy, My career path
 BUSINESS/KNOWLEDGE/INFO/Data Maturity Model -> Airtable, Make, n8n, Claude Code
 BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy -> Agentic Coding, Qamera AI, Build in Public
-BUSINESS/KNOWLEDGE/INFO/Process Mapping -> Make, n8n, El Padre Case Study, Airtable, Agentic Systems
+BUSINESS/KNOWLEDGE/INFO/Process Mapping -> Make, n8n, El Padre Case Study, Airtable, Agentic Systems, OPSX Workflow, UX RULER, OpenSpec, Specification-Driven Development
 BUSINESS/KNOWLEDGE/INFO/Product-Market Fit -> Qamera AI, Company of one, Principles
 BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule -> Autonomous Sales Agent Playbook, AI Trends 2026, Product-Market Fit, Build in Public, PLSoft, Qamera AI, Agentic Coding, Harness Engineering
 BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook -> Agentic Coding, Make, n8n
@@ -105,7 +105,7 @@ CODE/TOOLS/Docker -> Qamera AI, NemoClaw
 CODE/TOOLS/Excalidraw -> Claude Code, Obsidian
 CODE/TOOLS/Google Cloud -> Qamera AI
 CODE/TOOLS/Next.js -> Qamera AI, Supabase, Nucleify
-CODE/TOOLS/OPSX Workflow -> Claude Code, Agentic Coding, Context Engineering
+CODE/TOOLS/OPSX Workflow -> Claude Code, Agentic Coding, Context Engineering, Process Mapping, UX RULER, El Padre Case Study
 CODE/TOOLS/OpenSpec -> Claude Code, OPSX Workflow, Agentic Coding, Context Engineering
 CODE/TOOLS/React -> Qamera AI, Next.js
 CODE/TOOLS/Remotion -> Claude Code
@@ -234,7 +234,7 @@ Progressive Disclosure <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/KNO
 Crypto Exchanges <- CRYPTO/KNOWLEDGE/INFO/Stan rynku krypto 2026, CRYPTO/NOTES/My web3
 Damon Zahariades <- LIFE/BOOKS/The Mental Toughness Handbook
 Digital Garden <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/BRAIN/Brain
-El Padre Case Study <- BUSINESS/KNOWLEDGE/INFO/Process Mapping
+El Padre Case Study <- BUSINESS/KNOWLEDGE/INFO/Process Mapping, CODE/TOOLS/OPSX Workflow
 Google Cloud <- PROJECTS/QAMERA-AI/Qamera AI
 Graphify <- AI/TOOLS/Awesome Claude Code
 Gosia Lipowczan <- LIFE/BOOKS/Dopamine Detox
@@ -302,7 +302,7 @@ Notion <- BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/ClickUp
 Nucleify <- CODE/TOOLS/Next.js
 Obsidian <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, BUSINESS/TOOLS/Excalidraw, CODE/TOOLS/Excalidraw, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/BRAIN/Brain
 OpenSpec <- CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
-OPSX Workflow <- CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OpenSpec
+OPSX Workflow <- CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OpenSpec, BUSINESS/KNOWLEDGE/INFO/Process Mapping
 Specification-Driven Development <- CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
 PLSoft <- ABOUT/Roles/Founder, AI/TOOLS/VAPI, BUSINESS/BOOKS/Company of one, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/n8n, PROJECTS/Projects, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS/Value Builders
 Principles <- ABOUT/Roles/Founder, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
