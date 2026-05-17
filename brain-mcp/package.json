@@ -1,6 +1,6 @@
 {
   "name": "brain-mcp",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "MCP server exposing brain (Obsidian + Quartz vault) as a search tool for agentic systems",
   "type": "module",
   "main": "dist/index.js",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
+    "chokidar": "^5.0.0",
     "gray-matter": "^4.0.3",
     "minisearch": "^7.1.0"
   },
