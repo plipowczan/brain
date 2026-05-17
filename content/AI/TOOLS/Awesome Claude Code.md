@@ -13,31 +13,31 @@ summary: "Curated list of Claude Code resources — skills, MCP servers, workflo
 
 # Awesome Claude Code
 
-Starannie wyselekcjonowana lista najlepszych zasobów dla [[Claude Code]] — skills, workflows, MCP servers, prompts, narzędzia. Jeden punkt wejścia zamiast przeszukiwania setek repozytoriów.
+A carefully curated list of the best resources for [[Claude Code]] — skills, workflows, MCP servers, prompts, tools. One entry point instead of searching hundreds of repositories.
 
 ## Links
 ### Description
-Community-curated resource list. Ekosystem Claude Code rośnie szybko — nowe skills i narzędzia pojawiają się codziennie. Awesome Claude Code oszczędza czas na research — ktoś już przefiltrował dostępne zasoby.
+Community-curated resource list. The Claude Code ecosystem grows fast — new skills and tools appear every day. Awesome Claude Code saves research time — someone has already filtered the available resources.
 
 ### Download or use
 [GitHub: hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 
 ## 🗒️ Reasoning for
 
-Używanie Claude Code bez ekosystemu skills to jak korzystanie ze smartfona bez aplikacji. Awesome Claude Code to centralny hub do odkrywania ekosystemu — idealne repozytorium na start.
+Using Claude Code without the skills ecosystem is like using a smartphone without apps. Awesome Claude Code is the central hub for discovering the ecosystem — the ideal repo to start from.
 
 Workflow:
-1. Przejrzyj listę
-2. Znajdź 2-3 rzeczy pasujące do potrzeb
-3. Zainstaluj i przetestuj
-4. Wróć po więcej
+1. Browse the list
+2. Find 2-3 things matching your needs
+3. Install and test
+4. Come back for more
 
-Wiele narzędzi, które sam używam — [[UI UX Pro Max]], [[Agent Skills]] — można znaleźć właśnie przez Awesome Claude Code. To jak indeks do całego ekosystemu.
+Many of the tools I use myself — [[UI UX Pro Max]], [[Agent Skills]] — can be found through Awesome Claude Code. It's like an index to the whole ecosystem.
 
 ## 🧩 Categories
 
 ### Agent Skills
-Specialized skill packages enabling Claude Code to perform domain-specific tasks. Wyróżniające się:
+Specialized skill packages enabling Claude Code to perform domain-specific tasks. Standouts:
 - **[[Superpowers]]** (obra) — core SDLC competencies: planning, reviewing, testing, debugging
 - **[[Everything Claude Code]]** (affaan-m) — cross-harness perf system (60 agents, 230 skills, AgentShield), MIT, Hackathon winner
 - **Compound Engineering Plugin** (EveryInc) — agents + skills built around learning from past mistakes
@@ -45,15 +45,15 @@ Specialized skill packages enabling Claude Code to perform domain-specific tasks
 - **cc-devops-skills** (akin-ozer) — detailed DevOps/IaC skills for cloud platforms
 - **Claude Scientific Skills** (K-Dense) — research, science, engineering, analysis, finance
 - **[[Graphify]]** (safishamsi) — code/docs/images → queryable knowledge graph
-- **[[gstack]]** (garrytan, YC) — 23+ opinionated skille jako wirtualny zespół (CEO/Designer/QA/SRE/Release)
+- **[[gstack]]** (garrytan, YC) — 23+ opinionated skills as a virtual team (CEO/Designer/QA/SRE/Release)
 
 ### Workflows & Knowledge Guides
-Structured development processes i przewodniki:
-- **Claude Code Best Practice** (shanraisshan) — 69 tips, development workflows comparison, orchestration patterns → patrz [[Claude Code Best Practice]]
-- **Claude Code Ultimate Guide** (FlorianBruniaux) — beginner to power user, z quizami
+Structured development processes and guides:
+- **Claude Code Best Practice** (shanraisshan) — 69 tips, development workflows comparison, orchestration patterns → see [[Claude Code Best Practice]]
+- **Claude Code Ultimate Guide** (FlorianBruniaux) — beginner to power user, with quizzes
 - **RIPER Workflow** — Research → Innovate → Plan → Execute → Review
-- **AB Method** — spec-driven workflow z incremental missions
-- **Ralph Wiggum Loop** — autonomous development loop do długich tasków
+- **AB Method** — spec-driven workflow with incremental missions
+- **Ralph Wiggum Loop** — autonomous development loop for long-running tasks
 
 ### Tooling
 Applications built on top of Claude Code:
@@ -71,24 +71,24 @@ Event-driven handlers firing outside the agentic loop:
 User-invoked prompt templates covering: version control, code analysis, testing, context loading, documentation, CI/deployment, project management
 
 ### CLAUDE.md Files
-Language-specific i domain-specific configurations, project scaffolding, MCP setup. Patrz też [[Karpathy Skills]] — pojedynczy CLAUDE.md adresujący 4 typowe pitfalle LLM-coderów.
+Language-specific and domain-specific configurations, project scaffolding, MCP setup. See also [[Karpathy Skills]] — a single CLAUDE.md addressing 4 typical LLM coder pitfalls.
 
 ### Status Lines & Alternative Clients
 Custom status bars, IDE integrations, usage monitors, orchestrators
 
 ## Alternatives considered
-- Samodzielne przeszukiwanie GitHub — czasochłonne, łatwo przegapić wartościowe repo
-- Reddit/Discord — mniej strukturalne, trudniejsze do nawigacji
-- Oficjalna dokumentacja Anthropic — nie pokrywa community tools
-- [[Claude Code Best Practice]] (shanraisshan) — complementary: best practice to bardziej tips & workflows comparison, Awesome CC to bardziej tool discovery
+- Searching GitHub on your own — time-consuming, easy to miss valuable repos
+- Reddit/Discord — less structured, harder to navigate
+- Anthropic's official docs — doesn't cover community tools
+- [[Claude Code Best Practice]] (shanraisshan) — complementary: best practice is more tips & workflows comparison, Awesome CC is more tool discovery
 
 ## 📖 Resources
 - [GitHub: hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 - [[Claude Code]] — primary AI coding assistant
-- [[Agent Skills]] — system rozszerzania agenta
-- [[Context Engineering]] — zarządzanie kontekstem w pracy z LLM
-- [[Claude Code Best Practice]] — tips i workflows comparison
-- [[Graphify]] — knowledge graph skill z awesome-claude-code
+- [[Agent Skills]] — agent extension system
+- [[Context Engineering]] — context management when working with LLMs
+- [[Claude Code Best Practice]] — tips and workflows comparison
+- [[Graphify]] — knowledge graph skill from awesome-claude-code
 
 ---
 Template: [[templates/tool]]

@@ -12,7 +12,7 @@ summary: "Adaptive Python web scraping framework — fetchers, spiders, anti-bot
 
 # Scrapling
 
-Adaptive Python web scraping framework by Karim Shoair (D4Vinci). Skaluje się od pojedynczego requestu do pełnego concurrent crawla. Parser uczy się zmian w strukturze stron i automatycznie relokuje elementy, fetchery obchodzą Cloudflare Turnstile/DataDome out-of-the-box, a spider framework daje multi-session crawls z pause/resume i proxy rotation.
+Adaptive Python web scraping framework by Karim Shoair (D4Vinci). Scales from a single request to a full concurrent crawl. The parser learns changes in page structure and automatically relocates elements, fetchers bypass Cloudflare Turnstile/DataDome out-of-the-box, and the spider framework provides multi-session crawls with pause/resume and proxy rotation.
 
 ## Links
 ### Description
@@ -33,21 +33,21 @@ docker pull pyd4vinci/scrapling        # ready image
 
 ## 🚀 Reasoning for
 
-Trzy poziomy abstrakcji w jednej bibliotece:
+Three levels of abstraction in one library:
 
-- **Fetchers** — `Fetcher` (HTTP z TLS impersonation), `StealthyFetcher` (Cloudflare Turnstile bypass), `DynamicFetcher` (Playwright Chromium). Sesje persistent z `FetcherSession`/`StealthySession`/`DynamicSession`.
-- **Spiders** — Scrapy-like API z `start_urls` + async `parse()`, concurrent_requests, per-domain throttling, **pause/resume z checkpointami** (Ctrl+C → wznowienie z `crawldir`), streaming mode (`async for item in spider.stream()`), dev-mode cache (replay bez ponownego trafienia w serwer).
-- **Adaptive parser** — `auto_save=True` zapisuje selektor; `adaptive=True` przy zmianie struktury strony znajduje element po podobieństwie. Plus CSS, XPath, BS-style `find_all`, text/regex search, `find_similar()`, `next_sibling`, `parent`.
+- **Fetchers** — `Fetcher` (HTTP with TLS impersonation), `StealthyFetcher` (Cloudflare Turnstile bypass), `DynamicFetcher` (Playwright Chromium). Persistent sessions via `FetcherSession`/`StealthySession`/`DynamicSession`.
+- **Spiders** — Scrapy-like API with `start_urls` + async `parse()`, concurrent_requests, per-domain throttling, **pause/resume with checkpoints** (Ctrl+C → resume from `crawldir`), streaming mode (`async for item in spider.stream()`), dev-mode cache (replay without hitting the server again).
+- **Adaptive parser** — `auto_save=True` stores the selector; `adaptive=True` finds the element by similarity when the page structure changes. Plus CSS, XPath, BS-style `find_all`, text/regex search, `find_similar()`, `next_sibling`, `parent`.
 
-Why użyć zamiast Scrapy/Playwright bezpośrednio:
-- Anti-bot bypass z pudełka (Turnstile, fingerprint spoofing, DoH przeciw DNS leak, ad/tracker blocking ~3500 domen).
-- Multi-session w jednym spiderze — routing requestów po `sid` (np. szybki HTTP dla list, stealth browser dla protected).
-- 10x szybsza JSON serializacja, 92% test coverage, full type hints (PyRight + MyPy).
-- Benchmark: parser ~równo z Parsel/Scrapy (2.02 ms vs 2.04 ms na 5000 nested elementów), znacznie szybciej niż BS4 (~784x).
+Why use it instead of Scrapy/Playwright directly:
+- Anti-bot bypass out of the box (Turnstile, fingerprint spoofing, DoH against DNS leak, ad/tracker blocking of ~3500 domains).
+- Multi-session inside a single spider — request routing by `sid` (e.g., fast HTTP for lists, stealth browser for protected pages).
+- 10x faster JSON serialization, 92% test coverage, full type hints (PyRight + MyPy).
+- Benchmark: parser roughly equal to Parsel/Scrapy (2.02 ms vs 2.04 ms on 5000 nested elements), much faster than BS4 (~784x).
 
 ## 🤖 MCP Server
 
-Wbudowany MCP server (`pip install "scrapling[ai]"`) — pozwala Claude/Cursorowi scrapować z agresywnym filtrowaniem przed zwróceniem do LLM, czyli mniej tokenów, szybciej. Konkurent dla [[Firecrawl]]-owego MCP, ale self-hosted i z anti-bot.
+Built-in MCP server (`pip install "scrapling[ai]"`) — lets Claude/Cursor scrape with aggressive filtering before returning to the LLM, meaning fewer tokens, faster. A competitor to [[Firecrawl]]'s MCP, but self-hosted and with anti-bot.
 
 ## 🧩 Spider quick example
 
@@ -70,25 +70,25 @@ class QuotesSpider(Spider):
 QuotesSpider(crawldir="./crawl_data").start()  # pause/resume capable
 ```
 
-## CLI bez kodu
+## CLI without code
 
 ```bash
-scrapling shell                                          # IPython z kontekstem
-scrapling extract get 'https://example.com' content.md   # do markdown
+scrapling shell                                          # IPython with context
+scrapling extract get 'https://example.com' content.md   # to markdown
 scrapling extract stealthy-fetch '...' out.html --solve-cloudflare
 ```
 
 ## Alternatives considered
-- **Scrapy/Parsel** — dojrzałe, ale brak built-in stealth i adaptive selectors.
-- **Playwright bezpośrednio** — pełna kontrola, ale piszesz całą orchestrację sam.
-- **BeautifulSoup + requests** — dla prostych przypadków; ~784x wolniejsze przy parsowaniu.
-- **AutoScraper** — adaptive matching, ale ~5x wolniejszy i brak crawler frameworka.
-- **[[Firecrawl]] / Firecrawl MCP** — managed SaaS + LLM-friendly markdown; Scrapling jest self-hosted alternatywą z szerszym zakresem (spiders, sessions, proxy rotation).
+- **Scrapy/Parsel** — mature, but no built-in stealth and no adaptive selectors.
+- **Playwright directly** — full control, but you write all the orchestration yourself.
+- **BeautifulSoup + requests** — fine for simple cases; ~784x slower at parsing.
+- **AutoScraper** — adaptive matching, but ~5x slower and no crawler framework.
+- **[[Firecrawl]] / Firecrawl MCP** — managed SaaS + LLM-friendly markdown; Scrapling is a self-hosted alternative with broader scope (spiders, sessions, proxy rotation).
 
 ## 🔗 Related
-- [[Firecrawl]] — managed scraping/crawling (jeśli istnieje w wiki, inaczej skill `firecrawl`)
-- [[Agent Zero]], [[Hermes Agent]] — agentic frameworks które mogą używać Scraplinga jako narzędzia
-- [[LightRAG]] — pipeline do indeksowania scrape'owanych danych
+- [[Firecrawl]] — managed scraping/crawling (if present in the wiki, otherwise the `firecrawl` skill)
+- [[Agent Zero]], [[Hermes Agent]] — agentic frameworks that can use Scrapling as a tool
+- [[LightRAG]] — pipeline for indexing scraped data
 
 ## Resources
 - Hands-on guide: https://substack.thewebscraping.club/p/scrapling-hands-on-guide

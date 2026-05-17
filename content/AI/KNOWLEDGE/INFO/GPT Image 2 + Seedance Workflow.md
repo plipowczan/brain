@@ -7,50 +7,50 @@ tags: ["knowledge", "info", "ai", "video", "image-generation", "workflow", "ads"
 type: knowledge-note
 source: "_raw/inbox/Post  LinkedIn.md"
 agent-created: true
-summary: "Storyboard-driven AI video ad workflow: GPT Image 2 generuje frame-by-frame storyboard, Seedance 2 zamienia każdy frame w klip"
+summary: "Storyboard-driven AI video ad workflow: GPT Image 2 generates a frame-by-frame storyboard, Seedance 2 turns each frame into a clip"
 ---
 
 # GPT Image 2 + Seedance 2 Workflow
 
 ## 🗒️ Description
 
-Workflow do **video ad generation** opisany przez Raphaela Guilhema na LinkedIn. Łączy dwa modele w pipeline gdzie storyboard z modelu image jest **promptem dla modelu video** — eliminuje guessing i waste credits.
+A **video ad generation** workflow described by Raphael Guilhem on LinkedIn. It chains two models in a pipeline where the storyboard from the image model is **the prompt for the video model** — eliminates guessing and credit waste.
 
-Kluczowy insight: nie chodzi o "użyj AI", tylko o **sekwencjonowanie modeli**. GPT Image 2 dla intencji wizualnej (storyboard jako jeden grid image — jak old nanobanana), Seedance 2 dla ruchu z zachowaniem ciągłości między klatkami.
+Key insight: it's not about "use AI" but about **sequencing models**. GPT Image 2 for visual intent (storyboard as a single grid image — like old nanobanana), Seedance 2 for motion with continuity preserved between frames.
 
 ## 🔗 Links
 
 - [Original LinkedIn post — Raphael Guilhem](https://www.linkedin.com/feed/update/urn:li:activity:7458080362468958208/)
-- [[Awesome Nano Banana Pro Prompts]] — pokrewny prompt library dla Nano Banana Pro (Google), kolekcja YouMind ma też GPT Image 2 collection
+- [[Awesome Nano Banana Pro Prompts]] — related prompt library for Nano Banana Pro (Google); the YouMind collection also has a GPT Image 2 collection
 
-## 🧩 Pipeline (3 kroki)
+## 🧩 Pipeline (3 steps)
 
-1. **Brief + packshot** — dajesz workflow creative brief i product image
-2. **GPT Image 2 → storyboard** — generuje frame-by-frame jako jeden image grid; review przed wydaniem credits na video
-3. **Seedance 2 → video** — storyboard jako prompt, każdy frame staje się klipem; model wie dokładnie co chcesz bo zaprojektowałeś to z precyzją
+1. **Brief + packshot** — feed the workflow a creative brief and a product image
+2. **GPT Image 2 → storyboard** — generates frame-by-frame as a single image grid; review before spending credits on video
+3. **Seedance 2 → video** — storyboard as prompt, each frame becomes a clip; the model knows exactly what you want because you designed it precisely
 
-Output: video ad gdzie **każda klatka jest intencjonalna**. No guessing, no credit waste, no "let's try again".
+Output: a video ad where **every frame is intentional**. No guessing, no credit waste, no "let's try again".
 
-## 🧩 Dlaczego działa
+## 🧩 Why it works
 
-- **Temporal consistency** — Seedance 2 utrzymuje detail produktu między cuts (poprzednie tools gubiły fasety jubilerskie między klatkami)
-- **Spatial structure preservation** — pipeline zachowuje strukturę z reference frame w sposób, którego wcześniejsze video tools nie umiały
-- **Camera control** — respektuje camera path intention (smooth dolly, consistent horizon), co było bolączką AI video
-- **Ekonomia rewizji** — w tradycyjnym shoot revision = re-shoot. Tu revision = update promptu
+- **Temporal consistency** — Seedance 2 maintains product detail between cuts (previous tools lost jewelry facets between frames)
+- **Spatial structure preservation** — the pipeline preserves the structure from the reference frame in a way earlier video tools couldn't
+- **Camera control** — respects camera path intention (smooth dolly, consistent horizon), which was an AI video pain point
+- **Economics of revision** — in a traditional shoot, revision = reshoot. Here, revision = updating the prompt
 
-## 🧩 Use cases (z komentarzy)
+## 🧩 Use cases (from comments)
 
-- **Luxury / jewelry commercials** — temporal consistency wystarczająca dla brand
-- **Architectural flythrough (AEC)** — Sketchup → stakeholder-ready video w pół dnia (zamiast tygodnia z visualization specialist)
-- **Product photography z animacją** — zamiast statycznego packshota
+- **Luxury / jewelry commercials** — temporal consistency good enough for the brand
+- **Architectural flythrough (AEC)** — Sketchup → stakeholder-ready video in half a day (instead of a week with a visualization specialist)
+- **Product photography with animation** — instead of a static packshot
 
-⚠️ Otwarte pytanie: interior vs exterior — lighting control w pomieszczeniach nadal trudny dla AI video (większość tools ma problem przy professional architectural).
+⚠️ Open question: interior vs exterior — indoor lighting control is still hard for AI video (most tools struggle with professional architectural).
 
 ## 📖 Further reading
 
-- [[Awesome Nano Banana Pro Prompts]] — biblioteka promptów dla Google Nano Banana Pro (alternatywny image model)
-- [[Agentic Systems]] — szerszy kontekst pipeline'ów multi-model
-- [[Open Design]] — bundle'uje ten sam stos: gpt-image-2 + Seedance 2.0 + HyperFrames jako built-in media generation z prompt gallery (93 prompty)
+- [[Awesome Nano Banana Pro Prompts]] — prompt library for Google Nano Banana Pro (alternative image model)
+- [[Agentic Systems]] — broader context for multi-model pipelines
+- [[Open Design]] — bundles the same stack: gpt-image-2 + Seedance 2.0 + HyperFrames as built-in media generation with a prompt gallery (93 prompts)
 
 ---
 Template: [[templates/knowledge_note_info]]

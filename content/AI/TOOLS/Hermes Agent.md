@@ -8,12 +8,12 @@ type: tool
 source: "_raw/inbox/NousResearchhermes-agent The agent that grows with you.md"
 agent-created: true
 agent-reviewed: 2026-05-16
-summary: "Nous Research self-improving agent — TUI + Telegram/Discord/Slack/WhatsApp/Signal gateway, autonomous skill creation, FTS5 cross-session search, Honcho user modeling, runtime na $5 VPS"
+summary: "Nous Research self-improving agent — TUI + Telegram/Discord/Slack/WhatsApp/Signal gateway, autonomous skill creation, FTS5 cross-session search, Honcho user modeling, runtime on a $5 VPS"
 ---
 
 # Hermes Agent
 
-`NousResearch/hermes-agent` — **self-improving AI agent** od [Nous Research](https://nousresearch.com/). Jedyny agent z built-in learning loop: tworzy skille z doświadczenia, ulepsza je w trakcie użycia, sam siebie nudge'uje do persistowania wiedzy, przeszukuje własne past conversations i buduje pogłębiony model usera między sesjami. Hostuje się na $5 VPS, GPU clusterze albo serverless infrastrukturze (idle = grosze).
+`NousResearch/hermes-agent` — a **self-improving AI agent** from [Nous Research](https://nousresearch.com/). The only agent with a built-in learning loop: it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of the user across sessions. Hosts on a $5 VPS, a GPU cluster, or serverless infrastructure (idle = pennies).
 
 ## 🔗 Links
 
@@ -33,56 +33,56 @@ hermes setup        # full wizard
 hermes gateway      # messaging gateway
 ```
 
-Native Windows = no; trzeba WSL2.
+Native Windows = no; WSL2 required.
 
 ## 🗒️ Description
 
-### 🧩 Co Hermes naprawdę robi
+### 🧩 What Hermes actually does
 
-- **Real terminal interface** — pełny TUI: multiline edit, slash autocomplete, history, interrupt-and-redirect, streaming tool output.
-- **Lives where you do** — Telegram, Discord, Slack, WhatsApp, Signal, Email, CLI — z jednego gateway process. Voice memo transcription, cross-platform conversation continuity.
-- **Closed learning loop** — agent-curated memory + periodic nudges; **autonomous skill creation** po complex task; skille self-improve podczas użycia; FTS5 session search z LLM summarization dla cross-session recall; [Honcho](https://github.com/plastic-labs/honcho) dialectic user modeling. **Compatible z `agentskills.io` open standard** (czyli rodzina [[Agent Skills]] / [[Vercel Skills]]).
-- **Scheduled automations** — built-in cron z delivery na dowolną platformę. Daily reports, nightly backups, weekly audits — naturalny język, unattended.
-- **Delegates and parallelizes** — spawn isolated subagentów dla parallel workstreamów; Python scripty wołają tools przez RPC, kolapsując multi-step pipeline'y do zero-context-cost turns.
-- **Runs anywhere** — 6 terminal backends: local, Docker, SSH, Daytona, Singularity, Modal. **Daytona / Modal = serverless persistence** — env hibernuje w idle, wstaje on-demand, ~zero koszt między sesjami.
-- **Research-ready** — batch trajectory generation, Atropos RL environments, trajectory compression dla treningu next-gen tool-calling models.
+- **Real terminal interface** — full TUI: multiline edit, slash autocomplete, history, interrupt-and-redirect, streaming tool output.
+- **Lives where you do** — Telegram, Discord, Slack, WhatsApp, Signal, Email, CLI — from a single gateway process. Voice memo transcription, cross-platform conversation continuity.
+- **Closed learning loop** — agent-curated memory + periodic nudges; **autonomous skill creation** after a complex task; skills self-improve during use; FTS5 session search with LLM summarization for cross-session recall; [Honcho](https://github.com/plastic-labs/honcho) dialectic user modeling. **Compatible with the `agentskills.io` open standard** (i.e. the [[Agent Skills]] / [[Vercel Skills]] family).
+- **Scheduled automations** — built-in cron with delivery to any platform. Daily reports, nightly backups, weekly audits — in natural language, unattended.
+- **Delegates and parallelizes** — spawns isolated subagents for parallel workstreams; Python scripts call tools via RPC, collapsing multi-step pipelines into zero-context-cost turns.
+- **Runs anywhere** — 6 terminal backends: local, Docker, SSH, Daytona, Singularity, Modal. **Daytona / Modal = serverless persistence** — env hibernates when idle, wakes on demand, ~zero cost between sessions.
+- **Research-ready** — batch trajectory generation, Atropos RL environments, trajectory compression for training next-gen tool-calling models.
 
-### 🧩 Model providery (bring your own)
+### 🧩 Model providers (bring your own)
 
-Nous Portal, OpenRouter (200+ modeli), NVIDIA NIM (Nemotron), Xiaomi MiMo, z.ai/GLM, Kimi/Moonshot, MiniMax, Hugging Face, OpenAI, własny endpoint. Switch przez `hermes model` — bez zmian w kodzie.
+Nous Portal, OpenRouter (200+ models), NVIDIA NIM (Nemotron), Xiaomi MiMo, z.ai/GLM, Kimi/Moonshot, MiniMax, Hugging Face, OpenAI, your own endpoint. Switch via `hermes model` — no code changes.
 
-### 🧩 Migracja z OpenClaw
+### 🧩 Migration from OpenClaw
 
-`hermes claw migrate` (interactive lub `--dry-run`/`--preset user-data`/`--overwrite`) importuje SOUL.md, MEMORY/USER, user-skille, command allowlist, messaging configs, API keys (Telegram/OpenRouter/OpenAI/Anthropic/ElevenLabs), TTS assets, AGENTS.md.
+`hermes claw migrate` (interactive or `--dry-run`/`--preset user-data`/`--overwrite`) imports SOUL.md, MEMORY/USER, user skills, command allowlist, messaging configs, API keys (Telegram/OpenRouter/OpenAI/Anthropic/ElevenLabs), TTS assets, AGENTS.md.
 
 ## ✍️ Reasoning for
 
-Najciekawsze dla mnie:
-1. **Messaging-first workflow** — agent na Telegramie, który ma kontekst moich repo i odpowiada w trakcie spaceru. Tego nie daje [[Claude Code]] out-of-the-box.
-2. **Closed learning loop + Honcho user modeling** — to jest dokładnie to, czego brakuje w "stateless" agentach typu plain Claude Code. Każda sesja zaczyna od zera; tutaj agent się dopasowuje.
-3. **Modal/Daytona serverless persistence** — koszt idle ≈ 0. Idealne pod fire-and-forget cron jobs typu daily LinkedIn brief dla [[LinkedIn Strategy]] albo nightly digest z [[Brain]].
+The most interesting bits for me:
+1. **Messaging-first workflow** — an agent on Telegram that has context on my repos and answers while I'm walking. [[Claude Code]] doesn't give you that out of the box.
+2. **Closed learning loop + Honcho user modeling** — this is exactly what's missing from "stateless" agents like plain Claude Code. Every session starts from zero there; here the agent adapts.
+3. **Modal/Daytona serverless persistence** — idle cost ≈ 0. Perfect for fire-and-forget cron jobs like a daily LinkedIn brief for [[LinkedIn Strategy]] or a nightly digest from [[Brain]].
 
-Ryzyka:
-- Brak natywnego Windows — uruchomię w WSL2 albo VPS.
-- Self-improving skille brzmią cool, ale [[DELEGATE-52]] przypomina: po ~20 delegowanych edit'ach LLM-y psują 25% dokumentu. Trzeba mieć checkpointy i `--dry-run` jako default.
+Risks:
+- No native Windows — I'll run it on WSL2 or a VPS.
+- Self-improving skills sound cool, but [[DELEGATE-52]] is a reminder: after ~20 delegated edits LLMs corrupt 25% of a document. You need checkpoints and `--dry-run` as default.
 
 ## Alternatives considered
 
-- **[[Claude Code]]** — silniejszy w native coding, słabszy w cross-platform messaging i memory loop
-- **[[Agent Zero]]** — Linux/GUI sandbox vs Hermes TUI/messaging; inna filozofia interakcji
-- **[[Paperclip]]** — orkiestrator company-of-agents, Hermes to single self-improving agent
-- **[[Ruflo]]** — agent orchestration platform (98 agentów, swarm + federation), Hermes to single-agent (Ruflo to wielo-agentowa platforma z MCP)
-- **[[Everything Claude Code]]** — cross-harness perf system, w rc.1 wprost integruje Hermes jako operator workflow layer
-- **OpenClaw** — direct precursor; Hermes ma wbudowaną migrację (`hermes claw migrate`)
+- **[[Claude Code]]** — stronger at native coding, weaker at cross-platform messaging and memory loop
+- **[[Agent Zero]]** — Linux/GUI sandbox vs Hermes TUI/messaging; a different interaction philosophy
+- **[[Paperclip]]** — orchestrator for a company-of-agents, Hermes is a single self-improving agent
+- **[[Ruflo]]** — agent orchestration platform (98 agents, swarm + federation), Hermes is single-agent (Ruflo is a multi-agent platform with MCP)
+- **[[Everything Claude Code]]** — cross-harness perf system; in rc.1 it directly integrates Hermes as the operator workflow layer
+- **OpenClaw** — direct precursor; Hermes has built-in migration (`hermes claw migrate`)
 
 ## 🔗 Resources
 
 - Nous Research: https://nousresearch.com/
 - Honcho (dialectic user modeling): https://github.com/plastic-labs/honcho
 - agentskills.io — open SKILL.md standard
-- [[Agent Skills]] / [[Vercel Skills]] — kompatybilny ecosystem skilli
-- [[NemoClaw]] — moja inferencja self-hosted, kompatybilna z Hermes przez NVIDIA NIM
-- [[DELEGATE-52]] — dlaczego self-improving skills wymagają eval pipeline'u
+- [[Agent Skills]] / [[Vercel Skills]] — compatible skills ecosystem
+- [[NemoClaw]] — my self-hosted inference, compatible with Hermes via NVIDIA NIM
+- [[DELEGATE-52]] — why self-improving skills require an eval pipeline
 
 ---
 Template: [[templates/tool]]

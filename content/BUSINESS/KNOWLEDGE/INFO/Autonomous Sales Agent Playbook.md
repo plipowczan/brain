@@ -13,43 +13,43 @@ summary: "Playbook for building autonomous AI sales agents replacing $1.4k/mo Sa
 # Autonomous Sales Agent Playbook
 
 ## 🗒️ Description
-Playbook autorstwa Romàna z [gojiberry.ai](https://gojiberry.ai/) — jak zastąpić tradycyjny marketing stack ($1,400+/mo) jednym autonomicznym systemem sprzedażowym za ~$20/mo. Nie chodzi o chatbota — to always-on operator, który obsługuje speed-to-lead, context research i follow-up bez udziału człowieka.
+A playbook by Romàn from [gojiberry.ai](https://gojiberry.ai/) — how to replace a traditional marketing stack ($1,400+/mo) with a single autonomous sales system for ~$20/mo. It's not about a chatbot — it's an always-on operator that handles speed-to-lead, context research, and follow-up without a human in the loop.
 
 ## 🚀 Key Insight: Speed-to-Lead
-- Średni czas odpowiedzi na leada: **47 godzin** (Harvard Business Review, 2,241 firm)
-- Odpowiedź w ciągu 5 minut = **21x większa szansa** na kwalifikację vs 30 min
-- Agent odpowiada w < 2 minuty, follow-up rate ~100%
+- Average lead response time: **47 hours** (Harvard Business Review, 2,241 firms)
+- A response within 5 minutes = **21x higher chance** of qualification vs. 30 min
+- The agent answers in < 2 minutes, follow-up rate ~100%
 
-## 🧩 Architektura — 4 komponenty
+## 🧩 Architecture — 4 components
 
-| Komponent | Rola | Narzędzie |
+| Component | Role | Tool |
 |-----------|------|-----------|
-| **Eyes** | Detekcja high-intent signals | [Gojiberry.ai](https://gojiberry.ai/) |
-| **Body** | Wykonanie workflow'ów, ruch danych | OpenClaw (self-hosted) |
-| **Brain** | Analiza kontekstu, pisanie wiadomości | Claude (Anthropic API) |
-| **Memory** | Lightweight CRM | Markdown files (1 plik = 1 lead) |
+| **Eyes** | Detection of high-intent signals | [Gojiberry.ai](https://gojiberry.ai/) |
+| **Body** | Workflow execution, data movement | OpenClaw (self-hosted) |
+| **Brain** | Context analysis, writing messages | Claude (Anthropic API) |
+| **Memory** | Lightweight CRM | Markdown files (1 file = 1 lead) |
 
-## 🎨 Context Engine — 4 fazy
-1. **Signal Detection** — ciągłe nasłuchiwanie intent signals (komentarze, DM, inbound)
-2. **Research Loop** — zanim agent napisze słowo, zbiera kontekst: profil, firma, ostatnie newsy, pain points → JSON dossier
-3. **Intent Triage** — priorytetyzacja leadów:
-   - P0: Buyer / call request → natychmiastowa odpowiedź
+## 🎨 Context Engine — 4 phases
+1. **Signal Detection** — continuous listening for intent signals (comments, DMs, inbound)
+2. **Research Loop** — before the agent writes a word, it gathers context: profile, company, recent news, pain points → JSON dossier
+3. **Intent Triage** — lead prioritization:
+   - P0: Buyer / call request → immediate reply
    - P1: Product inquiry / service interest → qualify + value prop
-   - P2: Networking → draft gentle decline
+   - P2: Networking → draft a gentle decline
    - P3: Spam → ignore
-4. **Copywriting Engine** — personalizowane wiadomości oparte na zebranym kontekście
+4. **Copywriting Engine** — personalized messages grounded in the collected context
 
 ## 📒 File-Based CRM
-- Jeden plik Markdown na leada
-- Foldery jako stages (state machine): `new/` → `qualified/` → `contacted/` → `won/` / `lost/`
-- Zero vendor lock-in, czytelne forever
+- One Markdown file per lead
+- Folders as stages (state machine): `new/` → `qualified/` → `contacted/` → `won/` / `lost/`
+- Zero vendor lock-in, readable forever
 
 ## 🧩 5 Workflow Arsenal
-1. **Outbound campaign builder** — budowanie kampanii wychodzących
-2. **Inbound content monitor** — monitoring treści przychodzących
-3. **Trial-to-paid nudger** — konwersja trial → paid
-4. **Win-back agent** — odzyskiwanie utraconych klientów
-5. **Market intel briefing** — briefing rynkowy
+1. **Outbound campaign builder** — building outbound campaigns
+2. **Inbound content monitor** — monitoring inbound content
+3. **Trial-to-paid nudger** — trial → paid conversion
+4. **Win-back agent** — recovering lost customers
+5. **Market intel briefing** — market briefing
 
 ## ☘️ Cost Comparison
 

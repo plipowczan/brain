@@ -7,18 +7,18 @@ tags: ["tool", "ai", "claude-code", "coding-agents", "context-engineering"]
 type: tool
 source: "_raw/inbox/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md"
 agent-created: true
-summary: "Pojedynczy CLAUDE.md adresujący 4 typowe pitfalle LLM-coderów wg Karpathy'ego: assumptions, overengineering, scope creep, weak goals"
+summary: "A single CLAUDE.md addressing 4 typical LLM-coder pitfalls per Karpathy: assumptions, overengineering, scope creep, weak goals"
 ---
 # Karpathy Skills
 
-`forrestchang/andrej-karpathy-skills` — jeden plik `CLAUDE.md` z 4 zasadami, które bezpośrednio adresują obserwacje [Andreja Karpathy'ego](https://x.com/karpathy/status/2015883857489522876) o tym, gdzie LLM-coderzy się wykładają. Dystrybuowany jako Claude Code plugin albo do appendowania do istniejącego CLAUDE.md.
+`forrestchang/andrej-karpathy-skills` — a single `CLAUDE.md` with 4 rules that directly address [Andrej Karpathy's](https://x.com/karpathy/status/2015883857489522876) observations on where LLM coders fall down. Distributed as a Claude Code plugin or for appending to an existing CLAUDE.md.
 
 ## 🔗 Links
 
 ### Description
 - Repo: https://github.com/forrestchang/andrej-karpathy-skills
 - Karpathy original tweet: https://x.com/karpathy/status/2015883857489522876
-- Cursor wariant: https://github.com/forrestchang/andrej-karpathy-skills/blob/main/CURSOR.md
+- Cursor variant: https://github.com/forrestchang/andrej-karpathy-skills/blob/main/CURSOR.md
 
 ### Download or use
 
@@ -30,21 +30,21 @@ summary: "Pojedynczy CLAUDE.md adresujący 4 typowe pitfalle LLM-coderów wg Kar
 # Per-project (CLAUDE.md)
 curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md
 
-# Append to istniejący
+# Append to existing
 echo "" >> CLAUDE.md
 curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md >> CLAUDE.md
 ```
 
 ## 🗒️ Description
 
-### 🧩 Co robi LLM źle (wg Karpathy)
+### 🧩 What LLMs get wrong (per Karpathy)
 
-1. **Wrong assumptions, no clarification** — modele cicho wybierają interpretację, nie pytają, nie ujawniają wątpliwości
-2. **Overengineering** — bloated abstractions, 1000 linii zamiast 100, dead code zostaje
-3. **Side-effect edits** — zmieniają komentarze i kod, którego nie rozumieją, nawet ortogonalny do zadania
-4. **Weak success criteria** — bez kryterium "make it work" wymaga ręcznej walidacji
+1. **Wrong assumptions, no clarification** — models silently pick an interpretation, don't ask, don't surface doubt
+2. **Overengineering** — bloated abstractions, 1000 lines instead of 100, dead code stays
+3. **Side-effect edits** — they change comments and code they don't understand, even when orthogonal to the task
+4. **Weak success criteria** — without a "make it work" criterion, manual validation is required
 
-### 🧩 Cztery zasady
+### 🧩 The four rules
 
 | Principle | Addresses |
 |-----------|-----------|
@@ -55,7 +55,7 @@ curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/
 
 #### 1. Think Before Coding
 
-Stop. State assumptions explicitly. Present multiple interpretations gdy ambiguity. Push back gdy istnieje prostsze rozwiązanie. Stop & ask gdy confused.
+Stop. State assumptions explicitly. Present multiple interpretations when there's ambiguity. Push back when a simpler solution exists. Stop & ask when confused.
 
 #### 2. Simplicity First
 
@@ -72,15 +72,15 @@ Stop. State assumptions explicitly. Present multiple interpretations gdy ambigui
 - Don't "improve" adjacent code/comments/formatting
 - Match existing style, even if you'd do it differently
 - Notice unrelated dead code → mention, don't delete
-- Remove imports/vars/funcs that **YOUR** changes orphaned; nie usuwaj pre-existing dead code
+- Remove imports/vars/funcs that **YOUR** changes orphaned; don't remove pre-existing dead code
 
 > **Test:** Every changed line should trace directly to the user's request.
 
 #### 4. Goal-Driven Execution
 
-Transformacja imperatywnych zadań w deklaratywne goals z weryfikacją:
+Transform imperative tasks into declarative goals with verification:
 
-| Zamiast... | Użyj... |
+| Instead of... | Use... |
 |------------|---------|
 | "Add validation" | "Write tests for invalid inputs, then make them pass" |
 | "Fix the bug" | "Write a test that reproduces it, then make it pass" |
@@ -96,36 +96,36 @@ Multi-step plan:
 
 > Karpathy: "LLMs are exceptionally good at looping until they meet specific goals... Don't tell it what to do, give it success criteria and watch it go."
 
-### 🧩 Sygnały, że działa
+### 🧩 Signs it's working
 
-- Mniej niepotrzebnych zmian w diffach (tylko requested)
-- Kod jest prosty od razu, nie po refaktorze
-- Clarifying questions **przed** implementacją, nie po pomyłkach
-- Czyste, minimalne PR-y, bez drive-by refactoring
+- Fewer unnecessary changes in diffs (only what was requested)
+- Code is simple from the start, not after a refactor
+- Clarifying questions **before** implementation, not after mistakes
+- Clean, minimal PRs, no drive-by refactoring
 
 ### 🧩 Tradeoff
 
-Wytyczne biasują w stronę **caution over speed**. Dla trywialnych zadań (typo fix, jednoliniowiec) — odstąp od pełnego rygoru. Cel to ograniczenie kosztownych pomyłek na non-trivial work, nie spowolnienie wszystkiego.
+The guidelines bias toward **caution over speed**. For trivial tasks (typo fix, one-liner) — relax the full rigor. The goal is to limit costly mistakes on non-trivial work, not to slow everything down.
 
 ## ✍️ Reasoning for
 
-Z mojej perspektywy to jest dobry baseline CLAUDE.md do podpięcia obok już istniejących project-specific instrukcji. Trzy z czterech zasad pokrywają się z tym, co już robię ręcznie ("don't add features beyond what's asked", "match existing style", "surgical changes"). Czwarta — Goal-Driven — to dokładnie to, czego brakuje większości moich proszków: zamiast "add X", piszę "write test that fails when X is missing, then make it pass". To zmienia LLM z wykonawcy w autonomous worker.
+From my perspective this is a good baseline CLAUDE.md to bolt on next to existing project-specific instructions. Three of the four rules overlap with what I already do manually ("don't add features beyond what's asked", "match existing style", "surgical changes"). The fourth — Goal-Driven — is exactly what's missing in most of my prompts: instead of "add X", I write "write a test that fails when X is missing, then make it pass". That turns the LLM from an executor into an autonomous worker.
 
-Dla mojego setupu warto rozważyć cherry-pick zasady #4 do mojego głównego `~/.claude/CLAUDE.md`, bo zasady #1–3 częściowo pokrywam już przez [[Context Engineering]] i [[Claude Code Best Practice]]. Strukturalna alternatywa wymuszająca te zasady przez workflow gates — zobacz [[Archon]].
+For my setup it's worth cherry-picking rule #4 into my main `~/.claude/CLAUDE.md`, since rules #1–3 are already partially covered via [[Context Engineering]] and [[Claude Code Best Practice]]. A structural alternative that enforces these rules through workflow gates — see [[Archon]].
 
 ## Alternatives considered
 
-- **CLAUDE.md from scratch** — bardziej tailored, ale większy effort
-- **[[Awesome Claude Code]]** — kuratela zasobów, ale to katalog, nie gotowy plik
-- **[[Agent Skills]]** — skille są bardziej granularne (load on demand), CLAUDE.md jest always-on
+- **CLAUDE.md from scratch** — more tailored, but more effort
+- **[[Awesome Claude Code]]** — resource curation, but it's a catalog, not a ready-made file
+- **[[Agent Skills]]** — skills are more granular (load on demand), CLAUDE.md is always-on
 
 ## 🔗 Resources
 
-- Karpathy obserwacje (X): https://x.com/karpathy/status/2015883857489522876
-- Multica (powiązany projekt autora): https://github.com/multica-ai/multica
+- Karpathy observations (X): https://x.com/karpathy/status/2015883857489522876
+- Multica (related project by the author): https://github.com/multica-ai/multica
 - License: MIT
-- [[Superpowers]] — methodology framework wymuszający Karpathy-style discipline przez 7 mandatory skilli
-- [[gstack]] — opposite extreme (23+ opinionated role-skille zamiast 1 CLAUDE.md)
+- [[Superpowers]] — a methodology framework that enforces Karpathy-style discipline via 7 mandatory skills
+- [[gstack]] — the opposite extreme (23+ opinionated role-skills instead of 1 CLAUDE.md)
 
 ---
 Template: [[templates/tool]]

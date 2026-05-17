@@ -11,74 +11,74 @@ summary: "24h hackathon building budget system with AI — lessons on validation
 
 # 🚀 Context
 
-**Hacknation** — hackathon organizowany przez GovTech Polska. 1500+ uczestników, 480 tys. PLN puli nagród, 24 godziny na działające rozwiązanie dla administracji publicznej.
+**Hacknation** — a hackathon organized by GovTech Polska. 1500+ participants, 480k PLN prize pool, 24 hours for a working public-administration solution.
 
-- Zespół: "emerytowany" programista (4 lata przerwy od kodowania) + nieprogramiści korzystający z nocode i LLM
-- Główna teza: **AI to equalizer** — narzędzie pozwalające zespołowi z mniejszym doświadczeniem koderskim konkurować z profesjonalnymi dev teamami
-- Do wyboru zadania użyto AI — analiza wyzwań pod kątem kompetencji zespołu
+- Team: a "retired" developer (4 years away from coding) + non-developers using nocode and LLMs
+- Core thesis: **AI is the equalizer** — a tool that lets a team with less coding experience compete with professional dev teams
+- AI was used to pick the task — analyzing challenges against the team's competencies
 
-# 🗒️ Problem — Pani Zosia i Tysiące Exceli
+# 🗒️ Problem — Mrs. Zosia and Thousands of Excels
 
-Proces budżetowania w administracji publicznej oparty na ręcznej wymianie setek tysięcy plików Excel:
+The public-administration budgeting process is built on the manual exchange of hundreds of thousands of Excel files:
 
-1. **Start (dół):** urzędniczka ręcznie wpisuje dane budżetowe do Excela
-2. **Eskalacja (góra):** plik wędruje: Gmina → Miasto → Województwo → Ministerstwo Finansów
-3. **Konsolidacja:** specjalna komórka w ministerstwie scala dane (często ręcznie)
-4. **Decyzja i powrót (dół):** limity budżetowe wracają tą samą drogą z arbitralnymi cięciami — nikt nie potrafi wyjaśnić dlaczego
+1. **Start (bottom):** a clerk manually types budget data into Excel
+2. **Escalation (top):** the file travels: Municipality → City → Voivodeship → Ministry of Finance
+3. **Consolidation:** a dedicated unit at the ministry merges the data (often by hand)
+4. **Decision and return (bottom):** budget limits travel back the same path with arbitrary cuts — nobody can explain why
 
-Rozwiązanie: **Cyfrowy Budżet** — scentralizowana aplikacja webowa:
-- Jedno źródło prawdy — wszystkie pozycje budżetowe w jednym systemie
-- Transparentność — komentowanie i dyskusja nad pozycjami w systemie zamiast w mailach
-- Workflow akceptacji — uproszczony proces zatwierdzania i konsolidacji
+Solution: **Cyfrowy Budżet** — a centralized web app:
+- One source of truth — all budget items in one system
+- Transparency — comments and discussion on items inside the system instead of email
+- Approval workflow — a simplified approval and consolidation process
 
 # 🛠️ Stack
 
-| Warstwa | Technologia |
+| Layer | Technology |
 |---------|-------------|
 | Frontend | React, TypeScript |
 | Backend | Supabase |
-| Prezentacja | Wideo wygenerowane w HiGen |
+| Presentation | Video generated in HiGen |
 
 # 💰 Token Usage
 
-- **Paweł i Kuba:** Antigravity (Gemini Pro / Claude 4.5) — zużyty cały tygodniowy limit tokenów w ~15h
-- **Justyna:** Bolt ([[Claude Code]]) — rekordowe **18 milionów tokenów**
+- **Paweł and Kuba:** Antigravity (Gemini Pro / Claude 4.5) — burned the entire weekly token limit in ~15h
+- **Justyna:** Bolt ([[Claude Code]]) — a record **18 million tokens**
 
-Praca trwała non-stop 24h, sen 2-3h. Początkowo każdy tworzył osobne kawałki kodu "na żywioł". Zwrot nastąpił po konsolidacji wokół najbardziej zaawansowanego prototypu Justyny.
+Work ran non-stop for 24h, 2-3h of sleep. Initially everyone built separate pieces of code ad hoc. The turn came after consolidating around Justyna's most advanced prototype.
 
 # ⚠️ What Went Wrong
 
-Wynik końcowy: **2.15 / 5 punktów** — brak finału.
+Final score: **2.15 / 5 points** — didn't make the finals.
 
-- Technologia działała, prezentacja była świetna
-- Zabrakło **walidacji** — zespół nie miał dostępu do praktyka (urzędnika pracującego z budżetem na co dzień)
-- Mentor przypisany do zadania nie był ekspertem dziedzinowym
-- System mógł być kompletnie "przestrzelony" — oderwany od realiów administracji
+- The tech worked, the presentation was great
+- We lacked **validation** — the team had no access to a practitioner (a clerk working with the budget daily)
+- The mentor assigned to the task wasn't a domain expert
+- The system might have been completely "off" — disconnected from the realities of public administration
 
 # 🤖 AI Limitations
 
-- **Kod często nie działał** — rozwiązania wyglądały poprawnie, ale sypały się przy uruchomieniu
-- **Halucynacje** — proponowane biblioteki nie istniały, logika "od czapy"
-- **Potrzeba prowadzenia za rękę** — precyzyjne promptowanie i ciągłe korygowanie kursu
-- **Blokady** — błąd w filtrach _current user_, którego model nie potrafił zdiagnozować; konieczny powrót do ręcznego czytania kodu i debugowania
+- **Code often didn't work** — solutions looked correct but fell apart at runtime
+- **Hallucinations** — proposed libraries didn't exist, logic pulled out of thin air
+- **Needs hand-holding** — precise prompting and continuous course correction
+- **Blockers** — a bug in the _current user_ filters the model couldn't diagnose; we had to fall back to manual code reading and debugging
 
-AI to potężny mnożnik siły, ale nie magiczna różdżka. Bez umiejętności technicznych i krytycznego myślenia — utkniesz w połowie drogi.
+AI is a powerful force multiplier but not a magic wand. Without technical skills and critical thinking — you'll get stuck halfway.
 
-# ☘️ Key Lesson — Walidacja > Technologia
+# ☘️ Key Lesson — Validation > Technology
 
-Nawet najlepszy kod nie obroni rozwiązania, które nie odpowiada na realne potrzeby użytkownika.
+Even the best code won't save a solution that doesn't address a real user need.
 
-Zespoły, które przyszły z gotowymi komponentami i lepszą analizą biznesową — wygrały. Podejście "na żywioł" jest romantyczne, ale w starciu z przygotowaniem przegrywa.
+Teams that came with ready components and better business analysis won. The "wing it" approach is romantic but loses against preparation.
 
-**Plan na kolejny hackathon:**
-1. **Wybór zadania** — role w zespole, scraping zadań, analiza przez AI (ten etap był OK)
-2. **Analiza biznesowa** (tu polegliśmy) — mapa AS-IS/TO-BE, User Stories, PRD, SRS, skille dla agentów
-3. **Development** — gotowy boilerplate, iteracyjny development, testy automatyczne, ciągłe Code Review
-4. **Dokumentacja i weryfikacja** — security review, performance review
+**Plan for the next hackathon:**
+1. **Task selection** — team roles, task scraping, AI analysis (this stage was OK)
+2. **Business analysis** (this is where we failed) — AS-IS/TO-BE map, User Stories, PRD, SRS, skills for agents
+3. **Development** — ready boilerplate, iterative development, automated tests, continuous Code Review
+4. **Documentation and verification** — security review, performance review
 
-# 📒 Podsumowanie
+# 📒 Summary
 
-- AI pozwala robić rzeczy niemożliwe jeszcze rok temu — mały zespół w 24h stworzył działającą aplikację webową
-- Technologia jest wtórna wobec zrozumienia problemu
-- AI to przyszłość programowania, ale człowiek musi być pilotem, który wie dokąd leci
-- [[Agentic Coding]] i narzędzia jak [[Claude Code]] dramatycznie obniżają próg wejścia, ale nie eliminują potrzeby fundamentów technicznych i analizy biznesowej
+- AI lets you do things that were impossible a year ago — a small team built a working web app in 24h
+- Technology is secondary to understanding the problem
+- AI is the future of programming, but a human has to be the pilot who knows where they're flying
+- [[Agentic Coding]] and tools like [[Claude Code]] dramatically lower the barrier to entry, but they don't eliminate the need for technical fundamentals and business analysis

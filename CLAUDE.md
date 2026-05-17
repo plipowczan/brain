@@ -146,8 +146,8 @@ After creating or editing ANY note, update indexes IMMEDIATELY — don't defer t
 
 ## Writing Style
 
-**Read `content/STYL_PISANIA_ANALIZA.md` before writing content.** Key rules:
-- Mix of Polish and English (technical terms in English)
+**Read `content/WRITING_STYLE_ANALYSIS.md` before writing content.** Key rules:
+- **English only** (canonical vault language as of 2026-05-17; technical terms in English)
 - Direct, practical, personal tone — first person
 - Emoji in headings: 🚀 main message, 🎨 impressions, ☘️ impact, ✍️ quotes, 📒 summary, 🗒️ description, 🔗 links, 🧩 features, 📖 further reading
 - Bulleted lists, hierarchical headings, Resources section at end

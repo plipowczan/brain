@@ -7,55 +7,55 @@ tags: ["knowledge", "info", "ai", "llm", "benchmark", "delegated-work", "vibe-co
 type: knowledge-note
 source: "_raw/inbox/2604.15597v1.pdf"
 agent-created: true
-summary: "Microsoft Research benchmark (arXiv 2604.15597) — frontier LLMs corrupt 25% dokumentu po 20 delegowanych edytach na 52 domenach; Python jedyna domena gdzie modele są ready"
+summary: "Microsoft Research benchmark (arXiv 2604.15597) — frontier LLMs corrupt 25% of a document after 20 delegated edits across 52 domains; Python is the only domain where models are ready"
 ---
 # DELEGATE-52
 
-Benchmark Microsoft Research opublikowany 17 kwietnia 2026 (Philippe Laban, Tobias Schnabel, Jennifer Neville). Mierzy gotowość LLM-ów do **delegated work** — paradygmatu, w którym użytkownik zleca model agentowi długie sekwencje edycji dokumentów bez review każdej zmiany (vibe coding tego rodzaju, ale dla 52 zawodów).
+A Microsoft Research benchmark published April 17, 2026 (Philippe Laban, Tobias Schnabel, Jennifer Neville). Measures LLM readiness for **delegated work** — a paradigm where a user hands an agent long sequences of document edits without reviewing each change (vibe coding of this kind, but for 52 professions).
 
-Główny wynik: nawet frontier modele (Gemini 3.1 Pro, Claude 4.6 Opus, GPT 5.4) korumpują średnio **25% treści** dokumentu po 20 interakcjach. Średnia degradacja wszystkich 19 modeli to ~50%. Najlepszy model jest "ready" (RS@20≥98%) tylko w **11 z 52 domen**.
+Headline result: even frontier models (Gemini 3.1 Pro, Claude 4.6 Opus, GPT 5.4) corrupt on average **25% of document content** after 20 interactions. Average degradation across all 19 models is ~50%. The best model is "ready" (RS@20≥98%) in only **11 of 52 domains**.
 
 ## 🗒️ Description
 
-### 🧩 Problem badawczy
+### 🧩 Research problem
 
-Delegated work to interakcja, w której knowledge worker nadzoruje LLM-a wykonującego task, ale **nie ma czasu/eksperckości na review** każdej zmiany. To wymaga zaufania że model nie wprowadzi cichych błędów (deletions, hallucinations, side-effect edits — pokrywa się z [[Karpathy Skills]] pitfall #3).
+Delegated work is an interaction where a knowledge worker oversees an LLM doing a task, but **lacks the time/expertise to review** every change. That requires trust that the model won't introduce silent errors (deletions, hallucinations, side-effect edits — overlaps with [[Karpathy Skills]] pitfall #3).
 
-DELEGATE-52 pyta wprost: dla jak wielu zawodów dzisiejsze LLM-y są naprawdę gotowe na delegację bez nadzoru?
+DELEGATE-52 asks directly: for how many professions are today's LLMs really ready for unsupervised delegation?
 
-### 🧩 Metodologia: round-trip relay
+### 🧩 Methodology: round-trip relay
 
-Innowacja badawcza pozwalająca na ewaluację bez reference solutions — każdy task jest **odwracalny**: forward instruction `σ(s)` i jej inverse `σ⁻¹`. Zastosowanie obu w kolejności powinno rekonstruować oryginalny dokument. Mierzysz `sim(s, σ⁻¹(σ(s)))` — perfect model = 1.0.
+A research innovation that allows evaluation without reference solutions — every task is **invertible**: a forward instruction `σ(s)` and its inverse `σ⁻¹`. Applying both in order should reconstruct the original document. You measure `sim(s, σ⁻¹(σ(s)))` — perfect model = 1.0.
 
-Round-trips composowane sekwencyjnie tworzą **relay**:
+Round-trips composed sequentially form a **relay**:
 
 ```
 ŝ_k = (σ₁ ∘ σ₁⁻¹ ∘ ... ∘ σ_n ∘ σ_n⁻¹)(s)
 RS@k(s) = sim(s, ŝ_{k/2})
 ```
 
-20 interakcji = 10 round-trips. Każdy edit to niezależna single-turn sesja (brak conversation memory między krokami — model dostaje świeży kontekst za każdym razem).
+20 interactions = 10 round-trips. Each edit is an independent single-turn session (no conversation memory between steps — the model gets fresh context every time).
 
-Backtranslation pochodzi z machine translation evaluation (Sennrich 2015), tu repurposed dla long-horizon delegated interaction.
+Backtranslation comes from machine translation evaluation (Sennrich 2015), here repurposed for long-horizon delegated interaction.
 
-### 🧩 Konstrukcja benchmarku
+### 🧩 Benchmark construction
 
-- **52 profesjonalnych domen** w 5 kategoriach:
+- **52 professional domains** across 5 categories:
   - **Code & Configuration** (11): Python, Docker, Makefile, JSON, DBSchema, DNS, Graphviz, Filesystem, Infra, Malware, Translation
   - **Science & Engineering** (11): Aviation, Circuit, Crystal, MathLean, Molecule, Protein, Quantum, Robotics, Satellite, StarCatalog, Weather
   - **Creative & Media** (11): AudioSyn, Fiction, FontEng, LaTeX, MusicSheet, OBJ3D, Screenplay, Slides, SRT, Subtitles, Vector, Weaving
   - **Structured Records** (11): Accounting, Calendar, EDIFACT, EDI, Emails, Genealogy, Geodata, Geotrack, HamRadio, LibCatalog, Spreadsheet, Treebank
   - **Everyday** (8): Chess, EarnCall, FoodMenu, JobBoard, Landmarks, Playlist, Recipe, Transit
-- **310 work environments** total — każde to seed document (~3-5k tokens) + **distractor documents** (~10k tokens) + 5-10 par invertible edit tasks
-- Każda domena ma **domain-specific parser** (text → strukturalna reprezentacja) i weighted scoring function. Generic LLM-as-a-judge zawodzi — uchwytuje max 25% wariancji metryki strukturalnej
+- **310 work environments** total — each is a seed document (~3-5k tokens) + **distractor documents** (~10k tokens) + 5-10 pairs of invertible edit tasks
+- Each domain has a **domain-specific parser** (text → structural representation) and a weighted scoring function. Generic LLM-as-a-judge fails — captures at most 25% of the structural metric's variance
 
-### 🧩 Główne wyniki (RS@20, % po 20 interakcjach)
+### 🧩 Main results (RS@20, % after 20 interactions)
 
 | Model | RS@20 | Status |
 |-------|------:|--------|
-| Gemini 3.1 Pro | 80.9 | Top (ready w 11/52 domen) |
-| Claude 4.6 Opus | 73.1 | Frontier (ready w 5/52) |
-| GPT 5.4 | 71.5 | Frontier (ready w 4/52) |
+| Gemini 3.1 Pro | 80.9 | Top (ready in 11/52 domains) |
+| Claude 4.6 Opus | 73.1 | Frontier (ready in 5/52) |
+| GPT 5.4 | 71.5 | Frontier (ready in 4/52) |
 | GPT 5.2 | 66.1 | |
 | Claude 4.6 Sonnet | 66.0 | |
 | Kimi K2.5 | 64.1 | |
@@ -66,17 +66,17 @@ Backtranslation pochodzi z machine translation evaluation (Sennrich 2015), tu re
 | GPT 4o | 14.7 | Catastrophic |
 | GPT 5 Nano | 10.0 | Catastrophic |
 
-**Catastrophic corruption (RS≤80%) w 80%+ kombinacji model×domena.**
+**Catastrophic corruption (RS≤80%) in 80%+ of model×domain combinations.**
 
-### 🧩 Python jako outlier
+### 🧩 Python as outlier
 
-Python to **jedyna domena**, w której większość testowanych modeli (17/19) osiąga lossless manipulation. Wynik korespondujący z (Pimenova et al., 2025) o delegated coding workflows. To wyjaśnia, dlaczego vibe coding "działa" w praktyce — testujemy go głównie na Pythonie. Reszta zawodów leci na łeb.
+Python is **the only domain** where most tested models (17/19) achieve lossless manipulation. A result that lines up with (Pimenova et al., 2025) on delegated coding workflows. That explains why vibe coding "works" in practice — we mostly test it on Python. The rest of the professions tank.
 
-Implikacja praktyczna: nie ekstrapoluj swojego pozytywnego doświadczenia z [[Vibe Coding]] / [[Claude Code]] / [[Cursor]] na inne domeny. Twój sukces w Python coding ≠ gotowość modelu do delegacji w accountingu, music notation, czy 3D objektach.
+Practical implication: don't extrapolate your positive experience with [[Vibe Coding]] / [[Claude Code]] / [[Cursor]] to other domains. Your success in Python coding ≠ model readiness for delegation in accounting, music notation, or 3D objects.
 
-### 🧩 Kluczowe efekty (ablations)
+### 🧩 Key effects (ablations)
 
-#### Tool use NIE pomaga
+#### Tool use does NOT help
 | Model | Direct (no tools) RS@20 | Agentic (tools) RS@20 | Cost overhead |
 |-------|------------------------:|----------------------:|--------------:|
 | GPT 5.4 | 71.5 | **68.3** | 2.1× input, 1.0× $ |
@@ -84,7 +84,7 @@ Implikacja praktyczna: nie ekstrapoluj swojego pozytywnego doświadczenia z [[Vi
 | GPT 5.1 | 60.5 | **52.1** | 2.0× input, 1.1× $ |
 | GPT 4.1 | 49.5 | **40.4** | 4.6× input, 2.2× $ |
 
-Modele wolą `write_file` od `execute_code` (45% vs file write dla GPT 5.4, gorzej dla słabszych). Tool use dodaje koszt i pogarsza jakość — silnie kontrintuicyjne.
+Models prefer `write_file` over `execute_code` (45% vs file write for GPT 5.4, worse for weaker models). Tool use adds cost and hurts quality — strongly counterintuitive.
 
 #### Document size effect (GPT 5.4)
 | Size | RS@20 |
@@ -93,30 +93,30 @@ Modele wolą `write_file` od `execute_code` (45% vs file write dla GPT 5.4, gorz
 | 4k tokens | 79.0 |
 | 10k tokens | 59.9 |
 
-Większe dokumenty = większa degradacja, gap rośnie z liczbą interakcji.
+Bigger documents = more degradation, gap widens with more interactions.
 
-#### Length of interaction — brak plateau
-GPT 5.4 po 100 interakcjach: 58.7 (vs 71.5 po 20). **Monotoniczny spadek, bez plateauingu** — degradacja akumuluje się dalej.
+#### Length of interaction — no plateau
+GPT 5.4 after 100 interactions: 58.7 (vs 71.5 after 20). **Monotonic decline, no plateau** — degradation keeps accumulating.
 
 #### Distractor files
-Usunięcie distractorów konsystentnie poprawia scoring o 4-7 pp. Model rozprasza się przez nieistotne pliki w workspace.
+Removing distractors consistently improves scoring by 4-7 pp. The model gets distracted by irrelevant files in the workspace.
 
-#### Image editing — gorsze niż tekst
-9 modeli image generation testowanych na 6 visual work environments. Best score: 28-30% (vs 70-80% dla tekstu). Po 2 interakcjach żaden model nie przekracza 65% — gorzej niż text models po 20.
+#### Image editing — worse than text
+9 image generation models tested across 6 visual work environments. Best score: 28-30% (vs 70-80% for text). After 2 interactions no model exceeds 65% — worse than text models after 20.
 
 ### 🧩 Critical errors
 
-Frontier modele wprowadzają sparse but severe errors — w 86% relayów Gemini 3.1 Pro / Claude 4.6 Opus występuje przynajmniej jeden critical error (deletion, replacement całych sekcji). Błędy są ciche, kompletują się w kolejnych iteracjach.
+Frontier models introduce sparse but severe errors — in 86% of relays for Gemini 3.1 Pro / Claude 4.6 Opus, at least one critical error appears (deletion, replacement of entire sections). The errors are silent and compound across iterations.
 
-## ✍️ Implikacje dla mojej praktyki
+## ✍️ Implications for my practice
 
-To badanie zmienia mój risk model dla [[Vibe Coding]] i [[Claude Code]] poza Pythonem.
+This study changes my risk model for [[Vibe Coding]] and [[Claude Code]] outside Python.
 
-1. **[[Brain]] (digital garden)** — moja praca nad notatkami markdown to jest dokładnie ten typ delegated work. Każdy `/ingest`, `/enhance`, `/compile` to round-trip. Nie wiem o ile, ale prawdopodobnie cicho korumpuję content w długich sesjach. Argument za **częstszymi commitami** i **diff review** zamiast trust-by-default.
-2. **Klienckie projekty w [[PLSoft]]** poza Pythonem — np. SQL migrations, DOCX generation, JSON configy — kandyduja do silent corruption. Dotąd traktowałem te jak Python-grade safe.
-3. **[[Archon]] jako odpowiedź** — workflow gates z deterministic nodes (testy, type-check) między AI nodes ograniczają drift. `bash:` node po każdym `prompt:` node dodaje weryfikację, której paper sygnalizuje brak.
-4. **Tool use overhead** — moja heurystyka "włącz wszystkie toole" jest błędna. Dla edycji dokumentów lepiej zostawić model w direct mode niż dawać mu agentic harness, jeśli nie używa code execution efektywnie.
-5. **Distractor effect** — context window full of unrelated files (np. otwarty IDE z 30 zakładkami) realnie szkodzi. Argument za małymi izolowanymi worktrees ([[Archon]]) zamiast monorepo agent sessions.
+1. **[[Brain]] (digital garden)** — my work on markdown notes is exactly this type of delegated work. Every `/ingest`, `/enhance`, `/compile` is a round-trip. I don't know by how much, but I'm probably silently corrupting content in long sessions. An argument for **more frequent commits** and **diff review** instead of trust-by-default.
+2. **Client projects in [[PLSoft]]** outside Python — e.g., SQL migrations, DOCX generation, JSON configs — candidates for silent corruption. Until now I treated these as Python-grade safe.
+3. **[[Archon]] as response** — workflow gates with deterministic nodes (tests, type-check) between AI nodes limit drift. A `bash:` node after each `prompt:` node adds the verification the paper flags as missing.
+4. **Tool use overhead** — my "turn on every tool" heuristic is wrong. For document edits it's better to leave the model in direct mode than to give it an agentic harness if it doesn't use code execution effectively.
+5. **Distractor effect** — a context window full of unrelated files (e.g., an open IDE with 30 tabs) really does hurt. Argues for small isolated worktrees ([[Archon]]) instead of monorepo agent sessions.
 
 ## 🔗 Links
 
@@ -125,24 +125,24 @@ To badanie zmienia mój risk model dla [[Vibe Coding]] i [[Claude Code]] poza Py
 - Dataset: https://huggingface.co/datasets/microsoft/DELEGATE52
 - Microsoft Research authors: Philippe Laban, Tobias Schnabel, Jennifer Neville
 
-## 🧩 Powiązane patterns w benchmarkingu
+## 🧩 Related patterns in benchmarking
 
-- **[[Skills 2.0 Testing]]** — eval-driven skill development, podobne podejście (4-agent pipeline, ale skupiony na Claude Skills)
-- **HumanEval / SWE-Bench** — Python coding benchmarks; te dawały optymistyczny obraz, DELEGATE-52 pokazuje że Python był outlierem
-- **MMLU / MT-Bench** — knowledge benchmarks, nie capturują degradacji w długich workflow
+- **[[Skills 2.0 Testing]]** — eval-driven skill development, similar approach (4-agent pipeline, but focused on Claude Skills)
+- **HumanEval / SWE-Bench** — Python coding benchmarks; these gave an optimistic picture, DELEGATE-52 shows that Python was the outlier
+- **MMLU / MT-Bench** — knowledge benchmarks, don't capture degradation across long workflows
 
 ## 📖 Further reading
 
 - Pimenova et al. (2025) — delegated coding workflows
-- Hong et al. (2025), Allamanis et al. (2024) — backtranslation jako evaluation technique dla LLM consistency
+- Hong et al. (2025), Allamanis et al. (2024) — backtranslation as an evaluation technique for LLM consistency
 - Sennrich et al. (2015) — backtranslation origin (machine translation)
-- [[Karpathy Skills]] — 4 pitfalle LLM-coderów; pitfall #3 (side-effect edits) i #4 (weak success criteria) są dokładnie tym, co DELEGATE-52 mierzy ilościowo
-- [[Vibe Coding]] — paradygmat oparty na delegated work, paper kwestionuje jego scope poza Pythonem
-- [[Agentic Coding]] — szerszy kontekst dla agent-driven workflows
-- [[Context Engineering]] — distractor effect pokazuje wartość czystego kontekstu
-- [[Harness Engineering]] — tool use NIE pomaga w delegated edit; ważna informacja dla projektowania harnessów
-- [[Archon]] — workflow engine z deterministic gates jako mitygacja silent corruption
-- [[Claude Code]], [[Cursor]] — narzędzia gdzie ten problem występuje na codzień
+- [[Karpathy Skills]] — 4 LLM-coder pitfalls; pitfall #3 (side-effect edits) and #4 (weak success criteria) are exactly what DELEGATE-52 quantifies
+- [[Vibe Coding]] — paradigm built on delegated work; the paper questions its scope outside Python
+- [[Agentic Coding]] — broader context for agent-driven workflows
+- [[Context Engineering]] — the distractor effect shows the value of a clean context
+- [[Harness Engineering]] — tool use does NOT help in delegated editing; important info for harness design
+- [[Archon]] — workflow engine with deterministic gates as mitigation for silent corruption
+- [[Claude Code]], [[Cursor]] — tools where this problem shows up daily
 
 ---
 Template: [[templates/knowledge_note_info]]

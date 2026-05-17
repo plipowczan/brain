@@ -11,61 +11,61 @@ summary: "Markdown Presentation Ecosystem — Markdown → HTML/PDF/PPTX slide d
 ---
 # Marp
 
-**Marp** (Markdown Presentation Ecosystem) — pisanie slide decków w czystym Markdownie, eksport do HTML/PDF/PPTX/PNG. Open source, MIT, oparte na CommonMark + ekstensje. Cały ecosystem jest pluggable.
+**Marp** (Markdown Presentation Ecosystem) — writing slide decks in plain Markdown, exporting to HTML/PDF/PPTX/PNG. Open source, MIT, built on CommonMark + extensions. The whole ecosystem is pluggable.
 
 ## 🔗 Links
 
 ### Description
-- https://marp.app/ — strona projektu
-- https://github.com/marp-team/marp — entrance repo z przeglądem rodziny
+- https://marp.app/ — project site
+- https://github.com/marp-team/marp — entrance repo with an overview of the family
 
 ### Download or use
 - VS Code extension: [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
-- CLI: `npx @marp-team/marp-cli@latest slide-deck.md` → patrz [[Marp CLI]]
+- CLI: `npx @marp-team/marp-cli@latest slide-deck.md` → see [[Marp CLI]]
 - Awesome list: https://github.com/marp-team/awesome-marp
 
 ## 🗒️ Description
 
-Cały ekosystem zbudowany jest wokół jednej idei: **slide deck = Markdown + CSS theme**. Strona `---` rozdziela slajdy. Reszta to `markdown-it` + dyrektywy + theming.
+The whole ecosystem is built around a single idea: **slide deck = Markdown + CSS theme**. The `---` separator splits slides. The rest is `markdown-it` + directives + theming.
 
 ### 🧩 Marp family
 
-| Komponent | Rola |
+| Component | Role |
 |-----------|------|
-| [[Marpit]] | Skinny framework: Markdown + CSS → HTML/CSS slides. Zero opinii o themach. |
-| [[Marp Core]] | Marpit + oficjalne themy (default/gaia/uncover) + math + emoji + auto-scaling |
-| [[Marp CLI]] | CLI: konwersja do HTML/PDF/PPTX/PNG, watch mode, server mode |
-| Marp for VS Code | Live preview + custom theming w edytorze |
+| [[Marpit]] | Skinny framework: Markdown + CSS → HTML/CSS slides. Zero opinions about themes. |
+| [[Marp Core]] | Marpit + official themes (default/gaia/uncover) + math + emoji + auto-scaling |
+| [[Marp CLI]] | CLI: conversion to HTML/PDF/PPTX/PNG, watch mode, server mode |
+| Marp for VS Code | Live preview + custom theming in the editor |
 
-Wcześniejsze, nieaktywne integracje (Marp Web, Marp React, Marp Vue) — nadal w repo, ale bez supportu.
+Earlier, inactive integrations (Marp Web, Marp React, Marp Vue) — still in the repo but unsupported.
 
-### 🧩 Kluczowe feature'y
+### 🧩 Key features
 
-- **CommonMark base** — jeśli umiesz pisać Markdown, umiesz pisać slajdy
-- **Dyrektywy** — globalne (`theme:`, `size:`, `paginate:`) i lokalne (`<!-- _backgroundColor: aqua -->`)
-- **Image syntax** — slide backgrounds, advanced backgrounds przez `<foreignObject>`
-- **Theming** — czysty CSS, brak predefiniowanych klas/mixins; customowe themy przez `@theme` metadata
-- **Eksport** — HTML, PDF, PPTX (w tym editable), PNG/JPEG, presenter notes jako TXT
-- **Math** — MathJax (default) lub KaTeX przez `math:` directive
-- **Auto-scaling** — fitting headers (`# <!-- fit -->`), shrink dla code/math blocks
+- **CommonMark base** — if you can write Markdown, you can write slides
+- **Directives** — global (`theme:`, `size:`, `paginate:`) and local (`<!-- _backgroundColor: aqua -->`)
+- **Image syntax** — slide backgrounds, advanced backgrounds via `<foreignObject>`
+- **Theming** — pure CSS, no predefined classes/mixins; custom themes via `@theme` metadata
+- **Export** — HTML, PDF, PPTX (including editable), PNG/JPEG, presenter notes as TXT
+- **Math** — MathJax (default) or KaTeX via `math:` directive
+- **Auto-scaling** — fitting headers (`# <!-- fit -->`), shrink for code/math blocks
 
 ## ✍️ Reasoning for
 
-Markdown-first workflow do prezentacji idealnie pasuje do mojego stacku — Obsidian, Hugo, Quartz, wszystko już bazuje na MD. Zamiast walczyć z PowerPointem albo Keynote'em, piszę treść jak normalną notatkę i wrzucam do CLI. Eksport do PPTX zostawia drogę odwrotu, gdy klient żąda edytowalnego pliku.
+A Markdown-first workflow for presentations fits my stack perfectly — Obsidian, Hugo, Quartz, everything is already MD-based. Instead of fighting with PowerPoint or Keynote, I write content like a regular note and pipe it through the CLI. PPTX export leaves an escape hatch when a client demands an editable file.
 
-Powiązane: w moim setupie istnieje skill **`create-marp-deck`** — interview-driven workflow do generowania decków, z gradient section dividers i automatic HTML/PPTX export. To jest dokładnie ten use case. Pełny opis 4-fazowego procesu (Brainstorm → React → Iterate → Export) w [[Claude Code Marp Workflow]].
+Related: in my setup there's a skill **`create-marp-deck`** — interview-driven workflow for generating decks with gradient section dividers and automatic HTML/PPTX export. That's exactly the use case. Full description of the 4-phase process (Brainstorm → React → Iterate → Export) in [[Claude Code Marp Workflow]].
 
 ## Alternatives considered
 
-- **reveal.js** — JS-first, więcej JS niż Markdown
-- **Slidev** — Vue-based, dla devów; piękny ale specyficzny stack
-- **Google Slides / PowerPoint / Keynote** — WYSIWYG, brak wersjonowania, brak diffu
+- **reveal.js** — JS-first, more JS than Markdown
+- **Slidev** — Vue-based, for devs; beautiful but a specific stack
+- **Google Slides / PowerPoint / Keynote** — WYSIWYG, no versioning, no diffs
 
-Marp wygrywa na: wersjonowanie git, brak lock-inu, eksport w 4 formatach, działanie w VS Code.
+Marp wins on: git versioning, no lock-in, export in 4 formats, working inside VS Code.
 
 ## 🔗 Resources
 
-- Dokumentacja: https://marpit.marp.app/
+- Documentation: https://marpit.marp.app/
 - Awesome Marp: https://github.com/marp-team/awesome-marp
 - Built-in themes (default/gaia/uncover): https://github.com/marp-team/marp-core/tree/main/themes
 

@@ -1,5 +1,5 @@
 ---
-title: "Pstryk"
+title: "Pstryk — Polish dynamic-pricing electricity vendor"
 date: 2026-05-10
 enableToc: true
 openToc: true
@@ -7,146 +7,146 @@ tags: ["tool", "energy", "dynamic-pricing", "household", "savings", "poland"]
 type: tool
 source: "_raw/inbox/Pstryk, czyli kolejna odsłona Prądu dla Finansowych Ninja.md"
 agent-created: true
-summary: "Polski sprzedawca prądu po cenach dynamicznych godzinowych z Tarczą 0,61 zł/kWh, miernikiem WiFi i transparentną aplikacją"
+summary: "Polish electricity vendor with hourly dynamic pricing, a 0.61 PLN/kWh government-style price cap, WiFi meter and a transparent app"
 ---
 # Pstryk
 
-Polski startup energetyczny (od X 2024) sprzedający prąd w modelu **cen dynamicznych godzinowych** z giełdy TGE (RDN), z **zerową opłatą handlową**, marżą **0,08 zł netto/kWh** i własnym miernikiem WiFi w skrzynce z bezpiecznikami. Kluczowy mechanizm bezpieczeństwa: **Tarcza Pstryk** — średnia ważona miesięczna nie przekroczy **0,61 zł/kWh brutto** (do 31.12.2026, planowo przedłużana). Polecane przez [[Michał Szafrański]] (ambasador, kod **NINJA50** = 50 zł rabat).
+A Polish energy startup (since October 2024) selling electricity on **hourly dynamic prices** from the TGE wholesale market (RDN), with a **zero handling fee**, a margin of **0.08 PLN net/kWh** and its own WiFi meter inside the fuse box. Key safety mechanism: the **Pstryk price cap** — the weighted monthly average will not exceed **0.61 PLN/kWh gross** (until 31.12.2026, with planned extensions). Endorsed by [[Michał Szafrański]] (ambassador, code **NINJA50** = 50 PLN discount).
 
-## 🚀 Główna teza
+## 🚀 Main thesis
 
-> Pstryk to nie „tańszy prąd” — to **prąd, którym da się sterować**.
+> Pstryk is not "cheaper electricity" — it's **electricity you can steer**.
 
-Tarcza chroni przed górką, dynamiczne ceny dają potencjał oszczędności, aplikacja daje pełną transparentność (rozbicie kosztu kWh: rynek + marża + dystrybucja + akcyza + VAT), a powiadomienia o cenach na jutro pozwalają planować zużycie.
+The cap protects against price spikes, dynamic prices unlock savings potential, the app provides full transparency (kWh cost broken down into: market + margin + distribution + excise + VAT), and notifications about tomorrow's prices let you plan consumption.
 
-## 🧩 Model rozliczania
+## 🧩 Billing model
 
-- **Cena godzinowa z TGE/RDN** + marża 0,08 zł netto/kWh.
-- **0 zł opłaty handlowej** (vs 12–31 zł/m-c u E.ON i ofert komercyjnych).
-- **Ceny na jutro znane dziś po 12:00** + push o 19:00 z rekomendacjami.
-- **Tarcza Pstryk** liczona miesięcznie (nie godzinowo): jeśli średnia ważona miesięczna > 0,61 zł/kWh brutto → opust do 0,61. Jeśli niższa → płacisz mniej. **Nie da się stracić.**
+- **Hourly price from TGE/RDN** + 0.08 PLN net/kWh margin.
+- **0 PLN handling fee** (vs 12-31 PLN/month at E.ON and other commercial offers).
+- **Tomorrow's prices known today after 12:00** + a push notification at 19:00 with recommendations.
+- **Pstryk price cap** calculated monthly (not hourly): if the weighted monthly average > 0.61 PLN/kWh gross → discount down to 0.61. If lower → you pay less. **You can't lose.**
 
-## ☘️ Dla kogo to ma sens
+## ☘️ Who it makes sense for
 
-**TAK:**
-- **Posiadacze EV z domową ładowarką** — potencjał ~1800 zł/rok przy ładowaniu w złotym oknie 10–15 zamiast wieczorem.
-- **Pompa ciepła** — ~970 zł/rok przy programowaniu pracy.
-- **Magazyn energii / fotowoltaika z magazynem** — naturalny match z dynamicznymi cenami.
-- **Klient E.ON** (większość warszawiaków) — sama oszczędność na opłacie handlowej 180–300 zł/rok, ROI miernika 8–12 m-cy.
-- **Emeryt / praca zdalna** — profil zużycia naturalnie w „złotym oknie” południowym 10–15.
-- **Lubiący rozumieć rachunki** — żaden inny sprzedawca w PL nie daje takiego poziomu szczegółowości.
+**YES:**
+- **EV owners with a home charger** — potential ~1800 PLN/year when charging in the golden window 10-15 instead of in the evening.
+- **Heat pump owners** — ~970 PLN/year with scheduled operation.
+- **Energy storage / PV with storage** — a natural match for dynamic prices.
+- **E.ON customers** (most Warsaw residents) — the handling-fee saving alone is 180-300 PLN/year, the meter pays for itself in 8-12 months.
+- **Retirees / remote workers** — consumption profile naturally lands in the midday "golden window" 10-15.
+- **People who like to understand their bills** — no other vendor in Poland gives this level of detail.
 
-**NIE:**
-- **Klient na taryfie URE (PGE/Tauron/Enea) pasywny** — 9–33 zł/rok oszczędności, miernik zwraca się 3–4 lata.
-- **Brak WiFi / smartfona** — usługa nie zadziała.
-- **Brak chęci optymalizacji** — Tarcza chroni, ale tracisz cały potencjał produktu.
+**NO:**
+- **Passive customer on the regulated URE tariff (PGE/Tauron/Enea)** — 9-33 PLN/year of savings, meter pays back in 3-4 years.
+- **No WiFi / no smartphone** — the service won't work.
+- **No interest in optimization** — the cap protects you, but you lose the entire upside of the product.
 
-## 📒 Liczbowe back-testy 2025 (8760 godzin)
+## 📒 Back-test numbers for 2025 (8760 hours)
 
-Wzór odniesienia: typowy sprzedawca URE 0,615 zł/kWh.
+Reference: a typical URE-tariff vendor at 0.615 PLN/kWh.
 
-### Pasywny użytkownik (nic nie optymalizuje)
+### Passive user (no optimization)
 
-| Profil | Zużycie | Średnia roczna | Oszczędność |
+| Profile | Consumption | Yearly average | Saving |
 |--------|--------:|---------------:|------------:|
-| Standardowy w bloku | 2400 kWh | 0,6100 zł | 12 zł/rok |
-| Para w pracy 8–17 | 1800 kWh | 0,6100 zł | 9 zł/rok |
-| Emeryt w domu | 2200 kWh | 0,5837 zł | **69 zł/rok** |
-| Rodzina z dziećmi | 3500 kWh | 0,6100 zł | 22 zł/rok |
-| Praca zdalna | 3000 kWh | ~0,599 zł | 33 zł/rok |
+| Standard apartment dweller | 2400 kWh | 0.6100 PLN | 12 PLN/year |
+| Couple working 8-17 | 1800 kWh | 0.6100 PLN | 9 PLN/year |
+| Retiree at home | 2200 kWh | 0.5837 PLN | **69 PLN/year** |
+| Family with kids | 3500 kWh | 0.6100 PLN | 22 PLN/year |
+| Remote worker | 3000 kWh | ~0.599 PLN | 33 PLN/year |
 
-### Aktywny (przesuwa ~20% z 17–21 do 10–15)
+### Active (shifts ~20% from 17-21 to 10-15)
 
-- Standardowy: 60 zł/rok
-- Para w pracy: 51 zł/rok
-- Emeryt: 117 zł/rok
-- **Rodzina z dziećmi: 120 zł/rok** (6× więcej niż pasywny)
-- **Praca zdalna: 127 zł/rok**
+- Standard: 60 PLN/year
+- Couple at work: 51 PLN/year
+- Retiree: 117 PLN/year
+- **Family with kids: 120 PLN/year** (6× more than passive)
+- **Remote worker: 127 PLN/year**
 
-### Pełny bilans z opłatą handlową (rok 2 i kolejne)
+### Full balance including handling fee (year 2 and onward)
 
-| Obecny sprzedawca | Aktywny standardowy | Aktywny rodzina |
+| Current vendor | Active standard | Active family |
 |---|---:|---:|
-| URE (0 zł/m-c) | ~60 zł/rok | ~120 zł/rok |
-| E.ON (~15 zł/m-c) | ~240 zł/rok | ~300 zł/rok |
-| Komercyjna z pakietem (~25 zł/m-c) | ~360 zł/rok | ~420 zł/rok |
+| URE tariff (0 PLN/month) | ~60 PLN/year | ~120 PLN/year |
+| E.ON (~15 PLN/month) | ~240 PLN/year | ~300 PLN/year |
+| Commercial bundled (~25 PLN/month) | ~360 PLN/year | ~420 PLN/year |
 
-## 🗒️ Złote okno cenowe
+## 🗒️ The golden price window
 
-- **Najtaniej 10:00–15:00**: średnia 2025 = 0,45 zł/kWh (28% pod benchmarkiem). 67% godzin tego okna jest tańszych niż URE.
-- **Najdrożej 17:00–21:00**: średnia 0,88 zł/kWh (43% nad benchmarkiem). Tylko 9% godzin tu jest tańszych niż URE.
-- **Spread dobowy 2025**: średnio 0,74 zł/kWh, max >2 zł/kWh.
-- **Niedziela** = król tanich dni (16 gr taniej niż wtorek).
-- **Ceny ujemne**: 95 godzin w 2025, rekord -0,52 zł/kWh (13.04 niedziela wielkanocna 12:00). 72% to weekendy/święta. 33% przypadło na kwiecień.
+- **Cheapest 10:00-15:00**: 2025 average = 0.45 PLN/kWh (28% below benchmark). 67% of hours in this window are cheaper than URE.
+- **Most expensive 17:00-21:00**: average 0.88 PLN/kWh (43% above benchmark). Only 9% of hours here beat URE.
+- **Daily spread in 2025**: 0.74 PLN/kWh on average, max >2 PLN/kWh.
+- **Sunday** = king of cheap days (16 gr cheaper than Tuesday).
+- **Negative prices**: 95 hours in 2025, record -0.52 PLN/kWh (Easter Sunday April 13, 12:00). 72% on weekends/holidays. 33% landed in April.
 
-## 🔌 Co da się przesunąć
+## 🔌 What can be shifted
 
-- **Pralka 2×/tydz w złote okno**: ~68 zł/rok
-- **Zmywarka 6×/tydz**: ~162 zł/rok
-- **Ładowanie EV 2×/tydz po 40 kWh**: **~1800 zł/rok**
-- **Pompa ciepła sezon grzewczy**: ~970 zł/rok
+- **Washing machine 2×/week into the golden window**: ~68 PLN/year
+- **Dishwasher 6×/week**: ~162 PLN/year
+- **EV charging 2×/week, 40 kWh each**: **~1800 PLN/year**
+- **Heat pump over the heating season**: ~970 PLN/year
 
-Czego NIE warto ruszać: lodówka/zamrażarka (24/7), oświetlenie LED (grosze), router, klimatyzacja (i tak gra w złotym oknie).
+What's NOT worth touching: fridge/freezer (24/7), LED lighting (pennies), router, AC (already runs in the golden window anyway).
 
-## 💰 Wejście
+## 💰 Getting in
 
-- **299 zł brutto** opłata aktywacyjna (miernik + montaż przez elektryka Pstryka — Warszawa, Kraków, Wrocław, Łódź, Poznań, Trójmiasto, Szczecin, Bydgoszcz, Katowice, Częstochowa, Toruń, Grudziądz, Lublin, Rybnik, Racibórz, Wodzisław Śl.).
-- **Kod NINJA50** = -50 zł na pierwszej fakturze → efektywnie **249 zł**.
-- **Miernik własnością Pstryka**, zwrot przy rozwiązaniu umowy.
-- **Umowa na czas nieokreślony**, miesięczne wypowiedzenie, **zero kar umownych**, 14-dniowe prawo odstąpienia.
-- **Pstryk Connect** (opcja): 30 zł/m-c (3 m-ce gratis) — automatyzacja ładowarek EV, magazynów energii, w przyszłości pomp ciepła.
+- **299 PLN gross** activation fee (meter + installation by a Pstryk electrician — Warsaw, Kraków, Wrocław, Łódź, Poznań, Tricity, Szczecin, Bydgoszcz, Katowice, Częstochowa, Toruń, Grudziądz, Lublin, Rybnik, Racibórz, Wodzisław Śl.).
+- **Code NINJA50** = -50 PLN on the first invoice → effectively **249 PLN**.
+- **The meter remains Pstryk's property**, returned when the contract ends.
+- **Indefinite-term contract**, monthly notice, **zero contractual penalties**, 14-day right of withdrawal.
+- **Pstryk Connect** (optional): 30 PLN/month (3 months free) — automation for EV chargers, energy storage, and in the future heat pumps.
 
-### ROI miernika (249 zł, profil Standardowy aktywny)
+### Meter ROI (249 PLN, Standard Active profile)
 
-- URE: ~3,5 roku
-- E.ON: **~1 rok**
-- Komercyjna z pakietem: **~8 m-cy**
+- URE tariff: ~3.5 years
+- E.ON: **~1 year**
+- Commercial bundled: **~8 months**
 
-## ⚠️ Wymagania
+## ⚠️ Requirements
 
-- Stałe WiFi w domu.
-- Miejsce w skrzynce na 1 dodatkowy „bezpiecznik”.
-- Smartfon (iOS/Android) — aplikacja jest sercem produktu.
-- Numer PPE z faktury przy rejestracji.
+- Stable home WiFi.
+- Space in the fuse box for one extra "breaker".
+- Smartphone (iOS/Android) — the app is the heart of the product.
+- PPE number from your invoice when signing up.
 
-Pstryk załatwia wypowiedzenie u obecnego sprzedawcy (pełnomocnictwo). Czas zmiany: 6–8 tygodni.
+Pstryk handles the termination with your current vendor (via power of attorney). Switching time: 6-8 weeks.
 
-## 🔧 Pułapki montażu (przestrogi z artykułu)
+## 🔧 Installation pitfalls (cautionary notes from the article)
 
-1. **Rozpakowanie miernika przy Was** — miernik + cewki są **fabrycznie skalibrowane razem**. Pomieszanie kompletów = błędne pomiary.
-2. **Kolejność faz przy 3-fazowym** — porównać chwilowe obciążenie faz w aplikacji z licznikiem głównym.
-3. **Sparowanie aplikacji przy elektryku** — nie wypuszczać fachowca przed weryfikacją.
+1. **Unpack the meter in your presence** — the meter + clamps are **factory-calibrated together**. Mixing sets = wrong readings.
+2. **Phase order on 3-phase systems** — compare instantaneous per-phase load in the app with the main meter.
+3. **Pair the app while the electrician is there** — don't let them leave before you've verified.
 
-## 📱 Funkcje aplikacji
+## 📱 App features
 
-- Ceny godzinowe na dziś + jutro (od 12:00).
-- Push o 19:00 z rekomendacjami.
-- Bieżące zużycie odświeżane co minutę, per faza (3-fazowe).
-- Historia godzinowa / dobowa / miesięczna od 1. dnia.
-- Pełne rozbicie: cena rynkowa + marża Pstryk + dystrybucja + akcyza + VAT.
-- Ślad węglowy CO2.
-- Faktury + płatności (przelew / PayU).
-- **Otwarte API** — integracja ze smart home.
-- Program poleceń.
+- Hourly prices for today + tomorrow (after 12:00).
+- Push notification at 19:00 with recommendations.
+- Live consumption refreshed every minute, per phase (3-phase).
+- Hourly / daily / monthly history from day 1.
+- Full breakdown: market price + Pstryk margin + distribution + excise + VAT.
+- CO2 footprint.
+- Invoices + payments (bank transfer / PayU).
+- **Open API** — integration with smart home.
+- Referral program.
 
-## ⚠️ Zastrzeżenia
+## ⚠️ Caveats
 
-- **Tarcza nie obejmuje dystrybucji** (na to nie ma wpływu żaden sprzedawca).
-- **Tarcza wymaga sprawnego miernika** (gdy padnie WiFi → brak ochrony).
-- **Pstryk to startup od X 2024** — krótka historia, ryzyko ekspozycji na młodą firmę. Mityguje to brak długoterminowego zobowiązania.
-- **Tarcza obowiązuje do 31.12.2026** — kierownictwo deklaruje przedłużenie, ale gwarancji na lata 2027+ nie ma.
+- **The cap does not cover distribution** (no vendor can influence that).
+- **The cap requires a working meter** (when WiFi is down → no protection).
+- **Pstryk is a startup from October 2024** — short history, exposure risk to a young company. Mitigated by the lack of long-term commitment.
+- **The cap is valid until 31.12.2026** — leadership signals an extension, but there's no guarantee for 2027+.
 
-## 🔗 Linki
+## 🔗 Links
 
-- **Strona**: https://pstryk.pl/
-- **Infolinia**: +48 588 810 295
-- **Kod rabatowy**: NINJA50 (-50 zł)
-- **Źródłowa analiza Michała Szafrańskiego (maj 2026)**: https://jakoszczedzacpieniadze.pl/pstryk-czyli-czy-warto-zmienic-sprzedawce-pradu
+- **Website**: https://pstryk.pl/
+- **Hotline**: +48 588 810 295
+- **Discount code**: NINJA50 (-50 PLN)
+- **Source analysis by Michał Szafrański (May 2026)**: https://jakoszczedzacpieniadze.pl/pstryk-czyli-czy-warto-zmienic-sprzedawce-pradu
 
 ## 📖 Resources
 
-- Oryginalny wpis blogowy z back-testami 8760 godzin 2025: zobacz `_raw/processed/2026-05-10_Pstryk-czyli-kolejna-odslona-Pradu-dla-Finansowych-Ninja.md`.
-- Akcja poprzedniczka „Prąd dla Finansowych Ninja” z Lumi (2019–2024): 2417 klientów, gwarantowane stawki 0,29 → 0,39 zł/kWh.
+- Original blog post with 8760-hour 2025 back-tests: see `_raw/processed/2026-05-10_Pstryk-czyli-kolejna-odslona-Pradu-dla-Finansowych-Ninja.md`.
+- Predecessor campaign "Electricity for Financial Ninjas" with Lumi (2019-2024): 2417 customers, guaranteed rates 0.29 → 0.39 PLN/kWh.
 
 ---
 Template: [[templates/tool]]

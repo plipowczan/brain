@@ -61,15 +61,15 @@ Core design principles:
 - VideoCaptioner auto-subtitling.
 
 ## Reasoning for
-Bardzo ciekawe dla [[Agentic Systems]] i [[Qamera AI]] — każdy GUI-based tool, który dziś wymagałby UI automation (Playwright, screenshots), można zamienić na strukturalny CLI z `--json` output. Szczególnie dla workflow z Blender / LibreOffice / Draw.io / n8n. Połączone z [[Agent Skills]] i [[Harness Engineering]] — generated `SKILL.md` wpada prosto do `.claude/skills/`.
+Very interesting for [[Agentic Systems]] and [[Qamera AI]] — every GUI-based tool that today would need UI automation (Playwright, screenshots) can be turned into a structured CLI with `--json` output. Especially for workflows with Blender / LibreOffice / Draw.io / n8n. Pairs with [[Agent Skills]] and [[Harness Engineering]] — the generated `SKILL.md` drops straight into `.claude/skills/`.
 
 ## 📖 Further reading
-- [[Agent Skills]] — skill system Anthropic
-- [[Harness Engineering]] — jak konfigurować agent harness
-- [[Context Engineering]] — projektowanie kontekstu dla agentów
-- [[Claude Code]] — platforma, na której CLI-Anything działa jako plugin
-- [[Awesome Claude Code]] — inne curated resources
-- [[Agentic Coding]] — paradygmat agentic development
+- [[Agent Skills]] — Anthropic's skill system
+- [[Harness Engineering]] — how to configure an agent harness
+- [[Context Engineering]] — designing context for agents
+- [[Claude Code]] — the platform CLI-Anything runs on as a plugin
+- [[Awesome Claude Code]] — other curated resources
+- [[Agentic Coding]] — the agentic development paradigm
 
 ---
 Template: [[templates/tool]]

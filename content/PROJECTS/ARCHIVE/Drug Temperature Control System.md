@@ -6,11 +6,11 @@ openToc: true
 tags: ["projects", "todo/complete"]
 type: basic-note
 agent-created: true
-summary: "Placeholder — do uzupelnienia"
+summary: "Placeholder — to be completed"
 ---
 
 # Drug Temperature Control System
 
-#todo/complete Notatka do uzupelnienia.
+#todo/complete Note to be completed.
 
-Powiazane: [[ShareFund]]
+Related: [[ShareFund]]

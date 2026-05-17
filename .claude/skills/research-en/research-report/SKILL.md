@@ -13,7 +13,7 @@ allowed-tools: Read, Write, Glob, Bash, AskUserQuestion
 ## Workflow
 
 ### Step 1: Locate Results Directory
-Find `*/outline.yaml` in current working directory, read topic and output_dir config.
+Find `outline.yaml` in `content/_raw/research-workspaces/*/` (preferred) or anywhere via Glob fallback. Read topic and output_dir config.
 
 ### Step 2: Scan Optional Summary Fields
 Read all JSON results, extract fields suitable for TOC display (numeric, short metrics), e.g.:
@@ -86,8 +86,39 @@ Skip conditions:
 - Field value is None or empty string
 
 ### Step 4: Execute Script
-Run `python {topic}/generate_report.py`
+Run `python content/_raw/research-workspaces/{topic_slug}/generate_report.py`
+
+### Step 5: Promote Report to Brain Inbox
+
+After `report.md` is generated in the workspace, create a brain-ready copy in `content/_raw/inbox/` so `/ingest` can classify it into the proper topic folder.
+
+**Filename:** `content/_raw/inbox/{YYYY-MM-DD}-research-{topic_slug}.md` (current date in ISO format).
+
+**Prepend Obsidian frontmatter** to the report contents:
+
+```yaml
+---
+title: "{topic} — Research Report"
+date: {YYYY-MM-DD}
+enableToc: true
+openToc: true
+tags: ["research", "compiled"]   # add topic-derived tags if obvious from items/categories
+type: compiled-note
+source: "research-en deep research — content/_raw/research-workspaces/{topic_slug}/"
+agent-created: true
+summary: "{one-line description of what was researched, ~15 words}"
+---
+
+```
+
+Then append the full markdown body from `report.md`.
+
+**Note to user after writing:**
+- Print the inbox path
+- Suggest: "Run `/ingest` to classify this into the proper topic folder (likely `AI/`, `BUSINESS/`, etc.) and update indexes."
+- Workspace files (`outline.yaml`, `fields.yaml`, `results/*.json`, `generate_report.py`, original `report.md`) stay in `content/_raw/research-workspaces/{topic_slug}/` for future `/research-add-items` or `/research-add-fields` runs.
 
 ## Output
-- `{topic}/generate_report.py` - Conversion script
-- `{topic}/report.md` - Summary report
+- `content/_raw/research-workspaces/{topic_slug}/generate_report.py` — Conversion script
+- `content/_raw/research-workspaces/{topic_slug}/report.md` — Raw summary report (workspace copy)
+- `content/_raw/inbox/{YYYY-MM-DD}-research-{topic_slug}.md` — Brain-ingestible report with Obsidian frontmatter

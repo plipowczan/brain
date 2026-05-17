@@ -11,69 +11,69 @@ summary: "Structured spec-driven AI development workflow — replaces reactive p
 
 # OPSX Workflow
 
-Standardowy workflow dla OpenSpec — strukturyzowane podejście do pracy z AI coding assistants. Zamienia reaktywne promptowanie w powtarzalny proces z artefaktami, zależnościami i iteracją.
+The standard workflow for OpenSpec — a structured approach to working with AI coding assistants. Turns reactive prompting into a repeatable process with artifacts, dependencies, and iteration.
 
 ## 🔗 Links
 
 ### Description
-- [OpenSpec GitHub](https://github.com/Fission-AI/openspec) — oficjalne repo
-- [OpenSpec Discord](https://discord.gg/YctCnvvshC) — community i feedback
+- [OpenSpec GitHub](https://github.com/Fission-AI/openspec) — official repo
+- [OpenSpec Discord](https://discord.gg/YctCnvvshC) — community and feedback
 
 ### Download or use
 ```bash
 npm install -g openspec
-openspec init  # tworzy skills w .claude/skills/
+openspec init  # creates skills in .claude/skills/
 ```
 
 ## 🗒️ Reasoning for
 
 ### Problem
 
-- **Context rot** — AI traci kontekst między sesjami, za każdym razem startuje od zera
-- **Chaotyczne sesje** — przy większych zmianach (multi-file feature, refactoring) chaos narasta
-- **Liniowe fazy nie działają** — prawdziwa praca nie jest sekwencyjna (plan→implement→done), bo w trakcie implementacji design się zmienia
+- **Context rot** — the AI loses context between sessions and starts from scratch every time
+- **Chaotic sessions** — with larger changes (multi-file feature, refactoring) chaos builds up
+- **Linear phases don't work** — real work is not sequential (plan→implement→done), because design shifts during implementation
 
-### Legacy workflow OpenSpec — ograniczenia
+### Legacy OpenSpec workflow — limitations
 
-- Instrukcje hardcoded w TypeScript — nie można zmienić
-- All-or-nothing approach — jedna komenda tworzy wszystko
-- Brak customizacji — ten sam workflow dla wszystkich
-- Black box przy złych outputach — nie można poprawić promptów
+- Instructions hardcoded in TypeScript — cannot be changed
+- All-or-nothing approach — one command creates everything
+- No customization — the same workflow for everyone
+- Black box on bad outputs — you cannot fix the prompts
 
-### Rozwiązanie: OPSX
+### Solution: OPSX
 
-- **Actions, nie phases** — rób co potrzebujesz, kiedy potrzebujesz
-- **Artefakty z zależnościami** — DAG (Directed Acyclic Graph) zamiast liniowych faz
-- **Filesystem jako state** — istnienie pliku = artefakt DONE
-- **Otwarte instrukcje** — YAML schemata + markdown templates, edytowalne
+- **Actions, not phases** — do what you need, when you need it
+- **Artifacts with dependencies** — a DAG (Directed Acyclic Graph) instead of linear phases
+- **Filesystem as state** — a file existing = artifact DONE
+- **Open instructions** — YAML schemata + markdown templates, editable
 
 ## 🧩 Commands
 
-| Komenda | Co robi |
+| Command | What it does |
 |---------|---------|
-| `/opsx:explore` | Myślenie, badanie problemu, porównywanie opcji |
-| `/opsx:new` | Start nowej zmiany |
-| `/opsx:continue` | Tworzenie kolejnego artefaktu (na podstawie zależności DAG) |
-| `/opsx:ff` | Fast-forward — wszystkie planning artifacts naraz |
-| `/opsx:apply` | Implementacja tasks |
-| `/opsx:sync` | Synchronizacja delta specs do main |
-| `/opsx:archive` | Archiwizacja po zakończeniu |
+| `/opsx:explore` | Thinking, investigating a problem, comparing options |
+| `/opsx:new` | Start a new change |
+| `/opsx:continue` | Create the next artifact (based on DAG dependencies) |
+| `/opsx:ff` | Fast-forward — all planning artifacts at once |
+| `/opsx:apply` | Implement tasks |
+| `/opsx:sync` | Sync delta specs into main |
+| `/opsx:archive` | Archive once finished |
 
-### Typowy flow
+### Typical flow
 
 ```text
-/opsx:explore     → przemyśl pomysł
-/opsx:new         → zacznij zmianę
-/opsx:continue    → stwórz proposal → specs → design → tasks (iteracyjnie)
-/opsx:apply       → implementuj
-/opsx:archive     → zakończ
+/opsx:explore     → think the idea through
+/opsx:new         → start the change
+/opsx:continue    → create proposal → specs → design → tasks (iteratively)
+/opsx:apply       → implement
+/opsx:archive     → close out
 ```
 
-**Pro tip:** `/opsx:ff` gdy masz jasny obraz. `/opsx:continue` przy eksploracji — iteracja po jednym artefakcie.
+**Pro tip:** use `/opsx:ff` when the picture is clear. Use `/opsx:continue` during exploration — iterating one artifact at a time.
 
 ## 📐 Architecture
 
-### DAG artefaktów
+### Artifact DAG
 
 ```text
               proposal
@@ -103,24 +103,24 @@ Missing    All deps   File exists
 deps       are DONE   on filesystem
 ```
 
-Kluczowe koncepty:
-- **Dependencies są enablers, nie gates** — pokazują co jest możliwe, nie co wymagane
-- **Filesystem jako state** — nie potrzeba bazy danych, plik istnieje = DONE
-- **Topological ordering** — system wie co tworzyć dalej
+Key concepts:
+- **Dependencies are enablers, not gates** — they show what is possible, not what is required
+- **Filesystem as state** — no need for a database, file exists = DONE
+- **Topological ordering** — the system knows what to create next
 
-### Kiedy update vs nowa zmiana
+### When to update vs. start a new change
 
-| Test | Update | Nowa zmiana |
+| Test | Update | New change |
 |------|--------|-------------|
-| Tożsamość | "To samo, dopracowane" | "Inna praca" |
-| Overlap scope | >50% pokrycia | <50% pokrycia |
-| Zamknięcie | Nie można bez zmian | Można zamknąć, nowa stoi samodzielnie |
+| Identity | "Same thing, refined" | "Different work" |
+| Scope overlap | >50% coverage | <50% coverage |
+| Closure | Cannot be closed without changes | Can be closed; the new one stands on its own |
 
 ## ⚙️ Customization
 
 ### YAML Schemata
 
-Definiowanie własnych workflows:
+Define your own workflows:
 
 ```yaml
 name: research-first
@@ -153,35 +153,35 @@ rules:
     - Use Given/When/Then format
 ```
 
-AI zna konwencje projektu bez powtarzania w każdym promcie.
+The AI knows the project's conventions without you repeating them in every prompt.
 
 ## Alternatives considered
 
-- **Reaktywne promptowanie** — działa przy małych zmianach, nie skaluje się
-- **Liniowe phase-gate workflows** — walczą z rzeczywistością iteracyjnej pracy
-- **Cursor/Windsurf bez struktury** — brak persistent artifacts, context loss
+- **Reactive prompting** — works for small changes, doesn't scale
+- **Linear phase-gate workflows** — fight the reality of iterative work
+- **Cursor/Windsurf without structure** — no persistent artifacts, context loss
 
-## 🧭 Use case: PRD z analizy + oferty klienckiej
+## 🧭 Use case: PRD from analysis + client offer
 
-OPSX świetnie sprawdza się jako **silnik generowania PRD** z dwóch wejść: analizy biznesowej (np. mapa procesu AS-IS) i oferty (zakres + stack + harmonogram). Pipeline:
+OPSX works well as a **PRD generation engine** from two inputs: business analysis (e.g., an AS-IS process map) and an offer (scope + stack + timeline). Pipeline:
 
-- Analiza ([[Process Mapping]] — 4 elementy: Akcja/Aktor/Narzędzie/Tryb) → `proposal.md` (problem statement)
-- Discovery ([[UX RULER]] 7 etapów) → `PRODUCT.md`, decision-log, north-star-metric
-- Oferta → `openspec/config.yaml` context (stack, konwencje, harmonogram)
-- `/opsx:ff` lub `/opsx:continue` → `specs/*.md` (Given/When/Then per feature) + `design.md` + `tasks.md` w DAG
+- Analysis ([[Process Mapping]] — 4 elements: Action/Actor/Tool/Mode) → `proposal.md` (problem statement)
+- Discovery ([[UX RULER]] 7 stages) → `PRODUCT.md`, decision-log, north-star-metric
+- Offer → `openspec/config.yaml` context (stack, conventions, timeline)
+- `/opsx:ff` or `/opsx:continue` → `specs/*.md` (Given/When/Then per feature) + `design.md` + `tasks.md` in the DAG
 
-Pełna synteza: [[2026-05-16_PRD-z-analizy-i-oferty]]. Wzorzec end-to-end: [[El Padre Case Study]].
+Full synthesis: [[2026-05-16_PRD-z-analizy-i-oferty]]. End-to-end pattern: [[El Padre Case Study]].
 
 ## 📖 Resources
 
-- [OpenSpec GitHub](https://github.com/Fission-AI/openspec) — repo z kodem i dokumentacją
+- [OpenSpec GitHub](https://github.com/Fission-AI/openspec) — repo with code and docs
 - [OpenSpec Discord](https://discord.gg/YctCnvvshC) — community
 - [[Claude Code]] — primary AI coding assistant
-- [[Agentic Coding]] — podejście do kodowania z AI agentami
-- [[Context Engineering]] — zarządzanie kontekstem w pracy z LLM
-- [[Process Mapping]] — analiza AS-IS jako wejście do proposal
-- [[UX RULER]] — discovery produktowy generujący artefakty do repo
-- [[El Padre Case Study]] — case oferty 6-tygodniowej rozpisanej jako spec + tasks
+- [[Agentic Coding]] — approach to coding with AI agents
+- [[Context Engineering]] — managing context when working with LLMs
+- [[Process Mapping]] — AS-IS analysis as input to a proposal
+- [[UX RULER]] — product discovery generating artifacts for the repo
+- [[El Padre Case Study]] — a 6-week offer case mapped to spec + tasks
 
 ---
 Template: [[templates/tool]]

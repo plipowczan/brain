@@ -1,5 +1,5 @@
 ---
-title: "Włam się do mózgu"
+title: "Włam się do mózgu — Radek Kotarski (PL book on learning)"
 date:  2022-09-13
 enableToc: true
 openToc: true

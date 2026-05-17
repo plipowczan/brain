@@ -13,7 +13,7 @@ allowed-tools: Bash, Read, Write, Glob, WebSearch, Task, AskUserQuestion
 ## Workflow
 
 ### Step 1: Auto-locate Fields File
-Find `*/fields.yaml` file in current working directory, auto-read existing fields definitions.
+Find `fields.yaml` in `content/_raw/research-workspaces/*/` (preferred) or anywhere via Glob fallback. Auto-read existing fields definitions.
 
 ### Step 2: Get Supplement Source
 Ask user to choose:

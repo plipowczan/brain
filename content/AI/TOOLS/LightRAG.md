@@ -7,13 +7,13 @@ tags: ["tool", "ai", "rag", "knowledge-graph", "llm", "open-source"]
 type: tool
 source: "_raw/inbox/HKUDSLightRAG EMNLP2025 LightRAG Simple and Fast Retrieval-Augmented Generation.md"
 agent-created: true
-summary: "EMNLP2025 RAG framework — łączy KG entity extraction z dual-level retrieval, bije NaiveRAG/HyDE/GraphRAG na 4 domenach"
+summary: "EMNLP2025 RAG framework — combines KG entity extraction with dual-level retrieval, beats NaiveRAG/HyDE/GraphRAG across 4 domains"
 ---
 # LightRAG
 
-`HKUDS/LightRAG` — open-source RAG framework opublikowany na EMNLP2025 ([arXiv:2410.05779](https://arxiv.org/abs/2410.05779)). Zamiast naive vector search, LightRAG ekstrahuje encje i relacje do knowledge graphu, a potem łączy dual-level retrieval (low-level → konkretne encje, high-level → szerokie tematy/grupy encji). W ewaluacjach pisanych przez autorów bije NaiveRAG, RQ-RAG, HyDE i GraphRAG na agriculture, CS, legal i mixed domains.
+`HKUDS/LightRAG` — open-source RAG framework published at EMNLP2025 ([arXiv:2410.05779](https://arxiv.org/abs/2410.05779)). Instead of naive vector search, LightRAG extracts entities and relations into a knowledge graph, then combines dual-level retrieval (low-level → specific entities, high-level → broad topics/entity groups). In the authors' evaluations it beats NaiveRAG, RQ-RAG, HyDE, and GraphRAG on agriculture, CS, legal, and mixed domains.
 
-Dla mojego kontekstu — to jest narzędzie referencyjne dla [[AI Chatbots Architecture]] i potencjalnie warstwa retrieval pod [[LLM Knowledge Bases]] / [[Brain]] gdy outgrow indeksy markdown.
+For my context — this is a reference tool for [[AI Chatbots Architecture]] and a potential retrieval layer for [[LLM Knowledge Bases]] / [[Brain]] once they outgrow markdown indexes.
 
 ## 🔗 Links
 
@@ -22,17 +22,17 @@ Dla mojego kontekstu — to jest narzędzie referencyjne dla [[AI Chatbots Archi
 - Paper: https://arxiv.org/abs/2410.05779 (EMNLP2025)
 - LearnOpenCV guide: https://learnopencv.com/lightrag
 - Discord: https://discord.gg/yF2MmDJyGJ
-- License: MIT (z poprawkami niemodyfikowalnymi)
+- License: MIT (with non-modifiable amendments)
 
 ### Download or use
 
 ```bash
 # LightRAG Server (Web UI + REST API + Ollama-compatible interface)
 uv tool install "lightrag-hku[api]"
-cp env.example .env       # wpisz LLM + embedding config
+cp env.example .env       # set your LLM + embedding config
 lightrag-server
 
-# LightRAG Core (do embedded use lub research)
+# LightRAG Core (for embedded use or research)
 uv pip install lightrag-hku
 
 # Docker Compose
@@ -40,55 +40,55 @@ git clone https://github.com/HKUDS/LightRAG && cd LightRAG
 cp env.example .env && docker compose up
 ```
 
-Setup wizard (`make env-base`, `make env-storage`, `make env-server`) generuje `.env` interaktywnie zamiast ręcznej edycji.
+The setup wizard (`make env-base`, `make env-storage`, `make env-server`) generates `.env` interactively instead of hand-editing.
 
 ## 🗒️ Description
 
-### 🧩 Czym LightRAG różni się od naive RAG
+### 🧩 How LightRAG differs from naive RAG
 
-Naive RAG: chunk → embed → top-k cosine similarity → LLM. Słabość: chunki są atomiczne, nie ma związków między nimi, modele cierpią w pytaniach wymagających rozumienia całego dokumentu (cross-chunk reasoning).
+Naive RAG: chunk → embed → top-k cosine similarity → LLM. Weakness: chunks are atomic, with no relations between them, and models struggle on questions that require understanding a whole document (cross-chunk reasoning).
 
-LightRAG dodaje fazę **entity-relationship extraction** podczas indeksowania — LLM wyciąga z dokumentu encje (osoby, organizacje, koncepty) i relacje, które trafiają do knowledge graphu. Query przechodzi w dwóch trybach:
-- **Low-level** — szuka konkretnych encji
-- **High-level** — szuka szerokich tematów/grup encji
-- **Mix mode** (rekomendowany od 2025.08 z reranker default) — łączy oba
+LightRAG adds an **entity-relationship extraction** phase during indexing — the LLM pulls entities (people, organizations, concepts) and relations out of each document into a knowledge graph. Queries run in two modes:
+- **Low-level** — searches for specific entities
+- **High-level** — searches for broad topics / entity groups
+- **Mix mode** (recommended since 2025.08 with reranker default) — combines both
 
-### 🧩 Wymagania modelowe
+### 🧩 Model requirements
 
-Dużo wyższe niż naive RAG, bo LLM musi extractować entity-relationship z dokumentów:
+Much higher than naive RAG, because the LLM has to extract entity-relationships from documents:
 
-- **LLM**: ≥32B parametrów, kontekst ≥32KB (rekomendowane 64KB), nie używać reasoning models do indeksowania, ale używać silniejszych do query
-- **Embedding**: must-have multilingual, np. `BAAI/bge-m3` lub `text-embedding-3-large`. **Krytyczne**: ten sam model dla index i query — przy zmianie trzeba wyczyścić vector tables
-- **Reranker**: `BAAI/bge-reranker-v2-m3` albo Jina; włączenie istotnie poprawia retrieval
+- **LLM**: ≥32B parameters, context ≥32KB (64KB recommended), don't use reasoning models for indexing, but do use stronger ones for query
+- **Embedding**: must be multilingual, e.g. `BAAI/bge-m3` or `text-embedding-3-large`. **Critical**: the same model for index and query — switching means wiping vector tables
+- **Reranker**: `BAAI/bge-reranker-v2-m3` or Jina; enabling it materially improves retrieval
 
 ### 🧩 Storage backends
 
-Wspiera unified storage dla wszystkich czterech komponentów (KV, vector, graph, doc-status):
-- **MongoDB** (od 2025.02)
-- **PostgreSQL** (od 2025.01)
-- **OpenSearch** (od 2026.03)
-- **Neo4j** (graph storage od 2024.11)
+Supports unified storage for all four components (KV, vector, graph, doc-status):
+- **MongoDB** (since 2025.02)
+- **PostgreSQL** (since 2025.01)
+- **OpenSearch** (since 2026.03)
+- **Neo4j** (graph storage since 2024.11)
 
-### 🧩 Ekosystem rodziny HKUDS
+### 🧩 HKUDS family ecosystem
 
-| Projekt | Co dodaje |
+| Project | What it adds |
 |---------|-----------|
-| **LightRAG** | Bazowy text RAG z KG |
-| [RAG-Anything](https://github.com/HKUDS/RAG-Anything) | Multimodal — PDF, Office docs, obrazki, tabele, wzory |
+| **LightRAG** | Base text RAG with KG |
+| [RAG-Anything](https://github.com/HKUDS/RAG-Anything) | Multimodal — PDF, Office docs, images, tables, formulas |
 | [VideoRAG](https://github.com/HKUDS/VideoRAG) | Extreme long-context video RAG |
-| [MiniRAG](https://github.com/HKUDS/MiniRAG) | Uproszczone RAG dla małych modeli |
+| [MiniRAG](https://github.com/HKUDS/MiniRAG) | Simplified RAG for small models |
 
-Od 2025.06 LightRAG integruje RAG-Anything dla multimodal pipeline'ów.
+Since 2025.06 LightRAG integrates RAG-Anything for multimodal pipelines.
 
-### 🧩 Observability i ewaluacja
+### 🧩 Observability and evaluation
 
-Od 2025.11:
+Since 2025.11:
 - **Langfuse** integration — tracing
-- **RAGAS** — evaluation z context precision metrics
-- API zwraca retrieved contexts obok query results
+- **RAGAS** — evaluation with context precision metrics
+- API returns retrieved contexts alongside query results
 - Token usage tracking, KG export, LLM cache management
 
-### 🧩 Wyniki paper'a (LightRAG vs baseline na 4 domenach)
+### 🧩 Paper results (LightRAG vs baseline across 4 domains)
 
 | Baseline | Agriculture | CS | Legal | Mix |
 |----------|------------:|---:|------:|----:|
@@ -97,31 +97,31 @@ Od 2025.11:
 | vs HyDE | **74.0%** | 58.4% | 73.2% | 59.6% |
 | vs GraphRAG | 54.4% | 51.6% | 51.6% | 49.6% |
 
-(Comprehensiveness — % win rate LightRAG nad baseline'em.) Vs GraphRAG marginalna przewaga, vs reszta solidna.
+(Comprehensiveness — % LightRAG win rate over the baseline.) Vs GraphRAG the margin is slim, vs the rest solid.
 
 ## ✍️ Reasoning for
 
-Mój use case nr 1 to potencjalna warstwa retrieval pod [[Brain]] gdy folder content/ przekroczy poziom gdzie grep + indexy markdown wystarczają. Dziś agent (czyli ja) używa progresywnego ujawniania przez `_indexes/vault-map.md` → `catalog.md` → `graph.md` — to działa do ~500 notatek. Powyżej będę chciał semantic search z KG awareness, i LightRAG wygląda na rozsądne fundamenty.
+My use case #1 is a potential retrieval layer for [[Brain]] once the content/ folder grows past the level where grep + markdown indexes are enough. Today the agent (i.e. me) uses progressive disclosure via `_indexes/vault-map.md` → `catalog.md` → `graph.md` — that works up to ~500 notes. Beyond that I'll want semantic search with KG awareness, and LightRAG looks like a reasonable foundation.
 
-Use case nr 2: [[Qamera AI]] / [[AI Chatbots Architecture]] — chatboty, gdzie context spans across many docs i naive vector search miss'uje relationships. Tu mix mode + reranker default to powinno wyraźnie poprawić jakość.
+Use case #2: [[Qamera AI]] / [[AI Chatbots Architecture]] — chatbots where context spans many docs and naive vector search misses relations. There mix mode + reranker default should noticeably improve quality.
 
-Słabe punkty:
-- Wymagania modelowe (≥32B, 32KB context) wykluczają tani embedding na małych OSS LLM-ach
-- Embedding model lock-in (zmiana = reindex całości) — drogi mistake
-- Indexing time rośnie liniowo z size (LLM extracts encje per dokument)
+Weak points:
+- Model requirements (≥32B, 32KB context) rule out cheap embedding on small OSS LLMs
+- Embedding model lock-in (changing it = full reindex) — an expensive mistake
+- Indexing time grows linearly with size (LLM extracts entities per document)
 
 ## Alternatives considered
 
-- **GraphRAG (Microsoft)** — podobny pomysł z KG, wg paper'a LightRAG marginalnie lepszy i lżejszy
-- **HyDE** — generuj hipotetyczny answer, embed to, retrieve. Działa, ale w paperze leci na agriculture/legal
-- **Naive RAG (BAAI/bge-m3 + simple top-k)** — wystarczy dla 80% use case'ów, prostsze, taniej
-- **MiniRAG** — z tej samej rodziny, dla małych modeli
-- **[[Graphify]]** — code/docs → queryable KG, ale to skill, nie pełny RAG framework
+- **GraphRAG (Microsoft)** — similar idea with KG; per the paper LightRAG is marginally better and lighter
+- **HyDE** — generate a hypothetical answer, embed it, retrieve. Works, but in the paper it tanks on agriculture/legal
+- **Naive RAG (BAAI/bge-m3 + simple top-k)** — enough for 80% of use cases, simpler, cheaper
+- **MiniRAG** — same family, for small models
+- **[[Graphify]]** — code/docs → queryable KG, but that's a skill, not a full RAG framework
 
 ## 🔗 Resources
 
 - Citation: `@article{guo2024lightrag, eprint={2410.05779}, primaryClass={cs.IR}, year={2024}}`
-- Setup wizard docs: `docs/InteractiveSetup.md` (w repo)
+- Setup wizard docs: `docs/InteractiveSetup.md` (in repo)
 - Programming guide: `docs/ProgramingWithCore.md`
 - Offline deployment guide: `docs/OfflineDeployment.md`
 - Reproduce findings: `docs/Reproduce.md`

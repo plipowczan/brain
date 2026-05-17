@@ -13,7 +13,7 @@ allowed-tools: Bash, Read, Write, Glob, WebSearch, Task
 ## Workflow
 
 ### Step 1: Auto-locate Outline
-Find `*/outline.yaml` file in current working directory, read items list, execution config (including items_per_agent).
+Find `outline.yaml` in `content/_raw/research-workspaces/*/` (preferred) or anywhere via Glob fallback. Read items list, execution config (including items_per_agent).
 
 ### Step 2: Resume Check
 - Check completed JSON files in output_dir
@@ -28,7 +28,7 @@ Find `*/outline.yaml` file in current working directory, read items list, execut
 - `{topic}`: topic field from outline.yaml
 - `{item_name}`: item's name field
 - `{item_related_info}`: item's complete yaml content (name + category + description etc.)
-- `{output_dir}`: execution.output_dir from outline.yaml (default: ./results)
+- `{output_dir}`: execution.output_dir from outline.yaml (default: `content/_raw/research-workspaces/{topic_slug}/results`)
 - `{fields_path}`: absolute path to {topic}/fields.yaml
 - `{output_path}`: absolute path to {output_dir}/{item_name_slug}.json (slugify item_name: replace spaces with _, remove special chars)
 

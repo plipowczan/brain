@@ -7,28 +7,28 @@ tags: ["knowledge", "howto", "ai", "claude-code", "presentation", "markdown", "m
 type: knowledge-note
 source: "_raw/inbox/Stop Staring at a Blank Deck How I Use Claude Code + Marp to Think Through Presentations.md"
 agent-created: true
-summary: "4-fazowy workflow tworzenia prezentacji w Markdown: Brainstorm (interview) → React (first draft) → Iterate (chat lub VS Code) → Export (HTML/PPTX)"
+summary: "4-phase workflow for creating Markdown presentations: Brainstorm (interview) → React (first draft) → Iterate (chat or VS Code) → Export (HTML/PPTX)"
 ---
 # Claude Code Marp Workflow
 
-Workflow autorstwa Omera Rosenbauma (artykuł na freeCodeCamp, marzec 2026), opisujący jak tworzyć prezentacje przez Markdown przy pomocy [[Claude Code]] + [[Marp]]. Kluczowa myśl: trudna część to nie układ slajdów, tylko *story*. Łatwiej jest reagować na czyjś draft niż patrzeć w pustą stronę. Claude generuje pierwszy draft, ty go iterujesz przez konwersację albo bezpośrednią edycję pliku `.md`.
+A workflow by Omer Rosenbaum (article on freeCodeCamp, March 2026) describing how to create presentations through Markdown with [[Claude Code]] + [[Marp]]. The key insight: the hard part isn't the slide layout, it's the *story*. It's easier to react to someone else's draft than to stare at a blank page. Claude generates the first draft, you iterate on it through conversation or by editing the `.md` file directly.
 
 ## 🗒️ Task
 
-Stworzyć spójną prezentację (story → struktura → slajdy) w czasie liczonym w minutach, mając do dyspozycji [[Claude Code]] jako interviewera i first-draft generator, oraz [[Marp]] jako engine renderujący Markdown na HTML/PPTX.
+Create a coherent presentation (story → structure → slides) in minutes, using [[Claude Code]] as interviewer and first-draft generator, and [[Marp]] as the engine that renders Markdown into HTML/PPTX.
 
 ## 🛠️ Prerequisites
 
-- [[Marp CLI]] zainstalowane: `npm install -g @marp-team/marp-cli`
-- [[Claude Code]] (lub [[Cursor]] / GitHub Copilot — skill jest agent-agnostic)
-- (opcjonalnie) VS Code z Marp extension dla live preview
-- Skill `Omerr/claude-skills` zainstalowany przez [[Vercel Skills]]: `npx skills add Omerr/claude-skills`
+- [[Marp CLI]] installed: `npm install -g @marp-team/marp-cli`
+- [[Claude Code]] (or [[Cursor]] / GitHub Copilot — the skill is agent-agnostic)
+- (optional) VS Code with the Marp extension for live preview
+- `Omerr/claude-skills` skill installed via [[Vercel Skills]]: `npx skills add Omerr/claude-skills`
 
 ## 📝 Instructions
 
-### 🧩 Faza 1 — Brainstorm (interview)
+### 🧩 Phase 1 — Brainstorm (interview)
 
-Odpalasz slash command, Claude przeprowadza ~5-pytaniowe interview:
+You fire the slash command, Claude runs a ~5-question interview:
 
 ```
 > /create-marp-deck API rate limiting
@@ -44,17 +44,17 @@ User:   1. Why we need rate limiting (the incident last month)
         4. Monitoring dashboard walkthrough
 ```
 
-Cel: wymusić articulation story **zanim** powstanie pierwszy slajd. Interview phase to jedna z dwóch części skill file'a (~200 linii), dzięki czemu nie tłumaczysz Claude'owi tych samych konwencji za każdym razem.
+The goal: force the story to be articulated **before** the first slide exists. The interview phase is one of two parts of the skill file (~200 lines), so you don't re-explain the same conventions to Claude every time.
 
-### 🧩 Faza 2 — React (first draft)
+### 🧩 Phase 2 — React (first draft)
 
-Claude generuje cały plik Marp Markdown z:
-- Title slide z `<!-- _class: lead title-slide -->`
-- Section dividers z gradientowym tłem (`<!-- _class: lead part-problem -->`)
+Claude generates the entire Marp Markdown file with:
+- A title slide with `<!-- _class: lead title-slide -->`
+- Section dividers with gradient backgrounds (`<!-- _class: lead part-problem -->`)
 - Breadcrumb headers (`<!-- header: "The Problem > **Algorithms** > Implementation" -->`)
-- Konsystentnym formatowaniem (CSS palette w skill file)
+- Consistent formatting (CSS palette in the skill file)
 
-Title slide z surowego Marp Markdown:
+Title slide in raw Marp Markdown:
 
 ```markdown
 <!-- _class: lead title-slide -->
@@ -66,13 +66,13 @@ Title slide z surowego Marp Markdown:
 **Date**: February 2026
 ```
 
-Draft nie musi być idealny — ma być punktem startu, na który **reagujesz**. To dramatycznie szybsze niż blank canvas.
+The draft doesn't have to be perfect — it's there as a starting point you **react to**. That's dramatically faster than a blank canvas.
 
-### 🧩 Faza 3 — Iterate (konwersacja albo VS Code)
+### 🧩 Phase 3 — Iterate (conversation or VS Code)
 
-Dwa równoległe sposoby edycji, można mieszać:
+Two parallel editing paths, mix as you like:
 
-**(a) Przez Claude Code:**
+**(a) Via Claude Code:**
 ```
 > Slide 6 is too dense. Split the algorithm comparison into two slides,
   one for token bucket, one for sliding window.
@@ -87,60 +87,60 @@ Claude: I'll split slide 6 into two separate slides...
         + Track exact timestamp of every request...
 ```
 
-**(b) Bezpośrednio w VS Code:** Otwórz `.md`, `Ctrl+Shift+V` — Marp extension daje split view (source ↔ rendered). Claude edytuje plik, VS Code wykrywa zmianę, preview odświeża się automatycznie. Side-by-side: Claude w jednym oknie, VS Code w drugim.
+**(b) Directly in VS Code:** Open the `.md`, hit `Ctrl+Shift+V` — the Marp extension gives a split view (source ↔ rendered). Claude edits the file, VS Code detects the change, the preview refreshes automatically. Side-by-side: Claude in one window, VS Code in another.
 
-### 🧩 Faza 4 — Export
+### 🧩 Phase 4 — Export
 
-Skill odpala konwersję automatycznie po wygenerowaniu deck'a. ~2s na 15-slajdowy deck.
+The skill triggers the conversion automatically after generating a deck. ~2s for a 15-slide deck.
 
 ```bash
-# Standard (każdy slide jako image — pixel-perfect, ale tekst nieedytowalny w PowerPoint)
+# Standard (every slide as an image — pixel-perfect, but text not editable in PowerPoint)
 marp --no-stdin deck.md -o deck.html
 marp --no-stdin --pptx deck.md -o deck.pptx
 
-# Editable (text boxes via LibreOffice — wymaga LibreOffice)
+# Editable (text boxes via LibreOffice — requires LibreOffice)
 marp --no-stdin --pptx-editable deck.md -o deck.pptx
 ```
 
-Trzy outputy:
-- `.md` — source, version-controlled, diffowalne
-- `.html` — open w browser, share na Slacku
-- `.pptx` — open w PowerPoint / Google Slides
+Three outputs:
+- `.md` — source, version-controlled, diffable
+- `.html` — open in a browser, share on Slack
+- `.pptx` — open in PowerPoint / Google Slides
 
-**Editable PPTX gotcha:** LibreOffice generuje text boxy zbyt wąskie, tekst zawija się i overlap'uje. Skill ma python-pptx post-processing skrypt który auto-widens. Wystarczy poprosić "editable PPTX" — skill robi resztę.
+**Editable PPTX gotcha:** LibreOffice produces text boxes that are too narrow, the text wraps and overlaps. The skill has a python-pptx post-processing script that auto-widens them. Just ask for "editable PPTX" — the skill takes care of the rest.
 
-## 🧩 Conventions w skill file (Under the Hood)
+## 🧩 Conventions in the skill file (Under the Hood)
 
-Skill ma ~200 linii i koduje konkretne stylistic choices:
-- **Section dividers** — gradientowe tło per sekcja, audience intuicyjnie wie kiedy zmieniasz topic (CSS `<!-- _class: lead part-problem -->`)
-- **Breadcrumb navigation** — header pokazujący gdzie jesteś w decku, np. `The Problem > **Algorithms** > Implementation` z bold-em jako blue highlightem (`header strong { color: #2563eb; }`). Omer pisze że to jego ulubiona część — eliminuje "wait, where are we?" syndrome
-- **Marp frontmatter baseline** — `marp: true`, `theme: default`, `paginate: true`, `size: 16:9`. Cztery linijki i masz widescreen + paginated
+The skill is ~200 lines long and codifies specific stylistic choices:
+- **Section dividers** — gradient background per section, so the audience intuitively knows when you switch topics (CSS `<!-- _class: lead part-problem -->`)
+- **Breadcrumb navigation** — a header showing where you are in the deck, e.g. `The Problem > **Algorithms** > Implementation` with bold acting as a blue highlight (`header strong { color: #2563eb; }`). Omer writes that this is his favorite part — it eliminates the "wait, where are we?" syndrome
+- **Marp frontmatter baseline** — `marp: true`, `theme: default`, `paginate: true`, `size: 16:9`. Four lines and you have widescreen + paginated
 
 ## 🧩 Use case: this very article
 
-Omer napisał ten artykuł zaczynając od decka — odpalił `/create-marp-deck`, przeszedł interview, zrobił 15 slajdów, dopiero potem napisał artykuł. Argument: jeśli story nie flow'uje na 15 slajdach, nie flow'uje na 1500 słowach. Deck staje się outline'em.
+Omer wrote the article starting from a deck — he ran `/create-marp-deck`, went through the interview, produced 15 slides, and only then wrote the article. The argument: if the story doesn't flow across 15 slides, it won't flow across 1500 words. The deck becomes the outline.
 
-To koresponduje z [[Goal-Driven Execution]] z [[Karpathy Skills]] — zamiast "napisz artykuł o X", definiujesz weryfikowalny goal "story flows across 15 slides", iterujesz aż flow'uje.
+This corresponds with [[Goal-Driven Execution]] from [[Karpathy Skills]] — instead of "write an article about X", you define a verifiable goal "story flows across 15 slides" and iterate until it does.
 
 ## ✅ Outcome
 
-Po wykonaniu wszystkich 4 faz masz:
-- Spójny deck w Markdown w czasie minut, nie godzin
-- Trzy formaty outputu: `.md` / `.html` / `.pptx`
-- Reusable workflow — następne decki idą jeszcze szybciej (skill już wie twoje konwencje)
-- Source w gicie — diffowalny, mergowalny, AI-edytowalny
+After all 4 phases you have:
+- A coherent deck in Markdown in minutes, not hours
+- Three output formats: `.md` / `.html` / `.pptx`
+- A reusable workflow — subsequent decks go even faster (the skill already knows your conventions)
+- The source in git — diffable, mergeable, AI-editable
 
 ## 🔗 Further reading
 
 - Original article: https://www.freecodecamp.org/news/how-to-use-claude-code-and-marp-to-think-through-presentations/
 - Author's skill repo: https://github.com/Omerr/claude-skills
-- Demo deck (this article jako slajdy): https://omerr.github.io/claude-skills/presentations/claude-code-marp/
+- Demo deck (this article as slides): https://omerr.github.io/claude-skills/presentations/claude-code-marp/
 - [[Marp]] — Markdown Presentation Ecosystem
 - [[Marp CLI]] — `marp --no-stdin deck.md -o deck.html`
-- [[Marpit]] — framework pod Marp
-- [[Marp Core]] — engine z themes
-- [[Vercel Skills]] — `npx skills add` jako installer
-- [[Karpathy Skills]] — pokrewny pomysł na strukturyzowanie LLM workflow
+- [[Marpit]] — the framework underneath Marp
+- [[Marp Core]] — engine with themes
+- [[Vercel Skills]] — `npx skills add` as installer
+- [[Karpathy Skills]] — related idea of structuring LLM workflows
 
 ---
 Template: [[templates/knowledge_note_how_to]]

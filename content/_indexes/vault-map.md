@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-16T12:30:00Z
+updated: 2026-05-17T08:16:16Z
 total_notes: 225
 ---
 # Vault Map
@@ -7,102 +7,75 @@ total_notes: 225
 ## Folders
 | folder | notes | types | top-tags |
 |--------|------:|-------|----------|
-| ABOUT | 11 | basic-note(7), knowledge-note(4) | basic, about, knowledge |
+| ABOUT | 11 | basic-note(7), knowledge-note(4) | basic, about, knowledge, pawellipowczan, second-brain |
 | ABOUT/HABITS | 1 | basic-note(1) | habits, exercises, walking |
-| ABOUT/Roles | 8 | basic-note(8) | about, automation, integration |
-| AI/KNOWLEDGE/INFO | 14 | knowledge-note(14) | knowledge, info, ai, ux, video, claude, skills, llm, progressive-disclosure |
-| AI/NOTES | 1 | basic-note(1) | basic, notes, hackathon |
-| AI/TOOLS | 29 | tool(29) | tool, ai, agents, claude-code, skills, ux, design, harness, orchestration, swarm, federation, open-source |
-| BUSINESS/BOOKS | 5 | book-note(5) | book, business, entrepreneurship |
-| BUSINESS/KNOWLEDGE/HOWTO | 9 | knowledge-note(9) | knowledge, howto, airtable |
-| BUSINESS/KNOWLEDGE/INFO | 7 | knowledge-note(7) | knowledge, info, business, sales |
-| BUSINESS/NOTES | 1 | basic-note(1) | basic, case-study, ai |
-| BUSINESS/TOOLS | 11 | tool(11) | tool, automation, integration |
-| CODE/KNOWLEDGE/HOWTO | 8 | knowledge-note(8) | knowledge, howto, ai, claude-code, marp |
-| CODE/KNOWLEDGE/INFO | 2 | knowledge-note(2) | knowledge, info, seo, geo, ai |
-| CODE/TOOLS | 21 | tool(21) | tool, ai, framework, presentation, markdown, web-scraping, python |
-| CRYPTO/KNOWLEDGE/INFO | 3 | knowledge-note(3) | knowledge, info, crypto |
-| CRYPTO/NOTES | 7 | basic-note(5), knowledge-note(2) | crypto, project, analysis |
-| KNOWLEDGES/QUOTES | 8 | quote(5), quote-note(2), knowledge-note(1) | quote, franklin, eisenhower |
-| LIFE/BOOKS | 11 | book-note(11) | book, self-development, notes |
-| LIFE/KNOWLEDGE/HOWTO | 6 | knowledge-note(6) | knowledge, howto, delegation |
-| LIFE/KNOWLEDGE/INFO | 20 | knowledge-note(16), basic-note(3), dailyjournal(1) | knowledge, info, notes |
+| ABOUT/Roles | 8 | basic-note(8) | about, automation, integration, developer, architect |
+| AI/KNOWLEDGE/INFO | 14 | knowledge-note(14) | knowledge, info, ai, agents, context-engineering |
+| AI/NOTES | 1 | basic-note(1) | basic, notes, hackathon, ai, govtech |
+| AI/TOOLS | 29 | tool(29) | tool, ai, open-source, claude-code, coding-agents |
+| BUSINESS/BOOKS | 5 | book-note(5) | book, business, entrepreneurship, millionaire, inevitable |
+| BUSINESS/KNOWLEDGE/HOWTO | 9 | knowledge-note(9) | knowledge, howto, airtable, make, pdf |
+| BUSINESS/KNOWLEDGE/INFO | 7 | knowledge-note(7) | knowledge, info, business, ai, branding |
+| BUSINESS/NOTES | 1 | basic-note(1) | basic, case-study, ai, automation, events |
+| BUSINESS/TOOLS | 11 | tool(11) | tool, automation, integration, database, security |
+| CODE/KNOWLEDGE/HOWTO | 8 | knowledge-note(8) | knowledge, howto, ai, vibe-coding, git |
+| CODE/KNOWLEDGE/INFO | 2 | knowledge-note(2) | knowledge, info, ai, chatbots, rag |
+| CODE/TOOLS | 21 | tool(21) | tool, ai, framework, presentation, markdown |
+| CRYPTO/KNOWLEDGE/INFO | 3 | knowledge-note(3) | knowledge, info, crypto, bitcoin, investment |
+| CRYPTO/NOTES | 7 | basic-note(5), knowledge-note(2) | crypto, project, analysis, investment, basic |
+| KNOWLEDGES/QUOTES | 8 | quote(5), quote-note(2), knowledge-note(1) | quote, franklin, eisenhower, parkinson, knowledge |
+| LIFE/BOOKS | 11 | book-note(11) | book, self-development, notes, learning, psychology |
+| LIFE/KNOWLEDGE/HOWTO | 6 | knowledge-note(6) | knowledge, howto, delegation, mind-map, info |
+| LIFE/KNOWLEDGE/INFO | 20 | knowledge-note(16), basic-note(3), dailyjournal(1) | knowledge, info, notes, obsidian, journaling |
 | LIFE/NOTES | 3 | basic-note(3) | basic, programming |
-| LIFE/TOOLS | 12 | tool(12) | tool, revolut, security, energy, dynamic-pricing |
-| NOCODE/KNOWLEDGE/HOWTO | 1 | knowledge-note(1) | knowledge, howto, nocode |
-| NOCODE/KNOWLEDGE/INFO | 1 | knowledge-note(1) | knowledge, info, nocode |
+| LIFE/TOOLS | 12 | tool(12) | tool, revolut, security, 2fa, browser |
+| NOCODE/KNOWLEDGE/HOWTO | 1 | knowledge-note(1) | knowledge, howto, nocode, lead-generation, automation |
+| NOCODE/KNOWLEDGE/INFO | 1 | knowledge-note(1) | knowledge, info, nocode, automation, comparison |
 | PROJECTS | 1 | basic-note(1) | projects |
-| PROJECTS/AGENTIC-SYSTEMS | 5 | basic-note(4), knowledge-note(1) | project, ai, agents, architecture, claude-code, skills, 200iq-labs, plsoft |
+| PROJECTS/AGENTIC-SYSTEMS | 5 | basic-note(4), knowledge-note(1) | project, ai, agents, claude-code, architecture |
 | PROJECTS/ARCHIVE | 4 | basic-note(4) | projects, todo/complete, basic |
 | PROJECTS/ARCHIVE/AH | 1 | knowledge-note(1) | knowledge, puls, meeting |
 | PROJECTS/ARCHIVE/SHAREFUND | 1 | basic-note(1) | sharefund, startup, project |
-| PROJECTS/BRAIN | 1 | basic-note(1) | project, digital-garden, obsidian |
+| PROJECTS/BRAIN | 1 | basic-note(1) | project, digital-garden, obsidian, quartz |
 | PROJECTS/PLSOFT | 1 | basic-note(1) | project, consulting, plsoft |
-| PROJECTS/QAMERA-AI | 1 | basic-note(1) | project, ai, saas |
+| PROJECTS/QAMERA-AI | 1 | basic-note(1) | project, ai, saas, product, qamera |
 | PROJECTS/VALUE-BUILDERS | 1 | basic-note(1) | project, training, education |
 | PROJECTS/VALUE-BUILDERS-TRIBE | 1 | basic-note(1) | project, community, mentoring |
-| TRAVELS | 2 | basic-note(1), untyped(1) | travels |
-| TRAVELS/TOOLS | 1 | tool(1) | tool, ventusky, weather |
-| TRAVELS/TRIPS | 5 | basic-note(5) | trip, basic, plan |
+| TRAVELS | 2 | untyped(1), basic-note(1) | travels |
+| TRAVELS/TOOLS | 1 | tool(1) | tool, ventusky, weather, forecast |
+| TRAVELS/TRIPS | 5 | basic-note(5) | trip, basic, plan, travels, iceland |
 
 ## Tag Cloud
-2fa:1 5-minute-journal:1 about:9 agents:5 ai:32 airtable:2 Airtable:1 albania:1 analysis:3 animations:1 aplication:1 architect:1 architecture:1 atom:1 automation:7 autonomous-agents:1 azuredevops:1 baas:1 backend:1 bank:1 basic:15 beskidy:1 bitcoin:1 boilerplate:1 book:16 books:1 branding:2 browser:1 business:8 career:1 case-study:1 chatbots:1 claude:3 claude-code:5 cloud:1 code:1 coding-agents:5 collaboration:1 community:1 comparison:1 conflict:1 consulting:1 containers:1 content:1 context-engineering:4 cosmos:1 crm:1 crypto:7 curated-list:1 data:1 database:3 delegation:1 design:2 developer:1 development:2 devops:1 diagrams:2 digital-garden:2 disc:2 drawing:1 education:1 eisenhower:1 employee:1 entrepreneur:1 entrepreneurship:1 events:1 exchange:1 exchanges:1 exercises:1 family:1 father:2 filecoin:1 forecast:1 founder:1 framework:6 franklin:2 friend:1 frontend:2 fullstack:3 future:2 git:2 google-doc:1 google-drive:1 govtech:1 habits:1 hackathon:1 health:1 howto:19 Hugo:1 husband:1 iceland:1 ide:1 inevitable:1 inference:1 influencers:2 info:33 infrastructure:1 instant:1 integration:4 investment:4 javascript:1 journaling:2 junior:1 kids:2 kindle:1 knowledge:65 knowledge-base:1 knowledge-management:2 laravel:1 lead-generation:2 learning:2 leary:1 lesson:1 life:1 linkedin:2 llm:6 make:2 Make:1 market:1 matic:1 mcp:1 meeting:1 memory:1 mentoring:1 merge:1 messaging:1 methodology:2 microsoft:1 millionaire:1 mind-map:2 miro:1 mobile:1 modular:1 money:1 moral story:1 morning routine:1 nextjs:1 nocode:3 notes:9 nuxt:1 obsidian:7 onedrive:1 open-source:7 optimization:1 orchestration:1 paradigm:1 pareto:1 parkinson:1 passwords:1 pawellipowczan:1 pdf:1 pkm:1 plan:2 plsoft:1 pmf:1 pocket-money:1 polygon:1 presentation:4 principle:1 principles:1 processes:1 product:1 productivity:2 programer:1 programming:1 progressive-disclosure:1 project:10 project-management:1 projects:4 psychology:1 puls:1 qamera:1 quartz:2 quote:7 quotes:1 rag:1 react:2 reading:1 religion:1 reports:1 research:1 resources:1 revolut:2 RSS:1 rules:1 saas:2 sales:1 sapiens:1 sdd:1 second-brain:2 security:3 self-development:3 self-hosted:2 self-improving:1 sharefund:1 skills:4 sleep:1 slides:4 slip-box:2 specs:1 startup:2 strategy:1 tdd:1 technology:1 testing:1 todo:1 todo/complete:3 token-optimization:1 tool:60 training:1 tools:1 travels:3 trends:1 trip:5 ui:1 ventusky:1 vibe-coding:2 video:1 visualstudio:1 voice-agents:1 voicebot:1 waking up early:1 walking:1 weather:1 web-design:1 webflow:1 whiteboard:1 wife:1 windows:1 wisdom:2 word:1 work:1 workflow:4 zapier:1 zettelkasten:2
+200iq-labs:2 2fa:1 5-minute-journal:1 Airtable:1 Hugo:1 Make:1 RSS:1 about:9 ads:1 agent-native:1 agent-skills:1 agents:14 ai:64 airtable:2 albania:1 analysis:3 animations:1 apache-2.0:1 aplication:1 architect:1 architecture:2 atom:1 automation:9 autonomous-agents:1 azuredevops:1 baas:1 backend:1 bank:1 basic:15 benchmark:1 beskidy:1 bitcoin:1 boilerplate:1 book:16 books:1 branding:2 browser:1 business:10 byok:1 career:1 case-study:1 change-management:1 chatbots:1 claude:4 claude-code:24 cli:3 cloud:1 code:1 codex:3 coding-agents:12 collaboration:1 community:1 company-of-agents:1 comparison:1 conflict:1 consulting:1 containers:1 content:1 context-engineering:5 coordination:1 cosmos:1 cost-optimization:1 crawler:1 crm:1 crypto:7 curated-list:2 cursor:2 data:1 database:3 delegated-work:1 delegation:1 design:6 design-systems:1 developer:1 development:2 devops:1 diagrams:2 digital-garden:2 disc:2 drawing:1 dynamic-pricing:1 education:1 eisenhower:1 employee:1 energy:1 entrepreneur:1 entrepreneurship:1 evaluation:1 events:1 exchange:1 exchanges:1 exercises:1 family:1 father:2 federation:1 figma:1 filecoin:1 forecast:1 founder:1 framework:6 franklin:2 friend:1 frontend:3 frontend-runtime:1 fullstack:3 future:2 gemini-cli:1 geo:1 git:2 google-doc:1 google-drive:1 govtech:1 guide:1 habits:1 hackathon:1 harness:2 health:1 household:1 howto:20 husband:1 iceland:1 ide:1 image-generation:2 inevitable:1 inference:1 influencers:2 info:41 infrastructure:1 instant:1 integration:4 investment:4 javascript:1 journaling:2 junior:1 kids:2 kindle:1 knowledge:74 knowledge-base:2 knowledge-graph:1 knowledge-management:3 laravel:1 lead-generation:2 learning:2 leary:1 lesson:1 life:1 linkedin:2 linux:1 llm:8 make:2 markdown:5 market:1 marp:1 matic:1 mcp:3 meeting:1 memory:2 mentoring:1 merge:1 messaging:1 methodology:3 microsoft:1 millionaire:1 mind-map:2 miro:1 mit:1 mobile:1 modular:1 money:1 moral story:1 morning routine:1 multi-agent:1 nextjs:1 nocode:3 notes:9 nuxt:1 obsidian:7 onedrive:1 open-source:17 opencode:1 openspec:1 optimization:1 orchestration:2 paradigm:1 pareto:1 parkinson:1 passwords:1 pawellipowczan:1 pdf:1 people:1 personal:1 pkm:1 plan:2 plsoft:2 pmf:1 pocket-money:1 poland:1 polygon:1 presentation:5 principle:1 principles:1 processes:1 product:2 productivity:2 programer:1 programming:1 progressive-disclosure:1 project:14 project-management:1 projects:4 prompts:1 psychology:1 puls:1 python:1 qamera:2 quartz:2 quote:7 quotes:1 rag:3 react:2 reading:1 reliability:1 religion:1 reports:1 research:1 resources:3 revolut:2 rules:1 rust:1 saas:2 sales:1 sapiens:1 savings:1 sdd:1 second-brain:2 security:3 self-development:3 self-hosted:2 self-improving:1 seo:1 sharefund:1 skills:12 sleep:1 slides:4 slip-box:2 specs:1 startup:2 strategy:2 swarm:1 tdd:1 technology:1 testing:1 todo:1 todo/complete:3 token-optimization:1 tool:75 tools:1 training:1 travels:3 trends:1 trip:5 ui:2 ux:4 ventusky:1 vibe-coding:3 video:2 visualstudio:1 voice-agents:1 voicebot:1 waking up early:1 walking:1 weather:1 web-design:1 web-scraping:1 webflow:1 whiteboard:1 wife:1 windows:1 wireframe:1 wisdom:2 word:1 work:1 workflow:6 zapier:1 zettelkasten:2
 
 ## Recent Changes
-- 2026-05-16 _outputs/answers/2026-05-16_PRD-z-analizy-i-oferty (created — Q&A: PRD pipeline from analysis + offer using Process Mapping → UX RULER → OpenSpec/OPSX)
-- 2026-05-16 CODE/TOOLS/OPSX Workflow (modified — added PRD use case section + cross-links to Process Mapping/UX RULER/El Padre)
-- 2026-05-16 BUSINESS/KNOWLEDGE/INFO/Process Mapping (modified — added "map as input to PRD" section + cross-links to OPSX Workflow/UX RULER/OpenSpec)
-- 2026-05-16 AI/TOOLS/Everything Claude Code (created — affaan-m ECC v2.0.0-rc.1: cross-harness perf system, 60 agents/230 skills/AgentShield/ECC 2.0 Rust)
-- 2026-05-16 AI/TOOLS/Open Design (created — nexu-io OSS Claude Design alternative: 16 CLI agents, 31 skills, 72+ design systems, BYOK)
-- 2026-05-16 AI/TOOLS/Ruflo (created — ruvnet ex Claude-Flow: 98 agents, 32 plugins, swarm + federation + SONA self-learning, AgentDB HNSW)
-- 2026-05-16 AI/TOOLS/Awesome Claude Code (modified — Everything Claude Code link added under Agent Skills)
-- 2026-05-16 AI/TOOLS/Awesome Agent Skills (modified — backlinks to Everything Claude Code + Open Design)
-- 2026-05-16 AI/TOOLS/Hermes Agent (modified — backlinks to Ruflo + Everything Claude Code rc.1 operator integration)
-- 2026-05-16 AI/KNOWLEDGE/INFO/AI UX Design Tools (modified — backlinks to Open Design, UI UX Pro Max)
-- 2026-05-16 AI/KNOWLEDGE/INFO/GPT Image 2 + Seedance Workflow (modified — backlink to Open Design bundling same stack)
-- 2026-05-16 PROJECTS/AGENTIC-SYSTEMS/Agentic Systems (modified — backlinks to Ruflo + Everything Claude Code)
-- 2026-05-16 content/ATTACHMENTS (moved 8 orphan _MD5 attachments from content/ root)
-- 2026-05-10 LIFE/TOOLS/Pstryk (created — Polski sprzedawca prądu, ceny dynamiczne godzinowe + Tarcza 0,61 zł/kWh + miernik WiFi)
-- 2026-05-10 PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos (created — hub for 3-repo agent infrastructure: agentic-ai-system + agentic-ai-private + skills submodules)
-- 2026-05-10 PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system (created — 200IQ LABS PSA + Qamera AI multi-agent advisory repo)
-- 2026-05-10 PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private (created — PLSoft JDG + personal multi-agent advisory repo)
-- 2026-05-10 PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules (created — shared-skills Apache 2.0 + private-skills proprietary, git submodules)
-- 2026-05-10 PROJECTS/AGENTIC-SYSTEMS/Agentic Systems (modified — backlinks to new 3-repo cluster)
-- 2026-05-10 PROJECTS/PLSOFT/PLSoft (modified — backlinks to agentic-ai-private + Agentic AI Repos)
-- 2026-05-10 PROJECTS/QAMERA-AI/Qamera AI (modified — backlinks to agentic-ai-system + Agentic AI Repos)
-- 2026-05-10 CODE/TOOLS/Scrapling (created — adaptive Python web scraping framework with anti-bot bypass + MCP)
-- 2026-05-09 AI/KNOWLEDGE/INFO/AI UX Design Tools (created — hub for AI-driven UX/product design tools)
-- 2026-05-09 AI/TOOLS/UX RULER (created — open-source UX skill: mission → metric → repo memory)
-- 2026-05-09 AI/TOOLS/UX Pilot (created — AI wireframe + hi-fi generator, Figma/GitHub sync)
-- 2026-05-09 AI/KNOWLEDGE/INFO/GPT Image 2 + Seedance Workflow (created — storyboard-driven video ad pipeline)
-- 2026-05-09 AI/TOOLS/Awesome Nano Banana Pro Prompts (created — 10K+ curated prompts for Google Nano Banana Pro)
-- 2026-05-09 AI/KNOWLEDGE/INFO/Building Claude Skills Guide (created — pointer do Anthropic skill-building PDF)
-- 2026-05-03 AI/TOOLS/Agent Zero (created — agent0ai Linux-native AI framework with Office canvas)
-- 2026-05-03 AI/TOOLS/Space Agent (created — agent0ai frontend-runtime agent reshaping workspace)
-- 2026-05-03 AI/TOOLS/gstack (created — Garry Tan/YC 23+ skill virtual team for Claude Code)
-- 2026-05-03 AI/TOOLS/Hermes Agent (created — Nous Research self-improving agent, multi-platform)
-- 2026-05-03 AI/TOOLS/Superpowers (created — obra agentic skills framework + SDLC methodology)
-- 2026-05-03 AI/TOOLS/Paperclip (created — Node.js orchestration for zero-human companies)
-- 2026-05-03 AI/TOOLS/UI UX Pro Max (modified — v2.0 Design System Generator, 161 reasoning rules)
-- 2026-05-03 AI/TOOLS/Agent Skills (modified — backlinks to 5 new agentic frameworks)
-- 2026-05-03 AI/TOOLS/Awesome Claude Code (modified — gstack added under Agent Skills section)
-- 2026-05-03 AI/TOOLS/Vercel Skills (modified — cross-links to Hermes/Agent Zero/Space Agent/Superpowers)
-- 2026-05-03 AI/TOOLS/Karpathy Skills (modified — backlinks to Superpowers, gstack)
-- 2026-05-03 PROJECTS/AGENTIC-SYSTEMS/Agentic Systems (modified — backlinks to Paperclip/Hermes/Agent Zero/Space Agent/Superpowers)
-- 2026-04-30 AI/TOOLS/Awesome Agent Skills (created — VoltAgent curated 1000+ cross-platform agent skills list)
-- 2026-04-30 AI/KNOWLEDGE/INFO/Progressive Disclosure (created — index-first context priming, Claude-Mem philosophy)
-- 2026-04-30 AI/KNOWLEDGE/INFO/Context Engineering (enhanced — added attention budget, just-in-time, compaction, anti-patterns from Anthropic Sept 2025 doc)
-- 2026-04-30 AI/KNOWLEDGE/INFO/Harness Engineering (modified — backlinks to Progressive Disclosure, Context Engineering)
-- 2026-04-29 AI/KNOWLEDGE/INFO/DELEGATE-52 (created — Microsoft Research benchmark, LLMs corrupt 25% docs after 20 delegated edits)
-- 2026-04-29 AI/TOOLS/Archon (created — coleam00 harness builder for AI coding)
-- 2026-04-29 AI/TOOLS/LightRAG (created — HKUDS RAG framework with KG)
-- 2026-04-29 AI/TOOLS/Vercel Skills (created — npx skills CLI for 50+ agents)
-- 2026-04-29 CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow (created — 4-phase deck workflow)
-- 2026-04-26 CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO (created — synthesis from portfolio + Qamera SEO briefs)
-- 2026-04-26 AI/TOOLS/Karpathy Skills (created)
-- 2026-04-26 CODE/TOOLS/Marp (created)
-- 2026-04-20 AI/TOOLS/CLI-Anything (created)
-- 2026-04-20 AI/TOOLS/Claude Peers MCP (created)
-- 2026-04-20 BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule (created)
-- 2026-04-20 AI/KNOWLEDGE/INFO/Token Optimization for Claude Code (created)
-- 2026-04-14 BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook (created)
+- 2026-05-17 AI/NOTES/Hackathon Hacknation.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/KNOWLEDGE/INFO/AI UX Design Tools.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/KNOWLEDGE/INFO/Token Optimization for Claude Code.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/KNOWLEDGE/INFO/DELEGATE-52.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/KNOWLEDGE/INFO/Building Claude Skills Guide.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/KNOWLEDGE/INFO/GPT Image 2 + Seedance Workflow.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Karpathy Skills.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Open Design.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Claude Peers MCP.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Everything Claude Code.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/CLI-Anything.md (translated — PL→EN migration batch)
+- 2026-05-17 LIFE/TOOLS/Pstryk.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Graphify.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/UI UX Pro Max.md (translated — PL→EN migration batch)
+- 2026-05-17 LIFE/KNOWLEDGE/INFO/Obsidian.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/UX Pilot.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Claude Code Best Practice.md (translated — PL→EN migration batch)
+- 2026-05-17 BUSINESS/NOTES/El Padre Case Study.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/UX RULER.md (translated — PL→EN migration batch)
+- 2026-05-17 BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/LightRAG.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Awesome Claude Code.md (translated — PL→EN migration batch)
+- 2026-05-17 BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule.md (translated — PL→EN migration batch)
+- 2026-05-17 BUSINESS/KNOWLEDGE/INFO/Process Mapping.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Ruflo.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Awesome Agent Skills.md (translated — PL→EN migration batch)
+- 2026-05-17 CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Vercel Skills.md (translated — PL→EN migration batch)
+- 2026-05-17 CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow.md (translated — PL→EN migration batch)
+- 2026-05-17 AI/TOOLS/Paperclip.md (translated — PL→EN migration batch)

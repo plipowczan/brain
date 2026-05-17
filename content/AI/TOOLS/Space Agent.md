@@ -7,25 +7,25 @@ tags: ["tool", "ai", "agents", "frontend-runtime", "skills", "open-source"]
 type: tool
 source: "_raw/inbox/agent0aispace-agent The agent that re-shapes the Space.md"
 agent-created: true
-summary: "Frontend-runtime agent z agent0ai — przebudowuje swój workspace w locie (pages, widgets, workflows) przez SKILL.md w plain text/JS"
+summary: "Frontend-runtime agent from agent0ai — rebuilds its workspace on the fly (pages, widgets, workflows) via SKILL.md in plain text/JS"
 ---
 
 # Space Agent
 
-`agent0ai/space-agent` — agent, który **przebudowuje interfejs w trakcie pracy**. Poproś o stronę, narzędzie, widget czy workflow, a agent buduje to wprost do działającego workspace. Stworzony przez [[Agent Zero]], uruchamiany w przeglądarce (tab albo desktop app), bezpośrednio w warstwie frontend runtime.
+`agent0ai/space-agent` — an agent that **rebuilds the interface while it works**. Ask for a page, a tool, a widget, or a workflow, and the agent builds it straight into the running workspace. Created by [[Agent Zero]], it runs in the browser (tab or desktop app), directly in the frontend runtime layer.
 
 ## 🔗 Links
 
 ### Description
 - Repo: https://github.com/agent0ai/space-agent
-- Demo: https://space-agent.ai/ (z guest account)
+- Demo: https://space-agent.ai/ (with a guest account)
 - License: open source
 
 ### Download or use
 
 ```bash
 # Desktop app
-# Pobierz z github.com/agent0ai/space-agent/releases/latest
+# Download from github.com/agent0ai/space-agent/releases/latest
 
 # Self-hosted server
 git clone https://github.com/agent0ai/space-agent.git
@@ -33,48 +33,48 @@ cd space-agent && npm install
 node space user create admin --password "change-me-now" --full-name "Admin" --groups _admin
 node space serve
 
-# Production z auto-update
+# Production with auto-update
 node space supervise HOST=0.0.0.0 PORT=3000
 ```
 
 ## 🗒️ Description
 
-### 🧩 Co Space Agent naprawdę robi
+### 🧩 What Space Agent actually does
 
-- **Agent reshapes the interface** — nie jest uwięziony w predefiniowanym product surface; rozwija nowe capabilities z poziomu samego systemu i rozszerza Space w stronę whatever the user can imagine.
-- **Lives in frontend runtime** — agent działa w warstwie browsera (tab/desktop app), pracuje bezpośrednio z framework, modules, spaces i UI, które przekształca.
-- **Text-based agent** — nowe capabilities to plain `SKILL.md` files które agent może sam pisać i rozszerzać. Token-efficient: brak bulky tool-call JSON, agent zostaje w plain text + plain JavaScript w jednej wiadomości.
-- **Puzzle-piece modularity** — core mały, większość Space Agent to modular pieces (add/remove/swap), nie monolit.
-- **Personal → hierarchical** — od osobistego asystenta po hierarchiczny system użytkowników i grup; per-user work + group sharing kiedy zespół jest gotowy.
-- **Persistent admin + time travel** — admin mode jako stable control plane, Git-backed history pozwala rollbackować zmiany usera lub grupy bez ubicia wszystkich.
+- **Agent reshapes the interface** — it is not trapped in a predefined product surface; it grows new capabilities from inside the system itself and extends the Space toward whatever the user can imagine.
+- **Lives in the frontend runtime** — the agent runs in the browser layer (tab/desktop app), working directly with the framework, modules, spaces, and UI it transforms.
+- **Text-based agent** — new capabilities are plain `SKILL.md` files the agent can write and extend itself. Token-efficient: no bulky tool-call JSON, the agent stays in plain text + plain JavaScript within a single message.
+- **Puzzle-piece modularity** — a small core, with most of Space Agent being modular pieces (add/remove/swap), not a monolith.
+- **Personal → hierarchical** — from a personal assistant to a hierarchical system of users and groups; per-user work + group sharing when the team is ready.
+- **Persistent admin + time travel** — admin mode as a stable control plane, Git-backed history lets you roll back changes from a user or group without killing everyone else.
 
 ### 🧩 AI-driven development
 
-Space Agent jest **rozwijany przez agentów AI** — łącznie z dokumentacją. Hierarchiczny `AGENTS.md` instruction system + skills + focused docs trzymają ownership, architecture, workflows i local rules tak, żeby agent rozumiał system na tyle, żeby utrzymywać go autonomicznie. DeepWiki pokrywa human-readable warstwę.
+Space Agent is **developed by AI agents** — documentation included. A hierarchical `AGENTS.md` instruction system + skills + focused docs maintain ownership, architecture, workflows, and local rules so the agent understands the system well enough to maintain it autonomously. DeepWiki covers the human-readable layer.
 
-### 🧩 Pozycja w ekosystemie
+### 🧩 Position in the ecosystem
 
-W przeciwieństwie do [[Agent Zero]] (Linux sandbox + GUI canvas) Space Agent żyje **w samej UI**. To inna abstrakcja: tutaj user-side workspace **jest** workspace agenta. Bliżej do filozofii "agent = środowisko" niż do "agent = orkiestrator narzędzi" jak [[Paperclip]].
+Unlike [[Agent Zero]] (Linux sandbox + GUI canvas), Space Agent lives **inside the UI itself**. It is a different abstraction: here the user-side workspace **is** the agent's workspace. Closer to the "agent = environment" philosophy than to "agent = tool orchestrator" like [[Paperclip]].
 
 ## ✍️ Reasoning for
 
-Wartość: dla zadań gdzie potrzebuję ad-hoc tool/widget/dashboard pod konkretne pytanie ("pokaż mi szybko UI do przeglądania tych danych") — zamiast pisać React app, agent dokleja go do mojego Space. Personal → hierarchical model jest też ciekawy dla [[Value Builders Tribe]] gdzie różne osoby potrzebują różnych workflow w jednej bazie.
+Value: for tasks where I need an ad-hoc tool/widget/dashboard tailored to a specific question ("show me a quick UI to browse this data") — instead of writing a React app, the agent grafts it onto my Space. The personal → hierarchical model is also interesting for [[Value Builders Tribe]] where different people need different workflows on top of one knowledge base.
 
-Ryzyko: świeży projekt, ekosystem skilli mniejszy niż w mainstream'ie (Claude Code/Cursor). Pewnie najpierw przetestuję demo, zanim dam mu coś produkcyjnego.
+Risk: a fresh project, the skills ecosystem is smaller than in the mainstream (Claude Code/Cursor). I will likely test the demo first before trusting it with anything production.
 
 ## Alternatives considered
 
-- **[[Agent Zero]]** — siostrzany projekt, full Linux sandbox zamiast frontend runtime
-- **[[Claude Code]] + custom React skills** — dłuższa droga, ale z ekosystemem Anthropic
-- **[[Paperclip]]** — orkiestracja agentów na poziomie firmy, nie pojedynczego workspace
-- **Custom dashboard apps** — pełna kontrola, zerowa elastyczność
+- **[[Agent Zero]]** — sister project, full Linux sandbox instead of frontend runtime
+- **[[Claude Code]] + custom React skills** — a longer road, but with the Anthropic ecosystem
+- **[[Paperclip]]** — agent orchestration at the company level, not a single workspace
+- **Custom dashboard apps** — full control, zero flexibility
 
 ## 🔗 Resources
 
-- [[Agent Zero]] — twórca Space Agent, ten sam zespół (`agent0ai`)
+- [[Agent Zero]] — creator of Space Agent, same team (`agent0ai`)
 - [[Agent Skills]] — open SKILL.md standard
-- [[Agentic Systems]] — multi-agent architectures w moich projektach
-- [`commands/params.yaml`](https://github.com/agent0ai/space-agent/blob/main/commands/params.yaml) — pełen CLI surface
+- [[Agentic Systems]] — multi-agent architectures in my projects
+- [`commands/params.yaml`](https://github.com/agent0ai/space-agent/blob/main/commands/params.yaml) — full CLI surface
 
 ---
 Template: [[templates/tool]]

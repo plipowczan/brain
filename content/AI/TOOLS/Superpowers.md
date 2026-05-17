@@ -7,12 +7,12 @@ tags: ["tool", "ai", "claude-code", "skills", "methodology", "tdd", "open-source
 type: tool
 source: "_raw/inbox/obrasuperpowers An agentic skills framework & software development methodology that works.md"
 agent-created: true
-summary: "Jesse Vincent (obra) opinionated software development methodology dla coding agentów — composable skille (brainstorm→worktree→plan→subagent-driven→TDD→review→finish), auto-trigger, multi-host (CC/Cursor/Codex/OpenCode/Copilot/Gemini)"
+summary: "Jesse Vincent (obra) opinionated software development methodology for coding agents — composable skills (brainstorm→worktree→plan→subagent-driven→TDD→review→finish), auto-trigger, multi-host (CC/Cursor/Codex/OpenCode/Copilot/Gemini)"
 ---
 
 # Superpowers
 
-`obra/superpowers` — **kompletny software development workflow dla coding agentów**, zbudowany na zestawie composable "skilli" + initial instructions, które wymuszają, żeby agent ich używał. Autor: Jesse Vincent (`obra`). Filozofia: agent **nie** rzuca się od razu na kod — najpierw teases out spec z konwersacji, pokazuje go w small chunks, dopiero po sign-off pisze plan dla "enthusiastic junior with poor taste, no judgement, no project context, and aversion to testing", potem subagent-driven-development z true red/green TDD, YAGNI i DRY.
+`obra/superpowers` — a **complete software development workflow for coding agents**, built on a set of composable "skills" + initial instructions that force the agent to use them. Author: Jesse Vincent (`obra`). Philosophy: the agent does **not** jump straight to code — first it teases out a spec from the conversation, shows it in small chunks, and only after sign-off writes a plan for an "enthusiastic junior with poor taste, no judgement, no project context, and aversion to testing", then subagent-driven-development with true red/green TDD, YAGNI, and DRY.
 
 ## 🔗 Links
 
@@ -32,7 +32,7 @@ summary: "Jesse Vincent (obra) opinionated software development methodology dla 
 /add-plugin superpowers
 
 # Codex / OpenCode — fetch instructions
-# z raw.githubusercontent.com/obra/superpowers/.../INSTALL.md
+# from raw.githubusercontent.com/obra/superpowers/.../INSTALL.md
 
 # GitHub Copilot CLI
 copilot plugin marketplace add obra/superpowers-marketplace
@@ -44,53 +44,53 @@ gemini extensions install https://github.com/obra/superpowers
 
 ## 🗒️ Description
 
-### 🧩 The Basic Workflow (7 mandatory skilli)
+### 🧩 The Basic Workflow (7 mandatory skills)
 
-1. **brainstorming** — odpala się przed pisaniem kodu; refines rough ideas through questions, alternatywy, design w sekcjach do walidacji, zapis design doc.
-2. **using-git-worktrees** — po approve design; izolowany workspace na nowym branchu, project setup, clean test baseline.
-3. **writing-plans** — bite-sized taski (2-5 min każdy), exact paths, complete code, verification steps.
-4. **subagent-driven-development** lub **executing-plans** — fresh subagent per task; two-stage review (spec compliance, potem code quality), albo batch z human checkpoints.
-5. **test-driven-development** — RED-GREEN-REFACTOR; failing test → watch fail → minimal code → watch pass → commit. **Kasuje kod napisany przed testami.**
-6. **requesting-code-review** — między taskami, review przeciw planowi, severity-graded, critical = block.
-7. **finishing-a-development-branch** — verify tests, opcje (merge/PR/keep/discard), cleanup worktree.
+1. **brainstorming** — fires before code is written; refines rough ideas through questions, alternatives, design in sections to validate, saves a design doc.
+2. **using-git-worktrees** — after the design is approved; isolated workspace on a new branch, project setup, clean test baseline.
+3. **writing-plans** — bite-sized tasks (2-5 min each), exact paths, complete code, verification steps.
+4. **subagent-driven-development** or **executing-plans** — fresh subagent per task; two-stage review (spec compliance, then code quality), or a batch with human checkpoints.
+5. **test-driven-development** — RED-GREEN-REFACTOR; failing test → watch it fail → minimal code → watch it pass → commit. **Discards code written before the tests.**
+6. **requesting-code-review** — between tasks, review against the plan, severity-graded, critical = block.
+7. **finishing-a-development-branch** — verify tests, options (merge/PR/keep/discard), clean up the worktree.
 
-> **Mandatory workflows, not suggestions** — agent automatycznie checkuje skille przed każdym taskiem.
+> **Mandatory workflows, not suggestions** — the agent automatically checks the skills before every task.
 
-### 🧩 Skills Library (poza Basic Workflow)
+### 🧩 Skills Library (beyond the Basic Workflow)
 
-- **Testing**: testing anti-patterns reference (w TDD).
+- **Testing**: testing anti-patterns reference (within TDD).
 - **Debugging**: `systematic-debugging` (4-phase root cause: root-cause-tracing, defense-in-depth, condition-based-waiting), `verification-before-completion`.
 - **Collaboration**: `dispatching-parallel-agents`, `receiving-code-review`.
 
-### 🧩 Pozycja w ekosystemie
+### 🧩 Position in the ecosystem
 
-To jest framework metodologiczny — nie zestaw role'i jak [[gstack]], nie YAML engine jak [[Archon]], nie minimalna 1-page CLAUDE.md jak [[Karpathy Skills]]. Filozofia: **rygor procesu > liczba skilli**. Najsilniejsza w połączeniu z TDD i worktree isolation.
+This is a methodology framework — not a set of roles like [[gstack]], not a YAML engine like [[Archon]], not a minimal 1-page CLAUDE.md like [[Karpathy Skills]]. Philosophy: **process rigor > skill count**. Strongest combined with TDD and worktree isolation.
 
 ## ✍️ Reasoning for
 
-Dla mnie wartość koncentruje się w trzech rzeczach:
-1. **Wymuszone TDD** — w setupach Claude Code w [[Qamera AI]] często odpuszczam testy "na później" i potem boli; Superpowers nie pozwala.
-2. **Subagent-driven-development z fresh context** — eliminuje "context rot" po 30+ tool callach (ten sam pattern co loop nodes w [[Archon]]).
-3. **Multi-host portability** — CC + Cursor + Codex + OpenCode + Copilot + Gemini z jednego źródła; spina się z moim workflowem przeskakiwania między [[Claude Code]] a [[Cursor]].
+For me the value clusters around three things:
+1. **Forced TDD** — in my Claude Code setups on [[Qamera AI]] I often punt tests "for later" and pay for it; Superpowers does not let me.
+2. **Subagent-driven-development with fresh context** — eliminates "context rot" after 30+ tool calls (same pattern as loop nodes in [[Archon]]).
+3. **Multi-host portability** — CC + Cursor + Codex + OpenCode + Copilot + Gemini from a single source; fits my workflow of jumping between [[Claude Code]] and [[Cursor]].
 
-Konflikt z [[gstack]]: oba próbują strukturyzować to samo (think→plan→build→review→test→ship). Pewnie wybiorę jedno per repo, zamiast je nakładać.
+Conflict with [[gstack]]: both try to structure the same thing (think→plan→build→review→test→ship). I'll probably pick one per repo rather than layering them.
 
-Ostrzeżenie: rygor jest dosłowny — "kasuje kod napisany przed testami". Trzeba to akceptować z góry, inaczej irytacja gwarantowana.
+Warning: the rigor is literal — "discards code written before the tests". You have to accept that up front, otherwise frustration is guaranteed.
 
 ## Alternatives considered
 
-- **[[gstack]]** — role-based virtual team (CEO/Designer/QA), bardziej startup-shaped; Superpowers jest engineering-rigor-shaped
-- **[[Karpathy Skills]]** — minimalna metodologia w 1 CLAUDE.md; Superpowers to kompletny stack
-- **[[Archon]]** — YAML workflow engine + worktrees; Superpowers zostaje w native skills + standardowym git
-- **[[Agent Skills]]** stand-alone — same skille, brak wymuszonej methodology
+- **[[gstack]]** — role-based virtual team (CEO/Designer/QA), more startup-shaped; Superpowers is engineering-rigor-shaped
+- **[[Karpathy Skills]]** — minimal methodology in 1 CLAUDE.md; Superpowers is a complete stack
+- **[[Archon]]** — YAML workflow engine + worktrees; Superpowers stays in native skills + standard git
+- **[[Agent Skills]]** standalone — just the skills, no enforced methodology
 
 ## 🔗 Resources
 
 - Author: Jesse Vincent (obra) — https://github.com/obra
 - [[Claude Code]] — primary host
-- [[Cursor]] — drugi host
+- [[Cursor]] — second host
 - [[Agent Skills]] — SKILL.md standard
-- [[Karpathy Skills]] / [[gstack]] / [[Archon]] — sąsiednie podejścia
+- [[Karpathy Skills]] / [[gstack]] / [[Archon]] — neighboring approaches
 
 ---
 Template: [[templates/tool]]

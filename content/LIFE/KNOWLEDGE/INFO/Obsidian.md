@@ -10,13 +10,13 @@ agent-reviewed: 2026-04-09
 # Obsidian
 
 ## 🗒️ Current Setup
-Obsidian to fundament mojego [[Digital Garden]] — baza wiedzy publikowana na [brain.lipowczan.pl](https://brain.lipowczan.pl/) przez [[Brain|Quartz 4 SSG]]. Vault jest zarządzany przez LLM agentów (Claude Code) — agenci ingestują źródła, kompilują artykuły, utrzymują indeksy i dbają o jakość. Więcej o podejściu: [[LLM Knowledge Bases]].
+Obsidian is the foundation of my [[Digital Garden]] — a knowledge base published at [brain.lipowczan.pl](https://brain.lipowczan.pl/) through [[Brain|Quartz 4 SSG]]. The vault is managed by LLM agents (Claude Code) — they ingest sources, compile articles, maintain indexes, and watch over quality. More on the approach: [[LLM Knowledge Bases]].
 
-Key elements obecnego setup:
-- **Quartz 4** jako static site generator → deploy via GitHub Actions na push do `v4`
-- **Agent-maintained** — większość operacji na vault (ingest, compile, reindex, lint) wykonują AI agenci
-- **Wikilinks + graph** — nawigacja przez linki, agenci utrzymują graf powiązań
-- **Git-based sync** — vault = git repo, dostępny na desktop i mobile
+Key elements of the current setup:
+- **Quartz 4** as static site generator → deploy via GitHub Actions on push to `v4`
+- **Agent-maintained** — most vault operations (ingest, compile, reindex, lint) are performed by AI agents
+- **Wikilinks + graph** — navigation through links, agents maintain the link graph
+- **Git-based sync** — vault = git repo, accessible on desktop and mobile
 
 ## Markdown
 [Basic Syntax | Markdown Guide](https://www.markdownguide.org/basic-syntax/) #reading-list/programming

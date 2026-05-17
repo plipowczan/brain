@@ -7,17 +7,17 @@ tags: ["tool", "presentation", "framework", "markdown", "slides"]
 type: tool
 source: "_raw/inbox/marp-teammarpit The skinny framework for creating slide deck from Markdown.md"
 agent-created: true
-summary: "Skinny framework: Markdown + CSS theme → static HTML/CSS slide deck — fundament całego Marp"
+summary: "Skinny framework: Markdown + CSS theme → static HTML/CSS slide deck — the foundation of all of Marp"
 ---
 # Marpit
 
-**Marpit** /mɑːrpɪt/ — szczupły framework do generowania slide decków z Markdownu. Zwraca minimalny HTML/CSS gotowy do druku jako PDF. Niezależny od [[Marp]], ale jest jego fundamentem.
+**Marpit** /mɑːrpɪt/ — a skinny framework for generating slide decks from Markdown. Returns minimal HTML/CSS ready to be printed as PDF. Independent from [[Marp]], but it is Marp's foundation.
 
 ## 🔗 Links
 
 ### Description
 - Repo: https://github.com/marp-team/marpit
-- Dokumentacja: https://marpit.marp.app/
+- Documentation: https://marpit.marp.app/
 - npm: https://www.npmjs.com/package/@marp-team/marpit
 
 ### Download or use
@@ -28,25 +28,25 @@ npm install @marp-team/marpit
 
 ## 🗒️ Description
 
-### 🧩 Trzy filary
+### 🧩 Three pillars
 
-- **Marpit Markdown** — rozszerzenia `markdown-it`: directives, slide backgrounds, image syntax. Kompatybilność z normalnym Markdownem zachowana.
-- **Theme CSS** — czyste CSS, bez predefiniowanych klas i mixinów. Stylujesz HTML elementy, framework zajmuje się resztą.
-- **Inline SVG slide** (experimental) — każdy slajd w `<svg>`, pixel-perfect skalowanie samym CSS, `<foreignObject>` do advanced backgrounds.
+- **Marpit Markdown** — `markdown-it` extensions: directives, slide backgrounds, image syntax. Compatibility with plain Markdown is preserved.
+- **Theme CSS** — pure CSS, without predefined classes or mixins. You style HTML elements; the framework handles the rest.
+- **Inline SVG slide** (experimental) — each slide inside `<svg>`, pixel-perfect scaling with CSS alone, `<foreignObject>` for advanced backgrounds.
 
 ### 🧩 Pluggability
 
-Marpit ma pluggable architecture — można rozszerzać przez plugins markdown-it. To dlatego [[Marp Core]] jest tylko nakładką: dodaje themy, math, emoji, auto-scaling, ale silnik konwersji jest Marpit.
+Marpit has a pluggable architecture — you can extend it through markdown-it plugins. That's why [[Marp Core]] is just an overlay: it adds themes, math, emoji, auto-scaling, but the conversion engine is Marpit.
 
-> Marpit nie dostarcza żadnych themów. Jeśli potrzebujesz oficjalnych themów + ficzerów, użyj [[Marp Core]].
+> Marpit does not ship any themes. If you need official themes + features, use [[Marp Core]].
 
-### 🧩 Sub-projekt
+### 🧩 Sub-project
 
-- **[marpit-svg-polyfill](https://github.com/marp-team/marpit-svg-polyfill)** — polyfill inline SVG dla Safari
+- **[marpit-svg-polyfill](https://github.com/marp-team/marpit-svg-polyfill)** — inline SVG polyfill for Safari
 
 ## ✍️ Reasoning for
 
-Bezpośrednio Marpita raczej nie używam — w 99% przypadków [[Marp Core]] przez [[Marp CLI]] wystarcza. Marpit pojawia się, jeśli chciałbym mieć totalnie custom themy bez bagażu Marp Core (`marp --engine @marp-team/marpit`) albo budować własny silnik konwersji slajdów.
+I don't use Marpit directly very often — in 99% of cases [[Marp Core]] via [[Marp CLI]] is enough. Marpit comes up if I want totally custom themes without the baggage of Marp Core (`marp --engine @marp-team/marpit`) or if I want to build my own slide conversion engine.
 
 ## 🔗 Resources
 

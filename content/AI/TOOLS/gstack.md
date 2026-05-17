@@ -7,92 +7,92 @@ tags: ["tool", "ai", "claude-code", "coding-agents", "skills", "workflow", "open
 type: tool
 source: "_raw/inbox/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.md"
 agent-created: true
-summary: "Garry Tan's (YC) opinionated Claude Code stack — 23+ skills jako wirtualny zespół (CEO/Designer/EngMgr/QA/SRE), MIT, sprint-driven (Think→Plan→Build→Review→Test→Ship→Reflect)"
+summary: "Garry Tan's (YC) opinionated Claude Code stack — 23+ skills as a virtual team (CEO/Designer/EngMgr/QA/SRE), MIT, sprint-driven (Think→Plan→Build→Review→Test→Ship→Reflect)"
 ---
 
 # gstack
 
-`garrytan/gstack` — **23+ opiniowanych skilli dla [[Claude Code]]** od Garry'ego Tana (CEO Y Combinator). Zamienia Claude Code w wirtualny zespół: CEO który przemyśla problem, eng manager który zamraża architekturę, designer który łapie AI slop, reviewer szukający production bugs, QA otwierający realny browser, security officer (OWASP+STRIDE), release engineer otwierający PR. Wszystko jako slash commands w Markdown, MIT license.
+`garrytan/gstack` — **23+ opinionated skills for [[Claude Code]]** from Garry Tan (CEO of Y Combinator). Turns Claude Code into a virtual team: a CEO who thinks the problem through, an eng manager who freezes the architecture, a designer who catches AI slop, a reviewer hunting production bugs, a QA opening a real browser, a security officer (OWASP+STRIDE), a release engineer opening the PR. Everything as slash commands in Markdown, MIT licensed.
 
-Punkt odniesienia od autora: w 60 dni shippował 600k+ linii production code (35% testów), 10-20k linii dziennie part-time, pisząc na YC pełnoetatowo.
+Author's reference point: in 60 days he shipped 600k+ lines of production code (35% tests), 10-20k lines per day part-time, while writing for YC full-time.
 
 ## 🔗 Links
 
 ### Description
 - Repo: https://github.com/garrytan/gstack
 - License: MIT
-- Wymagania: [[Claude Code]], Git, Bun ≥1.0, Node.js (Windows)
+- Requirements: [[Claude Code]], Git, Bun ≥1.0, Node.js (Windows)
 
 ### Download or use
 
 ```bash
-# Skopiuj prompt do Claude Code (instaluje globalnie + dopisuje sekcję do CLAUDE.md):
+# Paste the prompt into Claude Code (installs globally + appends a section to CLAUDE.md):
 # "Install gstack: run git clone --single-branch --depth 1
 #  https://github.com/garrytan/gstack.git ~/.claude/skills/gstack
 #  && cd ~/.claude/skills/gstack && ./setup ..."
 ```
 
-Działa też na Codex / Gemini CLI / Cursor / Factory Droid przez `--host codex|auto|factory`.
+Also works on Codex / Gemini CLI / Cursor / Factory Droid via `--host codex|auto|factory`.
 
 ## 🗒️ Description
 
-### 🧩 Sprint w 7 krokach (Think → Plan → Build → Review → Test → Ship → Reflect)
+### 🧩 7-step sprint (Think → Plan → Build → Review → Test → Ship → Reflect)
 
-Kluczowa myśl: **skille feedują się nawzajem**. `/office-hours` pisze design doc → `/plan-ceo-review` go czyta → `/plan-eng-review` produkuje test plan → `/qa` go odpala → `/review` łapie bugi → `/ship` weryfikuje fix.
+Key idea: **the skills feed each other**. `/office-hours` writes a design doc → `/plan-ceo-review` reads it → `/plan-eng-review` produces a test plan → `/qa` runs it → `/review` catches bugs → `/ship` verifies the fix.
 
-| Skill | Rola | Co robi |
+| Skill | Role | What it does |
 |-------|------|--------|
-| `/office-hours` | YC Office Hours | 6 wymuszających pytań przed kodem; pushback na framing, alternatywy, design doc dla downstream |
-| `/plan-ceo-review` | CEO/Founder | Znajdź 10-star produkt w ramach requestu; 4 tryby (Expansion/Selective/Hold/Reduction) |
-| `/plan-eng-review` | Eng Manager | Architektura, data flow, ASCII diagramy, edge cases, test matrix |
-| `/plan-design-review` | Senior Designer | Ocena per design dimension 0-10; AI Slop detection; AskUserQuestion per choice |
-| `/design-consultation` | Design Partner | Pełen design system from scratch (research + creative risks + mockups) |
-| `/design-shotgun` | Design Explorer | Wiele wariantów, comparison board w browserze, taste memory |
-| `/design-html` | Design Engineer | Production HTML z Pretext (text reflow, dynamic heights), framework detection |
-| `/review` | Staff Engineer | Bugi które przejdą CI a wybuchną na proda; auto-fix + completeness gaps |
+| `/office-hours` | YC Office Hours | 6 forcing questions before code; pushback on framing, alternatives, design doc for downstream |
+| `/plan-ceo-review` | CEO/Founder | Find the 10-star product within the request; 4 modes (Expansion/Selective/Hold/Reduction) |
+| `/plan-eng-review` | Eng Manager | Architecture, data flow, ASCII diagrams, edge cases, test matrix |
+| `/plan-design-review` | Senior Designer | 0-10 score per design dimension; AI Slop detection; AskUserQuestion per choice |
+| `/design-consultation` | Design Partner | Full design system from scratch (research + creative risks + mockups) |
+| `/design-shotgun` | Design Explorer | Many variants, comparison board in the browser, taste memory |
+| `/design-html` | Design Engineer | Production HTML with Pretext (text reflow, dynamic heights), framework detection |
+| `/review` | Staff Engineer | Bugs that will pass CI and blow up in prod; auto-fix + completeness gaps |
 | `/investigate` | Debugger | Iron Law: no fixes without investigation; 3-fail stop rule |
 | `/cso` | Chief Security Officer | OWASP Top 10 + STRIDE; 17 false-positive exclusions, 8/10+ confidence gate |
-| `/qa` | QA Lead | Realny browser, klika flow'y, fixuje, regression test per fix |
-| `/ship` | Release Engineer | Sync main + tests + coverage audit + push + PR; bootstrap test framework jak brak |
-| `/land-and-deploy` | Release Engineer | Merge → wait CI → deploy → verify production health |
+| `/qa` | QA Lead | Real browser, clicks the flows, fixes them, regression test per fix |
+| `/ship` | Release Engineer | Sync main + tests + coverage audit + push + PR; bootstraps a test framework if missing |
+| `/land-and-deploy` | Release Engineer | Merge → wait for CI → deploy → verify production health |
 | `/canary` | SRE | Post-deploy monitoring (console errors, perf, page failures) |
-| `/codex` | Second Opinion | Independent review z OpenAI Codex CLI; 3 tryby (review/adversarial/consultation) |
+| `/codex` | Second Opinion | Independent review with OpenAI Codex CLI; 3 modes (review/adversarial/consultation) |
 | `/retro` | Eng Manager | Weekly retro per-person; `/retro global` cross-projects + cross-AI (CC/Codex/Gemini) |
 | `/learn` | Memory | Cross-session learnings: review/search/prune/export project patterns |
 
 ### 🧩 Power tools
 
-`/careful` (warning przed `rm -rf`/`DROP TABLE`/force-push), `/freeze` (lock edits do jednego katalogu), `/guard` (= careful + freeze), `/connect-chrome` (Side Panel extension, watch live), `/setup-deploy`, `/gstack-upgrade`.
+`/careful` (warning before `rm -rf`/`DROP TABLE`/force-push), `/freeze` (lock edits to a single directory), `/guard` (= careful + freeze), `/connect-chrome` (Side Panel extension, watch live), `/setup-deploy`, `/gstack-upgrade`.
 
 ### 🧩 Real browser mode
 
-`$B connect` odpala twój Chrome jako headed window kontrolowany przez Playwright — widzisz każdy klik agenta na żywo. Side panel = chat sidebar do bezpośredniego kierowania Claudem. `$B handoff` przy CAPTCHA/MFA: otwórz visible Chrome z cookies, rozwiąż, `$B resume`.
+`$B connect` launches your Chrome as a headed window controlled by Playwright — you see every click the agent makes live. The side panel = chat sidebar for directly steering Claude. `$B handoff` for CAPTCHA/MFA: open a visible Chrome with cookies, solve it, `$B resume`.
 
 ## ✍️ Reasoning for
 
-Dla mnie najmocniejsze: **`/qa` z realnym browserem** + **`/codex` jako cross-model second opinion** + **`/retro global`**. To są dokładnie te miejsca w moim workflow w [[Qamera AI]] / [[PLSoft]], gdzie tracę najwięcej czasu na ręczne sprawdzanie. `/document-release` też brzmi jak coś, czego potrzebuję dla [[Brain]] (auto-update README/CLAUDE.md/CONTRIBUTING).
+The strongest pieces for me: **`/qa` with a real browser** + **`/codex` as a cross-model second opinion** + **`/retro global`**. These are exactly the spots in my workflow on [[Qamera AI]] / [[PLSoft]] where I lose the most time on manual checking. `/document-release` also sounds like something I need for [[Brain]] (auto-updating README/CLAUDE.md/CONTRIBUTING).
 
-Ryzyka i ograniczenia:
-- 23+ skille = duża powierzchnia do nauczenia. Plan: zacznę od `/office-hours` + `/review` + `/ship` + `/qa`, reszta jak będzie potrzeba.
-- Opinionated stack — niektóre rzeczy (Bun-only, Pretext) mogą zderzyć się z istniejącymi konwencjami w repo.
-- Dużo nakładania się z [[Superpowers]] (TDD/brainstorm/plan/review) — będę musiał wybrać jedną metodologię, nie obie.
+Risks and limitations:
+- 23+ skills = a large surface to learn. Plan: start with `/office-hours` + `/review` + `/ship` + `/qa`, the rest as needed.
+- Opinionated stack — some bits (Bun-only, Pretext) may clash with existing conventions in a repo.
+- Lots of overlap with [[Superpowers]] (TDD/brainstorm/plan/review) — I will need to pick one methodology, not both.
 
 ## Alternatives considered
 
-- **[[Superpowers]]** — bardziej methodology-first (TDD, subagent-driven), gstack bardziej rolling-team
-- **[[Karpathy Skills]]** — minimalna 1-CLAUDE.md odpowiedź, gstack to maksymalizm w drugą stronę
-- **[[Archon]]** — YAML workflow engine + worktree isolation; gstack zostaje w native Claude Code skills
-- **[[Awesome Claude Code]]** — kuratorska lista, gstack to gotowy zestaw
+- **[[Superpowers]]** — more methodology-first (TDD, subagent-driven), gstack is more rolling-team
+- **[[Karpathy Skills]]** — minimal 1-CLAUDE.md answer, gstack is maximalism in the other direction
+- **[[Archon]]** — YAML workflow engine + worktree isolation; gstack stays in native Claude Code skills
+- **[[Awesome Claude Code]]** — curated list, gstack is a ready-made stack
 
 ## 🔗 Resources
 
-- Wpis Karpathy ("nie wpisałem linijki kodu od grudnia") — No Priors podcast, March 2026
-- Peter Steinberger / OpenClaw (247K stars, solo z agentami) jako inspiracja
+- Karpathy's note ("I haven't written a line of code since December") — No Priors podcast, March 2026
+- Peter Steinberger / OpenClaw (247K stars, solo with agents) as inspiration
 - Skills deep-dive: https://github.com/garrytan/gstack/blob/main/docs/skills.md
 - [[Claude Code]] — primary host
 - [[Agent Skills]] — SKILL.md standard
-- [[Awesome Claude Code]] — kuratorska lista zasobów
-- [[Superpowers]] — alternatywne podejście
+- [[Awesome Claude Code]] — curated list of resources
+- [[Superpowers]] — alternative approach
 
 ---
 Template: [[templates/tool]]

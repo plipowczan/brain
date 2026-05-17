@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "AI Trends 2026 Notes"
 date:  2026-01-02
 enableToc: true
 openToc: true

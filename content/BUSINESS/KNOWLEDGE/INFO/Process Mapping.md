@@ -13,125 +13,125 @@ summary: "Process mapping methodology — 4 elements (Action, Actor, Tool, Mode)
 
 ## 🗒️ Description
 
-W Automation House zmapowaliśmy ponad **400 procesów** i wniosek jest jeden: **każda firma działa nieoptymalnie**. Pytanie brzmi tylko — jak szybko znajdziesz te miejsca i je naprawisz.
+At Automation House we have mapped over **400 processes**, and the conclusion is the same every time: **every company runs sub-optimally**. The only question is how quickly you can find those spots and fix them.
 
-Mapa procesu to nie tylko dokumentacja — to narzędzie nawigacyjne dla trzech grup:
+A process map is not just documentation — it is a navigation tool for three groups:
 
-1. **Biznes** — zrozumienie, jak *naprawdę* działa firma (wyobrażenia zarządu często mijają się z rzeczywistością)
-2. **Użytkownicy** — jasna instrukcja działania, szybszy onboarding
-3. **IT/Wdrożeniowcy** — precyzyjne projektowanie architektury, przekazywanie wiedzy, znajdowanie wąskich gardeł
+1. **Business** — understanding how the company *really* operates (management's mental model often diverges from reality)
+2. **Users** — a clear operating manual, faster onboarding
+3. **IT / Implementation teams** — precise architecture design, knowledge transfer, finding bottlenecks
 
-Prezentacja z Infoshare Katowice 2025.
+Presentation from Infoshare Katowice 2025.
 
 ## 🧩 Process Mapping Elements
 
-### Dlaczego większość map jest bezużyteczna
+### Why most maps are useless
 
-| Metoda | Problem |
+| Method | Problem |
 |--------|---------|
-| **SIPOC** (tabelki) | Świetne dla analityków, niezrozumiałe dla biznesu |
-| **BPMN** (Business Process Model and Notation) | Standard korporacyjny, ale zbyt skomplikowany — nadmiar bramek i symboli |
-| **Zwykły Flowchart** | Zbyt prosty — pokazuje "co" bez "kto" i "czym" |
+| **SIPOC** (tables) | Great for analysts, unreadable for the business |
+| **BPMN** (Business Process Model and Notation) | Corporate standard, but too complex — too many gateways and symbols |
+| **Plain Flowchart** | Too simple — shows "what" without "who" and "with what" |
 
-### Złoty środek: Rozszerzony Flowchart
+### Golden middle: Extended Flowchart
 
-Wypracowana metoda w Automation House — mapa procesu musi zawierać **4 kluczowe elementy** dla każdego kroku:
+The method developed at Automation House — a process map must contain **4 key elements** for every step:
 
-1. **Akcja** — co się dzieje?
-2. **Aktor** — kto to robi?
-3. **Narzędzie** — czym to robi? (Excel, CRM, Slack, [[Make]], [[n8n]])
-4. **Tryb** — manualny czy automatyczny?
+1. **Action** — what happens?
+2. **Actor** — who does it?
+3. **Tool** — what is it done with? (Excel, CRM, Slack, [[Make]], [[n8n]])
+4. **Mode** — manual or automatic?
 
-Dzięki temu od razu widać:
-- Gdzie człowiek wykonuje pracę robota (kopiuj-wklej)
-- Gdzie brakuje integracji między systemami
+This immediately shows:
+- Where a human is doing a robot's work (copy-paste)
+- Where integration between systems is missing
 
 ## 🔍 Finding Optimization Points
 
-Kiedy masz mapę stanu obecnego (AS-IS), szukaj miejsc gdzie:
+Once you have the AS-IS map, look for places where:
 
-- **Występuje najwięcej błędów**
-- **Proces trwa najdłużej**
-- **Dane są przepisywane ręcznie** — ryzyko błędu, strata czasu
-- **Zmiana będzie miała największy wpływ** na zespół
+- **The most errors happen**
+- **The process takes the longest**
+- **Data is rewritten by hand** — risk of error, waste of time
+- **A change will have the biggest impact** on the team
 
 ## 📐 Methodology
 
-### Porównanie metod
+### Comparison of methods
 
-| Metoda | Zalety | Wady | Kiedy stosować |
+| Method | Pros | Cons | When to use |
 |--------|--------|------|---------------|
-| Flowchart (prosty) | Łatwy do zrozumienia | Brak kontekstu (kto/czym) | Proste procesy liniowe |
-| SIPOC | Systematyczny, analityczny | Niezrozumiały dla biznesu | Analiza dla process owners |
-| BPMN | Standard korporacyjny, precyzyjny | Zbyt skomplikowany dla non-technical | Enterprise, ISO, compliance |
-| **Rozszerzony Flowchart** | **Czytelny + kontekst (4 elementy)** | **Wymaga dyscypliny mapowania** | **Większość przypadków** |
+| Flowchart (simple) | Easy to grasp | Lacks context (who/with what) | Simple linear processes |
+| SIPOC | Systematic, analytical | Unreadable for the business | Analysis for process owners |
+| BPMN | Corporate standard, precise | Too complex for non-technical | Enterprise, ISO, compliance |
+| **Extended Flowchart** | **Readable + context (4 elements)** | **Requires mapping discipline** | **Most cases** |
 
-### Dobre praktyki
+### Good practices
 
-- Zawsze mapuj stan AS-IS (jak jest naprawdę), nie TO-BE (jak chcesz żeby było)
-- Mapuj z ludźmi, którzy wykonują proces, nie z managerami
-- Każdy krok musi mieć wszystkie 4 elementy
-- Oznaczaj manualne vs automatyczne — to najszybszy sposób na znalezienie quick wins
+- Always map the AS-IS state (how it really is), not TO-BE (how you wish it were)
+- Map with the people who do the work, not with managers
+- Every step must have all 4 elements
+- Mark manual vs. automatic — that's the fastest way to spot quick wins
 
 ## ⚡ Elon's Principle: delete → simplify → automate
 
-> *"Prawdopodobnie najgorszą rzeczą jest optymalizacja czegoś, co w procesie w ogóle nie powinno się znaleźć."*
+> *"Probably the worst thing is to optimize something that should not be in the process at all."*
 
-Kolejność działań przy optymalizacji:
+The right order when optimizing:
 
-1. **Usuń** — czy ten krok w ogóle jest potrzebny? Najgorsza rzecz = automatyzowanie czegoś, co nie powinno istnieć
-2. **Uprość** — czy można skrócić, połączyć z innym krokiem?
-3. **Automatyzuj** — dopiero na końcu, gdy krok jest niezbędny i uproszczony
+1. **Delete** — is this step needed at all? Worst thing = automating something that should not exist
+2. **Simplify** — can it be shortened, merged with another step?
+3. **Automate** — only at the end, when the step is necessary and simplified
 
-Ta zasada powinna być złotą regułą przed każdym projektem optymalizacji.
+This rule should be the golden one before any optimization project.
 
 ## 📊 Evidence
 
-### Badania w służbie zdrowia
+### Healthcare research
 
-Mapowanie procesów w służbie zdrowia potrafiło skrócić **czas oczekiwania pacjentów o 20-45%**. Skoro działa w tak skomplikowanym środowisku jak szpital — zadziała w każdej firmie.
+Process mapping in healthcare was able to cut **patient waiting time by 20-45%**. If it works in an environment as complex as a hospital — it will work in any company.
 
 ### Case Study: [[El Padre Case Study]]
 
-Agencja eventowa El Padre — tworzenie ofert zbyt czasochłonne i mało rentowne. Wiedza rozproszona w głowach pracowników.
+Event agency El Padre — offer creation was too time-consuming and not profitable. Knowledge scattered in employees' heads.
 
-**Wdrożone kroki:**
-1. **"Ucho" procesu** (Fireflies.ai) — AI nagrywa spotkania i tworzy transkrypcje
-2. **Centralny Mózg** ([[Airtable]]) — baza wiedzy z transkrypcjami, kosztorysami, danymi o projektach
-3. **Automatyzacja** ([[Make]] + AION) — asystenci AI: Briefing, Event Ideas, Financial Planner, Offer Generator
+**Steps implemented:**
+1. **"Ear" of the process** (Fireflies.ai) — AI records meetings and produces transcriptions
+2. **Central Brain** ([[Airtable]]) — knowledge base with transcriptions, budgets, project data
+3. **Automation** ([[Make]] + AION) — AI assistants: Briefing, Event Ideas, Financial Planner, Offer Generator
 
-**Wyniki:**
-- 10-50% szybsze przygotowywanie ofert
-- 10-15% wzrostu produktywności działu produkcji
-- 30 osób wspieranych przez AI w codziennej pracy
+**Results:**
+- 10-50% faster offer preparation
+- 10-15% productivity increase in the production department
+- 30 people supported by AI in daily work
 
-Powiązane: [[Agentic Systems]]
+Related: [[Agentic Systems]]
 
-## 📒 Podsumowanie
+## 📒 Summary
 
-- **Bez mapy nie ma nawigacji** — nie da się optymalizować tego, czego się nie zmierzyło
-- **4 elementy każdego kroku**: Akcja, Aktor, Narzędzie, Tryb
-- **Rozszerzony Flowchart** = złoty środek między prostotą a precyzją
-- **Elon's Principle**: usuń → uprość → automatyzuj (nigdy w odwrotnej kolejności)
-- Technologia nie służy do komplikowania — służy do budowania **Operational Excellence**
-- Zacznij od zmapowania jednego procesu — nie czekaj na wielki projekt transformacji
+- **No map, no navigation** — you can't optimize what you haven't measured
+- **4 elements per step**: Action, Actor, Tool, Mode
+- **Extended Flowchart** = the golden middle between simplicity and precision
+- **Elon's Principle**: delete → simplify → automate (never in reverse)
+- Technology is not for adding complexity — it's for building **Operational Excellence**
+- Start by mapping one process — don't wait for a big transformation project
 
-## 🧭 Mapa procesu jako wejście do PRD
+## 🧭 Process map as input to PRD
 
-Mapa AS-IS z 4 elementami (Akcja/Aktor/Narzędzie/Tryb) to **najlepsze możliwe wejście do PRD** dla klienta. Każdy krok manualny + każde miejsce bez integracji = kandydat na feature w spec. Pipeline:
+The AS-IS map with 4 elements (Action/Actor/Tool/Mode) is **the best possible input to a PRD** for a client. Every manual step + every spot without integration = a candidate feature for the spec. Pipeline:
 
-1. AS-IS map (ten dokument) → identyfikacja pain points
-2. **Elon's principle** (usuń → uprość → automatyzuj) → filtr features, które w ogóle powinny trafić do PRD
+1. AS-IS map (this document) → identify pain points
+2. **Elon's principle** (delete → simplify → automate) → filter features that should make it into the PRD at all
 3. [[UX RULER]] → discovery (Mission/Audience/User/Need/Infrastructure/Product/Value)
-4. [[OpenSpec]] / [[OPSX Workflow]] → formalizacja jako proposal + specs + design + tasks (DAG, wersjonowane w repo)
+4. [[OpenSpec]] / [[OPSX Workflow]] → formalize as proposal + specs + design + tasks (DAG, versioned in the repo)
 
-Pełna synteza: [[2026-05-16_PRD-z-analizy-i-oferty]].
+Full synthesis: [[2026-05-16_PRD-z-analizy-i-oferty]].
 
-## 🔗 Zasoby
+## 🔗 Resources
 
-- [BPMN Specification](https://www.bpmn.org/) — standard modelowania procesów biznesowych
+- [BPMN Specification](https://www.bpmn.org/) — business process modeling standard
 - [Fireflies.ai](https://fireflies.ai/) — AI meeting transcription
-- Prezentacja z Infoshare Katowice 2025
-- [[OPSX Workflow]] — formalizacja mapy procesu jako PRD w repo
-- [[UX RULER]] — discovery layer między mapą a spec
-- [[Specification-Driven Development]] — metodyka spec-first
+- Presentation from Infoshare Katowice 2025
+- [[OPSX Workflow]] — formalizing a process map as a PRD in the repo
+- [[UX RULER]] — discovery layer between map and spec
+- [[Specification-Driven Development]] — spec-first methodology

@@ -12,57 +12,57 @@ summary: "ECC (affaan-m) — cross-harness agent perf system: 60 agents, 230 ski
 
 # Everything Claude Code
 
-> **Everything Claude Code (ECC)** to system optymalizacji performance dla agent harnesses — nie tylko Claude Code, ale też **Codex**, **Cursor**, **OpenCode**, **Gemini**, **GitHub Copilot**, **Hermes**. Anthropic Hackathon winner, MIT, 182K+ stars, single maintainer ([affaan-m](https://github.com/affaan-m)) ships weekly across 7 harnesses.
+> **Everything Claude Code (ECC)** is a performance optimization system for agent harnesses — not just Claude Code, but also **Codex**, **Cursor**, **OpenCode**, **Gemini**, **GitHub Copilot**, **Hermes**. Anthropic Hackathon winner, MIT, 182K+ stars, single maintainer ([affaan-m](https://github.com/affaan-m)) ships weekly across 7 harnesses.
 
-## 🚀 Co to jest
+## 🚀 What it is
 
 - Repo: https://github.com/affaan-m/everything-claude-code
 - npm: `ecc-universal`, plugin id: `ecc@ecc`
 - v2.0.0-rc.1 (Apr 2026): **60 agents, 230 skills, 75 legacy command shims**
 - License: **MIT** (forever); **ECC Pro** ($19/seat/mo) — private repos via GitHub App
-- ECC 2.0 — **Rust control-plane** prototype (`ecc2/`) z `dashboard`, `start`, `sessions`, `status`, `daemon`
+- ECC 2.0 — **Rust control-plane** prototype (`ecc2/`) with `dashboard`, `start`, `sessions`, `status`, `daemon`
 
-## 🧩 Co dostajesz
+## 🧩 What you get
 
-| Warstwa | Szczegóły |
+| Layer | Details |
 |---|---|
-| **Skills** | 230, w tym `frontend-slides`, `pytorch-patterns`, `mcp-server-patterns`, `bun-runtime`, `nextjs-turbopack`, `search-first`, `content-hash-cache-pattern`, `cost-aware-llm-pipeline` |
-| **Agents** | 60 — `typescript-reviewer`, `java-reviewer`, `kotlin-reviewer`, build-resolvery per język, operator lane (`brand-voice`, `social-graph-ranker`, `customer-billing-ops`, `google-workspace-ops`) |
-| **Hooks** | profile gating via `ECC_HOOK_PROFILE=minimal\|standard\|strict` + `ECC_DISABLED_HOOKS=...` — bez edycji plików |
+| **Skills** | 230, including `frontend-slides`, `pytorch-patterns`, `mcp-server-patterns`, `bun-runtime`, `nextjs-turbopack`, `search-first`, `content-hash-cache-pattern`, `cost-aware-llm-pipeline` |
+| **Agents** | 60 — `typescript-reviewer`, `java-reviewer`, `kotlin-reviewer`, build resolvers per language, operator lane (`brand-voice`, `social-graph-ranker`, `customer-billing-ops`, `google-workspace-ops`) |
+| **Hooks** | profile gating via `ECC_HOOK_PROFILE=minimal\|standard\|strict` + `ECC_DISABLED_HOOKS=...` — no file edits |
 | **Memory** | session adapters, SQLite state store, skill evolution (self-improving skills) |
-| **Security** | **AgentShield** — 102 rules, `/security-scan` z Claude Code, 1282 testów |
-| **Multi-language rules** | 12 ekosystemów: TS, Python, Go, Java, PHP, Perl, Kotlin/Android/KMP, C++, Rust, common |
+| **Security** | **AgentShield** — 102 rules, `/security-scan` from Claude Code, 1282 tests |
+| **Multi-language rules** | 12 ecosystems: TS, Python, Go, Java, PHP, Perl, Kotlin/Android/KMP, C++, Rust, common |
 | **PM2 / multi-agent** | `/pm2`, `/multi-plan`, `/multi-execute`, `/multi-backend`, `/multi-frontend`, `/multi-workflow` |
 | **Operator status** | `ecc status --markdown --write status.md` → portable handoff (readiness, sessions, install health, governance, Linear/GitHub work items) |
-| **Dashboard GUI** | Tkinter desktop app (`ecc_dashboard.py` lub `npm run dashboard`), dark/light theme |
+| **Dashboard GUI** | Tkinter desktop app (`ecc_dashboard.py` or `npm run dashboard`), dark/light theme |
 
-## ☘️ Dlaczego to ważne
+## ☘️ Why it matters
 
-ECC jest dziś **najpoważniejszą referencyjną implementacją** podejścia "harness as a product":
-- **Cross-harness parity** — ten sam stack ma działać na Claude Code, Codex, Cursor, OpenCode — odpowiada na fragmentację z [[Awesome Agent Skills]]
-- **Hermes operator story** w rc.1 — ECC wprost integruje [[Hermes Agent]] jako warstwę operator workflow
-- **Continuous learning v2** — instinct-based learning z confidence scoring i ewolucją — praktyczna odpowiedź na [[DELEGATE-52]] (LLMs corrupt 25% docs after 20 delegated edits)
-- **Token Optimization, Memory Persistence, Verification Loops, Parallelization (worktrees), Subagent Orchestration** — tematy z [[Token Optimization for Claude Code]], [[Context Engineering]], [[Progressive Disclosure]] zebrane w jeden działający system
+ECC is today the **most serious reference implementation** of the "harness as a product" approach:
+- **Cross-harness parity** — the same stack is meant to run on Claude Code, Codex, Cursor, OpenCode — an answer to the fragmentation flagged in [[Awesome Agent Skills]]
+- **Hermes operator story** in rc.1 — ECC directly integrates [[Hermes Agent]] as the operator workflow layer
+- **Continuous learning v2** — instinct-based learning with confidence scoring and evolution — a practical answer to [[DELEGATE-52]] (LLMs corrupt 25% of docs after 20 delegated edits)
+- **Token Optimization, Memory Persistence, Verification Loops, Parallelization (worktrees), Subagent Orchestration** — topics from [[Token Optimization for Claude Code]], [[Context Engineering]], [[Progressive Disclosure]] gathered into one working system
 
-## 🧠 Filozofia (z guides)
+## 🧠 Philosophy (from the guides)
 
-3 guides poza repo (raw code only): **Shorthand Guide** (philosophy), **Longform Guide** (token optimization, memory persistence, evals, parallelization), **Security Guide** (attack vectors, sandboxing, CVEs, AgentShield). Sześć tematów:
+3 guides outside the repo (raw code only): **Shorthand Guide** (philosophy), **Longform Guide** (token optimization, memory persistence, evals, parallelization), **Security Guide** (attack vectors, sandboxing, CVEs, AgentShield). Six themes:
 
 - Model selection + system prompt slimming + background processes
 - Hooks save/load context across sessions automatically
 - Auto-extract patterns from sessions → reusable skills
 - Checkpoint vs continuous evals, grader types, pass@k
-- Git worktrees, cascade method, kiedy skalować instancje
-- Iterative retrieval pattern dla subagent orchestration
+- Git worktrees, the cascade method, when to scale up instances
+- Iterative retrieval pattern for subagent orchestration
 
 ## ✍️ Quick Start (pick ONE path)
 
 ```bash
-# Plugin path (zalecane dla większości)
+# Plugin path (recommended for most)
 /plugin marketplace add https://github.com/affaan-m/everything-claude-code
 /plugin install ecc@ecc
 
-# Manual installer (zamiast plugina, NIE razem)
+# Manual installer (instead of the plugin, NOT together)
 ./install.sh --profile full
 # .\install.ps1 --profile full
 # npx ecc-install --profile full
@@ -70,7 +70,7 @@ ECC jest dziś **najpoważniejszą referencyjną implementacją** podejścia "ha
 # Low-context / no-hooks
 ./install.sh --profile minimal --target claude
 
-# Consult — który profil/komponent
+# Consult — which profile/component
 npx ecc consult "security reviews" --target claude
 ```
 
@@ -83,7 +83,7 @@ node scripts/ecc.js repair
 node scripts/uninstall.js --dry-run
 ```
 
-Plugin **nie** dystrybuuje `rules/` — po `/plugin install` ręcznie kopiujesz tylko interesujące Cię `rules/common` + jeden język:
+The plugin does **not** distribute `rules/` — after `/plugin install` you manually copy just the `rules/common` you care about + one language:
 
 ```bash
 mkdir -p ~/.claude/rules/ecc
@@ -91,31 +91,31 @@ cp -R rules/common ~/.claude/rules/ecc/
 cp -R rules/typescript ~/.claude/rules/ecc/
 ```
 
-## 🗒️ Naming triada
+## 🗒️ Naming triad
 
 - GitHub repo: `affaan-m/everything-claude-code`
-- Marketplace/plugin id: `ecc@ecc` (krótki — strict Desktop/API validators)
+- Marketplace/plugin id: `ecc@ecc` (short — strict Desktop/API validators)
 - npm: `ecc-universal`
 
-To trzy różne identyfikatory, **nie aliasy**.
+These are three different identifiers, **not aliases**.
 
 ## 📒 Status (v2.0.0-rc.1, Apr 2026)
 
-- Public surface synced — 60 agents, 230 skills, 75 legacy shims = realne liczby OSS
+- Public surface synced — 60 agents, 230 skills, 75 legacy shims = real OSS numbers
 - Operator lane + media tooling (`manim-video`, `remotion-video-creation`)
 - ECC 2.0 Rust control-plane usable as alpha
 - 997+ internal tests passing
 
-## 🧩 Powiązane
+## 🧩 Related
 
-- [[Awesome Claude Code]] — szersza lista zasobów
+- [[Awesome Claude Code]] — wider list of resources
 - [[Awesome Agent Skills]] — VoltAgent multi-platform skills catalog
 - [[Agent Skills]] — Anthropic skill protocol
 - [[Karpathy Skills]] — single CLAUDE.md vs ECC's full stack
-- [[Superpowers]] — alternatywa-metodologia od obra
+- [[Superpowers]] — methodology alternative from obra
 - [[gstack]] — Garry Tan's opinionated stack
 - [[Vercel Skills]] — `npx skills` cross-harness installer
-- [[Hermes Agent]] — operator layer ECC rc.1 integruje
+- [[Hermes Agent]] — operator layer ECC rc.1 integrates
 - [[Archon]] — harness builder (YAML workflows)
 - [[Claude Code]], [[Cursor]]
 - [[Harness Engineering]], [[Context Engineering]], [[Token Optimization for Claude Code]], [[Progressive Disclosure]]

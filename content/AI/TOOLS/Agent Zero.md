@@ -7,12 +7,12 @@ tags: ["tool", "ai", "agents", "framework", "open-source", "linux"]
 type: tool
 source: "_raw/inbox/agent0aiagent-zero Agent Zero AI framework.md"
 agent-created: true
-summary: "Open agentic framework — Linux-native AI agent z terminalem, browserem, Office canvas i multi-agent cooperation; baza pod Space Agent"
+summary: "Open agentic framework — Linux-native AI agent with terminal, browser, Office canvas and multi-agent cooperation; foundation for Space Agent"
 ---
 
 # Agent Zero
 
-`agent0ai/agent-zero` — dynamiczny, organiczny framework dla autonomicznych agentów AI. Daje agentowi **cały system Linux jako narzędzie**: terminal, code execution, files, memory, Playwright browser, plugins i tools które uczy się tworzyć w trakcie pracy. Nie jest predefiniowanym agentem do jednego zadania — jest transparentnym, rozszerzalnym środowiskiem.
+`agent0ai/agent-zero` — a dynamic, organic framework for autonomous AI agents. It gives the agent **an entire Linux system as a tool**: terminal, code execution, files, memory, Playwright browser, plugins, and tools it learns to create on the fly. It is not a predefined single-task agent — it is a transparent, extensible environment.
 
 ## 🔗 Links
 
@@ -34,46 +34,46 @@ irm https://ps.agent-zero.ai | iex
 docker run -p 80:80 -v a0_usr:/a0/usr agent0ai/agent-zero
 ```
 
-A0 CLI Connector (`a0`) pozwala uruchomić agenta na hoście poza kontenerem — Read+Write + RCE Tool dają mu dostęp do realnych plików projektu, nie tylko sandboxa.
+The A0 CLI Connector (`a0`) lets you run the agent on the host outside the container — Read+Write + RCE Tool give it access to real project files, not just the sandbox.
 
 ## 🗒️ Description
 
-### 🧩 Co Agent Zero naprawdę robi
+### 🧩 What Agent Zero actually does
 
-- **Computer as a Tool** — Kali Linux jako workspace. Agent inspectuje pliki, pisze kod, instaluje narzędzia, scriptuje, browsuje i adaptuje workflow w trakcie zadania.
-- **Universal Canvas** — prawy panel z shared working surfaces: browser sessions, Office files, plugin panels. Praca agenta jest *visible* — możesz interweniować zanim mała pomyłka stanie się dużą.
-- **Cowork on Office Documents** — Collabora Online + WOPI dla DOCX/XLSX/PPTX, native XLSX charts, version history.
-- **Native Browser** — Playwright z visible WebUI viewer; agent działa przez typed page references (`[link 3]`, `[button 6]`). Annotate mode pozwala kliknąć element i zostawić actionable comment dla agenta. Wspiera Chrome extensions.
-- **OAuth z Codex/OpenAI plan** — używaj swojego planu zamiast osobnego API key; Gemini CLI i Claude Code w drodze.
-- **Skills via SKILL.md standard** — portable, kompatybilne z [[Vercel Skills]] / [[Agent Skills]] ecosystem, aktywowane globalnie/per-project/per-chat.
-- **Agent Profiles** — przełącz behavior, prompt overrides, tools, model bez przepisywania całego systemu.
-- **Multi-Agent Cooperation** — każdy agent może spawnować subordinate agentów ze swoim kontekstem; superior dostaje raporty.
+- **Computer as a Tool** — Kali Linux as a workspace. The agent inspects files, writes code, installs tools, scripts, browses, and adapts the workflow during a task.
+- **Universal Canvas** — right-hand panel with shared working surfaces: browser sessions, Office files, plugin panels. The agent's work is *visible* — you can intervene before a small mistake becomes a big one.
+- **Cowork on Office Documents** — Collabora Online + WOPI for DOCX/XLSX/PPTX, native XLSX charts, version history.
+- **Native Browser** — Playwright with a visible WebUI viewer; the agent operates via typed page references (`[link 3]`, `[button 6]`). Annotate mode lets you click an element and leave an actionable comment for the agent. Supports Chrome extensions.
+- **OAuth with Codex/OpenAI plan** — use your own plan instead of a separate API key; Gemini CLI and Claude Code on the way.
+- **Skills via SKILL.md standard** — portable, compatible with the [[Vercel Skills]] / [[Agent Skills]] ecosystem, activated globally / per-project / per-chat.
+- **Agent Profiles** — switch behavior, prompt overrides, tools, model without rewriting the entire system.
+- **Multi-Agent Cooperation** — every agent can spawn subordinate agents with its own context; the superior receives reports.
 
-### 🧩 Pozycja w ekosystemie
+### 🧩 Position in the ecosystem
 
-Agent Zero jest **frameworkiem agentów**, nie harness'em do codingu jak [[Claude Code]]. Najbliżsi konkurenci to [[Hermes Agent]] (Nous Research) i [[Superpowers]] — ale Agent Zero stawia mocniej na **GUI + Linux sandbox + Office canvas**, zamiast TUI/messaging gateway.
+Agent Zero is an **agent framework**, not a coding harness like [[Claude Code]]. Its closest competitors are [[Hermes Agent]] (Nous Research) and [[Superpowers]] — but Agent Zero leans harder into **GUI + Linux sandbox + Office canvas**, instead of TUI/messaging gateway.
 
-[[Space Agent]] (`agent0ai/space-agent`) jest stworzony **przez** Agent Zero — frontend-runtime ekspansja tego samego DNA, gdzie agent przebudowuje workspace zamiast tylko go używać.
+[[Space Agent]] (`agent0ai/space-agent`) is built **on top of** Agent Zero — a frontend-runtime expansion of the same DNA, where the agent rebuilds the workspace instead of just using it.
 
 ## ✍️ Reasoning for
 
-Dla mnie ciekawa alternatywa dla setup'u Claude Code + custom MCP servery, kiedy chcę żeby agent miał pełny system operacyjny do dyspozycji (np. analiza danych, eksperymenty z toolingiem, browser automation z annotate mode dla [[Qamera AI]]). Docker isolation + opcjonalny CLI connector daje mi kontrolę nad tym, kiedy puszczam agenta na "real" filesystem.
+For me, an interesting alternative to a Claude Code + custom MCP servers setup when I want the agent to have a full operating system at its disposal (e.g. data analysis, tooling experiments, browser automation with annotate mode for [[Qamera AI]]). Docker isolation + optional CLI connector gives me control over when I let the agent loose on the "real" filesystem.
 
-Słaby punkt: większy overhead niż lekkie harness'y typu [[Karpathy Skills]] czy [[Archon]] — payoff dopiero przy zadaniach wymagających długiego, wielonarzędziowego workflow z GUI.
+Weak point: more overhead than lightweight harnesses like [[Karpathy Skills]] or [[Archon]] — the payoff only shows on tasks requiring long, multi-tool workflows with a GUI.
 
 ## Alternatives considered
 
-- **[[Claude Code]] + MCP** — lżejszy, ale brak natywnego Linux sandboxa i Office canvas
-- **[[Hermes Agent]]** — podobna filozofia (multi-platform, skills, learning loop), ale TUI/messaging-first zamiast GUI/canvas
-- **[[Superpowers]]** — methodology-first, nie środowisko z OS-em
-- **OpenClaw** — porównywalny scope, ale Agent Zero ma bardziej dopracowany browser + Office workflow
+- **[[Claude Code]] + MCP** — lighter, but no native Linux sandbox or Office canvas
+- **[[Hermes Agent]]** — similar philosophy (multi-platform, skills, learning loop), but TUI/messaging-first instead of GUI/canvas
+- **[[Superpowers]]** — methodology-first, not an OS-backed environment
+- **OpenClaw** — comparable scope, but Agent Zero has a more polished browser + Office workflow
 
 ## 🔗 Resources
 
-- [[Space Agent]] — siostrzany projekt zbudowany na Agent Zero, frontend runtime
-- [[Agent Skills]] — open SKILL.md standard kompatybilny z Agent Zero
+- [[Space Agent]] — sister project built on Agent Zero, frontend runtime
+- [[Agent Skills]] — open SKILL.md standard compatible with Agent Zero
 - [[Agentic Systems]] — multi-agent architectures
-- [[Harness Engineering]] — alternatywne podejście do strukturyzacji pracy AI
+- [[Harness Engineering]] — alternative approach to structuring AI work
 - A0 CLI Connector docs: https://github.com/agent0ai/agent-zero/blob/main/docs/guides/a0-cli-connector.md
 
 ---

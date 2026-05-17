@@ -18,7 +18,7 @@ agent-reviewed: 2026-04-09
 6. [[Brain]] — Digital garden (brain.lipowczan.pl)
 
 ## 📒 Historical Projects
-Archiwum poprzednich projektów:
+Archive of previous projects:
 - [[ShareFund]] — A tool that helps in distributing shares in a cost-free startup
 - [[PROJECTS/ARCHIVE/AH/AutomationHouse|Automation House]] — Core technological partner in accelerating businesses with automations
 - [[PROJECTS/ARCHIVE/Drug Temperature Control System|Drug Temperature Control System]]

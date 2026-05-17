@@ -11,82 +11,82 @@ summary: "Event agency AI offer automation — 10-50% faster, 75-120h/mo saved, 
 
 # El Padre Case Study
 
-## 🚀 Problem: 16h na jedną ofertę
+## 🚀 Problem: 16h per single offer
 
-El Padre — renomowana agencja eventowa przygotowująca kompleksowe oferty (koncepcja kreatywna, wizualizacje, kosztorysy, harmonogramy). Każda oferta to autorski projekt angażujący dwa działy:
+El Padre — a renowned event agency preparing comprehensive offers (creative concept, visualizations, budgets, schedules). Each offer is a bespoke project involving two departments:
 
-- **Dział kreatywny:** 6-10h (research, koncepcja, wizualizacje)
-- **Dział produkcji:** 4-6h (wycena, kosztorysowanie, logistyka)
-- **Łącznie:** nawet **16h na jedną ofertę**
+- **Creative department:** 6-10h (research, concept, visualizations)
+- **Production department:** 4-6h (pricing, budgeting, logistics)
+- **Total:** up to **16h per single offer**
 
-### Kluczowe wyzwania
+### Key challenges
 
-- Przeciążenie zespołu kreatywnego — zbyt wiele projektów, za mało czasu
-- Czasochłonne manualne kosztorysowanie i szukanie poprzednich ofert
-- Brak centralizacji wiedzy — transkrypcje, kosztorysy, archiwalne oferty rozproszone w folderach OneDrive
-- Mniejsze projekty (50-100 tys. zł) nierentowne przy takim nakładzie pracy
+- Overload on the creative team — too many projects, not enough time
+- Time-consuming manual budgeting and searching for past offers
+- No centralized knowledge — transcripts, budgets, archived offers scattered across OneDrive folders
+- Smaller projects (PLN 50-100k) unprofitable with that workload
 
-Dylemat: zwiększyć zespół (koszty) albo przyspieszyć procesy bez utraty jakości.
+The dilemma: grow the team (costs) or speed up processes without losing quality.
 
-## 🗒️ Solution: Platforma AION
+## 🗒️ Solution: the AION platform
 
-Wdrożenie platformy **AION** — systemu zarządzania procesami wspieranymi przez AI. Klucz: nie same narzędzia AI, ale **integracja i centralizacja danych** + **dostosowanie workflow do realnych potrzeb zespołu**.
+Rollout of the **AION** platform — an AI-supported process management system. The key: not the AI tools themselves, but **integration and data centralization** + **adapting workflows to the team's real needs**.
 
-### Stack technologiczny
+### Technology stack
 
-- **AION** — platforma do zarządzania procesami wspieranymi AI
-- **OneDrive** — integracja z istniejącym systemem plików (automatyczna synchronizacja)
-- **Narzędzia AI do transkrypcji** — automatyczne nagrywanie i przetwarzanie spotkań
-- **Asystenci AI** — punktowe wsparcie: Briefing, Event Ideas, Financial Planner, Offer Generator
-- **System przeszukiwania bazy wiedzy** — szybkie odnajdywanie informacji z poprzednich projektów
+- **AION** — platform for managing AI-supported processes
+- **OneDrive** — integration with the existing file system (automatic sync)
+- **AI transcription tools** — automatic meeting recording and processing
+- **AI assistants** — targeted helpers: Briefing, Event Ideas, Financial Planner, Offer Generator
+- **Knowledge base search** — fast retrieval of information from past projects
 
-Powiązane narzędzia: [[Make]], [[Airtable]], [[Agentic Systems]]
+Related tools: [[Make]], [[Airtable]], [[Agentic Systems]]
 
 ## 📊 Results
 
-### Kluczowe metryki
+### Key metrics
 
-- **10-50% szybsze** przygotowywanie ofert (proste nawet 50%, złożone ~10-20%)
-- **10-15% wzrost produktywności** działu produkcji
-- **25-30 osób** wspieranych przez AI w codziennej pracy
-- Drastyczny wzrost liczby składanych ofert miesięcznie — bez zwiększania zespołu
+- **10-50% faster** offer preparation (simple ones up to 50%, complex ~10-20%)
+- **10-15% productivity increase** in the production department
+- **25-30 people** supported by AI in their daily work
+- A dramatic increase in the number of offers issued per month — without expanding the team
 
-### ROI: Oszczędności czasowe
+### ROI: Time savings
 
-- Średnio **5-8h zaoszczędzone na jedną ofertę**
-- Przy 15 ofertach/mies. = **75-120h oszczędności**
-- Równowartość **2-3 pełnoetatowych pracowników**
+- On average **5-8h saved per offer**
+- At 15 offers/month = **75-120h of savings**
+- Equivalent to **2-3 full-time employees**
 
-### Korzyści biznesowe
+### Business benefits
 
-- Dział produkcji obsługuje więcej projektów bez dodatkowych zatrudnień
-- Zespół kreatywny ma więcej czasu na innowacyjne koncepcje
-- Możliwość składania ofert na mniejsze projekty (wcześniej nierentowne)
-- Mniejsze ryzyko błędów w wycenach (automatyzacja kosztorysów)
-- Centralizacja wiedzy — łatwiejszy onboarding nowych pracowników
+- The production department handles more projects without new hires
+- The creative team has more time for innovative concepts
+- Ability to bid on smaller projects (previously unprofitable)
+- Reduced risk of pricing errors (automated budgeting)
+- Knowledge centralization — easier onboarding of new hires
 
-### Głos klienta
+### Client voice
 
-> *"Wdrożenie AION znacząco uprościło i przyspieszyło nasz proces przygotowywania ofert eventowych w wielu aspektach. Doceniamy elastyczność rozwiązania i wsparcie zespołu wdrożeniowego. Każdego dnia odkrywamy kolejne zastosowania dla AION w naszej organizacji i czerpiemy z jego możliwości pełnymi garściami mimo iż wykorzystujemy zaledwie część jego potencjału."*
-> — **Jakub Ćwikliński**, Wiceprezes zarządu El Padre
+> *"The AION rollout significantly simplified and accelerated our process of preparing event offers across many dimensions. We appreciate the flexibility of the solution and the support of the implementation team. Every day we discover new uses for AION in our organization and tap into its capabilities, even though we are still using only a fraction of its potential."*
+> — **Jakub Ćwikliński**, Vice President of the Board, El Padre
 
-## 📝 Implementation: 6 tygodni
+## 📝 Implementation: 6 weeks
 
-| Tydzień | Etap | Zakres |
+| Week | Stage | Scope |
 |---------|------|--------|
-| 1-2 | Integracja i centralizacja danych | Synchronizacja OneDrive → AION, centralne repozytorium transkrypcji, kosztorysów, archiwalnych ofert |
-| 3-4 | Wdrożenie narzędzi AI | Automatyczna transkrypcja spotkań, przetwarzanie na dane strukturalne, generator wizualizacji, system przeszukiwania bazy wiedzy |
-| 5-6 | Implementacja workflow | Punktowi asystenci AI (Briefing, Event Ideas, Financial Planner, Offer Generator), szkolenie 25-30 osób, testy pilotażowe |
+| 1-2 | Integration and data centralization | OneDrive → AION sync, central repository of transcripts, budgets, archived offers |
+| 3-4 | AI tools rollout | Automatic meeting transcription, processing into structured data, visualization generator, knowledge base search |
+| 5-6 | Workflow implementation | Targeted AI assistants (Briefing, Event Ideas, Financial Planner, Offer Generator), training for 25-30 people, pilot tests |
 
-## 📒 Podsumowanie
+## 📒 Summary
 
-- **AI w branży eventowej to teraźniejszość** — nawet 50% przyspieszenia w branży wydawałoby się trudnej do automatyzacji
-- **Integracja i centralizacja danych to fundament** — bez zunifikowanej bazy wiedzy AI nie ma z czego czerpać
-- **6 tygodni wystarczyło** na wdrożenie dla 25-30 osób
-- **AI wspiera, nie zastępuje** — zespół kreatywny nadal tworzy unikalne koncepcje, AI odciąża od żmudnych, powtarzalnych zadań
-- Zespół wykorzystuje "zaledwie część potencjału" AION — korzyści będą rosnąć w czasie
+- **AI in the event industry is the present** — even 50% acceleration in an industry that would seem hard to automate
+- **Integration and data centralization are the foundation** — without a unified knowledge base, AI has nothing to draw from
+- **6 weeks were enough** for a rollout covering 25-30 people
+- **AI supports, doesn't replace** — the creative team still builds unique concepts; AI takes the tedious, repetitive load off them
+- The team is using "only a fraction of AION's potential" — the benefits will keep growing over time
 
-## 🔗 Zasoby
+## 🔗 Resources
 
-- AION — platforma do zarządzania procesami wspieranymi AI
-- [El Padre](https://elpadre.pl/) — agencja eventowa
+- AION — AI-supported process management platform
+- [El Padre](https://elpadre.pl/) — event agency

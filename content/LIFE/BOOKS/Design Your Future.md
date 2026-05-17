@@ -1,5 +1,5 @@
 ---
-title: Zaprojektuj swoją przyszłość
+title: Design Your Future
 date: 2025-01-12
 enableToc: true
 openToc: true
@@ -9,7 +9,7 @@ tags:
 type: book-note
 ---
 
-# Zaprojektuj swoją przyszłość
+# Design Your Future
 
 Date Finished: Not finished Yet
 Author: [Brian Tracy](https://lubimyczytac.pl/autor/207043/brian-tracy) 

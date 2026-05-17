@@ -12,13 +12,13 @@ summary: "MCP that lets multiple Claude Code instances on the same machine disco
 
 # Claude Peers MCP
 
-🚀 Ad-hoc inter-agent communication dla [[Claude Code]] — pozwala wszystkim sesjom Claude Code na jednej maszynie odnajdywać się i wysyłać sobie wiadomości natychmiast. Praktyczne, gdy prowadzisz 3–5 sesji w różnych projektach i chcesz, żeby jeden Claude zapytał drugiego "co edytujesz?", zanim zrobi coś kolidującego.
+🚀 Ad-hoc inter-agent communication for [[Claude Code]] — lets every Claude Code session on the same machine discover each other and send messages instantly. Practical when you're running 3–5 sessions across different projects and you want one Claude to ask another "what are you editing?" before doing something conflicting.
 
 ## 🗒️ Description
 - Broker daemon on `localhost:7899` + SQLite DB.
-- Każda sesja Claude Code startuje MCP server, który rejestruje się u brokera i poll'uje co sekundę.
-- Przychodzące wiadomości wchodzą bezpośrednio w sesję przez `claude/channel` protocol — Claude widzi je od razu, bez ręcznego `check_messages`.
-- Broker auto-startuje przy pierwszej sesji, czyści dead peers, działa tylko lokalnie.
+- Each Claude Code session starts an MCP server that registers with the broker and polls every second.
+- Incoming messages enter the session directly through the `claude/channel` protocol — Claude sees them immediately, no manual `check_messages`.
+- The broker auto-starts on the first session, cleans up dead peers, and runs only locally.
 
 ## Links
 ### Description
@@ -33,13 +33,13 @@ claude --dangerously-skip-permissions --dangerously-load-development-channels se
 ```
 
 ## 🧩 Tools exposed to Claude
-- `list_peers` — znajdź inne sesje (scope: `machine` / `directory` / `repo`)
-- `send_message` — wyślij wiadomość do peera po ID (instant via channel push)
-- `set_summary` — opisz nad czym pracujesz (widoczne innym)
-- `check_messages` — manualny fallback, gdy nie używasz channel mode
+- `list_peers` — find other sessions (scope: `machine` / `directory` / `repo`)
+- `send_message` — send a message to a peer by ID (instant via channel push)
+- `set_summary` — describe what you're working on (visible to others)
+- `check_messages` — manual fallback when you're not using channel mode
 
 ## 🧩 Auto-summary
-Z ustawionym `OPENAI_API_KEY` każda instancja generuje krótkie podsumowanie na starcie przez `gpt-5.4-nano` (grosze). Podsumowanie bazuje na katalogu, branch'u i ostatnich plikach. Bez API key — Claude sam ustawia summary przez `set_summary`.
+With `OPENAI_API_KEY` set, each instance generates a short startup summary via `gpt-5.4-nano` (pennies). The summary is based on the directory, branch, and recent files. Without an API key, Claude sets the summary itself via `set_summary`.
 
 ## 🧩 CLI
 ```bash
@@ -50,18 +50,18 @@ bun cli.ts kill-broker
 ```
 
 ## Reasoning for
-Przydatne w [[Agentic Systems]] workflow — parallel sessions w [[Qamera AI]] / [[PLSoft]]. Zamiast "głównego orchestratora" można zrobić peer-to-peer koordynację między sesjami. Wymaga Claude Code v2.1.80+ i logowania przez claude.ai (channels nie działają na API key auth).
+Handy in [[Agentic Systems]] workflows — parallel sessions in [[Qamera AI]] / [[PLSoft]]. Instead of a "main orchestrator" you can do peer-to-peer coordination between sessions. Requires Claude Code v2.1.80+ and login via claude.ai (channels don't work with API key auth).
 
 ## Alternatives considered
-- Tmux-based pair session sharing (manualnie).
-- Subagenty wewnątrz jednego Claude Code (zamknięte w jednym procesie, brak cross-project).
-- Louis Vain's `cc-tmux` / inne eksperymentalne rozwiązania.
+- Tmux-based pair session sharing (manual).
+- Subagents inside a single Claude Code (locked into one process, no cross-project).
+- Louis Vain's `cc-tmux` and other experimental approaches.
 
 ## 📖 Further reading
 - [[Claude Code]] — host platform
-- [[Agent Skills]] — komplementarny mechanizm rozszerzania Claude Code
-- [[Agentic Systems]] — projekt multi-agent architecture
-- [[Harness Engineering]] — konfiguracja MCP/skills/hooks
+- [[Agent Skills]] — complementary mechanism for extending Claude Code
+- [[Agentic Systems]] — multi-agent architecture project
+- [[Harness Engineering]] — MCP/skills/hooks configuration
 - [[Context Engineering]] — cross-session context sharing
 
 ---

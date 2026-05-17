@@ -44,6 +44,8 @@ Three phases. Phase 1 ends with a single user prompt (cluster confirmation) if a
 For each file or cluster (cluster handling per the user's choice from Phase 1):
 
 6. Determine topic folder and note type per CLAUDE.md rules (sub-patterns: `BOOKS/`, `TOOLS/`, `KNOWLEDGE/INFO/`, `KNOWLEDGE/HOWTO/`, `NOTES/`, `HABITS/`).
+
+   **Language enforcement:** The canonical vault language is **English** (see CLAUDE.md "Writing Style"). If the source content is in Polish or any other language, **translate it to English while ingesting**. This applies to: body prose, frontmatter `title` / `summary` / `tags`, and any quoted material. Preserve verbatim: proper nouns (vendor/product/person/place names), code blocks, URLs, dates, wikilinks, emoji. Polish proper nouns (e.g., place names like Bieszczady, vendor names like Pstryk) stay in Polish; their surrounding prose is translated.
 7. Check `content/_indexes/catalog.md` for overlap with existing notes:
    - Overlap → merge into existing note, preserving all user-authored content.
    - No overlap → create from the appropriate template under `content/templates/` (per CLAUDE.md "Templates" table).

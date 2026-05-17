@@ -12,15 +12,15 @@ summary: "69 tips, development workflows comparison, orchestration patterns — 
 
 # Claude Code Best Practice
 
-"From vibe coding to agentic engineering — practice makes claude perfect." Repozytorium shanraisshan to strukturalny przegląd ekosystemu [[Claude Code]] — nie kolejna lista linków, ale porównanie workflows, tips pogrupowane tematycznie i demonstracje orchestration patterns.
+"From vibe coding to agentic engineering — practice makes claude perfect." The shanraisshan repository is a structural overview of the [[Claude Code]] ecosystem — not another link list, but a workflow comparison, thematically grouped tips, and orchestration pattern demos.
 
 ## Links
 ### 🗒️ Description
-Repo organizuje wiedzę o Claude Code w sekcje:
-- **Concepts** — tabela wszystkich Claude Code primitives (subagents, commands, skills, hooks, MCP, plugins, settings, memory, checkpointing)
-- **Hot features** — najnowsze: Ultraplan, Agent SDK, Auto Mode, Channels, Slack, Chrome, Scheduled Tasks, Voice Dictation, Agent Teams, Remote Control, Git Worktrees
-- **Development Workflows** — porównanie 10 top frameworks z gwiazdkami i liczbą agents/commands/skills
-- **69 Tips** — pogrupowane: Prompting, Planning, CLAUDE.md, Agents, Commands, Skills, Hooks, Workflows, Git/PR, Debugging, Utilities, Daily
+The repo organizes Claude Code knowledge into sections:
+- **Concepts** — table of all Claude Code primitives (subagents, commands, skills, hooks, MCP, plugins, settings, memory, checkpointing)
+- **Hot features** — latest: Ultraplan, Agent SDK, Auto Mode, Channels, Slack, Chrome, Scheduled Tasks, Voice Dictation, Agent Teams, Remote Control, Git Worktrees
+- **Development Workflows** — comparison of 10 top frameworks with stars and agents/commands/skills counts
+- **69 Tips** — grouped: Prompting, Planning, CLAUDE.md, Agents, Commands, Skills, Hooks, Workflows, Git/PR, Debugging, Utilities, Daily
 - **Videos/Podcasts** — Boris Cherny interviews (Y Combinator, Lenny's, Pragmatic Engineer)
 
 ### Download or use
@@ -28,17 +28,17 @@ Repo organizuje wiedzę o Claude Code w sekcje:
 
 ## 🗒️ Reasoning for
 
-Dwa główne use cases:
-1. **Workflow comparison** — tabela porównująca Everything Claude Code, [[Superpowers]], Spec Kit, gstack, Get Shit Done, BMAD-METHOD, [[OpenSpec]], oh-my-claudecode, Compound Engineering, HumanLayer. Każdy z liczbą agents, commands, skills. Pozwala wybrać framework pasujący do projektu.
-2. **Tips reference** — 69 tips to nie random advice, ale pogrupowane best practices z linkami do źródeł. Kluczowe:
+Two main use cases:
+1. **Workflow comparison** — table comparing Everything Claude Code, [[Superpowers]], Spec Kit, gstack, Get Shit Done, BMAD-METHOD, [[OpenSpec]], oh-my-claudecode, Compound Engineering, HumanLayer. Each with agents/commands/skills counts. Lets you pick a framework matching the project.
+2. **Tips reference** — 69 tips aren't random advice but grouped best practices with source links. Key ones:
 
 ### 🔑 Top Tips
 
-**Planning:** zawsze plan mode, minimal spec → AskUserQuestion interview → execute in new session
+**Planning:** always plan mode, minimal spec → AskUserQuestion interview → execute in new session
 
-**CLAUDE.md:** <200 lines per file, `<important if="...">` tags żeby Claude nie ignorował, multiple CLAUDE.md dla monorepos, settings.json dla harness-enforced behavior (nie wpisuj "NEVER add Co-Authored-By" w CLAUDE.md gdy `attribution.commit: ""` jest deterministic)
+**CLAUDE.md:** <200 lines per file, `<important if="...">` tags so Claude doesn't ignore them, multiple CLAUDE.md for monorepos, settings.json for harness-enforced behavior (don't write "NEVER add Co-Authored-By" in CLAUDE.md when `attribution.commit: ""` is deterministic)
 
-**Skills:** context: fork dla isolation, skills are folders not files (references/, scripts/, examples/), description field is a trigger not a summary, embed `!command` for dynamic shell output
+**Skills:** context: fork for isolation, skills are folders not files (references/, scripts/, examples/), description field is a trigger not a summary, embed `!command` for dynamic shell output
 
 **Hooks:** on-demand hooks in skills (/careful blocks destructive, /freeze blocks edits), PostToolUse auto-format, Stop hook for verification
 
@@ -47,12 +47,12 @@ Dwa główne use cases:
 **Git:** PRs p50 of 118 lines, always squash merge, commit at least once per hour
 
 ### Orchestration Pattern
-**Command → Agent → Skill** — commands orchestrate, agents execute w isolated context, skills provide domain knowledge. Demonstracja z `/weather-orchestrator`.
+**Command → Agent → Skill** — commands orchestrate, agents execute in isolated context, skills provide domain knowledge. Demonstrated with `/weather-orchestrator`.
 
 ## Alternatives considered
-- [[Awesome Claude Code]] (hesreallyhim) — complementary: Awesome CC to tool/resource discovery, Best Practice to tips & workflow comparison
-- Oficjalna dokumentacja Anthropic — Best Practice aggreguje community wisdom beyond official docs
-- Indywidualne blog posts Borisa Cherny — Best Practice zbiera wszystkie tipy w jedno miejsce z linkami do źródeł
+- [[Awesome Claude Code]] (hesreallyhim) — complementary: Awesome CC is tool/resource discovery, Best Practice is tips & workflow comparison
+- Anthropic's official docs — Best Practice aggregates community wisdom beyond the official docs
+- Boris Cherny's individual blog posts — Best Practice collects all the tips in one place with source links
 
 ## 📖 Resources
 - [GitHub: shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)

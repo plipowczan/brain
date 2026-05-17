@@ -12,18 +12,18 @@ summary: "Collection of DESIGN.md files from real brands — drop into project, 
 
 # Awesome Design MD
 
-Kolekcja gotowych DESIGN.md files wyciągniętych z prawdziwych stron (Claude, Vercel, Stripe, Nike, Apple, Spotify, Linear...). Wrzucasz plik do roota projektu, mówisz AI agentowi "build me a page that looks like this" — dostajesz pixel-perfect UI matching wybrany brand.
+A collection of ready-made DESIGN.md files extracted from real sites (Claude, Vercel, Stripe, Nike, Apple, Spotify, Linear...). Drop the file into the project root, tell an AI agent "build me a page that looks like this" — get a pixel-perfect UI matching the chosen brand.
 
 ## Links
 ### 🗒️ Description
-[DESIGN.md](https://stitch.withgoogle.com/docs/design-md/overview/) to koncept Google Stitch — plain-text design system document czytelny dla LLM. Markdown, zero Figma exports, zero JSON schemas. Analogia:
+[DESIGN.md](https://stitch.withgoogle.com/docs/design-md/overview/) is a Google Stitch concept — a plain-text design system document readable by LLMs. Markdown, zero Figma exports, zero JSON schemas. Analogy:
 
 | File | Who reads it | What it defines |
 | --- | --- | --- |
 | `AGENTS.md` | Coding agents | How to build the project |
 | `DESIGN.md` | Design agents | How the project should look and feel |
 
-Każdy DESIGN.md zawiera 9 sekcji:
+Every DESIGN.md contains 9 sections:
 1. Visual Theme & Atmosphere
 2. Color Palette & Roles (hex + semantic role)
 3. Typography Rules (full hierarchy table)
@@ -40,12 +40,12 @@ Każdy DESIGN.md zawiera 9 sekcji:
 
 ## 🗒️ Reasoning for
 
-Kiedy [[Claude Code]] lub [[Cursor]] generuje UI, wynik wygląda generycznie. DESIGN.md rozwiązuje ten problem — agent ma pełny design system w kontekście. Workflow:
-1. Wybierz brand matching Twój styl (np. Linear dla minimalizmu, Stripe dla elegancji)
-2. Skopiuj `DESIGN.md` do roota projektu
-3. Agent automatycznie czyta plik i generuje UI zgodne z design system
+When [[Claude Code]] or [[Cursor]] generates UI, the result tends to look generic. DESIGN.md solves that — the agent has the full design system in context. Workflow:
+1. Pick a brand matching your style (e.g. Linear for minimalism, Stripe for elegance)
+2. Copy `DESIGN.md` to the project root
+3. The agent automatically reads the file and generates UI consistent with the design system
 
-Szczególnie przydatne dla [[Qamera AI]] i projektów [[PLSoft]] gdzie chcę distinctive UI bez zatrudniania designera.
+Especially useful for [[Qamera AI]] and [[PLSoft]] projects where I want a distinctive UI without hiring a designer.
 
 ## 🧩 Available Brands (60+)
 
@@ -59,10 +59,10 @@ Szczególnie przydatne dla [[Qamera AI]] i projektów [[PLSoft]] gdzie chcę dis
 **Automotive:** Tesla, BMW, Ferrari, Lamborghini, Renault
 
 ## Alternatives considered
-- **Figma exports** — require Figma, nie są czytelne dla LLM bezpośrednio
-- **Tailwind presets** — tylko kolory i spacing, nie capture design philosophy
-- **Manual CSS theming** — czasochłonne, nie skaluje się z AI workflow
-- **Screenshot-based prompting** — mniej precyzyjne niż structured DESIGN.md
+- **Figma exports** — require Figma, not directly readable by LLMs
+- **Tailwind presets** — only colors and spacing, don't capture design philosophy
+- **Manual CSS theming** — time-consuming, doesn't scale with an AI workflow
+- **Screenshot-based prompting** — less precise than a structured DESIGN.md
 
 ## 📖 Resources
 - [GitHub: VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)

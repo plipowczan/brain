@@ -13,7 +13,7 @@ allowed-tools: Bash, Read, Write, Glob, WebSearch, Task, AskUserQuestion
 ## Workflow
 
 ### Step 1: Auto-locate Outline
-Find `*/outline.yaml` file in current working directory, auto-read.
+Find `outline.yaml` in `content/_raw/research-workspaces/*/` (preferred) or anywhere via Glob fallback. Auto-read.
 
 ### Step 2: Get Supplement Sources in Parallel
 Simultaneously:

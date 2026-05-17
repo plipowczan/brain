@@ -1,5 +1,5 @@
 ---
-title: "Sapiens. Od zwierząt do bogów"
+title: "Sapiens. A Brief History of Humankind"
 date:  2022-09-18
 enableToc: true
 openToc: true
@@ -7,7 +7,7 @@ tags: ["book", "sapiens", "religion"]
 type: book-note
 ---
 
-# Sapiens. Od zwierząt do bogów
+# Sapiens. A Brief History of Humankind
 
 Date Finished: 2018
 Author: [Yuval Noah Harari](https://lubimyczytac.pl/autor/103065/yuval-noah-harari)

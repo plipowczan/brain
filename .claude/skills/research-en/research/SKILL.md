@@ -119,7 +119,7 @@ Merge {step1_output}, {step2_output} and user's existing fields, generate two fi
 - execution:
   - batch_size: Number of parallel agents (confirm with AskUserQuestion)
   - items_per_agent: Items per agent (confirm with AskUserQuestion)
-  - output_dir: Results output directory (default: ./results)
+  - output_dir: Results output directory (default: `content/_raw/research-workspaces/{topic_slug}/results`)
 
 **fields.yaml** (field definitions):
 - Field categories and definitions
@@ -128,13 +128,15 @@ Merge {step1_output}, {step2_output} and user's existing fields, generate two fi
 - uncertain: Uncertain fields list (reserved field, auto-filled in deep phase)
 
 ### Step 5: Output and Confirm
-- Create directory: `./{topic_slug}/`
-- Save: `outline.yaml` and `fields.yaml`
+- Create directory: `content/_raw/research-workspaces/{topic_slug}/` (relative to project root `C:\PROJEKTY\brain`)
+- Save: `outline.yaml` and `fields.yaml` inside it
 - Show to user for confirmation
+
+This workspace lives **outside** the published Quartz content (it's under `content/_raw/`) — working files won't be deployed. Only the final `report.md` is later promoted to `content/_raw/inbox/` by `/research-report` for `/ingest` to classify into a topic folder.
 
 ## Output Path
 ```
-{current_working_directory}/{topic_slug}/
+content/_raw/research-workspaces/{topic_slug}/
   ├── outline.yaml    # items list + execution config
   └── fields.yaml     # field definitions
 ```

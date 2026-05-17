@@ -22,7 +22,7 @@ type: knowledge-note
 ## 5 methods of actions:
 1. Extend your working day to 48 hours - in order to do so you need a team, delegate all your work that you don't need to be involved in. Having someone else do the job and implement automations will allow you to create time space for yourself where you can focus only on yourself and develop/elaborate on your thoughts.
 2.  Email marketing works - start building the email list around yourself. You would be able to use it in the future to sell something. However you need to know how to do it correctly.
-3. I'm not relevant - the most important is the client. You need to develop your empathy to be able to step into another person's shoes and find and fulfill the client needs. [[LIFE/BOOKS/W sercu emocji dziecka]] [[LIFE/BOOKS/Twoje kompetentne dziecko]] You need to be able to feel your client emotions - this empathy is all about.
+3. I'm not relevant - the most important is the client. You need to develop your empathy to be able to step into another person's shoes and find and fulfill the client needs (cf. *W sercu emocji dziecka* by Isabelle Filliozat, *Twoje kompetentne dziecko* by Jesper Juul — both on [[LIFE/NOTES/Reading list]]). You need to be able to feel your client emotions - this empathy is all about.
 4. Only practice - stop taking courses, stop reading, start doing.
 5. Errors are OK - you will make a lot of mistakes. But if you do something you gain either the money or the experience - if you do something wrong the important thing is to learn on your mistake and adjust 
 
