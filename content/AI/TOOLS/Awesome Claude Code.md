@@ -6,7 +6,6 @@ openToc: true
 tags: ["tool", "ai", "claude-code", "resources"]
 type: tool
 agent-created: true
-agent-reviewed: 2026-04-10
 agent-reviewed: 2026-05-16
 summary: "Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations"
 ---
