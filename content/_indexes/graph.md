@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-17T08:16:16Z
-nodes: 225
-edges: 895
+updated: 2026-05-19T12:00:00Z
+nodes: 234
+edges: 967
 ---
 # Link Graph
 
@@ -203,6 +203,15 @@ TRAVELS/TRIPS/2022 Iceland October -> ATTACHMENTS/Pasted image 20220828131700.pn
 TRAVELS/TRIPS/2023 Albania June -> ATTACHMENTS/Pasted image 20230716070543.png, ATTACHMENTS/Pasted image 20230716071014.png, ATTACHMENTS/Pasted image 20230716071359.png
 TRAVELS/TRIPS/2024 07 Bieszczady -> Pasted image 20240625221302.png
 TRAVELS/TRIPS/2025 07 Beskidy -> Pasted image 20250619200613.png
+AI/KNOWLEDGE/INFO/40 AI Prompts for Expert Output -> AI/KNOWLEDGE/INFO/Context Engineering, AI/TOOLS/Claude Code Best Practice, AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/TOOLS/Awesome Claude Code, templates/knowledge_note_info
+AI/TOOLS/Browser Use -> AI/TOOLS/Video Use, AI/TOOLS/Browser Harness, AI/TOOLS/Hermes Agent, AI/TOOLS/Paperclip, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, templates/tool
+AI/TOOLS/Video Use -> AI/TOOLS/Browser Use, AI/TOOLS/Browser Harness, AI/TOOLS/HyperFrames, AI/TOOLS/Claude Code, templates/tool
+AI/TOOLS/Browser Harness -> AI/TOOLS/Browser Use, AI/TOOLS/Video Use, AI/TOOLS/Claude Code, AI/TOOLS/Awesome Claude Code, templates/tool
+AI/TOOLS/HyperFrames -> AI/TOOLS/Video Use, AI/TOOLS/Claude Code, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Marp, templates/tool
+AI/TOOLS/Voicebox -> AI/TOOLS/Claude Code, AI/TOOLS/Personal AI Infrastructure, AI/TOOLS/Hermes Agent, AI/TOOLS/Paperclip, templates/tool
+AI/TOOLS/Personal AI Infrastructure -> AI/TOOLS/Claude Code, AI/TOOLS/Paperclip, AI/TOOLS/Hermes Agent, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/BRAIN/Brain, ABOUT/Building a Second Brain, AI/TOOLS/Awesome Claude Code, templates/tool
+AI/TOOLS/DESIGN MD Spec -> AI/TOOLS/Awesome Design MD, AI/TOOLS/UI UX Pro Max, AI/TOOLS/UX Pilot, AI/TOOLS/UX RULER, AI/TOOLS/Open Design, AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/AI UX Design Tools, templates/tool
+BUSINESS/KNOWLEDGE/INFO/Lean Canvas -> BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/BOOKS/Millionaire Fastlane, ABOUT/Principles, templates/knowledge_note_info
 
 ## Incoming
 07f91ab9c28cd40194a8c876b8593532_MD5.gif <- AI/TOOLS/CLI-Anything
@@ -443,4 +452,33 @@ templates/learning_notes <- LIFE/KNOWLEDGE/INFO/Obsidian
 templates/plane_trip_planning <- LIFE/KNOWLEDGE/INFO/Obsidian
 templates/puls <- PROJECTS/ARCHIVE/AH/PULS
 templates/puls_end <- PROJECTS/ARCHIVE/AH/PULS
-templates/tool <- AI/TOOLS/Agent Skills, AI/TOOLS/Agent Zero, AI/TOOLS/Archon, AI/TOOLS/Autoresearch, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Awesome Nano Banana Pro Prompts, AI/TOOLS/CLI-Anything, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Claude Peers MCP, AI/TOOLS/Cursor, AI/TOOLS/Graphify, AI/TOOLS/Hermes Agent, AI/TOOLS/Karpathy Skills, AI/TOOLS/LightRAG, AI/TOOLS/NemoClaw, AI/TOOLS/Paperclip, AI/TOOLS/Space Agent, AI/TOOLS/Superpowers, AI/TOOLS/UI UX Pro Max, AI/TOOLS/UX Pilot, AI/TOOLS/UX RULER, AI/TOOLS/VAPI, AI/TOOLS/Vercel Skills, AI/TOOLS/gstack, BUSINESS/TOOLS/1Password, BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/Excalidraw, BUSINESS/TOOLS/Miro, BUSINESS/TOOLS/Notion, BUSINESS/TOOLS/Outlook, BUSINESS/TOOLS/Sendgrid, BUSINESS/TOOLS/n8n, CODE/TOOLS/Awesome Design MD, CODE/TOOLS/Docker, CODE/TOOLS/Excalidraw, CODE/TOOLS/Git, CODE/TOOLS/Google Cloud, CODE/TOOLS/MakerKit, CODE/TOOLS/Marp, CODE/TOOLS/Marp CLI, CODE/TOOLS/Marp Core, CODE/TOOLS/Marpit, CODE/TOOLS/Next.js, CODE/TOOLS/Nucleify, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, CODE/TOOLS/React, CODE/TOOLS/Remotion, CODE/TOOLS/RunJS, CODE/TOOLS/Scrapling, CODE/TOOLS/Supabase, CODE/TOOLS/Visual Studio, CODE/TOOLS/Visual Studio Code, LIFE/TOOLS/Authenticator, LIFE/TOOLS/Edge, LIFE/TOOLS/Microsoft To Do, LIFE/TOOLS/Obsidian, LIFE/TOOLS/OneNote, LIFE/TOOLS/PowerToys, LIFE/TOOLS/Pstryk, LIFE/TOOLS/TextExpander, LIFE/TOOLS/Windows, TRAVELS/TOOLS/Ventusky
+templates/tool <- AI/TOOLS/Agent Skills, AI/TOOLS/Agent Zero, AI/TOOLS/Archon, AI/TOOLS/Autoresearch, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Awesome Nano Banana Pro Prompts, AI/TOOLS/Browser Harness, AI/TOOLS/Browser Use, AI/TOOLS/CLI-Anything, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Claude Peers MCP, AI/TOOLS/Cursor, AI/TOOLS/DESIGN MD Spec, AI/TOOLS/Graphify, AI/TOOLS/Hermes Agent, AI/TOOLS/HyperFrames, AI/TOOLS/Karpathy Skills, AI/TOOLS/LightRAG, AI/TOOLS/NemoClaw, AI/TOOLS/Paperclip, AI/TOOLS/Personal AI Infrastructure, AI/TOOLS/Space Agent, AI/TOOLS/Superpowers, AI/TOOLS/UI UX Pro Max, AI/TOOLS/UX Pilot, AI/TOOLS/UX RULER, AI/TOOLS/VAPI, AI/TOOLS/Vercel Skills, AI/TOOLS/Video Use, AI/TOOLS/Voicebox, AI/TOOLS/gstack, BUSINESS/TOOLS/1Password, BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/Excalidraw, BUSINESS/TOOLS/Miro, BUSINESS/TOOLS/Notion, BUSINESS/TOOLS/Outlook, BUSINESS/TOOLS/Sendgrid, BUSINESS/TOOLS/n8n, CODE/TOOLS/Awesome Design MD, CODE/TOOLS/Docker, CODE/TOOLS/Excalidraw, CODE/TOOLS/Git, CODE/TOOLS/Google Cloud, CODE/TOOLS/MakerKit, CODE/TOOLS/Marp, CODE/TOOLS/Marp CLI, CODE/TOOLS/Marp Core, CODE/TOOLS/Marpit, CODE/TOOLS/Next.js, CODE/TOOLS/Nucleify, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, CODE/TOOLS/React, CODE/TOOLS/Remotion, CODE/TOOLS/RunJS, CODE/TOOLS/Scrapling, CODE/TOOLS/Supabase, CODE/TOOLS/Visual Studio, CODE/TOOLS/Visual Studio Code, LIFE/TOOLS/Authenticator, LIFE/TOOLS/Edge, LIFE/TOOLS/Microsoft To Do, LIFE/TOOLS/Obsidian, LIFE/TOOLS/OneNote, LIFE/TOOLS/PowerToys, LIFE/TOOLS/Pstryk, LIFE/TOOLS/TextExpander, LIFE/TOOLS/Windows, TRAVELS/TOOLS/Ventusky
+AI/TOOLS/Browser Use <- AI/TOOLS/Video Use, AI/TOOLS/Browser Harness
+AI/TOOLS/Video Use <- AI/TOOLS/Browser Use, AI/TOOLS/Browser Harness, AI/TOOLS/HyperFrames
+AI/TOOLS/Browser Harness <- AI/TOOLS/Browser Use, AI/TOOLS/Video Use
+AI/TOOLS/HyperFrames <- AI/TOOLS/Video Use
+AI/TOOLS/Personal AI Infrastructure <- AI/TOOLS/Voicebox
+AI/TOOLS/Claude Code <- AI/TOOLS/Browser Use, AI/TOOLS/Video Use, AI/TOOLS/Browser Harness, AI/TOOLS/HyperFrames, AI/TOOLS/Voicebox, AI/TOOLS/Personal AI Infrastructure, AI/TOOLS/DESIGN MD Spec
+AI/TOOLS/Hermes Agent <- AI/TOOLS/Browser Use, AI/TOOLS/Voicebox, AI/TOOLS/Personal AI Infrastructure
+AI/TOOLS/Paperclip <- AI/TOOLS/Browser Use, AI/TOOLS/Voicebox, AI/TOOLS/Personal AI Infrastructure
+AI/TOOLS/Awesome Claude Code <- AI/TOOLS/Browser Harness, AI/TOOLS/HyperFrames, AI/TOOLS/Personal AI Infrastructure, AI/KNOWLEDGE/INFO/40 AI Prompts for Expert Output
+AI/TOOLS/Awesome Design MD <- AI/TOOLS/DESIGN MD Spec
+AI/TOOLS/UI UX Pro Max <- AI/TOOLS/DESIGN MD Spec
+AI/TOOLS/UX Pilot <- AI/TOOLS/DESIGN MD Spec
+AI/TOOLS/UX RULER <- AI/TOOLS/DESIGN MD Spec
+AI/TOOLS/Open Design <- AI/TOOLS/DESIGN MD Spec
+AI/TOOLS/Marp <- AI/TOOLS/HyperFrames
+AI/KNOWLEDGE/INFO/Context Engineering <- AI/KNOWLEDGE/INFO/40 AI Prompts for Expert Output
+AI/TOOLS/Claude Code Best Practice <- AI/KNOWLEDGE/INFO/40 AI Prompts for Expert Output
+AI/KNOWLEDGE/INFO/Building Claude Skills Guide <- AI/KNOWLEDGE/INFO/40 AI Prompts for Expert Output
+AI/KNOWLEDGE/INFO/AI UX Design Tools <- AI/TOOLS/DESIGN MD Spec
+CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO <- AI/TOOLS/Browser Use
+PROJECTS/AGENTIC-SYSTEMS/Agentic Systems <- AI/TOOLS/Personal AI Infrastructure
+PROJECTS/BRAIN/Brain <- AI/TOOLS/Personal AI Infrastructure
+ABOUT/Building a Second Brain <- AI/TOOLS/Personal AI Infrastructure
+BUSINESS/KNOWLEDGE/INFO/Process Mapping <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas
+BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas
+BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas
+BUSINESS/BOOKS/Millionaire Fastlane <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas
+ABOUT/Principles <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas
+templates/knowledge_note_info <- AI/KNOWLEDGE/INFO/40 AI Prompts for Expert Output, BUSINESS/KNOWLEDGE/INFO/Lean Canvas

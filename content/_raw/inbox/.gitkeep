@@ -1,4 +1,0 @@
-Drop source documents here for the agent to ingest.
-Supported: .md (web clips, articles), .txt, .html, .pdf
-Use Obsidian Web Clipper or manually copy files.
-Agent processes them via "ingest" command → creates wiki notes → moves originals to processed/
