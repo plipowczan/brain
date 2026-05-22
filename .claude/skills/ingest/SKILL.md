@@ -73,16 +73,34 @@ Skipped entirely for files-only invocations.
 
 For each file or cluster (cluster handling per the user's choice from Phase 1):
 
-6. Determine topic folder and note type per CLAUDE.md rules (sub-patterns: `BOOKS/`, `TOOLS/`, `KNOWLEDGE/INFO/`, `KNOWLEDGE/HOWTO/`, `NOTES/`, `HABITS/`).
+6. Determine topic folder and note type per CLAUDE.md rules (sub-patterns: `BOOKS/`, `TOOLS/`, `KNOWLEDGE/INFO/`, `KNOWLEDGE/HOWTO/`, `NOTES/`, `HABITS/`). For YT-origin sources, classification input is `title + description + channel + chapter titles + first ~2000 chars of transcript`. YT-origin sources always use `type: knowledge-note` with template `templates/knowledge_note_info.md`.
 
    **Language enforcement:** The canonical vault language is **English** (see CLAUDE.md "Writing Style"). If the source content is in Polish or any other language, **translate it to English while ingesting**. This applies to: body prose, frontmatter `title` / `summary` / `tags`, and any quoted material. Preserve verbatim: proper nouns (vendor/product/person/place names), code blocks, URLs, dates, wikilinks, emoji. Polish proper nouns (e.g., place names like Bieszczady, vendor names like Pstryk) stay in Polish; their surrounding prose is translated.
 7. Check `content/_indexes/catalog.md` for overlap with existing notes:
    - Overlap → merge into existing note, preserving all user-authored content.
    - No overlap → create from the appropriate template under `content/templates/` (per CLAUDE.md "Templates" table).
-8. Fill frontmatter: `title`, `date` (today), `tags`, `type`, `source: "_raw/inbox/<file>"`, `agent-created: true`, `summary:` (one line).
+8. Fill frontmatter: `title`, `date` (today), `tags`, `type`, `source`, `agent-created: true`, `summary:` (one line).
+
+   For YT-origin notes, `source` points at the archived transcript (e.g. `_raw/processed/2026-05-22_yt-<id>_<slug>.md`) and the following YT-specific fields are appended:
+
+   ```yaml
+   source_url: "https://www.youtube.com/watch?v=<video_id>"
+   video_id: "<id>"
+   channel: "<channel name>"
+   duration: "1h23m"
+   published: 2026-04-15
+   transcription: captions   # or "whisper-large-v3"
+   ```
+
+   Note body uses adaptive depth based on transcript duration:
+   - `< 15 min` → summary: TL;DR, 5-10 key points, takeaways, Resources.
+   - `15-45 min` → standard knowledge-note structure with sections, quotes, takeaways.
+   - `> 45 min` → deep note: chapter-by-chapter breakdown with `[mm:ss]` timestamps linking to `https://youtube.com/watch?v=<id>&t=<seconds>s`.
 9. Add wikilinks to related notes; update those target notes to backlink.
 10. **Move attachments.** Find image/media files referenced by the source (`.png`, `.jpg`, `.jpeg`, `.gif`, `.svg`, `.webm`, `.pdf`, etc.) that landed in `content/` root or `content/_raw/inbox/`. Move them to `content/ATTACHMENTS/`. Update any `![[filename]]` references in the new note to point to the moved location.
-11. Move source: `content/_raw/inbox/<file>` → `content/_raw/processed/YYYY-MM-DD_<originalname>.<ext>`.
+11. Move source:
+    - File sources: `content/_raw/inbox/<file>` → `content/_raw/processed/YYYY-MM-DD_<originalname>.<ext>`.
+    - YT sources: archive file already lives in `content/_raw/processed/` from Phase 0 — verify the note's `source:` frontmatter matches the archive path; no move needed.
 12. Update all three indexes per CLAUDE.md auto-update rules:
     - `catalog.md` — add or update the entry line in the correct folder section.
     - `vault-map.md` — increment folder count, refresh top-tags, prepend to Recent Changes.
