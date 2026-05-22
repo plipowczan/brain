@@ -142,5 +142,34 @@ class TestAssembleSource(unittest.TestCase):
         self.assertIn("- { start: 120, title: \"Main\" }", out)
 
 
+import shutil
+from yt_fetch import yt_dlp_available, fetch_metadata, fetch_captions_vtt, YTFetchError
+
+
+YT_DLP = shutil.which("yt-dlp")
+
+
+class TestYtDlpProbes(unittest.TestCase):
+    def test_availability_helper(self):
+        self.assertEqual(yt_dlp_available(), YT_DLP is not None)
+
+
+@unittest.skipUnless(YT_DLP, "yt-dlp not on PATH")
+class TestYtDlpIntegration(unittest.TestCase):
+    URL = "https://www.youtube.com/watch?v=jNQXAC9IVRw"  # "Me at the zoo" — has en captions
+
+    def test_fetch_metadata_smoke(self):
+        meta = fetch_metadata(self.URL)
+        self.assertEqual(meta["video_id"] if "video_id" in meta else meta["id"], "jNQXAC9IVRw")
+        self.assertTrue(meta["title"])
+        self.assertGreater(meta["duration"], 0)
+
+    def test_fetch_captions_returns_vtt_or_none(self):
+        result = fetch_captions_vtt(self.URL)
+        # Either we got VTT text or None — but for this video we expect captions.
+        self.assertIsNotNone(result, "expected captions for the canonical test video")
+        self.assertTrue(result.startswith("WEBVTT"))
+
+
 if __name__ == "__main__":
     unittest.main()

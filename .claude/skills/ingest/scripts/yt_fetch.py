@@ -115,6 +115,68 @@ def archive_filename(date_str: str, video_id: str, title: str) -> str:
 
 
 import json
+import shutil
+import subprocess
+import tempfile
+import os
+from pathlib import Path
+
+
+class YTFetchError(RuntimeError):
+    """Raised when yt-dlp or whisper fails in a way we should report."""
+
+
+def yt_dlp_available() -> bool:
+    return shutil.which("yt-dlp") is not None
+
+
+def fetch_metadata(url: str, timeout: int = 60) -> dict:
+    """Run yt-dlp to get full video metadata as a dict."""
+    if not yt_dlp_available():
+        raise YTFetchError("yt-dlp not on PATH")
+    try:
+        proc = subprocess.run(
+            ["yt-dlp", "--dump-single-json", "--skip-download", "--no-warnings", url],
+            capture_output=True, text=True, timeout=timeout, check=True,
+        )
+    except subprocess.CalledProcessError as e:
+        raise YTFetchError(f"yt-dlp metadata failed: {e.stderr.strip()[:500]}") from e
+    except subprocess.TimeoutExpired as e:
+        raise YTFetchError(f"yt-dlp metadata timed out after {timeout}s") from e
+    data = json.loads(proc.stdout)
+    # Normalize: ensure `video_id` key exists
+    data["video_id"] = data.get("id", "")
+    return data
+
+
+def fetch_captions_vtt(url: str, langs: str = "en,en-US,en-GB,pl", timeout: int = 120) -> str | None:
+    """Download caption VTT for the URL. Returns VTT text or None if no captions available."""
+    if not yt_dlp_available():
+        raise YTFetchError("yt-dlp not on PATH")
+    with tempfile.TemporaryDirectory() as tmp:
+        out_template = os.path.join(tmp, "sub")
+        try:
+            subprocess.run(
+                [
+                    "yt-dlp", "--write-subs", "--write-auto-subs",
+                    "--sub-langs", langs, "--sub-format", "vtt",
+                    "--skip-download", "--no-warnings",
+                    "-o", out_template, url,
+                ],
+                capture_output=True, text=True, timeout=timeout, check=True,
+            )
+        except subprocess.CalledProcessError as e:
+            raise YTFetchError(f"yt-dlp captions failed: {e.stderr.strip()[:500]}") from e
+        except subprocess.TimeoutExpired as e:
+            raise YTFetchError(f"yt-dlp captions timed out after {timeout}s") from e
+
+        vtt_files = sorted(Path(tmp).glob("*.vtt"))
+        if not vtt_files:
+            return None
+        # Prefer non-auto captions if both exist (no "auto" tag in filename).
+        manual = [p for p in vtt_files if ".auto." not in p.name]
+        chosen = manual[0] if manual else vtt_files[0]
+        return chosen.read_text(encoding="utf-8")
 
 
 def _yaml_str(s: str) -> str:
