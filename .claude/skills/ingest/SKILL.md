@@ -9,9 +9,39 @@ description: Use when user says "ingest", "process inbox", "przetworz nowe pliki
 
 Trigger phrases: "ingest", "process inbox", "przetworz nowe pliki". Files have appeared in `content/_raw/inbox/` and need to be turned into wiki notes.
 
+**Also accepts YouTube URLs as arguments:** `/ingest https://youtu.be/X https://www.youtube.com/watch?v=Y`. URLs and files can be mixed in one batch — they cluster together under the same logic.
+
 ## Workflow
 
-Three phases. Phase 1 ends with a single user prompt (cluster confirmation) if any clusters are detected; Phase 2 runs autonomously; Phase 3 verifies index integrity.
+Four phases. Phase 0 runs only when YouTube URLs are present as arguments. Phase 1 ends with a single user prompt (cluster confirmation) if any clusters are detected; Phase 2 runs autonomously; Phase 3 verifies index integrity.
+
+### Phase 0 — YouTube fetch (only if URL args)
+
+Skipped entirely for files-only invocations.
+
+1. Validate args. Any token matching `^https?://(www\.|m\.)?(youtube\.com|youtu\.be)/` is a YT URL. Any non-empty argument that doesn't match aborts the whole call with a clear error before any work begins.
+2. Verify prerequisites:
+   - `yt-dlp` on PATH (required) — if missing, abort the whole call with install hint.
+   - `ffmpeg` on PATH (needed only for Whisper fallback).
+   - `$WHISPER_CPP_BIN` + `$WHISPER_MODEL` env vars (needed only for Whisper fallback).
+3. For each URL, run:
+
+   ```bash
+   python .claude/skills/ingest/scripts/yt_fetch.py <url> --out-dir content/_raw/processed/
+   ```
+
+   On success, stdout is one-line JSON: `{video_id, title, archive_path, transcription, duration}`.
+   On failure, exit code is 2 (bad URL) or 3 (fetch failure), with the reason on stderr. **Skip that URL and continue with the rest.** Collect failures for the final report.
+
+4. Build a `Source` object per URL (in-memory, for Phase 1/2):
+
+   ```
+   Source { origin: "youtube", title, body=<archive file contents>, tokens (from title + chapters + first 2000 chars), meta (from frontmatter), raw_path=archive_path }
+   ```
+
+5. Inbox files (if any) also yield `Source` objects with `origin: "file"`. Phase 1 operates on the union.
+
+**Idempotency check.** Before fetching, scan `content/_indexes/catalog.md` and the topic-folder notes for any frontmatter with the same `video_id`. If a match exists, skip Phase 0 fetch for that URL and feed the existing source path into Phase 2 as an overlap-merge candidate.
 
 ### Phase 1 — Pre-scan
 
