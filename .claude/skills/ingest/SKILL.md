@@ -46,10 +46,10 @@ Skipped entirely for files-only invocations.
 ### Phase 1 — Pre-scan
 
 1. Read `content/_indexes/vault-map.md` to understand current vault structure.
-2. List `content/_raw/inbox/`. Collect filenames and file count. If empty, report "Inbox empty, nothing to process" and exit.
-3. **Cluster detection.** For each pair of inbox files:
-   - Tokenize titles: split on spaces, hyphens, underscores; lowercase; drop English/Polish stop-words.
-   - Read the first ~200 characters of each file body for additional tokens.
+2. List `content/_raw/inbox/` AND merge in any `Source` objects built by Phase 0. If both are empty, report "Inbox empty and no URLs provided, nothing to process" and exit.
+3. **Cluster detection.** For each pair of sources (file or YT):
+   - Tokenize titles (or YT video titles): split on spaces, hyphens, underscores; lowercase; drop English/Polish stop-words.
+   - Read the first ~200 characters of each source body (file content or transcript) for additional tokens. YT sources also contribute their channel name and chapter titles as tokens.
    - Group files sharing **≥2 distinctive tokens** OR one strong product-name token appearing in multiple titles.
    - A cluster requires **≥2 files** to form.
 4. **If any clusters exist, send the user one consolidated message** containing all clusters. Format:
