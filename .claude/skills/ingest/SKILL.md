@@ -139,6 +139,7 @@ If the checklist fails, surface the discrepancy and offer to fix before reportin
 | `yt-dlp` not on PATH | Abort whole call with install hint. |
 | Video unavailable / private / removed | Skip that URL, continue rest. Final report flags it. |
 | No captions AND Whisper fallback fails | Skip that URL. Final report names which step failed. |
+| Captions 429 / per-language failure | `yt_fetch.py` iterates languages individually with 15s back-off retry on HTTP 429, so a rate-limited or missing language no longer aborts the whole captions step. |
 | Classification ambiguous | Best-guess folder + `#todo/classification` tag (existing fallback). |
 | Network/timeout during fetch | `yt_fetch.py` returns non-zero; skill skips that URL. |
 | Phase 0 succeeds, Phase 2 fails mid-note | Transcript archive already in `_raw/processed/`; rerun targets it for completion. |

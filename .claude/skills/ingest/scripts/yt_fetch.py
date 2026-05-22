@@ -149,26 +149,59 @@ def fetch_metadata(url: str, timeout: int = 60) -> dict:
     return data
 
 
-def fetch_captions_vtt(url: str, langs: str = "en,en-US,en-GB,pl", timeout: int = 120) -> str | None:
-    """Download caption VTT for the URL. Returns VTT text or None if no captions available."""
-    if not yt_dlp_available():
-        raise YTFetchError("yt-dlp not on PATH")
-    with tempfile.TemporaryDirectory() as tmp:
-        out_template = os.path.join(tmp, "sub")
+import time
+
+
+_DEFAULT_LANGS = ("en", "en-US", "en-GB", "pl")
+
+
+def _try_one_lang(url: str, lang: str, out_template: str, timeout: int, retries: int = 2) -> bool:
+    """Try to fetch subs for a single language. Returns True on success, False on hard failure.
+
+    Retries on HTTP 429 with short backoff; treats "no subs for this lang" as a soft miss (False).
+    """
+    for attempt in range(retries + 1):
         try:
             subprocess.run(
                 [
                     "yt-dlp", "--write-subs", "--write-auto-subs",
-                    "--sub-langs", langs, "--sub-format", "vtt",
+                    "--sub-langs", lang, "--sub-format", "vtt",
                     "--skip-download", "--no-warnings",
                     "-o", out_template, url,
                 ],
                 capture_output=True, text=True, timeout=timeout, check=True,
             )
+            return True
         except subprocess.CalledProcessError as e:
-            raise YTFetchError(f"yt-dlp captions failed: {e.stderr.strip()[:500]}") from e
-        except subprocess.TimeoutExpired as e:
-            raise YTFetchError(f"yt-dlp captions timed out after {timeout}s") from e
+            err = (e.stderr or "").strip()
+            if "429" in err and attempt < retries:
+                time.sleep(15 * (attempt + 1))
+                continue
+            # 429 exhausted, or any other yt-dlp error for this language: treat as miss.
+            return False
+        except subprocess.TimeoutExpired:
+            return False
+    return False
+
+
+def fetch_captions_vtt(url: str, langs: str | tuple[str, ...] = _DEFAULT_LANGS, timeout: int = 120) -> str | None:
+    """Download caption VTT for the URL. Returns VTT text or None if no captions available.
+
+    Iterates per-language so a 429 / missing-subs on one language does not abort the rest.
+    Accepts either a comma-separated string (legacy) or a sequence of language codes.
+    """
+    if not yt_dlp_available():
+        raise YTFetchError("yt-dlp not on PATH")
+    if isinstance(langs, str):
+        lang_list = [x.strip() for x in langs.split(",") if x.strip()]
+    else:
+        lang_list = list(langs)
+
+    with tempfile.TemporaryDirectory() as tmp:
+        out_template = os.path.join(tmp, "sub")
+        for lang in lang_list:
+            if _try_one_lang(url, lang, out_template, timeout):
+                break  # stop at the first language that yields anything
 
         vtt_files = sorted(Path(tmp).glob("*.vtt"))
         if not vtt_files:
