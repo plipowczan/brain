@@ -33,5 +33,40 @@ class TestNormalizeUrl(unittest.TestCase):
         self.assertEqual(normalize_url("https://youtu.be/dQw4w9WgXcQ/"), "dQw4w9WgXcQ")
 
 
+from yt_fetch import parse_vtt, VttCue
+
+
+class TestParseVtt(unittest.TestCase):
+    SAMPLE = """WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.500
+Hello and welcome to the show.
+
+00:00:03.500 --> 00:00:07.000
+Today we're talking about Python.
+
+00:00:07.000 --> 00:00:10.000
+<c.colorE5E5E5>Let's dive in.</c>
+"""
+
+    def test_returns_cues_with_seconds(self):
+        cues = parse_vtt(self.SAMPLE)
+        self.assertEqual(len(cues), 3)
+        self.assertEqual(cues[0], VttCue(start=0.0, text="Hello and welcome to the show."))
+        self.assertEqual(cues[1].start, 3.5)
+        self.assertEqual(cues[2].text, "Let's dive in.")  # tags stripped
+
+    def test_empty_vtt_returns_empty(self):
+        self.assertEqual(parse_vtt("WEBVTT\n\n"), [])
+
+    def test_format_seconds_to_mmss(self):
+        from yt_fetch import format_timestamp
+        self.assertEqual(format_timestamp(0), "0:00")
+        self.assertEqual(format_timestamp(65), "1:05")
+        self.assertEqual(format_timestamp(3725), "1:02:05")
+
+
 if __name__ == "__main__":
     unittest.main()

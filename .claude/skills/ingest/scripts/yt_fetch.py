@@ -35,3 +35,55 @@ def normalize_url(url: str) -> str:
     if not _VIDEO_ID_RE.match(candidate):
         raise YTUrlError(f"Could not extract video_id from {url!r}")
     return candidate
+
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class VttCue:
+    start: float  # seconds
+    text: str
+
+
+_VTT_TIME_RE = re.compile(r"^(\d{2}):(\d{2}):(\d{2})\.(\d{3})\s*-->")
+_VTT_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def _vtt_time_to_seconds(h: str, m: str, s: str, ms: str) -> float:
+    return int(h) * 3600 + int(m) * 60 + int(s) + int(ms) / 1000.0
+
+
+def parse_vtt(vtt_text: str) -> list[VttCue]:
+    """Parse WebVTT into a list of cues. Strips styling tags and timing tags.
+
+    Coalesces consecutive identical-text cues (YouTube auto-captions emit many).
+    """
+    cues: list[VttCue] = []
+    lines = vtt_text.splitlines()
+    i = 0
+    while i < len(lines):
+        m = _VTT_TIME_RE.match(lines[i])
+        if not m:
+            i += 1
+            continue
+        start = _vtt_time_to_seconds(*m.groups())
+        i += 1
+        text_parts: list[str] = []
+        while i < len(lines) and lines[i].strip():
+            text_parts.append(_VTT_TAG_RE.sub("", lines[i]).strip())
+            i += 1
+        text = " ".join(p for p in text_parts if p)
+        if text and (not cues or cues[-1].text != text):
+            cues.append(VttCue(start=start, text=text))
+    return cues
+
+
+def format_timestamp(seconds: float) -> str:
+    """Format seconds as M:SS or H:MM:SS."""
+    s = int(seconds)
+    h, rem = divmod(s, 3600)
+    m, s = divmod(rem, 60)
+    if h:
+        return f"{h}:{m:02d}:{s:02d}"
+    return f"{m}:{s:02d}"
