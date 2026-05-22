@@ -1,4 +1,6 @@
 import unittest
+import tempfile
+from pathlib import Path
 from yt_fetch import normalize_url, YTUrlError
 
 
@@ -184,6 +186,36 @@ class TestWhisperPure(unittest.TestCase):
         self.assertEqual(len(cues), 2)
         self.assertEqual(cues[0], VttCue(start=0.0, text="Hello and welcome."))
         self.assertEqual(cues[1].start, 3.5)
+
+
+from yt_fetch import fetch_to_archive, FetchResult
+
+
+class TestFetchToArchive(unittest.TestCase):
+    def test_writes_file_and_returns_result(self):
+        import datetime
+        meta = {
+            "id": "abc12345678", "video_id": "abc12345678",
+            "title": "Demo", "channel": "Chan", "uploader_id": "@c",
+            "duration": 30, "upload_date": "20260101", "language": "en",
+            "tags": [], "categories": [], "chapters": [],
+            "webpage_url": "https://youtu.be/abc12345678",
+        }
+        cues = [VttCue(0.0, "hi")]
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp)
+            result = fetch_to_archive(
+                meta=meta, cues=cues, transcription="captions",
+                out_dir=out_dir, today=datetime.date(2026, 5, 22),
+                fetched_iso="2026-05-22T00:00:00Z",
+            )
+            self.assertIsInstance(result, FetchResult)
+            self.assertEqual(result.video_id, "abc12345678")
+            self.assertTrue(result.archive_path.exists())
+            self.assertEqual(result.archive_path.name, "2026-05-22_yt-abc12345678_demo.md")
+            content = result.archive_path.read_text(encoding="utf-8")
+            self.assertIn("video_id: abc12345678", content)
+            self.assertIn("[0:00] hi", content)
 
 
 if __name__ == "__main__":

@@ -309,3 +309,105 @@ def transcribe_with_whisper(url: str, timeout: int = 1800) -> list[VttCue]:
             # some whisper.cpp versions print to stdout
             return parse_whisper_output(proc.stdout)
         return parse_whisper_output(txt.read_text(encoding="utf-8"))
+
+
+import datetime
+import sys
+import argparse
+
+
+@dataclass(frozen=True)
+class FetchResult:
+    video_id: str
+    title: str
+    archive_path: Path
+    transcription: str  # "captions" | "whisper-large-v3"
+    duration: int
+
+
+def fetch_to_archive(
+    *,
+    meta: dict,
+    cues: list[VttCue],
+    transcription: str,
+    out_dir: Path,
+    today: datetime.date,
+    fetched_iso: str,
+) -> FetchResult:
+    """Write the archived source file. Pure I/O — no network."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    fname = archive_filename(today.isoformat(), meta["video_id"], meta["title"])
+    target = out_dir / fname
+    content = assemble_source_markdown(
+        meta=meta, cues=cues, transcription=transcription, fetched_iso=fetched_iso,
+    )
+    target.write_text(content, encoding="utf-8")
+    return FetchResult(
+        video_id=meta["video_id"],
+        title=meta["title"],
+        archive_path=target,
+        transcription=transcription,
+        duration=int(meta["duration"]),
+    )
+
+
+def process_url(url: str, out_dir: Path) -> FetchResult:
+    """End-to-end: URL → archived source file. Raises YTFetchError on failure."""
+    video_id = normalize_url(url)
+    meta = fetch_metadata(url)
+    meta["video_id"] = video_id
+
+    vtt = fetch_captions_vtt(url)
+    if vtt:
+        cues = parse_vtt(vtt)
+        transcription = "captions"
+    else:
+        if not whisper_available():
+            raise YTFetchError(
+                "No captions and whisper.cpp not configured "
+                "(set WHISPER_CPP_BIN and WHISPER_MODEL, install ffmpeg)"
+            )
+        cues = transcribe_with_whisper(url)
+        transcription = "whisper-large-v3"
+
+    if not cues:
+        raise YTFetchError("Transcript fetch returned no content")
+
+    return fetch_to_archive(
+        meta=meta, cues=cues, transcription=transcription,
+        out_dir=out_dir,
+        today=datetime.date.today(),
+        fetched_iso=datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+    )
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Fetch a YouTube video as a wiki source.")
+    parser.add_argument("url", help="YouTube URL")
+    parser.add_argument(
+        "--out-dir", required=True, type=Path,
+        help="Directory to write the archived source (e.g. content/_raw/processed/)",
+    )
+    args = parser.parse_args(argv)
+
+    try:
+        result = process_url(args.url, args.out_dir)
+    except YTUrlError as e:
+        print(f"ERROR url: {e}", file=sys.stderr)
+        return 2
+    except YTFetchError as e:
+        print(f"ERROR fetch: {e}", file=sys.stderr)
+        return 3
+
+    print(json.dumps({
+        "video_id": result.video_id,
+        "title": result.title,
+        "archive_path": str(result.archive_path),
+        "transcription": result.transcription,
+        "duration": result.duration,
+    }))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
