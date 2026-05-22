@@ -1,6 +1,6 @@
 ---
-updated: 2026-05-19T12:00:00Z
-entries: 234
+updated: 2026-05-22T20:30:00Z
+entries: 235
 ---
 # Note Catalog
 
@@ -43,6 +43,7 @@ entries: 234
 - **Harness Engineering** | knowledge-note | 2026-04-09 | [knowledge, info, ai, coding-agents, context-engineering, claude] | Configuring coding agent harness (CLAUDE.md, MCP, skills, sub-agents, hooks) to maximize output quality | → Agent Skills, Progressive Disclosure, Context Engineering, LLM Knowledge Bases, templates/knowledge_note_info
 - **LLM Knowledge Bases** | knowledge-note | 2026-04-05 | [knowledge, info, llm, knowledge-base, obsidian, ai] | Using LLMs to build and maintain personal knowledge bases — methodology described by Andrej Karpathy | → Obsidian, Building a Second Brain, Zettelkasten, Digital Garden, Harness Engineering, Autoresearch, templates/knowledge_note_info
 - **Progressive Disclosure** | knowledge-note | 2026-04-30 | [knowledge, info, ai, context-engineering, progressive-disclosure, agents, memory] | Index-first context priming — show what exists and retrieval cost, let the agent decide what to fetch | → Context Engineering, Harness Engineering, Agent Skills, LLM Knowledge Bases, Token Optimization for Claude Code, Graphify, Claude Code, Claude Code Best Practice, Brain, templates/knowledge_note_info
+- **Self-Improving Company** | knowledge-note | 2026-05-22 | [knowledge, info, ai, agents, self-improving, company-of-agents, yc, context-engineering] | Jared Friedman (YC) — rebuild companies as recursive self-improving AI loops; legible context as the asset, software as ephemeral, burn tokens not headcount | → Context Engineering, Agentic Coding, Agentic Systems, Agent Skills, LLM Knowledge Bases, Progressive Disclosure, Karpathy Skills, gstack, Claude Code, Personal AI Infrastructure, Brain, templates/knowledge_note_info
 - **Skills 2.0 Testing** | knowledge-note | 2026-03-08 | [knowledge, info, ai, skills, testing, agents] | Evolution from manual skills to tested, benchmarked, auto-triggered skill system with 4-agent eval pipeline | → Agent Skills, Agentic Systems, Claude Code, Context Engineering
 - **Specification-Driven Development** | knowledge-note | 2026-04-09 | [knowledge, info, ai, sdd, methodology] | OpenSpec framework — writing detailed specs before AI agents implement code | → Agentic Coding, Context Engineering, templates/knowledge_note_info
 - **Token Optimization for Claude Code** | knowledge-note | 2026-04-20 | [knowledge, info, ai, claude-code, token-optimization, cost-optimization, context-engineering] | Curated list of 10 open-source tools that reduce Claude Code token usage by 40–98% — proxies, context sandboxes, CLAUDE.md templates, code graphs | → Claude Code, Context Engineering, Harness Engineering, Agentic Systems, Qamera AI, Claude Code Best Practice, Agent Skills, Graphify, templates/knowledge_note_info
