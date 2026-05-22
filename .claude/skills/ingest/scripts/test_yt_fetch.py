@@ -171,5 +171,20 @@ class TestYtDlpIntegration(unittest.TestCase):
         self.assertTrue(result.startswith("WEBVTT"))
 
 
+from yt_fetch import whisper_available, transcribe_with_whisper, parse_whisper_output
+
+
+class TestWhisperPure(unittest.TestCase):
+    SAMPLE_WHISPER = """[00:00:00.000 --> 00:00:03.500]  Hello and welcome.
+[00:00:03.500 --> 00:00:07.000]  Today's topic is testing.
+"""
+
+    def test_parse_whisper_output(self):
+        cues = parse_whisper_output(self.SAMPLE_WHISPER)
+        self.assertEqual(len(cues), 2)
+        self.assertEqual(cues[0], VttCue(start=0.0, text="Hello and welcome."))
+        self.assertEqual(cues[1].start, 3.5)
+
+
 if __name__ == "__main__":
     unittest.main()

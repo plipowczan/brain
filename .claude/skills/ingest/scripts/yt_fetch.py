@@ -231,3 +231,81 @@ def assemble_source_markdown(
     ]
     body_lines = [f"[{format_timestamp(c.start)}] {c.text}" for c in cues]
     return "\n".join(fm + body_lines) + ("\n" if body_lines else "")
+
+
+_WHISPER_LINE_RE = re.compile(
+    r"^\[(\d{2}):(\d{2}):(\d{2})\.(\d{3})\s*-->\s*\d{2}:\d{2}:\d{2}\.\d{3}\]\s*(.*)$"
+)
+
+
+def whisper_available() -> bool:
+    bin_path = os.environ.get("WHISPER_CPP_BIN")
+    model_path = os.environ.get("WHISPER_MODEL")
+    return bool(bin_path and model_path and Path(bin_path).exists() and Path(model_path).exists())
+
+
+def parse_whisper_output(text: str) -> list[VttCue]:
+    """Parse whisper.cpp default stdout format into cues."""
+    cues: list[VttCue] = []
+    for line in text.splitlines():
+        m = _WHISPER_LINE_RE.match(line)
+        if not m:
+            continue
+        h, mm, s, ms, body = m.groups()
+        start = _vtt_time_to_seconds(h, mm, s, ms)
+        body = body.strip()
+        if body:
+            cues.append(VttCue(start=start, text=body))
+    return cues
+
+
+def transcribe_with_whisper(url: str, timeout: int = 1800) -> list[VttCue]:
+    """Download audio with yt-dlp and transcribe with whisper.cpp. Returns cues.
+
+    Requires WHISPER_CPP_BIN and WHISPER_MODEL env vars and ffmpeg on PATH.
+    """
+    if not yt_dlp_available():
+        raise YTFetchError("yt-dlp not on PATH")
+    if not shutil.which("ffmpeg"):
+        raise YTFetchError("ffmpeg not on PATH (required for audio extraction)")
+    bin_path = os.environ.get("WHISPER_CPP_BIN")
+    model_path = os.environ.get("WHISPER_MODEL")
+    if not (bin_path and model_path):
+        raise YTFetchError("WHISPER_CPP_BIN and WHISPER_MODEL env vars not set")
+    if not Path(bin_path).exists():
+        raise YTFetchError(f"WHISPER_CPP_BIN not found: {bin_path}")
+    if not Path(model_path).exists():
+        raise YTFetchError(f"WHISPER_MODEL not found: {model_path}")
+
+    with tempfile.TemporaryDirectory() as tmp:
+        audio = os.path.join(tmp, "audio.wav")
+        try:
+            subprocess.run(
+                [
+                    "yt-dlp", "-x", "--audio-format", "wav",
+                    "--no-warnings",
+                    "-o", os.path.join(tmp, "audio.%(ext)s"),
+                    url,
+                ],
+                capture_output=True, text=True, timeout=timeout, check=True,
+            )
+        except subprocess.CalledProcessError as e:
+            raise YTFetchError(f"yt-dlp audio failed: {e.stderr.strip()[:500]}") from e
+
+        if not Path(audio).exists():
+            raise YTFetchError("yt-dlp produced no audio.wav")
+
+        try:
+            proc = subprocess.run(
+                [bin_path, "-m", model_path, "-f", audio, "-otxt", "-of", os.path.join(tmp, "out")],
+                capture_output=True, text=True, timeout=timeout, check=True,
+            )
+        except subprocess.CalledProcessError as e:
+            raise YTFetchError(f"whisper.cpp failed: {e.stderr.strip()[:500]}") from e
+
+        # whisper.cpp -otxt writes <of>.txt with [HH:MM:SS.mmm --> HH:MM:SS.mmm]  text
+        txt = Path(os.path.join(tmp, "out.txt"))
+        if not txt.exists():
+            # some whisper.cpp versions print to stdout
+            return parse_whisper_output(proc.stdout)
+        return parse_whisper_output(txt.read_text(encoding="utf-8"))
