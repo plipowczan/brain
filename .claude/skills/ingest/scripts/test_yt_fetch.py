@@ -68,5 +68,29 @@ Today we're talking about Python.
         self.assertEqual(format_timestamp(3725), "1:02:05")
 
 
+from yt_fetch import slugify, archive_filename
+
+
+class TestSlugAndPath(unittest.TestCase):
+    def test_slugify_basic(self):
+        self.assertEqual(slugify("Hello, World!"), "hello-world")
+
+    def test_slugify_unicode(self):
+        self.assertEqual(slugify("Café Łódź"), "cafe-lodz")
+
+    def test_slugify_truncates_at_60(self):
+        long = "word " * 30
+        self.assertLessEqual(len(slugify(long)), 60)
+
+    def test_slugify_strips_edge_dashes(self):
+        self.assertEqual(slugify("--- weird ---"), "weird")
+
+    def test_archive_filename(self):
+        self.assertEqual(
+            archive_filename("2026-05-22", "dQw4w9WgXcQ", "Some Title!"),
+            "2026-05-22_yt-dQw4w9WgXcQ_some-title.md",
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

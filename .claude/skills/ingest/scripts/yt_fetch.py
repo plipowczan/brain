@@ -87,3 +87,28 @@ def format_timestamp(seconds: float) -> str:
     if h:
         return f"{h}:{m:02d}:{s:02d}"
     return f"{m}:{s:02d}"
+
+
+import unicodedata
+
+
+_TRANSLITERATE = str.maketrans(
+    "ÀÁÂÃÄÅàáâãäåÆæÇçÈÉÊËèéêëÌÍÎÏìíîïÐðÑñÒÓÔÕÖØòóôõöøÙÚÛÜùúûüÝýÿŁłŃńŚśŹźŻż",
+    "AAAAAAaaaaaaAaCcEEEEeeeeIIIIiiiiDdNnOOOOOOooooooUUUUuuuuYyyLlNnSsZzZz",
+)
+
+
+def slugify(text: str, max_len: int = 60) -> str:
+    """ASCII slug: lowercase, hyphenated, max_len chars."""
+    text = text.translate(_TRANSLITERATE)
+    normalized = unicodedata.normalize("NFKD", text)
+    ascii_text = normalized.encode("ascii", "ignore").decode("ascii")
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", ascii_text).strip("-").lower()
+    if len(slug) > max_len:
+        slug = slug[:max_len].rstrip("-")
+    return slug
+
+
+def archive_filename(date_str: str, video_id: str, title: str) -> str:
+    """Return the canonical archive filename for a YT source."""
+    return f"{date_str}_yt-{video_id}_{slugify(title)}.md"
