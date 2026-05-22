@@ -22,16 +22,13 @@ def normalize_url(url: str) -> str:
 
     Raises YTUrlError on anything that doesn't parse to a valid YT video id.
     """
-    try:
-        parsed = urlparse(url)
-    except ValueError as e:
-        raise YTUrlError(str(e)) from e
+    parsed = urlparse(url)
 
     if parsed.scheme not in {"http", "https"} or parsed.netloc not in _HOSTS:
         raise YTUrlError(f"Not a YouTube URL: {url!r}")
 
     if parsed.netloc == "youtu.be":
-        candidate = parsed.path.lstrip("/")
+        candidate = parsed.path.strip("/")
     else:
         candidate = parse_qs(parsed.query).get("v", [""])[0]
 

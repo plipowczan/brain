@@ -29,6 +29,9 @@ class TestNormalizeUrl(unittest.TestCase):
         with self.assertRaises(YTUrlError):
             normalize_url("not a url")
 
+    def test_short_url_with_trailing_slash(self):
+        self.assertEqual(normalize_url("https://youtu.be/dQw4w9WgXcQ/"), "dQw4w9WgXcQ")
+
 
 if __name__ == "__main__":
     unittest.main()
