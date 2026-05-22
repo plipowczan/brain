@@ -92,5 +92,55 @@ class TestSlugAndPath(unittest.TestCase):
         )
 
 
+from yt_fetch import assemble_source_markdown
+
+
+class TestAssembleSource(unittest.TestCase):
+    def test_minimal(self):
+        meta = {
+            "video_id": "abc12345678",
+            "title": "Test",
+            "channel": "Chan",
+            "uploader_id": "@chan",
+            "duration": 65,
+            "upload_date": "20260415",
+            "language": "en",
+            "tags": ["t1", "t2"],
+            "categories": ["Education"],
+            "chapters": [],
+            "webpage_url": "https://www.youtube.com/watch?v=abc12345678",
+        }
+        cues = [VttCue(0.0, "Line one."), VttCue(3.5, "Line two.")]
+        out = assemble_source_markdown(
+            meta=meta,
+            cues=cues,
+            transcription="captions",
+            fetched_iso="2026-05-22T14:30:00Z",
+        )
+        self.assertIn("video_id: abc12345678", out)
+        self.assertIn('source_url: https://www.youtube.com/watch?v=abc12345678', out)
+        self.assertIn("duration: 65", out)
+        self.assertIn('duration_human: "1:05"', out)
+        self.assertIn("published: 2026-04-15", out)
+        self.assertIn("transcription: captions", out)
+        self.assertIn("# Test", out)
+        self.assertIn("[0:00] Line one.", out)
+        self.assertIn("[0:03] Line two.", out)
+
+    def test_with_chapters(self):
+        meta = {
+            "video_id": "abc12345678", "title": "T", "channel": "C", "uploader_id": "@c",
+            "duration": 200, "upload_date": "20260101", "language": "en",
+            "tags": [], "categories": [], "webpage_url": "https://youtu.be/abc12345678",
+            "chapters": [
+                {"start_time": 0, "title": "Intro"},
+                {"start_time": 120, "title": "Main"},
+            ],
+        }
+        out = assemble_source_markdown(meta=meta, cues=[], transcription="captions", fetched_iso="2026-05-22T00:00:00Z")
+        self.assertIn("- { start: 0, title: \"Intro\" }", out)
+        self.assertIn("- { start: 120, title: \"Main\" }", out)
+
+
 if __name__ == "__main__":
     unittest.main()

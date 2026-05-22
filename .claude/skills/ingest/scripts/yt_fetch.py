@@ -112,3 +112,60 @@ def slugify(text: str, max_len: int = 60) -> str:
 def archive_filename(date_str: str, video_id: str, title: str) -> str:
     """Return the canonical archive filename for a YT source."""
     return f"{date_str}_yt-{video_id}_{slugify(title)}.md"
+
+
+import json
+
+
+def _yaml_str(s: str) -> str:
+    """Quote string for safe YAML inclusion."""
+    return json.dumps(s, ensure_ascii=False)
+
+
+def _yaml_list(items: list) -> str:
+    return "[" + ", ".join(_yaml_str(str(x)) for x in items) + "]"
+
+
+def assemble_source_markdown(
+    *,
+    meta: dict,
+    cues: list[VttCue],
+    transcription: str,
+    fetched_iso: str,
+) -> str:
+    """Build the full archived-source markdown (frontmatter + body)."""
+    upload = meta["upload_date"]  # YYYYMMDD
+    published = f"{upload[0:4]}-{upload[4:6]}-{upload[6:8]}"
+    duration = int(meta["duration"])
+    duration_human = format_timestamp(duration)
+
+    chapter_lines = []
+    for ch in meta.get("chapters") or []:
+        title = ch.get("title", "")
+        start = int(ch.get("start_time", 0))
+        chapter_lines.append(f'  - {{ start: {start}, title: {_yaml_str(title)} }}')
+    chapters_block = "chapters:\n" + ("\n".join(chapter_lines) if chapter_lines else "  []")
+
+    fm = [
+        "---",
+        f"video_id: {meta['video_id']}",
+        f"source_url: {meta['webpage_url']}",
+        f"title: {_yaml_str(meta['title'])}",
+        f"channel: {_yaml_str(meta['channel'])}",
+        f"uploader_id: {_yaml_str(meta.get('uploader_id', ''))}",
+        f"duration: {duration}",
+        f"duration_human: {_yaml_str(duration_human)}",
+        f"published: {published}",
+        f"language: {meta.get('language') or 'unknown'}",
+        f"transcription: {transcription}",
+        chapters_block,
+        f"tags: {_yaml_list(meta.get('tags') or [])}",
+        f"categories: {_yaml_list(meta.get('categories') or [])}",
+        f"fetched: {fetched_iso}",
+        "---",
+        "",
+        f"# {meta['title']}",
+        "",
+    ]
+    body_lines = [f"[{format_timestamp(c.start)}] {c.text}" for c in cues]
+    return "\n".join(fm + body_lines) + ("\n" if body_lines else "")
