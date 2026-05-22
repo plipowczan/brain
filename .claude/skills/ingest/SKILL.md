@@ -118,15 +118,36 @@ Phase 2 is autonomous. No per-file confirmation. Cluster decisions were already 
 
     ```
     Ingest complete.
-    - Processed: X files
-    - Created:   Y new notes
-    - Merged:    Z into existing notes
+    - Processed: X sources (F files, Y YouTube URLs)
+    - Created:   N new notes
+    - Merged:    M into existing notes
     - Attachments moved: W
+    - YouTube:   captions=A, whisper=B, failed=C
     - Indexes:   ✅ vault-map / catalog / graph
+    Failures (if any):
+      - <url> — <reason>
     Inbox now empty.
     ```
 
 If the checklist fails, surface the discrepancy and offer to fix before reporting completion.
+
+## Failure Handling
+
+| Failure | Behavior |
+|---|---|
+| Argument is non-empty but not a YT URL | Abort whole `/ingest` call before Phase 0; report bad arg. |
+| `yt-dlp` not on PATH | Abort whole call with install hint. |
+| Video unavailable / private / removed | Skip that URL, continue rest. Final report flags it. |
+| No captions AND Whisper fallback fails | Skip that URL. Final report names which step failed. |
+| Classification ambiguous | Best-guess folder + `#todo/classification` tag (existing fallback). |
+| Network/timeout during fetch | `yt_fetch.py` returns non-zero; skill skips that URL. |
+| Phase 0 succeeds, Phase 2 fails mid-note | Transcript archive already in `_raw/processed/`; rerun targets it for completion. |
+
+## Prerequisites
+
+- `yt-dlp` on PATH — required for any YT URL.
+- `ffmpeg` on PATH — required only when captions are unavailable (Whisper fallback).
+- `$WHISPER_CPP_BIN` + `$WHISPER_MODEL` env vars — required only for Whisper fallback. Default model: `ggml-large-v3.bin`.
 
 ## See also
 
