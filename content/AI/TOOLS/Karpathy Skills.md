@@ -122,7 +122,9 @@ For my setup it's worth cherry-picking rule #4 into my main `~/.claude/CLAUDE.md
 ## 🔗 Resources
 
 - Karpathy observations (X): https://x.com/karpathy/status/2015883857489522876
-- Multica (related project by the author): https://github.com/multica-ai/multica
+- Multica (related project by the author, Jiayuan): https://github.com/multica-ai/multica
+- Multica-ai mirror of the skills repo: https://github.com/multica-ai/andrej-karpathy-skills
+- Author X handle: https://x.com/jiayuan_jy
 - License: MIT
 - [[Superpowers]] — a methodology framework that enforces Karpathy-style discipline via 7 mandatory skills
 - [[gstack]] — the opposite extreme (23+ opinionated role-skills instead of 1 CLAUDE.md)

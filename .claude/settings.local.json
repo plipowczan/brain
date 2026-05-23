@@ -57,7 +57,12 @@
       "Bash(cat)",
       "Bash(sed -n '187,197p' C:/Users/pawel/Development/Repositories/brain/CLAUDE.md)",
       "Read(//tmp/**)",
-      "PowerShell(Get-ChildItem -LiteralPath 'C:\\\\PROJEKTY\\\\brain\\\\content\\\\_raw\\\\inbox\\\\' -Force | ForEach-Object { \"{0}`t{1}\" -f $_.Length, $_.Name })"
+      "PowerShell(Get-ChildItem -LiteralPath 'C:\\\\PROJEKTY\\\\brain\\\\content\\\\_raw\\\\inbox\\\\' -Force | ForEach-Object { \"{0}`t{1}\" -f $_.Length, $_.Name })",
+      "Bash(cp -r /c/PROJEKTY/Deep-Research-skills/skills/research-en /c/PROJEKTY/brain/.claude/skills/research-en)",
+      "Bash(cp -r /c/PROJEKTY/Deep-Research-skills/skills/research-en /c/PROJEKTY/shared-skills/skills/research-en)",
+      "Read(//c/PROJEKTY/shared-skills/skills/**)",
+      "Bash(git mv *)",
+      "Skill(reindex)"
     ]
   }
 }
