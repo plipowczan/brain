@@ -1,6 +1,6 @@
 ---
-updated: 2026-05-22T20:30:00Z
-entries: 235
+updated: 2026-05-26T00:00:00Z
+entries: 236
 ---
 # Note Catalog
 
@@ -112,10 +112,11 @@ entries: 235
 - **Autonomous Sales Agent Playbook** | knowledge-note | 2026-04-14 | [knowledge, info, business, ai, agents, sales, automation, lead-generation] | Playbook for building autonomous AI sales agents replacing $1.4k/mo SaaS stacks with ~$20/mo agent architecture | → AI/KNOWLEDGE/INFO/Agentic Coding, BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, templates/knowledge_note_info
 - **Build in Public** | knowledge-note | 2026-04-09 | [knowledge, info, business, branding, linkedin] | Strategy of sharing the building process transparently — for trust, audience, and accountability | → Qamera AI, Agentic Systems, LinkedIn Strategy, My career path, templates/knowledge_note_info
 - **Data Maturity Model** | knowledge-note | 2025-12-21 | [knowledge, info, business, data, ai] | 5-level data maturity model: Ad-hoc → Consolidation → Standardization → Optimization → Innovation | → Airtable, Make, n8n, Claude Code
-- **LinkedIn Strategy** | knowledge-note | 2026-04-09 | [knowledge, info, business, linkedin, branding, content] | Data-driven LinkedIn publishing strategy — formats, timing, content pillars | → Agentic Coding, Qamera AI, Build in Public, templates/knowledge_note_info
+- **LinkedIn Strategy** | knowledge-note | 2026-04-09 | [knowledge, info, business, linkedin, branding, content] | Data-driven LinkedIn publishing strategy — formats, timing, content pillars | → Agentic Coding, Qamera AI, Build in Public, Richard van der Blom, templates/knowledge_note_info
 - **Lean Canvas** | knowledge-note | 2026-05-19 | [knowledge, info, business, startup, lean-startup, business-model, methodology] | Ash Maurya's one-page business model template — nine segments (problem, segments, UVP, solution, unfair advantage, revenue, costs, channels, key metrics) | → Process Mapping, AI 70-20-10 Rule, Autonomous Sales Agent Playbook, Millionaire Fastlane, Principles, templates/knowledge_note_info
 - **Process Mapping** | knowledge-note | 2025-12-01 | [knowledge, info, business, processes, optimization] | Process mapping methodology — 4 elements (Action, Actor, Tool, Mode), optimization via delete → simplify → automate | → Make, n8n, El Padre Case Study, Airtable, Agentic Systems, UX RULER, OpenSpec, OPSX Workflow, 2026-05-16_PRD-z-analizy-i-oferty, Specification-Driven Development
 - **Product-Market Fit** | knowledge-note | 2026-04-09 | [knowledge, info, business, pmf, startup] | When your product satisfies strong market demand — the key milestone for startups | → Qamera AI, Company of one, Principles, templates/knowledge_note_info
+- **Richard van der Blom** | knowledge-note | 2026-05-26 | [knowledge, info, business, linkedin, branding, influencer, algorithm] | Dutch LinkedIn algorithm researcher — Algorithm Insights Report, Just Connecting agency, TRIBE community, Narify advocacy tool | → LinkedIn Strategy, Build in Public, templates/knowledge_note_info
 
 ## BUSINESS/NOTES
 - **El Padre Case Study** | basic-note | 2025-11-16 | [basic, case-study, ai, automation, events] | Event agency AI offer automation — 10-50% faster, 75-120h/mo saved, ROI at 2-3 FTE equivalent | → Make, Airtable, Agentic Systems

@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-22T20:30:00Z
-nodes: 235
-edges: 978
+updated: 2026-05-26T00:00:00Z
+nodes: 236
+edges: 982
 ---
 # Link Graph
 
@@ -84,7 +84,8 @@ BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule -> cb75edfabdae0e14de79e12ef4ce24ab_MD5
 BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook -> AI/KNOWLEDGE/INFO/Agentic Coding, BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, templates/knowledge_note_info
 BUSINESS/KNOWLEDGE/INFO/Build in Public -> PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, ABOUT/My career path, templates/knowledge_note_info
 BUSINESS/KNOWLEDGE/INFO/Data Maturity Model -> BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, AI/TOOLS/Claude Code
-BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy -> AI/KNOWLEDGE/INFO/Agentic Coding, PROJECTS/QAMERA-AI/Qamera AI, BUSINESS/KNOWLEDGE/INFO/Build in Public, templates/knowledge_note_info
+BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy -> AI/KNOWLEDGE/INFO/Agentic Coding, PROJECTS/QAMERA-AI/Qamera AI, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Richard van der Blom, templates/knowledge_note_info
+BUSINESS/KNOWLEDGE/INFO/Richard van der Blom -> BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Build in Public, templates/knowledge_note_info
 BUSINESS/KNOWLEDGE/INFO/Process Mapping -> BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Airtable, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, AI/TOOLS/UX RULER, CODE/TOOLS/OpenSpec, CODE/TOOLS/OPSX Workflow, 2026-05-16_PRD-z-analizy-i-oferty, AI/KNOWLEDGE/INFO/Specification-Driven Development
 BUSINESS/KNOWLEDGE/INFO/Product-Market Fit -> PROJECTS/QAMERA-AI/Qamera AI, BUSINESS/BOOKS/Company of one, ABOUT/Principles, templates/knowledge_note_info
 BUSINESS/NOTES/El Padre Case Study -> BUSINESS/TOOLS/Make, BUSINESS/TOOLS/Airtable, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
@@ -342,8 +343,9 @@ BUSINESS/BOOKS/Millionaire Fastlane <- ABOUT/Principles, LIFE/NOTES/Reading list
 BUSINESS/BOOKS/The Inevitable <- LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly
 BUSINESS/BOOKS/The One Thing <- LIFE/NOTES/Reading list
 BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook <- AI/TOOLS/Paperclip, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule
-BUSINESS/KNOWLEDGE/INFO/Build in Public <- ABOUT/My career path, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe
-BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy <- AI/TOOLS/Hermes Agent, BUSINESS/KNOWLEDGE/INFO/Build in Public
+BUSINESS/KNOWLEDGE/INFO/Build in Public <- ABOUT/My career path, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Richard van der Blom, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe
+BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy <- AI/TOOLS/Hermes Agent, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Richard van der Blom
+BUSINESS/KNOWLEDGE/INFO/Richard van der Blom <- BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy
 BUSINESS/KNOWLEDGE/INFO/Process Mapping <- CODE/TOOLS/OPSX Workflow
 BUSINESS/KNOWLEDGE/INFO/Product-Market Fit <- ABOUT/My career path, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule
 BUSINESS/NOTES/El Padre Case Study <- BUSINESS/KNOWLEDGE/INFO/Process Mapping, CODE/TOOLS/OPSX Workflow

@@ -44,7 +44,8 @@ My approach to LinkedIn content, based on data from 31 posts analyzed (Feb-Apr 2
 3. **Backstage** — building in public, challenges, learnings
 
 ## 📖 Further reading
-[[Build in Public]]
+- [[Build in Public]]
+- [[Richard van der Blom]] — external LinkedIn algorithm research and Algorithm Insights Report
 
 ---
 Template: [[templates/knowledge_note_info]]
