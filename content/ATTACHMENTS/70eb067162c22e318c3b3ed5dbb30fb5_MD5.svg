@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-label="Why incremental? — CocoIndex's four production benefits in one illustration. Sub-second fresh: the incremental engine propagates source changes to the target in under a second, so agents see the world as it is, not as it was yesterday. 10× cheaper at scale: only the Δ is recomputed on every change — you skip the other 99.9% of your corpus and pay a fraction of the compute, embedding, and LLM bill. Explainable by default: every vector, row, or graph node in the target traces back to its exact source byte — end-to-end lineage for debuggable, auditable, regulator-friendly AI pipelines. Production-grade: Rust core with retries, exponential back-off, dead-letter queues, and no-data-loss guarantees — production-ready for long-horizon AI agents. Keywords: incremental indexing, Δ-only reprocessing, low-latency RAG, sub-second freshness, cost-efficient embeddings, data lineage, retrieval-augmented generation, Rust core, retries, back-off, dead letters, no data loss, long-horizon agents.">
+  <title>Why incremental? · Sub-second fresh · 10× cheaper · Explainable · Production-grade</title>
+  <desc>One wide illustration combining the four core benefits of CocoIndex's incremental engine, each rendered as its own scene: a stopwatch ticking under a second (sub-second fresh, mint), a corpus block where only a thin slice re-runs while 99.9% stays cached (10× cheaper, yellow), a lineage thread linking a source byte to a target vector (explainable, coral), and a shield stamped with the Rust crab flanked by retry loops and a dead-letter queue (production-grade, purple).</desc>
+
+  <defs>
+    <linearGradient id="wi-title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FFD94A"/>
+      <stop offset="50%"  stop-color="#FF8A9B"/>
+      <stop offset="100%" stop-color="#6DFFB0"/>
+    </linearGradient>
+
+    <style>
+      .tick   { transform-box: fill-box; transform-origin: 50% 100%; animation: tk 1s steps(60,end) infinite; }
+      @keyframes tk { to { transform: rotate(360deg) } }
+      .pulse  { transform-box: fill-box; transform-origin: center; animation: p 2s ease-in-out infinite; }
+      @keyframes p { 0%,100% { opacity: 1; transform: scale(1) } 50% { opacity: 0.55; transform: scale(1.18) } }
+      .flow   { stroke-dasharray: 4 6; animation: mv 1.6s linear infinite; }
+      @keyframes mv { from { stroke-dashoffset: 0 } to { stroke-dashoffset: -20 } }
+      .glint  { animation: gl 3.2s ease-in-out infinite; }
+      @keyframes gl { 0%,100% { opacity: 0.35 } 50% { opacity: 1 } }
+      .retry  { transform-box: fill-box; transform-origin: center; animation: sp 3.6s linear infinite; }
+      @keyframes sp { to { transform: rotate(360deg) } }
+      .dlq    { animation: d 2.8s ease-in-out infinite; }
+      @keyframes d { 0%,100% { opacity: 0.6 } 50% { opacity: 1 } }
+      .cs     { animation: cs 1.8s ease-in-out infinite; }
+      @keyframes cs { 0%,100% { fill: #FFD94A } 50% { fill: #FF8A9B } }
+    </style>
+  </defs>
+
+  <!-- GitHub dark canvas, baked in so it looks good on any README background -->
+  <rect width="1200" height="420" fill="#0D1117"/>
+
+  <!-- ===================== PANEL 1 · SUB-SECOND FRESH (MINT) ===================== -->
+  <g transform="translate(40, 20)">
+    <text x="24" y="30" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" letter-spacing="0.22em" font-weight="800" fill="#6DFFB0">01 · LATENCY</text>
+    <circle class="pulse" cx="246" cy="24" r="4" fill="#6DFFB0"/>
+
+    <!-- Stopwatch -->
+    <g transform="translate(0, 0)">
+      <!-- crown / button -->
+      <rect x="161" y="60" width="18" height="10" rx="2" fill="#6DFFB0"/>
+      <rect x="165" y="54" width="10" height="8" rx="2" fill="rgba(109,255,176,0.55)"/>
+      <!-- outer ring -->
+      <circle cx="170" cy="150" r="78" fill="none" stroke="#6DFFB0" stroke-width="4"/>
+      <!-- tick marks -->
+      <g stroke="#6DFFB0" stroke-width="2" stroke-linecap="round" opacity="0.55">
+        <line x1="170" y1="78"  x2="170" y2="86"/>
+        <line x1="242" y1="150" x2="234" y2="150"/>
+        <line x1="170" y1="222" x2="170" y2="214"/>
+        <line x1="98"  y1="150" x2="106" y2="150"/>
+        <line x1="221" y1="99"  x2="216" y2="104"/>
+        <line x1="221" y1="201" x2="216" y2="196"/>
+        <line x1="119" y1="201" x2="124" y2="196"/>
+        <line x1="119" y1="99"  x2="124" y2="104"/>
+      </g>
+      <!-- sweeping hand — rect anchored at clock center, rotates around its own bottom -->
+      <g transform="translate(170, 150)">
+        <rect class="tick" x="-1.5" y="-56" width="3" height="56" rx="1.5" fill="#6DFFB0"/>
+        <circle cx="0" cy="0" r="5" fill="#6DFFB0"/>
+      </g>
+      <!-- readout -->
+      <text x="170" y="178" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-size="22" font-weight="900" fill="#6DFFB0" letter-spacing="-0.02em">&lt; 1s</text>
+      <text x="170" y="196" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-size="8" letter-spacing="0.22em" font-weight="700" fill="rgba(109,255,176,0.7)">SOURCE → TARGET</text>
+    </g>
+
+    <!-- heading + desc -->
+    <text x="135" y="268" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="20" font-weight="800" fill="#6DFFB0">Sub-second fresh</text>
+    <text x="135" y="296" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="rgba(252,243,216,0.78)">Agents see the world as it is,</text>
+    <text x="135" y="312" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="rgba(252,243,216,0.78)">not as it was yesterday.</text>
+  </g>
+
+  <!-- ===================== PANEL 2 · 10× CHEAPER AT SCALE (YELLOW) ===================== -->
+  <g transform="translate(320, 20)">
+    <text x="24" y="30" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" letter-spacing="0.22em" font-weight="800" fill="#FFD94A">02 · COST</text>
+    <circle class="pulse" cx="246" cy="24" r="4" fill="#FFD94A" style="animation-delay:0.3s"/>
+
+    <!-- Corpus block: 10 columns × 10 rows of tiny rects. One column re-runs, rest are cached gray. -->
+    <g transform="translate(35, 58)">
+      <!-- frame -->
+      <rect x="-8" y="-8" width="216" height="146" rx="8" fill="rgba(255,217,74,0.04)" stroke="rgba(255,217,74,0.22)" stroke-width="1"/>
+      <text x="0" y="-14" font-family="JetBrains Mono, ui-monospace, monospace" font-size="8" letter-spacing="0.2em" font-weight="700" fill="rgba(255,217,74,0.75)">CORPUS · 1M ROWS</text>
+
+      <!-- Static gray rows (cached) -->
+      <g fill="rgba(252,243,216,0.14)" stroke="rgba(252,243,216,0.12)" stroke-width="0.5">
+        <!-- rows of 10 columns, 20x10 tiles; skip index 3 (the Δ column) -->
+        <!-- r0 -->
+        <rect x="0" y="0"  width="18" height="10" rx="2"/><rect x="20" y="0"  width="18" height="10" rx="2"/><rect x="40" y="0"  width="18" height="10" rx="2"/>
+        <rect x="80" y="0"  width="18" height="10" rx="2"/><rect x="100" y="0" width="18" height="10" rx="2"/><rect x="120" y="0" width="18" height="10" rx="2"/><rect x="140" y="0" width="18" height="10" rx="2"/><rect x="160" y="0" width="18" height="10" rx="2"/><rect x="180" y="0" width="18" height="10" rx="2"/>
+        <!-- r1 -->
+        <rect x="0" y="14" width="18" height="10" rx="2"/><rect x="20" y="14" width="18" height="10" rx="2"/><rect x="40" y="14" width="18" height="10" rx="2"/>
+        <rect x="80" y="14" width="18" height="10" rx="2"/><rect x="100" y="14" width="18" height="10" rx="2"/><rect x="120" y="14" width="18" height="10" rx="2"/><rect x="140" y="14" width="18" height="10" rx="2"/><rect x="160" y="14" width="18" height="10" rx="2"/><rect x="180" y="14" width="18" height="10" rx="2"/>
+        <!-- r2 -->
+        <rect x="0" y="28" width="18" height="10" rx="2"/><rect x="20" y="28" width="18" height="10" rx="2"/><rect x="40" y="28" width="18" height="10" rx="2"/>
+        <rect x="80" y="28" width="18" height="10" rx="2"/><rect x="100" y="28" width="18" height="10" rx="2"/><rect x="120" y="28" width="18" height="10" rx="2"/><rect x="140" y="28" width="18" height="10" rx="2"/><rect x="160" y="28" width="18" height="10" rx="2"/><rect x="180" y="28" width="18" height="10" rx="2"/>
+        <!-- r3 -->
+        <rect x="0" y="42" width="18" height="10" rx="2"/><rect x="20" y="42" width="18" height="10" rx="2"/><rect x="40" y="42" width="18" height="10" rx="2"/>
+        <rect x="80" y="42" width="18" height="10" rx="2"/><rect x="100" y="42" width="18" height="10" rx="2"/><rect x="120" y="42" width="18" height="10" rx="2"/><rect x="140" y="42" width="18" height="10" rx="2"/><rect x="160" y="42" width="18" height="10" rx="2"/><rect x="180" y="42" width="18" height="10" rx="2"/>
+        <!-- r4 -->
+        <rect x="0" y="56" width="18" height="10" rx="2"/><rect x="20" y="56" width="18" height="10" rx="2"/><rect x="40" y="56" width="18" height="10" rx="2"/>
+        <rect x="80" y="56" width="18" height="10" rx="2"/><rect x="100" y="56" width="18" height="10" rx="2"/><rect x="120" y="56" width="18" height="10" rx="2"/><rect x="140" y="56" width="18" height="10" rx="2"/><rect x="160" y="56" width="18" height="10" rx="2"/><rect x="180" y="56" width="18" height="10" rx="2"/>
+        <!-- r5 -->
+        <rect x="0" y="70" width="18" height="10" rx="2"/><rect x="20" y="70" width="18" height="10" rx="2"/><rect x="40" y="70" width="18" height="10" rx="2"/>
+        <rect x="80" y="70" width="18" height="10" rx="2"/><rect x="100" y="70" width="18" height="10" rx="2"/><rect x="120" y="70" width="18" height="10" rx="2"/><rect x="140" y="70" width="18" height="10" rx="2"/><rect x="160" y="70" width="18" height="10" rx="2"/><rect x="180" y="70" width="18" height="10" rx="2"/>
+        <!-- r6 -->
+        <rect x="0" y="84" width="18" height="10" rx="2"/><rect x="20" y="84" width="18" height="10" rx="2"/><rect x="40" y="84" width="18" height="10" rx="2"/>
+        <rect x="80" y="84" width="18" height="10" rx="2"/><rect x="100" y="84" width="18" height="10" rx="2"/><rect x="120" y="84" width="18" height="10" rx="2"/><rect x="140" y="84" width="18" height="10" rx="2"/><rect x="160" y="84" width="18" height="10" rx="2"/><rect x="180" y="84" width="18" height="10" rx="2"/>
+        <!-- r7 -->
+        <rect x="0" y="98" width="18" height="10" rx="2"/><rect x="20" y="98" width="18" height="10" rx="2"/><rect x="40" y="98" width="18" height="10" rx="2"/>
+        <rect x="80" y="98" width="18" height="10" rx="2"/><rect x="100" y="98" width="18" height="10" rx="2"/><rect x="120" y="98" width="18" height="10" rx="2"/><rect x="140" y="98" width="18" height="10" rx="2"/><rect x="160" y="98" width="18" height="10" rx="2"/><rect x="180" y="98" width="18" height="10" rx="2"/>
+        <!-- r8 -->
+        <rect x="0" y="112" width="18" height="10" rx="2"/><rect x="20" y="112" width="18" height="10" rx="2"/><rect x="40" y="112" width="18" height="10" rx="2"/>
+        <rect x="80" y="112" width="18" height="10" rx="2"/><rect x="100" y="112" width="18" height="10" rx="2"/><rect x="120" y="112" width="18" height="10" rx="2"/><rect x="140" y="112" width="18" height="10" rx="2"/><rect x="160" y="112" width="18" height="10" rx="2"/><rect x="180" y="112" width="18" height="10" rx="2"/>
+      </g>
+
+      <!-- Live Δ column (re-computed) — color cycles yellow ↔ coral, staggered -->
+      <g>
+        <rect class="cs" x="60" y="0"   width="18" height="10" rx="2" fill="#FFD94A"/>
+        <rect class="cs" x="60" y="14"  width="18" height="10" rx="2" fill="#FFD94A" style="animation-delay:0.15s"/>
+        <rect class="cs" x="60" y="28"  width="18" height="10" rx="2" fill="#FFD94A" style="animation-delay:0.30s"/>
+        <rect class="cs" x="60" y="42"  width="18" height="10" rx="2" fill="#FFD94A" style="animation-delay:0.45s"/>
+        <rect class="cs" x="60" y="56"  width="18" height="10" rx="2" fill="#FFD94A" style="animation-delay:0.60s"/>
+        <rect class="cs" x="60" y="70"  width="18" height="10" rx="2" fill="#FFD94A" style="animation-delay:0.75s"/>
+        <rect class="cs" x="60" y="84"  width="18" height="10" rx="2" fill="#FFD94A" style="animation-delay:0.90s"/>
+        <rect class="cs" x="60" y="98"  width="18" height="10" rx="2" fill="#FFD94A" style="animation-delay:1.05s"/>
+        <rect class="cs" x="60" y="112" width="18" height="10" rx="2" fill="#FFD94A" style="animation-delay:1.20s"/>
+      </g>
+
+      <!-- Δ badge — pill style: lighter yellow, centered mono label -->
+      <g transform="translate(170, -18)">
+        <rect x="-28" y="-11" width="56" height="22" rx="11" fill="#FFE98A"/>
+        <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" letter-spacing="0.14em" font-weight="800" fill="#3D2D00">Δ 0.1%</text>
+      </g>
+
+      <!-- footnote -->
+      <text x="0" y="152" font-family="JetBrains Mono, ui-monospace, monospace" font-size="8" letter-spacing="0.18em" fill="rgba(252,243,216,0.55)">99.9% CACHED · SKIPPED</text>
+    </g>
+
+    <!-- heading + desc -->
+    <text x="135" y="268" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="20" font-weight="800" fill="#FFD94A">10× cheaper at scale</text>
+    <text x="135" y="296" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="rgba(252,243,216,0.78)">Run only the Δ — skip the other</text>
+    <text x="135" y="312" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="rgba(252,243,216,0.78)">99.9% of your corpus.</text>
+  </g>
+
+  <!-- ===================== PANEL 3 · EXPLAINABLE BY DEFAULT (CORAL) ===================== -->
+  <g transform="translate(600, 20)">
+    <text x="24" y="30" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" letter-spacing="0.22em" font-weight="800" fill="#FF8A9B">03 · LINEAGE</text>
+    <circle class="pulse" cx="246" cy="24" r="4" fill="#FF8A9B" style="animation-delay:0.6s"/>
+
+    <!-- Source file on top-left, vector on bottom-right, with thread -->
+    <g>
+      <!-- SOURCE file card -->
+      <g transform="translate(24, 56)">
+        <rect width="108" height="68" rx="8" fill="rgba(127,216,255,0.10)" stroke="rgba(127,216,255,0.45)" stroke-width="1"/>
+        <rect x="8" y="8" width="14" height="14" rx="2" fill="#FFD94A"/>
+        <text x="11" y="19" font-family="JetBrains Mono, ui-monospace, monospace" font-size="7" font-weight="800" fill="#3D2D00">md</text>
+        <text x="28" y="19" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" font-weight="700" fill="#FCF3D8">handbook.md</text>
+        <line x1="8"  y1="34" x2="98" y2="34" stroke="rgba(252,243,216,0.18)" stroke-width="1"/>
+        <line x1="8"  y1="44" x2="72" y2="44" stroke="rgba(252,243,216,0.24)" stroke-width="1"/>
+        <line x1="8"  y1="52" x2="92" y2="52" stroke="#FF8A9B" stroke-width="1.8"/>
+        <line x1="8"  y1="60" x2="56" y2="60" stroke="rgba(252,243,216,0.24)" stroke-width="1"/>
+        <text x="100" y="54" text-anchor="end" font-family="JetBrains Mono, ui-monospace, monospace" font-size="7" fill="#FF8A9B" font-weight="700">L42</text>
+        <circle class="pulse" cx="100" cy="52" r="3.5" fill="#FF8A9B"/>
+      </g>
+
+      <!-- Lineage thread (dashed, flowing) -->
+      <path class="flow" d="M132 108 C 170 140, 140 170, 200 190" fill="none" stroke="#FF8A9B" stroke-width="2" stroke-linecap="round"/>
+      <!-- intermediate beads -->
+      <circle class="glint" cx="152" cy="126" r="2.4" fill="#FF8A9B"/>
+      <circle class="glint" cx="165" cy="146" r="2.4" fill="#FF8A9B" style="animation-delay:0.4s"/>
+      <circle class="glint" cx="170" cy="166" r="2.4" fill="#FF8A9B" style="animation-delay:0.8s"/>
+      <circle class="glint" cx="185" cy="182" r="2.4" fill="#FF8A9B" style="animation-delay:1.2s"/>
+
+      <!-- TARGET vector card -->
+      <g transform="translate(138, 154)">
+        <rect width="108" height="68" rx="8" fill="rgba(109,255,176,0.10)" stroke="rgba(109,255,176,0.45)" stroke-width="1"/>
+        <!-- vector grid -->
+        <g>
+          <circle cx="16" cy="18" r="3.5" fill="#7FD8FF"/>
+          <circle cx="32" cy="18" r="3.5" fill="#FFD94A"/>
+          <circle cx="48" cy="18" r="3.5" fill="#C9B3FF"/>
+          <circle cx="64" cy="18" r="3.5" fill="#7FD8FF"/>
+          <circle cx="80" cy="18" r="3.5" fill="#FFD94A"/>
+          <circle cx="96" cy="18" r="3.5" fill="#FF8A9B"/>
+
+          <circle cx="16" cy="36" r="3.5" fill="#FFD94A"/>
+          <circle cx="32" cy="36" r="3.5" fill="#C9B3FF"/>
+          <circle class="pulse" cx="48" cy="36" r="5" fill="#FF8A9B"/>
+          <circle cx="64" cy="36" r="3.5" fill="#7FD8FF"/>
+          <circle cx="80" cy="36" r="3.5" fill="#FFD94A"/>
+          <circle cx="96" cy="36" r="3.5" fill="#7FD8FF"/>
+
+          <circle cx="16" cy="54" r="3.5" fill="#C9B3FF"/>
+          <circle cx="32" cy="54" r="3.5" fill="#7FD8FF"/>
+          <circle cx="48" cy="54" r="3.5" fill="#FFD94A"/>
+          <circle cx="64" cy="54" r="3.5" fill="#FF8A9B"/>
+          <circle cx="80" cy="54" r="3.5" fill="#7FD8FF"/>
+          <circle cx="96" cy="54" r="3.5" fill="#FFD94A"/>
+        </g>
+      </g>
+
+      <!-- Labels -->
+      <text x="78" y="52" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-size="8" letter-spacing="0.2em" font-weight="800" fill="#7FD8FF">SOURCE BYTE</text>
+      <text x="192" y="234" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-size="8" letter-spacing="0.2em" font-weight="800" fill="#6DFFB0">TARGET VECTOR</text>
+    </g>
+
+    <!-- heading + desc -->
+    <text x="135" y="268" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="20" font-weight="800" fill="#FF8A9B">Explainable by default</text>
+    <text x="135" y="296" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="rgba(252,243,216,0.78)">Every vector traces back to</text>
+    <text x="135" y="312" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="rgba(252,243,216,0.78)">its exact source byte.</text>
+  </g>
+
+  <!-- ===================== PANEL 4 · PRODUCTION-GRADE (PURPLE) ===================== -->
+  <g transform="translate(880, 20)">
+    <text x="24" y="30" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" letter-spacing="0.22em" font-weight="800" fill="#C9B3FF">04 · RELIABILITY</text>
+    <circle class="pulse" cx="246" cy="24" r="4" fill="#C9B3FF" style="animation-delay:0.9s"/>
+
+    <!-- Commit log showing retry → commit vs DLQ safety net -->
+    <g transform="translate(135, 150)" font-family="JetBrains Mono, ui-monospace, monospace">
+      <!-- Vertical commit rail -->
+      <line x1="-60" y1="-58" x2="-60" y2="42" stroke="#C9B3FF" stroke-width="2" stroke-linecap="round" stroke-opacity="0.85"/>
+
+      <!-- Event 1 · committed first try -->
+      <g transform="translate(-60, -50)">
+        <circle r="6" fill="#C9B3FF"/>
+        <text x="14" y="1" dominant-baseline="central" font-size="11" font-weight="800" fill="#FCF3D8">event·a1</text>
+        <g transform="translate(108, 0)">
+          <circle r="10" fill="#6DFFB0"/>
+          <path d="M-5 0 L-1 4 L5 -4" stroke="#0D1117" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+
+      <!-- Event 2 · retry×2 then commit -->
+      <g transform="translate(-60, -8)">
+        <circle r="6" fill="#C9B3FF"/>
+        <text x="14" y="-4" dominant-baseline="central" font-size="11" font-weight="800" fill="#FCF3D8">event·a2</text>
+        <text x="14" y="10" dominant-baseline="central" font-size="8" letter-spacing="0.14em" font-weight="700" fill="#C9B3FF">↻ RETRY×2</text>
+        <g transform="translate(108, 0)">
+          <circle r="10" fill="#6DFFB0"/>
+          <path d="M-5 0 L-1 4 L5 -4" stroke="#0D1117" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+
+      <!-- Event 3 · exhausted retries → DLQ (still safe) -->
+      <g transform="translate(-60, 34)">
+        <circle r="6" fill="none" stroke="#C9B3FF" stroke-width="2"/>
+        <text x="14" y="-4" dominant-baseline="central" font-size="11" font-weight="800" fill="#FCF3D8">event·a3</text>
+        <text x="14" y="10" dominant-baseline="central" font-size="8" letter-spacing="0.14em" font-weight="700" fill="#C9B3FF">→ DLQ</text>
+        <g transform="translate(108, 0)">
+          <rect x="-15" y="-10" width="30" height="20" rx="4" fill="rgba(201,179,255,0.14)" stroke="#C9B3FF" stroke-width="1.5"/>
+          <text y="1" text-anchor="middle" dominant-baseline="central" font-size="9" letter-spacing="0.18em" font-weight="800" fill="#C9B3FF">DLQ</text>
+        </g>
+      </g>
+
+      <text y="78" text-anchor="middle" font-size="8" letter-spacing="0.24em" font-weight="700" fill="rgba(201,179,255,0.8)">RUST CORE · NO DATA LOSS</text>
+    </g>
+
+    <!-- heading + desc -->
+    <text x="135" y="268" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="20" font-weight="800" fill="#C9B3FF">Production-grade</text>
+    <text x="135" y="296" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="rgba(252,243,216,0.78)">Rust core · retries · back-off</text>
+    <text x="135" y="312" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="500" fill="rgba(252,243,216,0.78)">dead letters · no data loss.</text>
+  </g>
+
+  <!-- ===================== BOTTOM TAGLINE ===================== -->
+  <text x="600" y="394" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="13" font-style="italic" fill="rgba(252,243,216,0.6)">
+    Declare once. Stay live forever. Only the <tspan fill="#6DFFB0" font-weight="700">Δ</tspan> runs.
+  </text>
+</svg>

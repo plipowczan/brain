@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" role="img" aria-label="PDF → RAG index — ingest PDFs from local, S3, or Google Drive, extract + chunk text, embed chunks, upsert to pgvector / LanceDB. Classic retrieval-augmented-generation stack, incremental. Keywords: RAG, document Q&amp;A, PDF search, vector database.">
+  <title>PDF → RAG index</title>
+  <desc>PDF docs feeding a classic RAG pipeline; CocoIndex example; incremental; palette coral.</desc>
+  <defs>
+    <linearGradient id="pdf-t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF8A9B"/>
+      <stop offset="100%" stop-color="#F5B07F"/>
+    </linearGradient>
+    <marker id="pdf-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#6DFFB0"/>
+    </marker>
+    <style>
+      .flow { stroke-dasharray: 4 6; animation: mv 1.4s linear infinite; }
+      @keyframes mv { from { stroke-dashoffset: 0 } to { stroke-dashoffset: -20 } }
+    </style>
+    <pattern id="ex-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.9" fill="#FCF3D8" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="319" rx="16" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="599" height="319" rx="16" fill="url(#ex-dots)"/>
+  <text x="30" y="54" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="24" font-weight="900" letter-spacing="-0.01em" fill="#FF8A9B">PDF <tspan fill="#FCF3D8">→</tspan> RAG index</text>
+  <text x="30" y="80" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="13" font-weight="500" fill="rgba(252,243,216,0.75)">Ingest · extract · chunk · embed — <tspan fill="#6DFFB0" font-style="italic">classic RAG, incremental.</tspan></text>
+
+  <!-- PDF stack left -->
+  <g transform="translate(40, 120)">
+    <g transform="translate(10, 10)">
+      <rect width="92" height="120" rx="6" fill="rgba(255,138,155,0.14)" stroke="#FF8A9B" stroke-opacity="0.4"/>
+    </g>
+    <g transform="translate(5, 5)">
+      <rect width="92" height="120" rx="6" fill="rgba(255,138,155,0.2)" stroke="#FF8A9B" stroke-opacity="0.55"/>
+    </g>
+    <g>
+      <rect width="92" height="120" rx="6" fill="#FF8A9B"/>
+      <rect width="92" height="26" rx="6" fill="#4A0E1A"/>
+      <text x="46" y="17" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" letter-spacing="0.18em" font-weight="800" fill="#FF8A9B">PDF</text>
+      <g stroke="#4A0E1A" stroke-width="1.2" stroke-linecap="round" opacity="0.6">
+        <line x1="10" y1="44" x2="70" y2="44"/>
+        <line x1="10" y1="56" x2="82" y2="56"/>
+        <line x1="10" y1="68" x2="60" y2="68"/>
+        <line x1="10" y1="80" x2="78" y2="80"/>
+        <line x1="10" y1="92" x2="52" y2="92"/>
+        <line x1="10" y1="104" x2="72" y2="104"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- split → chunks -->
+  <path class="flow" d="M148 180 L 200 180" stroke="#FFD94A" stroke-width="1.8" fill="none" stroke-linecap="round" marker-end="url(#pdf-arr)"/>
+  <text x="174" y="168" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.14em" font-weight="800" fill="#FFD94A">split</text>
+
+  <g transform="translate(210, 124)">
+    <rect width="160" height="112" rx="10" fill="rgba(255,217,74,0.08)"/>
+    <text x="12" y="18" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.18em" font-weight="800" fill="#FFD94A">CHUNKS</text>
+    <g>
+      <rect x="12" y="28" width="136" height="10" rx="3" fill="#FFD94A" opacity="0.85"/>
+      <rect x="12" y="44" width="112" height="10" rx="3" fill="#FFD94A" opacity="0.7"/>
+      <rect x="12" y="60" width="128" height="10" rx="3" fill="#FFD94A" opacity="0.6"/>
+      <rect x="12" y="76" width="96" height="10" rx="3" fill="#FFD94A" opacity="0.5"/>
+      <rect x="12" y="92" width="120" height="10" rx="3" fill="#FFD94A" opacity="0.4"/>
+    </g>
+  </g>
+
+  <!-- embed → vectors -->
+  <path class="flow" d="M378 180 L 430 180" stroke="#6DFFB0" stroke-width="1.8" fill="none" stroke-linecap="round" marker-end="url(#pdf-arr)"/>
+  <text x="404" y="168" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.14em" font-weight="800" fill="#6DFFB0">embed</text>
+
+  <g transform="translate(440, 124)">
+    <rect width="130" height="112" rx="10" fill="rgba(109,255,176,0.08)"/>
+    <text x="12" y="18" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.18em" font-weight="800" fill="#6DFFB0">VECTORS</text>
+    <g fill="#6DFFB0">
+      <circle cx="22" cy="42" r="2.4"/><circle cx="46" cy="56" r="2"/><circle cx="70" cy="46" r="2.4"/>
+      <circle cx="94" cy="60" r="2"/><circle cx="30" cy="68" r="2"/><circle cx="56" cy="72" r="2.4"/>
+      <circle cx="80" cy="76" r="2"/><circle cx="108" cy="72" r="2.4"/><circle cx="40" cy="88" r="2"/>
+      <circle cx="66" cy="90" r="2.4"/><circle cx="96" cy="92" r="2"/><circle cx="116" cy="88" r="2"/>
+    </g>
+  </g>
+
+  <g transform="translate(30, 286)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.14em" font-weight="700">
+    <rect width="48" height="20" rx="10" fill="rgba(127,216,255,0.14)"/>
+    <text x="24" y="10" text-anchor="middle" dominant-baseline="central" fill="#7FD8FF">S3</text>
+    <g transform="translate(56, 0)"><rect width="56" height="20" rx="10" fill="rgba(245,176,127,0.14)"/><text x="28" y="10" text-anchor="middle" dominant-baseline="central" fill="#F5B07F">GDRIVE</text></g>
+    <g transform="translate(120, 0)"><rect width="78" height="20" rx="10" fill="rgba(201,179,255,0.14)"/><text x="39" y="10" text-anchor="middle" dominant-baseline="central" fill="#C9B3FF">PGVECTOR</text></g>
+    <g transform="translate(206, 0)"><rect width="76" height="20" rx="10" fill="rgba(255,217,74,0.14)"/><text x="38" y="10" text-anchor="middle" dominant-baseline="central" fill="#FFD94A">LANCEDB</text></g>
+    <text x="540" y="10" text-anchor="end" dominant-baseline="central" font-weight="800" fill="rgba(252,243,216,0.75)">GITHUB →</text>
+  </g>
+</svg>

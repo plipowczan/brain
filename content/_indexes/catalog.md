@@ -1,6 +1,6 @@
 ---
-updated: 2026-05-26T00:00:00Z
-entries: 236
+updated: 2026-05-27T00:00:00Z
+entries: 238
 ---
 # Note Catalog
 
@@ -64,7 +64,9 @@ entries: 236
 - **Claude Code** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's CLI for AI-assisted development — primary dev environment | → Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor, templates/tool
 - **Claude Code Best Practice** | tool | 2026-04-10 | [tool, ai, claude-code, coding-agents, resources] | 69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering | → Claude Code, Superpowers, OpenSpec, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills, templates/tool
 - **Claude Peers MCP** | tool | 2026-04-20 | [tool, ai, mcp, claude-code, multi-agent, coordination] | MCP that lets multiple Claude Code instances on the same machine discover each other and exchange messages in real time | → Claude Code, Agentic Systems, Qamera AI, PLSoft, Agent Skills, Harness Engineering, Context Engineering, templates/tool
+- **Claude SEO** | tool | 2026-05-27 | [tool, ai, seo, claude-code, agent-skills, open-source, geo, mit] | AgriciDaniel/claude-seo — 25 sub-skills + 18 agents for full SEO/GEO audits with parallel sub-agent dispatch; QRG-aligned, falsifiability per finding | → Claude Code, Spec-driven SEO and GEO, Agent Skills, Awesome Claude Code, Karpathy Skills, Claude Code Best Practice, Qamera AI, templates/tool
 - **CLI-Anything** | tool | 2026-04-20 | [tool, ai, cli, coding-agents, agent-native, claude-code] | Auto-generate agent-native CLIs for any software — 7-phase pipeline, Claude Code plugin, 30+ harnesses | → Claude Code, 07f91ab9c28cd40194a8c876b8593532_MD5.gif, 45b8742d6768848f16da9265dcb00563_MD5.png, feebd003b9a4b9b40efc63cfad16b1d7_MD5.png, 49dac8b6c7daa44eb4f0aa443ee0244a_MD5.gif, 9f56caabc0386e17b78af30361eb5eaf_MD5.png, 3134bf6a722a55159d4a66681c6e6bae_MD5.gif, Agentic Systems, Qamera AI, Agent Skills, Harness Engineering, Context Engineering, Awesome Claude Code, Agentic Coding, templates/tool
+- **CocoIndex** | tool | 2026-05-27 | [tool, ai, rag, indexing, incremental, knowledge-graph, python, rust, open-source, apache-2.0] | cocoindex-io/cocoindex — Python declarative + Rust core incremental indexing engine; turns code/notes/PDFs/Slack/video into always-fresh agent context, only the delta re-computes | → LightRAG, Graphify, Brain, LLM Knowledge Bases, AI Chatbots Architecture, Qamera AI, Claude Code, Cursor, templates/tool
 - **Cursor** | tool | 2026-04-09 | [tool, ai, ide, coding-agents] | AI-powered IDE based on VS Code with built-in coding agents | → Qamera AI, Claude Code, Visual Studio Code, templates/tool
 - **DESIGN.md Spec (google-labs-code)** | tool | 2026-05-19 | [tool, ai, design, coding-agents, specs, design-systems, google, open-source] | google-labs-code/design.md — normative spec + lint/diff CLI for DESIGN.md (YAML tokens + markdown rationale) so agents have a persistent design system | → Awesome Design MD, UI UX Pro Max, UX Pilot, UX RULER, Open Design, Claude Code, AI UX Design Tools, templates/tool
 - **Everything Claude Code** | tool | 2026-05-16 | [tool, ai, claude-code, codex, cursor, opencode, harness, skills, open-source, mit] | ECC (affaan-m) — cross-harness agent perf system: 60 agents, 230 skills, hooks, instincts, AgentShield, ECC 2.0 Rust control-plane alpha | → Awesome Agent Skills, Hermes Agent, DELEGATE-52, Token Optimization for Claude Code, Context Engineering, Progressive Disclosure, Awesome Claude Code, Agent Skills, Karpathy Skills, Superpowers, gstack, Vercel Skills, Archon, Claude Code, Cursor, Harness Engineering, Skills 2.0 Testing, Agentic Systems

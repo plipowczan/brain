@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 100" role="img" aria-label="Read the CocoIndex blog">
+  <title>Blog (light theme)</title>
+  <desc>Read the CocoIndex blog — engineering deep dives, release notes, and tutorials. Light-theme card: transparent brand-peach tint with a muted peach border, article icon in brand ink with peach page-lines, title in brand coral.</desc>
+  <rect x="0.5" y="0.5" width="259" height="99" rx="16" fill="rgba(229,154,99,0.14)" stroke="#E59A63" stroke-opacity="0.45" stroke-width="1"/>
+  <!-- article icon — ink tile with peach page-lines -->
+  <g transform="translate(28, 30)">
+    <rect x="0" y="0" width="44" height="40" rx="4" fill="#2A121B"/>
+    <line x1="8" y1="12" x2="36" y2="12" stroke="#E59A63" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="8" y1="22" x2="36" y2="22" stroke="#E59A63" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="8" y1="32" x2="28" y2="32" stroke="#E59A63" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <text x="94" y="58" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="26" font-weight="800" letter-spacing="-0.4" fill="#BE5133">Blog</text>
+  <text x="94" y="76" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" letter-spacing="0.18em" font-weight="700" fill="rgba(42,18,27,0.65)">READ THE POSTS →</text>
+</svg>

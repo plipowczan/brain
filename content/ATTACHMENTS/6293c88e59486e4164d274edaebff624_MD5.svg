@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" role="img" aria-label="Structured extraction — BAML / DSPy typed schema extraction from forms, PDFs, intakes, invoices into Postgres / warehouse. Incremental. Keywords: ETL, LLM extraction, schema-first, patient intake, invoice processing, KYC, contracts.">
+  <title>Structured extraction</title>
+  <desc>Unstructured form on the left → typed JSON record on the right; CocoIndex example; BAML/DSPy; palette lavender.</desc>
+  <defs>
+    <linearGradient id="ex-t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9B3FF"/>
+      <stop offset="100%" stop-color="#FF8A9B"/>
+    </linearGradient>
+    <marker id="ex-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#C9B3FF"/>
+    </marker>
+    <style>
+      .flow { stroke-dasharray: 4 6; animation: mv 1.4s linear infinite; }
+      @keyframes mv { from { stroke-dashoffset: 0 } to { stroke-dashoffset: -20 } }
+    </style>
+    <pattern id="ex-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.9" fill="#FCF3D8" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="319" rx="16" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="599" height="319" rx="16" fill="url(#ex-dots)"/>
+  <text x="30" y="54" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="24" font-weight="900" letter-spacing="-0.01em" fill="#C9B3FF">Structured extraction</text>
+  <text x="30" y="80" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="13" font-weight="500" fill="rgba(252,243,216,0.75)">BAML / DSPy typed schema — <tspan fill="#6DFFB0" font-style="italic">forms, PDFs, invoices → Postgres.</tspan></text>
+
+  <!-- left: messy form -->
+  <g transform="translate(30, 116)">
+    <rect width="200" height="148" rx="10" fill="rgba(252,243,216,0.06)"/>
+    <text x="12" y="20" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.18em" font-weight="800" fill="rgba(252,243,216,0.7)">📄 INTAKE FORM</text>
+    <g font-family="Inter, -apple-system, system-ui, sans-serif" font-size="10" fill="rgba(252,243,216,0.8)">
+      <text x="12" y="44">Name: Jane Smith</text>
+      <text x="12" y="62">DOB: 04/12/1987</text>
+      <text x="12" y="80">Insurance: #A7F3C-19</text>
+      <text x="12" y="98">Phone: +1 415-555-0198</text>
+      <text x="12" y="116" fill="rgba(252,243,216,0.5)">Reason: persistent cough,</text>
+      <text x="12" y="130" fill="rgba(252,243,216,0.5)">lasting &gt; 3 weeks…</text>
+    </g>
+  </g>
+
+  <!-- flow arrow -->
+  <g>
+    <path class="flow" d="M238 190 L 282 190" stroke="#C9B3FF" stroke-width="1.8" fill="none" stroke-linecap="round" marker-end="url(#ex-arr)"/>
+    <text x="260" y="176" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.14em" font-weight="800" fill="#C9B3FF">BAML</text>
+  </g>
+
+  <!-- right: typed JSON -->
+  <g transform="translate(290, 116)">
+    <rect width="280" height="148" rx="10" fill="#1E0F18" stroke="rgba(201,179,255,0.35)" stroke-width="1"/>
+    <rect width="280" height="18" rx="10" fill="rgba(201,179,255,0.10)"/>
+    <rect y="9" width="280" height="9" fill="rgba(201,179,255,0.10)"/>
+    <circle cx="10" cy="9" r="2.8" fill="#FF8A9B"/>
+    <circle cx="20" cy="9" r="2.8" fill="#FFD94A"/>
+    <circle cx="30" cy="9" r="2.8" fill="#6DFFB0"/>
+    <text x="140" y="9" text-anchor="middle" dominant-baseline="central" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.12em" font-weight="700" fill="rgba(252,243,216,0.55)">intake.json</text>
+    <g font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" fill="#FCF3D8">
+      <text x="14" y="40">{</text>
+      <text x="26" y="56"><tspan fill="#7FD8FF">"name"</tspan>: <tspan fill="#FFD94A">"Jane Smith"</tspan>,</text>
+      <text x="26" y="72"><tspan fill="#7FD8FF">"dob"</tspan>: <tspan fill="#FFD94A">"1987-04-12"</tspan>,</text>
+      <text x="26" y="88"><tspan fill="#7FD8FF">"insurance"</tspan>: <tspan fill="#FFD94A">"A7F3C-19"</tspan>,</text>
+      <text x="26" y="104"><tspan fill="#7FD8FF">"phone"</tspan>: <tspan fill="#FFD94A">"+14155550198"</tspan>,</text>
+      <text x="26" y="120"><tspan fill="#7FD8FF">"reason"</tspan>: <tspan fill="#6DFFB0">persistent_cough</tspan></text>
+      <text x="14" y="136">}</text>
+    </g>
+  </g>
+
+  <g transform="translate(30, 286)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.14em" font-weight="700">
+    <rect width="50" height="20" rx="10" fill="rgba(201,179,255,0.14)"/>
+    <text x="25" y="10" text-anchor="middle" dominant-baseline="central" fill="#C9B3FF">BAML</text>
+    <g transform="translate(58, 0)"><rect width="50" height="20" rx="10" fill="rgba(127,216,255,0.14)"/><text x="25" y="10" text-anchor="middle" dominant-baseline="central" fill="#7FD8FF">DSPy</text></g>
+    <g transform="translate(116, 0)"><rect width="72" height="20" rx="10" fill="rgba(255,138,155,0.14)"/><text x="36" y="10" text-anchor="middle" dominant-baseline="central" fill="#FF8A9B">POSTGRES</text></g>
+    <g transform="translate(196, 0)"><rect width="88" height="20" rx="10" fill="rgba(255,217,74,0.14)"/><text x="44" y="10" text-anchor="middle" dominant-baseline="central" fill="#FFD94A">WAREHOUSE</text></g>
+    <text x="540" y="10" text-anchor="end" dominant-baseline="central" font-weight="800" fill="rgba(252,243,216,0.75)">GITHUB →</text>
+  </g>
+</svg>

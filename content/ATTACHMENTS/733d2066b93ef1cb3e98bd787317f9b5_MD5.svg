@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" role="img" aria-label="HN trending topics — pull Hacker News threads via the Algolia API, recursively parse nested comments, LLM-extract topics with Gemini 2.5 Flash, and rank by weighted hit count (thread=5, comment=1). Incremental, stored in Postgres. Keywords: Hacker News, trending topics, LLM extraction, Gemini, Postgres, news intelligence, topic ranking.">
+  <title>HN trending topics</title>
+  <desc>HN Y logo + top-5 trending topic bars with weighted scoring; CocoIndex example; incremental; palette peach/coral.</desc>
+  <defs>
+    <linearGradient id="hn-t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5B07F"/>
+      <stop offset="100%" stop-color="#FF8A9B"/>
+    </linearGradient>
+    <style>
+      .pulse { animation: p 2.4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes p { 0%,100% { opacity: 1; transform: scale(1) } 50% { opacity: 0.55; transform: scale(1.15) } }
+    </style>
+    <pattern id="ex-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.9" fill="#FCF3D8" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="319" rx="16" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="599" height="319" rx="16" fill="url(#ex-dots)"/>
+  <text x="30" y="54" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="24" font-weight="900" letter-spacing="-0.01em" fill="#F5B07F">HN trending topics</text>
+  <text x="30" y="80" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="13" font-weight="500" fill="rgba(252,243,216,0.75)">LLM-extract · thread ×5, comment ×1 — <tspan fill="#6DFFB0" font-style="italic">ranked, incremental.</tspan></text>
+
+  <!-- HN Y badge + thread tree -->
+  <g transform="translate(30, 124)">
+    <rect width="26" height="26" rx="4" fill="#FF6600"/>
+    <text x="13" y="13" text-anchor="middle" dominant-baseline="central" font-family="JetBrains Mono, ui-monospace, monospace" font-size="15" font-weight="900" fill="#FCF3D8">Y</text>
+    <text x="36" y="13" dominant-baseline="central" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" letter-spacing="0.18em" font-weight="800" fill="rgba(252,243,216,0.7)">ALGOLIA</text>
+
+    <!-- thread bubbles -->
+    <g transform="translate(0, 36)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10">
+      <rect width="164" height="28" rx="6" fill="rgba(252,243,216,0.08)"/>
+      <text x="10" y="14" dominant-baseline="central" fill="#FF6600" font-weight="800">Show HN</text>
+      <text x="70" y="14" dominant-baseline="central" fill="#FCF3D8">▲ 234</text>
+      <text x="120" y="14" dominant-baseline="central" fill="#7FD8FF">42c</text>
+    </g>
+    <g transform="translate(0, 72)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10">
+      <rect width="164" height="28" rx="6" fill="rgba(252,243,216,0.08)"/>
+      <text x="10" y="14" dominant-baseline="central" fill="#FF6600" font-weight="800">Ask HN</text>
+      <text x="70" y="14" dominant-baseline="central" fill="#FCF3D8">▲ 512</text>
+      <text x="120" y="14" dominant-baseline="central" fill="#7FD8FF">128c</text>
+    </g>
+    <g transform="translate(0, 108)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10">
+      <rect width="164" height="28" rx="6" fill="rgba(252,243,216,0.08)"/>
+      <text x="10" y="14" dominant-baseline="central" fill="#FF6600" font-weight="800">Thread</text>
+      <text x="70" y="14" dominant-baseline="central" fill="#FCF3D8">▲ 187</text>
+      <text x="120" y="14" dominant-baseline="central" fill="#7FD8FF">67c</text>
+    </g>
+  </g>
+
+  <!-- trending bar chart -->
+  <g transform="translate(230, 130)" font-family="Inter, -apple-system, system-ui, sans-serif">
+    <text x="0" y="0" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.18em" font-weight="800" fill="rgba(252,243,216,0.7)">TRENDING · NOW</text>
+    <text x="340" y="0" text-anchor="end" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.14em" font-weight="800" fill="#6DFFB0">Δ FRESH</text>
+
+    <g transform="translate(0, 22)">
+      <text x="0" y="6" dominant-baseline="central" font-size="11" font-weight="800" fill="#FCF3D8">Claude</text>
+      <rect x="66" y="-5" width="170" height="10" rx="3" fill="#FF8A9B"/>
+      <text x="244" y="6" dominant-baseline="central" font-size="11" font-weight="800" fill="#FF8A9B">42</text>
+    </g>
+    <g transform="translate(0, 40)">
+      <text x="0" y="6" dominant-baseline="central" font-size="11" font-weight="800" fill="#FCF3D8">Rust</text>
+      <rect x="66" y="-5" width="125" height="10" rx="3" fill="#FFD94A"/>
+      <text x="244" y="6" dominant-baseline="central" font-size="11" font-weight="800" fill="#FFD94A">31</text>
+    </g>
+    <g transform="translate(0, 58)">
+      <text x="0" y="6" dominant-baseline="central" font-size="11" font-weight="800" fill="#FCF3D8">Gemini</text>
+      <rect x="66" y="-5" width="108" height="10" rx="3" fill="#6DFFB0"/>
+      <text x="244" y="6" dominant-baseline="central" font-size="11" font-weight="800" fill="#6DFFB0">27</text>
+    </g>
+    <g transform="translate(0, 76)">
+      <text x="0" y="6" dominant-baseline="central" font-size="11" font-weight="800" fill="#FCF3D8">MCP</text>
+      <rect x="66" y="-5" width="88" height="10" rx="3" fill="#7FD8FF"/>
+      <text x="244" y="6" dominant-baseline="central" font-size="11" font-weight="800" fill="#7FD8FF">22</text>
+    </g>
+    <g transform="translate(0, 94)">
+      <text x="0" y="6" dominant-baseline="central" font-size="11" font-weight="800" fill="#FCF3D8">CocoIndex</text>
+      <rect x="66" y="-5" width="74" height="10" rx="3" fill="#C9B3FF"/>
+      <text x="244" y="6" dominant-baseline="central" font-size="11" font-weight="800" fill="#C9B3FF">18</text>
+    </g>
+  </g>
+
+  <g transform="translate(30, 286)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.14em" font-weight="700">
+    <rect width="80" height="20" rx="10" fill="rgba(255,138,155,0.14)"/>
+    <text x="40" y="10" text-anchor="middle" dominant-baseline="central" fill="#FF8A9B">THREAD ×5</text>
+    <g transform="translate(88, 0)"><rect width="96" height="20" rx="10" fill="rgba(127,216,255,0.14)"/><text x="48" y="10" text-anchor="middle" dominant-baseline="central" fill="#7FD8FF">COMMENT ×1</text></g>
+    <g transform="translate(192, 0)"><rect width="64" height="20" rx="10" fill="rgba(255,217,74,0.14)"/><text x="32" y="10" text-anchor="middle" dominant-baseline="central" fill="#FFD94A">GEMINI</text></g>
+    <g transform="translate(264, 0)"><rect width="72" height="20" rx="10" fill="rgba(201,179,255,0.14)"/><text x="36" y="10" text-anchor="middle" dominant-baseline="central" fill="#C9B3FF">POSTGRES</text></g>
+    <text x="540" y="10" text-anchor="end" dominant-baseline="central" font-weight="800" fill="rgba(252,243,216,0.75)">GITHUB →</text>
+  </g>
+</svg>

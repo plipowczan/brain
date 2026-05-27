@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 36" role="img" aria-label="Share what you build">
+  <title>Share what you build (light theme)</title>
+  <desc>Light-theme banner: tiny hearts continuously rising from the bottom behind the text "Share what you build". Hearts in the warm brand family (brand-pink, rose, coral, amber) tuned so they read cute-but-crisp on white GitHub README backgrounds.</desc>
+  <defs>
+    <style>
+      .rise { animation: rise 3.2s linear infinite; transform-origin: center; transform-box: fill-box; opacity: 0; }
+      .r2 { animation-delay: 0.4s; }
+      .r3 { animation-delay: 0.8s; }
+      .r4 { animation-delay: 1.2s; }
+      .r5 { animation-delay: 1.6s; }
+      .r6 { animation-delay: 2s; }
+      .r7 { animation-delay: 2.4s; }
+      .r8 { animation-delay: 2.8s; }
+      @keyframes rise {
+        0%   { transform: translate(0,  16px) scale(0.6); opacity: 0; }
+        15%  { transform: translate(0,  10px) scale(0.9); opacity: 0.9; }
+        50%  { transform: translate(2px, -2px) scale(1);   opacity: 1; }
+        85%  { transform: translate(-2px,-14px) scale(0.9); opacity: 0.55; }
+        100% { transform: translate(0, -22px) scale(0.55); opacity: 0; }
+      }
+    </style>
+    <path id="sb-heart" d="M0 3 C 0 0, 4 0, 6 3 C 8 0, 12 0, 12 3 C 12 8, 6 12, 6 12 C 6 12, 0 8, 0 3 Z"/>
+  </defs>
+
+  <!-- rising hearts — warm cute palette, all readable on white -->
+  <g transform="translate(20, 22)"><use class="rise"    href="#sb-heart" fill="#E11D48"/></g>
+  <g transform="translate(55, 22)"><use class="rise r2" href="#sb-heart" fill="#BE5133"/></g>
+  <g transform="translate(92, 22)"><use class="rise r3" href="#sb-heart" fill="#B45309"/></g>
+  <g transform="translate(128, 22)"><use class="rise r4" href="#sb-heart" fill="#E11D48"/></g>
+  <g transform="translate(168, 22)"><use class="rise r5" href="#sb-heart" fill="#BE5133"/></g>
+  <g transform="translate(205, 22)"><use class="rise r6" href="#sb-heart" fill="#B45309"/></g>
+  <g transform="translate(238, 22)"><use class="rise r7" href="#sb-heart" fill="#E11D48"/></g>
+  <g transform="translate(262, 22)"><use class="rise r8" href="#sb-heart" fill="#BE5133"/></g>
+
+  <!-- text (on top) — ink with coral 'build' accent -->
+  <text x="140" y="24" text-anchor="middle" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="-0.3" fill="#2A121B">Share what you <tspan font-style="italic" fill="#BE5133">build</tspan></text>
+</svg>

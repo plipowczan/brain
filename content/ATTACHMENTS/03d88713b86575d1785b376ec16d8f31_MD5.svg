@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" role="img" aria-label="CSV → Kafka live — watch a folder of CSV files, publish each row as a JSON message to a Kafka topic via CocoIndex's Kafka target connector. Incremental, sub-second, no producer loop. Keywords: Kafka, CDC, streaming, StreamNative, Confluent, CSV ingestion, event streaming.">
+  <title>CSV → Kafka live</title>
+  <desc>CSV rows streaming live into a Kafka topic; CocoIndex example; incremental sub-second; palette mint/yellow.</desc>
+  <defs>
+    <linearGradient id="ck-t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6DFFB0"/>
+      <stop offset="100%" stop-color="#FFD94A"/>
+    </linearGradient>
+    <marker id="ck-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#6DFFB0"/>
+    </marker>
+    <style>
+      .flow { stroke-dasharray: 4 6; animation: mv 1.4s linear infinite; }
+      @keyframes mv { from { stroke-dashoffset: 0 } to { stroke-dashoffset: -20 } }
+      .pulse { animation: p 1.8s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes p { 0%,100% { opacity: 1; transform: scale(1) } 50% { opacity: 0.6; transform: scale(1.25) } }
+    </style>
+    <pattern id="ex-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.9" fill="#FCF3D8" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="319" rx="16" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="599" height="319" rx="16" fill="url(#ex-dots)"/>
+  <text x="30" y="54" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="24" font-weight="900" letter-spacing="-0.01em" fill="#6DFFB0">CSV <tspan fill="#FCF3D8">→</tspan> Kafka live</text>
+  <text x="30" y="80" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="13" font-weight="500" fill="rgba(252,243,216,0.75)">Watch folder · publish rows — <tspan fill="#6DFFB0" font-style="italic">sub-second, no producer loop.</tspan></text>
+
+  <!-- left: CSV table -->
+  <g transform="translate(30, 116)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10">
+    <rect width="220" height="148" rx="10" fill="rgba(252,243,216,0.05)"/>
+    <text x="12" y="20" font-size="9" letter-spacing="0.18em" font-weight="800" fill="#6DFFB0">📄 ORDERS.CSV</text>
+    <!-- header -->
+    <g transform="translate(12, 34)" fill="rgba(252,243,216,0.55)">
+      <text x="0" y="0">id</text>
+      <text x="36" y="0">user</text>
+      <text x="100" y="0">total</text>
+      <text x="160" y="0">ts</text>
+    </g>
+    <line x1="12" y1="42" x2="208" y2="42" stroke="rgba(252,243,216,0.14)"/>
+    <g transform="translate(12, 58)" fill="#FCF3D8">
+      <text x="0" y="0">101</text>
+      <text x="36" y="0">alice</text>
+      <text x="100" y="0">49.00</text>
+      <text x="160" y="0" fill="rgba(252,243,216,0.6)">02:01</text>
+    </g>
+    <g transform="translate(12, 76)" fill="#FCF3D8">
+      <text x="0" y="0">102</text>
+      <text x="36" y="0">bob</text>
+      <text x="100" y="0">18.50</text>
+      <text x="160" y="0" fill="rgba(252,243,216,0.6)">02:04</text>
+    </g>
+    <g transform="translate(12, 94)" fill="#FCF3D8">
+      <text x="0" y="0">103</text>
+      <text x="36" y="0">carol</text>
+      <text x="100" y="0">82.00</text>
+      <text x="160" y="0" fill="rgba(252,243,216,0.6)">02:05</text>
+    </g>
+    <!-- new row just appended -->
+    <g transform="translate(12, 112)">
+      <rect x="-6" y="-11" width="206" height="16" rx="3" fill="#FFD94A" fill-opacity="0.18"/>
+      <text x="0" y="0" fill="#FFD94A" font-weight="800">104</text>
+      <text x="36" y="0" fill="#FFD94A" font-weight="800">dave</text>
+      <text x="100" y="0" fill="#FFD94A" font-weight="800">27.00</text>
+      <text x="160" y="0" fill="#FFD94A" font-weight="800">02:06 Δ</text>
+    </g>
+    <text x="12" y="136" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="10" font-style="italic" fill="rgba(252,243,216,0.55)">watched · auto-picked up</text>
+  </g>
+
+  <!-- flow arrow + particles -->
+  <g>
+    <path class="flow" d="M258 190 L 298 190" stroke="#6DFFB0" stroke-width="1.8" fill="none" stroke-linecap="round" marker-end="url(#ck-arr)"/>
+    <text x="278" y="178" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.14em" font-weight="800" fill="#6DFFB0">ROW</text>
+  </g>
+
+  <!-- right: Kafka stream -->
+  <g transform="translate(306, 116)">
+    <rect width="264" height="148" rx="10" fill="rgba(255,217,74,0.08)"/>
+    <g transform="translate(14, 20)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.18em" font-weight="800">
+      <text x="0" y="0" fill="#FFD94A">KAFKA · TOPIC</text>
+      <circle class="pulse" cx="232" cy="-3" r="4" fill="#6DFFB0"/>
+    </g>
+
+    <!-- event envelopes stacked -->
+    <g transform="translate(14, 40)">
+      <g>
+        <rect width="236" height="22" rx="5" fill="rgba(252,243,216,0.08)"/>
+        <text x="10" y="11" dominant-baseline="central" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" fill="#FCF3D8">{"id":101, "user":"alice" …}</text>
+      </g>
+      <g transform="translate(0, 26)">
+        <rect width="236" height="22" rx="5" fill="rgba(252,243,216,0.08)"/>
+        <text x="10" y="11" dominant-baseline="central" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" fill="#FCF3D8">{"id":102, "user":"bob" …}</text>
+      </g>
+      <g transform="translate(0, 52)">
+        <rect width="236" height="22" rx="5" fill="rgba(252,243,216,0.08)"/>
+        <text x="10" y="11" dominant-baseline="central" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" fill="#FCF3D8">{"id":103, "user":"carol" …}</text>
+      </g>
+      <!-- newly published -->
+      <g transform="translate(0, 78)">
+        <rect width="236" height="22" rx="5" fill="#FFD94A" fill-opacity="0.22" stroke="#FFD94A" stroke-opacity="0.55"/>
+        <text x="10" y="11" dominant-baseline="central" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" font-weight="800" fill="#FFD94A">{"id":104, "user":"dave" …} Δ</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(30, 286)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" letter-spacing="0.14em" font-weight="700">
+    <rect width="50" height="20" rx="10" fill="rgba(255,217,74,0.14)"/>
+    <text x="25" y="10" text-anchor="middle" dominant-baseline="central" fill="#FFD94A">KAFKA</text>
+    <g transform="translate(58, 0)"><rect width="88" height="20" rx="10" fill="rgba(127,216,255,0.14)"/><text x="44" y="10" text-anchor="middle" dominant-baseline="central" fill="#7FD8FF">STREAMNATIVE</text></g>
+    <g transform="translate(154, 0)"><rect width="84" height="20" rx="10" fill="rgba(109,255,176,0.14)"/><text x="42" y="10" text-anchor="middle" dominant-baseline="central" fill="#6DFFB0">CONFLUENT</text></g>
+    <g transform="translate(246, 0)"><rect width="40" height="20" rx="10" fill="rgba(255,138,155,0.14)"/><text x="20" y="10" text-anchor="middle" dominant-baseline="central" fill="#FF8A9B">CDC</text></g>
+    <text x="540" y="10" text-anchor="end" dominant-baseline="central" font-weight="800" fill="rgba(252,243,216,0.75)">GITHUB →</text>
+  </g>
+</svg>

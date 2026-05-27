@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 44" role="img" aria-label="Explore CocoIndex Enterprise — bright blue pill button linking to cocoindex.io/enterprise, the PB-scale incremental data pipeline for AI agents.">
+  <title>Explore CocoIndex Enterprise</title>
+  <desc>Transparent bright-blue pill with the label 'Explore Enterprise' and a trailing arrow. Links to cocoindex.io/enterprise.</desc>
+
+  <!-- transparent pill · bright-blue outline (matches quickstart / learn-concept voice) -->
+  <rect x="0.5" y="0.5" width="209" height="43" rx="21.5"
+        fill="rgba(127,216,255,0.12)" stroke="rgba(127,216,255,0.55)" stroke-width="1"/>
+
+  <!-- label — centered horizontally; arrow handled separately -->
+  <text x="86" y="22" text-anchor="middle" dominant-baseline="central"
+        font-family="Inter, -apple-system, system-ui, sans-serif" font-size="14"
+        font-weight="700" letter-spacing="-0.2" fill="#7FD8FF">Explore Enterprise</text>
+
+  <!-- trailing arrow → -->
+  <g transform="translate(168, 22)" stroke="#7FD8FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <line x1="0" y1="0" x2="12" y2="0"/>
+    <polyline points="8,-5 12,0 8,5"/>
+  </g>
+</svg>

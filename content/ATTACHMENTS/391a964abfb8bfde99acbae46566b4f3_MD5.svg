@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 100" role="img" aria-label="Subscribe to the CocoIndex YouTube channel">
+  <title>YouTube (light theme)</title>
+  <desc>Subscribe to the CocoIndex YouTube channel — tutorials, demos, architecture deep dives. Light-theme card: transparent YouTube-red tint with a muted red border, full-color play bezel, ink title.</desc>
+  <rect x="0.5" y="0.5" width="259" height="99" rx="16" fill="rgba(255,0,51,0.06)" stroke="#FF0033" stroke-opacity="0.3" stroke-width="1"/>
+  <!-- YouTube play-button mark in brand red -->
+  <g transform="translate(24, 28) scale(1.9)" fill="#FF0033">
+    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814z"/>
+  </g>
+  <!-- white play triangle inside the red bezel -->
+  <path transform="translate(24, 28) scale(1.9)" d="M9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FFFFFF"/>
+  <text x="98" y="58" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="26" font-weight="800" letter-spacing="-0.4" fill="#2A121B">YouTube</text>
+  <text x="98" y="76" font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" letter-spacing="0.18em" font-weight="700" fill="rgba(42,18,27,0.65)">SUBSCRIBE →</text>
+</svg>
