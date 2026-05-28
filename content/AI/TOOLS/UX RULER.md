@@ -73,6 +73,7 @@ Output: files in the repo — from a minimal stack (`AGENTS.md`, `PRODUCT.md`, `
 
 - Hub: [[AI UX Design Tools]]
 - Post-decision UI generator: [[UX Pilot]]
+- Design-language guardrails skill: [[Impeccable]]
 - Related repo-as-memory pattern: [[Spec-driven SEO and GEO]]
 - [[Awesome Agent Skills]] — where to find more skills of this kind
 

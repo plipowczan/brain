@@ -93,6 +93,7 @@ Idea pokrewna Vannevar Bush's Memex (1945) — personal, curated knowledge store
 - [Oryginalny wątek @karpathy na X](https://x.com/karpathy/status/2039805659525644595?s=46)
 - [LLM Wiki gist na GitHubie](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - [[Autoresearch]] — powiązany projekt Karpathy'ego o autonomicznych agentach badawczych
+- [[Agentic Engineering]] — Karpathy's Sequoia talk where he names this project directly ("you can't outsource understanding")
 
 ---
 Template: [[templates/knowledge_note_info]]

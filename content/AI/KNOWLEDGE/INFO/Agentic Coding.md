@@ -61,6 +61,8 @@ Prerendering SPA (React) daje najlepsze z obu światów: błyskawiczny build (Vi
 [[Harness Engineering]]
 [[Context Engineering]]
 [[Claude Code]]
+[[Software 3.0]]
+[[Agentic Engineering]]
 
 ---
 Template: [[templates/knowledge_note_info]]

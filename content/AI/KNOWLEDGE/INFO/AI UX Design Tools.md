@@ -27,6 +27,7 @@ In practice the sensible stack is: **UX RULER** for decisions and product memory
 - [[UX Pilot]] — AI wireframe and hi-fi UI generator, Figma and code export
 - [[Open Design]] — local-first OSS alternative to Claude Design: 31 design skills, 72+ design systems, 16 CLI agents, HTML/PDF/PPTX/MP4 export, BYOK
 - [[UI UX Pro Max]] — Claude Code design system skill (v2.0 Design System Generator)
+- [[Impeccable]] — design-language skill (1 skill, 23 commands, anti-slop linter) that hardens any AI harness against generic AI design; extends Anthropic's frontend-design
 
 ## 🧩 Feature comparison
 

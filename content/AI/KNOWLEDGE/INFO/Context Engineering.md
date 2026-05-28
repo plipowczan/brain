@@ -121,6 +121,8 @@ Specialized sub-agents with clean context windows. Main agent coordinates plan; 
 [[Claude Code]]
 [[Claude Code Best Practice]]
 [[Skills 2.0 Testing]]
+[[Software 3.0]]
+[[Agentic Engineering]]
 
 Source: Anthropic, *Effective context engineering for AI agents* (September 2025).
 

@@ -98,7 +98,7 @@ Layers: Next.js 16 + React 18 + TS frontend · Node 24 + Express + `better-sqlit
 ## 🧩 Related
 
 - [[AI UX Design Tools]] — hub for UX/design AI tools
-- [[UX Pilot]], [[UX RULER]], [[UI UX Pro Max]] — peer design tools
+- [[UX Pilot]], [[UX RULER]], [[UI UX Pro Max]], [[Impeccable]] — peer design tools
 - [[GPT Image 2 + Seedance Workflow]] — same image+video stack, OD bundles them
 - [[Awesome Nano Banana Pro Prompts]] — prompt library for image gen
 - [[Agent Skills]] — base SKILL.md convention

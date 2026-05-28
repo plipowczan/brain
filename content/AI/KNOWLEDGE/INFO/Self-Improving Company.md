@@ -87,7 +87,7 @@ The whole loop must be runnable with **minimal human intervention** for the self
 
 - Source video — [How to Build a Self-Improving Company with AI](https://www.youtube.com/watch?v=t-G67yKAHBQ) · YC Root Access · 2026-05-19 · 13:28
 - Speaker: Jared Friedman (YC), drawing on Diana's earlier YC talk and Jack Dorsey's tweets on flat org structures
-- Related notes — [[Context Engineering]] · [[Agentic Coding]] · [[Agentic Systems]] · [[Agent Skills]] · [[LLM Knowledge Bases]] · [[Progressive Disclosure]] · [[Karpathy Skills]] · [[gstack]] · [[Claude Code]] · [[Personal AI Infrastructure]] · [[Brain]]
+- Related notes — [[Context Engineering]] · [[Agentic Coding]] · [[Agentic Systems]] · [[Agent Skills]] · [[LLM Knowledge Bases]] · [[Progressive Disclosure]] · [[Karpathy Skills]] · [[gstack]] · [[Claude Code]] · [[Personal AI Infrastructure]] · [[Brain]] · [[Software 3.0]]
 
 ---
 Template: [[templates/knowledge_note_info]]
