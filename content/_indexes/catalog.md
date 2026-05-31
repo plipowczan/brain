@@ -1,6 +1,6 @@
 ---
-updated: 2026-05-28T00:00:00Z
-entries: 241
+updated: 2026-05-31T00:00:00Z
+entries: 242
 ---
 # Note Catalog
 
@@ -48,7 +48,7 @@ entries: 241
 - **Skills 2.0 Testing** | knowledge-note | 2026-03-08 | [knowledge, info, ai, skills, testing, agents] | Evolution from manual skills to tested, benchmarked, auto-triggered skill system with 4-agent eval pipeline | → Agent Skills, Agentic Systems, Claude Code, Context Engineering
 - **Software 3.0** | knowledge-note | 2026-05-28 | [knowledge, info, ai, agents, paradigm, business, prompts] | Karpathy's Software 1.0/2.0/3.0 thesis as a business playbook — sell the outcome not the tool; four moats left: data, prompting, system design, trust | → Agentic Coding, Context Engineering, Self-Improving Company, Agent Skills, LLM Knowledge Bases, templates/knowledge_note_info
 - **Specification-Driven Development** | knowledge-note | 2026-04-09 | [knowledge, info, ai, sdd, methodology] | OpenSpec framework — writing detailed specs before AI agents implement code | → Agentic Coding, Context Engineering, templates/knowledge_note_info
-- **Token Optimization for Claude Code** | knowledge-note | 2026-04-20 | [knowledge, info, ai, claude-code, token-optimization, cost-optimization, context-engineering] | Curated list of 10 open-source tools that reduce Claude Code token usage by 40–98% — proxies, context sandboxes, CLAUDE.md templates, code graphs | → Claude Code, Context Engineering, Harness Engineering, Agentic Systems, Qamera AI, Claude Code Best Practice, Agent Skills, Graphify, templates/knowledge_note_info
+- **Token Optimization for Claude Code** | knowledge-note | 2026-04-20 | [knowledge, info, ai, claude-code, token-optimization, cost-optimization, context-engineering] | Curated list of 10 open-source tools that reduce Claude Code token usage by 40–98% — proxies, context sandboxes, CLAUDE.md templates, code graphs | → Caveman, Claude Code, Context Engineering, Harness Engineering, Agentic Systems, Qamera AI, Claude Code Best Practice, Agent Skills, Graphify, templates/knowledge_note_info
 
 ## AI/NOTES
 - **Hackathon Hacknation** | basic-note | 2025-12-12 | [basic, notes, hackathon, ai, govtech] | 24h hackathon building budget system with AI — lessons on validation, AI limitations, team dynamics | → Claude Code, Agentic Coding
@@ -63,6 +63,7 @@ entries: 241
 - **Awesome Nano Banana Pro Prompts** | tool | 2026-05-09 | [tool, ai, image-generation, prompts, curated-list, open-source] | Curated 10K+ prompt library for Google Nano Banana Pro — preview images, 16 languages, free & open source | → GPT Image 2 + Seedance Workflow, Awesome Claude Code, Awesome Agent Skills, Karpathy Skills, templates/tool
 - **Browser Harness** | tool | 2026-05-19 | [tool, ai, agents, browser, harness, cdp, self-improving, open-source] | browser-use/browser-harness — thin self-healing CDP harness (~1k lines); agent writes the missing helpers itself at runtime | → Browser Use, Video Use, Claude Code, Awesome Claude Code, templates/tool
 - **Browser Use** | tool | 2026-05-19 | [tool, ai, agents, browser, automation, open-source, python] | browser-use/browser-use — Python framework that makes websites accessible to AI agents via structured DOM; OSS + hosted cloud tier with stealth/proxy | → Video Use, Browser Harness, Hermes Agent, Paperclip, Spec-driven SEO and GEO, templates/tool
+- **Caveman** | tool | 2026-05-31 | [tool, ai, claude-code, skills, token-optimization, cost-optimization, open-source, mit] | JuliusBrussee/caveman — Claude Code skill that makes the agent talk like a caveman, cutting ~65% of output tokens (and ~46% input via caveman-compress) at 100% technical accuracy; 30+ agent hosts, MIT | → Token Optimization for Claude Code, Claude Code, Awesome Claude Code, Agent Skills, Vercel Skills, Karpathy Skills, Superpowers, gstack, Building Claude Skills Guide, templates/tool
 - **Claude Code** | tool | 2026-04-09 | [tool, ai, llm, claude, coding-agents] | Anthropic's CLI for AI-assisted development — primary dev environment | → Agent Skills, Harness Engineering, Qamera AI, Context Engineering, Cursor, templates/tool
 - **Claude Code Best Practice** | tool | 2026-04-10 | [tool, ai, claude-code, coding-agents, resources] | 69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering | → Claude Code, Superpowers, OpenSpec, Awesome Claude Code, Agentic Coding, Context Engineering, Harness Engineering, Agent Skills, templates/tool
 - **Claude Peers MCP** | tool | 2026-04-20 | [tool, ai, mcp, claude-code, multi-agent, coordination] | MCP that lets multiple Claude Code instances on the same machine discover each other and exchange messages in real time | → Claude Code, Agentic Systems, Qamera AI, PLSoft, Agent Skills, Harness Engineering, Context Engineering, templates/tool

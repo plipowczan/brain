@@ -19,7 +19,7 @@ A short catalog of tools that cut token usage in [[Claude Code]] and LLM work in
 - Source: LinkedIn post (Mohammed Aboelez, 2026-04)
 
 ## 🧩 Tools (10)
-- **Caveman Claude** — forces Claude to reply in a "caveman" style, cuts ~75% output tokens with no accuracy loss.
+- **[[Caveman|Caveman Claude]]** — forces Claude to reply in a "caveman" style, cuts ~65% output tokens (README headline ~75%) with no accuracy loss.
 - **RTK (Rust Token Killer)** — Rust proxy that filters terminal output, 60–90% reduction, no dependencies.
 - **Code Review Graph** — Tree-sitter graph, Claude reads only relevant nodes — claimed 49× reduction on large monorepos.
 - **Context Mode** — sandboxes raw output (logs, GitHub) into SQLite instead of dumping into context; claimed 98% reduction.
@@ -31,7 +31,7 @@ A short catalog of tools that cut token usage in [[Claude Code]] and LLM work in
 - **Token Savior** — symbol-based (AST) navigation, not file-based; 97% reduction + persistent memory.
 
 ## 🧩 Taxonomy (mine, organized)
-- **Output compression** — Caveman Claude, RTK
+- **Output compression** — [[Caveman]], RTK
 - **Context sandboxing** — Context Mode, Token Optimizer MCP
 - **Code graph / symbol index** — Code Review Graph, Token Savior, Claude Context
 - **Prompt / CLAUDE.md templates** — Claude Token Optimizer, Claude Token Efficient

@@ -1,6 +1,6 @@
 ---
-updated: 2026-05-29T00:00:00Z
-total_notes: 241
+updated: 2026-05-31T00:00:00Z
+total_notes: 242
 ---
 # Vault Map
 
@@ -12,7 +12,7 @@ total_notes: 241
 | ABOUT/Roles | 8 | basic-note(8) | about, automation, integration, developer, architect |
 | AI/KNOWLEDGE/INFO | 18 | knowledge-note(18) | knowledge, info, ai, agents, context-engineering, self-improving, prompts, paradigm, vibe-coding, verifiability |
 | AI/NOTES | 1 | basic-note(1) | basic, notes, hackathon, ai, govtech |
-| AI/TOOLS | 39 | tool(39) | tool, ai, open-source, claude-code, coding-agents, agents, seo, rag, browser, video, design |
+| AI/TOOLS | 40 | tool(40) | tool, ai, open-source, claude-code, coding-agents, agents, seo, rag, browser, video, design, skills, token-optimization |
 | BUSINESS/BOOKS | 5 | book-note(5) | book, business, entrepreneurship, millionaire, inevitable |
 | BUSINESS/KNOWLEDGE/HOWTO | 9 | knowledge-note(9) | knowledge, howto, airtable, make, pdf |
 | BUSINESS/KNOWLEDGE/INFO | 9 | knowledge-note(9) | knowledge, info, business, linkedin, branding, ai, startup, methodology |
@@ -49,6 +49,8 @@ total_notes: 241
 200iq-labs:2 2fa:1 5-minute-journal:1 Airtable:1 Hugo:1 Make:1 RSS:1 about:9 ads:1 agent-native:1 agent-skills:1 agents:15 ai:65 airtable:2 albania:1 analysis:3 animations:1 apache-2.0:2 aplication:1 architect:1 architecture:2 atom:1 automation:9 autonomous-agents:1 azuredevops:1 baas:1 backend:1 bank:1 basic:15 benchmark:1 beskidy:1 bitcoin:1 boilerplate:1 book:16 books:1 branding:2 browser:1 business:10 byok:1 career:1 case-study:1 change-management:1 chatbots:1 claude:4 claude-code:24 cli:3 cloud:1 code:1 codex:3 coding-agents:12 collaboration:1 community:1 company-of-agents:2 comparison:1 conflict:1 consulting:1 containers:1 content:1 context-engineering:6 coordination:1 cosmos:1 cost-optimization:1 crawler:1 crm:1 crypto:7 curated-list:2 cursor:2 data:1 database:3 delegated-work:1 delegation:1 design:6 design-systems:1 developer:1 development:2 devops:1 diagrams:2 digital-garden:2 disc:2 drawing:1 dynamic-pricing:1 education:1 eisenhower:1 employee:1 energy:1 entrepreneur:1 entrepreneurship:1 evaluation:1 events:1 exchange:1 exchanges:1 exercises:1 family:1 father:2 federation:1 figma:1 filecoin:1 forecast:1 founder:1 framework:6 franklin:2 friend:1 frontend:3 frontend-runtime:1 fullstack:3 future:2 gemini-cli:1 geo:1 git:2 google-doc:1 google-drive:1 govtech:1 guide:1 habits:1 hackathon:1 harness:2 health:1 household:1 howto:20 husband:1 iceland:1 ide:1 image-generation:2 inevitable:1 inference:1 influencers:2 info:42 infrastructure:1 instant:1 integration:4 investment:4 javascript:1 journaling:2 junior:1 kids:2 kindle:1 knowledge:75 knowledge-base:2 knowledge-graph:1 knowledge-management:3 laravel:1 lead-generation:2 learning:2 leary:1 lesson:1 life:1 linkedin:2 linux:1 llm:8 make:2 markdown:5 market:1 marp:1 matic:1 mcp:3 meeting:1 memory:2 mentoring:1 merge:1 messaging:1 methodology:3 microsoft:1 millionaire:1 mind-map:2 miro:1 mit:1 mobile:1 modular:1 money:1 moral story:1 morning routine:1 multi-agent:1 nextjs:1 nocode:3 notes:9 nuxt:1 obsidian:7 onedrive:1 open-source:17 opencode:1 openspec:1 optimization:1 orchestration:2 paradigm:1 pareto:1 parkinson:1 passwords:1 pawellipowczan:1 pdf:1 people:1 personal:1 pkm:1 plan:2 plsoft:2 pmf:1 pocket-money:1 poland:1 polygon:1 presentation:5 principle:1 principles:1 processes:1 product:2 productivity:2 programer:1 programming:1 progressive-disclosure:1 project:14 project-management:1 projects:4 prompts:1 psychology:1 puls:1 python:1 qamera:2 quartz:2 quote:7 quotes:1 rag:3 react:2 reading:1 reliability:1 religion:1 reports:1 research:1 resources:3 revolut:2 rules:1 rust:1 saas:2 sales:1 sapiens:1 savings:1 sdd:1 second-brain:2 security:3 self-development:3 self-hosted:2 self-improving:2 yc:1 seo:2 indexing:1 incremental:1 sharefund:1 skills:12 sleep:1 slides:4 slip-box:2 specs:1 startup:2 strategy:2 swarm:1 tdd:1 technology:1 testing:1 todo:1 todo/complete:3 token-optimization:1 tool:75 tools:1 training:1 travels:3 trends:1 trip:5 ui:2 ux:4 ventusky:1 vibe-coding:3 video:2 visualstudio:1 voice-agents:1 voicebot:1 waking up early:1 walking:1 weather:1 web-design:1 web-scraping:1 webflow:1 whiteboard:1 wife:1 windows:1 wireframe:1 wisdom:2 word:1 work:1 workflow:6 zapier:1 zettelkasten:2
 
 ## Recent Changes
+- 2026-05-31 AI/TOOLS/Caveman.md (ingested — JuliusBrussee/caveman: Claude Code skill that talks like a caveman, ~65% output-token cut at 100% accuracy; /caveman levels, caveman-compress for memory files, cavecrew subagents; MIT, 30+ hosts)
+- 2026-05-30 _outputs/answers/2026-05-30_nowoczesne-firmy-ai-first.md (Q&A — nowoczesne firmy AI-first: rekurencyjne pętle, model outcome-first, agentic engineering, company-of-agents, 70-20-10)
 - 2026-05-29 _outputs/2026-05-29_software-3-0-blog-wsad.md (blog brief — PL wsad + szkielet do artykułu o Software 3.0 / agentic engineering, z diagramem i linkami do notatek źródłowych)
 - 2026-05-29 AI/KNOWLEDGE/INFO/Karpathy Paradigm.excalidraw (diagram — wizualny wywód Software 1.0→3.0 + agentic engineering, 5 pasów)
 - 2026-05-28 AI/KNOWLEDGE/INFO/Agentic Engineering.md (ingested — Karpathy @ Sequoia: vibe coding raises the floor, agentic engineering preserves the quality bar; verifiability, jagged intelligence, agent-native infra)
