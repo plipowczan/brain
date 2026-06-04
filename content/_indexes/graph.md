@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-31T00:00:00Z
-nodes: 242
-edges: 1045
+updated: 2026-06-04T00:00:00Z
+nodes: 244
+edges: 1053
 ---
 # Link Graph
 
@@ -40,7 +40,8 @@ AI/KNOWLEDGE/INFO/Progressive Disclosure -> AI/KNOWLEDGE/INFO/Context Engineerin
 AI/KNOWLEDGE/INFO/Self-Improving Company -> AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Agentic Coding, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/TOOLS/Karpathy Skills, AI/TOOLS/gstack, AI/TOOLS/Claude Code, AI/TOOLS/Personal AI Infrastructure, PROJECTS/BRAIN/Brain, AI/KNOWLEDGE/INFO/Software 3.0, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/Skills 2.0 Testing -> AI/TOOLS/Agent Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Context Engineering
 AI/KNOWLEDGE/INFO/Software 3.0 -> AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Agentic Engineering, templates/knowledge_note_info
-AI/KNOWLEDGE/INFO/Specification-Driven Development -> AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, templates/knowledge_note_info
+AI/KNOWLEDGE/INFO/Specification-Driven Development -> AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/PRD Methodologies and Templates, templates/knowledge_note_info
+AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish) -> AI/TOOLS/Voicebox, AI/TOOLS/VAPI, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture
 AI/KNOWLEDGE/INFO/Token Optimization for Claude Code -> AI/TOOLS/Caveman, AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Agent Skills, AI/TOOLS/Graphify, templates/knowledge_note_info
 AI/NOTES/Hackathon Hacknation -> AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Agentic Coding
 AI/TOOLS/Agent Skills -> AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Vercel Skills, AI/TOOLS/Karpathy Skills, AI/TOOLS/Superpowers, AI/TOOLS/gstack, AI/TOOLS/Hermes Agent, AI/TOOLS/Agent Zero, AI/TOOLS/Space Agent, templates/tool
@@ -114,7 +115,8 @@ CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts -> ATTACHMENT
 CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed -> templates/knowledge_note_how_to
 CODE/KNOWLEDGE/HOWTO/Vibe Coding -> AI/TOOLS/Cursor, AI/TOOLS/Claude Code, templates/knowledge_note_how_to
 CODE/KNOWLEDGE/INFO/AI Chatbots Architecture -> BUSINESS/TOOLS/n8n, AI/TOOLS/VAPI, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, templates/knowledge_note_info
-CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO -> PROJECTS/QAMERA-AI/Qamera AI, CODE/TOOLS/OpenSpec, CODE/TOOLS/OPSX Workflow, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/KNOWLEDGE/INFO/Context Engineering, AI/TOOLS/Claude Code, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code Best Practice, CODE/KNOWLEDGE/HOWTO/Vibe Coding, AI/KNOWLEDGE/INFO/Agentic Coding, PROJECTS/BRAIN/Brain
+CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO -> PROJECTS/QAMERA-AI/Qamera AI, CODE/TOOLS/OpenSpec, CODE/TOOLS/OPSX Workflow, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/KNOWLEDGE/INFO/Context Engineering, AI/TOOLS/Claude Code, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code Best Practice, CODE/KNOWLEDGE/HOWTO/Vibe Coding, AI/KNOWLEDGE/INFO/Agentic Coding, PROJECTS/BRAIN/Brain, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates
+CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates -> AI/KNOWLEDGE/INFO/Specification-Driven Development, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, AI/KNOWLEDGE/INFO/Software 3.0, AI/KNOWLEDGE/INFO/Agentic Engineering, BUSINESS/KNOWLEDGE/INFO/Lean Canvas
 CODE/TOOLS/Awesome Design MD -> AI/TOOLS/Claude Code, AI/TOOLS/Cursor, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/PLSOFT/PLSoft, templates/tool
 CODE/TOOLS/Docker -> PROJECTS/QAMERA-AI/Qamera AI, AI/TOOLS/NemoClaw, templates/tool
 CODE/TOOLS/Excalidraw -> AI/TOOLS/Claude Code, LIFE/KNOWLEDGE/INFO/Obsidian, templates/tool
@@ -250,7 +252,7 @@ AI/KNOWLEDGE/INFO/AI Agent Security <- AI/TOOLS/Awesome Agent Skills
 AI/KNOWLEDGE/INFO/AI Trends 2026 <- BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule
 AI/KNOWLEDGE/INFO/AI UX Design Tools <- AI/TOOLS/Open Design, AI/TOOLS/UX Pilot, AI/TOOLS/UX RULER, AI/TOOLS/Impeccable
 AI/KNOWLEDGE/INFO/Agentic Coding <- ABOUT/My career path, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/Software 3.0, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/NOTES/Hackathon Hacknation, AI/TOOLS/CLI-Anything, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Paperclip, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI
-AI/KNOWLEDGE/INFO/Agentic Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Software 3.0
+AI/KNOWLEDGE/INFO/Agentic Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Software 3.0, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates
 AI/KNOWLEDGE/INFO/Building Claude Skills Guide <- AI/TOOLS/Caveman, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules
 AI/KNOWLEDGE/INFO/Context Engineering <- ABOUT/My career path, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Software 3.0, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/CLI-Anything, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Claude Peers MCP, AI/TOOLS/Everything Claude Code, AI/TOOLS/Graphify, AI/TOOLS/Karpathy Skills, AI/TOOLS/Ruflo, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/OpenSpec, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 AI/KNOWLEDGE/INFO/DELEGATE-52 <- AI/TOOLS/Everything Claude Code, AI/TOOLS/Hermes Agent
@@ -260,8 +262,8 @@ AI/KNOWLEDGE/INFO/LLM Knowledge Bases <- AI/KNOWLEDGE/INFO/Agentic Engineering, 
 AI/KNOWLEDGE/INFO/Progressive Disclosure <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Everything Claude Code, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules
 AI/KNOWLEDGE/INFO/Self-Improving Company <- AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Software 3.0
 AI/KNOWLEDGE/INFO/Skills 2.0 Testing <- AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Everything Claude Code
-AI/KNOWLEDGE/INFO/Software 3.0 <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Self-Improving Company
-AI/KNOWLEDGE/INFO/Specification-Driven Development <- BUSINESS/KNOWLEDGE/INFO/Process Mapping, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
+AI/KNOWLEDGE/INFO/Software 3.0 <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Self-Improving Company, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates
+AI/KNOWLEDGE/INFO/Specification-Driven Development <- BUSINESS/KNOWLEDGE/INFO/Process Mapping, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates
 AI/KNOWLEDGE/INFO/Token Optimization for Claude Code <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Caveman, AI/TOOLS/Everything Claude Code, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules
 AI/TOOLS/Agent Skills <- AI/KNOWLEDGE/INFO/AI UX Design Tools, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Software 3.0, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Agent Zero, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Caveman, AI/TOOLS/CLI-Anything, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Claude Peers MCP, AI/TOOLS/Claude SEO, AI/TOOLS/Everything Claude Code, AI/TOOLS/Hermes Agent, AI/TOOLS/Karpathy Skills, AI/TOOLS/Open Design, AI/TOOLS/Ruflo, AI/TOOLS/Space Agent, AI/TOOLS/Superpowers, AI/TOOLS/UX RULER, AI/TOOLS/Vercel Skills, AI/TOOLS/gstack, AI/TOOLS/Impeccable, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules
 AI/TOOLS/Agent Zero <- AI/TOOLS/Agent Skills, AI/TOOLS/Hermes Agent, AI/TOOLS/Ruflo, AI/TOOLS/Space Agent, AI/TOOLS/Vercel Skills, CODE/TOOLS/Scrapling, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
@@ -288,7 +290,7 @@ AI/TOOLS/Superpowers <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/TOOLS
 AI/TOOLS/UI UX Pro Max <- AI/KNOWLEDGE/INFO/AI UX Design Tools, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Open Design, AI/TOOLS/UX Pilot
 AI/TOOLS/UX Pilot <- AI/KNOWLEDGE/INFO/AI UX Design Tools, AI/TOOLS/Open Design, AI/TOOLS/UX RULER, AI/TOOLS/Impeccable
 AI/TOOLS/UX RULER <- AI/KNOWLEDGE/INFO/AI UX Design Tools, AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/TOOLS/Open Design, AI/TOOLS/UX Pilot, BUSINESS/KNOWLEDGE/INFO/Process Mapping, CODE/TOOLS/OPSX Workflow, AI/TOOLS/Impeccable
-AI/TOOLS/VAPI <- ABOUT/Roles/AutomationSpecialist, ABOUT/What tools I use, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, PROJECTS/PLSOFT/PLSoft
+AI/TOOLS/VAPI <- ABOUT/Roles/AutomationSpecialist, ABOUT/What tools I use, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, PROJECTS/PLSOFT/PLSoft, AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish)
 AI/TOOLS/Vercel Skills <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/TOOLS/Agent Skills, AI/TOOLS/Agent Zero, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Caveman, AI/TOOLS/Everything Claude Code, AI/TOOLS/Hermes Agent, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules
 AI/TOOLS/gstack <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/TOOLS/Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Caveman, AI/TOOLS/Everything Claude Code, AI/TOOLS/Karpathy Skills, AI/TOOLS/Ruflo, AI/TOOLS/Superpowers, AI/TOOLS/UI UX Pro Max, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules
 ATTACHMENTS/20201208_CliftonStrenghts_34_results_pawel_lipowczan.pdf <- ABOUT/CLIFTONSTRENGTHS
@@ -371,8 +373,8 @@ BUSINESS/TOOLS/Zapier <- BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, NOCODE/KNOWLED
 BUSINESS/TOOLS/n8n <- ABOUT/Roles/AutomationSpecialist, ABOUT/What tools I use, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, BUSINESS/KNOWLEDGE/INFO/Process Mapping, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection
 CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow <- CODE/TOOLS/Marp
 CODE/KNOWLEDGE/HOWTO/Vibe Coding <- AI/KNOWLEDGE/INFO/DELEGATE-52, AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
-CODE/KNOWLEDGE/INFO/AI Chatbots Architecture <- AI/TOOLS/CocoIndex, AI/TOOLS/LightRAG
-CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO <- AI/KNOWLEDGE/INFO/AI UX Design Tools, AI/TOOLS/Claude SEO, AI/TOOLS/UX RULER, PROJECTS/QAMERA-AI/Qamera AI
+CODE/KNOWLEDGE/INFO/AI Chatbots Architecture <- AI/TOOLS/CocoIndex, AI/TOOLS/LightRAG, AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish)
+CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO <- AI/KNOWLEDGE/INFO/AI UX Design Tools, AI/TOOLS/Claude SEO, AI/TOOLS/UX RULER, PROJECTS/QAMERA-AI/Qamera AI, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates
 CODE/TOOLS/Docker <- ABOUT/What tools I use
 CODE/TOOLS/Git <- ABOUT/What tools I use, CODE/KNOWLEDGE/HOWTO/Export git logs to file
 CODE/TOOLS/Google Cloud <- ABOUT/What tools I use, PROJECTS/QAMERA-AI/Qamera AI
@@ -471,6 +473,7 @@ AI/TOOLS/Video Use <- AI/TOOLS/Browser Use, AI/TOOLS/Browser Harness, AI/TOOLS/H
 AI/TOOLS/Browser Harness <- AI/TOOLS/Browser Use, AI/TOOLS/Video Use
 AI/TOOLS/HyperFrames <- AI/TOOLS/Video Use
 AI/TOOLS/Personal AI Infrastructure <- AI/KNOWLEDGE/INFO/Self-Improving Company, AI/TOOLS/Voicebox
+AI/TOOLS/Voicebox <- AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish)
 AI/TOOLS/Claude Code <- AI/TOOLS/Browser Use, AI/TOOLS/Video Use, AI/TOOLS/Browser Harness, AI/TOOLS/HyperFrames, AI/TOOLS/Voicebox, AI/TOOLS/Personal AI Infrastructure, AI/TOOLS/DESIGN MD Spec, AI/TOOLS/Impeccable
 AI/TOOLS/Hermes Agent <- AI/TOOLS/Browser Use, AI/TOOLS/Voicebox, AI/TOOLS/Personal AI Infrastructure
 AI/TOOLS/Paperclip <- AI/TOOLS/Browser Use, AI/TOOLS/Voicebox, AI/TOOLS/Personal AI Infrastructure
@@ -496,4 +499,5 @@ BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas
 BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas
 BUSINESS/BOOKS/Millionaire Fastlane <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas
 ABOUT/Principles <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas
+BUSINESS/KNOWLEDGE/INFO/Lean Canvas <- CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates
 templates/knowledge_note_info <- AI/KNOWLEDGE/INFO/40 AI Prompts for Expert Output, BUSINESS/KNOWLEDGE/INFO/Lean Canvas

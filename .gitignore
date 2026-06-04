@@ -16,5 +16,8 @@ content/.obsidian/plugins/*/styles.css
 # Obsidian — theme files (downloaded automatically)
 content/.obsidian/themes/*/theme.css
 
-.claude/settings.local.json
-.claude/settings.local.json
+# Research workspaces — intermediate artifacts; final report is promoted to content/_raw/inbox/
+content/_raw/research-workspaces/
+
+# Firecrawl CLI — scrape/search result cache dumped into CWD by agents
+.firecrawl/

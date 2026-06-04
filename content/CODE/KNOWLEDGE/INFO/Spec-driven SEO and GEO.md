@@ -111,6 +111,7 @@ Threshold: thematic cohesion + <500 lines of diff + single maintainer → one PR
 - [[Vibe Coding]] / [[Agentic Coding]] — broader paradigm
 - [[Qamera AI]] — Next.js / Turborepo / i18n case study
 - [[Brain]] — related pattern: digital garden as a code artifact with its own verification loop
+- [[PRD Methodologies and Templates]] — spec-driven development in the broader PRD/spec landscape
 
 ## 📖 Further reading
 

@@ -32,6 +32,7 @@ Also known as **SDD** (Specification-Driven Development). The **OpenSpec** frame
 ## 📖 Further reading
 [[Agentic Coding]]
 [[Context Engineering]]
+[[PRD Methodologies and Templates]] — SDD frameworks (Spec Kit, BMAD) in the wider PRD landscape
 
 ---
 Template: [[templates/knowledge_note_info]]

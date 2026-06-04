@@ -1,6 +1,6 @@
 ---
-updated: 2026-05-31T00:00:00Z
-entries: 242
+updated: 2026-06-04T00:00:00Z
+entries: 244
 ---
 # Note Catalog
 
@@ -49,6 +49,7 @@ entries: 242
 - **Software 3.0** | knowledge-note | 2026-05-28 | [knowledge, info, ai, agents, paradigm, business, prompts] | Karpathy's Software 1.0/2.0/3.0 thesis as a business playbook — sell the outcome not the tool; four moats left: data, prompting, system design, trust | → Agentic Coding, Context Engineering, Self-Improving Company, Agent Skills, LLM Knowledge Bases, templates/knowledge_note_info
 - **Specification-Driven Development** | knowledge-note | 2026-04-09 | [knowledge, info, ai, sdd, methodology] | OpenSpec framework — writing detailed specs before AI agents implement code | → Agentic Coding, Context Engineering, templates/knowledge_note_info
 - **Token Optimization for Claude Code** | knowledge-note | 2026-04-20 | [knowledge, info, ai, claude-code, token-optimization, cost-optimization, context-engineering] | Curated list of 10 open-source tools that reduce Claude Code token usage by 40–98% — proxies, context sandboxes, CLAUDE.md templates, code graphs | → Caveman, Claude Code, Context Engineering, Harness Engineering, Agentic Systems, Qamera AI, Claude Code Best Practice, Agent Skills, Graphify, templates/knowledge_note_info
+- **TTS Engines Comparison (Polish)** | compiled-note | 2026-06-04 | [research, compiled, ai, tts, voice, polish] | 19 TTS engines compared for Polish quality and cost — Azure (MOS 4.04, IVONA lineage) wins quality, Amazon Polly wins price; all leaderboard Elo is English-only | → Voicebox, VAPI, AI Chatbots Architecture
 
 ## AI/NOTES
 - **Hackathon Hacknation** | basic-note | 2025-12-12 | [basic, notes, hackathon, ai, govtech] | 24h hackathon building budget system with AI — lessons on validation, AI limitations, team dynamics | → Claude Code, Agentic Coding
@@ -152,6 +153,7 @@ entries: 242
 
 ## CODE/KNOWLEDGE/INFO
 - **AI Chatbots Architecture** | knowledge-note | 2025-11-01 | [knowledge, info, ai, chatbots, rag] | LLM chatbot architecture — RAG, function calling, voicebots via VAPI, implementation costs and metrics | → n8n, VAPI, Agentic Systems, templates/knowledge_note_info
+- **PRD Methodologies and Templates** | compiled-note | 2026-06-04 | [research, compiled, prd, specs, methodology, product, sdd] | 15 PRD methodologies/templates compared — classic PM frameworks (Working Backwards, JTBD, Lean Canvas) vs 2026 spec-driven development (Spec Kit, BMAD), across 18 fields | → Specification-Driven Development, Spec-driven SEO and GEO, Software 3.0, Agentic Engineering, Lean Canvas
 - **Spec-driven SEO and GEO** | knowledge-note | 2026-04-26 | [knowledge, info, seo, geo, claude-code, openspec] | Synthesis of SEO + GEO optimization patterns from portfolio and Qamera AI case studies — code-stack only top 20% controls | → Qamera AI, OpenSpec, OPSX Workflow, Specification-Driven Development, Context Engineering, Claude Code, Awesome Claude Code, Claude Code Best Practice, Vibe Coding, Agentic Coding, Brain
 
 ## CODE/TOOLS
