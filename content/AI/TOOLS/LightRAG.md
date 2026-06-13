@@ -83,7 +83,7 @@ Since 2025.06 LightRAG integrates RAG-Anything for multimodal pipelines.
 ### 🧩 Observability and evaluation
 
 Since 2025.11:
-- **Langfuse** integration — tracing
+- **[[Langfuse]]** integration — tracing
 - **RAGAS** — evaluation with context precision metrics
 - API returns retrieved contexts alongside query results
 - Token usage tracking, KG export, LLM cache management

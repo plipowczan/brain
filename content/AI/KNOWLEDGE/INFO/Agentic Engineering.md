@@ -88,6 +88,7 @@ On his "jagged intelligence" / "we're not building animals, we are summoning gho
 ## 🔗 Related
 
 - [[Software 3.0]] — the third-party breakdown of this same interview (business-playbook angle)
+- [[Karpathy Method]] — tactical 3-layer distillation (spec / verifier / environment) of how to apply this in Claude Code
 - [[LLM Knowledge Bases]] — Karpathy's own method, named directly here; the basis of this vault
 - [[Agentic Coding]] — designing agent environments instead of writing code
 - [[Context Engineering]] — the context window as the lever
