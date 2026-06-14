@@ -73,6 +73,7 @@ For agent-generated video — product intros, vertical TikTok hooks, animated ch
 - [[Claude Code]] — host agent for the skill
 - [[Awesome Claude Code]] — broader CC ecosystem
 - [[Marp]] — different format, similar HTML-as-source philosophy
+- [[10 Free GitHub Repos That Replace Paid Tools]] — listed as #10 (vs Remotion)
 
 ---
 Template: [[templates/tool]]
