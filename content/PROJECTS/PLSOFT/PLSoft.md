@@ -44,6 +44,12 @@ My solo consulting practice (Jednoosobowa Dzialalnosc Gospodarcza), operating si
 - **Adres do doręczeń elektronicznych**: AE:PL-37808-07390-JTCTR-23
 - Źródło: [CEIDG](https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=1941b3a6-b989-4e39-b759-6da365bf6bf6)
 
+## Client engagements
+- [[AGRE]] — multilingual Costa Blanca real-estate platform
+- [[Tech To The Rescue]] — AI-native platform transition for a nonprofit
+- [[Jakub Głąb Agent System]] — personal agent system for a fintech executive
+- [[Tech News Weekly]] — automated weekly tech newsletter (PLSoft brand)
+
 ## 🔗 Links
 - [[About]] — my profile
 - [[Qamera AI]] — my product company (separate entity)

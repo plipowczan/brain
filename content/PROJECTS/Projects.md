@@ -13,9 +13,16 @@ agent-reviewed: 2026-04-09
 1. [[Qamera AI]] — AI virtual photo studio (CTO @ 200IQ Labs)
 2. [[PLSoft]] — Technology consulting
 3. [[Agentic Systems]] — Agent environments and shared-skills framework
-4. [[Value Builders]] — Trainer role
+4. [[Value Builders]] — Trainer role (Week 3 — MVP & Vibe Coding)
 5. [[Value Builders Tribe]] — Tech Lead / Mentor
 6. [[Brain]] — Digital garden (brain.lipowczan.pl)
+7. [[Tech News Weekly]] — Automated weekly tech newsletter (PLSoft)
+8. [[Travelcast AI]] — AI travel-podcast generator + website
+
+### PLSoft client engagements
+- [[AGRE]] — Multilingual Costa Blanca real-estate platform
+- [[Tech To The Rescue]] — AI-native platform transition (nonprofit)
+- [[Jakub Głąb Agent System]] — Personal agent system for a fintech executive
 
 ## 📒 Historical Projects
 Archive of previous projects:
