@@ -92,6 +92,7 @@ Run once to backfill. Re-run anytime — only changed files re-embed.
 - [[LightRAG]] — RAG framework with KG entity extraction; pairs well as the *retrieval* layer downstream of CocoIndex
 - [[Graphify]] — knowledge-graph generator skill
 - [[Brain]] — this vault; candidate ingestion target
+- [[Google Cloud Knowledge Catalog]] — Google's managed data-catalog / knowledge-graph take on the same context problem
 - [[LLM Knowledge Bases]]
 - [[AI Chatbots Architecture]]
 - [[Qamera AI]]
