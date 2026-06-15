@@ -7,7 +7,7 @@ ROOT = "content"
 EXCLUDE_TOP = {"_raw", "_indexes", "_outputs", "templates", "ATTACHMENTS", ".obsidian"}
 ALLOWED_TYPES = {"basic-note", "book-note", "knowledge-note", "tool",
                  "compiled-note", "answer-note", "quote", "quote-note", "dailyjournal"}
-TODAY = date(2026, 6, 14)
+TODAY = date.today()
 
 def parse_fm(text):
     if not text.startswith("---"):
