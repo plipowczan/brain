@@ -13,25 +13,27 @@ knowledge, not publishing it.
   generated answers and reports; `templates/` holds note templates.
 - `.claude/skills/` + `.claude/commands/` — the management skills below.
 
-## Quickstart (manual)
+## Quickstart
 
 1. Open this folder in Claude Code.
 2. Install script prerequisites: `pip install -r requirements.txt`.
-3. Try the skills against the shipped example:
-   - `/qa what does this vault say about wikilinks` — answer from notes.
-   - `/lint` — health check.
-   - Drop a file in `content/_raw/inbox/` (a `sample-source.md` is provided) and
-     run `/ingest` to turn it into a note.
-   - `/reindex` — rebuild the three indexes.
-4. Delete the `content/REFERENCE/` example notes when you no longer need them.
+3. Run **`/onboard`** — it interviews you (KB name, owner, topics, language,
+   voice) and then personalizes the brain (`CLAUDE.md`, `AGENTS.md`,
+   `content/WRITING_STYLE.md`), creates your topic folders, and builds the
+   navigation indexes.
+4. Start using the vault:
+   - Drop a file in `content/_raw/inbox/` and run `/ingest`.
+   - Ask `/qa what does this vault say about …`.
+   - Run `/lint` for a health check.
 
-> A guided `/onboard` command that personalizes the vault to your name, topics,
-> and writing voice is added in a later step of the template build.
+> Prefer to set things up by hand? You can skip `/onboard`, rename the
+> `*.template.md` files yourself, and edit the `{{PLACEHOLDERS}}` directly.
 
 ## Skills
 
 | Command | What it does |
 |---------|--------------|
+| `/onboard` | Interview + scaffold a fresh knowledge base from the template (personalizes the brain, creates topics, builds indexes). |
 | `/ingest` | Turn raw sources (files in `_raw/inbox/`, or YouTube URLs) into wiki notes; updates indexes. |
 | `/compile` | Synthesize a new article from existing notes on a topic. |
 | `/enhance` | Improve a single note: fill gaps, add wikilinks, mark reviewed. |
