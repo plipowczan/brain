@@ -78,7 +78,8 @@ Warn on missing; do not abort.
 6. **Prune note templates** in `content/templates/` to the chosen note types
    (e.g. remove `book.md` if `book-note` was dropped).
 
-7. **Rebuild the indexes** so they match the new structure:
+7. **Rebuild the indexes** so they match the new structure (run from the repo
+   root — the script resolves `content/` relative to the current directory):
    `python .claude/skills/reindex/scripts/build_indexes.py`.
 
 ### Phase 4 — Handoff
