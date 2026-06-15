@@ -43,6 +43,7 @@ Open the repo in Google Cloud Shell (one-click button in the README) and run the
 
 ## 📖 Further reading
 
+- [[Open Knowledge Format (OKF)]] — the open markdown+frontmatter knowledge spec (`okf/SPEC.md`) shipped inside this repo
 - [[CocoIndex]] — incremental indexing engine for fresh agent context
 - [[LightRAG]] — KG-based RAG framework
 - [[Graphify]] — code/docs → queryable knowledge graph skill

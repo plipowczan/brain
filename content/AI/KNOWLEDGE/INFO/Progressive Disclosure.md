@@ -112,6 +112,7 @@ Emoji icons signal observation type — visual scanning, language-agnostic, toke
 - [[LLM Knowledge Bases]] — Obsidian vault here uses index-first navigation (`vault-map.md` → `catalog.md` → notes)
 - [[Token Optimization for Claude Code]] — tools that operationalize this pattern
 - [[Graphify]] — knowledge-graph index over arbitrary content
+- [[Open Knowledge Format (OKF)]] — a knowledge-format spec whose `index.md` files implement this pattern
 
 ## 📖 Further reading
 [[Claude Code]]

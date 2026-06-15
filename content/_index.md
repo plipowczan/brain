@@ -2,6 +2,7 @@
 title: Who am I and what is this place?
 enableToc: false
 openToc: true
+type: basic-note
 ---
 
 ![[ATTACHMENTS/4a_round_nobg.png]]

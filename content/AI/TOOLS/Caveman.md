@@ -7,10 +7,30 @@ tags: ["tool", "ai", "claude-code", "skills", "token-optimization", "cost-optimi
 type: tool
 source: "_raw/processed/2026-05-31_JuliusBrussee-caveman.md"
 agent-created: true
+agent-reviewed: 2026-06-15
 summary: "JuliusBrussee/caveman — Claude Code skill that makes the agent talk like a caveman, cutting ~65% of output tokens while keeping full technical accuracy; MIT, 30+ agent hosts."
 ---
 # Caveman
 🪨 *why use many token when few do trick* — a [[Claude Code]] skill/plugin (also Codex, Gemini, Cursor, Windsurf, Cline, Copilot, 30+ more) that makes the agent **talk like a caveman**: drop articles, filler, and pleasantries, keep substance, use fragments. Cuts **~65% of output tokens** on average (range 22–87%) with **100% technical accuracy** preserved. Brain still big. Mouth small.
+
+## 🛠️ How to use
+Quick-start, start to finish:
+
+1. **Install (one-time).** Needs **Node ≥18**, takes ~30s, idempotent (safe to re-run), skips agents you don't have.
+   ```powershell
+   # Windows (PowerShell 5.1+) — my setup
+   irm https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.ps1 | iex
+   ```
+   ```bash
+   # macOS / Linux / WSL / Git Bash
+   curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.sh | bash
+   ```
+2. **Turn it on.** Type `/caveman` or say *"talk like caveman"*. On [[Claude Code]] a session hook writes a flag file so the agent talks caveman from message one — no command needed (also auto-activates each session on Codex and Gemini).
+3. **Pick a level** (sticks until session end): `/caveman lite` (drops filler) → `/caveman full` (default caveman) → `/caveman ultra` (telegraphic) → `/caveman wenyan` (classical Chinese, shortest).
+4. **Use the sub-commands** as needed — `/caveman-commit`, `/caveman-review`, `/caveman-stats`, `/caveman-compress <file>` (see [[#🧩 What you get]] below for the full list).
+5. **Turn it off.** Say *"normal mode"* — do this for code, commits, and security writing where terseness hurts clarity.
+
+**Pair it with [[Headroom]]** to also compress *input/context* tokens: caveman shrinks the mouth, Headroom shrinks what the brain reads. See [[Token Optimization for Claude Code]] for the broader toolkit.
 
 ## Links
 ### Description

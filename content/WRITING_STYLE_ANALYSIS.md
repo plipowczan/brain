@@ -1,3 +1,12 @@
+---
+title: "Writing Style Analysis"
+date: 2026-05-17
+enableToc: true
+openToc: true
+tags: ["reference", "writing-style", "about"]
+type: basic-note
+summary: "Writing-style guidelines for the vault, derived from the user's own early notes — the style template the AI agent follows so new notes match the rest."
+---
 # Writing Style Analysis — Knowledge Base for the AI Agent
 
 ## Writing Style Summary

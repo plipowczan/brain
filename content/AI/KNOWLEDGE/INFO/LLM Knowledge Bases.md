@@ -94,6 +94,7 @@ Idea pokrewna Vannevar Bush's Memex (1945) — personal, curated knowledge store
 - [LLM Wiki gist na GitHubie](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - [[Autoresearch]] — powiązany projekt Karpathy'ego o autonomicznych agentach badawczych
 - [[Agentic Engineering]] — Karpathy's Sequoia talk where he names this project directly ("you can't outsource understanding")
+- [[Open Knowledge Format (OKF)]] — an open spec that formalises this markdown+frontmatter "LLM wiki" idea into interoperability rules
 
 ---
 Template: [[templates/knowledge_note_info]]
