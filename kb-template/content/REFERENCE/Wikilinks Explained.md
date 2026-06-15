@@ -11,7 +11,7 @@ summary: "How wikilinks resolve in this vault and why filenames must match link 
 
 # Wikilinks Explained 🔗
 
-Wikilinks are how notes reference each other. They look like `[[Note Title]]`
+Wikilinks are how notes reference each other. They look like `&#91;&#91;Note Title&#93;&#93;`
 and render as a clickable link to the note whose **filename** matches that
 title.
 
