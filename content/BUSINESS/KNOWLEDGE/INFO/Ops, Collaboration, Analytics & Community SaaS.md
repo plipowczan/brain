@@ -44,4 +44,4 @@ A collective reference for the operational, analytics, community, and region-spe
 ## 🔗 Links
 - [[Marketing, Sales & Publishing SaaS]] · [[Dev Libraries & Build Tools]] — sibling collective tool notes
 - [[PostHog]] · [[Google Cloud]] — related dedicated tool notes
-- [[Missing Tools — Active Projects Audit]] — the source audit (Tier 5)
+- *Missing Tools — Active Projects Audit* (internal report: `_outputs/reports/2026-06-13_missing-tools-from-projects.md`) — the source audit (Tier 5)

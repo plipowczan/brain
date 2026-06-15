@@ -1,5 +1,5 @@
 ---
-title: "tool"
+title: "Obsidian"
 date:  2022-09-06
 enableToc: true
 openToc: true

@@ -1,7 +1,7 @@
 ---
 title: It always takes longer than you expect, even when you take into account Hofstadter's Law
 author: Douglas Hofstadter
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2022-10-31
 enableToc: true
 openToc: true
 tags: ["quote"]

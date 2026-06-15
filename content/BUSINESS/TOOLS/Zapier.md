@@ -1,12 +1,12 @@
 ---
-title: "tool"
+title: "Zapier"
 date:  2022-09-06
 enableToc: true
 openToc: true
 tags: ["tool", "zapier", "automation", "integration"]
 type: tool
 ---
-# Tool
+# Zapier
 Easy automation tool to automate work across great number of tools.
 
 ## Links

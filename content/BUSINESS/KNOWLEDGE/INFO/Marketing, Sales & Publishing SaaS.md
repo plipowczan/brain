@@ -41,4 +41,4 @@ A collective reference for the marketing-, sales-, and publishing-side SaaS that
 ## 🔗 Links
 - [[Ops, Collaboration, Analytics & Community SaaS]] · [[Dev Libraries & Build Tools]] — sibling collective tool notes
 - [[Clay]] · [[People Data Labs]] · [[Stripe]] · [[Resend]] — related dedicated tool notes
-- [[Missing Tools — Active Projects Audit]] — the source audit (Tier 5)
+- *Missing Tools — Active Projects Audit* (internal report: `_outputs/reports/2026-06-13_missing-tools-from-projects.md`) — the source audit (Tier 5)

@@ -1,5 +1,5 @@
 ---
-title: "Physical activity"
+title: "When to exercise"
 date:  2023-02-07
 enableToc: true
 openToc: true
@@ -23,5 +23,9 @@ Physical exercises play a crucial role in maintaining overall health by improvin
 - **10-14 noon** - These are the hours when the mind and the digestive system are working with the greatest power. During these hours you don't need movement, because your body is already fully awake. In addition - it's a shame to spend this time on physical activity that will further stimulate you, especially since these are the hours when you will be most productive at work.
 - **14-18 evening** - This is a time of good reflexes and quick thinking, but also a time during the day when we may feel dehydrated, anxious and jittery. If you haven't eaten a decent meal between 10am and 2pm, you may crave snacks and coffee. It's better then to take some time for physical activity that will help you get grounded. Also remember to hydrate yourself.
 - **18 – 22 night** - The body becomes sluggish and dull, preparing for sleep. Physical exertion at this hour sounds tempting, but it can completely negate a good night's sleep.
+
+## 📖 Further reading
+- [[Mobility for Desk Workers]] · [[Pavel Tsatsouline's 5 Soviet Holds for Mobility]]
+
 ---
 Template: [[templates/knowledge_note_info]]

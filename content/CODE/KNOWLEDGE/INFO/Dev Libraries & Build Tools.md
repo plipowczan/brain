@@ -38,4 +38,4 @@ A collective reference for the smaller JavaScript/TypeScript libraries that show
 ## 🔗 Links
 - [[Next.js]] · [[React]] · [[Tailwind CSS]] · [[pnpm]] · [[Turborepo]] — the frameworks/build tooling these sit alongside
 - [[Marketing, Sales & Publishing SaaS]] · [[Ops, Collaboration, Analytics & Community SaaS]] — sibling collective tool notes
-- [[Missing Tools — Active Projects Audit]] — the source audit (Tier 4)
+- *Missing Tools — Active Projects Audit* (internal report: `_outputs/reports/2026-06-13_missing-tools-from-projects.md`) — the source audit (Tier 4)

@@ -70,4 +70,5 @@ Thinking about your dreams - what dreams we had - often in our sleep we think ab
 
 # Resources
 [[LIFE/BOOKS/Atomic habits]]
+[[Pavel Tsatsouline's 5 Soviet Holds for Mobility]] — 15-min no-equipment mobility routine
 
