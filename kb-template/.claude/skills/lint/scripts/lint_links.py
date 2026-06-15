@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os, re, json
 ROOT="content"
-EXCLUDE_TOP={"_raw","_indexes","_outputs","ATTACHMENTS",".obsidian"}
+EXCLUDE_TOP={"_raw","_indexes","_outputs","templates","ATTACHMENTS",".obsidian"}
 # build note index: basename and rel-path (no ext)
 names=set(); paths=set(); notes=[]
 for dp,dn,fns in os.walk(ROOT):
@@ -12,6 +12,7 @@ for dp,dn,fns in os.walk(ROOT):
             dn[:]=[]; continue
     for fn in fns:
         if not fn.endswith(".md"): continue
+        if ".template." in fn: continue
         p=os.path.join(dp,fn).replace("\\","/")
         relp=os.path.relpath(p,ROOT).replace("\\","/")[:-3]
         names.add(fn[:-3]); paths.add(relp); paths.add(relp.lower())
@@ -19,9 +20,13 @@ for dp,dn,fns in os.walk(ROOT):
 names_l={n.lower() for n in names}
 
 linkre=re.compile(r'\[\[([^\]]+)\]\]')
+def strip_code(t):
+    t = re.sub(r'```.*?```', '', t, flags=re.DOTALL)  # fenced blocks
+    t = re.sub(r'`[^`\n]*`', '', t)                    # inline spans
+    return t
 broken={}; incoming=set(); outdeg={}
 for p,name in notes:
-    txt=open(p,encoding="utf-8").read()
+    txt=strip_code(open(p,encoding="utf-8").read())
     for raw in linkre.findall(txt):
         tgt=raw.split("|")[0].split("#")[0].strip()
         if not tgt: continue
