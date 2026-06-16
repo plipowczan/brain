@@ -20,15 +20,22 @@ PY="$(command -v python || command -v python3 || true)"
 [ -d "$SRC" ] || { echo "error: $SRC missing (run from the brain repo)" >&2; exit 1; }
 [ -d "$DEST/.git" ] || { echo "error: $DEST is not a git repo. Clone the template there first, or run scripts/extract-kb-template.sh." >&2; exit 1; }
 [ -n "$PY" ] || { echo "error: python not found on PATH" >&2; exit 1; }
-command -v rsync >/dev/null 2>&1 || { echo "error: rsync is required for a safe mirror" >&2; exit 1; }
 
 echo ">> mirroring kb-template/ -> $DEST (preserving .git)"
-rsync -a --delete \
-  --exclude '.git' \
-  --exclude '__pycache__' \
-  --exclude '*.pyc' \
-  --exclude 'node_modules' \
-  "$SRC"/ "$DEST"/
+if command -v rsync >/dev/null 2>&1; then
+  rsync -a --delete \
+    --exclude '.git' \
+    --exclude '__pycache__' \
+    --exclude '*.pyc' \
+    --exclude 'node_modules' \
+    "$SRC"/ "$DEST"/
+else
+  # No rsync: clear the working tree (keep .git), copy fresh. git tracks deletions.
+  find "$DEST" -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+  cp -r "$SRC"/. "$DEST"/
+  find "$DEST" -type d -name '__pycache__' -prune -exec rm -rf {} + 2>/dev/null || true
+  find "$DEST" -type f -name '*.pyc' -delete 2>/dev/null || true
+fi
 
 echo ">> smoke test in $DEST"
 ( cd "$DEST" && "$PY" tests/run_tests.py )
