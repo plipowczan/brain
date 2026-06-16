@@ -6,6 +6,8 @@ openToc: true
 tags: ["tool"]
 type: tool
 summary: "Microsoft note-taking app — stub note; replaced in practice by Obsidian for PKM."
+agent-reviewed: 2026-06-16
+
 ---
 # OneNote
 #todo/replace  Brief description of the tool.

@@ -6,6 +6,8 @@ openToc: true
 tags: ["knowledge", "quotes"]
 type: knowledge-note
 summary: "Dataview index of all quotes stored in the KNOWLEDGES/QUOTES folder."
+agent-reviewed: 2026-06-16
+
 ---
 
 ```dataview

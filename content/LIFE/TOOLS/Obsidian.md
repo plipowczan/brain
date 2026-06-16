@@ -6,6 +6,8 @@ openToc: true
 tags: ["tool", "obsidian", "notes"]
 type: tool
 summary: "Offline-first note-taking app with bidirectional links, used to maintain this digital garden"
+agent-reviewed: 2026-06-16
+
 ---
 # Obsidian
 Note taking and maintaining tool.

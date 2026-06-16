@@ -7,6 +7,8 @@ openToc: true
 tags: ["quote", "eisenhower"]
 type: quote
 summary: "Eisenhower quote: what is important is rarely urgent and what is urgent is rarely important."
+agent-reviewed: 2026-06-16
+
 ---
 
 > What is important is rarely urgent, what is urgent is rarely important.

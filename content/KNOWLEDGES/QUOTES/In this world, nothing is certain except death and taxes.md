@@ -7,6 +7,8 @@ openToc: true
 tags: ["quote", "franklin"]
 type: quote
 summary: "Benjamin Franklin quote on the inevitability of death and taxes"
+agent-reviewed: 2026-06-16
+
 ---
 
 > In this world, nothing is certain except death and taxes

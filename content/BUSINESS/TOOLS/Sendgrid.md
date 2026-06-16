@@ -6,6 +6,8 @@ openToc: true
 tags: ["tool"]
 type: tool
 summary: "Transactional and marketing email delivery service used for reliable inbox delivery at scale."
+agent-reviewed: 2026-06-16
+
 ---
 # Sendgrid
 Tool for sending transactional and marketing emails

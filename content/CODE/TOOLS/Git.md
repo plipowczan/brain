@@ -6,6 +6,8 @@ openToc: true
 tags: ["tool"]
 type: tool
 summary: "Git version control tool note — stub with TODO placeholders awaiting full description."
+agent-reviewed: 2026-06-16
+
 ---
 # Git
 #todo/replace  Brief description of the tool.

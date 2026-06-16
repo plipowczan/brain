@@ -7,6 +7,8 @@ openToc: true
 tags: ["quote"]
 type: quote
 summary: "Hofstadter's Law: tasks always take longer than expected, even accounting for the law itself."
+agent-reviewed: 2026-06-16
+
 ---
 
 > It always takes longer than you expect, even when you take into account Hofstadter's Law

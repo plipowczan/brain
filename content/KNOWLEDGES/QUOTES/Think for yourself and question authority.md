@@ -7,6 +7,8 @@ openToc: true
 tags: ["quote", "leary"]
 type: quote
 summary: "Timothy Leary quote advocating independent thinking and skepticism toward authority"
+agent-reviewed: 2026-06-16
+
 ---
 
 > Think for yourself and question authority.

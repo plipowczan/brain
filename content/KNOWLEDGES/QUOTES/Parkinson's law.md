@@ -7,6 +7,8 @@ openToc: true
 tags: ["quote", "parkinson"]
 type: quote-note
 summary: "Parkinson's Law: work expands to fill all available time for its completion."
+agent-reviewed: 2026-06-16
+
 ---
 
 > work expands so as to fill the time available for its completion

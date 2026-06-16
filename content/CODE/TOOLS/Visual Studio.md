@@ -6,6 +6,8 @@ openToc: true
 tags: ["tool", "visualstudio", "code"]
 type: tool
 summary: "Microsoft IDE for editing, debugging, and compiling code, used primarily for .NET development"
+agent-reviewed: 2026-06-16
+
 ---
 # Visual Studio
 It is integrated development environment (IDE). A creative platform to edit, debug and compile code and then publish your application. It includes compilers, code completion tools, graphical designers and many other features to enrich the software development process.
