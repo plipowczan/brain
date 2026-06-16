@@ -101,6 +101,8 @@ Each workflow is a skill with a matching slash command:
 - **Q&A** (`/qa`) — answer a question from the vault, citing notes.
 - **LINT** (`/lint`) — audit vault health.
 - **OUTPUT** (`/output`) — generate a report/summary.
+- **REFACTOR** (`/refactor`) — rename/move/merge/split notes with automatic wikilink + index repair.
+- **GAPS** (`/gaps`) — coverage analysis: weakly-connected notes, missing topics, thin areas.
 
 ## Safety Rules
 
