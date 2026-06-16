@@ -11,3 +11,12 @@ summary: "Timothy Leary quote advocating independent thinking and skepticism tow
 
 > Think for yourself and question authority.
 \- Timothy Leary 
+
+
+## ✍️ Attribution
+
+Coined by **Timothy Leary**, the American psychologist and counterculture figure, as a personal motto and rallying call he used extensively from the 1960s onward. It appears on the cover of his 1989 autobiography *Flashbacks*.
+
+## 📒 Meaning
+
+Leary urged people to form opinions through personal reasoning rather than deferring to institutions, governments, or cultural norms. It is a call to intellectual autonomy — not anarchy, but the habit of critically examining received wisdom before accepting it.

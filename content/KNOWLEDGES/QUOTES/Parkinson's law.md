@@ -13,3 +13,11 @@ summary: "Parkinson's Law: work expands to fill all available time for its compl
 \- Cyril Northcote Parkinson
 
 [Parkinson's law - Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+
+## ✍️ Attribution
+
+Formulated by **C. Northcote Parkinson** (Cyril Northcote Parkinson), British naval historian and author. First published as a humorous essay in *The Economist* on 19 November 1955, then expanded in his 1958 book *Parkinson's Law: The Pursuit of Progress*.
+
+## 📒 Meaning
+
+If you allocate two hours for a task that could take thirty minutes, it will expand to fill all two hours — through procrastination, over-elaboration, or perfectionism. The practical takeaway: set tight, realistic deadlines to prevent work from bloating unnecessarily.
