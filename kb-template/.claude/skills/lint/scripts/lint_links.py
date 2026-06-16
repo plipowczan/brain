@@ -2,6 +2,7 @@
 import os, re, json
 ROOT="content"
 EXCLUDE_TOP={"_raw","_indexes","_outputs","templates","ATTACHMENTS",".obsidian"}
+EXCLUDE_FILES={"WRITING_STYLE.md","WRITING_STYLE_ANALYSIS.md","_index.md"}
 # build note index: basename and rel-path (no ext)
 names=set(); paths=set(); notes=[]
 for dp,dn,fns in os.walk(ROOT):
@@ -12,7 +13,7 @@ for dp,dn,fns in os.walk(ROOT):
             dn[:]=[]; continue
     for fn in fns:
         if not fn.endswith(".md"): continue
-        if ".template." in fn: continue
+        if fn.endswith(".template.md") or fn in EXCLUDE_FILES: continue
         p=os.path.join(dp,fn).replace("\\","/")
         relp=os.path.relpath(p,ROOT).replace("\\","/")[:-3]
         names.add(fn[:-3]); paths.add(relp); paths.add(relp.lower())

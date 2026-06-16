@@ -15,6 +15,8 @@ import yaml
 
 CONTENT = "content"
 EXCLUDE = {"_raw", "_indexes", "_outputs", "templates", ".obsidian"}
+# Non-note markdown files at the content root (meta docs + unrendered templates).
+EXCLUDE_FILES = {"WRITING_STYLE.md", "WRITING_STYLE_ANALYSIS.md", "_index.md"}
 WIKILINK = re.compile(r"\[\[([^\]]+)\]\]")
 NOW = datetime.datetime.now().replace(microsecond=0).isoformat() + "Z"
 
@@ -86,6 +88,8 @@ for dirpath, dirnames, filenames in os.walk(CONTENT):
         continue
     for fn in filenames:
         if not fn.endswith(".md"):
+            continue
+        if fn.endswith(".template.md") or fn in EXCLUDE_FILES:
             continue
         full = os.path.join(dirpath, fn)
         with open(full, encoding="utf-8") as f:

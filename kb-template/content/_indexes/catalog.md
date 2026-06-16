@@ -1,11 +1,8 @@
 ---
-updated: 2026-06-16T00:02:40Z
-entries: 3
+updated: 2026-06-16T06:15:25Z
+entries: 2
 ---
 # Note Catalog
-
-## (root)
-- **WRITING_STYLE.template** | untyped |  | [] | Primary language: **{{PRIMARY_LANGUAGE}}** (keep established technical terms in English). | → Note Name
 
 ## REFERENCE
 - **Example Note** | knowledge-note | 2026-06-15 | [knowledge, example] | A worked example note showing the conventions this knowledge base uses. | → Wikilinks Explained

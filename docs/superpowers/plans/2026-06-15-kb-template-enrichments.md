@@ -723,6 +723,8 @@ from datetime import date
 
 ROOT = "content"
 EXCLUDE_TOP = {"_raw", "_indexes", "_outputs", "templates", "ATTACHMENTS", ".obsidian"}
+# Non-note markdown files at the content root (meta docs + unrendered templates).
+EXCLUDE_FILES = {"WRITING_STYLE.md", "WRITING_STYLE_ANALYSIS.md", "_index.md"}
 DEFAULT_TYPES = {"basic-note", "book-note", "knowledge-note", "tool",
                  "compiled-note", "answer-note", "quote", "quote-note", "dailyjournal"}
 TODAY = date.today()
@@ -790,6 +792,8 @@ def scan(root=ROOT, schema=None):
                 continue
         for fn in filenames:
             if not fn.endswith(".md"):
+                continue
+            if fn.endswith(".template.md") or fn in EXCLUDE_FILES:
                 continue
             path = os.path.join(dirpath, fn)
             with open(path, encoding="utf-8") as f:
