@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto", "git", "merge", "conflict"]
 type: knowledge-note
+summary: "Step-by-step guide to resolving git pull request merge conflicts using Visual Studio."
 ---
 
 # How to deal with pull request merge conflicts

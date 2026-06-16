@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ventusky", "weather", "forecast"]
 type: tool
+summary: "Animated weather forecast app showing hourly cloud cover, temperature, and wind on an interactive map"
 ---
 # Ventusky
 Weather forecast app with hourly interval. Among other things, cloud cover, temperature, wind can be monitored.

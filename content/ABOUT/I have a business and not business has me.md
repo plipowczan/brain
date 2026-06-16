@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "business", "work", ]
 type: knowledge-note
+summary: "3 commandments and 5 methods to own your business rather than letting it own you"
 ---
 
 # How not to become a slave of your own business

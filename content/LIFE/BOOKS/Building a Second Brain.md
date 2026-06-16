@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["book", "notes", "second-brain"]
 type: book-note
+summary: "Tiago Forte's guide to building an external note system to capture and reuse ideas effectively."
 ---
 
 # Building a Second Brain

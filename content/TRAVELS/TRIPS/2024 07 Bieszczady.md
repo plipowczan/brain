@@ -8,6 +8,7 @@ tags:
   - trip
   - travels
 type: basic-note
+summary: "July 2024 Bieszczady hiking trip: 7 routes across Nowy Łupków, Rawka, Wołosate, and Łopienka"
 ---
 # 2024 07 Bieszczady
 

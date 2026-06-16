@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic"]
 type: basic-note
+summary: "Can Do / Can't Do distraction list from Dopamine Detox: allowed alternatives vs. banned dopamine triggers."
 ---
 # Distractions
 

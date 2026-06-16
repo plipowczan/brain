@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info"]
 type: knowledge-note
+summary: "Pomodoro Technique: 25-minute focused work intervals with short breaks to beat procrastination"
 ---
 
 # Pomodoro

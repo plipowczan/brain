@@ -6,6 +6,7 @@ openToc: true
 tags: ["about", "automation", "integration"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Code-first business process automation specialist integrating AI agents, APIs, and low-code tools."
 ---
 # Automation Specialist
 

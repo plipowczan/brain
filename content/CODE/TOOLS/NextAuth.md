@@ -1,5 +1,5 @@
 ---
-title: "NextAuth / Auth.js"
+title: "NextAuth"
 date: 2026-06-13
 enableToc: true
 openToc: true

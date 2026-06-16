@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "mind-map"]
 type: knowledge-note
+summary: "Mind mapping technique for better memory retention using both brain hemispheres and radial keyword structure."
 ---
 # Mind map
 

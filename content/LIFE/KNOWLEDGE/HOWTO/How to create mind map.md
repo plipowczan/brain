@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto", "mind-map"]
 type: knowledge-note
+summary: "Step-by-step guide to creating mind maps: central topic, branches, keywords, hierarchy, colors, and icons."
 ---
 
 # How to create mind map

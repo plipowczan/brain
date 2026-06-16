@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info"]
 type: knowledge-note
+summary: "Cold shower habit benefits: dopamine release, improved circulation, immunity boost, and mental health gains."
 ---
 
 # Cold shower

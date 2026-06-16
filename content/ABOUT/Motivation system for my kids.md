@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic", "kids", "father", "pocket-money"]
 type: basic-note
+summary: "Revolut Junior-based task-and-reward system to motivate kids with daily checklists and pocket money."
 ---
 # Motivation system for my kids
 [[ABOUT/Roles/Father]]

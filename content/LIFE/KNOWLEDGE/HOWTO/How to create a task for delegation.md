@@ -1,10 +1,11 @@
 ---
-title: "How to delegate tasks"
+title: "How to create a task for delegation"
 date:  2022-10-19
 enableToc: true
 openToc: true
 tags: ["knowledge", "howto", "delegation"]
 type: knowledge-note
+summary: "Four elements of a delegatable task: description, definition of done, single owner, and due date."
 ---
 
 # How to create a task for delegation

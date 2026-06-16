@@ -6,6 +6,7 @@ openToc: true
 tags: ["about", "friend"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Values deep long-term friendships built through shared work, challenges, and honest conversations."
 ---
 # Friend
 

@@ -6,6 +6,7 @@ openToc: true
 tags: ["about", "founder", "entrepreneur"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Co-founder CTO at 200IQ Labs building Qamera AI; running PLSoft consulting since 2008."
 ---
 # Founder
 

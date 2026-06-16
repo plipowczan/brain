@@ -1,11 +1,12 @@
 ---
-title: "Microsoft Edge"
+title: "Edge"
 date: 2022-09-06
 enableToc: true
 openToc: true
 tags: ["tool", "browser"]
 type: tool
 agent-reviewed: 2026-04-09
+summary: "Microsoft Edge primary browser; used for vertical tabs, Collections, profile separation, and Windows integration."
 ---
 # Microsoft Edge
 

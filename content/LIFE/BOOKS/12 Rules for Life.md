@@ -1,11 +1,12 @@
 ---
-title: "12 Rules for Life: An Antidote to Chaos"
+title: "12 Rules for Life"
 date: 2022-10-09
 enableToc: true
 openToc: true
 tags: ["book", "self-development", "psychology"]
 type: book-note
 agent-reviewed: 2026-04-09
+summary: "Jordan Peterson's guide to meaning and order via responsibility, clinical psychology, and philosophy."
 ---
 # 12 Rules for Life: An Antidote to Chaos
 Date Finished: 2022

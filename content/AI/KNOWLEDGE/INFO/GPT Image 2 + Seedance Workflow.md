@@ -1,5 +1,5 @@
 ---
-title: "GPT Image 2 + Seedance 2 Workflow"
+title: "GPT Image 2 + Seedance Workflow"
 date: 2026-05-09
 enableToc: true
 openToc: true

@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "kindle"]
 type: tool
+summary: "Amazon Kindle Paperwhite e-reader for portable reading with built-in translator and no blue light."
 ---
 # Tool
 Ebook reader from Amazon.

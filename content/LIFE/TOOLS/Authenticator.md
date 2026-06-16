@@ -6,6 +6,7 @@ openToc: true
 tags: ["tool", "security", "2fa"]
 type: tool
 agent-reviewed: 2026-04-09
+summary: "Microsoft Authenticator for TOTP-based two-factor authentication, used alongside 1Password"
 ---
 # Authenticator
 

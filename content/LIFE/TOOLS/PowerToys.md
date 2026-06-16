@@ -6,6 +6,7 @@ openToc: true
 tags: ["tool", "windows", "productivity"]
 type: tool
 agent-reviewed: 2026-04-09
+summary: "Microsoft PowerToys open-source utilities: FancyZones, PowerToys Run, Color Picker, and File Explorer add-ons."
 ---
 # PowerToys
 

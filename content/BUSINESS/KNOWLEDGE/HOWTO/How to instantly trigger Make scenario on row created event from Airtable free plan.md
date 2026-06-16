@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto", "Airtable", "Make", "instant"]
 type: knowledge-note
+summary: "Workaround to trigger Make scenarios instantly from Airtable free plan using Gmail forwarding and a mailhook."
 ---
 
 # How to instantly trigger Make scenario on row created event from Airtable free plan

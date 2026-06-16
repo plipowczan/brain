@@ -6,6 +6,7 @@ openToc: true
 tags: ["tool", "project-management", "crm"]
 type: tool
 agent-reviewed: 2026-04-09
+summary: "Primary work hub: task management, CRM pipeline, sprint tracking, and project docs for 200IQ and PLSoft."
 ---
 # ClickUp
 Task management software but it can do more than that - it has a lot of features.

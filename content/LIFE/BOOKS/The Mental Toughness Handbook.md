@@ -6,6 +6,7 @@ openToc: true
 tags:
   - book
 type: book-note
+summary: "Damon Zahariades on building mental toughness: 7 habits, resilience vs toughness, and silencing the inner critic."
 ---
 
 # The Mental Toughness Handbook

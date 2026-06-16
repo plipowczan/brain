@@ -1,5 +1,5 @@
 ---
-title: "Self-Improving Company with AI"
+title: "Self-Improving Company"
 date: 2026-05-22
 enableToc: true
 openToc: true

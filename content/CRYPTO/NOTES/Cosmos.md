@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["crypto", "project", "analysis", "investment", "cosmos", "atom"]
 type: basic-note
+summary: "DYOR analysis stub for Cosmos (ATOM): market cap, supply, and research framework for the project."
 ---
 #todo
 # Cosmos

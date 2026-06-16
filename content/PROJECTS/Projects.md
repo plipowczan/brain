@@ -6,6 +6,7 @@ openToc: true
 tags: ["projects"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Hub listing all active and historical personal and client projects, from Qamera AI to PLSoft engagements."
 ---
 # Projects
 

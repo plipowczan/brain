@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info"]
 type: knowledge-note
+summary: "Four-quadrant task prioritization tool: urgent/important, urgent/not important, important/not urgent, neither."
 ---
 
 # Eisenhower Matrix

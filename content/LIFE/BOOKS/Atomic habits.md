@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["book"]
 type: book-note
+summary: "James Clear's framework for building lasting habits through small, incremental daily improvements."
 ---
 
 # Atomic habits

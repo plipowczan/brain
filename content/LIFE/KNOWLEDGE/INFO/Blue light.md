@@ -6,6 +6,7 @@ openToc: true
 tags: ["knowledge", "info", "health", "sleep"]
 type: knowledge-note
 agent-reviewed: 2026-04-09
+summary: "Blue light from screens suppresses melatonin and disrupts sleep; avoid screens 2-3h before bed."
 ---
 
 # Blue light

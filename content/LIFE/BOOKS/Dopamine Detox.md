@@ -8,6 +8,7 @@ tags:
   - productivity
   - self-development
 type: book-note
+summary: "Thibaut Meurisse's method to reset dopamine response, cut overstimulation, and reclaim focused attention."
 ---
 
 # # Dopamine Detox

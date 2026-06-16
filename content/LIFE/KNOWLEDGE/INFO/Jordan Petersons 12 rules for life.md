@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "life", "wisdom", "rules"]
 type: knowledge-note
+summary: "Jordan Peterson's 12 rules summarized: posture, self-care, friendship, self-comparison, truthful living"
 ---
 
 # Jordan Petersons 12 rules for life

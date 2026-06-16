@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["crypto", "project", "analysis", "investment", "filecoin"]
 type: basic-note
+summary: "DYOR analysis of Filecoin (FIL) — decentralized file storage blockchain, market cap ~$1.76B"
 ---
 #todo
 # Filecoin

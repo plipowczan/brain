@@ -1,11 +1,12 @@
 ---
-title: It always takes longer than you expect, even when you take into account Hofstadter's Law
+title: "Hofstadter's law"
 author: Douglas Hofstadter
 date: 2022-10-31
 enableToc: true
 openToc: true
 tags: ["quote"]
 type: quote
+summary: "Hofstadter's Law: tasks always take longer than expected, even accounting for the law itself."
 ---
 
 > It always takes longer than you expect, even when you take into account Hofstadter's Law

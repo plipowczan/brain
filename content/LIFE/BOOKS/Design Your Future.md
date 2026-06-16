@@ -7,6 +7,7 @@ tags:
   - book
   - future
 type: book-note
+summary: "Brian Tracy book note on designing your future — incomplete, notes pending"
 ---
 
 # Design Your Future

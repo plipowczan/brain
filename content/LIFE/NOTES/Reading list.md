@@ -3,8 +3,9 @@ title: "Reading list"
 date:  2022-08-28
 enableToc: true
 openToc: true
-tags: 
+tags: ["reading", "books", "list"]
 type: basic-note
+summary: "Personal reading list of books yet to read, with links to Obsidian notes and external sources."
 ---
 # Reading list
 - [ ] How to take smart notes - Stone Ahrens [[LIFE/BOOKS/How to take smart notes]]

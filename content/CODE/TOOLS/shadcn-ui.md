@@ -1,5 +1,5 @@
 ---
-title: "shadcn/ui"
+title: "shadcn-ui"
 date: 2026-06-13
 enableToc: true
 openToc: true

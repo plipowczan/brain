@@ -6,6 +6,7 @@ openToc: true
 tags: ["tool", "database"]
 type: tool
 agent-reviewed: 2026-04-10
+summary: "No-code relational database tool used as structured data store and automation hub"
 ---
 # Airtable
 It is an excel on steroids. No-code database.

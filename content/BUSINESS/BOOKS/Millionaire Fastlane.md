@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["book", "millionaire"]
 type: book-note
+summary: "Book note for Millionaire Fastlane — incomplete, pending full review and notes"
 ---
 
 # Millionaire Fastlane

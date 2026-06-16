@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "zettelkasten", "slip-box", "obsidian"]
 type: knowledge-note
+summary: "8-step Zettelkasten note-taking method from Ahrens' How to Take Smart Notes"
 ---
 
 The concept from the book [[LIFE/BOOKS/How to take smart notes]]

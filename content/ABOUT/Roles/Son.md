@@ -6,6 +6,7 @@ openToc: true
 tags: ["about", "family"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Maintaining a close, present relationship with parents as a core family value."
 ---
 # Son
 

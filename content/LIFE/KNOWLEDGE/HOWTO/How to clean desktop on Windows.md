@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto"]
 type: knowledge-note
+summary: "Steps to hide Windows 11 desktop icons and auto-hide the taskbar for a clean workspace"
 ---
 
 # How to clean desktop on Windows

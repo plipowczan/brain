@@ -6,6 +6,7 @@ openToc: true
 tags: ["about", "pawellipowczan"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Software architect and CTO building AI-powered products, agentic coding environments, and SaaS solutions."
 ---
 # About
 

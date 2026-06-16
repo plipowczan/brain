@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool"]
 type: tool
+summary: "Text expansion tool for keyboard shortcuts and snippets — stub note awaiting full description."
 ---
 # TextExpander
 #todo/replace  Brief description of the tool.

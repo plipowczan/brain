@@ -6,6 +6,7 @@ openToc: true
 tags: ["basic", "career", "programer", "about"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Reflections on a 17-year .NET and AI development career, lessons learned, and shift to agentic coding."
 ---
 #todo Add backlinks
 # My career path

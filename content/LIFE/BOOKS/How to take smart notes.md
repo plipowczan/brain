@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["book", "notes", "zettelkasten", "slip-box", "obsidian"]
 type: book-note
+summary: "Sönke Ahrens on Zettelkasten slip-box note-taking: fleeting, literature, and permanent notes to develop ideas."
 ---
 
 # How to take smart notes

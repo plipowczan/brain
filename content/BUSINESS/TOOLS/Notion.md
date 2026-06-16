@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "database", "nocode", "notes"]
 type: tool
+summary: "All-in-one workspace for notes, knowledge bases, and project management dashboards"
 ---
 # Notion
 It is a nice place to take notes and organize your knowledge base.

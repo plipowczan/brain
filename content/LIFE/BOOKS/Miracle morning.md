@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["book", "morning routine", "waking up early"]
 type: book-note
+summary: "Hal Elrod's SAVERS morning routine framework and 3 steps to rise above mediocrity"
 ---
 
 # Miracle morning

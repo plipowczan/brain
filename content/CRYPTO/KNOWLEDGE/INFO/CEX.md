@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info"]
 type: knowledge-note
+summary: "Overview of centralized crypto exchanges: how they work, benefits, and key risks like trust and regulation."
 ---
 
 # CEX

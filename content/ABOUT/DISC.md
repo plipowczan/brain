@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "disc"]
 type: knowledge-note
+summary: "Personal DISC personality test results and focus areas for communication and self-expression."
 ---
 # DISC
 ## My test results: ![[ATTACHMENTS/DISC Paweł Lipowczan.pdf]]

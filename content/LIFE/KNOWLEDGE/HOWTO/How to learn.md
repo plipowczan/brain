@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge"]
 type: knowledge-note
+summary: "Brief note on effective learning using mind maps, with reference to Włam się do mózgu"
 ---
 
 One of an effective learning techniques is using the [[LIFE/KNOWLEDGE/INFO/Mind map]]

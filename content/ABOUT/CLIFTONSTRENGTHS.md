@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic"]
 type: basic-note
+summary: "Personal Gallup CliftonStrengths 34 assessment results with link to full PDF report."
 ---
 # CLIFTONSTRENGTHS
 ## My test results: 

@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto"]
 type: knowledge-note
+summary: "Steps to send bulk personalized emails to Airtable records using the Sendgrid extension"
 ---
 
 # How to send emails directly from Free Airtable using Sendgrid extension

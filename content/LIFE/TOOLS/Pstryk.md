@@ -1,5 +1,5 @@
 ---
-title: "Pstryk — Polish dynamic-pricing electricity vendor"
+title: "Pstryk"
 date: 2026-05-10
 enableToc: true
 openToc: true

@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "git", "reports", "howto"]
 type: knowledge-note
+summary: "Git command to export commit log for a date range with hash, date, and subject to a file."
 ---
 #todo 
 # Export git logs to file

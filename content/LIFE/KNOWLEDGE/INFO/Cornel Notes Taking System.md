@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["journaling", "notes"]
 type: dailyjournal
+summary: "Cornell Note Taking System: divide page into keywords, notes, and summary sections for efficient recall."
 ---
 
 # Cornel Notes Taking System

@@ -9,6 +9,7 @@ tags:
   - travels
   - beskidy
 type: basic-note
+summary: "7-day Beskidy hiking trip July 2025: Jordanów to Ustroń route with PTTK mountain shelters."
 ---
 # 2025 07 Beskidy
 

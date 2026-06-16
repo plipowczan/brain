@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info"]
 type: knowledge-note
+summary: "Philosophical note on trusting that what happens to us is good, without judgement."
 ---
 
 # Trust

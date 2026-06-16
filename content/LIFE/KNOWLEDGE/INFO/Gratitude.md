@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info"]
 type: knowledge-note
+summary: "Gratitude practice reduces pain, improves sleep, lowers anxiety, and regulates stress — used in daily journal."
 ---
 
 # Gratitude

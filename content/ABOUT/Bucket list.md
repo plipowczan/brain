@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic"]
 type: basic-note
+summary: "Personal list of 10 mountains around the world to hike and summit."
 ---
 # Bucket list
 

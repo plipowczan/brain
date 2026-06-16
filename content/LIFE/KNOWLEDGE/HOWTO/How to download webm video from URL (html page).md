@@ -1,10 +1,11 @@
 ---
-title: "How to download webm video from url (clickup)"
+title: "How to download webm video from URL (html page)"
 date:  2022-12-02
 enableToc: true
 openToc: true
 tags: ["knowledge", "howto"]
 type: knowledge-note
+summary: "Use browser dev tools to locate and download a webm video file from any HTML page URL."
 ---
 
 # How to download webm video from URL (html page)

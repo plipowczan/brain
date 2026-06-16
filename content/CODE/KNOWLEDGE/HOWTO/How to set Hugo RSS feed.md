@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto", "RSS", "Hugo"]
 type: knowledge-note
+summary: "How to add a custom RSS feed to a Hugo site using a layout template and index.rss file"
 ---
 
 # How to set Hugo RSS feed

@@ -1,5 +1,5 @@
 ---
-title: "BytePlus Seedream 4.0"
+title: "BytePlus Seedream"
 date: 2026-06-13
 enableToc: true
 openToc: true

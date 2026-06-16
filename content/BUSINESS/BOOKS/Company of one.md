@@ -1,11 +1,12 @@
 ---
-title: "Company of One"
+title: "Company of one"
 date: 2022-09-07
 enableToc: true
 openToc: true
 tags: ["book", "business", "entrepreneurship"]
 type: book-note
 agent-reviewed: 2026-04-09
+summary: "Paul Jarvis argues that questioning growth and staying small can lead to a more sustainable, fulfilling business."
 ---
 # Company of One
 Date Finished: 2022

@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "miro"]
 type: tool
+summary: "Online visual collaboration platform for mind maps, diagrams, flowcharts, and presentations."
 ---
 # Miro
 Tool for creating different kind of diagrams, presentations, mind maps etc. 

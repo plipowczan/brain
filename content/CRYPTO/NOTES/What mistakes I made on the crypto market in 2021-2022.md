@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic"]
 type: basic-note
+summary: "Personal retrospective on 2021-2022 crypto losses: not taking profit, trusting Luna, late entries"
 ---
 # What mistakes I made on the crypto market in 2021-2022
 

@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "moral story", "lesson"]
 type: knowledge-note
+summary: "Moral story teaching non-judgment: events are neither good nor bad, life's surprises are unpredictable."
 ---
 
 # The Tale of the Old Man and His Son's Journey

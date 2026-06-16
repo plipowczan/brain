@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["about", "books", "reading"]
 type: knowledge-note
+summary: "Personal reading habits: switched from paper books to Kindle; prefers non-fiction and audiobooks."
 ---
 
 # I hate to read

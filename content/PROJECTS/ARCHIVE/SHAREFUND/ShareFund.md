@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["sharefund", "startup", "project"]
 type: basic-note
+summary: "ShareFund: archived startup tool for fairly distributing equity in non-incorporated projects using ASP.NET and Blazor."
 ---
 # ShareFund
 

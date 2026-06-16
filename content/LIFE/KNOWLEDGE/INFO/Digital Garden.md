@@ -6,6 +6,7 @@ openToc: true
 tags: ["digital-garden", "notes", "knowledge-management"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Personal digital garden at brain.lipowczan.pl built with Obsidian and Quartz, managed by AI agents"
 ---
 # Digital Garden
 

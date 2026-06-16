@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "influencers"]
 type: knowledge-note
+summary: "Curated list of trusted English and Polish crypto YouTube channels with quality ratings."
 ---
 
 # You Tube

@@ -1,5 +1,5 @@
 ---
-title: "DESIGN.md Spec (google-labs-code)"
+title: "DESIGN MD Spec"
 date: 2026-05-19
 enableToc: true
 openToc: true

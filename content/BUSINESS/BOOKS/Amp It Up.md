@@ -7,6 +7,7 @@ tags:
   - book
   - business
 type: book-note
+summary: "Frank Slootman's leadership playbook: raise standards, align people, sharpen focus, and pick up pace."
 ---
 
 # Amp It Up

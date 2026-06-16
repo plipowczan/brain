@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "zapier", "automation", "integration"]
 type: tool
+summary: "No-code automation tool for connecting apps; used for simple multi-step integrations."
 ---
 # Zapier
 Easy automation tool to automate work across great number of tools.

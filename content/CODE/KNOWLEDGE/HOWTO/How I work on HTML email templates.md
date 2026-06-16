@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info"]
 type: knowledge-note
+summary: "Personal workflow stub for creating and editing HTML email templates — content to be completed."
 ---
 
 # How I work on HTML email templates

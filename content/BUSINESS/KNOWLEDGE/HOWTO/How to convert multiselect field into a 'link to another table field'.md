@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "make", "airtable"]
 type: knowledge-note
+summary: "Make scenario to migrate Airtable multiselect fields to linked-record fields, handling empty arrays"
 ---
 
 # I had to convert a multiselect field into a “Link to another table”

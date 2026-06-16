@@ -7,6 +7,7 @@ tags:
   - book
   - learning
 type: book-note
+summary: "Oakley & Schewe's science-backed learning guide: Pomodoro, focused/diffuse thinking, spaced repetition, elaboration."
 ---
 
 # Learn Like a Pro

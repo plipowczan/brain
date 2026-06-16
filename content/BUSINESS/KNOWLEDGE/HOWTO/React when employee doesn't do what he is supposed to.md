@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto", "employee"]
 type: knowledge-note
+summary: "Four diagnostic questions to identify why an employee didn't perform an assigned task."
 ---
 
 # React when employee doesn't do what he is supposed to

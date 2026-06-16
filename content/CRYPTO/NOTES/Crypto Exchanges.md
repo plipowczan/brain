@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic", "exchange", "crypto"]
 type: basic-note
+summary: "Personal referral links to four crypto exchanges: Coinbase, Binance, Kanga, Crypto.com."
 ---
 # Exchanges
 Coinbase [https://www.coinbase.com/join/lipowc_k](https://www.coinbase.com/join/lipowc_k)

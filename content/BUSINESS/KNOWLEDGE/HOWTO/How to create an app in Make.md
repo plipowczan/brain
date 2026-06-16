@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto"]
 type: knowledge-note
+summary: "Stub how-to for building a Make.com automation app — steps and prerequisites to be completed."
 ---
 
 # How to create an app in Make

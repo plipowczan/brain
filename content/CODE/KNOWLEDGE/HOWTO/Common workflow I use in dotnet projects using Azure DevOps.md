@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto", "workflow", "azuredevops"]
 type: knowledge-note
+summary: "Step-by-step Azure DevOps Agile workflow for .NET projects: tasks, branching, PRs, and merging"
 ---
 
 # Common workflow in Azure DevOps I use in dotnet projects

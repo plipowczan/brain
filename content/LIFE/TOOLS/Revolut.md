@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "revolut", "bank", "money"]
 type: tool
+summary: "Multi-currency banking app used for travel spending, kids' finances, and family travel insurance"
 ---
 # Revolut
 One application to manage all aspects of your finances.

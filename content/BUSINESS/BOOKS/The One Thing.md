@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["book"]
 type: book-note
+summary: "Gary Keller's method: identify one goal, break it into daily steps, use counterbalance not work-life balance."
 ---
 
 # The One Thing

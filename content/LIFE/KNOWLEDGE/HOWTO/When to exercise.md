@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info"]
 type: knowledge-note
+summary: "Optimal exercise timing by time of day based on circadian rhythm research; avoid late evening workouts."
 ---
 
 # When to exercise?

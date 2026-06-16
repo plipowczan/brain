@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto", "webflow", "airtable"]
 type: knowledge-note
+summary: "How to sync Airtable data with Webflow using Whalesync or Nobull Airtable integration."
 ---
 
 # Synchronize Airtable with Webflow

@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["habits", "exercises", "walking"]
 type: basic-note
+summary: "Personal morning routine: dog walk, Wim Hof breathing, cold shower, tabata, journaling, supplements."
 ---
 # Habits
 ## Aktualnie

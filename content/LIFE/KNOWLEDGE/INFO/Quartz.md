@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "quartz"]
 type: knowledge-note
+summary: "Quartz static site generator used to publish this digital garden for free on the web."
 ---
 
 I'm using quartz as a repository for generating my [[LIFE/KNOWLEDGE/INFO/Digital Garden]] on the web. The advantage of this approach is that it is totally free.

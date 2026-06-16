@@ -1,5 +1,5 @@
 ---
-title: How to convert pdf to Goodle docs
+title: "How to convert pdf to Goodle Docs or Word"
 date: 2023-12-16
 enableToc: true
 openToc: true
@@ -12,6 +12,7 @@ tags:
   - google-drive
   - onedrive
 type: knowledge-note
+summary: "Step-by-step guide to convert a PDF to Google Docs via Drive or to Word via OneDrive."
 ---
 
 # How to convert pdf to Goodle Docs or Word

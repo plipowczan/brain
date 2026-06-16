@@ -1,9 +1,10 @@
 ---
-title: "2022 Iceland"
+title: "2022 Iceland October"
 date:  2022-08-28
 enableToc: true
 tags: ["trip", "plan", "iceland"]
 type: basic-note
+summary: "7-day Iceland road trip plan Oct 2022: day-by-day routes, accommodations, and waterfalls."
 ---
 # 2022 Iceland
 # Plan

@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "disc", "self-development"]
 type: knowledge-note
+summary: "Extended DISC personality model based on Jung's theory for recruitment, team-building, and self-development."
 ---
 
 # DISC

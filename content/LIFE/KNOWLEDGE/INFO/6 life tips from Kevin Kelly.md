@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "wisdom", ]
 type: knowledge-note
+summary: "6 practical life principles by Kevin Kelly: act now, value people over possessions, make new mistakes"
 ---
 
 # 6 life tips from Kevin Kelly

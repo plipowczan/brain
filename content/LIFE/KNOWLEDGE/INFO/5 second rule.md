@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info"]
 type: knowledge-note
+summary: "Mel Robbins' 5-4-3-2-1 countdown technique to overcome hesitation and take immediate action."
 ---
 
 # 5 second rule

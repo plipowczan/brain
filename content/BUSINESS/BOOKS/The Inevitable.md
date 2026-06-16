@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["book", "inevitable", "technology", "future"]
 type: book-note
+summary: "Kevin Kelly's 12 technological megatrends shaping economics, social relations, and ownership culture."
 ---
 
 #toto/complete 

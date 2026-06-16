@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool"]
 type: tool
+summary: "Quick JavaScript scratch-pad tool used alongside VS Code for rapid code experiments."
 ---
 # RunJS
 #todo/replace  Brief description of the tool.

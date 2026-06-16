@@ -6,6 +6,7 @@ openToc: true
 tags: ["basic", "principles"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Four core working principles: passive income, technology as leverage, agent-first design, code-first approach."
 ---
 # Principles
 

@@ -1,10 +1,11 @@
 ---
-title: "VisualStudioCode"
+title: "Visual Studio Code"
 date:   2022-09-22
 enableToc: true
 openToc: true
 tags: ["tool"]
 type: tool
+summary: "Visual Studio Code — code editor note (stub, content pending completion)."
 ---
 # Visual Studio Code
 #todo/replace  Brief description of the tool.

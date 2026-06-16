@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "puls", "meeting"]
 type: knowledge-note
+summary: "PULS weekly team meeting format: good news, 3 priorities, roadblocks, and end-of-week accountability."
 ---
 
 # PULS

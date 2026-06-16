@@ -6,6 +6,7 @@ openToc: true
 tags: ["tools", "about"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Personal toolstack: Claude Code, Cursor, Make, n8n, ClickUp, Obsidian, and infrastructure tools"
 ---
 # What tools I use
 

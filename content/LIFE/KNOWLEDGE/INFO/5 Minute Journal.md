@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["5-minute-journal", "journaling", "notes"]
 type: basic-note
+summary: "Structured daily journaling practice: morning gratitude and top priorities, evening highlights and reflection."
 ---
 # 5 Minute Journal
 

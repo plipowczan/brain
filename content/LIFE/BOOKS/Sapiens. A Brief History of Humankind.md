@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["book", "sapiens", "religion"]
 type: book-note
+summary: "Yuval Harari's controversial history of humanity prompting personal reflection on faith and belief."
 ---
 
 # Sapiens. A Brief History of Humankind

@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "second-brain", "notes"]
 type: knowledge-note
+summary: "10 principles for building an external memory system to capture, recycle, and act on ideas"
 ---
 
 From: [[LIFE/BOOKS/Building a Second Brain]]

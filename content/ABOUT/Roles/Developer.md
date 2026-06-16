@@ -6,6 +6,7 @@ openToc: true
 tags: ["about", "developer", "architect"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "17+ years in software development; now focused on agentic coding and AI-powered SaaS as CTO at 200IQ Labs."
 ---
 # Developer
 

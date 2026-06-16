@@ -1,10 +1,11 @@
 ---
-title: "Włam się do mózgu — Radek Kotarski (PL book on learning)"
+title: "Włam się do mózgu"
 date:  2022-09-13
 enableToc: true
 openToc: true
-tags: ["book", "learning", ""]
+tags: ["book", "learning"]
 type: book-note
+summary: "Radek Kotarski's Polish book on fast and efficient learning techniques (stub, notes pending)."
 ---
 
 # Włam się do mózgu

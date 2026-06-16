@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["crypto", "project", "analysis", "investment", "polygon", "matic"]
 type: basic-note
+summary: "DYOR analysis of Polygon (MATIC): scalability Layer 2 on Ethereum, market cap, team, and Meta NFT partnership."
 ---
 # Polygon
 ## Find information:

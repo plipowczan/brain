@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool"]
 type: tool
+summary: "Windows 11 OS note with useful shortcuts including Clipboard Manager (Win+V) and Focus mode."
 ---
 # Windows
 Windows Operating System - Actual version Windows 11 11.11.2022 Up to date

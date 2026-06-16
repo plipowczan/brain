@@ -1,5 +1,5 @@
 ---
-title: "AGRE — Anna Gawłowska Real Estate"
+title: "AGRE"
 date: 2026-06-13
 enableToc: true
 openToc: true

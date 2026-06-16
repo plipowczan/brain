@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "obsidian", "notes"]
 type: tool
+summary: "Offline-first note-taking app with bidirectional links, used to maintain this digital garden"
 ---
 # Obsidian
 Note taking and maintaining tool.

@@ -1,10 +1,11 @@
 ---
-title: "2023 Greece"
+title: "2023 Greece January"
 date:  2023-01-07
 enableToc: true
 openToc: true
 tags: ["trip", "plan"]
 type: basic-note
+summary: "14-day January 2023 camper road trip through Serbia, Macedonia, and Greece visiting Meteora, Athens, Olympia."
 ---
 # 2023 Greece
 Camper trip to Greece

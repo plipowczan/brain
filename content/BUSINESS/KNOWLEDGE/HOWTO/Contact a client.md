@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto"]
 type: knowledge-note
+summary: "Step-by-step follow-up strategy for re-engaging clients: reminders, personalisation, and timing guidelines."
 ---
 
 # Contact a client

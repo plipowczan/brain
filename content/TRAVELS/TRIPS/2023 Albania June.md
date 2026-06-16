@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic", "trip", "albania"]
 type: basic-note
+summary: "June 2023 Albania road trip from Ustroń via Belgrade: wild landscapes, good main roads, unspoiled nature."
 ---
 # 2023 Albania June
 

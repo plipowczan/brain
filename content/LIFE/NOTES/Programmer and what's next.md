@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic", "programming"]
 type: basic-note
+summary: "Personal reflections on programming career: freedom, sharing knowledge, picking opportunities, and team building."
 ---
 # Programmer and what's next
 

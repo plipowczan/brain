@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto"]
 type: knowledge-note
+summary: "Use mail-tester.com to score your email address and check if it is blacklisted."
 ---
 #todo/complete 
 # Test email rating

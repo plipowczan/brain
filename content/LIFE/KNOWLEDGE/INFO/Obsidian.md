@@ -6,6 +6,7 @@ openToc: true
 tags: ["obsidian", "tool", "knowledge-management"]
 type: basic-note
 agent-reviewed: 2026-04-09
+summary: "Obsidian vault setup: Quartz 4 SSG, agent-maintained wiki, wikilinks, git sync, and mobile access."
 ---
 # Obsidian
 

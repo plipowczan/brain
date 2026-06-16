@@ -1,10 +1,11 @@
 ---
-title: "Pareto"
+title: "Pareto principle"
 date:  2023-01-04
 enableToc: true
 openToc: true
 tags: ["knowledge", "info", "pareto", "principle"]
 type: knowledge-note
+summary: "The 80/20 rule: 80% of outcomes derive from 20% of inputs, applicable across business and life."
 ---
 
 # Pareto

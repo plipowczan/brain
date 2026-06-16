@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic"]
 type: basic-note
+summary: "Notes on 8 AI trends for 2026: multi-agent orchestration, digital labor, physical AI, quantum, edge reasoning"
 ---
 [(1122) AI Trends 2026: Quantum, Agentic AI & Smarter Automation - YouTube](https://www.youtube.com/watch?v=zt0JA5rxdfM)
 

@@ -3,8 +3,9 @@ title: "Roles"
 date:  2022-08-21
 enableToc: true
 openToc: true
-tags: 
+tags: ["about", "roles"]
 type: basic-note
+summary: "Index of personal life roles: Father, Husband, Developer, Founder, Automation Specialist, Son, Friend"
 ---
 # Roles
 [[ABOUT/Roles/Father]]
