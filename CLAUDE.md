@@ -195,6 +195,8 @@ Each workflow is a skill with a matching slash command:
 - **LINT** (`lint`, `health check`, `audit`) — `.claude/skills/lint/`, command `/lint`
 - **OUTPUT** (`generate report about X`) — `.claude/skills/output/`, command `/output`
 - **ENHANCE** (`enhance [[Note]]`, `improve X`) — `.claude/skills/enhance/`, command `/enhance`
+- **REFACTOR** (`rename note`, `merge notes`, `split note`) — `.claude/skills/refactor/`, command `/refactor` — note surgery (rename/move/merge/split) with automatic wikilink repair
+- **GAPS** (`find gaps`, `coverage analysis`, `what's missing`) — `.claude/skills/gaps/`, command `/gaps` — surfaces weakly-connected notes, missing topics, thin areas
 
 ## Build & Deploy
 
