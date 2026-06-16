@@ -1,12 +1,11 @@
 ---
-updated: 2026-06-15T12:45:00Z
-nodes: 304
-edges: 1591
+updated: 2026-06-16T08:23:43Z
+nodes: 302
+edges: 1659
 ---
 # Link Graph
 
 ## Outgoing
-_index -> ATTACHMENTS/4a_round_nobg.png, ABOUT/About, ABOUT/HABITS/Habits, ARTICLES/Articles, PROJECTS/Projects, LIFE/KNOWLEDGE/INFO/Quartz
 ABOUT/About -> ATTACHMENTS/pawel_lipowczan_2023.jpg, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/PLSOFT/PLSoft, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/VALUE-BUILDERS/Value Builders, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, ABOUT/DISC, ABOUT/CLIFTONSTRENGTHS
 ABOUT/Building a Second Brain -> LIFE/BOOKS/Building a Second Brain, LIFE/BOOKS/How to take smart notes
 ABOUT/CLIFTONSTRENGTHS -> ATTACHMENTS/20201208_CliftonStrenghts_34_results_pawel_lipowczan.pdf
@@ -40,9 +39,9 @@ AI/KNOWLEDGE/INFO/GPT Image 2 + Seedance Workflow -> AI/TOOLS/Awesome Nano Banan
 AI/KNOWLEDGE/INFO/Harness Engineering -> AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/Karpathy Method -> AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Software 3.0, AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/TOOLS/Karpathy Skills, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, PROJECTS/BRAIN/Brain, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/Progressive Disclosure, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/LLM Knowledge Bases -> LIFE/KNOWLEDGE/INFO/Obsidian, ABOUT/Building a Second Brain, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/KNOWLEDGE/INFO/Digital Garden, AI/KNOWLEDGE/INFO/Harness Engineering, AI/TOOLS/Autoresearch, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), templates/knowledge_note_info
-AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF) -> AI/TOOLS/Google Cloud Knowledge Catalog, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, PROJECTS/BRAIN/Brain, AI/KNOWLEDGE/INFO/Context Engineering, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, AI/TOOLS/CocoIndex, AI/TOOLS/LightRAG, AI/TOOLS/Graphify, LIFE/KNOWLEDGE/INFO/Obsidian, templates/knowledge_note_info
+AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF) -> AI/TOOLS/Google Cloud Knowledge Catalog, PROJECTS/BRAIN/Brain, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Context Engineering, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, AI/TOOLS/CocoIndex, AI/TOOLS/LightRAG, AI/TOOLS/Graphify, LIFE/KNOWLEDGE/INFO/Obsidian, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman) -> AI/TOOLS/Claude Code, AI/TOOLS/OpenAI, AI/TOOLS/Open Notebook, AI/TOOLS/gstack, AI/TOOLS/Agent Skills, AI/TOOLS/Headroom, AI/TOOLS/Caveman, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/ElevenLabs, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools, templates/knowledge_note_info
-AI/KNOWLEDGE/INFO/Progressive Disclosure -> AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Graphify, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, PROJECTS/BRAIN/Brain, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), templates/knowledge_note_info
+AI/KNOWLEDGE/INFO/Progressive Disclosure -> AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Graphify, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, PROJECTS/BRAIN/Brain, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/Self-Improving Company -> AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/gstack, PROJECTS/BRAIN/Brain, AI/TOOLS/Personal AI Infrastructure, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, AI/TOOLS/Agent Skills, AI/TOOLS/Karpathy Skills, AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Software 3.0, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/Skills 2.0 Testing -> AI/TOOLS/Agent Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Context Engineering
 AI/KNOWLEDGE/INFO/Software 3.0 -> AI/KNOWLEDGE/INFO/Context Engineering, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, templates/knowledge_note_info
@@ -62,14 +61,14 @@ AI/TOOLS/Browser Harness -> AI/TOOLS/Browser Use, AI/TOOLS/Video Use, AI/TOOLS/C
 AI/TOOLS/Browser Use -> AI/TOOLS/Browser Harness, AI/TOOLS/Video Use, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, AI/TOOLS/Hermes Agent, AI/TOOLS/Paperclip, templates/tool
 AI/TOOLS/BytePlus Seedream -> PROJECTS/QAMERA-AI/Qamera AI, AI/TOOLS/Replicate, AI/TOOLS/Google Gemini, AI/TOOLS/Topaz Labs, AI/KNOWLEDGE/INFO/GPT Image 2 + Seedance Workflow, templates/tool
 AI/TOOLS/Camofox Browser -> AI/TOOLS/Browser Use, AI/TOOLS/Browser Harness, AI/TOOLS/Bright Data, AI/TOOLS/Firecrawl, AI/TOOLS/Headroom, AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools, templates/tool
-AI/TOOLS/Caveman -> AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/PLSOFT/PLSoft, AI/TOOLS/Graphify, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, AI/TOOLS/Awesome Claude Code, AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/TOOLS/Karpathy Skills, AI/TOOLS/Superpowers, AI/TOOLS/gstack, AI/TOOLS/Headroom, templates/tool
+AI/TOOLS/Caveman -> AI/TOOLS/Claude Code, AI/TOOLS/Headroom, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/PLSOFT/PLSoft, AI/TOOLS/Graphify, AI/TOOLS/Agent Skills, AI/TOOLS/Vercel Skills, AI/TOOLS/Awesome Claude Code, AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/TOOLS/Karpathy Skills, AI/TOOLS/Superpowers, AI/TOOLS/gstack, templates/tool
 AI/TOOLS/Chatterbox TTS -> PROJECTS/TRAVELCAST-AI/Travelcast AI, AI/TOOLS/ElevenLabs, AI/TOOLS/OpenAI, AI/TOOLS/Voicebox, AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish), templates/tool
 AI/TOOLS/Claude Code -> AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/Harness Engineering, PROJECTS/QAMERA-AI/Qamera AI, AI/KNOWLEDGE/INFO/Context Engineering, AI/TOOLS/Cursor, templates/tool
 AI/TOOLS/Claude Code Best Practice -> AI/TOOLS/Claude Code, AI/TOOLS/Superpowers, CODE/TOOLS/OpenSpec, AI/TOOLS/Awesome Claude Code, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/TOOLS/Agent Skills, templates/tool
 AI/TOOLS/Claude Peers MCP -> AI/TOOLS/Claude Code, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/PLSOFT/PLSoft, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Context Engineering, templates/tool
 AI/TOOLS/Claude SEO -> AI/TOOLS/Claude Code, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/PLSOFT/PLSoft, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Karpathy Skills, AI/TOOLS/Agent Skills, AI/TOOLS/Claude Code Best Practice
 AI/TOOLS/CLI-Anything -> AI/TOOLS/Claude Code, 07f91ab9c28cd40194a8c876b8593532_MD5.gif, 45b8742d6768848f16da9265dcb00563_MD5.png, feebd003b9a4b9b40efc63cfad16b1d7_MD5.png, 49dac8b6c7daa44eb4f0aa443ee0244a_MD5.gif, 9f56caabc0386e17b78af30361eb5eaf_MD5.png, 3134bf6a722a55159d4a66681c6e6bae_MD5.gif, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Context Engineering, AI/TOOLS/Awesome Claude Code, AI/KNOWLEDGE/INFO/Agentic Coding, templates/tool
-AI/TOOLS/CocoIndex -> PROJECTS/BRAIN/Brain, PROJECTS/QAMERA-AI/Qamera AI, AI/TOOLS/LightRAG, AI/TOOLS/Claude Code, AI/TOOLS/Cursor, AI/KNOWLEDGE/INFO/Agentic Coding, BUSINESS/TOOLS/Make, AI/TOOLS/Graphify, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, AI/TOOLS/Google Cloud Knowledge Catalog
+AI/TOOLS/CocoIndex -> PROJECTS/BRAIN/Brain, PROJECTS/QAMERA-AI/Qamera AI, AI/TOOLS/LightRAG, AI/TOOLS/Claude Code, AI/TOOLS/Cursor, AI/KNOWLEDGE/INFO/Agentic Coding, BUSINESS/TOOLS/Make, AI/TOOLS/Graphify, AI/TOOLS/Google Cloud Knowledge Catalog, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture
 AI/TOOLS/Cursor -> PROJECTS/QAMERA-AI/Qamera AI, AI/TOOLS/Claude Code, CODE/TOOLS/Visual Studio Code, templates/tool
 AI/TOOLS/DESIGN MD Spec -> CODE/TOOLS/Awesome Design MD, AI/TOOLS/UI UX Pro Max, AI/TOOLS/UX Pilot, AI/TOOLS/UX RULER, PROJECTS/PLSOFT/PLSoft, PROJECTS/QAMERA-AI/Qamera AI, AI/TOOLS/Open Design, AI/TOOLS/Claude Code, Frontend Design, AI/KNOWLEDGE/INFO/AI UX Design Tools, templates/tool
 AI/TOOLS/ElevenLabs -> PROJECTS/TRAVELCAST-AI/Travelcast AI, AI/TOOLS/OpenAI, PROJECTS/VALUE-BUILDERS/Value Builders, AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish), AI/TOOLS/Voicebox, templates/tool
@@ -114,22 +113,26 @@ AI/TOOLS/Video Use -> AI/TOOLS/Browser Use, AI/TOOLS/HyperFrames, AI/TOOLS/Brows
 AI/TOOLS/Voicebox -> AI/TOOLS/Claude Code, Pulse, AI/TOOLS/Personal AI Infrastructure, AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish), AI/TOOLS/Hermes Agent, AI/TOOLS/Paperclip, templates/tool
 AI/TOOLS/VoyageAI -> PROJECTS/TTTR/Tech To The Rescue, AI/TOOLS/OpenAI, AI/TOOLS/LightRAG, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, templates/tool
 BUSINESS/BOOKS/Company of one -> ABOUT/I have a business and not business has me, PROJECTS/PLSOFT/PLSoft
-BUSINESS/KNOWLEDGE/HOWTO/Contact a client -> templates/knowledge_note_how_to
+BUSINESS/BOOKS/The Inevitable -> LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Software 3.0
+BUSINESS/BOOKS/The One Thing -> LIFE/KNOWLEDGE/INFO/Eisenhower Matrix, LIFE/BOOKS/Atomic habits, ABOUT/Principles
+BUSINESS/KNOWLEDGE/HOWTO/Contact a client -> BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Build in Public, templates/knowledge_note_how_to
 BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field' -> BUSINESS/TOOLS/Make, ATTACHMENTS/Pasted image 20220905171437.png, convert multiselect into link to another.json, ATTACHMENTS/Pasted image 20220905171755.png
 BUSINESS/KNOWLEDGE/HOWTO/How to convert pdf to Goodle Docs or Word -> Pasted image 20231216175543.png, Pasted image 20231216175730.png, templates/knowledge_note_how_to
-BUSINESS/KNOWLEDGE/HOWTO/How to create an app in Make -> templates/knowledge_note_how_to
+BUSINESS/KNOWLEDGE/HOWTO/How to create an app in Make -> BUSINESS/TOOLS/Make, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection, BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field', templates/knowledge_note_how_to
 BUSINESS/KNOWLEDGE/HOWTO/How to instantly trigger Make scenario on row created event from Airtable free plan -> ATTACHMENTS/Pasted image 20221202165500.png, ATTACHMENTS/Pasted image 20221202165602.png, ATTACHMENTS/Pasted image 20221202165729.png, ATTACHMENTS/Pasted image 20221202165759.png, ATTACHMENTS/Pasted image 20221202170021.png, ATTACHMENTS/Pasted image 20221202170551.png, ATTACHMENTS/Pasted image 20221202170630.png, ATTACHMENTS/Pasted image 20221202170735.png, ATTACHMENTS/Pasted image 20221202171020.png, ATTACHMENTS/Pasted image 20221202171226.png, ATTACHMENTS/Pasted image 20221202171517.png, ATTACHMENTS/Pasted image 20221202171724.png, ATTACHMENTS/Pasted image 20221202171934.png, ATTACHMENTS/Pasted image 20221202172110.png, ATTACHMENTS/screen-recording-2022-12-02-17_42.webm, templates/knowledge_note_how_to
 BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension -> BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/Sendgrid, templates/knowledge_note_how_to
-BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to -> templates/knowledge_note_how_to
+BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to -> LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation, BUSINESS/BOOKS/Amp It Up, ABOUT/I have a business and not business has me, templates/knowledge_note_how_to
 BUSINESS/KNOWLEDGE/HOWTO/Synchronize Airtable with Webflow -> BUSINESS/TOOLS/Airtable, templates/knowledge_note_how_to
-BUSINESS/KNOWLEDGE/HOWTO/Test email rating -> templates/knowledge_note_how_to
+BUSINESS/KNOWLEDGE/HOWTO/Test email rating -> BUSINESS/TOOLS/Sendgrid, BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension, BUSINESS/KNOWLEDGE/HOWTO/Contact a client, templates/knowledge_note_how_to
 BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule -> cb75edfabdae0e14de79e12ef4ce24ab_MD5.webp, PROJECTS/PLSOFT/PLSoft, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, PROJECTS/QAMERA-AI/Qamera AI, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/AI Trends 2026, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit, BUSINESS/KNOWLEDGE/INFO/Build in Public, templates/knowledge_note_info
 BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook -> AI/KNOWLEDGE/INFO/Agentic Coding, BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, templates/knowledge_note_info
 BUSINESS/KNOWLEDGE/INFO/Build in Public -> PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, ABOUT/My career path, templates/knowledge_note_info
 BUSINESS/KNOWLEDGE/INFO/Data Maturity Model -> BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, AI/TOOLS/Claude Code
 BUSINESS/KNOWLEDGE/INFO/Lean Canvas -> BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/BOOKS/Millionaire Fastlane, ABOUT/Principles, templates/knowledge_note_info
 BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy -> AI/KNOWLEDGE/INFO/Agentic Coding, PROJECTS/QAMERA-AI/Qamera AI, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Richard van der Blom, templates/knowledge_note_info
-BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS -> PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGRE/AGRE, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/VALUE-BUILDERS/Value Builders, BUSINESS/TOOLS/Clay, BUSINESS/TOOLS/People Data Labs, BUSINESS/TOOLS/Stripe, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, CODE/TOOLS/Resend, BUSINESS/TOOLS/Sendgrid, CODE/TOOLS/Next.js, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build ToolsBUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS -> PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGRE/AGRE, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/VALUE-BUILDERS/Value Builders, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, CODE/TOOLS/PostHog, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/Google CloudBUSINESS/KNOWLEDGE/INFO/Process Mapping -> BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Airtable, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, AI/TOOLS/UX RULER, CODE/TOOLS/OpenSpec, CODE/TOOLS/OPSX Workflow, 2026-05-16_PRD-z-analizy-i-oferty, AI/KNOWLEDGE/INFO/Specification-Driven Development
+BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS -> PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGRE/AGRE, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/VALUE-BUILDERS/Value Builders, BUSINESS/TOOLS/Clay, BUSINESS/TOOLS/People Data Labs, BUSINESS/TOOLS/Stripe, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, CODE/TOOLS/Resend, BUSINESS/TOOLS/Sendgrid, CODE/TOOLS/Next.js, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools
+BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS -> PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGRE/AGRE, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/VALUE-BUILDERS/Value Builders, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, CODE/TOOLS/PostHog, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/Google Cloud
+BUSINESS/KNOWLEDGE/INFO/Process Mapping -> BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Airtable, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, AI/TOOLS/UX RULER, CODE/TOOLS/OpenSpec, CODE/TOOLS/OPSX Workflow, 2026-05-16_PRD-z-analizy-i-oferty, AI/KNOWLEDGE/INFO/Specification-Driven Development
 BUSINESS/KNOWLEDGE/INFO/Product-Market Fit -> PROJECTS/QAMERA-AI/Qamera AI, BUSINESS/BOOKS/Company of one, ABOUT/Principles, templates/knowledge_note_info
 BUSINESS/KNOWLEDGE/INFO/Richard van der Blom -> BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Build in Public, templates/knowledge_note_info
 BUSINESS/NOTES/El Padre Case Study -> BUSINESS/TOOLS/Make, BUSINESS/TOOLS/Airtable, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
@@ -153,10 +156,11 @@ CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet projects using Azure DevOps
 CODE/KNOWLEDGE/HOWTO/Export git logs to file -> CODE/TOOLS/Git, templates/knowledge_note_how_to
 CODE/KNOWLEDGE/HOWTO/How I work on HTML email templates -> ATTACHMENTS/screen-recording-2022-11-05-07_55.webm, templates/knowledge_note_info
 CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts -> ATTACHMENTS/Pasted image 20221027221450.png, CODE/TOOLS/Visual Studio, ATTACHMENTS/Pasted image 20221027221914.png, ATTACHMENTS/Pasted image 20221027222236.png, ATTACHMENTS/Pasted image 20221027222414.png, ATTACHMENTS/Pasted image 20221027222642.png, ATTACHMENTS/Pasted image 20221027222756.png, ATTACHMENTS/Pasted image 20221027222843.png, ATTACHMENTS/Pasted image 20221027223106.png, ATTACHMENTS/Pasted image 20221027223207.png, templates/knowledge_note_how_to
-CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed -> templates/knowledge_note_how_to
+CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed -> templates/knowledge_note_how_to, LIFE/KNOWLEDGE/INFO/Quartz, LIFE/KNOWLEDGE/INFO/Digital Garden
 CODE/KNOWLEDGE/HOWTO/Vibe Coding -> AI/TOOLS/Cursor, AI/TOOLS/Claude Code, templates/knowledge_note_how_to
 CODE/KNOWLEDGE/INFO/AI Chatbots Architecture -> BUSINESS/TOOLS/n8n, AI/TOOLS/VAPI, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, templates/knowledge_note_info
-CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools -> templates/tool, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGRE/AGRE, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/VALUE-BUILDERS/Value Builders, CODE/TOOLS/Next.js, CODE/TOOLS/React, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/pnpm, CODE/TOOLS/Turborepo, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaSCODE/KNOWLEDGE/INFO/PRD Methodologies and Templates -> AI/KNOWLEDGE/INFO/Specification-Driven Development, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, AI/KNOWLEDGE/INFO/Software 3.0, AI/KNOWLEDGE/INFO/Agentic Engineering, BUSINESS/KNOWLEDGE/INFO/Lean Canvas
+CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools -> templates/tool, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGRE/AGRE, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/VALUE-BUILDERS/Value Builders, CODE/TOOLS/Next.js, CODE/TOOLS/React, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/pnpm, CODE/TOOLS/Turborepo, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS
+CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates -> AI/KNOWLEDGE/INFO/Specification-Driven Development, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, AI/KNOWLEDGE/INFO/Software 3.0, AI/KNOWLEDGE/INFO/Agentic Engineering, BUSINESS/KNOWLEDGE/INFO/Lean Canvas
 CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO -> PROJECTS/QAMERA-AI/Qamera AI, CODE/TOOLS/OpenSpec, CODE/TOOLS/OPSX Workflow, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/KNOWLEDGE/INFO/Context Engineering, AI/TOOLS/Claude Code, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code Best Practice, CODE/KNOWLEDGE/HOWTO/Vibe Coding, AI/KNOWLEDGE/INFO/Agentic Coding, PROJECTS/BRAIN/Brain, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates
 CODE/TOOLS/Awesome Design MD -> AI/TOOLS/Claude Code, AI/TOOLS/Cursor, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/PLSOFT/PLSoft, templates/tool
 CODE/TOOLS/BullMQ -> CODE/TOOLS/Redis, CODE/TOOLS/Celery, PROJECTS/TTTR/Tech To The Rescue, CODE/TOOLS/Next.js, PROJECTS/TRAVELCAST-AI/Travelcast AI, CODE/TOOLS/RabbitMQ, templates/tool
@@ -188,7 +192,7 @@ CODE/TOOLS/Redis -> CODE/TOOLS/Celery, CODE/TOOLS/BullMQ, PROJECTS/TRAVELCAST-AI
 CODE/TOOLS/Redoc -> CODE/TOOLS/React, templates/tool
 CODE/TOOLS/Remotion -> AI/TOOLS/Claude Code, templates/tool
 CODE/TOOLS/Resend -> CODE/TOOLS/Next.js, PROJECTS/AGRE/AGRE, PROJECTS/TRAVELCAST-AI/Travelcast AI, BUSINESS/TOOLS/Sendgrid, PROJECTS/TTTR/Tech To The Rescue, templates/tool
-CODE/TOOLS/RunJS -> templates/tool
+CODE/TOOLS/RunJS -> templates/tool, CODE/TOOLS/Visual Studio Code, ABOUT/What tools I use
 CODE/TOOLS/Scrapling -> AI/TOOLS/Firecrawl, AI/TOOLS/Agent Zero, AI/TOOLS/Hermes Agent, AI/TOOLS/LightRAG, templates/tool
 CODE/TOOLS/Sentry -> PROJECTS/QAMERA-AI/Qamera AI, CODE/TOOLS/PostHog, CODE/TOOLS/Docker, AI/TOOLS/Langfuse, templates/tool
 CODE/TOOLS/shadcn-ui -> CODE/TOOLS/React, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/Next.js, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGRE/AGRE, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/VALUE-BUILDERS/Value Builders, CODE/TOOLS/MakerKit, AI/TOOLS/Cursor, templates/tool
@@ -201,29 +205,33 @@ CODE/TOOLS/Visual Studio Code -> templates/tool
 CRYPTO/KNOWLEDGE/INFO/Bitcoin -> CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/KNOWLEDGE/INFO/CEX, templates/knowledge_note_info
 CRYPTO/KNOWLEDGE/INFO/CEX -> templates/knowledge_note_info
 CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026 -> CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/KNOWLEDGE/INFO/CEX, CRYPTO/NOTES/Crypto Exchanges, templates/knowledge_note_info
-CRYPTO/NOTES/Cosmos -> templates/crypto_dyor
-CRYPTO/NOTES/Filecoin -> templates/crypto_dyor
+CRYPTO/NOTES/Cosmos -> templates/crypto_dyor, CRYPTO/NOTES/Polygon, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/My web3, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022
+CRYPTO/NOTES/Filecoin -> templates/crypto_dyor, CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Polygon, CRYPTO/NOTES/My web3, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022
+CRYPTO/NOTES/Influencers -> CRYPTO/NOTES/My web3, CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/CEX
 CRYPTO/NOTES/My web3 -> CRYPTO/NOTES/Crypto Exchanges, CRYPTO/NOTES/Influencers
-CRYPTO/NOTES/Polygon -> templates/crypto_dyor
+CRYPTO/NOTES/Polygon -> templates/crypto_dyor, CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/My web3, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022
 LIFE/BOOKS/12 Rules for Life -> LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
 LIFE/BOOKS/Building a Second Brain -> LIFE/TOOLS/Obsidian
 LIFE/BOOKS/Dopamine Detox -> Meurisse Thibaut, Gosia Lipowczan, LIFE/NOTES/Distractions, ABOUT/HABITS/Habits
 LIFE/BOOKS/How to take smart notes -> LIFE/KNOWLEDGE/INFO/Zettelkasten
+LIFE/BOOKS/Learn Like a Pro -> LIFE/BOOKS/Włam się do mózgu
 LIFE/BOOKS/Miracle morning -> ABOUT/HABITS/Habits
-LIFE/BOOKS/The Mental Toughness Handbook -> Damon Zahariades
+LIFE/BOOKS/The Mental Toughness Handbook -> Damon Zahariades, LIFE/BOOKS/Atomic habits, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/BOOKS/Dopamine Detox
+LIFE/BOOKS/Włam się do mózgu -> LIFE/BOOKS/Learn Like a Pro, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System, LIFE/KNOWLEDGE/HOWTO/How to learn
 LIFE/KNOWLEDGE/HOWTO/How to clean desktop on Windows -> ATTACHMENTS/Pasted image 20221107103611.png, ATTACHMENTS/Pasted image 20221107103703.png, ATTACHMENTS/Pasted image 20221107104314.png, ATTACHMENTS/Pasted image 20221107104405.png, templates/knowledge_note_how_to
-LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation -> templates/knowledge_note_how_to
+LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation -> LIFE/KNOWLEDGE/INFO/Eisenhower Matrix, LIFE/TOOLS/Microsoft To Do, BUSINESS/TOOLS/ClickUp, templates/knowledge_note_how_to
 LIFE/KNOWLEDGE/HOWTO/How to create mind map -> LIFE/KNOWLEDGE/INFO/Mind map, LIFE/TOOLS/Obsidian, BUSINESS/TOOLS/Miro, templates/knowledge_note_how_to
 LIFE/KNOWLEDGE/HOWTO/How to download webm video from URL (html page) -> ATTACHMENTS/Pasted image 20221202174738.png, ATTACHMENTS/Pasted image 20221202174909.png, ATTACHMENTS/Pasted image 20221202175300.png, ATTACHMENTS/Pasted image 20221202175317.png, ATTACHMENTS/Pasted image 20221202175425.png, ATTACHMENTS/Pasted image 20221202175507.png, ATTACHMENTS/screen-recording-2022-12-02-17_59.webm, templates/knowledge_note_how_to
 LIFE/KNOWLEDGE/HOWTO/How to learn -> LIFE/KNOWLEDGE/INFO/Mind map, LIFE/BOOKS/Włam się do mózgu
-LIFE/KNOWLEDGE/HOWTO/When to exercise -> templates/knowledge_note_info, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
+LIFE/KNOWLEDGE/HOWTO/When to exercise -> LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/5 Minute Journal -> LIFE/BOOKS/Miracle morning, LIFE/KNOWLEDGE/INFO/Gratitude, LIFE/TOOLS/Obsidian, templates/daily_journal
-LIFE/KNOWLEDGE/INFO/5 second rule -> templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/5 second rule -> LIFE/BOOKS/The Mental Toughness Handbook, LIFE/BOOKS/Dopamine Detox, LIFE/KNOWLEDGE/INFO/Pomodoro, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly -> BUSINESS/BOOKS/The Inevitable, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Blue light -> LIFE/TOOLS/Kindle, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Cold shower -> ABOUT/HABITS/Habits, templates/knowledge_note_info
-LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System -> ATTACHMENTS/Pasted image 20220821205449.png
+LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System -> ATTACHMENTS/Pasted image 20220821205449.png, LIFE/KNOWLEDGE/INFO/Mind map, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/BOOKS/Włam się do mózgu
 LIFE/KNOWLEDGE/INFO/Digital Garden -> LIFE/KNOWLEDGE/INFO/Obsidian, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, PROJECTS/BRAIN/Brain
+LIFE/KNOWLEDGE/INFO/DISC -> ABOUT/CLIFTONSTRENGTHS, LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life, ABOUT/DISC
 LIFE/KNOWLEDGE/INFO/Eisenhower Matrix -> templates/eisenhower_matrix, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Gratitude -> LIFE/KNOWLEDGE/INFO/5 Minute Journal, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life -> LIFE/BOOKS/12 Rules for Life, templates/knowledge_note_info
@@ -231,13 +239,14 @@ LIFE/KNOWLEDGE/INFO/Mind map -> templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers -> LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/KNOWLEDGE/HOWTO/When to exercise, ABOUT/HABITS/Habits, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Obsidian -> LIFE/KNOWLEDGE/INFO/Digital Garden, PROJECTS/BRAIN/Brain, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, templates/basic_notes, templates/daily_journal, templates/book, templates/knowledge_note_info, templates/learning_notes, templates/plane_trip_planning
 LIFE/KNOWLEDGE/INFO/Pareto principle -> templates/knowledge_note_info
-LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility -> ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers
+LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility -> ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Pomodoro -> templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Quartz -> LIFE/KNOWLEDGE/INFO/Digital Garden
 LIFE/KNOWLEDGE/INFO/Second Brain Design -> LIFE/KNOWLEDGE/INFO/Obsidian, AI/TOOLS/Claude Code, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/Context Engineering, LIFE/KNOWLEDGE/INFO/Digital Garden, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey -> templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Trust -> LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Zettelkasten -> LIFE/BOOKS/How to take smart notes
+LIFE/NOTES/Distractions -> LIFE/BOOKS/Dopamine Detox, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/KNOWLEDGE/INFO/Pomodoro
 LIFE/NOTES/Programmer and what's next -> LIFE/KNOWLEDGE/INFO/Pareto principle, ABOUT/I have a business and not business has me
 LIFE/NOTES/Reading list -> LIFE/BOOKS/How to take smart notes, LIFE/BOOKS/Building a Second Brain, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/Atomic habits, BUSINESS/BOOKS/Millionaire Fastlane, ABOUT/How i read books
 LIFE/TOOLS/Authenticator -> BUSINESS/TOOLS/1Password, templates/tool
@@ -245,11 +254,11 @@ LIFE/TOOLS/Edge -> BUSINESS/TOOLS/1Password, templates/tool
 LIFE/TOOLS/Kindle -> LIFE/KNOWLEDGE/INFO/Blue light
 LIFE/TOOLS/Microsoft To Do -> BUSINESS/TOOLS/Outlook, LIFE/KNOWLEDGE/INFO/Pomodoro, BUSINESS/TOOLS/ClickUp, templates/tool
 LIFE/TOOLS/Obsidian -> LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/HOWTO/How to create mind map, templates/tool
-LIFE/TOOLS/OneNote -> templates/tool
+LIFE/TOOLS/OneNote -> LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System, ABOUT/Building a Second Brain, templates/tool
 LIFE/TOOLS/PowerToys -> templates/tool
 LIFE/TOOLS/Pstryk -> Michał Szafrański, templates/tool
 LIFE/TOOLS/Revolut -> ABOUT/Motivation system for my kids, LIFE/TOOLS/Revolut Junior
-LIFE/TOOLS/TextExpander -> templates/tool
+LIFE/TOOLS/TextExpander -> LIFE/TOOLS/PowerToys, LIFE/TOOLS/Microsoft To Do, LIFE/KNOWLEDGE/INFO/Pomodoro, templates/tool
 LIFE/TOOLS/Windows -> ATTACHMENTS/Pasted image 20221111233159.png, ATTACHMENTS/Pasted image 20221111233121.png, templates/tool
 NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline -> BUSINESS/TOOLS/n8n, BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/Make
 NOCODE/KNOWLEDGE/INFO/Automation Tool Selection -> BUSINESS/TOOLS/Zapier, BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n
@@ -274,24 +283,23 @@ PROJECTS/TRAVELCAST-AI/Travelcast AI -> CODE/TOOLS/Next.js, CODE/TOOLS/Celery, C
 PROJECTS/TTTR/Tech To The Rescue -> PROJECTS/PLSOFT/PLSoft, CODE/TOOLS/Next.js, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/DigitalOcean, CODE/TOOLS/Cloudflare, CODE/TOOLS/Prisma, CODE/TOOLS/Docker, CODE/TOOLS/BullMQ, CODE/TOOLS/Redis, BUSINESS/TOOLS/n8n, CODE/TOOLS/NextAuth, AI/TOOLS/OpenAI, AI/TOOLS/Google Gemini, AI/TOOLS/LangGraph, AI/TOOLS/VoyageAI, AI/TOOLS/Bright Data, AI/TOOLS/Tactiq, BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/Zapier, AI/TOOLS/Claude Code, AI/TOOLS/Cursor, AI/TOOLS/GitHub Copilot, CODE/TOOLS/Git, CODE/TOOLS/Sentry, BUSINESS/TOOLS/Notion, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/Context Engineering, CODE/TOOLS/Supabase, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools
 PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe -> PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/VALUE-BUILDERS/Value Builders, BUSINESS/KNOWLEDGE/INFO/Build in Public
 PROJECTS/VALUE-BUILDERS/Value Builders -> BUSINESS/KNOWLEDGE/INFO/Lean Canvas, CODE/TOOLS/PostHog, AI/TOOLS/Claude Code, CODE/TOOLS/Next.js, CODE/TOOLS/Supabase, CODE/TOOLS/Vercel, CODE/TOOLS/shadcn-ui, CODE/TOOLS/Tailwind CSS, AI/TOOLS/Lovable, AI/TOOLS/v0, BUSINESS/TOOLS/Stripe, CODE/TOOLS/OPSX Workflow, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates, AI/TOOLS/Impeccable, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/PLSOFT/PLSoft, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, AI/KNOWLEDGE/INFO/Software 3.0, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/TOOLS/ElevenLabs, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools
-TRAVELS/TOOLS/Ventusky -> templates/tool
+TRAVELS/TOOLS/Ventusky -> templates/tool, TRAVELS/TRIPS/2022 Iceland October, TRAVELS/TRIPS/2024 07 Bieszczady, TRAVELS/TRIPS/2025 07 Beskidy
 TRAVELS/TRIPS/2022 Iceland October -> ATTACHMENTS/Pasted image 20220828131700.png, ATTACHMENTS/Pasted image 20220828131754.png, TRAVELS/TOOLS/Ventusky
 TRAVELS/TRIPS/2023 Albania June -> ATTACHMENTS/Pasted image 20230716070543.png, ATTACHMENTS/Pasted image 20230716071014.png, ATTACHMENTS/Pasted image 20230716071359.png
-TRAVELS/TRIPS/2024 07 Bieszczady -> Pasted image 20240625221302.png
-TRAVELS/TRIPS/2025 07 Beskidy -> Pasted image 20250619200613.png
-WRITING_STYLE_ANALYSIS -> LIFE/KNOWLEDGE/INFO/5 Minute Journal, BUSINESS/BOOKS/Company of one
+TRAVELS/TRIPS/2024 07 Bieszczady -> Pasted image 20240625221302.png, TRAVELS/TRIPS/2025 07 Beskidy, TRAVELS/TOOLS/Ventusky, TRAVELS/My travels
+TRAVELS/TRIPS/2025 07 Beskidy -> Pasted image 20250619200613.png, TRAVELS/TRIPS/2024 07 Bieszczady, TRAVELS/TOOLS/Ventusky, TRAVELS/My travels
 
 ## Incoming
-ABOUT/About <- _index, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/PLSOFT/PLSoft, PROJECTS/QAMERA-AI/Qamera AI
-ABOUT/Building a Second Brain <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Open Notebook, PROJECTS/BRAIN/Brain
-ABOUT/CLIFTONSTRENGTHS <- ABOUT/About
-ABOUT/DISC <- ABOUT/About
-ABOUT/HABITS/Habits <- _index, LIFE/BOOKS/Dopamine Detox, LIFE/BOOKS/Miracle morning, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers
+ABOUT/About <- PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/PLSOFT/PLSoft, PROJECTS/QAMERA-AI/Qamera AI
+ABOUT/Building a Second Brain <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Open Notebook, LIFE/TOOLS/OneNote, PROJECTS/BRAIN/Brain
+ABOUT/CLIFTONSTRENGTHS <- ABOUT/About, LIFE/KNOWLEDGE/INFO/DISC
+ABOUT/DISC <- ABOUT/About, LIFE/KNOWLEDGE/INFO/DISC
+ABOUT/HABITS/Habits <- LIFE/BOOKS/Dopamine Detox, LIFE/BOOKS/Miracle morning, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
 ABOUT/How i read books <- LIFE/NOTES/Reading list
-ABOUT/I have a business and not business has me <- BUSINESS/BOOKS/Company of one, LIFE/NOTES/Programmer and what's next
+ABOUT/I have a business and not business has me <- BUSINESS/BOOKS/Company of one, BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to, LIFE/NOTES/Programmer and what's next
 ABOUT/Motivation system for my kids <- LIFE/TOOLS/Revolut
 ABOUT/My career path <- BUSINESS/KNOWLEDGE/INFO/Build in Public
-ABOUT/Principles <- ABOUT/Roles/Founder, AI/TOOLS/Paperclip, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
+ABOUT/Principles <- ABOUT/Roles/Founder, AI/TOOLS/Paperclip, BUSINESS/BOOKS/The One Thing, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
 ABOUT/Roles/AutomationSpecialist <- ABOUT/Roles/Roles
 ABOUT/Roles/Developer <- ABOUT/Roles/Roles
 ABOUT/Roles/Father <- ABOUT/Motivation system for my kids, ABOUT/Roles/Roles
@@ -300,11 +308,12 @@ ABOUT/Roles/Friend <- ABOUT/Roles/Roles
 ABOUT/Roles/Husband <- ABOUT/Roles/Roles
 ABOUT/Roles/Roles <- ABOUT/Roles/AutomationSpecialist, ABOUT/Roles/Developer, ABOUT/Roles/Founder, ABOUT/Roles/Friend, ABOUT/Roles/Son
 ABOUT/Roles/Son <- ABOUT/Roles/Roles
+ABOUT/What tools I use <- CODE/TOOLS/RunJS
 AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools <- AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/TOOLS/Camofox Browser, AI/TOOLS/Fincept Terminal, AI/TOOLS/HyperFrames, AI/TOOLS/LibreChat
 AI/KNOWLEDGE/INFO/Agentic Coding <- ABOUT/My career path, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/Software 3.0, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/CLI-Anything, AI/TOOLS/CocoIndex, AI/TOOLS/Paperclip, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OpenSpec, CODE/TOOLS/OPSX Workflow, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/QAMERA-AI/Qamera AI
 AI/KNOWLEDGE/INFO/Agentic Engineering <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Software 3.0, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates, PROJECTS/VALUE-BUILDERS/Value Builders
 AI/KNOWLEDGE/INFO/AI Agent Security <- AI/TOOLS/Awesome Agent Skills
-AI/KNOWLEDGE/INFO/AI Trends 2026 <- BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule
+AI/KNOWLEDGE/INFO/AI Trends 2026 <- BUSINESS/BOOKS/The Inevitable, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule
 AI/KNOWLEDGE/INFO/AI UX Design Tools <- AI/TOOLS/DESIGN MD Spec, AI/TOOLS/Impeccable, AI/TOOLS/Open Design, AI/TOOLS/UX Pilot, AI/TOOLS/UX RULER
 AI/KNOWLEDGE/INFO/Building Claude Skills Guide <- AI/KNOWLEDGE/INFO/40 AI Prompts for Expert Output, AI/TOOLS/Caveman, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System
 AI/KNOWLEDGE/INFO/Context Engineering <- ABOUT/My career path, AI/KNOWLEDGE/INFO/40 AI Prompts for Expert Output, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Software 3.0, AI/KNOWLEDGE/INFO/Specification-Driven Development, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Claude Peers MCP, AI/TOOLS/CLI-Anything, AI/TOOLS/Everything Claude Code, AI/TOOLS/Graphify, AI/TOOLS/Headroom, AI/TOOLS/Karpathy Skills, AI/TOOLS/LangGraph, AI/TOOLS/Ruflo, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/OpenSpec, CODE/TOOLS/OPSX Workflow, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/TTTR/Tech To The Rescue
@@ -318,7 +327,7 @@ AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman) <- AI/KNOWLED
 AI/KNOWLEDGE/INFO/Progressive Disclosure <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/KNOWLEDGE/INFO/Self-Improving Company, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Everything Claude Code, AI/TOOLS/Headroom, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System
 AI/KNOWLEDGE/INFO/Self-Improving Company <- AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Software 3.0, PROJECTS/TTTR/Tech To The Rescue
 AI/KNOWLEDGE/INFO/Skills 2.0 Testing <- AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Everything Claude Code
-AI/KNOWLEDGE/INFO/Software 3.0 <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/Self-Improving Company, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates, PROJECTS/VALUE-BUILDERS/Value Builders
+AI/KNOWLEDGE/INFO/Software 3.0 <- AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/Self-Improving Company, BUSINESS/BOOKS/The Inevitable, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates, PROJECTS/VALUE-BUILDERS/Value Builders
 AI/KNOWLEDGE/INFO/Specification-Driven Development <- AI/KNOWLEDGE/INFO/Karpathy Method, BUSINESS/KNOWLEDGE/INFO/Process Mapping, CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
 AI/KNOWLEDGE/INFO/Token Optimization for Claude Code <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Caveman, AI/TOOLS/Everything Claude Code, AI/TOOLS/Headroom, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System
 AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish) <- AI/TOOLS/Chatterbox TTS, AI/TOOLS/ElevenLabs, AI/TOOLS/Voicebox, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TRAVELCAST-AI/Travelcast AI
@@ -383,15 +392,19 @@ AI/TOOLS/Vercel Skills <- AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/TOO
 AI/TOOLS/Video Use <- AI/TOOLS/Browser Harness, AI/TOOLS/Browser Use, AI/TOOLS/HyperFrames
 AI/TOOLS/Voicebox <- AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish), AI/TOOLS/Chatterbox TTS, AI/TOOLS/ElevenLabs
 AI/TOOLS/VoyageAI <- PROJECTS/TTTR/Tech To The Rescue
-BUSINESS/BOOKS/Company of one <- ABOUT/I have a business and not business has me, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit, WRITING_STYLE_ANALYSIS
+BUSINESS/BOOKS/Amp It Up <- BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to
+BUSINESS/BOOKS/Company of one <- ABOUT/I have a business and not business has me, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
 BUSINESS/BOOKS/Millionaire Fastlane <- ABOUT/Principles, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, LIFE/NOTES/Reading list
 BUSINESS/BOOKS/The Inevitable <- LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly
 BUSINESS/BOOKS/The One Thing <- LIFE/NOTES/Reading list
+BUSINESS/KNOWLEDGE/HOWTO/Contact a client <- BUSINESS/KNOWLEDGE/HOWTO/Test email rating
+BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field' <- BUSINESS/KNOWLEDGE/HOWTO/How to create an app in Make
+BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension <- BUSINESS/KNOWLEDGE/HOWTO/Test email rating
 BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas, PROJECTS/TTTR/Tech To The Rescue
-BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook <- AI/TOOLS/Paperclip, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/TOOLS/Clay, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly
-BUSINESS/KNOWLEDGE/INFO/Build in Public <- ABOUT/My career path, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Richard van der Blom, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe
+BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook <- AI/TOOLS/Paperclip, BUSINESS/KNOWLEDGE/HOWTO/Contact a client, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/TOOLS/Clay, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly
+BUSINESS/KNOWLEDGE/INFO/Build in Public <- ABOUT/My career path, BUSINESS/KNOWLEDGE/HOWTO/Contact a client, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Richard van der Blom, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe
 BUSINESS/KNOWLEDGE/INFO/Lean Canvas <- CODE/KNOWLEDGE/INFO/PRD Methodologies and Templates, PROJECTS/VALUE-BUILDERS/Value Builders
-BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy <- AI/TOOLS/Hermes Agent, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Richard van der Blom
+BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy <- AI/TOOLS/Hermes Agent, BUSINESS/KNOWLEDGE/HOWTO/Contact a client, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Richard van der Blom
 BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS <- BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/TTTR/Tech To The Rescue
 BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS <- BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, PROJECTS/AGRE/AGRE, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/VALUE-BUILDERS/Value Builders
 BUSINESS/KNOWLEDGE/INFO/Process Mapping <- BUSINESS/KNOWLEDGE/INFO/Lean Canvas, CODE/TOOLS/OPSX Workflow
@@ -401,15 +414,15 @@ BUSINESS/NOTES/El Padre Case Study <- BUSINESS/KNOWLEDGE/INFO/Process Mapping, C
 BUSINESS/TOOLS/1Password <- ABOUT/What tools I use, LIFE/TOOLS/Authenticator, LIFE/TOOLS/Edge, PROJECTS/AGRE/AGRE
 BUSINESS/TOOLS/Airtable <- BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension, BUSINESS/KNOWLEDGE/HOWTO/Synchronize Airtable with Webflow, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Make, BUSINESS/TOOLS/Notion, CODE/TOOLS/Supabase, NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline, PROJECTS/TTTR/Tech To The Rescue
 BUSINESS/TOOLS/Clay <- AI/TOOLS/Bright Data, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/TOOLS/People Data Labs, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System
-BUSINESS/TOOLS/ClickUp <- ABOUT/What tools I use, BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/Notion, CODE/TOOLS/RabbitMQ, LIFE/TOOLS/Microsoft To Do, PROJECTS/QAMERA-AI/Qamera AI
+BUSINESS/TOOLS/ClickUp <- ABOUT/What tools I use, BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/Notion, CODE/TOOLS/RabbitMQ, LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation, LIFE/TOOLS/Microsoft To Do, PROJECTS/QAMERA-AI/Qamera AI
 BUSINESS/TOOLS/Excalidraw <- ABOUT/What tools I use
-BUSINESS/TOOLS/Make <- ABOUT/Roles/AutomationSpecialist, ABOUT/What tools I use, AI/TOOLS/CocoIndex, BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field', BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/n8n, BUSINESS/TOOLS/Zapier, NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly
+BUSINESS/TOOLS/Make <- ABOUT/Roles/AutomationSpecialist, ABOUT/What tools I use, AI/TOOLS/CocoIndex, BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field', BUSINESS/KNOWLEDGE/HOWTO/How to create an app in Make, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/n8n, BUSINESS/TOOLS/Zapier, NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly
 BUSINESS/TOOLS/Miro <- ABOUT/What tools I use, BUSINESS/TOOLS/Excalidraw, LIFE/KNOWLEDGE/HOWTO/How to create mind map
 BUSINESS/TOOLS/n8n <- ABOUT/Roles/AutomationSpecialist, ABOUT/What tools I use, AI/TOOLS/Bright Data, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, BUSINESS/KNOWLEDGE/INFO/Process Mapping, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection, PROJECTS/TTTR/Tech To The Rescue
 BUSINESS/TOOLS/Notion <- ABOUT/What tools I use, BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/ClickUp, PROJECTS/TTTR/Tech To The Rescue
 BUSINESS/TOOLS/Outlook <- ABOUT/What tools I use, LIFE/TOOLS/Microsoft To Do
 BUSINESS/TOOLS/People Data Labs <- AI/TOOLS/Bright Data, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/TOOLS/Clay, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System
-BUSINESS/TOOLS/Sendgrid <- BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, CODE/TOOLS/Resend
+BUSINESS/TOOLS/Sendgrid <- BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension, BUSINESS/KNOWLEDGE/HOWTO/Test email rating, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, CODE/TOOLS/Resend
 BUSINESS/TOOLS/Stripe <- BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS/Value Builders
 BUSINESS/TOOLS/Zapier <- BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection, PROJECTS/TTTR/Tech To The Rescue
 CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow <- CODE/TOOLS/Marp
@@ -454,47 +467,61 @@ CODE/TOOLS/Tailwind CSS <- AI/TOOLS/Lovable, AI/TOOLS/v0, CODE/KNOWLEDGE/INFO/De
 CODE/TOOLS/Turborepo <- CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/pnpm, PROJECTS/QAMERA-AI/Qamera AI
 CODE/TOOLS/Vercel <- AI/TOOLS/Lovable, AI/TOOLS/v0, CODE/TOOLS/Cloudflare, CODE/TOOLS/DigitalOcean, CODE/TOOLS/Drizzle ORM, CODE/TOOLS/Hetzner, CODE/TOOLS/Turborepo, PROJECTS/AGRE/AGRE, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/VALUE-BUILDERS/Value Builders
 CODE/TOOLS/Visual Studio <- CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet projects using Azure DevOps, CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts
-CODE/TOOLS/Visual Studio Code <- ABOUT/What tools I use, AI/TOOLS/Cursor
-CRYPTO/KNOWLEDGE/INFO/Bitcoin <- CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026
-CRYPTO/KNOWLEDGE/INFO/CEX <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026
+CODE/TOOLS/Visual Studio Code <- ABOUT/What tools I use, AI/TOOLS/Cursor, CODE/TOOLS/RunJS
+CRYPTO/KNOWLEDGE/INFO/Bitcoin <- CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Influencers
+CRYPTO/KNOWLEDGE/INFO/CEX <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Influencers
+CRYPTO/NOTES/Cosmos <- CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/Polygon
 CRYPTO/NOTES/Crypto Exchanges <- CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/My web3
+CRYPTO/NOTES/Filecoin <- CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Polygon
 CRYPTO/NOTES/Influencers <- CRYPTO/NOTES/My web3
-CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022 <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026
+CRYPTO/NOTES/My web3 <- CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/Influencers, CRYPTO/NOTES/Polygon
+CRYPTO/NOTES/Polygon <- CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin
+CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022 <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/Polygon
 LIFE/BOOKS/12 Rules for Life <- LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
-LIFE/BOOKS/Atomic habits <- ABOUT/HABITS/Habits, LIFE/NOTES/Reading list
+LIFE/BOOKS/Atomic habits <- ABOUT/HABITS/Habits, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Reading list
 LIFE/BOOKS/Building a Second Brain <- ABOUT/Building a Second Brain, LIFE/NOTES/Reading list
+LIFE/BOOKS/Dopamine Detox <- LIFE/BOOKS/The Mental Toughness Handbook, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/NOTES/Distractions
 LIFE/BOOKS/How to take smart notes <- ABOUT/Building a Second Brain, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/NOTES/Reading list, PROJECTS/BRAIN/Brain
+LIFE/BOOKS/Learn Like a Pro <- LIFE/BOOKS/Włam się do mózgu
 LIFE/BOOKS/Miracle morning <- LIFE/KNOWLEDGE/INFO/5 Minute Journal
-LIFE/BOOKS/Włam się do mózgu <- LIFE/KNOWLEDGE/HOWTO/How to learn
+LIFE/BOOKS/The Mental Toughness Handbook <- LIFE/KNOWLEDGE/INFO/5 second rule
+LIFE/BOOKS/Włam się do mózgu <- LIFE/BOOKS/Learn Like a Pro, LIFE/KNOWLEDGE/HOWTO/How to learn, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System
+LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation <- BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to
 LIFE/KNOWLEDGE/HOWTO/How to create mind map <- BUSINESS/TOOLS/Miro, LIFE/TOOLS/Obsidian
+LIFE/KNOWLEDGE/HOWTO/How to learn <- LIFE/BOOKS/Włam się do mózgu
 LIFE/KNOWLEDGE/HOWTO/When to exercise <- LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers
-LIFE/KNOWLEDGE/INFO/5 Minute Journal <- ABOUT/HABITS/Habits, ABOUT/I have a business and not business has me, LIFE/KNOWLEDGE/INFO/Gratitude, WRITING_STYLE_ANALYSIS
-LIFE/KNOWLEDGE/INFO/Blue light <- LIFE/TOOLS/Kindle, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
+LIFE/KNOWLEDGE/INFO/5 Minute Journal <- ABOUT/HABITS/Habits, ABOUT/I have a business and not business has me, LIFE/KNOWLEDGE/INFO/Gratitude
+LIFE/KNOWLEDGE/INFO/5 second rule <- LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Distractions
+LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly <- BUSINESS/BOOKS/The Inevitable
+LIFE/KNOWLEDGE/INFO/Blue light <- LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/TOOLS/Kindle
 LIFE/KNOWLEDGE/INFO/Cold shower <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
-LIFE/KNOWLEDGE/INFO/Digital Garden <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Quartz, LIFE/KNOWLEDGE/INFO/Second Brain Design, LIFE/TOOLS/Obsidian, PROJECTS/BRAIN/Brain
+LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System <- LIFE/BOOKS/Włam się do mózgu, LIFE/TOOLS/OneNote
+LIFE/KNOWLEDGE/INFO/Digital Garden <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Quartz, LIFE/KNOWLEDGE/INFO/Second Brain Design, LIFE/TOOLS/Obsidian, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/DISC <- ABOUT/DISC
+LIFE/KNOWLEDGE/INFO/Eisenhower Matrix <- BUSINESS/BOOKS/The One Thing, LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation
 LIFE/KNOWLEDGE/INFO/Gratitude <- LIFE/KNOWLEDGE/INFO/5 Minute Journal
-LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life <- LIFE/BOOKS/12 Rules for Life
-LIFE/KNOWLEDGE/INFO/Mind map <- BUSINESS/TOOLS/Miro, LIFE/KNOWLEDGE/HOWTO/How to create mind map, LIFE/KNOWLEDGE/HOWTO/How to learn
-LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers <- LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/KNOWLEDGE/HOWTO/When to exercise
-LIFE/KNOWLEDGE/INFO/Obsidian <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), BUSINESS/TOOLS/Excalidraw, CODE/TOOLS/Excalidraw, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Second Brain Design, LIFE/TOOLS/Obsidian, PROJECTS/BRAIN/Brain
+LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life <- LIFE/BOOKS/12 Rules for Life, LIFE/KNOWLEDGE/INFO/DISC
+LIFE/KNOWLEDGE/INFO/Mind map <- BUSINESS/TOOLS/Miro, LIFE/KNOWLEDGE/HOWTO/How to create mind map, LIFE/KNOWLEDGE/HOWTO/How to learn, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System
+LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers <- LIFE/KNOWLEDGE/HOWTO/When to exercise, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
+LIFE/KNOWLEDGE/INFO/Obsidian <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), BUSINESS/TOOLS/Excalidraw, CODE/TOOLS/Excalidraw, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Second Brain Design, LIFE/TOOLS/Obsidian, LIFE/TOOLS/OneNote, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/Pareto principle <- LIFE/NOTES/Programmer and what's next
-LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/HOWTO/When to exercise
-LIFE/KNOWLEDGE/INFO/Pomodoro <- LIFE/TOOLS/Microsoft To Do
-LIFE/KNOWLEDGE/INFO/Quartz <- _index, PROJECTS/BRAIN/Brain
+LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/HOWTO/When to exercise, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers
+LIFE/KNOWLEDGE/INFO/Pomodoro <- LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/NOTES/Distractions, LIFE/TOOLS/Microsoft To Do, LIFE/TOOLS/TextExpander
+LIFE/KNOWLEDGE/INFO/Quartz <- CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/Second Brain Design <- AI/TOOLS/Open Notebook
 LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey <- LIFE/KNOWLEDGE/INFO/Trust
-LIFE/KNOWLEDGE/INFO/Zettelkasten <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, LIFE/BOOKS/How to take smart notes, PROJECTS/BRAIN/Brain
+LIFE/KNOWLEDGE/INFO/Zettelkasten <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, LIFE/BOOKS/How to take smart notes, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System, PROJECTS/BRAIN/Brain
 LIFE/NOTES/Distractions <- LIFE/BOOKS/Dopamine Detox
 LIFE/NOTES/Reading list <- ABOUT/I have a business and not business has me
 LIFE/TOOLS/Authenticator <- ABOUT/What tools I use, BUSINESS/TOOLS/1Password
 LIFE/TOOLS/Edge <- ABOUT/What tools I use
 LIFE/TOOLS/Kindle <- ABOUT/How i read books, ABOUT/What tools I use, LIFE/KNOWLEDGE/INFO/Blue light
-LIFE/TOOLS/Microsoft To Do <- ABOUT/What tools I use, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/Outlook
+LIFE/TOOLS/Microsoft To Do <- ABOUT/What tools I use, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/Outlook, LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation, LIFE/TOOLS/TextExpander
 LIFE/TOOLS/Obsidian <- ABOUT/What tools I use, LIFE/BOOKS/Building a Second Brain, LIFE/KNOWLEDGE/HOWTO/How to create mind map, LIFE/KNOWLEDGE/INFO/5 Minute Journal
-LIFE/TOOLS/PowerToys <- ABOUT/What tools I use
+LIFE/TOOLS/PowerToys <- ABOUT/What tools I use, LIFE/TOOLS/TextExpander
 LIFE/TOOLS/Revolut <- ABOUT/Motivation system for my kids, BUSINESS/TOOLS/Stripe
 LIFE/TOOLS/Revolut Junior <- ABOUT/Motivation system for my kids, LIFE/TOOLS/Revolut
+NOCODE/KNOWLEDGE/INFO/Automation Tool Selection <- BUSINESS/KNOWLEDGE/HOWTO/How to create an app in Make
 PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos <- PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/PLSOFT/PLSoft, PROJECTS/QAMERA-AI/Qamera AI
 PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules <- AI/TOOLS/Firecrawl, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, BUSINESS/TOOLS/Stripe, PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/VALUE-BUILDERS/Value Builders
 PROJECTS/AGENTIC-SYSTEMS/Agentic Systems <- ABOUT/About, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/GPT Image 2 + Seedance Workflow, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Agent Zero, AI/TOOLS/Claude Peers MCP, AI/TOOLS/CLI-Anything, AI/TOOLS/Everything Claude Code, AI/TOOLS/NemoClaw, AI/TOOLS/Paperclip, AI/TOOLS/Personal AI Infrastructure, AI/TOOLS/Ruflo, AI/TOOLS/Space Agent, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/Make, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/Projects, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, PROJECTS/VALUE-BUILDERS/Value Builders
@@ -508,11 +535,14 @@ PROJECTS/ARCHIVE/Work attendance management system <- PROJECTS/ARCHIVE/SHAREFUND
 PROJECTS/BRAIN/Brain <- AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/TOOLS/CocoIndex, AI/TOOLS/gstack, AI/TOOLS/Hermes Agent, AI/TOOLS/Langfuse, AI/TOOLS/LightRAG, AI/TOOLS/Paperclip, AI/TOOLS/Personal AI Infrastructure, AI/TOOLS/Vercel Skills, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, PROJECTS/Projects
 PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System <- AI/TOOLS/Bright Data, AI/TOOLS/Fincept Terminal, AI/TOOLS/Firecrawl, AI/TOOLS/Perplexity, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, BUSINESS/TOOLS/Clay, BUSINESS/TOOLS/People Data Labs, PROJECTS/PLSOFT/PLSoft, PROJECTS/Projects
 PROJECTS/PLSOFT/PLSoft <- ABOUT/About, ABOUT/My career path, ABOUT/Roles/Founder, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/TOOLS/Archon, AI/TOOLS/Caveman, AI/TOOLS/Claude Peers MCP, AI/TOOLS/Claude SEO, AI/TOOLS/DESIGN MD Spec, AI/TOOLS/gstack, AI/TOOLS/Headroom, AI/TOOLS/LibreChat, AI/TOOLS/Paperclip, AI/TOOLS/VAPI, BUSINESS/BOOKS/Company of one, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/n8n, CODE/TOOLS/Awesome Design MD, PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/AGRE/AGRE, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/Projects, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/VALUE-BUILDERS/Value Builders
-PROJECTS/Projects <- _index
 PROJECTS/QAMERA-AI/Qamera AI <- ABOUT/About, ABOUT/My career path, ABOUT/Roles/Developer, ABOUT/Roles/Founder, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Agent Zero, AI/TOOLS/Archon, AI/TOOLS/BytePlus Seedream, AI/TOOLS/Caveman, AI/TOOLS/Claude Code, AI/TOOLS/Claude Peers MCP, AI/TOOLS/Claude SEO, AI/TOOLS/CLI-Anything, AI/TOOLS/CocoIndex, AI/TOOLS/Cursor, AI/TOOLS/DESIGN MD Spec, AI/TOOLS/Google Gemini, AI/TOOLS/gstack, AI/TOOLS/Headroom, AI/TOOLS/Langfuse, AI/TOOLS/LibreChat, AI/TOOLS/LightRAG, AI/TOOLS/Paperclip, AI/TOOLS/Replicate, AI/TOOLS/Superpowers, AI/TOOLS/Topaz Labs, BUSINESS/KNOWLEDGE/INFO/AI 70-20-10 Rule, BUSINESS/KNOWLEDGE/INFO/Build in Public, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit, BUSINESS/TOOLS/ClickUp, BUSINESS/TOOLS/n8n, BUSINESS/TOOLS/Stripe, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/Awesome Design MD, CODE/TOOLS/Cloudflare, CODE/TOOLS/DigitalOcean, CODE/TOOLS/Docker, CODE/TOOLS/Google Cloud, CODE/TOOLS/Hetzner, CODE/TOOLS/Next.js, CODE/TOOLS/NextAuth, CODE/TOOLS/pnpm, CODE/TOOLS/PostHog, CODE/TOOLS/RabbitMQ, CODE/TOOLS/React, CODE/TOOLS/Redis, CODE/TOOLS/Sentry, CODE/TOOLS/shadcn-ui, CODE/TOOLS/Supabase, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/Turborepo, CODE/TOOLS/Vercel, PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/PLSOFT/PLSoft, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe, PROJECTS/VALUE-BUILDERS/Value Builders
 PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly <- BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/pnpm, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/PLSOFT/PLSoft, PROJECTS/Projects
 PROJECTS/TRAVELCAST-AI/Travelcast AI <- AI/TOOLS/Chatterbox TTS, AI/TOOLS/ElevenLabs, AI/TOOLS/Open Notebook, AI/TOOLS/OpenAI, AI/TOOLS/Perplexity, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/BullMQ, CODE/TOOLS/Celery, CODE/TOOLS/Cloudflare, CODE/TOOLS/RabbitMQ, CODE/TOOLS/Redis, CODE/TOOLS/Resend, CODE/TOOLS/shadcn-ui, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/Vercel, PROJECTS/Projects
 PROJECTS/TTTR/Tech To The Rescue <- AI/TOOLS/Bright Data, AI/TOOLS/GitHub Copilot, AI/TOOLS/Google Gemini, AI/TOOLS/LangGraph, AI/TOOLS/OpenAI, AI/TOOLS/Tactiq, AI/TOOLS/VoyageAI, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/BullMQ, CODE/TOOLS/Celery, CODE/TOOLS/DigitalOcean, CODE/TOOLS/Drizzle ORM, CODE/TOOLS/Hetzner, CODE/TOOLS/NextAuth, CODE/TOOLS/Prisma, CODE/TOOLS/RabbitMQ, CODE/TOOLS/Redis, CODE/TOOLS/Resend, PROJECTS/PLSOFT/PLSoft, PROJECTS/Projects
 PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe <- ABOUT/About, AI/TOOLS/Space Agent, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS/Value Builders
 PROJECTS/VALUE-BUILDERS/Value Builders <- ABOUT/About, ABOUT/My career path, AI/TOOLS/ElevenLabs, AI/TOOLS/Lovable, AI/TOOLS/Paperclip, AI/TOOLS/v0, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, BUSINESS/TOOLS/Stripe, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/shadcn-ui, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/Vercel, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe
-TRAVELS/TOOLS/Ventusky <- TRAVELS/TRIPS/2022 Iceland October
+TRAVELS/My travels <- TRAVELS/TRIPS/2024 07 Bieszczady, TRAVELS/TRIPS/2025 07 Beskidy
+TRAVELS/TOOLS/Ventusky <- TRAVELS/TRIPS/2022 Iceland October, TRAVELS/TRIPS/2024 07 Bieszczady, TRAVELS/TRIPS/2025 07 Beskidy
+TRAVELS/TRIPS/2022 Iceland October <- TRAVELS/TOOLS/Ventusky
+TRAVELS/TRIPS/2024 07 Bieszczady <- TRAVELS/TOOLS/Ventusky, TRAVELS/TRIPS/2025 07 Beskidy
+TRAVELS/TRIPS/2025 07 Beskidy <- TRAVELS/TOOLS/Ventusky, TRAVELS/TRIPS/2024 07 Bieszczady

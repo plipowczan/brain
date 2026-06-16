@@ -47,3 +47,8 @@ Getting from the parking to Nowy Łupków:
 <div style="max-width:600px;overflow:hidden;margin:0 auto;min-width:300px;"><iframe src="https://mapa-turystyczna.pl/map/widget/route/h1l0p1/3j5th.html" height="680" style="width:100%;border:0;" loading="lazy"></iframe><a href="https://mapa-turystyczna.pl/route/3j5th?utm_source=external_web&amp;utm_medium=widget&amp;utm_campaign=route_widget" target="_blank" rel="noopener" style="color:#999;padding:7px 0;font-size: 13px;font-family:Roboto,Arial,sans-serif;display: inline-block;">Trasa: Studencka baza namiotowa PTTK Łopienka – Baligród | mapa-turystyczna.pl</a></div>
 ## Route 7
 <div style="max-width:600px;overflow:hidden;margin:0 auto;min-width:300px;"><iframe src="https://mapa-turystyczna.pl/map/widget/route/h1l0p1/3gldx.html" height="680" style="width:100%;border:0;" loading="lazy"></iframe><a href="https://mapa-turystyczna.pl/route/3gldx?utm_source=external_web&amp;utm_medium=widget&amp;utm_campaign=route_widget" target="_blank" rel="noopener" style="color:#999;padding:7px 0;font-size: 13px;font-family:Roboto,Arial,sans-serif;display: inline-block;">Trasa z: Baligród | mapa-turystyczna.pl</a></div>
+
+## 🔗 Related
+- [[2025 07 Beskidy]] — next Polish mountain hiking trip (Beskidy range)
+- [[Ventusky]] — weather forecast tool used for trip planning
+- [[My travels]] — overview of all trips

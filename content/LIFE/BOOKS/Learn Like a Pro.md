@@ -108,3 +108,6 @@ The ability to objectively evaluate your own thought and learning processes.
 ### 💡 Bonus Tip: The Memory Palace
 
 A mnemonic technique where you visualize information you want to remember in a location you know well (like your house). You assign images to specific places (e.g., a fire hydrant by your front door to remember "hydrogen").
+
+## 🔗 Related
+- [[Włam się do mózgu]] — Polish companion book on fast, efficient learning techniques

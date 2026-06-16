@@ -29,5 +29,10 @@ A well-defined task has:
 ## 📖Further reading
 #todo/replace Links to related knowledge base articles or how-tos.
 
+## 🔗 Related
+- [[Eisenhower Matrix]] — framework for deciding which tasks deserve time and priority before delegating
+- [[Microsoft To Do]] — task management tool for tracking delegated items
+- [[ClickUp]] — project management tool used to assign and track delegated tasks
+
 ---
 Template: [[templates/knowledge_note_how_to]]

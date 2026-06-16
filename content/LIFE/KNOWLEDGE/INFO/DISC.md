@@ -13,3 +13,8 @@ It has been known for a long time that the success of a company consists of many
 # Resources
 [Co to jest badanie DISC? – Rozwój komunikacji – Extended Tools](https://extended.tools/co-to-jest-badanie-disc/)
 [How DiSC profiles work - DiSC Profile](https://www.discprofile.com/what-is-disc/how-disc-works)
+
+## 🔗 Related
+- [[CLIFTONSTRENGTHS]] — complementary strengths-based self-assessment tool
+- [[Jordan Petersons 12 rules for life]] — self-development framework; knowing your DISC type helps apply its principles more effectively
+- [[ABOUT/DISC]] — personal DISC test results and action items

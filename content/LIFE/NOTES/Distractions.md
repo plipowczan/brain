@@ -15,3 +15,8 @@ type: basic-note
 | Walk        |                |
 | Ride a bike |                |
 | Joga        |                |
+
+## 🔗 Related
+- [[Dopamine Detox]] — the book that introduced this "Can Do / Can't Do" framework
+- [[5 second rule]] — use the countdown to resist the urge to pick up a distracting habit
+- [[Pomodoro]] — time-boxing technique to create focused work blocks free of distraction

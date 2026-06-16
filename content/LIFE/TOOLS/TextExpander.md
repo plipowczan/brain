@@ -21,5 +21,10 @@ type: tool
 ## Resources
 #todo/replace Link to relevant blog posts here.
 
+## 🔗 Related
+- [[PowerToys]] — another Windows power-user productivity utility (includes PowerToys Run and a built-in text replacement feature)
+- [[Microsoft To Do]] — pairs well with TextExpander for quickly capturing tasks via keyboard shortcuts
+- [[Pomodoro]] — productivity technique that benefits from fast snippet entry for session tracking
+
 ---
 Template: [[templates/tool]]

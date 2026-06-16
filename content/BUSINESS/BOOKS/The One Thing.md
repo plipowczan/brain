@@ -38,3 +38,8 @@ Key takeways:
 
 # Resources
 [Jedna rzecz. Zaskakujący mechanizm niezwykłych osiągnięć - Gary Keller, Jay Papasan | Książka w Lubimyczytac.pl - Opinie, oceny, ceny](https://lubimyczytac.pl/ksiazka/194428/jedna-rzecz-zaskakujacy-mechanizm-niezwyklych-osiagniec)
+
+## 🔗 Related
+- [[Eisenhower Matrix]]
+- [[Atomic habits]]
+- [[Principles]]

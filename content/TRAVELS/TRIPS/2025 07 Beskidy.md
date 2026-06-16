@@ -56,3 +56,8 @@ Ustroń
 
 ### Lodging
 Home
+
+## 🔗 Related
+- [[2024 07 Bieszczady]] — previous Polish mountain hiking trip (Bieszczady range)
+- [[Ventusky]] — weather forecast tool used for trip planning
+- [[My travels]] — overview of all trips

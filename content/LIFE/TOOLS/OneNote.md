@@ -21,5 +21,10 @@ type: tool
 ## Resources
 #todo/replace Link to relevant blog posts here.
 
+## 🔗 Related
+- [[Obsidian]] — the note-taking tool I actively use instead; Markdown-based, local-first
+- [[Cornel Notes Taking System]] — a structured note-taking method applicable in any tool including OneNote
+- [[Building a Second Brain]] — PKM methodology relevant to how OneNote can be used
+
 ---
 Template: [[templates/tool]]

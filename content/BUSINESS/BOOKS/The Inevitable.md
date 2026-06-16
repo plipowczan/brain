@@ -32,3 +32,8 @@ How my life / behavior / thoughts / ideas have changed as a result of reading th
 # ✍️ My Top 3 Quotes
 
 # 📒 Summary + Notes
+
+## 🔗 Related
+- [[6 life tips from Kevin Kelly]]
+- [[AI Trends 2026]]
+- [[Software 3.0]]

@@ -36,3 +36,8 @@ When reviewing your notes it’s also useful to reorder objects on the page, for
 
 YT:
 [How to Take Cornell Notes (with examples) - YouTube](https://www.youtube.com/watch?v=OcWfXWM4kco)
+
+## 🔗 Related
+- [[Mind map]] — complementary visual note-taking method for engaging both brain hemispheres
+- [[Zettelkasten]] — another structured knowledge system built on connected, atomic notes
+- [[Włam się do mózgu]] — book on effective learning techniques that motivates good note-taking habits

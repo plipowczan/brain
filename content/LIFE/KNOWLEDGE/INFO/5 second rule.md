@@ -25,5 +25,10 @@ The _5 Second Rule_ by Mel Robbins is a simple yet transformative tool designe
 [The 5 Second Rule: Transform your Life, Work, and Confidence with Everyday Courage - Mel Robbins | Książka w Lubimyczytac.pl - Opinie, oceny, ceny](https://lubimyczytac.pl/ksiazka/4818076/the-5-second-rule-transform-your-life-work-and-confidence-with-everyday-courage)
 [How to stop screwing yourself over | Mel Robbins | TEDxSF - YouTube](https://www.youtube.com/watch?v=Lp7E973zozc)
 
+## 🔗 Related
+- [[The Mental Toughness Handbook]] — builds the deeper habit of acting despite discomfort, fear, and self-doubt
+- [[Dopamine Detox]] — companion technique for overcoming impulse toward distraction and reclaiming focus
+- [[Pomodoro]] — another time-based mechanism for defeating procrastination and starting work
+
 ---
 Template: [[templates/knowledge_note_info]]

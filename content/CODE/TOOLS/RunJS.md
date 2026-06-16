@@ -23,3 +23,7 @@ type: tool
 
 ---
 Template: [[templates/tool]]
+
+## 🔗 Related
+- [[Visual Studio Code]] — primary code editor; RunJS complements it as a quick JS scratch-pad
+- [[What tools I use]] — master list of tools in use

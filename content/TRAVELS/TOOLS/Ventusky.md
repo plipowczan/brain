@@ -26,3 +26,8 @@ Very good app for monitoring the weather.
 
 ---
 Template: [[templates/tool]]
+
+## 🔗 Trips using this tool
+- [[2022 Iceland October]]
+- [[2024 07 Bieszczady]]
+- [[2025 07 Beskidy]]

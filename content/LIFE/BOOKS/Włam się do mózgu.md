@@ -33,3 +33,8 @@ How my life / behavior / thoughts / ideas have changed as a result of reading th
 
 # 🔗 Resources
 [Książka Włam się do mózgu | Radek Kotarski | 150 tys. sprzedanych sztuk (altenberg.pl)](https://altenberg.pl/wlam-sie-do-mozgu-radek-kotarski/)
+
+## 🔗 Related
+- [[Learn Like a Pro]] — science-backed learning techniques (Pomodoro, spaced repetition, diffuse thinking)
+- [[Cornel Notes Taking System]] — structured note-taking method that reinforces recall
+- [[How to learn]] — personal how-to note that directly references this book

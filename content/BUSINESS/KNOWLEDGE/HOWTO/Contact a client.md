@@ -33,5 +33,10 @@ Build a nice relation with client and get response from him.
 ## 📖Further reading
 #reading-list/business-finance  [Blinkist: Follow Up and Close the Sale](https://www.blinkist.com/en/app/books/follow-up-and-close-the-sale-en)
 
+## 🔗 Related
+- [[Autonomous Sales Agent Playbook]]
+- [[LinkedIn Strategy]]
+- [[Build in Public]]
+
 ---
 Template: [[templates/knowledge_note_how_to]]

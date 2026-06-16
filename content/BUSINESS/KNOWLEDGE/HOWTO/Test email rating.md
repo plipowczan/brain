@@ -21,5 +21,10 @@ Check the score of your email and if it is not on the black list
 ## Outcome:
 You will find out what is the quality of your email address.
 
+## 🔗 Related
+- [[Sendgrid]]
+- [[How to send emails directly from Free Airtable using Sendgrid extension]]
+- [[Contact a client]]
+
 ---
 Template: [[templates/knowledge_note_how_to]]

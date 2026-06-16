@@ -40,3 +40,8 @@ Phil Konieczny - one of the best insights about the global economy and crypto pr
 
 # Resources
 [How to do your own research (DYOR) in crypto - Crypto Simple (digitalsurge.com.au)](https://digitalsurge.com.au/education/how-to-do-your-own-research-dyor-in-crypto/)
+
+## 🔗 Related
+- [[My web3]] — personal crypto portfolio hub that references this list
+- [[Bitcoin]] — the primary asset most of these influencers cover
+- [[CEX]] — centralized exchanges covered in many of these channels

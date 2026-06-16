@@ -28,5 +28,10 @@ type: knowledge-note
 ## 📖Further reading
 #todo/replace Links to related knowledge base articles or how-tos.
 
+## 🔗 Related
+- [[Make]]
+- [[Automation Tool Selection]]
+- [[How to convert multiselect field into a 'link to another table field']]
+
 ---
 Template: [[templates/knowledge_note_how_to]]

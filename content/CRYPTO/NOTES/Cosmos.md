@@ -32,3 +32,9 @@ type: basic-note
 
 ---
 Template: [[templates/crypto_dyor]]
+
+## 🔗 Related
+- [[Polygon]] — another Layer 1 / scaling crypto project analysed with the same DYOR template
+- [[Filecoin]] — complementary infrastructure project (decentralized storage) from the same research batch
+- [[My web3]] — personal crypto portfolio hub
+- [[What mistakes I made on the crypto market in 2021-2022]] — lessons learned from investing in projects like this

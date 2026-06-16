@@ -33,5 +33,10 @@ We gained knowledge why employee didn't do what he was supposed to and are able 
 ## 📖Further reading
 #todo/replace Links to related knowledge base articles or how-tos.
 
+## 🔗 Related
+- [[How to create a task for delegation]]
+- [[Amp It Up]]
+- [[I have a business and not business has me]]
+
 ---
 Template: [[templates/knowledge_note_how_to]]

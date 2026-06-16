@@ -88,3 +88,8 @@ Mental toughness is something that you can learn and build. I started to work on
 ### 🏁 Summary
 
 Mental toughness isn’t innate — it’s a skill you can build. The key is daily practice, emotional control, a positive mindset, and overcoming internal barriers.
+
+## 🔗 Related
+- [[Atomic habits]] — building lasting habits through small, consistent practice
+- [[5 second rule]] — counting 5-4-3-2-1 to override hesitation and take immediate action
+- [[Dopamine Detox]] — complementary approach: reducing overstimulation to reclaim focus and discipline

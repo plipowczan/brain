@@ -55,3 +55,7 @@ RSS feed file will be added to the output folder with the list of all your pages
 
 ---
 Template: [[templates/knowledge_note_how_to]]
+
+## 🔗 Related
+- [[Quartz]] — alternative static-site generator used for this digital garden (also produces RSS)
+- [[Digital Garden]] — broader context on publishing a personal knowledge base via SSG
