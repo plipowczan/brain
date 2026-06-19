@@ -7,6 +7,7 @@ tags: ["tool", "ai", "claude-code", "token-optimization", "cost-optimization", "
 type: tool
 source: "_raw/processed/2026-06-14_yt-zjFE-dBzP_E_you-need-to-try-these-open-source-ai-projects-right-now.md"
 agent-created: true
+agent-reviewed: 2026-06-19
 summary: "chopratejas/headroom — compresses everything an AI agent reads (tool outputs, logs, RAG chunks, files, history) before it hits the LLM. 60–95% fewer tokens, same answers. Library, proxy, or MCP. Apache 2.0."
 ---
 
@@ -28,7 +29,15 @@ The pitch that lands for me: on heavy [[Claude Code]] / [[Cursor]] / Codex sessi
 - **Measured savings** (from the video): code search 17k→1.4k tokens (92%), incident debugging 65k→5k (92%), GitHub issue tracking 54k→14k (73%), codebase exploration 78k→41k (47%).
 - **Quality preserved** — benchmarked on GSM8K, TruthfulQA, SQuAD v2, BFCL with near-perfect retention.
 - **`headroom perf`** — per-model breakdown of tokens saved, cache performance, optimization overhead.
-- **`headroom learn`** — mines failed sessions and writes corrections to `CLAUDE.md` / `AGENTS.md`.
+- **`headroom learn`** — mines failed sessions and writes corrections to `CLAUDE.md` / `AGENTS.md` / `GEMINI.md`.
+- **Output token reduction** (`HEADROOM_OUTPUT_SHAPER=1`) — trims what the model *writes back*, not just what you send (output costs ~5× input on Opus-class). Two levers from the proxy, no code changes: **verbosity steering** (appends a "be terse, don't restate context" note to the system prompt so the cache still hits) and **effort routing** (dials thinking effort down when a turn is just resuming after a tool result, keeps full effort on new questions/errors). `headroom learn --verbosity` infers your preferred terseness from past sessions.
+- **Cross-agent memory** — shared store across [[Claude Code]] / Codex / Gemini with agent provenance and auto-dedup; `SharedContext` passes compressed context across multi-agent workflows.
+- **CCR (reversible)** — the named mechanism behind reversibility: originals cached locally, model calls `headroom_retrieve` within TTL.
+- **Copilot CLI subscription mode** — `headroom wrap copilot --subscription` routes GitHub Copilot CLI subscription traffic through the local proxy, exchanging a Headroom-specific OAuth token for Copilot's short-lived API token.
+
+## 📊 Compared to
+
+Headroom's pitch vs. neighbours: it runs **locally**, covers **all** content (tools, RAG, logs, files, history), works across frameworks, and is **reversible** — where [RTK](https://github.com/rtk-ai/rtk) (shell-output only) and [lean-ctx](https://github.com/yvgude/lean-ctx) (CLI/MCP) are local but not reversible, hosted APIs (Compresr, Token Co.) are neither local nor reversible, and OpenAI Compaction is provider-native conversation history only. Headroom actually **ships the RTK binary** and can use lean-ctx as its CLI context tool (`HEADROOM_CONTEXT_TOOL=lean-ctx`).
 
 ## Reasoning for
 

@@ -73,6 +73,7 @@ graphify-out/
 - **Manual codebase reading** — doesn't scale, 71x more tokens
 - **GitHub Copilot @workspace** — doesn't build a persistent graph, doesn't do cross-file semantic analysis
 - **Manual Neo4j setup** — Graphify exports to Neo4j (`--neo4j-push`) but doesn't require it to operate
+- [[Understand Anything]] — same Tree-sitter+LLM idea, but leans on a committed-to-repo JSON graph + interactive dashboard for team onboarding/diff-impact rather than token-reduction context
 
 ## 📖 Resources
 - [GitHub: safishamsi/graphify](https://github.com/safishamsi/graphify)
