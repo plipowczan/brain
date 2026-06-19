@@ -6,6 +6,8 @@ openToc: true
 tags: ["tool", "microsoft", "todo"]
 type: tool
 summary: "Simple, free task management app integrating with Outlook and Pomodoro focus sessions."
+agent-reviewed: 2026-06-16
+
 ---
 # Microsoft To Do
 Task management software.

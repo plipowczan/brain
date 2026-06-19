@@ -6,6 +6,8 @@ openToc: true
 tags: ["tool"]
 type: tool
 summary: "Quick JavaScript scratch-pad tool used alongside VS Code for rapid code experiments."
+agent-reviewed: 2026-06-16
+
 ---
 # RunJS
 #todo/replace  Brief description of the tool.

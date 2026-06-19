@@ -6,6 +6,8 @@ openToc: true
 tags: ["tool"]
 type: tool
 summary: "Microsoft email and calendar client used to manage mail, meetings, tasks, and contacts in one place."
+agent-reviewed: 2026-06-16
+
 ---
 # Outlook
 Mail, calendar and task management app.

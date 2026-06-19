@@ -6,6 +6,8 @@ openToc: true
 tags: ["tool", "revolut", "junior", "mobile", "aplication"]
 type: tool
 summary: "Revolut <18 app for managing kids' money: tasks, rewards, goals, and parental oversight."
+agent-reviewed: 2026-06-16
+
 ---
 # Revolut Junior
 Money management app for kids.

@@ -6,6 +6,8 @@ openToc: true
 tags: ["tool", "kindle"]
 type: tool
 summary: "Amazon Kindle Paperwhite e-reader for portable reading with built-in translator and no blue light."
+agent-reviewed: 2026-06-16
+
 ---
 # Tool
 Ebook reader from Amazon.
