@@ -31,6 +31,7 @@ Lessons from the past: [[What mistakes I made on the crypto market in 2021-2022]
 ## 📖 Further reading
 [[CEX]]
 [[Crypto Exchanges]]
+[[Bear Markets — 100 Years of History]] — bear-market mechanics, phases, and psychology across all markets
 
 ---
 Template: [[templates/knowledge_note_info]]

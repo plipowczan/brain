@@ -1,7 +1,7 @@
 ---
-updated: 2026-06-19T20:09:08Z
-nodes: 304
-edges: 1688
+updated: 2026-06-20T00:00:00Z
+nodes: 305
+edges: 1692
 ---
 # Link Graph
 
@@ -206,12 +206,13 @@ CODE/TOOLS/Visual Studio -> templates/tool
 CODE/TOOLS/Visual Studio Code -> templates/tool
 CRYPTO/KNOWLEDGE/INFO/Bitcoin -> CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/KNOWLEDGE/INFO/CEX, templates/knowledge_note_info
 CRYPTO/KNOWLEDGE/INFO/CEX -> templates/knowledge_note_info
-CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026 -> CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/KNOWLEDGE/INFO/CEX, CRYPTO/NOTES/Crypto Exchanges, templates/knowledge_note_info
+CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026 -> CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/KNOWLEDGE/INFO/CEX, CRYPTO/NOTES/Crypto Exchanges, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, templates/knowledge_note_info
 CRYPTO/NOTES/Cosmos -> templates/crypto_dyor, CRYPTO/NOTES/Polygon, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/My web3, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022
 CRYPTO/NOTES/Filecoin -> templates/crypto_dyor, CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Polygon, CRYPTO/NOTES/My web3, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022
 CRYPTO/NOTES/Influencers -> CRYPTO/NOTES/My web3, CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/CEX
 CRYPTO/NOTES/My web3 -> CRYPTO/NOTES/Crypto Exchanges, CRYPTO/NOTES/Influencers
 CRYPTO/NOTES/Polygon -> templates/crypto_dyor, CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/My web3, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022
+INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History -> CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, AI/TOOLS/Fincept Terminal, templates/knowledge_note_info
 LIFE/BOOKS/12 Rules for Life -> LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
 LIFE/BOOKS/Building a Second Brain -> LIFE/TOOLS/Obsidian
 LIFE/BOOKS/Dopamine Detox -> Meurisse Thibaut, Gosia Lipowczan, LIFE/NOTES/Distractions, ABOUT/HABITS/Habits
@@ -356,7 +357,7 @@ AI/TOOLS/Cursor <- ABOUT/Roles/Developer, ABOUT/What tools I use, AI/KNOWLEDGE/I
 AI/TOOLS/DESIGN MD Spec <- AI/TOOLS/Impeccable
 AI/TOOLS/ElevenLabs <- AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/TOOLS/Chatterbox TTS, AI/TOOLS/Open Notebook, AI/TOOLS/OpenAI, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/VALUE-BUILDERS/Value Builders
 AI/TOOLS/Everything Claude Code <- AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Hermes Agent, AI/TOOLS/Open Design, AI/TOOLS/Ruflo, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
-AI/TOOLS/Fincept Terminal <- AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools
+AI/TOOLS/Fincept Terminal <- AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History
 AI/TOOLS/Firecrawl <- AI/TOOLS/Bright Data, AI/TOOLS/Camofox Browser, AI/TOOLS/Perplexity, BUSINESS/TOOLS/Clay, BUSINESS/TOOLS/People Data Labs, CODE/TOOLS/Scrapling, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System
 AI/TOOLS/GitHub Copilot <- PROJECTS/TTTR/Tech To The Rescue
 AI/TOOLS/Google Cloud Knowledge Catalog <- AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/TOOLS/CocoIndex, AI/TOOLS/Understand Anything
@@ -474,6 +475,7 @@ CODE/TOOLS/Visual Studio <- CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet
 CODE/TOOLS/Visual Studio Code <- ABOUT/What tools I use, AI/TOOLS/Cursor, CODE/TOOLS/RunJS
 CRYPTO/KNOWLEDGE/INFO/Bitcoin <- CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Influencers
 CRYPTO/KNOWLEDGE/INFO/CEX <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Influencers
+CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026 <- INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History
 CRYPTO/NOTES/Cosmos <- CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/Polygon
 CRYPTO/NOTES/Crypto Exchanges <- CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/My web3
 CRYPTO/NOTES/Filecoin <- CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Polygon
@@ -481,6 +483,7 @@ CRYPTO/NOTES/Influencers <- CRYPTO/NOTES/My web3
 CRYPTO/NOTES/My web3 <- CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/Influencers, CRYPTO/NOTES/Polygon
 CRYPTO/NOTES/Polygon <- CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin
 CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022 <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/Polygon
+INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History <- CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026
 LIFE/BOOKS/12 Rules for Life <- LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
 LIFE/BOOKS/Atomic habits <- ABOUT/HABITS/Habits, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Reading list
 LIFE/BOOKS/Building a Second Brain <- ABOUT/Building a Second Brain, LIFE/NOTES/Reading list

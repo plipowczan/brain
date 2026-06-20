@@ -1,6 +1,6 @@
 ---
-updated: 2026-06-19T20:09:08Z
-entries: 304
+updated: 2026-06-20T00:00:00Z
+entries: 305
 ---
 # Note Catalog
 
@@ -236,7 +236,7 @@ entries: 304
 ## CRYPTO/KNOWLEDGE/INFO
 - **Bitcoin** | knowledge-note | 2026-04-09 | [knowledge, info, crypto, bitcoin, investment] | Bitcoin — the original cryptocurrency, decentralized digital money | → What mistakes I made on the crypto market in 2021-2022, CEX, templates/knowledge_note_info
 - **CEX** | knowledge-note | 2023-03-06 | [knowledge, info] | Overview of centralized crypto exchanges: how they work, benefits, and key risks like trust and regulation. | → templates/knowledge_note_info
-- **Crypto Market State 2026** | knowledge-note | 2026-04-09 | [knowledge, info, crypto, market] | Overview of crypto market state in 2026 — what changed since 2022 bear market | → Bitcoin, What mistakes I made on the crypto market in 2021-2022, CEX, Crypto Exchanges, templates/knowledge_note_info
+- **Crypto Market State 2026** | knowledge-note | 2026-04-09 | [knowledge, info, crypto, market] | Overview of crypto market state in 2026 — what changed since 2022 bear market | → Bitcoin, What mistakes I made on the crypto market in 2021-2022, CEX, Crypto Exchanges, Bear Markets — 100 Years of History, templates/knowledge_note_info
 
 ## CRYPTO/NOTES
 - **Cosmos** | basic-note | 2022-09-10 | [crypto, project, analysis, investment, cosmos, atom] | DYOR analysis stub for Cosmos (ATOM): market cap, supply, and research framework for the project. | → templates/crypto_dyor, Polygon, Filecoin, My web3, What mistakes I made on the crypto market in 2021-2022
@@ -246,6 +246,9 @@ entries: 304
 - **My web3** | knowledge-note | 2022-09-11 | [knowledge, exchanges, crypto, influencers] | Personal Web3 hub linking crypto exchanges, influencers, and knowledge and notes sections via Dataview. | → Crypto Exchanges, Influencers
 - **Polygon** | basic-note | 2022-09-10 | [crypto, project, analysis, investment, polygon, matic] | DYOR analysis of Polygon (MATIC): scalability Layer 2 on Ethereum, market cap, team, and Meta NFT partnership. | → templates/crypto_dyor, Cosmos, Filecoin, My web3, What mistakes I made on the crypto market in 2021-2022
 - **What mistakes I made on the crypto market in 2021-2022** | basic-note | 2022-09-01 | [basic] | Personal retrospective on 2021-2022 crypto losses: not taking profit, trusting Luna, late entries | → -
+
+## INVESTMENTS/KNOWLEDGE/INFO
+- **Bear Markets — 100 Years of History** | knowledge-note | 2026-06-20 | [knowledge, info, investments, bear-market, stocks, psychology, risk-management] | Marcin Iwuć's 100-year synthesis of bear markets — definitions, credit cycle, historical tables, three bear types, five emotional phases, indicators-as-compass, 2026 dashboard, bear plan | → Crypto Market State 2026, Fincept Terminal, templates/knowledge_note_info
 
 ## KNOWLEDGES/QUOTES
 - **By failing to prepare you are preparing to fail** | quote-note | 2022-10-31 | [quote, franklin] | Benjamin Franklin quote on the necessity of preparation to avoid failure. | → -
