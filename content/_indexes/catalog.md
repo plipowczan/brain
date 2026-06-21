@@ -1,6 +1,6 @@
 ---
-updated: 2026-06-21T15:08:32Z
-entries: 310
+updated: 2026-06-21T15:38:41Z
+entries: 315
 ---
 # Note Catalog
 
@@ -235,6 +235,7 @@ entries: 310
 
 ## CRYPTO/KNOWLEDGE/INFO
 - **Bitcoin** | knowledge-note | 2026-04-09 | [knowledge, info, crypto, bitcoin, investment] | Bitcoin — the original cryptocurrency, decentralized digital money | → What mistakes I made on the crypto market in 2021-2022, CEX, templates/knowledge_note_info
+- **Bitcoin Cyclicality** | knowledge-note | 2026-06-21 | [knowledge, info, crypto, bitcoin, investment, cycles, strategy] | The Bitcoin 4-year halving cycle — phases, historical stats, on-chain indicators, the supercycle vs cycle-is-dead debate, and a cycle investor's playbook. | → Bitcoin, Crypto Market State 2026, Bear Markets — 100 Years of History, My Crypto Strategy, What mistakes I made on the crypto market in 2021-2022, Investing Psychology, My Investment Strategy, templates/knowledge_note_info
 - **CEX** | knowledge-note | 2023-03-06 | [knowledge, info] | Overview of centralized crypto exchanges: how they work, benefits, and key risks like trust and regulation. | → templates/knowledge_note_info
 - **Crypto Market State 2026** | knowledge-note | 2026-04-09 | [knowledge, info, crypto, market] | Overview of crypto market state in 2026 — what changed since 2022 bear market | → Bitcoin, What mistakes I made on the crypto market in 2021-2022, CEX, Crypto Exchanges, Bear Markets — 100 Years of History, templates/knowledge_note_info
 
@@ -243,12 +244,17 @@ entries: 310
 - **Crypto Exchanges** | basic-note | 2022-09-11 | [basic, exchange, crypto] | Personal referral links to four crypto exchanges: Coinbase, Binance, Kanga, Crypto.com. | → -
 - **Filecoin** | basic-note | 2022-09-10 | [crypto, project, analysis, investment, filecoin] | DYOR analysis of Filecoin (FIL) — decentralized file storage blockchain, market cap ~$1.76B | → templates/crypto_dyor, Cosmos, Polygon, My web3, What mistakes I made on the crypto market in 2021-2022
 - **Influencers** | knowledge-note | 2022-09-11 | [knowledge, influencers] | Curated list of trusted English and Polish crypto YouTube channels with quality ratings. | → My web3, Bitcoin, CEX
+- **My Crypto Strategy** | compiled-note | 2026-06-21 | [crypto, strategy, bitcoin, investment, psychology] | My personal crypto playbook — BTC/ETH only, 4-year-cycle accumulation and rule-based profit-taking, built to fix my 2021–22 mistakes. | → My Investment Strategy, Bitcoin Cyclicality, What mistakes I made on the crypto market in 2021-2022, Cognitive Biases in Investing, Bear Markets — 100 Years of History, Investing Psychology, Die with Zero, Crypto Market State 2026, Bitcoin, templates/knowledge_note_info
 - **My web3** | knowledge-note | 2022-09-11 | [knowledge, exchanges, crypto, influencers] | Personal Web3 hub linking crypto exchanges, influencers, and knowledge and notes sections via Dataview. | → Crypto Exchanges, Influencers
 - **Polygon** | basic-note | 2022-09-10 | [crypto, project, analysis, investment, polygon, matic] | DYOR analysis of Polygon (MATIC): scalability Layer 2 on Ethereum, market cap, team, and Meta NFT partnership. | → templates/crypto_dyor, Cosmos, Filecoin, My web3, What mistakes I made on the crypto market in 2021-2022
 - **What mistakes I made on the crypto market in 2021-2022** | basic-note | 2022-09-01 | [basic] | Personal retrospective on 2021-2022 crypto losses: not taking profit, trusting Luna, late entries | → -
 
 ## INVESTMENTS
-- **My Investment Strategy** | compiled-note | 2026-06-21 | [investments, strategy, asset-allocation, psychology, risk-management] | My personal Investment Policy Statement — goals, target allocation, rules for buying, rebalancing, and surviving a bear, tailored to a long-horizon high-risk-tolerance accumulator. | → Investment Strategies, Asset Allocation and Diversification, Investing Psychology, Cognitive Biases in Investing, Bear Markets — 100 Years of History, Principles, What mistakes I made on the crypto market in 2021-2022, Crypto Market State 2026, templates/knowledge_note_info
+- **My Investment Strategy** | compiled-note | 2026-06-21 | [investments, strategy, asset-allocation, psychology, risk-management] | My personal Investment Policy Statement — goals, target allocation, rules for buying, rebalancing, and surviving a bear, tailored to a long-horizon high-risk-tolerance accumulator. | → Investment Strategies, Asset Allocation and Diversification, Investing Psychology, Cognitive Biases in Investing, Bear Markets — 100 Years of History, Principles, What mistakes I made on the crypto market in 2021-2022, My Crypto Strategy, Bitcoin Cyclicality, Crypto Market State 2026, templates/knowledge_note_info
+
+## INVESTMENTS/BOOKS
+- **The Intelligent Investor** | book-note | 2026-06-21 | [book, investments, value-investing, strategy, stocks] | Graham's value-investing classic: margin of safety, Mr. Market, intrinsic value, defensive vs enterprising discipline. | → My Investment Strategy, Investing Psychology, Bear Markets — 100 Years of History, Asset Allocation and Diversification, Investment Strategies, templates/book
+- **The Psychology of Money** | book-note | 2026-06-21 | [book, investments, psychology, behavioral-finance, money] | Housel argues financial outcomes are driven by behavior — humility, 'enough', staying rich, and tails — not raw intelligence. | → Cognitive Biases in Investing, Investing Psychology, What mistakes I made on the crypto market in 2021-2022, My Investment Strategy, Investment Strategies, Bear Markets — 100 Years of History, templates/book
 
 ## INVESTMENTS/KNOWLEDGE/INFO
 - **Asset Allocation and Diversification** | knowledge-note | 2026-06-21 | [knowledge, info, investments, asset-allocation, diversification, risk-management] | Mechanics of building a multi-asset portfolio — allocation, correlation, MPT, asset-class roles, glide paths, rebalancing, position sizing, cushion, model portfolios. | → Investment Strategies, Investing Psychology, Cognitive Biases in Investing, Bear Markets — 100 Years of History, Crypto Market State 2026, templates/knowledge_note_info
@@ -272,6 +278,7 @@ entries: 310
 - **Atomic habits** | book-note | 2022-09-16 | [book] | James Clear's framework for building lasting habits through small, incremental daily improvements. | → -
 - **Building a Second Brain** | book-note | 2022-09-15 | [book, notes, second-brain] | Tiago Forte's guide to building an external note system to capture and reuse ideas effectively. | → LIFE/TOOLS/Obsidian
 - **Design Your Future** | book-note | 2025-01-12 | [book, future] | Brian Tracy book note on designing your future — incomplete, notes pending | → -
+- **Die with Zero** | book-note | 2026-06-21 | [book, life, money, self-development, psychology] | Bill Perkins on spending wealth on experiences while you can — the deliberate counterweight to pure accumulation and FIRE. | → Investment Strategies, My Investment Strategy, Bucket list, Motivation system for my kids, Principles, templates/book
 - **Dopamine Detox** | book-note | 2025-08-31 | [book, productivity, self-development] | Thibaut Meurisse's method to reset dopamine response, cut overstimulation, and reclaim focused attention. | → Meurisse Thibaut, Gosia Lipowczan, LIFE/NOTES/Distractions, Habits
 - **How to take smart notes** | book-note | 2022-09-05 | [book, notes, zettelkasten, slip-box, obsidian] | Sönke Ahrens on Zettelkasten slip-box note-taking: fleeting, literature, and permanent notes to develop ideas. | → LIFE/KNOWLEDGE/INFO/Zettelkasten
 - **Learn Like a Pro** | book-note | 2025-11-02 | [book, learning] | Oakley & Schewe's science-backed learning guide: Pomodoro, focused/diffuse thinking, spaced repetition, elaboration. | → Włam się do mózgu
