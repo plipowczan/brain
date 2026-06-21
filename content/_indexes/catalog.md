@@ -1,6 +1,6 @@
 ---
-updated: 2026-06-20T00:00:00Z
-entries: 305
+updated: 2026-06-21T15:08:32Z
+entries: 310
 ---
 # Note Catalog
 
@@ -247,8 +247,15 @@ entries: 305
 - **Polygon** | basic-note | 2022-09-10 | [crypto, project, analysis, investment, polygon, matic] | DYOR analysis of Polygon (MATIC): scalability Layer 2 on Ethereum, market cap, team, and Meta NFT partnership. | → templates/crypto_dyor, Cosmos, Filecoin, My web3, What mistakes I made on the crypto market in 2021-2022
 - **What mistakes I made on the crypto market in 2021-2022** | basic-note | 2022-09-01 | [basic] | Personal retrospective on 2021-2022 crypto losses: not taking profit, trusting Luna, late entries | → -
 
+## INVESTMENTS
+- **My Investment Strategy** | compiled-note | 2026-06-21 | [investments, strategy, asset-allocation, psychology, risk-management] | My personal Investment Policy Statement — goals, target allocation, rules for buying, rebalancing, and surviving a bear, tailored to a long-horizon high-risk-tolerance accumulator. | → Investment Strategies, Asset Allocation and Diversification, Investing Psychology, Cognitive Biases in Investing, Bear Markets — 100 Years of History, Principles, What mistakes I made on the crypto market in 2021-2022, Crypto Market State 2026, templates/knowledge_note_info
+
 ## INVESTMENTS/KNOWLEDGE/INFO
-- **Bear Markets — 100 Years of History** | knowledge-note | 2026-06-20 | [knowledge, info, investments, bear-market, stocks, psychology, risk-management] | Marcin Iwuć's 100-year synthesis of bear markets — definitions, credit cycle, historical tables, three bear types, five emotional phases, indicators-as-compass, 2026 dashboard, bear plan | → Crypto Market State 2026, Fincept Terminal, templates/knowledge_note_info
+- **Asset Allocation and Diversification** | knowledge-note | 2026-06-21 | [knowledge, info, investments, asset-allocation, diversification, risk-management] | Mechanics of building a multi-asset portfolio — allocation, correlation, MPT, asset-class roles, glide paths, rebalancing, position sizing, cushion, model portfolios. | → Investment Strategies, Investing Psychology, Cognitive Biases in Investing, Bear Markets — 100 Years of History, Crypto Market State 2026, templates/knowledge_note_info
+- **Bear Markets — 100 Years of History (Marcin Iwuć)** | knowledge-note | 2026-06-20 | [knowledge, info, investments, bear-market, stocks, psychology, risk-management] | Marcin Iwuć's synthesis of 100 years of bear markets — definitions, credit cycle, historical tables, three bear types, five emotional phases, indicators as a compass, 2026 dashboard, and a bear-market plan. | → Crypto Market State 2026, Fincept Terminal, templates/knowledge_note_info
+- **Cognitive Biases in Investing** | knowledge-note | 2026-06-21 | [knowledge, info, investments, psychology, cognitive-biases, behavioral-finance] | Enumerated reference catalog of the investing biases — belief, emotional, social — each with mechanism, market cost, and countermeasure. | → Investing Psychology, Bear Markets — 100 Years of History, What mistakes I made on the crypto market in 2021-2022, Asset Allocation and Diversification, Investment Strategies, templates/knowledge_note_info
+- **Investing Psychology** | knowledge-note | 2026-06-21 | [knowledge, info, investments, psychology, behavioral-finance] | Behavioral finance for the investor's mind — prospect theory, loss aversion, the pendulum, behavior gap, and rules-based self-defense. | → Bear Markets — 100 Years of History, Cognitive Biases in Investing, What mistakes I made on the crypto market in 2021-2022, Crypto Market State 2026, Investment Strategies, Asset Allocation and Diversification, templates/knowledge_note_info
+- **Investment Strategies** | knowledge-note | 2026-06-21 | [knowledge, info, investments, strategy, asset-allocation, stocks] | A sourced map of the major investing strategies — passive, value, growth, factor, dividend, FIRE, all-weather, barbell, core-satellite — and which fit a long-horizon high-risk accumulator. | → Investing Psychology, Cognitive Biases in Investing, Bear Markets — 100 Years of History, Principles, Millionaire Fastlane, Asset Allocation and Diversification, Crypto Market State 2026, templates/knowledge_note_info
 
 ## KNOWLEDGES/QUOTES
 - **By failing to prepare you are preparing to fail** | quote-note | 2022-10-31 | [quote, franklin] | Benjamin Franklin quote on the necessity of preparation to avoid failure. | → -

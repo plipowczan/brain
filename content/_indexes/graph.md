@@ -1,7 +1,7 @@
 ---
-updated: 2026-06-20T00:00:00Z
-nodes: 305
-edges: 1692
+updated: 2026-06-21T15:08:32Z
+nodes: 310
+edges: 1728
 ---
 # Link Graph
 
@@ -212,7 +212,12 @@ CRYPTO/NOTES/Filecoin -> templates/crypto_dyor, CRYPTO/NOTES/Cosmos, CRYPTO/NOTE
 CRYPTO/NOTES/Influencers -> CRYPTO/NOTES/My web3, CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/CEX
 CRYPTO/NOTES/My web3 -> CRYPTO/NOTES/Crypto Exchanges, CRYPTO/NOTES/Influencers
 CRYPTO/NOTES/Polygon -> templates/crypto_dyor, CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/My web3, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022
+INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification -> INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, templates/knowledge_note_info
 INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History -> CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, AI/TOOLS/Fincept Terminal, templates/knowledge_note_info
+INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing -> INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, templates/knowledge_note_info
+INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology -> INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, templates/knowledge_note_info
+INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies -> INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, ABOUT/Principles, BUSINESS/BOOKS/Millionaire Fastlane, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, templates/knowledge_note_info
+INVESTMENTS/My Investment Strategy -> INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, ABOUT/Principles, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, templates/knowledge_note_info
 LIFE/BOOKS/12 Rules for Life -> LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
 LIFE/BOOKS/Building a Second Brain -> LIFE/TOOLS/Obsidian
 LIFE/BOOKS/Dopamine Detox -> Meurisse Thibaut, Gosia Lipowczan, LIFE/NOTES/Distractions, ABOUT/HABITS/Habits
@@ -302,7 +307,7 @@ ABOUT/How i read books <- LIFE/NOTES/Reading list
 ABOUT/I have a business and not business has me <- BUSINESS/BOOKS/Company of one, BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to, LIFE/NOTES/Programmer and what's next
 ABOUT/Motivation system for my kids <- LIFE/TOOLS/Revolut
 ABOUT/My career path <- BUSINESS/KNOWLEDGE/INFO/Build in Public
-ABOUT/Principles <- ABOUT/Roles/Founder, AI/TOOLS/Paperclip, BUSINESS/BOOKS/The One Thing, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
+ABOUT/Principles <- ABOUT/Roles/Founder, AI/TOOLS/Paperclip, BUSINESS/BOOKS/The One Thing, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/My Investment Strategy
 ABOUT/Roles/AutomationSpecialist <- ABOUT/Roles/Roles
 ABOUT/Roles/Developer <- ABOUT/Roles/Roles
 ABOUT/Roles/Father <- ABOUT/Motivation system for my kids, ABOUT/Roles/Roles
@@ -399,7 +404,7 @@ AI/TOOLS/Voicebox <- AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish), AI/TOOLS
 AI/TOOLS/VoyageAI <- PROJECTS/TTTR/Tech To The Rescue
 BUSINESS/BOOKS/Amp It Up <- BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to
 BUSINESS/BOOKS/Company of one <- ABOUT/I have a business and not business has me, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
-BUSINESS/BOOKS/Millionaire Fastlane <- ABOUT/Principles, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, LIFE/NOTES/Reading list
+BUSINESS/BOOKS/Millionaire Fastlane <- ABOUT/Principles, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, LIFE/NOTES/Reading list
 BUSINESS/BOOKS/The Inevitable <- LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly
 BUSINESS/BOOKS/The One Thing <- LIFE/NOTES/Reading list
 BUSINESS/KNOWLEDGE/HOWTO/Contact a client <- BUSINESS/KNOWLEDGE/HOWTO/Test email rating
@@ -475,15 +480,19 @@ CODE/TOOLS/Visual Studio <- CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet
 CODE/TOOLS/Visual Studio Code <- ABOUT/What tools I use, AI/TOOLS/Cursor, CODE/TOOLS/RunJS
 CRYPTO/KNOWLEDGE/INFO/Bitcoin <- CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Influencers
 CRYPTO/KNOWLEDGE/INFO/CEX <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Influencers
-CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026 <- INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History
+CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026 <- INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/My Investment Strategy
 CRYPTO/NOTES/Cosmos <- CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/Polygon
 CRYPTO/NOTES/Crypto Exchanges <- CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/My web3
 CRYPTO/NOTES/Filecoin <- CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Polygon
 CRYPTO/NOTES/Influencers <- CRYPTO/NOTES/My web3
 CRYPTO/NOTES/My web3 <- CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/Influencers, CRYPTO/NOTES/Polygon
 CRYPTO/NOTES/Polygon <- CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin
-CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022 <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/Polygon
-INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History <- CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026
+CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022 <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Cosmos, CRYPTO/NOTES/Filecoin, CRYPTO/NOTES/Polygon, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/My Investment Strategy
+INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification <- INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/My Investment Strategy
+INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History <- CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/My Investment Strategy
+INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing <- INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/My Investment Strategy
+INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology <- INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/My Investment Strategy
+INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies <- INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/My Investment Strategy
 LIFE/BOOKS/12 Rules for Life <- LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
 LIFE/BOOKS/Atomic habits <- ABOUT/HABITS/Habits, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Reading list
 LIFE/BOOKS/Building a Second Brain <- ABOUT/Building a Second Brain, LIFE/NOTES/Reading list
