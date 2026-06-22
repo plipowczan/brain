@@ -15,6 +15,7 @@ Trust that what happens to us is good. Don't judge. Just trust that it is good.
 
 ## 🔗 Links 
 [[LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey|The Tale of the Old Man and His Son's Journey]]
+[[Stoicism]] — this "trust without judgment" is the Stoic dichotomy of control + *amor fati*.
 
 ## 🧩Features:
 #todo/replace

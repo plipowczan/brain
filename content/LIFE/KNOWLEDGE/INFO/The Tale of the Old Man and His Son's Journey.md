@@ -27,5 +27,7 @@ The old man listened to all these comments but repeated each time, "What happene
 ## 📖Further reading/watching
 [Accept What Is - Don't Judge as Good or Bad - zen habits zen habits](https://zenhabits.net/accept-what-is-dont-judge-as-good-or-bad/)
 
+This non-judgment is the core Stoic move — see [[Stoicism]] ("Men are disturbed not by things, but by the views they take of them").
+
 ---
 Template: [[templates/knowledge_note_info]]

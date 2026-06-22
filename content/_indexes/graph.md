@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-21T15:38:41Z
-nodes: 315
-edges: 1767
+nodes: 320
+edges: 1798
 ---
 # Link Graph
 
@@ -246,9 +246,13 @@ LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System -> ATTACHMENTS/Pasted image 20220
 LIFE/KNOWLEDGE/INFO/Digital Garden -> LIFE/KNOWLEDGE/INFO/Obsidian, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/DISC -> ABOUT/CLIFTONSTRENGTHS, LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life, ABOUT/DISC
 LIFE/KNOWLEDGE/INFO/Eisenhower Matrix -> templates/eisenhower_matrix, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance -> LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Gratitude -> LIFE/KNOWLEDGE/INFO/5 Minute Journal, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Hashimoto and Diet -> LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Intermittent Fasting -> LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life -> LIFE/BOOKS/12 Rules for Life, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Mind map -> templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Mindfulness Meditation -> LIFE/KNOWLEDGE/INFO/Stoicism, LIFE/KNOWLEDGE/INFO/5 Minute Journal, LIFE/KNOWLEDGE/INFO/Gratitude, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers -> LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/KNOWLEDGE/HOWTO/When to exercise, ABOUT/HABITS/Habits, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Obsidian -> LIFE/KNOWLEDGE/INFO/Digital Garden, PROJECTS/BRAIN/Brain, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, templates/basic_notes, templates/daily_journal, templates/book, templates/knowledge_note_info, templates/learning_notes, templates/plane_trip_planning
 LIFE/KNOWLEDGE/INFO/Pareto principle -> templates/knowledge_note_info
@@ -256,8 +260,9 @@ LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility -> ABOUT/HAB
 LIFE/KNOWLEDGE/INFO/Pomodoro -> templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Quartz -> LIFE/KNOWLEDGE/INFO/Digital Garden
 LIFE/KNOWLEDGE/INFO/Second Brain Design -> LIFE/KNOWLEDGE/INFO/Obsidian, AI/TOOLS/Claude Code, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/Context Engineering, LIFE/KNOWLEDGE/INFO/Digital Garden, templates/knowledge_note_info
-LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey -> templates/knowledge_note_info
-LIFE/KNOWLEDGE/INFO/Trust -> LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Stoicism -> LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/Trust, LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey, LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life, LIFE/KNOWLEDGE/INFO/5 Minute Journal, LIFE/BOOKS/Die with Zero, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey -> LIFE/KNOWLEDGE/INFO/Stoicism, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Trust -> LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey, LIFE/KNOWLEDGE/INFO/Stoicism, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Zettelkasten -> LIFE/BOOKS/How to take smart notes
 LIFE/NOTES/Distractions -> LIFE/BOOKS/Dopamine Detox, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/KNOWLEDGE/INFO/Pomodoro
 LIFE/NOTES/Programmer and what's next -> LIFE/KNOWLEDGE/INFO/Pareto principle, ABOUT/I have a business and not business has me
@@ -505,7 +510,7 @@ INVESTMENTS/My Investment Strategy <- CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality,
 LIFE/BOOKS/12 Rules for Life <- LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
 LIFE/BOOKS/Atomic habits <- ABOUT/HABITS/Habits, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Reading list
 LIFE/BOOKS/Building a Second Brain <- ABOUT/Building a Second Brain, LIFE/NOTES/Reading list
-LIFE/BOOKS/Die with Zero <- CRYPTO/NOTES/My Crypto Strategy
+LIFE/BOOKS/Die with Zero <- CRYPTO/NOTES/My Crypto Strategy, LIFE/KNOWLEDGE/INFO/Stoicism
 LIFE/BOOKS/Dopamine Detox <- LIFE/BOOKS/The Mental Toughness Handbook, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/NOTES/Distractions
 LIFE/BOOKS/How to take smart notes <- ABOUT/Building a Second Brain, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/NOTES/Reading list, PROJECTS/BRAIN/Brain
 LIFE/BOOKS/Learn Like a Pro <- LIFE/BOOKS/Włam się do mózgu
@@ -516,26 +521,32 @@ LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation <- BUSINESS/KNOWLEDGE/H
 LIFE/KNOWLEDGE/HOWTO/How to create mind map <- BUSINESS/TOOLS/Miro, LIFE/TOOLS/Obsidian
 LIFE/KNOWLEDGE/HOWTO/How to learn <- LIFE/BOOKS/Włam się do mózgu
 LIFE/KNOWLEDGE/HOWTO/When to exercise <- LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers
-LIFE/KNOWLEDGE/INFO/5 Minute Journal <- ABOUT/HABITS/Habits, ABOUT/I have a business and not business has me, LIFE/KNOWLEDGE/INFO/Gratitude
+LIFE/KNOWLEDGE/INFO/5 Minute Journal <- ABOUT/HABITS/Habits, ABOUT/I have a business and not business has me, LIFE/KNOWLEDGE/INFO/Gratitude, LIFE/KNOWLEDGE/INFO/Stoicism, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation
 LIFE/KNOWLEDGE/INFO/5 second rule <- LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Distractions
 LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly <- BUSINESS/BOOKS/The Inevitable
-LIFE/KNOWLEDGE/INFO/Blue light <- LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/TOOLS/Kindle
-LIFE/KNOWLEDGE/INFO/Cold shower <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
+LIFE/KNOWLEDGE/INFO/Blue light <- LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/TOOLS/Kindle, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Intermittent Fasting
+LIFE/KNOWLEDGE/INFO/Cold shower <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation
 LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System <- LIFE/BOOKS/Włam się do mózgu, LIFE/TOOLS/OneNote
 LIFE/KNOWLEDGE/INFO/Digital Garden <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Quartz, LIFE/KNOWLEDGE/INFO/Second Brain Design, LIFE/TOOLS/Obsidian, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/DISC <- ABOUT/DISC
 LIFE/KNOWLEDGE/INFO/Eisenhower Matrix <- BUSINESS/BOOKS/The One Thing, LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation
-LIFE/KNOWLEDGE/INFO/Gratitude <- LIFE/KNOWLEDGE/INFO/5 Minute Journal
-LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life <- LIFE/BOOKS/12 Rules for Life, LIFE/KNOWLEDGE/INFO/DISC
+LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance <- LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Intermittent Fasting
+LIFE/KNOWLEDGE/INFO/Gratitude <- LIFE/KNOWLEDGE/INFO/5 Minute Journal, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation
+LIFE/KNOWLEDGE/INFO/Hashimoto and Diet <- LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Intermittent Fasting
+LIFE/KNOWLEDGE/INFO/Intermittent Fasting <- LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance
+LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life <- LIFE/BOOKS/12 Rules for Life, LIFE/KNOWLEDGE/INFO/DISC, LIFE/KNOWLEDGE/INFO/Stoicism
 LIFE/KNOWLEDGE/INFO/Mind map <- BUSINESS/TOOLS/Miro, LIFE/KNOWLEDGE/HOWTO/How to create mind map, LIFE/KNOWLEDGE/HOWTO/How to learn, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System
-LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers <- LIFE/KNOWLEDGE/HOWTO/When to exercise, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
+LIFE/KNOWLEDGE/INFO/Mindfulness Meditation <- LIFE/KNOWLEDGE/INFO/Stoicism
+LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers <- LIFE/KNOWLEDGE/HOWTO/When to exercise, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation
 LIFE/KNOWLEDGE/INFO/Obsidian <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), BUSINESS/TOOLS/Excalidraw, CODE/TOOLS/Excalidraw, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Second Brain Design, LIFE/TOOLS/Obsidian, LIFE/TOOLS/OneNote, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/Pareto principle <- LIFE/NOTES/Programmer and what's next
 LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/HOWTO/When to exercise, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers
 LIFE/KNOWLEDGE/INFO/Pomodoro <- LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/NOTES/Distractions, LIFE/TOOLS/Microsoft To Do, LIFE/TOOLS/TextExpander
 LIFE/KNOWLEDGE/INFO/Quartz <- CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/Second Brain Design <- AI/KNOWLEDGE/INFO/Loop Engineering, AI/TOOLS/Open Notebook
-LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey <- LIFE/KNOWLEDGE/INFO/Trust
+LIFE/KNOWLEDGE/INFO/Stoicism <- LIFE/KNOWLEDGE/INFO/Trust, LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation
+LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey <- LIFE/KNOWLEDGE/INFO/Trust, LIFE/KNOWLEDGE/INFO/Stoicism
+LIFE/KNOWLEDGE/INFO/Trust <- LIFE/KNOWLEDGE/INFO/Stoicism
 LIFE/KNOWLEDGE/INFO/Zettelkasten <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, LIFE/BOOKS/How to take smart notes, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System, PROJECTS/BRAIN/Brain
 LIFE/NOTES/Distractions <- LIFE/BOOKS/Dopamine Detox
 LIFE/NOTES/Reading list <- ABOUT/I have a business and not business has me
