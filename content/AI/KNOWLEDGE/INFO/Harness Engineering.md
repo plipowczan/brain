@@ -15,6 +15,9 @@ summary: "Configuring coding agent harness (CLAUDE.md, MCP, skills, sub-agents, 
 ## 🗒️ Description
 Harness engineering to praktyka konfigurowania coding agenta — jego CLAUDE.md/AGENTS.md, MCP servers, skills, sub-agents i hooks — żeby maksymalizować jakość output i success rate. Termin ukuty przez [Viv Trivedy](https://www.vtrivedy.com/posts/claude-code-sdk-haas-harness-as-a-service). Jest to podzbiór [context engineering](https://github.com/humanlayer/12-factor-agents) (termin Dexa z HumanLayer / 12-factor agents).
 
+> [!note] Konflikt atrybucji
+> [[Harness Engineering (Ryan Lopopolo)]] — Ryan Lopopolo (OpenAI, Codex) twierdzi w swoim talku na AI Native DevCon, że to **on** ukuł termin "harness engineering". Dwie równoległe historie pochodzenia tej samej idei.
+
 ```
 coding agent = AI model(s) + harness
 ```
@@ -27,6 +30,7 @@ Kluczowy insight: większość failures agentów to **nie problem modelu, lecz k
 - [[Context Engineering]] — szersza dyscyplina; harness to praktyczna implementacja
 - [[LLM Knowledge Bases]] — LLM-maintained wiki pattern, pokrewna filozofia
 - [[Loop Engineering]] — self-prompting loops folded into harness engineering
+- [[Harness Engineering in Practice]] — HOWTO: stosowanie tych zasad w moich projektach (Brain, Qamera, Jakub Głąb, TTTR)
 
 ## 🧩 Features:
 

@@ -28,3 +28,5 @@ See also: [[LLM Knowledge Bases]] — methodology of AI-maintained knowledge bas
 ## 🔗 Links
 - [[Building a Second Brain]]
 - [[How to take smart notes]]
+- [[Building an AI Second Brain]] — step-by-step build of this exact pattern (Claude + Obsidian)
+- [[OpenKB]] — open-source CLI that automates the compile-to-wiki loop

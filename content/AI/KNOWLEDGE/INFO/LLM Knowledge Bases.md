@@ -31,6 +31,8 @@ User nigdy (lub rzadko) pisze wiki sam. LLM pisze i utrzymuje wszystko. User odp
 - [[Zettelkasten]] — klasyczne podejście do linked notes
 - [[Digital Garden]] — publikowanie wiedzy online
 - [[Harness Engineering]] — konfiguracja agentów AI do efektywnej pracy z codebase i wiki
+- [[OpenKB]] — gotowe CLI implementujące ten wzorzec (vectorless PageIndex, Skill Factory)
+- [[Building an AI Second Brain]] — krok-po-kroku build tego wzorca na Claude + Obsidian
 
 ## 🧩 Features:
 

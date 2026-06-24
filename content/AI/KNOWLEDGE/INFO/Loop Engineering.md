@@ -31,7 +31,7 @@ Loop engineering = building a system around three Claude Code primitives so you 
 | Primitive | What it does |
 |-----------|--------------|
 | `/loop` | Run a prompt on an interval. *"Every 5 min, check for new GitHub issues and handle them."* Claude wakes itself, polls an external system (e.g. GitHub), acts autonomously while the terminal stays up. |
-| `/goal` | Set done-criteria, force the agent to work until met. Like the viral **Ralph loops**. (Also in Codex.) |
+| `/goal` | Set done-criteria, force the agent to work until met. Like the viral **Ralph loops** — productized as `ralph` in [[Santander AI Open Source]] (fresh session each iteration). (Also in Codex.) |
 | `/routines` | Scheduled jobs. *"Every hour, read the spec doc and handle the next task."* |
 
 The pattern: one **orchestrator** agent you talk to with minimal prompting → it figures out how to set up the loop and the **workers**. In Claude Code you just say *"use the loop skill"* — it loads, writes its own `/loop work through plan.md one task at a time` prompt, and knocks tasks out one per cycle (do first unchecked task → validate → schedule wake-up → repeat). You never write the loop prompt yourself.

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["project", "ai", "agents", "architecture"]
 type: basic-note
-agent-reviewed: 2026-05-16
+agent-reviewed: 2026-06-24
 agent-created: true
 summary: "Multi-agent architecture for two companies — shared skills, separate contexts"
 ---
@@ -75,7 +75,16 @@ A project to build and maintain replicable AI agent environments across two comp
 - **CI/CD for skills** — weryfikacja jakości skills jest manualna. Brak automatycznego pipeline testującego czy skill nadal działa po zmianie
 - **Sandbox** — potencjał na autonomiczne zadania nocne (analizy, raporty), ale model bezpieczeństwa wymaga dopracowania przed real data
 
+## 🛠️ Harness engineering w praktyce
+Ta architektura **to** harness engineering — konfigurowanie otoczenia agenta zamiast pisania kodu ręcznie ([[Harness Engineering]]). Warstwa Skills + Context + Tools to dokładnie ten "harness". Co dołożyć wg playbooka [[Harness Engineering in Practice]] i talku [[Harness Engineering (Ryan Lopopolo)]]:
+
+- **Shift-right ladder** — łapać misalignment najtaniej: `przepromptuj → zapisz regułę → review-agent na każdy diff → statyczny lint/test`. Przesuwaj w lewo dopiero gdy błąd wraca uparcie.
+- **Review-personas zamiast rule-dumpu** — bulleted guardraile per kategoria (CFO, Legal, Product), pageowane just-in-time. Spójne z zasadą #5 *Progressive disclosure* powyżej — nie zapychaj jednego pliku.
+- **Pętla samodoskonalenia** — każdy interrupt / failed build / błędna odpowiedź agenta = sygnał brakującego kontekstu; destyluj je w nowe guardraile (patrz [[Self-Improving Company]], [[Loop Engineering]]). Bezpośrednio adresuje lukę **"CI/CD for skills"** z sekcji *What needs work*.
+- **Statyczne guardraile na diff** — domyka lukę manualnej weryfikacji skills; review-agent + lint zamiast ręcznego sprawdzania, czy skill nadal działa po zmianie.
+
 ## 🔗 Links
+- [[Harness Engineering]] · [[Harness Engineering (Ryan Lopopolo)]] · [[Harness Engineering in Practice]] — dyscyplina i playbook stojące za tą architekturą
 - [[Agentic AI Repos]] — implementation hub: 3 actual repos (system + private + skills submodules)
 - [[agentic-ai-system]] · [[agentic-ai-private]] · [[Agentic Skills Submodules]]
 - [[Agentic Coding]]
