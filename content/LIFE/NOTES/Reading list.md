@@ -15,6 +15,7 @@ summary: "Personal reading list of books yet to read, with links to Obsidian not
 - [ ] [[BUSINESS/BOOKS/The One Thing]]
 - [ ] [[LIFE/BOOKS/Atomic habits]]
 - [ ] [[BUSINESS/BOOKS/Millionaire Fastlane]]
+- [ ] [[LIFE/BOOKS/Design Your Future]] - Brian Tracy
 
 [[ABOUT/How i read books]]
 

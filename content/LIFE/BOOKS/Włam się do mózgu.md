@@ -6,6 +6,7 @@ openToc: true
 tags: ["book", "learning"]
 type: book-note
 summary: "Radek Kotarski's Polish book on fast and efficient learning techniques (stub, notes pending)."
+agent-reviewed: 2026-06-24
 ---
 
 # Włam się do mózgu
@@ -17,7 +18,7 @@ Tags:
 ---
 
 # 🚀 The Book in 3 Sentences
-Book is about different techniques how to learn fast and efficient
+A popular-science guide to evidence-based learning techniques — Kotarski walks through methods like spaced repetition, active recall, mind-mapping, and mnemonics, debunking myths about "learning styles" along the way. The core message: how you study matters far more than how long you study. Covers much of the same science as [[Learn Like a Pro]], in Polish.
 # 🎨 Impressions
 
 ## How I Discovered It

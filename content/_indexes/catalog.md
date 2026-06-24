@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-24T19:30:00Z
+updated: 2026-06-24T20:15:00Z
 entries: 322
 ---
 # Note Catalog
@@ -136,7 +136,7 @@ entries: 322
 - **Amp It Up** | book-note | 2025-04-06 | [book, business] | Frank Slootman's leadership playbook: raise standards, align people, sharpen focus, and pick up pace. | → -
 - **Company of one** | book-note | 2022-09-07 | [book, business, entrepreneurship] | Paul Jarvis argues that questioning growth and staying small can lead to a more sustainable, fulfilling business. | → I have a business and not business has me, PLSoft
 - **Millionaire Fastlane** | book-note | 2022-09-18 | [book, millionaire] | Book note for Millionaire Fastlane — incomplete, pending full review and notes | → -
-- **The Inevitable** | book-note | 2023-01-08 | [book, inevitable, technology, future] | Kevin Kelly's 12 technological megatrends shaping economics, social relations, and ownership culture. | → 6 life tips from Kevin Kelly, AI Trends 2026, Software 3.0
+- **The Inevitable** | book-note | 2023-01-08 | [book, inevitable, technology, future] | Kevin Kelly's 12 technological megatrends shaping economics, social relations, and ownership culture. | → 6 life tips from Kevin Kelly, AI Trends 2026, Software 3.0, Sapiens. A Brief History of Humankind
 - **The One Thing** | book-note | 2022-09-16 | [book] | Gary Keller's method: identify one goal, break it into daily steps, use counterbalance not work-life balance. | → Eisenhower Matrix, Atomic habits, Principles
 
 ## BUSINESS/KNOWLEDGE/HOWTO
@@ -286,13 +286,13 @@ entries: 322
 - **12 Rules for Life** | book-note | 2022-10-09 | [book, self-development, psychology] | Jordan Peterson's guide to meaning and order via responsibility, clinical psychology, and philosophy. | → Jordan Petersons 12 rules for life
 - **Atomic habits** | book-note | 2022-09-16 | [book] | James Clear's framework for building lasting habits through small, incremental daily improvements. | → -
 - **Building a Second Brain** | book-note | 2022-09-15 | [book, notes, second-brain] | Tiago Forte's guide to building an external note system to capture and reuse ideas effectively. | → LIFE/TOOLS/Obsidian
-- **Design Your Future** | book-note | 2025-01-12 | [book, future] | Brian Tracy book note on designing your future — incomplete, notes pending | → -
+- **Design Your Future** | book-note | 2025-01-12 | [book, future] | Brian Tracy book note on designing your future — incomplete, notes pending | → The One Thing, Die with Zero, Principles, Reading list
 - **Die with Zero** | book-note | 2026-06-21 | [book, life, money, self-development, psychology] | Bill Perkins on spending wealth on experiences while you can — the deliberate counterweight to pure accumulation and FIRE. | → Investment Strategies, My Investment Strategy, Bucket list, Motivation system for my kids, Principles, templates/book
 - **Dopamine Detox** | book-note | 2025-08-31 | [book, productivity, self-development] | Thibaut Meurisse's method to reset dopamine response, cut overstimulation, and reclaim focused attention. | → Meurisse Thibaut, Gosia Lipowczan, LIFE/NOTES/Distractions, Habits
 - **How to take smart notes** | book-note | 2022-09-05 | [book, notes, zettelkasten, slip-box, obsidian] | Sönke Ahrens on Zettelkasten slip-box note-taking: fleeting, literature, and permanent notes to develop ideas. | → LIFE/KNOWLEDGE/INFO/Zettelkasten
 - **Learn Like a Pro** | book-note | 2025-11-02 | [book, learning] | Oakley & Schewe's science-backed learning guide: Pomodoro, focused/diffuse thinking, spaced repetition, elaboration. | → Włam się do mózgu
 - **Miracle morning** | book-note | 2022-08-21 | [book, morning routine, waking up early] | Hal Elrod's SAVERS morning routine framework and 3 steps to rise above mediocrity | → ABOUT/HABITS/Habits
-- **Sapiens. A Brief History of Humankind** | book-note | 2022-09-18 | [book, sapiens, religion] | Yuval Harari's controversial history of humanity prompting personal reflection on faith and belief. | → -
+- **Sapiens. A Brief History of Humankind** | book-note | 2022-09-18 | [book, sapiens, religion] | Yuval Harari's controversial history of humanity prompting personal reflection on faith and belief. | → The Inevitable, How i read books
 - **The Mental Toughness Handbook** | book-note | 2025-09-14 | [book] | Damon Zahariades on building mental toughness: 7 habits, resilience vs toughness, and silencing the inner critic. | → Damon Zahariades, Atomic habits, 5 second rule, Dopamine Detox
 - **Włam się do mózgu** | book-note | 2022-09-13 | [book, learning] | Radek Kotarski's Polish book on fast and efficient learning techniques (stub, notes pending). | → Learn Like a Pro, Cornel Notes Taking System, How to learn
 
@@ -336,7 +336,7 @@ entries: 322
 ## LIFE/NOTES
 - **Distractions** | basic-note | 2025-08-31 | [basic] | Can Do / Can't Do distraction list from Dopamine Detox: allowed alternatives vs. banned dopamine triggers. | → Dopamine Detox, 5 second rule, Pomodoro
 - **Programmer and what's next** | basic-note | 2022-09-18 | [basic, programming] | Personal reflections on programming career: freedom, sharing knowledge, picking opportunities, and team building. | → LIFE/KNOWLEDGE/INFO/Pareto principle, ABOUT/I have a business and not business has me
-- **Reading list** | basic-note | 2022-08-28 | [reading, books, list] | Personal reading list of books yet to read, with links to Obsidian notes and external sources. | → LIFE/BOOKS/How to take smart notes, LIFE/BOOKS/Building a Second Brain, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/Atomic habits, BUSINESS/BOOKS/Millionaire Fastlane, ABOUT/How i read books
+- **Reading list** | basic-note | 2022-08-28 | [reading, books, list] | Personal reading list of books yet to read, with links to Obsidian notes and external sources. | → LIFE/BOOKS/How to take smart notes, LIFE/BOOKS/Building a Second Brain, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/Atomic habits, BUSINESS/BOOKS/Millionaire Fastlane, LIFE/BOOKS/Design Your Future, ABOUT/How i read books
 
 ## LIFE/TOOLS
 - **Authenticator** | tool | 2022-09-06 | [tool, security, 2fa] | Microsoft Authenticator for TOTP-based two-factor authentication, used alongside 1Password | → 1Password, templates/tool

@@ -38,3 +38,4 @@ How my life / behavior / thoughts / ideas have changed as a result of reading th
 - [[6 life tips from Kevin Kelly]]
 - [[AI Trends 2026]]
 - [[Software 3.0]]
+- [[Sapiens. A Brief History of Humankind]] — long-view of humanity's past, as this is of its future

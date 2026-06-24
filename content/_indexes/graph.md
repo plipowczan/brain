@@ -1,7 +1,7 @@
 ---
-updated: 2026-06-24T19:30:00Z
+updated: 2026-06-24T20:15:00Z
 nodes: 327
-edges: 1882
+edges: 1890
 ---
 # Link Graph
 
@@ -120,7 +120,7 @@ AI/TOOLS/Video Use -> AI/TOOLS/Browser Use, AI/TOOLS/HyperFrames, AI/TOOLS/Brows
 AI/TOOLS/Voicebox -> AI/TOOLS/Claude Code, Pulse, AI/TOOLS/Personal AI Infrastructure, AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish), AI/TOOLS/Hermes Agent, AI/TOOLS/Paperclip, templates/tool
 AI/TOOLS/VoyageAI -> PROJECTS/TTTR/Tech To The Rescue, AI/TOOLS/OpenAI, AI/TOOLS/LightRAG, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, templates/tool
 BUSINESS/BOOKS/Company of one -> ABOUT/I have a business and not business has me, PROJECTS/PLSOFT/PLSoft
-BUSINESS/BOOKS/The Inevitable -> LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Software 3.0
+BUSINESS/BOOKS/The Inevitable -> LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Software 3.0, LIFE/BOOKS/Sapiens. A Brief History of Humankind
 BUSINESS/BOOKS/The One Thing -> LIFE/KNOWLEDGE/INFO/Eisenhower Matrix, LIFE/BOOKS/Atomic habits, ABOUT/Principles
 BUSINESS/KNOWLEDGE/HOWTO/Contact a client -> BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Build in Public, templates/knowledge_note_how_to
 BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field' -> BUSINESS/TOOLS/Make, ATTACHMENTS/Pasted image 20220905171437.png, convert multiselect into link to another.json, ATTACHMENTS/Pasted image 20220905171755.png
@@ -231,11 +231,13 @@ INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies -> INVESTMENTS/KNOWLEDGE/INFO/I
 INVESTMENTS/My Investment Strategy -> INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, ABOUT/Principles, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/NOTES/My Crypto Strategy, CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, templates/knowledge_note_info
 LIFE/BOOKS/12 Rules for Life -> LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
 LIFE/BOOKS/Building a Second Brain -> LIFE/TOOLS/Obsidian
+LIFE/BOOKS/Design Your Future -> BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/Die with Zero, ABOUT/Principles, LIFE/NOTES/Reading list
 LIFE/BOOKS/Die with Zero -> INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/My Investment Strategy, ABOUT/Bucket list, ABOUT/Motivation system for my kids, ABOUT/Principles, templates/book
 LIFE/BOOKS/Dopamine Detox -> Meurisse Thibaut, Gosia Lipowczan, LIFE/NOTES/Distractions, ABOUT/HABITS/Habits
 LIFE/BOOKS/How to take smart notes -> LIFE/KNOWLEDGE/INFO/Zettelkasten
 LIFE/BOOKS/Learn Like a Pro -> LIFE/BOOKS/Włam się do mózgu
 LIFE/BOOKS/Miracle morning -> ABOUT/HABITS/Habits
+LIFE/BOOKS/Sapiens. A Brief History of Humankind -> BUSINESS/BOOKS/The Inevitable, ABOUT/How i read books
 LIFE/BOOKS/The Mental Toughness Handbook -> Damon Zahariades, LIFE/BOOKS/Atomic habits, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/BOOKS/Dopamine Detox
 LIFE/BOOKS/Włam się do mózgu -> LIFE/BOOKS/Learn Like a Pro, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System, LIFE/KNOWLEDGE/HOWTO/How to learn
 LIFE/KNOWLEDGE/HOWTO/How to clean desktop on Windows -> ATTACHMENTS/Pasted image 20221107103611.png, ATTACHMENTS/Pasted image 20221107103703.png, ATTACHMENTS/Pasted image 20221107104314.png, ATTACHMENTS/Pasted image 20221107104405.png, templates/knowledge_note_how_to
@@ -273,7 +275,7 @@ LIFE/KNOWLEDGE/INFO/Trust -> LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His
 LIFE/KNOWLEDGE/INFO/Zettelkasten -> LIFE/BOOKS/How to take smart notes
 LIFE/NOTES/Distractions -> LIFE/BOOKS/Dopamine Detox, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/KNOWLEDGE/INFO/Pomodoro
 LIFE/NOTES/Programmer and what's next -> LIFE/KNOWLEDGE/INFO/Pareto principle, ABOUT/I have a business and not business has me
-LIFE/NOTES/Reading list -> LIFE/BOOKS/How to take smart notes, LIFE/BOOKS/Building a Second Brain, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/Atomic habits, BUSINESS/BOOKS/Millionaire Fastlane, ABOUT/How i read books
+LIFE/NOTES/Reading list -> LIFE/BOOKS/How to take smart notes, LIFE/BOOKS/Building a Second Brain, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/Atomic habits, BUSINESS/BOOKS/Millionaire Fastlane, LIFE/BOOKS/Design Your Future, ABOUT/How i read books
 LIFE/TOOLS/Authenticator -> BUSINESS/TOOLS/1Password, templates/tool
 LIFE/TOOLS/Edge -> BUSINESS/TOOLS/1Password, templates/tool
 LIFE/TOOLS/Kindle -> LIFE/KNOWLEDGE/INFO/Blue light
@@ -321,11 +323,11 @@ ABOUT/Building a Second Brain <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS
 ABOUT/CLIFTONSTRENGTHS <- ABOUT/About, LIFE/KNOWLEDGE/INFO/DISC
 ABOUT/DISC <- ABOUT/About, LIFE/KNOWLEDGE/INFO/DISC
 ABOUT/HABITS/Habits <- LIFE/BOOKS/Dopamine Detox, LIFE/BOOKS/Miracle morning, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
-ABOUT/How i read books <- LIFE/NOTES/Reading list
+ABOUT/How i read books <- LIFE/NOTES/Reading list, LIFE/BOOKS/Sapiens. A Brief History of Humankind
 ABOUT/I have a business and not business has me <- BUSINESS/BOOKS/Company of one, BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to, LIFE/NOTES/Programmer and what's next
 ABOUT/Motivation system for my kids <- LIFE/BOOKS/Die with Zero, LIFE/TOOLS/Revolut
 ABOUT/My career path <- BUSINESS/KNOWLEDGE/INFO/Build in Public
-ABOUT/Principles <- ABOUT/Roles/Founder, AI/TOOLS/Paperclip, BUSINESS/BOOKS/The One Thing, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/My Investment Strategy, LIFE/BOOKS/Die with Zero
+ABOUT/Principles <- ABOUT/Roles/Founder, AI/TOOLS/Paperclip, BUSINESS/BOOKS/The One Thing, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/My Investment Strategy, LIFE/BOOKS/Die with Zero, LIFE/BOOKS/Design Your Future
 ABOUT/Roles/AutomationSpecialist <- ABOUT/Roles/Roles
 ABOUT/Roles/Developer <- ABOUT/Roles/Roles
 ABOUT/Roles/Father <- ABOUT/Motivation system for my kids, ABOUT/Roles/Roles
@@ -428,8 +430,8 @@ AI/TOOLS/VoyageAI <- PROJECTS/TTTR/Tech To The Rescue
 BUSINESS/BOOKS/Amp It Up <- BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to
 BUSINESS/BOOKS/Company of one <- ABOUT/I have a business and not business has me, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
 BUSINESS/BOOKS/Millionaire Fastlane <- ABOUT/Principles, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, LIFE/NOTES/Reading list
-BUSINESS/BOOKS/The Inevitable <- LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly
-BUSINESS/BOOKS/The One Thing <- LIFE/NOTES/Reading list
+BUSINESS/BOOKS/The Inevitable <- LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly, LIFE/BOOKS/Sapiens. A Brief History of Humankind
+BUSINESS/BOOKS/The One Thing <- LIFE/NOTES/Reading list, LIFE/BOOKS/Design Your Future
 BUSINESS/KNOWLEDGE/HOWTO/Contact a client <- BUSINESS/KNOWLEDGE/HOWTO/Test email rating
 BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field' <- BUSINESS/KNOWLEDGE/HOWTO/How to create an app in Make
 BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension <- BUSINESS/KNOWLEDGE/HOWTO/Test email rating
@@ -523,11 +525,13 @@ INVESTMENTS/My Investment Strategy <- CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality,
 LIFE/BOOKS/12 Rules for Life <- LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
 LIFE/BOOKS/Atomic habits <- ABOUT/HABITS/Habits, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Reading list
 LIFE/BOOKS/Building a Second Brain <- ABOUT/Building a Second Brain, LIFE/NOTES/Reading list
-LIFE/BOOKS/Die with Zero <- CRYPTO/NOTES/My Crypto Strategy, LIFE/KNOWLEDGE/INFO/Stoicism
+LIFE/BOOKS/Design Your Future <- LIFE/NOTES/Reading list
+LIFE/BOOKS/Die with Zero <- CRYPTO/NOTES/My Crypto Strategy, LIFE/KNOWLEDGE/INFO/Stoicism, LIFE/BOOKS/Design Your Future
 LIFE/BOOKS/Dopamine Detox <- LIFE/BOOKS/The Mental Toughness Handbook, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/NOTES/Distractions
 LIFE/BOOKS/How to take smart notes <- ABOUT/Building a Second Brain, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/NOTES/Reading list, PROJECTS/BRAIN/Brain
 LIFE/BOOKS/Learn Like a Pro <- LIFE/BOOKS/Włam się do mózgu
 LIFE/BOOKS/Miracle morning <- LIFE/KNOWLEDGE/INFO/5 Minute Journal
+LIFE/BOOKS/Sapiens. A Brief History of Humankind <- BUSINESS/BOOKS/The Inevitable
 LIFE/BOOKS/The Mental Toughness Handbook <- LIFE/KNOWLEDGE/INFO/5 second rule
 LIFE/BOOKS/Włam się do mózgu <- LIFE/BOOKS/Learn Like a Pro, LIFE/KNOWLEDGE/HOWTO/How to learn, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System
 LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation <- BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to
@@ -562,7 +566,7 @@ LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey <- LIFE/KNOWLE
 LIFE/KNOWLEDGE/INFO/Trust <- LIFE/KNOWLEDGE/INFO/Stoicism
 LIFE/KNOWLEDGE/INFO/Zettelkasten <- AI/KNOWLEDGE/INFO/LLM Knowledge Bases, LIFE/BOOKS/How to take smart notes, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System, PROJECTS/BRAIN/Brain
 LIFE/NOTES/Distractions <- LIFE/BOOKS/Dopamine Detox
-LIFE/NOTES/Reading list <- ABOUT/I have a business and not business has me
+LIFE/NOTES/Reading list <- ABOUT/I have a business and not business has me, LIFE/BOOKS/Design Your Future
 LIFE/TOOLS/Authenticator <- ABOUT/What tools I use, BUSINESS/TOOLS/1Password
 LIFE/TOOLS/Edge <- ABOUT/What tools I use
 LIFE/TOOLS/Kindle <- ABOUT/How i read books, ABOUT/What tools I use, LIFE/KNOWLEDGE/INFO/Blue light
