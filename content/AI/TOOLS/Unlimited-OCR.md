@@ -33,7 +33,7 @@ Two paths, both on NVIDIA GPUs (tested python 3.12 + CUDA 12.9):
 - **Transformers** — `AutoModel.from_pretrained('baidu/Unlimited-OCR', trust_remote_code=True)`, then `model.infer(...)` for a single image (configs: `gundam` = base_size 1024 / image_size 640 / crop; `base` = 1024/1024/no-crop) or `model.infer_multi(...)` for multi-page / PDF (base only). PDFs are rasterized page-by-page with PyMuPDF first.
 - **SGLang** — launch an OpenAI-compatible server (`sglang.launch_server --model baidu/Unlimited-OCR --enable-custom-logit-processor ...`), stream requests with a `DeepseekOCRNoRepeatNGramLogitProcessor`. `infer.py` auto-starts the server and fans out concurrent requests over an image dir or PDF (`--concurrency 8 --image_mode gundam`).
 
-![[548091ce158a964c594ccfdde7f79e69_MD5.gif]]
+> [!note] Long-horizon parsing demo (animated): [long-horizon-ocr.gif](https://github.com/baidu/Unlimited-OCR/blob/main/assets/long-horizon-ocr.gif) — not embedded (78 MB).
 
 ## Alternatives considered
 - [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) / DeepSeek-OCR-2 — the baseline Unlimited-OCR extends; growing KV cache on long output.
