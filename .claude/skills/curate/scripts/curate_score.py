@@ -70,7 +70,10 @@ def score_note(age_days, in_edges, out_edges, dead_link):
 
 def recommend_action(score, dead_link, has_superseder):
     """Map a score + flags to one action. dead link or score>=4 -> archive;
-    a newer note covering the topic -> merge; mid score -> refresh; else keep."""
+    a newer note covering the topic -> merge; mid score -> refresh; else keep.
+    Archive intentionally outranks merge: a note that is both highly stale
+    (score>=4 or dead link) and superseded is archived, not merged. Archiving
+    is reversible, so no information is lost."""
     if dead_link or score >= 4:
         return "archive"
     if has_superseder:

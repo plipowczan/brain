@@ -39,7 +39,7 @@ def check_url(url, timeout=8.0):
                 with urllib.request.urlopen(greq, timeout=timeout) as resp:
                     return classify_status(resp.status)
             except urllib.error.HTTPError as e2:
-                return classify_status(e2.code)
+                return classify_status(e2.code)  # GET-confirmed 404/410 -> dead
             except Exception:
                 return classify_status(None, network_error=True)
         return classify_status(e.code)

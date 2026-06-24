@@ -24,7 +24,7 @@ mutation is gated on explicit user confirmation. Nothing is ever `git rm`'d.
 2. For each note collect: frontmatter `date` and `agent-reviewed`; git last-touched
    date via `git log -1 --format=%cs -- <path>`. Use the most recent of these as
    the "last touched" date.
-3. Parse graph edges with `curate_score.parse_graph(open(graph.md).read())` to get
+3. Parse graph edges with `curate_score.parse_graph(open("content/_indexes/graph.md").read())` to get
    per-note (in_edges, out_edges).
 
 ### Phase 2 — Score
@@ -80,4 +80,5 @@ archived notes from counts, catalog entries, graph nodes/edges). Optionally run
 ## See also
 
 - CLAUDE.md "Navigation Protocol" — read on every operation before this workflow.
+- `/reindex` — rebuilds indexes if missing or stale. Run before curate if needed.
 - `/lint` — passive diagnosis. `/refactor` — merge + wikilink repair. `/enhance` — refresh.
