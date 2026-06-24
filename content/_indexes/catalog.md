@@ -1,6 +1,6 @@
 ---
-updated: 2026-06-24T18:00:00Z
-entries: 321
+updated: 2026-06-24T19:30:00Z
+entries: 322
 ---
 # Note Catalog
 
@@ -234,6 +234,7 @@ entries: 321
 - **Scrapling** | tool | 2026-05-10 | [tool, python, web-scraping, crawler, automation, mcp, open-source] | Adaptive Python web scraping framework — fetchers, spiders, anti-bot bypass, MCP server | → Firecrawl, Agent Zero, Hermes Agent, LightRAG, templates/tool
 - **Sentry** | tool | 2026-06-13 | [tool, error-tracking, observability, apm, monitoring, fair-source] | getsentry/sentry — developer-first debugging platform: error tracking, performance/APM, session replay, distributed tracing, uptime, logs, AI fix suggestions; 20+ SDKs; FSL (Fair Source), cloud or Docker self-host | → Qamera AI, PostHog, Docker, Langfuse, templates/tool
 - **shadcn-ui** | tool | 2026-06-13 | [tool, ui, react, components, tailwind, design-system, frontend] | Copy-in React component collection built on Tailwind + Radix — you own the code, not a dependency; the component layer of my Next.js apps and the v0/AI-builder lingua franca | → React, Tailwind CSS, Next.js, Qamera AI, AGRE, Travelcast AI, Value Builders, MakerKit, Cursor, templates/tool
+- **Storybook** | tool | 2026-06-24 | [tool, frontend, react, components, design-system, testing, documentation] | Isolated workshop for UI components — build, document, and visually-test each component on its own; pairs with React/Next.js + Tailwind + shadcn/ui and gives AI agents a verifiable render target | → React, Next.js, Tailwind CSS, shadcn-ui, Qamera AI, AGRE, Travelcast AI, Tech To The Rescue, Turborepo, Vercel, Agentic Coding, Karpathy Method, Harness Engineering, DELEGATE-52, Impeccable, UI UX Pro Max, DESIGN MD Spec, templates/tool
 - **Supabase** | tool | 2026-04-09 | [tool, database, backend, baas] | Open-source Firebase alternative — Postgres database, auth, storage, realtime | → Qamera AI, Next.js, Airtable, templates/tool
 - **Tailwind CSS** | tool | 2026-06-13 | [tool, css, styling, frontend, design-system, utility-first] | Utility-first CSS framework — style in markup with composable classes; the styling layer under every Next.js app I build, and the foundation shadcn/ui sits on | → Qamera AI, AGRE, Travelcast AI, Value Builders, shadcn/ui, React, Next.js, templates/tool
 - **Turborepo** | tool | 2026-06-13 | [tool, monorepo, build-system, javascript, caching, vercel] | High-performance build system for JS/TS monorepos — task pipelines with content-aware caching and parallelism; orchestrates the Qamera AI monorepo | → Vercel, pnpm, Qamera AI, MakerKit, Docker, Hetzner, templates/tool
