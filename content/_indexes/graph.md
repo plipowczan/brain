@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-25T12:05:00Z
-nodes: 329
-edges: 1914
+nodes: 327
+edges: 1915
 ---
 # Link Graph
 
@@ -179,7 +179,7 @@ CODE/TOOLS/DigitalOcean -> CODE/TOOLS/Vercel, CODE/TOOLS/Hetzner, PROJECTS/TTTR/
 CODE/TOOLS/Docker -> PROJECTS/QAMERA-AI/Qamera AI, AI/TOOLS/NemoClaw, templates/tool
 CODE/TOOLS/Drizzle ORM -> PROJECTS/AGRE/AGRE, CODE/TOOLS/Supabase, CODE/TOOLS/Vercel, CODE/TOOLS/Prisma, PROJECTS/TTTR/Tech To The Rescue, templates/tool
 CODE/TOOLS/Excalidraw -> AI/TOOLS/Claude Code, LIFE/KNOWLEDGE/INFO/Obsidian, templates/tool
-CODE/TOOLS/Git -> templates/tool
+CODE/TOOLS/Git -> CODE/TOOLS/Visual Studio Code, CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts, CODE/KNOWLEDGE/HOWTO/Export git logs to file, CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet projects using Azure DevOps, templates/tool
 CODE/TOOLS/Google Cloud -> PROJECTS/QAMERA-AI/Qamera AI, templates/tool
 CODE/TOOLS/Hetzner -> CODE/TOOLS/Docker, PROJECTS/QAMERA-AI/Qamera AI, CODE/TOOLS/RabbitMQ, CODE/TOOLS/Vercel, CODE/TOOLS/Next.js, CODE/TOOLS/DigitalOcean, PROJECTS/TTTR/Tech To The Rescue, templates/tool
 CODE/TOOLS/MakerKit -> ATTACHMENTS/4b85e2a6d7a5ecf729bb87804390cb9d_MD5.webp, templates/tool
@@ -210,7 +210,7 @@ CODE/TOOLS/Tailwind CSS -> PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/AGRE/AGRE, PRO
 CODE/TOOLS/Turborepo -> CODE/TOOLS/Vercel, CODE/TOOLS/pnpm, PROJECTS/QAMERA-AI/Qamera AI, CODE/TOOLS/MakerKit, CODE/TOOLS/Docker, CODE/TOOLS/Hetzner, templates/tool
 CODE/TOOLS/Vercel -> CODE/TOOLS/Next.js, PROJECTS/QAMERA-AI/Qamera AI, CODE/TOOLS/Docker, PROJECTS/AGRE/AGRE, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/VALUE-BUILDERS/Value Builders, CODE/TOOLS/PostHog, CODE/TOOLS/Supabase, CODE/TOOLS/Cloudflare, templates/tool
 CODE/TOOLS/Visual Studio -> templates/tool
-CODE/TOOLS/Visual Studio Code -> templates/tool
+CODE/TOOLS/Visual Studio Code -> CODE/TOOLS/Git, AI/TOOLS/Cursor, AI/TOOLS/Claude Code, templates/tool
 CRYPTO/KNOWLEDGE/INFO/Bitcoin -> CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/KNOWLEDGE/INFO/CEX, templates/knowledge_note_info
 CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality -> CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, CRYPTO/NOTES/My Crypto Strategy, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/My Investment Strategy, templates/knowledge_note_info
 CRYPTO/KNOWLEDGE/INFO/CEX -> templates/knowledge_note_info
@@ -281,7 +281,7 @@ LIFE/TOOLS/Edge -> BUSINESS/TOOLS/1Password, templates/tool
 LIFE/TOOLS/Kindle -> LIFE/KNOWLEDGE/INFO/Blue light
 LIFE/TOOLS/Microsoft To Do -> BUSINESS/TOOLS/Outlook, LIFE/KNOWLEDGE/INFO/Pomodoro, BUSINESS/TOOLS/ClickUp, templates/tool
 LIFE/TOOLS/Obsidian -> LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/HOWTO/How to create mind map, templates/tool
-LIFE/TOOLS/OneNote -> LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System, ABOUT/Building a Second Brain, templates/tool
+LIFE/TOOLS/OneNote -> LIFE/KNOWLEDGE/INFO/Obsidian, BUSINESS/TOOLS/Notion, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System, ABOUT/Building a Second Brain, templates/tool
 LIFE/TOOLS/PowerToys -> templates/tool
 LIFE/TOOLS/Pstryk -> Michał Szafrański, templates/tool
 LIFE/TOOLS/Revolut -> ABOUT/Motivation system for my kids, LIFE/TOOLS/Revolut Junior
@@ -376,11 +376,11 @@ AI/TOOLS/Camofox Browser <- AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace 
 AI/TOOLS/Caveman <- AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Headroom
 AI/TOOLS/Chatterbox TTS <- PROJECTS/TRAVELCAST-AI/Travelcast AI
 AI/TOOLS/Chrome DevTools MCP <- CODE/TOOLS/Storybook
-AI/TOOLS/Claude Code <- ABOUT/Roles/Developer, ABOUT/What tools I use, AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools, AI/TOOLS/Chrome DevTools MCP, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/KNOWLEDGE/INFO/Harness Engineering (Ryan Lopopolo), AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/Loop Engineering, AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Agent Zero, AI/TOOLS/Archon, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Browser Harness, AI/TOOLS/Caveman, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Claude Peers MCP, AI/TOOLS/Claude SEO, AI/TOOLS/CLI-Anything, AI/TOOLS/CocoIndex, AI/TOOLS/Cursor, AI/TOOLS/DESIGN MD Spec, AI/TOOLS/Everything Claude Code, AI/TOOLS/GitHub Copilot, AI/TOOLS/Google Cloud Knowledge Catalog, AI/TOOLS/Google Gemini, AI/TOOLS/Graphify, AI/TOOLS/gstack, AI/TOOLS/Headroom, AI/TOOLS/Hermes Agent, AI/TOOLS/HyperFrames, AI/TOOLS/Impeccable, AI/TOOLS/LibreChat, AI/TOOLS/Lovable, AI/TOOLS/MinerU, AI/TOOLS/Open Design, AI/TOOLS/OpenAI, AI/TOOLS/Paperclip, AI/TOOLS/Personal AI Infrastructure, AI/TOOLS/Ruflo, AI/TOOLS/Space Agent, AI/TOOLS/Superpowers, AI/TOOLS/UI UX Pro Max, AI/TOOLS/Understand Anything, AI/TOOLS/Video Use, AI/TOOLS/Voicebox, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/Awesome Design MD, CODE/TOOLS/Excalidraw, CODE/TOOLS/OpenSpec, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/Remotion, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/BRAIN/Brain, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/VALUE-BUILDERS/Value Builders
+AI/TOOLS/Claude Code <- ABOUT/Roles/Developer, ABOUT/What tools I use, AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools, AI/TOOLS/Chrome DevTools MCP, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/KNOWLEDGE/INFO/Harness Engineering (Ryan Lopopolo), AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/Loop Engineering, AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/Skills 2.0 Testing, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/NOTES/Hackathon Hacknation, AI/TOOLS/Agent Zero, AI/TOOLS/Archon, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Browser Harness, AI/TOOLS/Caveman, AI/TOOLS/Claude Code Best Practice, AI/TOOLS/Claude Peers MCP, AI/TOOLS/Claude SEO, AI/TOOLS/CLI-Anything, AI/TOOLS/CocoIndex, AI/TOOLS/Cursor, AI/TOOLS/DESIGN MD Spec, AI/TOOLS/Everything Claude Code, AI/TOOLS/GitHub Copilot, AI/TOOLS/Google Cloud Knowledge Catalog, AI/TOOLS/Google Gemini, AI/TOOLS/Graphify, AI/TOOLS/gstack, AI/TOOLS/Headroom, AI/TOOLS/Hermes Agent, AI/TOOLS/HyperFrames, AI/TOOLS/Impeccable, AI/TOOLS/LibreChat, AI/TOOLS/Lovable, AI/TOOLS/MinerU, AI/TOOLS/Open Design, AI/TOOLS/OpenAI, AI/TOOLS/Paperclip, AI/TOOLS/Personal AI Infrastructure, AI/TOOLS/Ruflo, AI/TOOLS/Space Agent, AI/TOOLS/Superpowers, AI/TOOLS/UI UX Pro Max, AI/TOOLS/Understand Anything, AI/TOOLS/Video Use, AI/TOOLS/Voicebox, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO, CODE/TOOLS/Awesome Design MD, CODE/TOOLS/Excalidraw, CODE/TOOLS/OpenSpec, CODE/TOOLS/OPSX Workflow, CODE/TOOLS/Remotion, CODE/TOOLS/Visual Studio Code, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/BRAIN/Brain, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/VALUE-BUILDERS/Value Builders
 AI/TOOLS/Claude Code Best Practice <- AI/KNOWLEDGE/INFO/40 AI Prompts for Expert Output, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude SEO, AI/TOOLS/Karpathy Skills, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
 AI/TOOLS/Claude Peers MCP <- AI/TOOLS/Ruflo
 AI/TOOLS/CocoIndex <- AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/TOOLS/Google Cloud Knowledge Catalog, AI/TOOLS/MinerU, AI/TOOLS/Understand Anything
-AI/TOOLS/Cursor <- ABOUT/Roles/Developer, ABOUT/What tools I use, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/TOOLS/Claude Code, AI/TOOLS/CocoIndex, AI/TOOLS/Everything Claude Code, AI/TOOLS/GitHub Copilot, AI/TOOLS/Google Cloud Knowledge Catalog, AI/TOOLS/Headroom, AI/TOOLS/Lovable, AI/TOOLS/Open Design, AI/TOOLS/Paperclip, AI/TOOLS/Ruflo, AI/TOOLS/Superpowers, AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Awesome Design MD, CODE/TOOLS/shadcn-ui, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/TTTR/Tech To The Rescue
+AI/TOOLS/Cursor <- ABOUT/Roles/Developer, ABOUT/What tools I use, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/TOOLS/Claude Code, AI/TOOLS/CocoIndex, AI/TOOLS/Everything Claude Code, AI/TOOLS/GitHub Copilot, AI/TOOLS/Google Cloud Knowledge Catalog, AI/TOOLS/Headroom, AI/TOOLS/Lovable, AI/TOOLS/Open Design, AI/TOOLS/Paperclip, AI/TOOLS/Ruflo, AI/TOOLS/Superpowers, AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, CODE/KNOWLEDGE/HOWTO/Vibe Coding, CODE/TOOLS/Awesome Design MD, CODE/TOOLS/Visual Studio Code, CODE/TOOLS/shadcn-ui, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/TTTR/Tech To The Rescue
 AI/TOOLS/DESIGN MD Spec <- AI/TOOLS/Impeccable, CODE/TOOLS/Storybook
 AI/TOOLS/ElevenLabs <- AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/TOOLS/Chatterbox TTS, AI/TOOLS/Open Notebook, AI/TOOLS/OpenAI, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/VALUE-BUILDERS/Value Builders
 AI/TOOLS/Everything Claude Code <- AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Hermes Agent, AI/TOOLS/Open Design, AI/TOOLS/Ruflo, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
@@ -455,14 +455,17 @@ BUSINESS/TOOLS/Excalidraw <- ABOUT/What tools I use
 BUSINESS/TOOLS/Make <- ABOUT/Roles/AutomationSpecialist, ABOUT/What tools I use, AI/TOOLS/CocoIndex, BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field', BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, BUSINESS/KNOWLEDGE/INFO/Process Mapping, BUSINESS/NOTES/El Padre Case Study, BUSINESS/TOOLS/n8n, BUSINESS/TOOLS/Zapier, NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly
 BUSINESS/TOOLS/Miro <- ABOUT/What tools I use, BUSINESS/TOOLS/Excalidraw, LIFE/KNOWLEDGE/HOWTO/How to create mind map
 BUSINESS/TOOLS/n8n <- ABOUT/Roles/AutomationSpecialist, ABOUT/What tools I use, AI/TOOLS/Bright Data, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/Data Maturity Model, BUSINESS/KNOWLEDGE/INFO/Process Mapping, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, NOCODE/KNOWLEDGE/HOWTO/Lead Generation Pipeline, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection, PROJECTS/TTTR/Tech To The Rescue
-BUSINESS/TOOLS/Notion <- ABOUT/What tools I use, BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/ClickUp, PROJECTS/TTTR/Tech To The Rescue
+BUSINESS/TOOLS/Notion <- ABOUT/What tools I use, BUSINESS/TOOLS/Airtable, BUSINESS/TOOLS/ClickUp, LIFE/TOOLS/OneNote, PROJECTS/TTTR/Tech To The Rescue
 BUSINESS/TOOLS/Outlook <- ABOUT/What tools I use, LIFE/TOOLS/Microsoft To Do
 BUSINESS/TOOLS/People Data Labs <- AI/TOOLS/Bright Data, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/TOOLS/Clay, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System
 BUSINESS/TOOLS/Sendgrid <- BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension, BUSINESS/KNOWLEDGE/HOWTO/Test email rating, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, CODE/TOOLS/Resend
 BUSINESS/TOOLS/Stripe <- BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS/Value Builders
 BUSINESS/TOOLS/Zapier <- BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection, PROJECTS/TTTR/Tech To The Rescue
 CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow <- CODE/TOOLS/Marp
+CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet projects using Azure DevOps <- CODE/TOOLS/Git
+CODE/KNOWLEDGE/HOWTO/Export git logs to file <- CODE/TOOLS/Git
 CODE/KNOWLEDGE/HOWTO/Harness Engineering in Practice <- AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Harness Engineering (Ryan Lopopolo), PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
+CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts <- CODE/TOOLS/Git
 CODE/KNOWLEDGE/HOWTO/Vibe Coding <- AI/KNOWLEDGE/INFO/DELEGATE-52, AI/KNOWLEDGE/INFO/Harness Engineering (Ryan Lopopolo), AI/TOOLS/Lovable, AI/TOOLS/UI UX Pro Max, CODE/KNOWLEDGE/HOWTO/Apple-style Animations with AI, CODE/KNOWLEDGE/INFO/Spec-driven SEO and GEO
 CODE/KNOWLEDGE/INFO/AI Chatbots Architecture <- AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish), AI/TOOLS/CocoIndex, AI/TOOLS/Google Cloud Knowledge Catalog, AI/TOOLS/Langfuse, AI/TOOLS/LightRAG, AI/TOOLS/MinerU, AI/TOOLS/VoyageAI
 CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools <- BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, PROJECTS/AGRE/AGRE, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/VALUE-BUILDERS/Value Builders
@@ -475,7 +478,7 @@ CODE/TOOLS/Cloudflare <- CODE/TOOLS/DigitalOcean, CODE/TOOLS/Vercel, PROJECTS/AG
 CODE/TOOLS/DigitalOcean <- CODE/TOOLS/Hetzner, PROJECTS/TTTR/Tech To The Rescue
 CODE/TOOLS/Docker <- ABOUT/What tools I use, CODE/TOOLS/DigitalOcean, CODE/TOOLS/Hetzner, CODE/TOOLS/PostHog, CODE/TOOLS/RabbitMQ, CODE/TOOLS/Sentry, CODE/TOOLS/Turborepo, CODE/TOOLS/Vercel, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/TTTR/Tech To The Rescue
 CODE/TOOLS/Drizzle ORM <- CODE/TOOLS/Prisma, PROJECTS/AGRE/AGRE
-CODE/TOOLS/Git <- ABOUT/What tools I use, CODE/KNOWLEDGE/HOWTO/Export git logs to file, PROJECTS/AGRE/AGRE, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/TTTR/Tech To The Rescue
+CODE/TOOLS/Git <- ABOUT/What tools I use, CODE/TOOLS/Visual Studio Code, CODE/KNOWLEDGE/HOWTO/Export git logs to file, PROJECTS/AGRE/AGRE, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/TECH-NEWS-WEEKLY/Tech News Weekly, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/TTTR/Tech To The Rescue
 CODE/TOOLS/Google Cloud <- ABOUT/What tools I use, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS
 CODE/TOOLS/Hetzner <- AI/TOOLS/Replicate, CODE/TOOLS/DigitalOcean, CODE/TOOLS/RabbitMQ, CODE/TOOLS/Turborepo, PROJECTS/QAMERA-AI/Qamera AI
 CODE/TOOLS/MakerKit <- CODE/TOOLS/shadcn-ui, CODE/TOOLS/Turborepo, PROJECTS/QAMERA-AI/Qamera AI
@@ -505,7 +508,7 @@ CODE/TOOLS/Tailwind CSS <- AI/TOOLS/Lovable, AI/TOOLS/v0, CODE/KNOWLEDGE/INFO/De
 CODE/TOOLS/Turborepo <- CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/pnpm, CODE/TOOLS/Storybook, PROJECTS/QAMERA-AI/Qamera AI
 CODE/TOOLS/Vercel <- AI/TOOLS/Lovable, AI/TOOLS/v0, CODE/TOOLS/Cloudflare, CODE/TOOLS/DigitalOcean, CODE/TOOLS/Drizzle ORM, CODE/TOOLS/Hetzner, CODE/TOOLS/Storybook, CODE/TOOLS/Turborepo, PROJECTS/AGRE/AGRE, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/VALUE-BUILDERS/Value Builders
 CODE/TOOLS/Visual Studio <- CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet projects using Azure DevOps, CODE/KNOWLEDGE/HOWTO/How to deal with pull request merge conflicts
-CODE/TOOLS/Visual Studio Code <- ABOUT/What tools I use, AI/TOOLS/Cursor
+CODE/TOOLS/Visual Studio Code <- ABOUT/What tools I use, AI/TOOLS/Cursor, CODE/TOOLS/Git
 CRYPTO/KNOWLEDGE/INFO/Bitcoin <- CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Influencers, CRYPTO/NOTES/My Crypto Strategy
 CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality <- CRYPTO/NOTES/My Crypto Strategy, INVESTMENTS/My Investment Strategy
 CRYPTO/KNOWLEDGE/INFO/CEX <- CRYPTO/KNOWLEDGE/INFO/Bitcoin, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, CRYPTO/NOTES/Influencers

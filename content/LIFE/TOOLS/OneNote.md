@@ -3,26 +3,32 @@ title: "OneNote"
 date:   2023-01-08
 enableToc: true
 openToc: true
-tags: ["tool"]
+tags: ["tool", "notes", "microsoft"]
 type: tool
-summary: "Microsoft note-taking app — stub note; replaced in practice by Obsidian for PKM."
-agent-reviewed: 2026-06-16
+summary: "Microsoft's free-form note-taking app — once my notes hub, now replaced by Obsidian for PKM."
+agent-reviewed: 2026-06-25
 
 ---
 # OneNote
-#todo/replace  Brief description of the tool.
+
+Microsoft's free-form digital notebook. Organises notes into notebooks → sections → pages, with handwriting, drawing, and clipping support. Syncs across devices via OneDrive and is bundled with Microsoft 365.
 
 ## Links
 ### Description
-#todo/complete
+[OneNote — official site](https://www.onenote.com/)
 ### Download or use
-#todo/complete
+[Get OneNote](https://www.onenote.com/download)
+
 ## Reasoning for
-#todo/replace What it can be used for and how and why do I use it
+I used OneNote as my general notes hub before moving to a Markdown, local-first workflow. It is strong for free-form capture (handwriting, screen clips, mixed media) and for anyone already inside the Microsoft 365 ecosystem. I replaced it with [[Obsidian]] because I wanted plain-text Markdown, local files, and a wikilink graph rather than a proprietary store.
+
 ## Alternatives considered
-#todo/complete
+- **[[Obsidian]]** — Markdown, local-first, linkable graph; what I use now.
+- **[[Notion]]** — database-style workspace, better for structured pages.
+Note-taking method is tool-agnostic — see [[Cornel Notes Taking System]] and the [[Building a Second Brain]] PKM methodology.
+
 ## Resources
-#todo/replace Link to relevant blog posts here.
+- [OneNote help & learning](https://support.microsoft.com/onenote)
 
 ## 🔗 Related
 - [[Obsidian]] — the note-taking tool I actively use instead; Markdown-based, local-first

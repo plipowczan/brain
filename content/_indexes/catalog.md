@@ -1,6 +1,6 @@
 ---
 updated: 2026-06-25T12:05:00Z
-entries: 323
+entries: 321
 ---
 # Note Catalog
 
@@ -209,7 +209,7 @@ entries: 323
 - **Docker** | tool | 2026-04-09 | [tool, devops, containers] | Container platform for packaging and deploying applications | → Qamera AI, NemoClaw, templates/tool
 - **Drizzle ORM** | tool | 2026-06-13 | [tool, orm, typescript, database, postgres, sql] | Lightweight, SQL-first TypeScript ORM — thin, type-safe, no codegen runtime; the data layer in AGRE (Postgres on Supabase) | → AGRE, Supabase, Vercel, Prisma, Tech To The Rescue, templates/tool
 - **Excalidraw** | tool | 2026-03-31 | [tool, ai, diagrams, claude-code] | Diagram generation skill for Claude Code — integrates with Obsidian and VS Code for process mapping | → Claude Code, Obsidian, templates/tool
-- **Git** | tool | 2022-12-02 | [tool] | Git version control tool note — stub with TODO placeholders awaiting full description. | → templates/tool
+- **Git** | tool | 2022-12-02 | [tool, git, version-control] | Distributed version control — backbone of every code project; branching, history, PR-driven collaboration | → Visual Studio Code, How to deal with pull request merge conflicts, Export git logs to file, Common workflow I use in dotnet projects using Azure DevOps, templates/tool
 - **Google Cloud** | tool | 2026-04-09 | [tool, cloud, infrastructure] | Cloud infrastructure for Qamera AI — compute, storage, AI services | → Qamera AI, templates/tool
 - **Hetzner** | tool | 2026-06-13 | [tool, hosting, vps, dedicated-servers, infrastructure, self-hosted] | Low-cost German cloud/dedicated-server provider — exceptional price/performance for self-hosted compute; runs Qamera AI's Docker worker + queue stack | → Docker, Qamera AI, RabbitMQ, Vercel, Next.js, DigitalOcean, Tech To The Rescue, templates/tool
 - **MakerKit** | tool | 2026-04-12 | [tool, nextjs, saas, boilerplate, fullstack, react] | Production-ready Next.js SaaS starter kit with auth, billing, teams and multi-tenancy | → ATTACHMENTS/4b85e2a6d7a5ecf729bb87804390cb9d_MD5.webp, templates/tool
@@ -240,7 +240,7 @@ entries: 323
 - **Turborepo** | tool | 2026-06-13 | [tool, monorepo, build-system, javascript, caching, vercel] | High-performance build system for JS/TS monorepos — task pipelines with content-aware caching and parallelism; orchestrates the Qamera AI monorepo | → Vercel, pnpm, Qamera AI, MakerKit, Docker, Hetzner, templates/tool
 - **Vercel** | tool | 2026-06-13 | [tool, hosting, serverless, deployment, nextjs, frontend-cloud] | Frontend cloud from the makers of Next.js — Git-push deploys, serverless/edge functions, cron, preview URLs, and analytics; the default hosting target for my Next.js apps | → Next.js, Qamera AI, Docker, AGRE, Travelcast AI, Value Builders, PostHog, Supabase, Cloudflare, templates/tool
 - **Visual Studio** | tool | 2023-01-08 | [tool, visualstudio, code] | Microsoft IDE for editing, debugging, and compiling code, used primarily for .NET development | → templates/tool
-- **Visual Studio Code** | tool | 2022-09-22 | [tool] | Visual Studio Code — code editor note (stub, content pending completion). | → templates/tool
+- **Visual Studio Code** | tool | 2022-09-22 | [tool, editor, ide] | Microsoft's free extensible code editor — my primary editor; lightweight core + vast extension ecosystem | → Git, Cursor, Claude Code, templates/tool
 
 ## CRYPTO/KNOWLEDGE/INFO
 - **Bitcoin** | knowledge-note | 2026-04-09 | [knowledge, info, crypto, bitcoin, investment] | Bitcoin — the original cryptocurrency, decentralized digital money | → What mistakes I made on the crypto market in 2021-2022, CEX, templates/knowledge_note_info
@@ -344,12 +344,12 @@ entries: 323
 - **Kindle** | tool | 2022-09-06 | [tool, kindle] | Amazon Kindle Paperwhite e-reader for portable reading with built-in translator and no blue light. | → LIFE/KNOWLEDGE/INFO/Blue light
 - **Microsoft To Do** | tool | 2022-10-28 | [tool, microsoft, todo] | Simple, free task management app integrating with Outlook and Pomodoro focus sessions. | → BUSINESS/TOOLS/Outlook, LIFE/KNOWLEDGE/INFO/Pomodoro, BUSINESS/TOOLS/ClickUp, templates/tool
 - **Obsidian** | tool | 2022-09-06 | [tool, obsidian, notes] | Offline-first note-taking app with bidirectional links, used to maintain this digital garden | → LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/HOWTO/How to create mind map, templates/tool
-- **OneNote** | tool | 2023-01-08 | [tool] | Microsoft note-taking app — stub note; replaced in practice by Obsidian for PKM. | → Obsidian, Cornel Notes Taking System, Building a Second Brain, templates/tool
+- **OneNote** | tool | 2023-01-08 | [tool, notes, microsoft] | Microsoft's free-form note-taking app — once my notes hub, now replaced by Obsidian for PKM | → Obsidian, Notion, Cornel Notes Taking System, Building a Second Brain, templates/tool
 - **PowerToys** | tool | 2022-09-06 | [tool, windows, productivity] | Microsoft PowerToys open-source utilities: FancyZones, PowerToys Run, Color Picker, and File Explorer add-ons. | → templates/tool
 - **Pstryk** | tool | 2026-05-10 | [tool, energy, dynamic-pricing, household, savings, poland] | Polish electricity vendor with hourly dynamic pricing, a 0.61 PLN/kWh government-style price cap, WiFi meter and a transparent app | → Michał Szafrański, templates/tool
 - **Revolut** | tool | 2022-09-06 | [tool, revolut, bank, money] | Multi-currency banking app used for travel spending, kids' finances, and family travel insurance | → ABOUT/Motivation system for my kids, LIFE/TOOLS/Revolut Junior
 - **Revolut Junior** | tool | 2022-09-06 | [tool, revolut, junior, mobile, aplication] | Revolut <18 app for managing kids' money: tasks, rewards, goals, and parental oversight. | → -
-- **TextExpander** | tool | 2023-01-08 | [tool] | Text expansion tool for keyboard shortcuts and snippets — stub note awaiting full description. | → PowerToys, Microsoft To Do, Pomodoro, templates/tool
+- **TextExpander** | tool | 2023-01-08 | [tool, productivity, automation] | Text-expansion tool: short abbreviation → full snippet; kills repetitive typing of boilerplate | → PowerToys, Microsoft To Do, Pomodoro, templates/tool
 - **Windows** | tool | 2022-11-11 | [tool] | Windows 11 OS note with useful shortcuts including Clipboard Manager (Win+V) and Focus mode. | → ATTACHMENTS/Pasted image 20221111233159.png, ATTACHMENTS/Pasted image 20221111233121.png, templates/tool
 
 ## NOCODE/KNOWLEDGE/HOWTO
