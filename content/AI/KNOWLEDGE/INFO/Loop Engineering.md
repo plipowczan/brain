@@ -80,6 +80,7 @@ Cole's experimental [[Second Brain Design|second-brain]]-oriented loop dashboard
 - [[Karpathy Method]] — spec / verifier / environment layers
 - [[Token Optimization for Claude Code]] — related cost-control tooling
 - [[Context Engineering]] — why single-session loops poison context
+- [[HOMER — Structured Agent Memory]] — a self-improving memory-construction loop ("loop engineering" coined here)
 
 ---
 Template: [[templates/knowledge_note_info]]

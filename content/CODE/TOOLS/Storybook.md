@@ -57,6 +57,7 @@ There's also an agentic angle. Storybook stories are a **verifiable render targe
 - 🧪 [Visual & interaction testing](https://storybook.js.org/docs/writing-tests)
 - 🎨 [Styling & Tailwind setup](https://storybook.js.org/recipes/tailwindcss)
 - 🔗 [Chromatic — hosted visual regression](https://www.chromatic.com/)
+- See also: [[Chrome DevTools MCP]] — drives a live browser as an agent's render/verify target for the integrated app, complementing Storybook's isolated-component check
 
 ---
 Template: [[templates/tool]]

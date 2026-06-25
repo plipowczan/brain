@@ -113,6 +113,7 @@ Emoji icons signal observation type — visual scanning, language-agnostic, toke
 - [[Token Optimization for Claude Code]] — tools that operationalize this pattern
 - [[Graphify]] — knowledge-graph index over arbitrary content
 - [[Open Knowledge Format (OKF)]] — a knowledge-format spec whose `index.md` files implement this pattern
+- [[HOMER — Structured Agent Memory]] — same organize-then-retrieve principle applied to long-horizon agent memory
 
 ## 📖 Further reading
 [[Claude Code]]
