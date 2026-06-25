@@ -26,7 +26,7 @@ R-SWA is general-purpose parsing attention — beyond OCR it applies to ASR, tra
 - Paper (arXiv 2606.23050): https://arxiv.org/abs/2606.23050
 
 ## Reasoning for
-Long-document OCR for the knowledge base. Where a chat-clipper or a generic OCR chokes on multi-page scans, a constant-KV-cache model parses an entire PDF in one shot — relevant to feeding scanned books/papers into the vault and to the long-document handling [[OpenKB]] / [[PageIndex]] solve from the retrieval side. Self-hostable (Transformers or SGLang), so document parsing stays local.
+Long-document OCR for the knowledge base. Where a chat-clipper or a generic OCR chokes on multi-page scans, a constant-KV-cache model parses an entire PDF in one shot — relevant to feeding scanned books/papers into the vault and to the long-document handling [[OpenKB]] / [[PageIndex]] solve from the retrieval side. Self-hostable (Transformers or SGLang), so document parsing stays local. For a full layout-aware document pipeline (tables → HTML, formulas → LaTeX, format conversion across PDF/DOCX/PPTX/XLSX) rather than a raw OCR model, see [[MinerU]].
 
 ## 🧩 Inference
 Two paths, both on NVIDIA GPUs (tested python 3.12 + CUDA 12.9):
@@ -41,7 +41,7 @@ Two paths, both on NVIDIA GPUs (tested python 3.12 + CUDA 12.9):
 
 ## Resources
 - Paper: [Unlimited OCR Works (arXiv 2606.23050)](https://arxiv.org/abs/2606.23050) — Youyang Yin et al., Baidu, cs.CV/cs.CL, v1 22 Jun 2026.
-- Related vault notes: [[OpenKB]], [[LLM Knowledge Bases]], [[Graphify]]
+- Related vault notes: [[MinerU]], [[OpenKB]], [[LLM Knowledge Bases]], [[Graphify]]
 
 ---
 Template: [[templates/tool]]

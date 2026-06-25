@@ -6,6 +6,8 @@ openToc: true
 tags: ["knowledge", "howto"]
 type: knowledge-note
 summary: "Stub how-to for building a Make.com automation app — steps and prerequisites to be completed."
+archived: 2026-06-25
+archived-reason: "empty stub (all #todo/replace placeholders), 3.5y untouched, orphan (no inbound wikilinks)"
 ---
 
 # How to create an app in Make

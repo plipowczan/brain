@@ -6,6 +6,8 @@ openToc: true
 tags: ["knowledge", "info"]
 type: knowledge-note
 summary: "Personal workflow stub for creating and editing HTML email templates — content to be completed."
+archived: 2026-06-25
+archived-reason: "empty stub (all #todo/replace placeholders), 3.5y untouched, orphan (no inbound wikilinks)"
 ---
 
 # How I work on HTML email templates
