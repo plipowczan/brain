@@ -1,6 +1,6 @@
 ---
-updated: 2026-06-25T12:05:00Z
-entries: 321
+updated: 2026-06-25T21:45:00Z
+entries: 322
 ---
 # Note Catalog
 
@@ -32,6 +32,7 @@ entries: 321
 
 ## AI/KNOWLEDGE/INFO
 - **10 Free GitHub Repos That Replace Paid Tools** | knowledge-note | 2026-06-14 | [knowledge, info, ai, open-source, agents, self-hosted, comparison] | Hyperautomation Labs lists 10 open-source GitHub repos that each replace a paid product — from a $27k/yr Bloomberg terminal (Fincept) to ad-agency audits (Claude Ads), self-hosted multi-model chat (LibreChat), and agent video rendering (HyperFrames). | → Fincept Terminal, LibreChat, Claude Code, Camofox Browser, HyperFrames, Remotion, Open-Source AI Projects Roundup (Matthew Berman), Browser Use, Personal AI Infrastructure, templates/knowledge_note_info
+- **4 Claude Code Upgrades for Making Money (Nate Herk)** | knowledge-note | 2026-06-25 | [knowledge, info, ai, claude-code, agents, context-engineering, workflow, verifiability] | Nate Herk's four Claude Code upgrades — roast/council to kill sycophancy, build-then-verify loop, context/session-handoff, subagents + /goal — demoed by building a business end-to-end | → Claude Code, Loop Engineering, Context Engineering, Progressive Disclosure, Harness Engineering, Karpathy Method, DELEGATE-52, AI Agent Security, Token Optimization for Claude Code, Agentic Coding, templates/knowledge_note_info
 - **40 AI Prompts for Expert Output** | knowledge-note | 2026-05-19 | [knowledge, info, ai, prompts, claude, chatgpt, gemini, workflow] | Curated 40-prompt library from @eng_khairallah1 — engineered, role+context+constraint prompts that work cross-model (Claude, ChatGPT, Gemini) across 6 use-case categories | → Context Engineering, Claude Code Best Practice, Building Claude Skills Guide, Awesome Claude Code, templates/knowledge_note_info
 - **Agentic Coding** | knowledge-note | 2026-04-09 | [knowledge, info, ai, coding-agents, paradigm] | Paradigm shift: designing agent environments instead of writing code manually | → Context Engineering, Agent Skills, Qamera AI, Claude Code, Agentic Systems, Cursor, Harness Engineering, Software 3.0, Agentic Engineering, templates/knowledge_note_info
 - **Agentic Engineering** | knowledge-note | 2026-05-28 | [knowledge, info, ai, agents, coding-agents, vibe-coding, context-engineering, verifiability] | Andrej Karpathy at Sequoia — vibe coding raises the floor, agentic engineering preserves the quality bar; verifiability, jagged intelligence, founder advice, agent-native infra, and 'you can't outsource understanding' | → Software 3.0, LLM Knowledge Bases, Brain, Self-Improving Company, Karpathy Method, Agentic Coding, Context Engineering, Harness Engineering, Karpathy Skills, templates/knowledge_note_info

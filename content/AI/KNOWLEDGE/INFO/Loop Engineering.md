@@ -81,6 +81,7 @@ Cole's experimental [[Second Brain Design|second-brain]]-oriented loop dashboard
 - [[Token Optimization for Claude Code]] — related cost-control tooling
 - [[Context Engineering]] — why single-session loops poison context
 - [[HOMER — Structured Agent Memory]] — a self-improving memory-construction loop ("loop engineering" coined here)
+- [[4 Claude Code Upgrades for Making Money (Nate Herk)]] — `/goal` + parallel subagents applied to a business build
 
 ---
 Template: [[templates/knowledge_note_info]]
