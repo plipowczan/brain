@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-label="Cumulative stars of santifer/career-ops">
+<style>:root{--bg:#f6f9fc;--bd:#c9d8e4;--gr:#dde7ef;--dm:#43607a;--ac:#0c7d92;--st:#3a5268;--wn:#a05a00;}
+/* One looping 12.6s choreography tuned for attention without fatigue.
+   A single reveal FRONT sweeps left to right (line and area together,
+   headed by a scan beam): fast start for the first-seconds hook, gentle
+   deceleration into the arrival. Endpoint lands with overshoot, the
+   counter pops once at the payoff, golden double-ring pings beat at
+   staggered windows, one shooting star lands a +1 at 57 percent, then a
+   graceful fade and a 0.6s blank gap re-arm the next sweep as a fresh
+   onset. History is cyan, the living present is gold. Strict XML: no
+   angle brackets anywhere in this block. */
+.wv{transform-box:fill-box;transform-origin:left center;animation:wv 12.6s linear infinite}
+.wg{animation:wg 12.6s ease-out infinite}
+.bm{opacity:0;animation:bm 12.6s linear infinite}
+.dl{opacity:.45;animation:dlf 1.3s linear infinite}
+.dotp{transform-box:fill-box;transform-origin:center;opacity:0;animation:dp 12.6s cubic-bezier(.3,1.4,.4,1) infinite}
+.cp{transform-box:fill-box;transform-origin:center;animation:cp 12.6s ease-out infinite}
+.pga{transform-box:fill-box;transform-origin:center;opacity:0;animation:pg 12.6s cubic-bezier(.2,.6,.4,1) infinite}
+.pgb{animation-delay:.22s}
+.ss{opacity:0;animation:ss 12.6s cubic-bezier(.35,0,.7,1) infinite}
+.fl{transform-box:fill-box;transform-origin:center;opacity:0;animation:fl 12.6s ease-out infinite}
+.pl{opacity:0;animation:pl 12.6s ease-out infinite}
+.tw{animation:tw 3.4s ease-in-out infinite}
+@keyframes wv{0%{transform:scaleX(0);animation-timing-function:cubic-bezier(.2,.65,.3,1)}17.5%{transform:scaleX(1)}94.4%{transform:scaleX(1)}94.5%,100%{transform:scaleX(0)}}
+@keyframes wg{0%,88.9%{opacity:1}94.4%,100%{opacity:0}}
+@keyframes bm{0%{transform:translateX(0);opacity:.55;animation-timing-function:cubic-bezier(.2,.65,.3,1)}17.5%{transform:translateX(706px);opacity:.55}20%{transform:translateX(706px);opacity:0}94.4%{transform:translateX(706px);opacity:0}94.5%,100%{transform:translateX(0);opacity:0}}
+@keyframes dlf{to{stroke-dashoffset:-8}}
+@keyframes dp{0%,17.4%{transform:scale(0);opacity:0}18%{transform:scale(.2);opacity:1}21%{transform:scale(1.35)}23.5%{transform:scale(1)}89.7%{transform:scale(1);opacity:1}94.8%,100%{transform:scale(1);opacity:0}}
+@keyframes cp{0%,18.5%{transform:scale(1)}20.5%{transform:scale(1.07)}23.5%,100%{transform:scale(1)}}
+@keyframes pg{0%,23%{transform:scale(.3);opacity:0}24.2%{opacity:.85}31%{transform:scale(2.7);opacity:0}45%{transform:scale(.3);opacity:0}46.2%{opacity:.85}53%{transform:scale(2.7);opacity:0}78%{transform:scale(.3);opacity:0}79.2%{opacity:.85}86%{transform:scale(2.7);opacity:0}100%{opacity:0}}
+@keyframes ss{0%,56.5%{transform:translate(-170px,-95px);opacity:0}58%{opacity:.95}63.5%{transform:translate(0px,0px);opacity:.95}64.2%,100%{transform:translate(0px,0px);opacity:0}}
+@keyframes fl{0%,63%{transform:scale(.2);opacity:0}64.2%{opacity:.9}68.5%{transform:scale(2.2);opacity:0}100%{opacity:0}}
+@keyframes pl{0%,63.5%{transform:translateY(0);opacity:0}65.5%{opacity:.95}73%{transform:translateY(-15px);opacity:0}100%{opacity:0}}
+@keyframes tw{0%,100%{opacity:.1}50%{opacity:.6}}
+@media (prefers-reduced-motion:reduce){.wv{animation:none;transform:scaleX(1)}.wg{animation:none;opacity:1}.dl{animation:none}.bm{animation:none;opacity:0}.dotp{animation:none;opacity:1;transform:scale(1)}.cp{animation:none}.pga,.ss,.fl,.pl,.tw{animation:none;opacity:0}}
+</style>
+<defs>
+  <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" style="stop-color:var(--ac)" stop-opacity="0.30"/>
+    <stop offset="100%" style="stop-color:var(--ac)" stop-opacity="0.02"/>
+  </linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" style="stop-color:var(--ac)" stop-opacity="0"/>
+    <stop offset="50%" style="stop-color:var(--ac)" stop-opacity="0.9"/>
+    <stop offset="100%" style="stop-color:var(--ac)" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="wipe">
+    <rect class="wv" x="15" y="0" width="710" height="420"/>
+  </clipPath>
+</defs>
+<rect x="0.5" y="0.5" width="799" height="419" style="fill:var(--bg);stroke:var(--bd)"/>
+<path d="M 0.5 8 V 0.5 H 8" style="stroke:var(--ac)" fill="none" opacity="0.5"/>
+<path d="M 792 0.5 H 799.5 V 8" style="stroke:var(--ac)" fill="none" opacity="0.5"/>
+<path d="M 0.5 412 V 419.5 H 8" style="stroke:var(--ac)" fill="none" opacity="0.5"/>
+<path d="M 792 419.5 H 799.5 V 412" style="stroke:var(--ac)" fill="none" opacity="0.5"/>
+<circle class="tw" cx="434.9" cy="85.2" r="1.1" style="fill:var(--st);animation-delay:1.10s;animation-duration:3.68s" opacity="0.46"/>
+<circle class="tw" cx="315.6" cy="312.4" r="1.1" style="fill:var(--st);animation-delay:2.28s;animation-duration:4.72s" opacity="0.18"/>
+<circle class="tw" cx="426.7" cy="243.3" r="0.7" style="fill:var(--st);animation-delay:1.51s;animation-duration:4.51s" opacity="0.44"/>
+<circle class="tw" cx="694.8" cy="145.4" r="0.7" style="fill:var(--st);animation-delay:3.83s;animation-duration:3.40s" opacity="0.30"/>
+<circle class="tw" cx="444.1" cy="121.4" r="0.7" style="fill:var(--st);animation-delay:1.94s;animation-duration:4.72s" opacity="0.40"/>
+<circle class="tw" cx="26.3" cy="106.5" r="0.7" style="fill:var(--st);animation-delay:3.68s;animation-duration:3.53s" opacity="0.27"/>
+<circle class="tw" cx="517.1" cy="317.2" r="0.7" style="fill:var(--st);animation-delay:2.70s;animation-duration:3.48s" opacity="0.18"/>
+<circle class="tw" cx="38.3" cy="315.8" r="1.1" style="fill:var(--st);animation-delay:0.69s;animation-duration:4.52s" opacity="0.27"/>
+<circle class="tw" cx="392.2" cy="317.2" r="0.7" style="fill:var(--st);animation-delay:0.18s;animation-duration:4.06s" opacity="0.41"/>
+<circle class="tw" cx="486.1" cy="277.2" r="0.7" style="fill:var(--st);animation-delay:0.07s;animation-duration:3.19s" opacity="0.38"/>
+<circle class="tw" cx="456.0" cy="264.7" r="0.7" style="fill:var(--st);animation-delay:2.61s;animation-duration:3.84s" opacity="0.45"/>
+<circle class="tw" cx="642.0" cy="248.3" r="1.1" style="fill:var(--st);animation-delay:3.33s;animation-duration:4.41s" opacity="0.35"/>
+<circle class="tw" cx="17.1" cy="269.4" r="0.7" style="fill:var(--st);animation-delay:0.07s;animation-duration:4.54s" opacity="0.49"/>
+<circle class="tw" cx="370.3" cy="50.1" r="0.7" style="fill:var(--st);animation-delay:0.34s;animation-duration:4.73s" opacity="0.42"/>
+<circle class="tw" cx="283.5" cy="276.7" r="0.7" style="fill:var(--st);animation-delay:1.48s;animation-duration:3.07s" opacity="0.32"/>
+<circle class="tw" cx="39.5" cy="87.4" r="0.7" style="fill:var(--st);animation-delay:1.05s;animation-duration:3.31s" opacity="0.24"/>
+<text x="16" y="22" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="2" style="fill:var(--dm)">SANTIFER/CAREER-OPS</text>
+<text x="400" y="22" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="3" style="fill:var(--dm)" opacity="0.8">WARPCHART</text>
+<text class="cp" x="784" y="22" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700" style="fill:var(--ac)">56,680 ★</text>
+<line x1="16" y1="299.5" x2="722" y2="299.5" style="stroke:var(--gr)" stroke-dasharray="2 6"/>
+<text x="730" y="302.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" style="fill:var(--dm)">14K</text>
+<line x1="16" y1="213.0" x2="722" y2="213.0" style="stroke:var(--gr)" stroke-dasharray="2 6"/>
+<text x="730" y="216.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" style="fill:var(--dm)">28K</text>
+<line x1="16" y1="126.5" x2="722" y2="126.5" style="stroke:var(--gr)" stroke-dasharray="2 6"/>
+<text x="730" y="129.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" style="fill:var(--dm)">43K</text>
+<line x1="16" y1="40.0" x2="722" y2="40.0" style="stroke:var(--gr)" stroke-dasharray="2 6"/>
+<text x="730" y="43.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" style="fill:var(--dm)">57K</text>
+<line x1="16" y1="386" x2="722" y2="386" style="stroke:var(--bd)"/>
+<g class="wg" clip-path="url(#wipe)">
+  <path d="M 16.0 386.0 L 17.8 383.5 L 18.2 381.1 L 18.7 378.6 L 19.1 376.1 L 19.5 373.7 L 19.9 371.2 L 20.3 368.7 L 20.7 366.2 L 21.1 363.8 L 21.5 361.3 L 21.9 358.8 L 22.2 356.4 L 22.5 353.9 L 22.9 351.4 L 23.3 349.0 L 23.7 346.5 L 24.1 344.0 L 24.4 341.6 L 24.8 339.1 L 25.1 336.6 L 25.5 334.2 L 25.9 331.7 L 26.3 329.2 L 26.7 326.8 L 27.2 324.3 L 27.8 321.8 L 28.4 319.3 L 29.0 316.9 L 29.5 314.4 L 30.1 311.9 L 30.7 309.5 L 31.4 307.0 L 31.9 304.5 L 32.2 302.1 L 32.5 299.6 L 32.9 297.1 L 33.2 294.7 L 33.5 292.2 L 33.9 289.7 L 34.3 287.3 L 34.7 284.8 L 35.3 282.3 L 35.8 279.9 L 36.5 277.4 L 37.0 274.9 L 37.5 272.5 L 38.1 270.0 L 38.6 267.5 L 39.1 265.0 L 39.5 262.6 L 40.0 260.1 L 40.6 257.6 L 41.0 255.2 L 41.4 252.7 L 41.9 250.2 L 42.4 247.8 L 43.1 245.3 L 43.7 242.8 L 44.7 240.4 L 45.5 237.9 L 46.3 235.4 L 47.1 233.0 L 48.0 230.5 L 49.1 228.0 L 50.2 225.6 L 51.3 223.1 L 53.1 220.6 L 55.0 218.1 L 56.6 215.7 L 58.2 213.2 L 60.4 210.7 L 63.6 208.3 L 66.1 205.8 L 68.4 203.3 L 71.7 200.9 L 74.2 198.4 L 78.0 195.9 L 81.5 193.5 L 85.1 191.0 L 90.2 188.5 L 95.7 186.1 L 99.9 183.6 L 103.5 181.1 L 106.4 178.7 L 109.8 176.2 L 114.8 173.7 L 122.5 171.3 L 130.0 168.8 L 136.9 166.3 L 142.5 163.8 L 145.9 161.4 L 150.1 158.9 L 154.6 156.4 L 162.0 154.0 L 170.8 151.5 L 179.6 149.0 L 188.4 146.6 L 197.8 144.1 L 207.7 141.6 L 217.3 139.2 L 227.8 136.7 L 239.5 134.2 L 250.2 131.8 L 261.3 129.3 L 271.1 126.8 L 282.7 124.4 L 297.7 121.9 L 317.2 119.4 L 334.3 116.9 L 348.9 114.5 L 370.2 112.0 L 375.5 109.5 L 380.7 107.1 L 394.6 104.6 L 413.9 102.1 L 434.0 99.7 L 453.5 97.2 L 479.1 94.7 L 497.9 92.3 L 518.0 89.8 L 529.0 87.3 L 533.4 84.9 L 542.9 82.4 L 545.9 79.9 L 549.2 77.5 L 552.0 75.0 L 554.9 72.5 L 557.5 70.1 L 560.8 67.6 L 570.7 65.1 L 578.6 62.6 L 589.4 60.2 L 606.2 57.7 L 616.7 55.2 L 634.4 52.8 L 655.9 50.3 L 673.9 47.8 L 692.0 45.4 L 706.9 42.9 L 719.1 40.4 L 722.0 40.0 L 722.0 386 L 16 386 Z" fill="url(#fill)"/>
+  <g opacity="0.11"><path d="M 16.0 386.0 L 17.8 383.5 L 18.2 381.1 L 18.7 378.6 L 19.1 376.1 L 19.5 373.7 L 19.9 371.2 L 20.3 368.7 L 20.7 366.2 L 21.1 363.8 L 21.5 361.3 L 21.9 358.8 L 22.2 356.4 L 22.5 353.9 L 22.9 351.4 L 23.3 349.0 L 23.7 346.5 L 24.1 344.0 L 24.4 341.6 L 24.8 339.1 L 25.1 336.6 L 25.5 334.2 L 25.9 331.7 L 26.3 329.2 L 26.7 326.8 L 27.2 324.3 L 27.8 321.8 L 28.4 319.3 L 29.0 316.9 L 29.5 314.4 L 30.1 311.9 L 30.7 309.5 L 31.4 307.0 L 31.9 304.5 L 32.2 302.1 L 32.5 299.6 L 32.9 297.1 L 33.2 294.7 L 33.5 292.2 L 33.9 289.7 L 34.3 287.3 L 34.7 284.8 L 35.3 282.3 L 35.8 279.9 L 36.5 277.4 L 37.0 274.9 L 37.5 272.5 L 38.1 270.0 L 38.6 267.5 L 39.1 265.0 L 39.5 262.6 L 40.0 260.1 L 40.6 257.6 L 41.0 255.2 L 41.4 252.7 L 41.9 250.2 L 42.4 247.8 L 43.1 245.3 L 43.7 242.8 L 44.7 240.4 L 45.5 237.9 L 46.3 235.4 L 47.1 233.0 L 48.0 230.5 L 49.1 228.0 L 50.2 225.6 L 51.3 223.1 L 53.1 220.6 L 55.0 218.1 L 56.6 215.7 L 58.2 213.2 L 60.4 210.7 L 63.6 208.3 L 66.1 205.8 L 68.4 203.3 L 71.7 200.9 L 74.2 198.4 L 78.0 195.9 L 81.5 193.5 L 85.1 191.0 L 90.2 188.5 L 95.7 186.1 L 99.9 183.6 L 103.5 181.1 L 106.4 178.7 L 109.8 176.2 L 114.8 173.7 L 122.5 171.3 L 130.0 168.8 L 136.9 166.3 L 142.5 163.8 L 145.9 161.4 L 150.1 158.9 L 154.6 156.4 L 162.0 154.0 L 170.8 151.5 L 179.6 149.0 L 188.4 146.6 L 197.8 144.1 L 207.7 141.6 L 217.3 139.2 L 227.8 136.7 L 239.5 134.2 L 250.2 131.8 L 261.3 129.3 L 271.1 126.8 L 282.7 124.4 L 297.7 121.9 L 317.2 119.4 L 334.3 116.9 L 348.9 114.5 L 370.2 112.0 L 375.5 109.5 L 380.7 107.1 L 394.6 104.6 L 413.9 102.1 L 434.0 99.7 L 453.5 97.2 L 479.1 94.7 L 497.9 92.3 L 518.0 89.8 L 529.0 87.3 L 533.4 84.9 L 542.9 82.4 L 545.9 79.9 L 549.2 77.5 L 552.0 75.0 L 554.9 72.5 L 557.5 70.1 L 560.8 67.6 L 570.7 65.1 L 578.6 62.6 L 589.4 60.2 L 606.2 57.7 L 616.7 55.2 L 634.4 52.8 L 655.9 50.3 L 673.9 47.8 L 692.0 45.4 L 706.9 42.9 L 719.1 40.4 L 722.0 40.0" fill="none" style="stroke:var(--ac)" stroke-width="4"/></g>
+  <path d="M 16.0 386.0 L 17.8 383.5 L 18.2 381.1 L 18.7 378.6 L 19.1 376.1 L 19.5 373.7 L 19.9 371.2 L 20.3 368.7 L 20.7 366.2 L 21.1 363.8 L 21.5 361.3 L 21.9 358.8 L 22.2 356.4 L 22.5 353.9 L 22.9 351.4 L 23.3 349.0 L 23.7 346.5 L 24.1 344.0 L 24.4 341.6 L 24.8 339.1 L 25.1 336.6 L 25.5 334.2 L 25.9 331.7 L 26.3 329.2 L 26.7 326.8 L 27.2 324.3 L 27.8 321.8 L 28.4 319.3 L 29.0 316.9 L 29.5 314.4 L 30.1 311.9 L 30.7 309.5 L 31.4 307.0 L 31.9 304.5 L 32.2 302.1 L 32.5 299.6 L 32.9 297.1 L 33.2 294.7 L 33.5 292.2 L 33.9 289.7 L 34.3 287.3 L 34.7 284.8 L 35.3 282.3 L 35.8 279.9 L 36.5 277.4 L 37.0 274.9 L 37.5 272.5 L 38.1 270.0 L 38.6 267.5 L 39.1 265.0 L 39.5 262.6 L 40.0 260.1 L 40.6 257.6 L 41.0 255.2 L 41.4 252.7 L 41.9 250.2 L 42.4 247.8 L 43.1 245.3 L 43.7 242.8 L 44.7 240.4 L 45.5 237.9 L 46.3 235.4 L 47.1 233.0 L 48.0 230.5 L 49.1 228.0 L 50.2 225.6 L 51.3 223.1 L 53.1 220.6 L 55.0 218.1 L 56.6 215.7 L 58.2 213.2 L 60.4 210.7 L 63.6 208.3 L 66.1 205.8 L 68.4 203.3 L 71.7 200.9 L 74.2 198.4 L 78.0 195.9 L 81.5 193.5 L 85.1 191.0 L 90.2 188.5 L 95.7 186.1 L 99.9 183.6 L 103.5 181.1 L 106.4 178.7 L 109.8 176.2 L 114.8 173.7 L 122.5 171.3 L 130.0 168.8 L 136.9 166.3 L 142.5 163.8 L 145.9 161.4 L 150.1 158.9 L 154.6 156.4 L 162.0 154.0 L 170.8 151.5 L 179.6 149.0 L 188.4 146.6 L 197.8 144.1 L 207.7 141.6 L 217.3 139.2 L 227.8 136.7 L 239.5 134.2 L 250.2 131.8 L 261.3 129.3 L 271.1 126.8 L 282.7 124.4 L 297.7 121.9 L 317.2 119.4 L 334.3 116.9 L 348.9 114.5 L 370.2 112.0 L 375.5 109.5 L 380.7 107.1 L 394.6 104.6 L 413.9 102.1 L 434.0 99.7 L 453.5 97.2 L 479.1 94.7 L 497.9 92.3 L 518.0 89.8 L 529.0 87.3 L 533.4 84.9 L 542.9 82.4 L 545.9 79.9 L 549.2 77.5 L 552.0 75.0 L 554.9 72.5 L 557.5 70.1 L 560.8 67.6 L 570.7 65.1 L 578.6 62.6 L 589.4 60.2 L 606.2 57.7 L 616.7 55.2 L 634.4 52.8 L 655.9 50.3 L 673.9 47.8 L 692.0 45.4 L 706.9 42.9 L 719.1 40.4 L 722.0 40.0" fill="none" style="stroke:var(--ac)" stroke-width="1.5"/>
+  
+</g>
+
+<rect class="bm" x="16" y="32" width="2.5" height="360" fill="url(#beam)"/>
+<circle class="pga" cx="722.0" cy="40.0" r="5.5" fill="none" style="stroke:var(--wn)" stroke-width="1.1"/>
+<circle class="pga pgb" cx="722.0" cy="40.0" r="5.5" fill="none" style="stroke:var(--wn)" stroke-width="1.1"/>
+<circle class="dotp" cx="722.0" cy="40.0" r="7" style="fill:var(--ac)" opacity="0.22"/>
+<circle class="dotp" cx="722.0" cy="40.0" r="2.8" style="fill:var(--ac)"/>
+<g class="ss">
+  <line x1="722.0" y1="40.0" x2="698.0" y2="26.5" style="stroke:var(--wn)" stroke-width="1.1" opacity="0.7"/>
+  <circle cx="722.0" cy="40.0" r="1.6" style="fill:var(--wn)"/>
+</g>
+<circle class="fl" cx="722.0" cy="40.0" r="6" fill="none" style="stroke:var(--wn)" stroke-width="1.4"/>
+<text class="pl" x="712.0" y="30.0" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700" style="fill:var(--wn)">+1 ★</text>
+<line x1="16.0" y1="386" x2="16.0" y2="390" style="stroke:var(--dm)" opacity="0.6"/>
+<text x="16.0" y="410" text-anchor="start" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" style="fill:var(--dm)">Apr 5</text>
+<line x1="192.5" y1="386" x2="192.5" y2="390" style="stroke:var(--dm)" opacity="0.6"/>
+<text x="192.5" y="410" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" style="fill:var(--dm)">Apr 26</text>
+<line x1="369.0" y1="386" x2="369.0" y2="390" style="stroke:var(--dm)" opacity="0.6"/>
+<text x="369.0" y="410" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" style="fill:var(--dm)">May 18</text>
+<line x1="545.5" y1="386" x2="545.5" y2="390" style="stroke:var(--dm)" opacity="0.6"/>
+<text x="545.5" y="410" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" style="fill:var(--dm)">Jun 8</text>
+<line x1="722.0" y1="386" x2="722.0" y2="390" style="stroke:var(--dm)" opacity="0.6"/>
+<text x="722.0" y="410" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" style="fill:var(--dm)">Jun 30</text>
+</svg>
