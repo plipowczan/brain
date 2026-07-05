@@ -228,6 +228,14 @@ Run `npx quartz build` after bulk operations to verify. Deploy triggers on push 
 - Always update indexes after every write
 - Always work on `v4` branch
 
+## kb-template maintenance
+
+`kb-template/` is the canonical source for the published **second-brain-template** repo
+(synced via `scripts/`). **RULE: every change to anything under `kb-template/` MUST be
+recorded in `kb-template/CHANGELOG.md`** (newest entry under `## [Unreleased]`, Keep-a-
+Changelog format) so subscribers who cloned the template know what to pull. No silent
+template edits. After changing a shared skill, also run `scripts/check-kb-template-drift.sh`.
+
 ## DOX doc tree (code / harness layer)
 
 The code layer has no index, so it is documented as a DOX tree: one `AGENTS.md` per code

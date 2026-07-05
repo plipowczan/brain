@@ -17,6 +17,7 @@ canonical `kb-template/` source. See the `kb-template project` memory and `kb-te
 
 - POSIX `bash` (`#!/usr/bin/env bash`); this repo's shell is Git Bash on Windows — keep scripts portable.
 - `kb-template/` is the **source**; the standalone repo is a **publish target**. Never edit the template by hand through these scripts — edit `kb-template/` directly, then sync.
+- **Every change under `kb-template/` MUST be logged in `kb-template/CHANGELOG.md`** (`## [Unreleased]`, newest first) before syncing — subscribers read it to know what to pull.
 - After changing a shared skill, run `check-kb-template-drift.sh` before syncing.
 
 ## Verify
