@@ -114,6 +114,7 @@ Emoji icons signal observation type — visual scanning, language-agnostic, toke
 - [[Graphify]] — knowledge-graph index over arbitrary content
 - [[Open Knowledge Format (OKF)]] — a knowledge-format spec whose `index.md` files implement this pattern
 - [[HOMER — Structured Agent Memory]] — same organize-then-retrieve principle applied to long-horizon agent memory
+- [[DOX — Self-Documenting AGENTS.md]] — this exact pattern applied to a codebase: hierarchical AGENTS.md tree the agent navigates to the minimal edit
 
 ## 📖 Further reading
 [[Claude Code]]

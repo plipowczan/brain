@@ -71,6 +71,7 @@ Weak point: more overhead than lightweight harnesses like [[Karpathy Skills]] or
 ## 🔗 Resources
 
 - [[Space Agent]] — sister project built on Agent Zero, frontend runtime
+- [[DOX — Self-Documenting AGENTS.md]] — the team's `docs` framework: one AGENTS.md per folder, progressive-disclosure navigation
 - [[Agent Skills]] — open SKILL.md standard compatible with Agent Zero
 - [[Agentic Systems]] — multi-agent architectures
 - [[Harness Engineering]] — alternative approach to structuring AI work

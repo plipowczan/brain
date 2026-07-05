@@ -50,7 +50,7 @@ node space supervise HOST=0.0.0.0 PORT=3000
 
 ### 🧩 AI-driven development
 
-Space Agent is **developed by AI agents** — documentation included. A hierarchical `AGENTS.md` instruction system + skills + focused docs maintain ownership, architecture, workflows, and local rules so the agent understands the system well enough to maintain it autonomously. DeepWiki covers the human-readable layer.
+Space Agent is **developed by AI agents** — documentation included. A hierarchical `AGENTS.md` instruction system + skills + focused docs maintain ownership, architecture, workflows, and local rules so the agent understands the system well enough to maintain it autonomously. DeepWiki covers the human-readable layer. This hierarchical `AGENTS.md` pattern was later extracted and open-sourced as a standalone framework — see [[DOX — Self-Documenting AGENTS.md]].
 
 ### 🧩 Position in the ecosystem
 
