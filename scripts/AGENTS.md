@@ -19,6 +19,7 @@ canonical `kb-template/` source. See the `kb-template project` memory and `kb-te
 - `kb-template/` is the **source**; the standalone repo is a **publish target**. Never edit the template by hand through these scripts — edit `kb-template/` directly, then sync.
 - **Every change under `kb-template/` MUST be logged in `kb-template/CHANGELOG.md`** (`## [Unreleased]`, newest first) before syncing — subscribers read it to know what to pull.
 - After changing a shared skill, run `check-kb-template-drift.sh` before syncing.
+- **Before `sync-kb-template.sh`: `git -C ../second-brain-template pull` first**, and sync only from a clean brain HEAD (after pulling brain). Two checkouts syncing from different brain commits produce diverged `sync from brain@X` history and merge conflicts. The script now hard-refuses to sync onto a target that is behind its remote or mid-merge — heed it, don't force past it.
 
 ## Verify
 

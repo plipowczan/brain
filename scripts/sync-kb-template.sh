@@ -21,6 +21,23 @@ PY="$(command -v python || command -v python3 || true)"
 [ -d "$DEST/.git" ] || { echo "error: $DEST is not a git repo. Clone the template there first, or run scripts/extract-kb-template.sh." >&2; exit 1; }
 [ -n "$PY" ] || { echo "error: python not found on PATH" >&2; exit 1; }
 
+# Guard: never sync onto a diverged / mid-merge publish target — that is how you get
+# conflicting "sync from brain@X" commits from two different brain checkouts.
+if git -C "$DEST" rev-parse -q --verify MERGE_HEAD >/dev/null; then
+  echo "error: $DEST has a merge in progress. Finish it (resolve + commit) before syncing." >&2
+  exit 1
+fi
+if git -C "$DEST" rev-parse --abbrev-ref --symbolic-full-name '@{u}' >/dev/null 2>&1; then
+  echo ">> checking $DEST is up to date with its remote"
+  git -C "$DEST" fetch --quiet
+  BEHIND="$(git -C "$DEST" rev-list --count 'HEAD..@{u}')"
+  if [ "$BEHIND" -gt 0 ]; then
+    echo "error: $DEST is $BEHIND commit(s) behind its remote — pull/merge first, then re-run:" >&2
+    echo "  (cd \"$DEST\" && git pull)" >&2
+    exit 1
+  fi
+fi
+
 echo ">> mirroring kb-template/ -> $DEST (preserving .git)"
 if command -v rsync >/dev/null 2>&1; then
   rsync -a --delete \
