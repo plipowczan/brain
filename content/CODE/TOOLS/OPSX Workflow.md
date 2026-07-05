@@ -182,6 +182,7 @@ Full synthesis: [[2026-05-16_PRD-z-analizy-i-oferty]]. End-to-end pattern: [[El 
 - [[Process Mapping]] — AS-IS analysis as input to a proposal
 - [[UX RULER]] — product discovery generating artifacts for the repo
 - [[El Padre Case Study]] — a 6-week offer case mapped to spec + tasks
+- [[Spec-Driven + Self-Documenting]] — how this workflow (time axis) pairs with the DOX code map (space axis)
 
 ---
 Template: [[templates/tool]]

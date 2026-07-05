@@ -96,3 +96,4 @@ Ta architektura **to** harness engineering — konfigurowanie otoczenia agenta z
 - [[Superpowers]] — methodology framework, alternatywa dla custom workflow gates
 - [[Ruflo]] — agent orchestration platform z federacją cross-machine i SONA self-learning (peer dla naszego custom multi-agent stacku)
 - [[Everything Claude Code]] — cross-harness perf system (60 agents/230 skills) — referencja jak skalować skille/instincts/hooks
+- [[Career-Ops]] — działające referencyjne wdrożenie: jeden `AGENTS.md` + wrappery per-CLI, batch sub-agent workers, markdown/YAML/TSV jako stan

@@ -67,6 +67,18 @@ Faza **explore** to kluczowy krok, który większość osób pomija — agent od
 - [[Claude Code]] — primary AI coding assistant
 - [[Agentic Coding]] — podejście do kodowania z AI agentami
 - [[Context Engineering]] — zarządzanie kontekstem w pracy z LLM
+- [[DOX — Self-Documenting AGENTS.md]] — uzupełniające podejście: DOX mapuje *cały istniejący kod* (oś przestrzeni), OpenSpec kontraktuje *zmianę* (oś czasu)
+- [[Spec-Driven + Self-Documenting]] — synteza obu osi context engineeringu
+
+## 📁 Brownfield: jak `specs/` powstaje (nie backfilluj)
+
+`openspec init` tworzy `openspec/` (AGENTS.md, project.md, puste `specs/` + `changes/`) i skille/komendy — **ale nie generuje specyfikacji**. To celowe. Repo wprost: *"Your `openspec/specs/` directory doesn't start full and complete. It starts nearly empty and accumulates."* oraz *"Resist the urge to back-fill everything."*
+
+Model działania:
+- `openspec/specs/` = źródło prawdy, ale **tylko dla capabilities, które świadomie specyfikowałeś**. Nie jest mapą całego repo.
+- Nietknięty obszar → agent czyta **realny kod** przez `/opsx:explore`, nie `specs/`.
+- Delta w `changes/<id>/specs/` używa nagłówków `## ADDED / MODIFIED / REMOVED Requirements` (RFC 2119 + `#### Scenario:` GIVEN/WHEN/THEN); `archive` wlewa deltę do `specs/` i przenosi change do `changes/archive/YYYY-MM-DD-nazwa/`.
+- Chcesz baseline dla gorącego obszaru? Zrób *jeden* targetowany change „document current behavior" (`## ADDED Requirements` opisujące stan obecny) → archive. Nie hurtowo. Dla mapy całego istniejącego kodu użyj [[DOX — Self-Documenting AGENTS.md]].
 
 ---
 Template: [[templates/tool]]

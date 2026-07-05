@@ -64,6 +64,15 @@ Result: the context window fills with exactly the relevant chain and nothing els
 
 **Demo:** told Codex to change the plugins screen background to red — the agent re-read the doc chain top-down (important: it re-reads because docs may have changed), found the right screen-scoped style file, made the edit, updated the markdown docs, and verified syntax. Note: only ~41 GitHub stars at recording — very fresh, unproven at scale.
 
+## 🔀 DOX vs spec-driven (OpenSpec) — two axes, complementary
+
+DOX and [[OpenSpec]] / [[Specification-Driven Development]] attack the same enemy — poor agent context awareness — on **different axes**, so they compose rather than compete:
+
+- **DOX = space.** A tree that maps the **whole existing codebase** — *where* to edit, which conventions hold. `Initialize DOX tree` deliberately documents everything up front.
+- **OpenSpec = time.** Versioned artifacts describing **a change** — *what* to build and *why*, before writing code. Its `openspec/specs/` covers **only capabilities you've deliberately specified**, and by design does *not* backfill existing code (*"Resist the urge to back-fill everything"*).
+
+That split is exact and useful: OpenSpec leaves untouched code undocumented (the agent reads the raw code via `explore`) — precisely the gap DOX's `AGENTS.md` tree fills. Use DOX as the always-current map of *what exists and where*; use OpenSpec as the contract for *what changes*. Full synthesis: [[Spec-Driven + Self-Documenting]].
+
 ## ✍️ Takeaways
 
 - **Minimum context, minimal edit** — the whole design goal. Right-size context, don't maximize it. ([[Context Engineering]], [[Token Optimization for Claude Code]])
@@ -85,6 +94,10 @@ Result: the context window fills with exactly the relevant chain and nothing els
 - [[Open Knowledge Format (OKF)]] — markdown-per-node knowledge representation for agents
 - [[LLM Knowledge Bases]] — the same tightly-coupled-markdown idea for personal knowledge
 - [[Agentic Coding]] — designing the agent's environment instead of writing code
+- [[OpenSpec]] — spec-driven counterpart: versioned change contracts (time axis) to DOX's code map (space axis)
+- [[Specification-Driven Development]] — the methodology OpenSpec formalizes; complementary to the DOX doc tree
+- [[Spec-Driven + Self-Documenting]] — synthesis article: the two axes of agent context engineering
+- [[Career-Ops]] — a shipped tool using the single-`AGENTS.md` + per-CLI-wrapper pattern
 
 ---
 Template: [[templates/knowledge_note_info]]

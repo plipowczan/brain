@@ -137,7 +137,7 @@ Weak spot: 17 bundled workflows is a lot of abstraction to learn. I'll probably 
 - **GitHub Actions + Claude Code** — works, but no worktree isolation and no AI loop nodes with fresh context
 - **n8n / Zapier** — workflow engines, but not designed for git/coding context
 
-See [[Loop Engineering]] for how Archon extracts the good parts of self-prompting loops into deterministic, cost-controlled workflows.
+See [[Loop Engineering]] for how Archon extracts the good parts of self-prompting loops into deterministic, cost-controlled workflows, and [[Loop Engineering (cobusgreyling)]] for the lighter patterns + readiness-audit CLIs.
 
 ## 🔗 Resources
 

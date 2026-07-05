@@ -33,6 +33,9 @@ Also known as **SDD** (Specification-Driven Development). The **OpenSpec** frame
 [[Agentic Coding]]
 [[Context Engineering]]
 [[PRD Methodologies and Templates]] — SDD frameworks (Spec Kit, BMAD) in the wider PRD landscape
+[[OpenSpec]] — the tool implementing SDD; note its brownfield rule: specs accumulate lazily, no backfill
+[[DOX — Self-Documenting AGENTS.md]] — complementary: SDD specifies *changes* (time), DOX maps *existing code* (space)
+[[Spec-Driven + Self-Documenting]] — synthesis of the two axes
 
 ---
 Template: [[templates/knowledge_note_info]]
