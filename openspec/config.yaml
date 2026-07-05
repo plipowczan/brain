@@ -1,20 +1,29 @@
 schema: spec-driven
 
-# Project context (optional)
-# This is shown to AI when creating artifacts.
-# Add your tech stack, conventions, style guides, domain knowledge, etc.
-# Example:
-#   context: |
-#     Tech stack: TypeScript, React, Node.js
-#     We use conventional commits
-#     Domain: e-commerce platform
+# Project context — always shown to the AI when creating OpenSpec artifacts.
+context: |
+  Project "brain": Obsidian vault + Quartz 4 SSG → GitHub Pages (https://brain.lipowczan.pl/).
+  Deploy on push to the `v4` branch via GitHub Actions.
 
-# Per-artifact rules (optional)
-# Add custom rules for specific artifacts.
-# Example:
-#   rules:
-#     proposal:
-#       - Keep proposals under 500 words
-#       - Always include a "Non-goals" section
-#     tasks:
-#       - Break tasks into chunks of max 2 hours
+  Two layers live in this repo:
+  - content/<TOPIC>/  — English-only markdown wiki notes. Governed by the LLM Knowledge
+    Base Agent described in CLAUDE.md: ingest → compile → index → answer → lint → enhance.
+    Navigation is progressive disclosure: read _indexes/vault-map.md → catalog.md → note;
+    never grep all of content/. Every note needs frontmatter; new notes get agent-created: true.
+    The 3 indexes (_indexes/vault-map.md, catalog.md, graph.md) MUST be updated after every
+    note create/edit/delete.
+  - code/harness — quartz/ (SSG, treat as vendored/off-limits), scripts/ (kb-template sync),
+    brain-mcp/ (TS MCP server exposing vault search), .claude/skills/ (the workflow skills).
+    This layer is documented by a scoped DOX AGENTS.md tree (root AGENTS.md + per-code-folder).
+
+  Build: `npx quartz build` (prod), `npx quartz build --serve` (dev), `npm install` (deps).
+  Safety: never modify .obsidian/, quartz/, .github/. Always work on the `v4` branch.
+
+# Per-artifact rules — appended to the matching artifact's generation prompt.
+rules:
+  proposal:
+    - Name which content folders and which of the 3 indexes (vault-map/catalog/graph) the change touches
+    - Add a "Non-goals" section
+  tasks:
+    - Always include an "update vault-map.md / catalog.md / graph.md indexes" task whenever notes are created, edited, or deleted
+    - Include a `npx quartz build` verification task for bulk content operations
