@@ -40,6 +40,7 @@ This vault is a hand-built version of exactly what OpenKB automates: a compiled,
 - **Karpathy's manual workflow** — web clipper → `.md`, LLM compiles; OpenKB adds long-doc PageIndex, automatic entity extraction, broad format support, and CLI agent integration.
 - [[Graphify]] / [[LightRAG]] / [[CocoIndex]] — embedding- or graph-based RAG/indexing; OpenKB is the vectorless, persistent-wiki approach.
 - [[Open Notebook]] — NotebookLM-style chat-with-sources, not a compiled wiki.
+- [[OpenWiki]] — langchain-ai's code-specific counterpart: compiles a wiki of your *codebase* for agents, kept fresh by a daily-PR GitHub Action.
 
 ## Resources
 - The Stack: [[PageIndex]], markitdown, OpenAI Agents SDK, LiteLLM, Click, watchdog.

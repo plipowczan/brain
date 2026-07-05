@@ -98,6 +98,7 @@ That split is exact and useful: OpenSpec leaves untouched code undocumented (the
 - [[Specification-Driven Development]] — the methodology OpenSpec formalizes; complementary to the DOX doc tree
 - [[Spec-Driven + Self-Documenting]] — synthesis article: the two axes of agent context engineering
 - [[Career-Ops]] — a shipped tool using the single-`AGENTS.md` + per-CLI-wrapper pattern
+- [[OpenWiki]] — the automated counterpart: an LLM regenerates a code wiki on a schedule and wires it into `AGENTS.md`/`CLAUDE.md`
 
 ---
 Template: [[templates/knowledge_note_info]]
