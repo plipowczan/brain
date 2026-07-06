@@ -33,6 +33,7 @@ The browsing layer for agentic web automation — the same slot as [[Browser Use
 
 ## Alternatives considered
 
+- [[CloakBrowser]] — the Chromium counterpart: same C++-level source patches, but keeps the native Playwright/Puppeteer API and adds `humanize` behavioral spoofing (vs Camofox's accessibility-tree token savings).
 - [[Browser Use]] / [[Browser Harness]] — agent browsing without the C++-level anti-detection focus.
 - Commercial stealth-scraping APIs — do the same fingerprint evasion but charge per request.
 - Underlying engine: [daijro/camoufox](https://github.com/daijro/camoufox) — the Firefox fork itself, if you want to build your own wrapper.
@@ -48,6 +49,7 @@ Anti-detection browsing is dual-use — appropriate for agents accessing sites y
 
 ## 🔗 Related notes
 
+- [[CloakBrowser]] — Chromium-fork sibling, same C++-level stealth idea
 - [[Browser Use]] · [[Browser Harness]] — adjacent agent-browsing tools
 - [[Firecrawl]] · [[Bright Data]] — data-acquisition layer
 - [[Headroom]] — also cuts agent token cost, different layer

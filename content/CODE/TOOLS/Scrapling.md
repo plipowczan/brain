@@ -87,6 +87,7 @@ scrapling extract stealthy-fetch '...' out.html --solve-cloudflare
 
 ## 🔗 Related
 - [[Firecrawl]] — managed scraping/crawling (if present in the wiki, otherwise the `firecrawl` skill)
+- [[CloakBrowser]] · [[Camofox Browser]] — stealth C++-patched browsers Scrapling's fetchers can sit behind (CloakBrowser ships a Scrapling integration)
 - [[Agent Zero]], [[Hermes Agent]] — agentic frameworks that can use Scrapling as a tool
 - [[LightRAG]] — pipeline for indexing scraped data
 

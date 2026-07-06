@@ -66,6 +66,7 @@ Relevant as an external reference for [[LinkedIn Strategy]] — his data-backed 
 ## 📖 Further reading
 - [[LinkedIn Strategy]] — personal data-driven strategy in the same vein
 - [[Build in Public]] — adjacent content philosophy
+- [[Social Media Algorithms — Maximizing Reach in 2026]] — 2026 cross-platform algorithm research, including the LinkedIn 360Brew ranker and reach-compression trend
 
 ---
 Template: [[templates/knowledge_note_info]]

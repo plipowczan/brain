@@ -29,6 +29,7 @@ A content and business strategy where you share the real process of building you
 ## 📖 Further reading
 [[LinkedIn Strategy]]
 [[My career path]]
+[[Social Media Algorithms — Maximizing Reach in 2026]]
 
 ---
 Template: [[templates/knowledge_note_info]]

@@ -46,6 +46,7 @@ My approach to LinkedIn content, based on data from 31 posts analyzed (Feb-Apr 2
 ## 📖 Further reading
 - [[Build in Public]]
 - [[Richard van der Blom]] — external LinkedIn algorithm research and Algorithm Insights Report
+- [[Social Media Algorithms — Maximizing Reach in 2026]] — cross-platform 2026 reference; LinkedIn section covers the 360Brew LLM ranker, dwell time, and saves as the top signals
 
 ---
 Template: [[templates/knowledge_note_info]]
