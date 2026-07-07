@@ -55,6 +55,7 @@ Key reasons to reach for it:
 - DeepWiki Q&A: https://deepwiki.com/opendatalab/MinerU
 - Papers: MinerU2.5-Pro (arXiv 2604.04771), MinerU-Diffusion (2603.22458), MinerU 2.5 (2509.22186), original MinerU (2409.18839)
 - Related vault notes: [[LLM Knowledge Bases]], [[OpenKB]], [[CocoIndex]], [[LightRAG]], [[AI Chatbots Architecture]]
+- [[OpenMed]] — downstream complement: parse documents with MinerU, then extract clinical entities / de-identify PII on-device
 
 ---
 Template: [[templates/tool]]

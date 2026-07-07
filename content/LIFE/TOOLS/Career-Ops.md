@@ -89,6 +89,7 @@ The human-in-the-loop line — *the system never submits an application* — is 
 ## 📖 Further reading
 
 - [[DOX — Self-Documenting AGENTS.md]] — the single-AGENTS.md, per-CLI-wrapper pattern career-ops uses
+- [[AI Job Search]] — sibling job-application framework on Claude Code; leads with drafter-reviewer + PDF/ATS verification where career-ops leads with offer scoring
 - [[Claude Code]] — the primary host CLI
 - [[Agentic Systems]] — my notes on building this class of system
 - [[Loop Engineering]] · [[Archon]] — human-in-the-loop and batch-worker patterns

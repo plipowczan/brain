@@ -56,6 +56,7 @@ Local voice cloning for personal projects, dictation across all apps, giving any
 ## 🔗 Related notes
 
 - [[TTS Engines Comparison (Polish)]] — where Voicebox's TTS engines (Kokoro, Chatterbox, Qwen3-TTS) sit vs cloud rivals for Polish
+- [[Pocket TTS]] — Kyutai's 100M CPU-only TTS engine; candidate 8th engine, same local-first philosophy
 - [[Claude Code]] — primary MCP host
 - [[Personal AI Infrastructure]] — DA voice personas
 - [[Hermes Agent]] — agent that benefits from spoken output

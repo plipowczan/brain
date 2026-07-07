@@ -47,6 +47,7 @@ Chatterbox is the **final tier** in [[Travelcast AI]]'s multi-provider TTS fallb
 - 📘 [Chatterbox repo](https://github.com/resemble-ai/chatterbox)
 - 📊 [[TTS Engines Comparison (Polish)]] — broader TTS provider comparison
 - 🔗 [[ElevenLabs]] · [[OpenAI]] — the cloud tiers above it
+- 🔗 [[Pocket TTS]] — Kyutai's 100M CPU-only TTS; even lighter local tier (no GPU, no torch-CUDA)
 
 ---
 Template: [[templates/tool]]

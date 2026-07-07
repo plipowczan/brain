@@ -32,6 +32,7 @@ Key components:
 
 ## Resources
 [NVIDIA Nemotron](https://developer.nvidia.com/nemotron)
+- [[Hugging Bay]] — torrent/mirror registry for open model weights (unverified); relevant to sourcing weights for self-hosted inference
 
 ---
 Template: [[templates/tool]]
