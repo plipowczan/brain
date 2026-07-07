@@ -7,7 +7,8 @@ tags: ["tool", "ai", "llm", "models", "registry", "torrent", "open-source", "dis
 type: tool
 source: "_raw/processed/2026-07-07_Post by Charly Wargnier on LinkedIn.md"
 agent-created: true
-summary: "huggingbay.xyz — 'Pirate Bay for open LLMs': a verified artifact registry distributing open model weights via torrents and mirrors, with provenance/license checks and semantic-rerank search. Known only from a LinkedIn post — unverified."
+agent-reviewed: 2026-07-07
+summary: "huggingbay.xyz — 'Pirate Bay for open LLMs': artifact registry distributing open model weights via torrents and hash-checked mirrors. Site verified live 2026-07-07; operator anonymous, 'verified' = metadata provenance + license clarity + community signals, no cryptographic signing."
 ---
 
 # Hugging Bay
@@ -29,17 +30,18 @@ Positioning vs Hugging Face (from the post's addendum): HF is the centralized ec
 
 ## ⚠️ Verification status
 
-**Unverified — single-source note.** Everything above comes from one LinkedIn post ([Charly Wargnier](https://www.linkedin.com/in/charlywargnier/), 2026-07-06); I have not used the service. Signals from the comment thread itself:
+**Re-verified 2026-07-07** (site fetch + web search). Findings:
 
-- **Site reliability**: multiple commenters reported **502 errors** trying to open huggingbay.xyz.
-- **Trust concerns**: commenters flagged the obvious risk — a torrent registry is a prime channel for **trojanized model weights**; "provenance-checked" is a claim, not an audit. One commenter: "Not sure why I would trust this rather than going directly to the source."
-- **Utility question**: if it only mirrors genuinely open weights already on HF, the value is resilience/bandwidth, not access.
+- **Site is live** — the launch-day 502s from the LinkedIn thread are resolved. Self-description: "verified open-source AI artifact registry with broad catalog metadata, source provenance, license clarity, community trust signals" and selective hosted mirrors. Agent-friendly by design: robots.txt AI guidance, OpenAPI docs, agent manifest, plus a browser-extension overlay for Hugging Face.
+- **What "verified" actually means** — catalog metadata + source provenance + license clarity + community trust signals; hosted mirrors ship **file hashes**. A "needs first review" ranking implies human/community review. **No cryptographic signing, no stated audit process** — hashes prove integrity of *their* mirror, not that the weights match the original publisher's.
+- **Operator still anonymous** — no organization or individual identified anywhere on the site. The core trust concern from the launch thread stands.
+- **"Hugging Bay" is also a meme-turned-movement** — the viral post spawned at least two independent open-source clones: [DrMaxis/the-hugging-bay](https://github.com/drmaxis/the-hugging-bay) (Laravel/Vue torrent index PoC, MIT, ~55 stars, no file hosting) and [nagaoo0/hugging-bay.org](https://github.com/nagaoo0/hugging-bay.org) (Go + Next.js + Meilisearch + opentracker, SHA-256/512 + BLAKE3 verification, built-in tracker). Neither is confirmed as huggingbay.xyz's codebase.
 
-#todo re-verify: does the site work, who runs it, what does "verified" actually mean (signatures? hash pinning? manual review?).
+**Bottom line:** functional and more substantial than a meme site, but anonymous operator + no signature chain means the original advice holds — use it for discovery/resilience, pull weights from the original publisher when it matters.
 
 ## Reasoning for
 
-Interesting as a **distribution-resilience signal**, not (yet) as a tool I'd use: open-weight availability currently has a single point of failure in Hugging Face, and torrent-based mirroring is the obvious decentralization move. Relevant to any self-hosted inference setup ([[NemoClaw]]) that depends on pulling weights. Until verified, treat as "watch this space" — download weights from the original publisher.
+Interesting as a **distribution-resilience signal**, not (yet) as a tool I'd use: open-weight availability currently has a single point of failure in Hugging Face, and torrent-based mirroring is the obvious decentralization move. Relevant to any self-hosted inference setup ([[NemoClaw]]) that depends on pulling weights. Verified live (2026-07-07) and agent-friendly (OpenAPI + agent manifest), but with an anonymous operator and no signature chain: use for discovery and resilience, download weights from the original publisher when integrity matters.
 
 ## Alternatives considered
 
