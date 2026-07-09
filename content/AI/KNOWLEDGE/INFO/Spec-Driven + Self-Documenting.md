@@ -6,7 +6,8 @@ openToc: true
 tags: ["knowledge", "info", "ai", "context-engineering", "coding-agents", "specs", "sdd", "documentation", "progressive-disclosure"]
 type: compiled-note
 agent-created: true
-summary: "Two axes of agent context engineering: OpenSpec (spec-driven, time — versioned change contracts) and DOX (self-documenting, space — a map of existing code). Complementary, not divergent."
+agent-reviewed: 2026-07-09
+summary: "Two axes of agent context engineering: OpenSpec (spec-driven, time — versioned change contracts) and DOX (self-documenting, space — a map of existing code). Complementary, not divergent — plus a third intent regime (docs/) and the retrofit-not-Initialize adoption rule for repos that already have AGENTS.md."
 ---
 
 # Spec-Driven + Self-Documenting
@@ -33,6 +34,8 @@ Both answer with the same principle from [[Context Engineering]]: not *more* con
 
 - **OpenSpec = time.** Its unit is a *change*. Artifacts describe what should be true after the change, versioned so intent survives across sessions and doesn't rot in chat history.
 - **DOX = space.** Its unit is a *folder*. The tree of `AGENTS.md` files mirrors the directory structure, so the agent walks the shortest documented path to the code it must touch.
+
+> Two players in the clean theory — but a mature repo surfaces a **third** documentation store (`docs/`, organized by *intent*). See *The third regime* below.
 
 ## ☘️ Why they are complementary, not divergent
 
@@ -73,12 +76,43 @@ A realistic loop on an existing project:
 
 Net: the DOX tree keeps *where/what-exists* fresh; OpenSpec keeps *what-changed/why* versioned. Both are [[Progressive Disclosure]] — logarithmic navigation over a hierarchy instead of dumping everything into the window — applied to two different dimensions of the same problem. Same math as [[HOMER — Structured Agent Memory]] and the index-first protocol this vault ([[Brain]]) runs on.
 
+## 🧭 The third regime: intent (`docs/`)
+
+Two axes is the clean theory. A mature repo usually runs a **third** documentation store that is neither space nor time: a `docs/` tree organized by **intent** — typically `decisions/` (*why* we chose X — ADRs), `operations/` (*how* to run, deploy, test), `knowledge/` (durable context not in the code: external APIs, system designs, business rules). Call it the **intent** regime.
+
+So the real picture is three regimes, each owning a different question:
+
+| Regime | Owns | Question | Store |
+|--|--|--|--|
+| **Space** ([[DOX — Self-Documenting AGENTS.md]]) | where code lives + conventions | *where do I edit, under which rules?* | `AGENTS.md` tree |
+| **Time** ([[OpenSpec]]) | the contract of a change | *what should be true after this change, and why?* | `openspec/specs/` + `changes/` |
+| **Intent** (`docs/`) | durable narrative context | *why is it like this / how do I operate it?* | `docs/{decisions,operations,knowledge}` |
+
+The rule that keeps them from colliding: **`AGENTS.md` is the map — it *links* to `openspec/` and `docs/`, it never *duplicates* them.** A convention goes in `AGENTS.md`; a change contract goes in `openspec/`; durable "why/how" narrative goes in `docs/`. When an `AGENTS.md` needs to convey rationale or deep context, it links to the openspec change or the docs note instead of copying the body — otherwise you re-create the exact drift DOX exists to kill.
+
+One honest overlap to watch: `docs/decisions/` (ADRs) and `openspec/changes/` **both** capture "*why we chose X*." They can coexist, but draw the line deliberately — e.g. openspec owns *in-flight / spec'd* change rationale, `docs/decisions/` owns *standalone* architecture decisions — or you end up with two "why" stores drifting apart.
+
+## 🗺️ Retrofit, not greenfield — adopting DOX where AGENTS.md already exists
+
+The two-axes table lists DOX's brownfield bootstrap as *"yes — `Initialize DOX tree`."* That's right for a repo with **no** agent docs. But many repos already carry a scatter of hand-written `AGENTS.md` files. There, `Initialize DOX tree` is the wrong move — it regenerates from scratch and **overwrites** the human-tuned docs. The correct adoption is a **retrofit**: keep the existing files, add the missing DOX *discipline* and *connective tissue* on top.
+
+A half-built DOX tree has recognizable **diagnostic signatures** — check for these before adopting:
+
+- **`CLAUDE.md` duplicates `AGENTS.md`.** Two per-folder instruction files with overlapping bodies = two sources of truth that drift. Fix: one canonical (`AGENTS.md`), the other a thin `@AGENTS.md` pointer.
+- **The navigation chain snaps mid-tree.** A parent `AGENTS.md` doesn't link its children, so those child docs are orphans the agent never reaches. Fix: every node with children indexes them.
+- **No read-before / update-after discipline.** The files are static snapshots with no rule tying them to code edits → they rot. Fix: state the discipline in the root `AGENTS.md` (which is always in context, so it governs the whole tree).
+- **Coverage holes.** Folders with no `AGENTS.md`. Fill them **lazily** — create the doc the first time an agent edits that folder (real context beats a speculative stub), matching DOX's own *minimum-context* principle instead of bulk-generating.
+
+Retrofit ≠ init: on a repo that already speaks `AGENTS.md`, you adopt the *rules*, not the generator.
+
 ## ✍️ Takeaways
 
 - **Not either/or.** Spec-driven and self-documenting are orthogonal — time vs space — and strongest combined.
 - **`specs/` is not a codebase map.** By design it only covers specified capabilities; don't backfill. Use DOX for the full-code map.
 - **The agent reads code, not specs, for untouched areas.** `/opsx:explore` over raw code (or over the DOX tree) is where current-state awareness comes from — not an auto-generated spec dump.
 - **Both are progressive disclosure.** Right-size context from opposite ends; see [[Context Engineering]] and [[Token Optimization for Claude Code]].
+- **Two axes, three regimes in practice.** A real repo adds `docs/` (intent) beside space/time; the load-bearing rule is *`AGENTS.md` links, never duplicates* the other two.
+- **Adopt DOX by retrofit, not `Initialize`, when `AGENTS.md` already exists.** The greenfield init overwrites hand-written docs — instead add the discipline and repair the broken indexes. Watch for the half-built signatures: dup `CLAUDE.md`/`AGENTS.md`, orphaned child docs, no update-after-edit rule.
 
 ## 📖 Further reading
 
