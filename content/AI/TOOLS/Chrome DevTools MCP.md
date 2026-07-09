@@ -64,7 +64,7 @@ Privacy/security notes: exposes full browser content to the MCP client — don't
 - 🔗 Tool reference: https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/docs/tool-reference.md
 - 🔗 CLI docs: https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/docs/cli.md
 - 🔗 Connecting to a running Chrome instance: https://github.com/ChromeDevTools/chrome-devtools-mcp#connecting-to-a-running-chrome-instance
-- See also: [[Claude Code]], [[Awesome Claude Code]], [[Qamera AI]], [[Storybook]]
+- See also: [[Claude Code]], [[Awesome Claude Code]], [[Qamera AI]], [[Storybook]], [[Codebase Memory MCP]] (sibling MCP server — static code intelligence rather than live-browser control)
 
 ---
 Template: [[templates/tool]]

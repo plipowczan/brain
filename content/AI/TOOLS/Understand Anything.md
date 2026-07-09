@@ -65,6 +65,8 @@ The natural complement to [[Graphify]] — both turn code/docs into a queryable 
 - [[Brain]] — this vault is a candidate input for `/understand-knowledge`
 - [[Claude Code]] · [[Awesome Claude Code]] — primary host and discovery surface
 - [[Progressive Disclosure]] — index-first exploration, the same instinct as guided tours
+- [[Structural Retrieval for Code]] — the lane map (tree-sitter vs LSP vs SCIP vs grep) this tool sits in
+- [[Serena]] · [[MCP Language Server]] — the type-accurate LSP alternative to this tool's tree-sitter graph
 
 ---
 Template: [[templates/tool]]

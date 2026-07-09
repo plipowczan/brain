@@ -92,11 +92,13 @@ Caveat from the presenter: raw numerical results are "not really that okay" on s
 - Source video: [Structured AI Memory (Faster, Less Token)](https://www.youtube.com/watch?v=sMX5bY3OvJM) — Discover AI, 29:42
 - Paper: *Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents* (Duke + Snowflake AI Research, June 10 2026)
 - [[Progressive Disclosure]] — same index-first / structure-beats-search principle, applied to KBs
+- [[Structural Retrieval for Code]] — the "similarity ≠ causality" argument applied to code retrieval (structural beats vector)
 - [[Context Engineering]] — managing the attention budget of LLM agents
 - [[Loop Engineering]] — self-improving loops over single prompts
 - [[Harness Engineering]] — optimizing the agent runtime, where this memory layer lives
 - [[Agent Skills]] — the skill-evolution side of the loop
 - [[Token Optimization for Claude Code]] — the token-cost lens
+- [[SkillWeaver — Compositional Skill Routing]] — same draft→probe→rewrite loop, applied to tool retrieval over huge MCP libraries
 
 ---
 Template: [[templates/knowledge_note_info]]

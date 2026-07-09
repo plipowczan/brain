@@ -91,6 +91,8 @@ Run once to backfill. Re-run anytime — only changed files re-embed.
 
 - [[LightRAG]] — RAG framework with KG entity extraction; pairs well as the *retrieval* layer downstream of CocoIndex
 - [[Graphify]] — knowledge-graph generator skill
+- [[Codebase Memory MCP]] — code-only counterpart: static-binary MCP server that builds a persistent tree-sitter/Hybrid-LSP code graph; overlaps CocoIndex-code's AST-aware incremental index but adds Cypher queries and git-diff impact mapping
+- [[Structural Retrieval for Code]] — the full taxonomy of code-retrieval lanes; CocoIndex-code is the incremental-AST entry
 - [[Brain]] — this vault; candidate ingestion target
 - [[Google Cloud Knowledge Catalog]] — Google's managed data-catalog / knowledge-graph take on the same context problem
 - [[LLM Knowledge Bases]]

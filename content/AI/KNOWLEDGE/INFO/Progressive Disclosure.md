@@ -112,6 +112,9 @@ Emoji icons signal observation type — visual scanning, language-agnostic, toke
 - [[LLM Knowledge Bases]] — Obsidian vault here uses index-first navigation (`vault-map.md` → `catalog.md` → notes)
 - [[Token Optimization for Claude Code]] — tools that operationalize this pattern
 - [[Graphify]] — knowledge-graph index over arbitrary content
+- [[Codebase Memory MCP]] — the pattern applied to source code: one graph query (~3.4k tokens) replaces file-by-file grep (~412k tokens), a 99.2% cut
+- [[Structural Retrieval for Code]] — the code-retrieval lanes (LSP / graph / grep) that operationalize index-first over source
+- [[SkillWeaver — Compositional Skill Routing]] — the pattern applied to tool/skill selection: retrieve a shortlist per sub-task instead of loading the whole MCP library (~884k → ~1.2k tokens/query)
 - [[Open Knowledge Format (OKF)]] — a knowledge-format spec whose `index.md` files implement this pattern
 - [[HOMER — Structured Agent Memory]] — same organize-then-retrieve principle applied to long-horizon agent memory
 - [[DOX — Self-Documenting AGENTS.md]] — this exact pattern applied to a codebase: hierarchical AGENTS.md tree the agent navigates to the minimal edit

@@ -117,6 +117,7 @@ Weak points:
 - **Naive RAG (BAAI/bge-m3 + simple top-k)** — enough for 80% of use cases, simpler, cheaper
 - **MiniRAG** — same family, for small models
 - **[[Graphify]]** — code/docs → queryable KG, but that's a skill, not a full RAG framework
+- **[[Structural Retrieval for Code]]** — for *code* specifically, LightRAG's doc-oriented KG-RAG is the wrong lane; structural (LSP / def-ref graph / grep) beats it
 
 ## 🔗 Resources
 
