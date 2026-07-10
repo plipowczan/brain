@@ -99,6 +99,7 @@ Caveat from the presenter: raw numerical results are "not really that okay" on s
 - [[Agent Skills]] — the skill-evolution side of the loop
 - [[Token Optimization for Claude Code]] — the token-cost lens
 - [[SkillWeaver — Compositional Skill Routing]] — same draft→probe→rewrite loop, applied to tool retrieval over huge MCP libraries
+- [[Swarm Research — Orchestrating Coding Agents]] — same channel; on-disk (Git work-tree) memory for an agent *swarm* rather than a single agent's memory tree
 
 ---
 Template: [[templates/knowledge_note_info]]

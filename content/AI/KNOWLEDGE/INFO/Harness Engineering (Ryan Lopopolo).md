@@ -113,6 +113,7 @@ Systematize capturing *all* human feedback — every review comment, interrupt, 
 - [Talk: Harness Engineering — How to Build Software When Humans Steer and Agents Execute](https://www.youtube.com/watch?v=c8bE0cj7vHY) (AI Native Dev, 2026-06-19)
 - [[Harness Engineering]] — concept note with the HumanLayer / Viv Trivedy lineage and the CLAUDE.md/MCP/skills/sub-agents/hooks levers
 - [[Harness Engineering in Practice]] — HOWTO applying this talk's playbook to my agentic projects
+- [[Swarm Research — Orchestrating Coding Agents]] — implements the Lilian Weng "harness engineering for self-improvement" patterns (file-system memory, sub-agents) as a coding-agent swarm
 - Ryan's OSS where he applies these techniques: `artichoke/rand_mt` (Mersenne Twister in Rust)
 
 ---
