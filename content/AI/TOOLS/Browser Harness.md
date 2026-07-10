@@ -7,6 +7,7 @@ tags: ["tool", "ai", "agents", "browser", "harness", "cdp", "self-improving", "o
 type: tool
 source: "_raw/inbox/Self-healing harness that enables LLMs to complete any task.md"
 agent-created: true
+agent-reviewed: 2026-07-10
 summary: "Thin self-healing CDP harness (~1k lines) that connects an LLM directly to your real browser — agent writes the missing helpers itself at runtime"
 ---
 
@@ -41,6 +42,14 @@ agent writes it → + custom helper
 
 **Skills are written by the harness, not by you.** When the agent figures something non-obvious out, it files the skill itself. Don't hand-author skill files — agent-generated ones reflect what actually works in the browser.
 
+## 🛠️ Install & bring-up (verified 2026-07-10)
+
+Distribution has converged: the harness now ships **inside the `browser-use` pip package** — `uv tool install browser-use` (pkg v0.13.3) gives you the CLI `browser-use`, and `browser-use --doctor` self-identifies as `browser-harness`. The `browser-use` CLI *is* this harness. `browser-use --version` reports the internal `0.1.4`, not the pip version.
+
+Day-to-day: `browser-use <<'PY' ... PY` heredocs, helpers pre-imported (`new_tab`, `page_info`, `js`, `click_at_xy`, `fill_input`, `wait_for_load`…). First navigation must be `new_tab(url)`. No LLM key needed in this mode — the agent writes the Python; keys are only for the framework `Agent(...)` loop or the hosted cloud agent.
+
+Full real-world Windows bring-up (no Chrome → isolated Edge over CDP, `BU_CDP_WS`, launcher, skill install, gotchas): **[[Running Browser Use on Windows via Edge CDP]]**.
+
 ## Reasoning for
 
 For browser tasks where you need **complete freedom** — no opinionated framework boxing you in. Lets a competent coding agent build a per-site automation library on the fly. Pair with [[Browser Use]] Cloud for stealth/proxies when needed.
@@ -67,6 +76,7 @@ For browser tasks where you need **complete freedom** — no opinionated framewo
 - [[Video Use]] — sibling, video editing under same philosophy
 - [[Claude Code]] — primary host agent
 - [[Awesome Claude Code]] — broader CC ecosystem
+- [[Running Browser Use on Windows via Edge CDP]] — verified Windows bring-up how-to
 
 ---
 Template: [[templates/tool]]

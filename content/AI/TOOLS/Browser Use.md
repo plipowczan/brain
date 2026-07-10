@@ -52,6 +52,7 @@ For tasks where a coding agent needs to actually click around: form filling, scr
 
 - [The Bitter Lesson of Agent Harnesses](https://browser-use.com/posts/bitter-lesson-agent-harnesses)
 - [Web Agents That Actually Learn](https://browser-use.com/posts/web-agents-that-actually-learn)
+- [[Running Browser Use on Windows via Edge CDP]] — verified local bring-up (the pip package ships the [[Browser Harness]] CDP CLI)
 
 ---
 Template: [[templates/tool]]
