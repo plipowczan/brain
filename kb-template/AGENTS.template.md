@@ -112,6 +112,8 @@ Each workflow is a skill with a matching slash command:
 - **REFACTOR** (`/refactor`) — rename/move/merge/split notes with automatic wikilink + index repair.
 - **GAPS** (`/gaps`) — coverage analysis: weakly-connected notes, missing topics, thin areas.
 - **CURATE** (`/curate`) — staleness/relevance hygiene: scores notes (age, isolation, dead links, duplication), proposes archive/merge/refresh, retires confirmed notes to `_graveyard/` (reversible, gated on confirmation).
+- **EXPORT** (`/export`) — pack selected notes (list/tag/folder) into a portable `brain-pack-*.zip` bundle; read-only for the vault.
+- **IMPORT** (`/import`) — import a brain-pack bundle from another base: validate, triage collisions, adapt placement to this vault's taxonomy, stamp provenance, update indexes, write a report; at most 2 prompts per run.
 
 ## Safety Rules
 

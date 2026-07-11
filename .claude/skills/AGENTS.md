@@ -9,11 +9,17 @@ The workflow **skills** that drive this vault. Each skill has a matching slash c
 
 One folder per skill, each with a `SKILL.md` (YAML frontmatter: `name`, `description` +
 body: "When to use" trigger phrases + "Workflow" steps). Some skills carry a `scripts/`
-subfolder (`curate`, `gaps`, `ingest`, `lint`, `refactor`, `reindex`). Workflows are listed
-in root `AGENTS.md` → "Workflows".
+subfolder (`curate`, `export`, `gaps`, `ingest`, `lint`, `refactor`, `reindex`). Workflows
+are listed in root `AGENTS.md` → "Workflows".
 
 Core KB skills: `ingest`, `compile`, `qa`, `lint`, `enhance`, `curate`, `gaps`, `refactor`,
-`reindex`, `output`. Plus `openspec-*` (OPSX workflow) and general utilities.
+`reindex`, `output`, `export`, `import`. Plus `openspec-*` (OPSX workflow) and general utilities.
+
+Bundle transfer pair: `export` packs notes into a `brain-pack-*.zip` (read-only for the
+vault — no note writes, no index updates); `import` brings a bundle into this vault
+(writes notes + all 3 indexes + a report, hard budget of ≤2 user prompts per run).
+Both use `export/scripts/bundle.py` (`pack`/`unpack`/`same`) — the deterministic bundle
+format v1 tool; tests in `export/scripts/test_bundle.py`.
 
 ## Rules
 

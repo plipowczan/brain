@@ -208,6 +208,8 @@ Each workflow is a skill with a matching slash command:
 - **REFACTOR** (`rename note`, `merge notes`, `split note`) — `.claude/skills/refactor/`, command `/refactor` — note surgery (rename/move/merge/split) with automatic wikilink repair
 - **GAPS** (`find gaps`, `coverage analysis`, `what's missing`) — `.claude/skills/gaps/`, command `/gaps` — surfaces weakly-connected notes, missing topics, thin areas
 - **CURATE** (`curate`, `prune`, `cleanup`, `retire stale notes`) — `.claude/skills/curate/`, command `/curate` — staleness/relevance hygiene: scores notes, proposes archive/merge/refresh, retires confirmed notes to `_graveyard/` (reversible)
+- **EXPORT** (`export [[A]] [[B]]`, `export #tag`, `export FOLDER`) — `.claude/skills/export/`, command `/export` — packs selected notes into a portable `brain-pack-*.zip` (manifest + verbatim notes); read-only for the vault
+- **IMPORT** (`import <pack.zip>`) — `.claude/skills/import/`, command `/import` — imports a brain-pack bundle from another brain: validates, triages collisions, adapts placement to this vault's taxonomy, stamps provenance, updates indexes, writes report; ≤2 prompts per run
 
 ## Build & Deploy
 

@@ -8,6 +8,23 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
 ## [Unreleased]
 
 ### Added
+- **Note-bundle transfer: `/export` + `/import` skills** — move sets of notes between
+  any two template-based knowledge bases. `/export` (new skill + command) resolves a
+  selection (wikilink list, `#tag`, or folder), confirms it, offers depth-1 linked
+  neighbors, and packs verbatim note copies into a `brain-pack-*.zip` with a
+  `manifest.json` (format `1`, source base name, export date, per-note sha256) — fully
+  read-only for the vault. `/import` (new skill + command) validates the bundle before
+  any write (format/hash checks), auto-skips byte-identical notes (idempotent re-import),
+  triages collisions in a single approve-or-edit table (skip/merge/keep-target/rename),
+  maps notes from missing source folders onto the target vault's own taxonomy in a second
+  single table (never seeds foreign folder structures unasked), stamps
+  `imported-from`/`imported` provenance frontmatter, leaves broken wikilinks intact for
+  later re-stitching, batch-updates all 3 indexes, and writes a report to
+  `_outputs/reports/` — hard budget of at most 2 user prompts per run, regardless of
+  bundle size. Deterministic mechanics live in `export/scripts/bundle.py`
+  (`pack`/`unpack`/`same`, stdlib-only Python, tests included). Existing bases: pull
+  `.claude/skills/export/`, `.claude/skills/import/`, `.claude/commands/export.md`,
+  `.claude/commands/import.md`, and add the two Workflows rows to your `AGENTS.md`.
 - **"Works beyond Claude Code" docs** — the template now documents that it runs *outside*
   Claude Code, with **no terminal and no git commands**. Three doc-only additions: a new
   README section listing the supported tools (Claude Desktop Code tab, GitHub Copilot,
