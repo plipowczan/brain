@@ -1,5 +1,4 @@
 {
-  "showTabTitlebarButtons": true,
   "copyLinkToElemenetAnchorTo100": false,
   "copyFrameLinkByName": false,
   "disableDoubleClickTextEditing": false,
@@ -1080,5 +1079,6 @@
     "margin": "normal"
   },
   "disableContextMenu": false,
+  "showTabTitlebarButtons": true,
   "isDebugMode": false
 }
