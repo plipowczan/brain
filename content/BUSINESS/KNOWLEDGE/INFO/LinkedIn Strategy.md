@@ -47,7 +47,7 @@ My approach to LinkedIn content, based on data from 31 posts analyzed (Feb-Apr 2
 - [[Build in Public]]
 - [[Richard van der Blom]] — external LinkedIn algorithm research and Algorithm Insights Report
 - [[Social Media Algorithms — Maximizing Reach in 2026]] — cross-platform 2026 reference; LinkedIn section covers the 360Brew LLM ranker, dwell time, and saves as the top signals
-- [[AI Voices to Follow on LinkedIn (2026)]] — the consumption side: 40 curated AI creators to follow by niche
+- [[High-Signal AI Voices to Follow (2026)]] — the consumption side: evidence-based, ship-proven AI/second-brain builders to follow
 
 ---
 Template: [[templates/knowledge_note_info]]

@@ -298,7 +298,7 @@ Claims as stated in the video (channel is a creator promoting a paid community �
 - [[Context Engineering]] · [[Progressive Disclosure]] · [[Token Optimization for Claude Code]]
 - [[Harness Engineering]] · [[Karpathy Method]] · [[DELEGATE-52]]
 - [[Claude Code]] · [[Agentic Coding]]
-- [[AI Voices to Follow on LinkedIn (2026)]] — creator list where Nate Herk appears under AI Automation
+- [[High-Signal AI Voices to Follow (2026)]] — evidence-based who-to-follow list for AI/agentic + second-brain builders
 
 ---
 Template: [[templates/knowledge_note_info]]

@@ -22,7 +22,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - [[Spec-driven SEO and GEO]] — SEO + Generative Engine Optimization patterns (the GEO layer of this report)
 - [[Perplexity]] — AI answer engine; a citation surface covered under GEO
 - [[Claude SEO]] — Claude Code plugin for automated SEO/GEO audits
-- [[AI Voices to Follow on LinkedIn (2026)]] — curated list of AI creators to follow (the feed that "teaches you")
+- [[High-Signal AI Voices to Follow (2026)]] — evidence-based AI/second-brain builders to follow (the feed that "teaches you")
 
 ## Contents
 

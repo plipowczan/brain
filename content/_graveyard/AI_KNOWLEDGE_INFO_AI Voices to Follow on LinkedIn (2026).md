@@ -9,7 +9,12 @@ source: "_raw/processed/2026-07-12_Post by René Remsik on LinkedIn.md"
 agent-created: true
 agent-reviewed: 2026-07-12
 summary: "Curated list (René Remsik) of 40 LinkedIn profiles across 8 AI niches — automation, vibe coding, tools, marketing, SaaS, branding, creators, research"
+retired: 2026-07-12
+retired-reason: "Low-signal promo listicle; replaced by an evidence-based, verified successor"
+superseded-by: "High-Signal AI Voices to Follow (2026)"
 ---
+
+> **RETIRED 2026-07-12.** Superseded by [[High-Signal AI Voices to Follow (2026)]] — a ship-proven, adversarially-verified list. Kept for provenance only; not in the build.
 
 # AI Voices to Follow on LinkedIn (2026)
 
