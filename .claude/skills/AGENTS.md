@@ -21,6 +21,14 @@ vault — no note writes, no index updates); `import` brings a bundle into this 
 Both use `export/scripts/bundle.py` (`pack`/`unpack`/`same`) — the deterministic bundle
 format v1 tool; tests in `export/scripts/test_bundle.py`.
 
+Export privacy levels: default `me` = verbatim, 2 prompts, writes nothing but the zip;
+`--public` = redaction pipeline (default policy + optional `content/_privacy.md`
+overrides → verdict table include/redact/exclude as the 3rd prompt → verification nets:
+`export/scripts/privacy_sweep.py` pattern scan + fresh-context adversarial audit) and
+writes one local report to `content/_outputs/reports/` — the sole exception to export's
+read-only rule. The shipped bundle carries no redaction trace. Redaction works on
+scratchpad copies; source notes stay byte-identical.
+
 ## Rules
 
 - **Editing a skill = editing behavior.** Keep `SKILL.md` frontmatter `description` trigger-rich (it is how the skill is matched) and the Workflow steps executable.

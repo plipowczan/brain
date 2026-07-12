@@ -8,6 +8,23 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
 ## [Unreleased]
 
 ### Added
+- **Export privacy levels: `/export --public` redaction pipeline** — bundles that leave
+  your trust boundary (shared with strangers, published openly) can now be scrubbed of
+  private data. Default level stays exactly as before (verbatim, 2 prompts, read-only).
+  `--public` adds: a category redaction policy (always cut secrets, third-party PII,
+  health, finance, rates; genericize personal/commercial context; keep tools/howtos/
+  technical opinions) tunable per vault via a new optional `content/_privacy.md`
+  (commented example ships with the template); one approvable verdict table
+  (include/redact/exclude per note, full diff on demand — 3rd and normally last prompt);
+  two post-redaction safety nets (`privacy_sweep.py` deterministic pattern scan for
+  emails/phones/IBAN/cards/API-keys/JWT/wallets + a fresh-context adversarial LLM audit);
+  wikilink de-personalization (`[[My Crypto Strategy]]` → `[[Crypto Strategy]]`, person-name
+  titles genericized) — and writes a local redaction report to `_outputs/reports/`.
+  The shipped bundle deliberately carries **no redaction trace** (manifest unchanged,
+  format still 1) — the local report is the only record. Also fixes `bundle.py` exclusion:
+  underscore-prefixed **files** (e.g. `_privacy.md`) can no longer be packed at any level.
+  Existing bases: pull `.claude/skills/export/` (SKILL.md + `bundle.py` +
+  `privacy_sweep.py` + tests) and optionally `content/_privacy.md`.
 - **Note-bundle transfer: `/export` + `/import` skills** — move sets of notes between
   any two template-based knowledge bases. `/export` (new skill + command) resolves a
   selection (wikilink list, `#tag`, or folder), confirms it, offers depth-1 linked

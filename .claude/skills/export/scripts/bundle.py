@@ -62,7 +62,7 @@ def excluded(rel: Path) -> bool:
         rel.suffix.lower() != ".md"
         or not rel.parts
         or rel.parts[0] in EXCLUDED_TOPS
-        or any(p.startswith("_") for p in rel.parts[:-1])
+        or any(p.startswith("_") for p in rel.parts)
     )
 
 

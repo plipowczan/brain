@@ -62,6 +62,17 @@ class BundleTest(unittest.TestCase):
         self.assertEqual(out["packed"], 1)
         self.assertEqual(out["skipped_excluded"], ["_indexes/catalog.md"])
 
+    def test_pack_excludes_underscore_files_anywhere(self):
+        (self.root / "content/_privacy.md").write_text("secret rules", encoding="utf-8")
+        (self.root / "content/AI/_drafts").mkdir()
+        (self.root / "content/AI/_drafts/wip.md").write_text("draft", encoding="utf-8")
+        r = self.pack(["AI/TOOLS/Serena.md", "_privacy.md", "AI/_drafts/wip.md"])
+        self.assertEqual(r.returncode, 0)
+        out = json.loads(r.stdout)
+        self.assertEqual(out["packed"], 1)
+        self.assertEqual(sorted(out["skipped_excluded"]),
+                         ["AI/_drafts/wip.md", "_privacy.md"])
+
     def test_pack_empty_selection_fails(self):
         r = self.pack(["_indexes/catalog.md"])
         self.assertEqual(r.returncode, 1)
