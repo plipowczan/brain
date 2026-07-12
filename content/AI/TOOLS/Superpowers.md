@@ -90,7 +90,7 @@ Warning: the rigor is literal — "discards code written before the tests". You 
 - [[Claude Code]] — primary host
 - [[Cursor]] — second host
 - [[Agent Skills]] — SKILL.md standard
-- [[Karpathy Skills]] / [[gstack]] / [[Archon]] — neighboring approaches
+- [[Karpathy Skills]] / [[gstack]] / [[Archon]] / [[Agent Skills (Addy Osmani)]] — neighboring approaches
 
 ---
 Template: [[templates/tool]]

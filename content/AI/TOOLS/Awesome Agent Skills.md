@@ -111,6 +111,7 @@ See also [[AI Agent Security]] — broader context on autonomous agent threats.
 - [[Awesome Claude Code]] — complementary list (Claude-Code-specific)
 - [[Vercel Skills]] — official set from Vercel (part of this collection)
 - [[Karpathy Skills]] — a single universal CLAUDE.md
+- [[Agent Skills (Addy Osmani)]] — Addy Osmani's SDLC skill stack (part of this collection)
 - [[Harness Engineering]] — how to configure the harness in which skills run
 - [[Context Engineering]] — the context in which skills are loaded
 - [[Progressive Disclosure]] — skill design principle

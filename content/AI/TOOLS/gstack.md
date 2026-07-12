@@ -92,7 +92,7 @@ Risks and limitations:
 - [[Claude Code]] — primary host
 - [[Agent Skills]] — SKILL.md standard
 - [[Awesome Claude Code]] — curated list of resources
-- [[Superpowers]] — alternative approach
+- [[Superpowers]] / [[Agent Skills (Addy Osmani)]] — alternative SDLC skill stacks
 
 ---
 Template: [[templates/tool]]
