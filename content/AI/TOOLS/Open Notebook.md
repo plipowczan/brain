@@ -42,6 +42,7 @@ A self-hosted research companion that doubles as a podcast generator — directl
 - [[Travelcast AI]] — my multi-agent podcast generator; overlapping problem space
 - [[ElevenLabs]] — natural TTS to drive the podcast voices
 - [[Second Brain Design]] · [[Building a Second Brain]] — PKM context
+- [[NotebookLM-py]] — inverse approach: drives the *real hosted* NotebookLM via undocumented APIs instead of self-hosting a clone
 - Surfaced in [[Open-Source AI Projects Roundup (Matthew Berman)]]
 
 ---

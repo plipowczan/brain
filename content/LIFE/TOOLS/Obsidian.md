@@ -35,6 +35,7 @@ Notion
 ## Resources
 [[LIFE/KNOWLEDGE/INFO/Obsidian]]
 [[LIFE/KNOWLEDGE/HOWTO/How to create mind map]]
+[[Obsidian Skills]] — official agent skills teaching a coding agent to drive Obsidian (Markdown, Bases, Canvas, CLI)
 
 ---
 Template: [[templates/tool]]

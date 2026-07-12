@@ -58,6 +58,7 @@ Talking-head edits, montages, travel cuts. Anything where speech boundaries driv
 - [[Browser Use]] — sibling project, same "structured surface" philosophy
 - [[Browser Harness]] — sibling CDP harness, self-healing pattern
 - [[HyperFrames]] — overlay/animation engine integrated via parallel sub-agents
+- [[Claude Video]] — inverse tool: *watches* video (reads frames + transcript) vs this one's *editing* (transcript-only)
 - [[Claude Code]] — the primary host agent
 
 ---
