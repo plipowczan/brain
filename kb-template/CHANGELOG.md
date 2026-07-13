@@ -7,6 +7,16 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
 
 ## [Unreleased]
 
+### Fixed
+- **`/lint` link scanner no longer false-flags escaped-pipe aliases** —
+  `.claude/skills/lint/scripts/lint_links.py` split link targets on `|` but not on the
+  table-escaped `\|`, so `[[Note\|alias]]` resolved to `Note\` and was reported broken.
+  Now normalizes `\|`→`|` before splitting. Also treats `.webp` as an asset embed (was
+  flagged broken). Cut ~7 false positives on a ~360-note vault. The lint `SKILL.md` now
+  points at the two canonical scanners (`lint_scan.py`, `lint_links.py`) so runs use them
+  instead of ad-hoc greps, and reminds the operator to triage raw broken-link counts.
+  Existing bases: re-pull `.claude/skills/lint/`.
+
 ### Added
 - **Research skill suite now ships its `web-search-agent` dependency** — the `/research`
   → `/research-deep` → `/research-report` pipeline dispatches a `web-search-agent`

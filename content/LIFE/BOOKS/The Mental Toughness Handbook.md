@@ -12,7 +12,7 @@ summary: "Damon Zahariades on building mental toughness: 7 habits, resilience vs
 # The Mental Toughness Handbook
 
 Date Finished: Sep 14, 2025
-Author: [[Damon Zahariades]]
+Author: Damon Zahariades
 Tags:
 
 ---

@@ -120,7 +120,7 @@ The skill is ~200 lines long and codifies specific stylistic choices:
 
 Omer wrote the article starting from a deck — he ran `/create-marp-deck`, went through the interview, produced 15 slides, and only then wrote the article. The argument: if the story doesn't flow across 15 slides, it won't flow across 1500 words. The deck becomes the outline.
 
-This corresponds with [[Goal-Driven Execution]] from [[Karpathy Skills]] — instead of "write an article about X", you define a verifiable goal "story flows across 15 slides" and iterate until it does.
+This corresponds with Goal-Driven Execution from [[Karpathy Skills]] — instead of "write an article about X", you define a verifiable goal "story flows across 15 slides" and iterate until it does.
 
 ## ✅ Outcome
 

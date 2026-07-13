@@ -65,7 +65,7 @@ Remember you will die. Not morbid — clarifying. Death is the deadline that mak
 ## 📖 Further reading
 
 Start with the primary texts — short, readable, written *to be used*:
-- **Marcus Aurelius — *Meditations*** — private journal of a Roman emperor practicing on himself. Best entry point. (candidate [[LIFE/BOOKS]] note)
+- **Marcus Aurelius — *Meditations*** — private journal of a Roman emperor practicing on himself. Best entry point. (candidate LIFE/BOOKS note)
 - **Epictetus — *Enchiridion* (Handbook)** — terse, ~30 pages, the dichotomy of control distilled.
 - **Seneca — *Letters from a Stoic*** — warm, practical letters on time, death, friendship, anger.
 - Modern: William B. Irvine — *A Guide to the Good Life*; Ryan Holiday — *The Daily Stoic* / *The Obstacle Is the Way*.

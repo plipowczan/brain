@@ -35,7 +35,7 @@ Built with Tauri (Rust), not Electron. Privacy by default — models, voice data
 
 ## 🎨 Why this matters for an agent workflow
 
-Bridges the input and output halves of voice I/O. Existing cloud incumbents sit on opposite sides — Voicebox does both, glued by a local LLM. MCP integration means a [[Claude Code]] session can literally talk back to you in a voice you own — useful for [[Pulse]]-style background notifications or [[Personal AI Infrastructure]] DA personas.
+Bridges the input and output halves of voice I/O. Existing cloud incumbents sit on opposite sides — Voicebox does both, glued by a local LLM. MCP integration means a [[Claude Code]] session can literally talk back to you in a voice you own — useful for Pulse-style background notifications or [[Personal AI Infrastructure]] DA personas.
 
 ## Reasoning for
 

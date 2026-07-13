@@ -14,7 +14,7 @@ summary: "Thibaut Meurisse's method to reset dopamine response, cut overstimulat
 # # Dopamine Detox
 
 Date Finished: Aug 31, 2025
-Author: [[Meurisse Thibaut]]
+Author: Meurisse Thibaut
 Tags: #productivity #book #self-development 
 
 ---
@@ -25,7 +25,7 @@ Tags: #productivity #book #self-development
 
 ## How I Discovered It
 
-My wife [[Gosia Lipowczan]] found it and we listened an audiobook in the car getting back from Mazury.
+My wife Gosia Lipowczan found it and we listened an audiobook in the car getting back from Mazury.
 ## Who Should Read It?
 Everyone who would like to improve their productivity, fight procrastination and boost focus for the right tasks leading to achieving their goals.
 

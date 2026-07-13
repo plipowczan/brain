@@ -117,7 +117,7 @@ npx skills add heygen-com/hyperframes -g         # → hyperframes + family (ani
 ```
 
 - **notebooklm** — NOT installed this way; ships with the uv tool via `notebooklm skill install` (see §3).
-- **Additional local skills present on this box** (source varies — #todo/complete confirm provenance): `browser-use` ([[browser-use]] uv tool, §3), `graphify`, `uxruler`, `prd` / `to-prd`, `review-fix`, `review-loop`, `prepare-openspec-goal`. Some likely come from the `plsoft-vsoft` marketplace or manual drops.
+- **Additional local skills present on this box** (source varies — #todo/complete confirm provenance): `browser-use` ([[Browser Use]] uv tool, §3), `graphify`, `uxruler`, `prd` / `to-prd`, `review-fix`, `review-loop`, `prepare-openspec-goal`. Some likely come from the `plsoft-vsoft` marketplace or manual drops.
 
 ---
 

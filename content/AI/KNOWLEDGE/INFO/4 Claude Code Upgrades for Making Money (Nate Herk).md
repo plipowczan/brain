@@ -275,7 +275,7 @@ User says: "session handoff", "wrap up session", "hand off", "handoff summary", 
 
 ## 📒 Evidence cited
 
-Claims as stated in the video (channel is a creator promoting a paid community — treat numbers as directional, not independently verified per [[user-prefers-verified-research]]):
+Claims as stated in the video (channel is a creator promoting a paid community — treat numbers as directional, not independently verified):
 
 - **Sycophancy / "elephant" study** — AI fails to push back on user framing ~**88%** of the time vs ~**60%** for humans.
 - **MIT / Penn State** — personalization + memory features make models *more* agreeable over long conversations.

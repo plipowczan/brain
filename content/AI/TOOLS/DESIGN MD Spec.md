@@ -88,7 +88,7 @@ When you have an actual brand to enforce across agent-generated UIs. Pairs with 
 - [[UI UX Pro Max]] — design system generator skill
 - [[UX Pilot]], [[UX RULER]], [[Open Design]] — UX generation tools
 - [[Claude Code]] — host agent
-- [[Frontend Design]] — skill that consumes these tokens
+- Frontend Design — skill that consumes these tokens
 - [[AI UX Design Tools]] — broader landscape
 
 ---

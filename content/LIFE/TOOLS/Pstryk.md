@@ -11,7 +11,7 @@ summary: "Polish electricity vendor with hourly dynamic pricing, a 0.61 PLN/kWh 
 ---
 # Pstryk
 
-A Polish energy startup (since October 2024) selling electricity on **hourly dynamic prices** from the TGE wholesale market (RDN), with a **zero handling fee**, a margin of **0.08 PLN net/kWh** and its own WiFi meter inside the fuse box. Key safety mechanism: the **Pstryk price cap** — the weighted monthly average will not exceed **0.61 PLN/kWh gross** (until 31.12.2026, with planned extensions). Endorsed by [[Michał Szafrański]] (ambassador, code **NINJA50** = 50 PLN discount).
+A Polish energy startup (since October 2024) selling electricity on **hourly dynamic prices** from the TGE wholesale market (RDN), with a **zero handling fee**, a margin of **0.08 PLN net/kWh** and its own WiFi meter inside the fuse box. Key safety mechanism: the **Pstryk price cap** — the weighted monthly average will not exceed **0.61 PLN/kWh gross** (until 31.12.2026, with planned extensions). Endorsed by Michał Szafrański (ambassador, code **NINJA50** = 50 PLN discount).
 
 ## 🚀 Main thesis
 
