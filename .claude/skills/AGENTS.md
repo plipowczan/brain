@@ -35,6 +35,7 @@ scratchpad copies; source notes stay byte-identical.
 - Skills MUST respect the vault contracts in root `AGENTS.md`: read `vault-map.md` first, cite wikilinks, update all 3 indexes after every write, add `agent-created: true` to new notes, work on `v4`.
 - Many skills here are mirrored into `kb-template/.claude/skills/`. After changing a shared skill, run `scripts/check-kb-template-drift.sh` and port intentional changes.
 - `ingest/scripts/yt_fetch.py` needs `yt-dlp.exe` on PATH (see the `yt-dlp-needs-exe-on-path` memory).
+- The `research*` suite dispatches the `web-search-agent` sub-agent in [`../agents/`](../agents/AGENTS.md); `research-deep` also shells out to `research/validate_json.py`. Both use **project-relative** paths — keep them project-scoped, and mirror agent changes into `kb-template/.claude/agents/` (the drift script does not cover agents).
 
 ## Verify
 

@@ -23,6 +23,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - [[Perplexity]] — AI answer engine; a citation surface covered under GEO
 - [[Claude SEO]] — Claude Code plugin for automated SEO/GEO audits
 - [[High-Signal AI Voices to Follow (2026)]] — evidence-based AI/second-brain builders to follow (the feed that "teaches you")
+- [[Deep-Research-skills]] — the `/research*` pipeline this report was produced with
 
 ## Contents
 

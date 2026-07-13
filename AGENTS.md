@@ -253,5 +253,6 @@ two-regime table above).
 - [`scripts/AGENTS.md`](scripts/AGENTS.md) — kb-template extract/sync/drift shell scripts
 - [`brain-mcp/AGENTS.md`](brain-mcp/AGENTS.md) — TypeScript MCP server exposing vault search
 - [`.claude/skills/AGENTS.md`](.claude/skills/AGENTS.md) — the workflow skills (ingest, compile, qa, lint, …)
+- [`.claude/agents/AGENTS.md`](.claude/agents/AGENTS.md) — custom sub-agents skills dispatch (e.g. `web-search-agent` for the `research*` suite)
 - `quartz/` — vendored Quartz 4; off-limits, no local doc
 - `content/` — governed by the index protocol, NOT by AGENTS.md

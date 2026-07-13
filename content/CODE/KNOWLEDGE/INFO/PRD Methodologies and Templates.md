@@ -684,3 +684,4 @@ _Deep research report — 15 methodologies/templates. Generated from structured 
 - [[Software 3.0]] — the agentic-engineering paradigm these specs feed into
 - [[Agentic Engineering]] — verifiability and the quality bar for AI-built work
 - [[Lean Canvas]] — one-page business-model artifact referenced as a PRD-adjacent template
+- [[Deep-Research-skills]] — the `/research*` pipeline this comparison matrix was produced with

@@ -533,3 +533,4 @@ summary: "19 TTS engines compared for Polish quality and cost; Azure (MOS-backed
 - [[Voicebox]] — local-first OSS voice studio (7 TTS engines, voice cloning, MCP)
 - [[VAPI]] — voice-agent platform (conversational, distinct from text-to-audio narration)
 - [[AI Chatbots Architecture]] — voicebot architecture context
+- [[Deep-Research-skills]] — the `/research*` pipeline this comparison matrix was produced with

@@ -7,6 +7,7 @@ tags: ["project", "ai", "skills", "claude-code", "open-source", "200iq-labs"]
 type: basic-note
 source: "_raw/inbox/2026-05-10-seed-second-brain-skills-submodules.md"
 agent-created: true
+agent-reviewed: 2026-07-13
 summary: "shared-skills (Apache 2.0) + private-skills (proprietary) — git submodules feeding both agentic-ai repos"
 ---
 # Agentic Skills Submodules
@@ -25,7 +26,7 @@ Both built on the [[Agent Skills]] standard (agentskills.io). Each skill = `skil
 
 Modular library of business advisory agents for founders and small teams. Forkable, installable as plugin or submodule.
 
-### 13 skills
+### Business advisory skills (13)
 | Skill | What it does | Trigger |
 |-------|--------------|---------|
 | **cfo** | Cash flow, runway, P&L, budget, unit economics | "ile kasy", "runway", "ile zarabiamy" |
@@ -41,6 +42,25 @@ Modular library of business advisory agents for founders and small teams. Forkab
 | **find-skills** | Discovery + install + security audit from open ecosystem | "find skill", "is there a skill that..." |
 | **marketing** | TODO Phase 2 (placeholder) | — |
 | **product-manager** | TODO Phase 2 (placeholder) | — |
+
+### Developer-workflow skills (added 2026-07, commit `6f12340`)
+Migrated from loose global `~/.claude/skills/` + `~/.claude/commands/` into the plugin so the same personal coding-agent tools install + update across machines via `/plugin update`. Placed verbatim (battle-tested, not re-authored via skill-creator).
+
+| Skill | What it does | Trigger |
+|-------|--------------|---------|
+| **review-fix** | Fetch PR review comments → fix valid issues → commit → push → reply on GitHub | `/review-fix [PR]` |
+| **review-loop** | Automated Claude↔Copilot review cycle on a PR until stable | `/review-loop <PR> <change>` |
+| **prepare-openspec-goal** | Transcript-checkable completion condition for `/goal` implementing an OpenSpec change — OpenSpec-specialized sibling of the generic `prepare-goal` | `/prepare-openspec-goal <change>` |
+
+**Slash commands** (`commands/*.md`, flat files → **plugin-global only**; `sync-skills.sh` symlinks command *directories*, not flat files, so these are NOT mirrored into consumer repos):
+- `/decisions` — surface open decisions one at a time, each with a recommendation (PL)
+- `/explain-diff` — walk a diff (PR / branch vs main) file-by-file (PL)
+- `/explain-design` — walk an OpenSpec `design.md` heading-by-heading (PL)
+
+### Other skills added since seed
+- **prd** — agent-ready PRD skill for a 7-day MVP (Startup Builders W3).
+- **prepare-goal** — generic `/goal` completion-condition formulator (parent of `prepare-openspec-goal`).
+- **research-en** — research outline → deep-research fan-out → report pipeline.
 
 ### Tools (CLI integrations)
 - **`tools/clickup/`** — taski, daily, projekty
@@ -81,7 +101,10 @@ For new skills or significant edits: use `/skill-creator`. Do NOT hand-write `SK
 
 Can skip for typo fixes, reference file additions, date updates, reference-only changes.
 
-### Recent commits (2026-05-10)
+### Recent commits
+- `6f12340` (2026-07-13) feat(skills): add developer-workflow skills + slash commands (review-fix, review-loop, prepare-openspec-goal + /decisions, /explain-diff, /explain-design)
+- `06e784b`→`ef30e79` feat(prd): agent-ready PRD skill; refactor(linkedin-content): plain-Polish, context-first
+- `f6fff6f` feat(prepare-goal): formulate /goal completion conditions
 - `3a06818` refactor(cfo): route inFakt through MCP, drop CLI scripts
 - `405ce5d` fix(cfo): use OAuth-refreshed Revolut tokens
 - `61ae0fb` feat(find-skills): add skill discovery with security audit
@@ -130,6 +153,8 @@ agentic-ai-system  /  agentic-ai-private          ← consumer repos
 2. **Update** — `git submodule update --remote` → `./tools/sync-skills.sh` → commit new submodule SHAs.
 3. **New skill** — create in submodule via `/skill-creator` → `git submodule update --remote` → add name to `.gitignore` (Synced agent skills section) → `./tools/sync-skills.sh`.
 
+> **Global plugin vs submodule coexistence.** The dev-workflow skills also install globally via the `200iqlabs-agent-skills` plugin, so in a consumer repo (e.g. `agentic-ai-private`) a skill can exist at **both scopes** — project symlink (submodule) AND global plugin. Claude Code dedupes by `name` — no merge, no corruption — and both point at the same repo. The one real hazard is **version skew**: the plugin (refreshed via `/plugin update`) vs the submodule (pinned SHA, `git submodule update --remote`) can drift. Gotcha: `/plugin update` reinstalls from the *local* marketplace clone — run `/plugin marketplace update shared-skills` **first** or it silently keeps stale content.
+
 ### Generic skills, local data
 Skills NEVER hardcode paths to `context/operations/tech-stack/...`. They get data via canonical files (`finances.md`, `company.md`) declared in `## Context Dependencies`. This makes the skills cleanly forkable for users outside 200IQ LABS.
 
@@ -149,3 +174,4 @@ Skills NEVER hardcode paths to `context/operations/tech-stack/...`. They get dat
 - [[Karpathy Skills]], [[Vercel Skills]], [[Superpowers]], [[gstack]]
 - [[Progressive Disclosure]] · [[Token Optimization for Claude Code]]
 - [[Building Claude Skills Guide]]
+- [[Machine Setup Manifest]] — plugin install/update mechanism across machines

@@ -8,6 +8,20 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
 ## [Unreleased]
 
 ### Added
+- **Research skill suite now ships its `web-search-agent` dependency** — the `/research`
+  → `/research-deep` → `/research-report` pipeline dispatches a `web-search-agent`
+  sub-agent that was never bundled, so the deep phase silently fell back to generic web
+  search. Added `.claude/agents/web-search-agent.md` + `.claude/agents/web-search-modules/`
+  (5 routing modules: general-web, github-debug, stackoverflow, academic-papers,
+  chinese-tech), vendored from the upstream **Weizhena/Deep-Research-skills** (MIT) this
+  suite was adapted from. Also fixed two hardcoded home-dir paths that assumed a global
+  `~/.claude` install: `research-deep` now runs
+  `python .claude/skills/research/validate_json.py` (was `~/.claude/skills/…`) and the
+  agent loads modules from `.claude/agents/web-search-modules/` (was `~/.claude/agents/…`)
+  — both project-relative so a cloned template works without a global install. Removed a
+  machine-specific project-root path from `research/SKILL.md` (now "the vault/project
+  root"). Existing bases: pull `.claude/agents/` and re-pull `.claude/skills/research-deep/`
+  + `.claude/skills/research/`.
 - **Export privacy levels: `/export --public` redaction pipeline** — bundles that leave
   your trust boundary (shared with strangers, published openly) can now be scrubbed of
   private data. Default level stays exactly as before (verbatim, 2 prompts, read-only).
