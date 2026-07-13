@@ -76,6 +76,7 @@ Output: files in the repo — from a minimal stack (`AGENTS.md`, `PRODUCT.md`, `
 - Design-language guardrails skill: [[Impeccable]]
 - Related repo-as-memory pattern: [[Spec-driven SEO and GEO]]
 - [[Awesome Agent Skills]] — where to find more skills of this kind
+- [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
 
 ---
 Template: [[templates/tool]]

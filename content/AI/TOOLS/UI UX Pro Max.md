@@ -89,6 +89,7 @@ I use it together with **Tailwind CSS** and **React**. When building components 
 - [[Cursor]] — alternative IDE with AI
 - [[gstack]] — alternative design skill stack
 - [[Awesome Claude Code]] — curated list where the skill also appears
+- [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
 
 ---
 Template: [[templates/tool]]

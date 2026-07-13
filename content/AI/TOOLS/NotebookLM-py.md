@@ -61,6 +61,7 @@ Install: `uv tool install "notebooklm-py[browser]"` then `notebooklm login` (aut
 - [[LLM Knowledge Bases]] — the distill-to-skill / grounded-memory pattern
 - [[Obsidian]] — the knowledge-graph-sync recipe target
 - [[Second Brain Design]] — PKM system this can feed
+- [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
 
 ---
 Template: [[templates/tool]]

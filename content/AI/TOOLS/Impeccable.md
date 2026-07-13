@@ -61,6 +61,7 @@ What it adds on top of a base design skill:
 - Hub note: [[AI UX Design Tools]]
 - Skill ecosystem: [[Agent Skills]]
 - Follow @pbakaus on Twitter for release notes and lint-rule highlights
+- [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
 
 ---
 Template: [[templates/tool]]

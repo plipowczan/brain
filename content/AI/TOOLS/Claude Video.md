@@ -67,6 +67,7 @@ Fills a real gap: Claude can read a page or a repo but can't *watch a video* out
 - [[Agent Skills]] — the skill packaging system `/watch` ships as
 - [[Awesome Agent Skills]] — curated skill directory
 - [[Claude Code]] — primary host agent
+- [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
 
 ---
 Template: [[templates/tool]]

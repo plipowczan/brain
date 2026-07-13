@@ -90,6 +90,7 @@ Five composable tools, one philosophy (*agent do more with less*):
 - [INSTALL.md](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md) — full install matrix, all flags, per-agent detail
 - [benchmarks/](https://github.com/JuliusBrussee/caveman/blob/main/benchmarks) + [evals/](https://github.com/JuliusBrussee/caveman/blob/main/evals) — raw data + reproduction harness
 - Related: [[Awesome Claude Code]], [[Building Claude Skills Guide]], [[Karpathy Skills]], [[Superpowers]], [[gstack]]
+- [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
 
 ---
 Template: [[templates/tool]]

@@ -51,6 +51,7 @@ Claude stops forgetting you at the end of each session. You get a vault holding 
 - [[Building a Second Brain]] (Tiago Forte) · [[Zettelkasten]] · [[Digital Garden]] · [[Obsidian]]
 - [[Harness Engineering]] · [[Context Engineering]] — making the agent-on-top half work well.
 - Ready-made repos named in the guide: `claude-obsidian` (AgriciDaniel), `obsidian-second-brain` (eugeniughelbur, 43 commands, multi-agent), `second-brain-starter` (coleam00). Source: [@undefinedKi thread](https://x.com/undefinedKi/status/2068306794116501544), 2026-06-20.
+- [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article using this as the memory layer
 
 ---
 Template: [[templates/knowledge_note_how_to]]
