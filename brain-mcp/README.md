@@ -57,7 +57,7 @@ Returns:
 {
   "written": true,
   "path": "_raw/inbox/2026-05-17-alior-bank-news.md",
-  "absolute_path": "C:\\PROJEKTY\\brain\\content\\_raw\\inbox\\...",
+  "absolute_path": "C:\\Projects\\brain\\content\\_raw\\inbox\\...",
   "bytes": 1842,
   "overwritten": false,
   "hint": "Run /ingest in the brain to classify..."
@@ -81,7 +81,7 @@ npm run build
 Dev (no build step, uses tsx):
 
 ```bash
-BRAIN_PATH="C:\\PROJEKTY\\brain\\content" npm run dev
+BRAIN_PATH="C:\\Projects\\brain\\content" npm run dev
 ```
 
 ## Wire into an agent
@@ -93,8 +93,8 @@ Example MCP client config:
   "mcpServers": {
     "brain-personal": {
       "command": "node",
-      "args": ["C:\\PROJEKTY\\brain\\brain-mcp\\dist\\index.js"],
-      "env": { "BRAIN_PATH": "C:\\PROJEKTY\\brain\\content" }
+      "args": ["C:\\Projects\\brain\\brain-mcp\\dist\\index.js"],
+      "env": { "BRAIN_PATH": "C:\\Projects\\brain\\content" }
     }
   }
 }
