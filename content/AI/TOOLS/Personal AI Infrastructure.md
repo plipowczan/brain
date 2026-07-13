@@ -81,7 +81,7 @@ Verifies Bun, Git, Claude Code; runs DA identity wizard; registers Pulse as laun
 - [[Hermes Agent]] — execution layer
 - [[Agentic Systems]] — broader pattern
 - [[Brain]] — the local vault, similar text-first thesis
-- [[Second Brain]] — knowledge management parallel
+- [[Second Brain Design]] — knowledge management parallel
 - [[Awesome Claude Code]] — broader ecosystem
 
 ---

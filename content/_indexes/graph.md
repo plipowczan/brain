@@ -1,7 +1,7 @@
 ---
 updated: 2026-07-13T12:00:00Z
-nodes: 359
-edges: 2274
+nodes: 360
+edges: 2284
 ---
 # Link Graph
 
@@ -119,15 +119,16 @@ AI/TOOLS/Obsidian Skills -> LIFE/TOOLS/Obsidian, AI/TOOLS/Agent Skills, AI/TOOLS
 AI/TOOLS/Open Design -> AI/KNOWLEDGE/INFO/AI UX Design Tools, AI/TOOLS/UX Pilot, AI/TOOLS/UX RULER, AI/TOOLS/UI UX Pro Max, AI/TOOLS/Impeccable, AI/KNOWLEDGE/INFO/GPT Image 2 + Seedance Workflow, AI/TOOLS/Awesome Nano Banana Pro Prompts, AI/TOOLS/Agent Skills, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Cursor, AI/TOOLS/Everything Claude Code, AI/TOOLS/Hermes Agent
 AI/TOOLS/Open Notebook -> AI/TOOLS/OpenAI, PROJECTS/TRAVELCAST-AI/Travelcast AI, ABOUT/Building a Second Brain, LIFE/KNOWLEDGE/INFO/Second Brain Design, AI/TOOLS/ElevenLabs, AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), templates/tool
 AI/TOOLS/OpenAI -> PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/TTTR/Tech To The Rescue, AI/TOOLS/Google Gemini, AI/TOOLS/Claude Code, AI/TOOLS/ElevenLabs, templates/tool
-AI/TOOLS/OpenKB -> AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), PROJECTS/BRAIN/Brain, AI/TOOLS/Graphify, AI/TOOLS/LightRAG, AI/TOOLS/CocoIndex, AI/TOOLS/Open Notebook, AI/TOOLS/Agent Skills, AI/TOOLS/OpenWiki, templates/tool
+AI/TOOLS/OpenKB -> AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), PROJECTS/BRAIN/Brain, AI/TOOLS/Graphify, AI/TOOLS/LightRAG, AI/TOOLS/CocoIndex, AI/TOOLS/Open Notebook, AI/TOOLS/Agent Skills, AI/TOOLS/OpenWiki, AI/TOOLS/PageIndex, templates/tool
 AI/TOOLS/OpenMed -> AI/TOOLS/MinerU, AI/TOOLS/Unlimited-OCR, AI/TOOLS/Voicebox, AI/TOOLS/LibreChat, AI/KNOWLEDGE/INFO/AI Agent Security, templates/tool
-AI/TOOLS/OpenWiki -> AI/TOOLS/OpenKB, AI/KNOWLEDGE/INFO/DOX — Self-Documenting AGENTS.md, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), CODE/TOOLS/OpenSpec, AI/KNOWLEDGE/INFO/Spec-Driven + Self-Documenting, PROJECTS/BRAIN/Brain, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Progressive Disclosure, templates/tool
+AI/TOOLS/OpenWiki -> AI/TOOLS/OpenKB, AI/KNOWLEDGE/INFO/DOX — Self-Documenting AGENTS.md, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), CODE/TOOLS/OpenSpec, AI/KNOWLEDGE/INFO/Spec-Driven + Self-Documenting, PROJECTS/BRAIN/Brain, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/TOOLS/PageIndex, templates/tool
 AI/TOOLS/Santander AI Open Source -> AI/KNOWLEDGE/INFO/Loop Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/TOOLS/Autoresearch, AI/TOOLS/OpenKB, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Archon, AI/TOOLS/Superpowers, AI/TOOLS/gstack, templates/tool
 AI/TOOLS/Serena -> CODE/KNOWLEDGE/INFO/Structural Retrieval for Code, AI/TOOLS/MCP Language Server, AI/TOOLS/Codebase Memory MCP, AI/TOOLS/Graphify, AI/TOOLS/Understand Anything, AI/KNOWLEDGE/INFO/GrepRAG, AI/TOOLS/Claude Code, AI/TOOLS/Cursor, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Context Engineering, CODE/KNOWLEDGE/HOWTO/Wiring Serena into a Codebase, templates/tool
-AI/TOOLS/Unlimited-OCR -> AI/TOOLS/MinerU, AI/TOOLS/OpenKB, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Graphify, templates/tool
+AI/TOOLS/Unlimited-OCR -> AI/TOOLS/MinerU, AI/TOOLS/OpenKB, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Graphify, AI/TOOLS/PageIndex, templates/tool
 AI/KNOWLEDGE/HOWTO/Building an AI Second Brain -> AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/OpenKB, LIFE/KNOWLEDGE/INFO/Second Brain Design, PROJECTS/BRAIN/Brain, LIFE/BOOKS/Building a Second Brain, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Context Engineering, templates/knowledge_note_how_to
 AI/KNOWLEDGE/HOWTO/Machine Setup Manifest -> AI/TOOLS/Claude Video, AI/TOOLS/NotebookLM-py, AI/TOOLS/Browser Use, AI/TOOLS/Agent Skills, AI/TOOLS/Firecrawl, CODE/TOOLS/Marp CLI, AI/TOOLS/Everything Claude Code, AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, PROJECTS/BRAIN/Brain, templates/knowledge_note_how_to
 AI/KNOWLEDGE/HOWTO/Running Browser Use on Windows via Edge CDP -> AI/TOOLS/Browser Harness, AI/TOOLS/Browser Use, CODE/KNOWLEDGE/HOWTO/Wiring Serena into a Codebase, AI/TOOLS/Chrome DevTools MCP, AI/TOOLS/Claude Code, templates/knowledge_note_how_to
+AI/TOOLS/PageIndex -> AI/TOOLS/OpenKB, AI/TOOLS/OpenWiki, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, CODE/KNOWLEDGE/INFO/Structural Retrieval for Code, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/TOOLS/MinerU, AI/TOOLS/Unlimited-OCR, templates/tool
 AI/TOOLS/Paperclip -> AI/TOOLS/Claude Code, AI/TOOLS/Cursor, ABOUT/Principles, PROJECTS/PLSOFT/PLSoft, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS/Value Builders, PROJECTS/BRAIN/Brain, AI/TOOLS/Archon, AI/TOOLS/Hermes Agent, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, AI/KNOWLEDGE/INFO/Agentic Coding, BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, templates/tool
 AI/TOOLS/Perplexity -> PROJECTS/TRAVELCAST-AI/Travelcast AI, AI/TOOLS/OpenAI, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, AI/TOOLS/Google Gemini, CODE/TOOLS/Scrapling, AI/TOOLS/Firecrawl, templates/tool
 AI/TOOLS/Personal AI Infrastructure -> AI/TOOLS/Claude Code, PROJECTS/BRAIN/Brain, AI/TOOLS/Paperclip, AI/TOOLS/Hermes Agent, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, Second Brain, AI/TOOLS/Awesome Claude Code, templates/tool
@@ -453,6 +454,7 @@ AI/TOOLS/MCP Language Server <- CODE/KNOWLEDGE/INFO/Structural Retrieval for Cod
 AI/TOOLS/MinerU <- AI/TOOLS/Unlimited-OCR, AI/TOOLS/OpenMed
 AI/TOOLS/NemoClaw <- ABOUT/What tools I use, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/TOOLS/Hermes Agent, CODE/TOOLS/Docker, AI/TOOLS/Hugging Bay
 AI/TOOLS/NotebookLM-py <- AI/TOOLS/Open Notebook, AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, AI/KNOWLEDGE/INFO/Extending Claude Code — Tools for Its Blind Spots
+AI/TOOLS/PageIndex <- AI/TOOLS/OpenKB, AI/TOOLS/OpenWiki, AI/TOOLS/Unlimited-OCR
 AI/TOOLS/Obsidian Skills <- AI/KNOWLEDGE/INFO/High-Signal AI Voices to Follow (2026), LIFE/TOOLS/Obsidian
 AI/TOOLS/Open Design <- AI/KNOWLEDGE/INFO/AI UX Design Tools, AI/KNOWLEDGE/INFO/GPT Image 2 + Seedance Workflow, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/DESIGN MD Spec, AI/TOOLS/Impeccable
 AI/TOOLS/Open Notebook <- AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/TOOLS/MinerU, AI/TOOLS/OpenKB, AI/TOOLS/NotebookLM-py

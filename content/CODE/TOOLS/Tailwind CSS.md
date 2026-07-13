@@ -37,11 +37,11 @@ npm i tailwindcss @tailwindcss/postcss
 
 ## Reasoning for
 
-Tailwind is the styling layer under essentially every app I ship: [[Qamera AI]], [[AGRE]], [[Travelcast AI]]'s website, and the [[Value Builders]] MVP track all use Tailwind v4. Two reasons it sticks. First, it kills the context-switch between markup and a separate stylesheet — you read a component and see exactly how it looks. Second, it's the substrate [[shadcn/ui]] is built on: shadcn components are just [[React]] + Tailwind classes you own, so Tailwind fluency is what makes that workflow productive. For client work and teaching, utility classes also lower the barrier — there's no bespoke CSS architecture to learn before someone can contribute.
+Tailwind is the styling layer under essentially every app I ship: [[Qamera AI]], [[AGRE]], [[Travelcast AI]]'s website, and the [[Value Builders]] MVP track all use Tailwind v4. Two reasons it sticks. First, it kills the context-switch between markup and a separate stylesheet — you read a component and see exactly how it looks. Second, it's the substrate [[shadcn-ui|shadcn/ui]] is built on: shadcn components are just [[React]] + Tailwind classes you own, so Tailwind fluency is what makes that workflow productive. For client work and teaching, utility classes also lower the barrier — there's no bespoke CSS architecture to learn before someone can contribute.
 
 ## Alternatives considered
 
-- **[[shadcn/ui]]** — not an alternative but the layer above: it ships accessible component recipes written *in* Tailwind.
+- **[[shadcn-ui|shadcn/ui]]** — not an alternative but the layer above: it ships accessible component recipes written *in* Tailwind.
 - **CSS Modules / vanilla CSS** — full control and no class-soup, but you rebuild spacing/color consistency by hand every project.
 - **styled-components / Emotion (CSS-in-JS)** — co-locates styles in JS; runtime cost and worse RSC/[[Next.js]] App Router fit pushed me toward Tailwind.
 - **Bootstrap / MUI** — opinionated component look that's hard to escape; Tailwind keeps design ownership with me.
