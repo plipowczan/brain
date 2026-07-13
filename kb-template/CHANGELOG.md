@@ -17,7 +17,17 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
   instead of ad-hoc greps, and reminds the operator to triage raw broken-link counts.
   Existing bases: re-pull `.claude/skills/lint/`.
 
+### Changed
+- **`/qa` cites chat answers as percent-encoded markdown links** — instead of
+  `[[wikilinks]]`, the Q&A skill now emits `[Title](content/…%20path.md)` links that are
+  clickable in Claude Desktop and VS Code markdown preview (saved answer-notes still use
+  `[[wikilinks]]` for Obsidian/graph). Existing bases: re-pull `.claude/skills/qa/`.
+
 ### Added
+- **YT ingest supports an alternate yt-dlp `player_client`** — `ingest/scripts/yt_fetch.py`
+  now threads an optional `player_client` through metadata + caption fetching
+  (`--extractor-args youtube:player_client=…`), a workaround for when the default client is
+  throttled or blocked. Existing bases: re-pull `.claude/skills/ingest/scripts/`.
 - **Research skill suite now ships its `web-search-agent` dependency** — the `/research`
   → `/research-deep` → `/research-report` pipeline dispatches a `web-search-agent`
   sub-agent that was never bundled, so the deep phase silently fell back to generic web
