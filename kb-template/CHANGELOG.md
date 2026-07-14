@@ -7,6 +7,16 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
 
 ## [Unreleased]
 
+### Changed
+- **`web-search-agent` no longer hard-depends on a Unix `date` call** — step 0 ("Get
+  Current Date") ran `date +%Y-%m-%d`, which errors in a PowerShell-only environment
+  (`date` is a `Get-Date` alias that rejects `+%Y-%m-%d`). It now takes today's date from
+  the harness-injected context (no shell call), and only falls back to a tool call —
+  Bash `date +%Y-%m-%d` or PowerShell `Get-Date -Format yyyy-MM-dd` — if the date is
+  genuinely unavailable. Shell-agnostic; the failure was cosmetic (date is only used to
+  filter "recent" results) but this removes it. Existing bases: re-pull
+  `.claude/agents/web-search-agent.md`.
+
 ## [0.1.0] - 2026-07-13
 
 First tagged release of the second-brain template.
