@@ -7,7 +7,8 @@ tags: ["tool", "ai", "agents", "browser", "automation", "open-source", "python"]
 type: tool
 source: "_raw/inbox/browser-usebrowser-use 🌐 Make websites accessible for AI agents. Automate tasks online with ease.md"
 agent-created: true
-summary: "Open-source Python framework that makes websites accessible to AI agents — DOM-aware browser automation with multi-LLM support and a hosted cloud tier"
+agent-reviewed: 2026-07-16
+summary: "Open-source Python framework that makes websites accessible to AI agents — CLI 3.0 (2026-07) now runs on Browser Harness: agents execute Python in the browser, not a fixed action menu"
 ---
 
 # Browser Use
@@ -18,11 +19,14 @@ summary: "Open-source Python framework that makes websites accessible to AI agen
 
 The umbrella project for the [[Browser Harness]] (thin CDP harness, self-healing) and [[Video Use]] (same "give the LLM a structured surface, not raw frames" pattern, applied to video).
 
+> [!info] Version status (checked 2026-07-16)
+> Latest pip package: **0.13.4** — versioning still `0.x`, so **there is no v4**. The headline release is **Browser Use CLI 3.0** (2026-07-01), now powered by [[Browser Harness]]: the agent executes arbitrary **Python** in the browser instead of a fixed action menu (`click`/`type`), so it can inspect, adapt, and recover in the same coding loop it was trained on. Install shifted to `uv tool install browser-use`. Core deps now pin `browser-harness==0.1.5` and `browser-use-sdk==3.4.2`. This is the note's original "[[Browser Harness]] is the engine" thesis landing in the product.
+
 ## 🧩 Features
 
-- Python>=3.11, `uv add browser-use`, one-call `Agent(task=..., llm=..., browser=...).run()`
+- Python ≥3.11 (CLI 3.0 wants 3.12); `uv add browser-use` for the SDK, `uv tool install browser-use` for the CLI; one-call `Agent(task=..., llm=..., browser=...).run()`
 - Multi-LLM: `ChatBrowserUse`, `ChatGoogle('gemini-3-flash-preview')`, `ChatAnthropic('claude-sonnet-4-6')`
-- CLI: `browser-use open <url>`, `state`, `click <idx>`
+- **CLI 3.0** (2026-07-01): agent writes and runs **Python** in the browser via [[Browser Harness]] — no fixed action list; inspect / adapt / recover in one coding loop. Drop it into Claude Code, Codex, or any coding agent. (Legacy fixed-action commands `open`/`state`/`click <idx>` predate 3.0.)
 - Templates: `uvx browser-use init --template default|advanced|tools`
 - Cloud free tier: 3 concurrent browsers, captcha solving, proxies, no card
 - LLM Quickstart: point any coding agent (Cursor, Claude Code) at [Agents.md](https://docs.browser-use.com/llms-full.txt) — no manual onboarding
@@ -41,6 +45,10 @@ For tasks where a coding agent needs to actually click around: form filling, scr
 - Playwright/Puppeteer directly — lower-level, no agent reasoning layer
 - [[Browser Harness]] — same org, but a thinner CDP layer where the agent writes its own helpers
 - Hosted Cloud Agent — strongest stealth + scale, paid
+
+## 🔐 Security note
+
+`litellm` was **dropped from core dependencies** after the 2026-03-24 supply-chain attack (backdoored `litellm` 1.82.7 & 1.82.8 published to PyPI). Provider SDKs (`anthropic`, `openai`, `google-genai`, `groq`) are now pinned directly instead of routed through litellm. Pin your `browser-use` version and audit transitive deps before running any agent that touches credentials or a logged-in session (as in [[Running Browser Use on Windows via Edge CDP]]).
 
 ## 🔗 Links
 

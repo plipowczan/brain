@@ -7,8 +7,8 @@ tags: ["tool", "ai", "agents", "browser", "harness", "cdp", "self-improving", "o
 type: tool
 source: "_raw/inbox/Self-healing harness that enables LLMs to complete any task.md"
 agent-created: true
-agent-reviewed: 2026-07-10
-summary: "Thin self-healing CDP harness (~1k lines) that connects an LLM directly to your real browser — agent writes the missing helpers itself at runtime"
+agent-reviewed: 2026-07-16
+summary: "Thin self-healing CDP harness (~1k lines) connecting an LLM directly to your real browser — agent writes the missing helpers itself; now the engine behind Browser Use CLI 3.0"
 ---
 
 # Browser Harness
@@ -18,6 +18,9 @@ summary: "Thin self-healing CDP harness (~1k lines) that connects an LLM directl
 [browser-use/browser-harness](https://github.com/browser-use/browser-harness) — minimal editable CDP harness. One websocket to Chrome, nothing between. The agent writes what's missing during execution and the harness improves itself every run.
 
 Same org as [[Browser Use]] and [[Video Use]]. Where Browser Use is a full framework, Browser Harness goes the opposite direction: a thin shell where the agent writes its own helpers. Embodies the "bitter lesson of agent harnesses" — stop over-engineering, let the agent fill in gaps as it works.
+
+> [!success] The thesis won (2026-07-01)
+> **Browser Use CLI 3.0** is now officially powered by Browser Harness. The parent framework dropped its fixed action menu (`click`/`type`) in favor of this harness's model — the agent executes arbitrary **Python** in the browser and self-heals in one coding loop. So Browser Harness is no longer just the minimal sibling; it is the **engine behind [[Browser Use]]'s flagship CLI**. As of pip `browser-use` 0.13.4, the package pins `browser-harness==0.1.5` and `browser-use-sdk==3.4.2`.
 
 ## 🧩 Features
 
