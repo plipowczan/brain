@@ -7,6 +7,46 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
 
 ## [Unreleased]
 
+### Changed
+- **BREAKING: all workflow commands and skills are namespaced** — command wrappers moved
+  from `.claude/commands/*.md` to `.claude/commands/b/*.md` (subdirectory = native `:`
+  namespace, so `/ingest` is now `/b:ingest`), and every vault skill directory gained a
+  `brain-` prefix with its frontmatter `name:` updated to match (`ingest` → `brain-ingest`).
+  This stops collisions with same-named skills from installed plugins and groups the
+  vault's commands in the slash menu. Skill **descriptions are unchanged**, so
+  natural-language triggering ("process inbox", "health check") works exactly as before.
+  The research suite also gained command wrappers (`/b:research`, `/b:research-deep`,
+  `/b:research-report`, `/b:research-add-items`, `/b:research-add-fields`) — previously
+  it was invocable only by bare skill name. `excalidraw-diagram` (generic utility) keeps
+  its name. All cross-references in skills, scripts, docs, and the test suite's
+  path constants (`tests/run_tests.py`) updated.
+
+  | Old command | New command | Old skill | New skill |
+  |---|---|---|---|
+  | `/onboard` | `/b:onboard` | `onboard` | `brain-onboard` |
+  | `/ingest` | `/b:ingest` | `ingest` | `brain-ingest` |
+  | `/compile` | `/b:compile` | `compile` | `brain-compile` |
+  | `/enhance` | `/b:enhance` | `enhance` | `brain-enhance` |
+  | `/reindex` | `/b:reindex` | `reindex` | `brain-reindex` |
+  | `/qa` | `/b:qa` | `qa` | `brain-qa` |
+  | `/lint` | `/b:lint` | `lint` | `brain-lint` |
+  | `/output` | `/b:output` | `output` | `brain-output` |
+  | `/refactor` | `/b:refactor` | `refactor` | `brain-refactor` |
+  | `/gaps` | `/b:gaps` | `gaps` | `brain-gaps` |
+  | `/curate` | `/b:curate` | `curate` | `brain-curate` |
+  | `/export` | `/b:export` | `export` | `brain-export` |
+  | `/import` | `/b:import` | `import` | `brain-import` |
+  | — | `/b:research` | `research` | `brain-research` |
+  | — | `/b:research-deep` | `research-deep` | `brain-research-deep` |
+  | — | `/b:research-report` | `research-report` | `brain-research-report` |
+  | — | `/b:research-add-items` | `research-add-items` | `brain-research-add-items` |
+  | — | `/b:research-add-fields` | `research-add-fields` | `brain-research-add-fields` |
+
+  Existing bases: `git mv` your `.claude/commands/*.md` into `.claude/commands/b/`,
+  `git mv` each skill dir to its `brain-*` name, update each `SKILL.md` `name:` field
+  to match the new directory name, then re-pull the updated docs (README, AGENTS
+  template, REFERENCE notes). Muscle-memory note: type `/b:` and tab-complete.
+
 ### Fixed
 - **`/research-deep` JSON validator was a silent no-op** —
   `.claude/skills/research/validate_json.py` only read the `field_categories:` /

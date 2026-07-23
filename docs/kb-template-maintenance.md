@@ -30,7 +30,8 @@ in template improvements only when you want them for your own vault.
    ```
 3. **Register it** if it's a new skill: add a row to `kb-template/CLAUDE.template.md`
    (Workflows) and `kb-template/README.md` (Skills table), and add a
-   `kb-template/.claude/commands/<skill>.md`.
+   `kb-template/.claude/commands/b/<skill>.md` (commands live under the `b/` namespace
+   subdir → `/b:<skill>`; skills are named `brain-<skill>`).
 4. **Publish to the standalone repo:**
    ```bash
    # one-time: clone the published repo as a sibling (if you don't have it)

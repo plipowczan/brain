@@ -54,9 +54,9 @@ echo ">> smoke test: running the template's own self-tests in $TARGET"
 ( cd "$TARGET" && "$PY" tests/run_tests.py )
 echo ">> smoke test: rebuilding indexes + lint"
 ( cd "$TARGET" \
-    && "$PY" .claude/skills/reindex/scripts/build_indexes.py \
-    && "$PY" .claude/skills/lint/scripts/lint_scan.py >/dev/null \
-    && "$PY" .claude/skills/lint/scripts/lint_links.py >/dev/null )
+    && "$PY" .claude/skills/brain-reindex/scripts/build_indexes.py \
+    && "$PY" .claude/skills/brain-lint/scripts/lint_scan.py >/dev/null \
+    && "$PY" .claude/skills/brain-lint/scripts/lint_links.py >/dev/null )
 # discard any index timestamp churn from the smoke build (re-copy the committed ones)
 if command -v rsync >/dev/null 2>&1; then
   rsync -a "$SRC"/content/_indexes/ "$TARGET"/content/_indexes/

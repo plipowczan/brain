@@ -198,18 +198,18 @@ summary: "One-line description for indexes"
 
 Each workflow is a skill with a matching slash command:
 
-- **INGEST** (`ingest`, `process inbox`) — `.claude/skills/ingest/`, command `/ingest`
-- **COMPILE** (`compile X`, `write article about X`) — `.claude/skills/compile/`, command `/compile`
-- **INDEX** (`reindex`, `update indexes`) — `.claude/skills/reindex/`, command `/reindex`
-- **Q&A** (`research X`, `what do my notes say about X`) — `.claude/skills/qa/`, command `/qa`
-- **LINT** (`lint`, `health check`, `audit`) — `.claude/skills/lint/`, command `/lint`
-- **OUTPUT** (`generate report about X`) — `.claude/skills/output/`, command `/output`
-- **ENHANCE** (`enhance [[Note]]`, `improve X`) — `.claude/skills/enhance/`, command `/enhance`
-- **REFACTOR** (`rename note`, `merge notes`, `split note`) — `.claude/skills/refactor/`, command `/refactor` — note surgery (rename/move/merge/split) with automatic wikilink repair
-- **GAPS** (`find gaps`, `coverage analysis`, `what's missing`) — `.claude/skills/gaps/`, command `/gaps` — surfaces weakly-connected notes, missing topics, thin areas
-- **CURATE** (`curate`, `prune`, `cleanup`, `retire stale notes`) — `.claude/skills/curate/`, command `/curate` — staleness/relevance hygiene: scores notes, proposes archive/merge/refresh, retires confirmed notes to `_graveyard/` (reversible)
-- **EXPORT** (`export [[A]] [[B]]`, `export #tag`, `export FOLDER`, `export --public …`) — `.claude/skills/export/`, command `/export` — packs selected notes into a portable `brain-pack-*.zip`; two privacy levels: `me` (default, verbatim, read-only) and `--public` (redaction pipeline: policy + `content/_privacy.md` overrides, verdict table, sweep + audit nets, local report)
-- **IMPORT** (`import <pack.zip>`) — `.claude/skills/import/`, command `/import` — imports a brain-pack bundle from another brain: validates, triages collisions, adapts placement to this vault's taxonomy, stamps provenance, updates indexes, writes report; ≤2 prompts per run
+- **INGEST** (`ingest`, `process inbox`) — `.claude/skills/brain-ingest/`, command `/b:ingest`
+- **COMPILE** (`compile X`, `write article about X`) — `.claude/skills/brain-compile/`, command `/b:compile`
+- **INDEX** (`reindex`, `update indexes`) — `.claude/skills/brain-reindex/`, command `/b:reindex`
+- **Q&A** (`research X`, `what do my notes say about X`) — `.claude/skills/brain-qa/`, command `/b:qa`
+- **LINT** (`lint`, `health check`, `audit`) — `.claude/skills/brain-lint/`, command `/b:lint`
+- **OUTPUT** (`generate report about X`) — `.claude/skills/brain-output/`, command `/b:output`
+- **ENHANCE** (`enhance [[Note]]`, `improve X`) — `.claude/skills/brain-enhance/`, command `/b:enhance`
+- **REFACTOR** (`rename note`, `merge notes`, `split note`) — `.claude/skills/brain-refactor/`, command `/b:refactor` — note surgery (rename/move/merge/split) with automatic wikilink repair
+- **GAPS** (`find gaps`, `coverage analysis`, `what's missing`) — `.claude/skills/brain-gaps/`, command `/b:gaps` — surfaces weakly-connected notes, missing topics, thin areas
+- **CURATE** (`curate`, `prune`, `cleanup`, `retire stale notes`) — `.claude/skills/brain-curate/`, command `/b:curate` — staleness/relevance hygiene: scores notes, proposes archive/merge/refresh, retires confirmed notes to `_graveyard/` (reversible)
+- **EXPORT** (`export [[A]] [[B]]`, `export #tag`, `export FOLDER`, `export --public …`) — `.claude/skills/brain-export/`, command `/b:export` — packs selected notes into a portable `brain-pack-*.zip`; two privacy levels: `me` (default, verbatim, read-only) and `--public` (redaction pipeline: policy + `content/_privacy.md` overrides, verdict table, sweep + audit nets, local report)
+- **IMPORT** (`import <pack.zip>`) — `.claude/skills/brain-import/`, command `/b:import` — imports a brain-pack bundle from another brain: validates, triages collisions, adapts placement to this vault's taxonomy, stamps provenance, updates indexes, writes report; ≤2 prompts per run
 
 ## Build & Deploy
 

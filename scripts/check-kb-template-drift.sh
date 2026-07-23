@@ -16,8 +16,9 @@ SRC_REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 LIVE="$SRC_REPO/.claude/skills"
 TMPL="$SRC_REPO/kb-template/.claude/skills"
 
-SHARED="ingest compile enhance lint output qa reindex excalidraw-diagram \
-        research research-deep research-report research-add-fields research-add-items"
+SHARED="brain-ingest brain-compile brain-enhance brain-lint brain-output brain-qa brain-reindex \
+        excalidraw-diagram brain-research brain-research-deep brain-research-report \
+        brain-research-add-fields brain-research-add-items"
 
 drift=0
 for s in $SHARED; do
