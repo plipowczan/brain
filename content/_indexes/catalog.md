@@ -1,6 +1,6 @@
 ---
-updated: 2026-07-16T00:00:00Z
-entries: 361
+updated: 2026-07-23T00:00:00Z
+entries: 362
 ---
 # Note Catalog
 
@@ -348,7 +348,8 @@ entries: 361
 - **Eisenhower Matrix** | knowledge-note | 2023-01-04 | [knowledge, info] | Four-quadrant task prioritization tool: urgent/important, urgent/not important, important/not urgent, neither. | → templates/eisenhower_matrix, templates/knowledge_note_info
 - **Glucose Spikes and Performance** | knowledge-note | 2026-06-21 | [knowledge, info, health, glucose, nutrition, performance, evidence-based] | Evidence-based take on postprandial glucose spikes, afternoon crashes, and how to flatten the curve — why fibre-first failed me (protein-first works), carb-last sequencing, post-meal walking. Claims flagged by evidence strength. | → Hashimoto and Diet, Mobility for Desk Workers, Cold shower, Blue light, Intermittent Fasting, templates/knowledge_note_info
 - **Gratitude** | knowledge-note | 2023-02-08 | [knowledge, info] | Gratitude practice reduces pain, improves sleep, lowers anxiety, and regulates stress — used in daily journal. | → LIFE/KNOWLEDGE/INFO/5 Minute Journal, templates/knowledge_note_info
-- **Hashimoto and Diet** | knowledge-note | 2026-06-21 | [knowledge, info, health, hashimoto, thyroid, diet, evidence-based] | Evidence-based diet management for Hashimoto's — iodine caution, goitrogens overstated, selenium nuance, gluten, fasting, levothyroxine timing. Each claim flagged by evidence strength. | → Glucose Spikes and Performance, Mobility for Desk Workers, Cold shower, Blue light, Intermittent Fasting, templates/knowledge_note_info
+- **Hashimoto and Diet** | knowledge-note | 2026-06-21 | [knowledge, info, health, hashimoto, thyroid, diet, evidence-based] | Evidence-based diet management for Hashimoto's — iodine caution, goitrogens overstated, selenium nuance, gluten, fasting, levothyroxine timing. Each claim flagged by evidence strength. | → Hashimoto Meals and Fasting Protocol, Glucose Spikes and Performance, Mobility for Desk Workers, Cold shower, Blue light, Intermittent Fasting, templates/knowledge_note_info
+- **Hashimoto Meals and Fasting Protocol** | knowledge-note | 2026-07-23 | [knowledge, info, health, hashimoto, thyroid, diet, nutrition, fasting, evidence-based] | Practice companion to Hashimoto and Diet — fast-day vs eating-day meal templates, protein 1.6-2.2 g/kg, food sources of Se/Zn/Fe/D/B12/Mg/omega-3, iodine without excess, levothyroxine spacing, gentle protein-first refeed. Poland-specific. | → Hashimoto and Diet, Glucose Spikes and Performance, Intermittent Fasting, Mobility for Desk Workers, Cold shower, Blue light, templates/knowledge_note_info
 - **Intermittent Fasting** | knowledge-note | 2026-06-21 | [knowledge, info, health, fasting, nutrition, weight-loss, evidence-based] | Evidence-based take on intermittent fasting — IF is not superior to plain calorie restriction; autophagy/longevity benefits unproven in humans. What it means for my weekly 24h fast, including the Hashimoto angle. Claims flagged by evidence strength. | → Hashimoto and Diet, Glucose Spikes and Performance, Mobility for Desk Workers, Cold shower, Blue light, templates/knowledge_note_info
 - **Jordan Petersons 12 rules for life** | knowledge-note | 2022-10-09 | [knowledge, info, life, wisdom, rules] | Jordan Peterson's 12 rules summarized: posture, self-care, friendship, self-comparison, truthful living | → LIFE/BOOKS/12 Rules for Life, templates/knowledge_note_info
 - **Mind map** | knowledge-note | 2022-09-13 | [knowledge, mind-map] | Mind mapping technique for better memory retention using both brain hemispheres and radial keyword structure. | → templates/knowledge_note_info

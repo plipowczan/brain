@@ -84,6 +84,7 @@ Every dedicated timing claim **failed verification** (rate-limited/inconclusive)
 
 ## 🔗 Links
 
+- [[Hashimoto Meals and Fasting Protocol]] — the **practice** companion: meal templates, protein targets, food sources, how to break the 24h fast, levothyroxine spacing
 - [[Glucose Spikes and Performance]] — postprandial crashes & energy; overlapping diet levers
 - [[Mobility for Desk Workers]] · [[Cold shower]] · [[Blue light]] — other evidence-based health notes
 - [[Intermittent Fasting]] — general IF evidence + the thyroid/fasting caveat

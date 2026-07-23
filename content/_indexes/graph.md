@@ -1,7 +1,7 @@
 ---
-updated: 2026-07-16T00:00:00Z
-nodes: 361
-edges: 2348
+updated: 2026-07-23T00:00:00Z
+nodes: 362
+edges: 2356
 ---
 # Link Graph
 
@@ -289,7 +289,8 @@ LIFE/KNOWLEDGE/INFO/DISC -> ABOUT/CLIFTONSTRENGTHS, LIFE/KNOWLEDGE/INFO/Jordan P
 LIFE/KNOWLEDGE/INFO/Eisenhower Matrix -> templates/eisenhower_matrix, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance -> LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Gratitude -> LIFE/KNOWLEDGE/INFO/5 Minute Journal, templates/knowledge_note_info
-LIFE/KNOWLEDGE/INFO/Hashimoto and Diet -> LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Hashimoto and Diet -> LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol -> LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Intermittent Fasting -> LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life -> LIFE/BOOKS/12 Rules for Life, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Mind map -> templates/knowledge_note_info
@@ -613,20 +614,21 @@ LIFE/KNOWLEDGE/HOWTO/When to exercise <- LIFE/KNOWLEDGE/INFO/Mobility for Desk W
 LIFE/KNOWLEDGE/INFO/5 Minute Journal <- ABOUT/HABITS/Habits, ABOUT/I have a business and not business has me, LIFE/KNOWLEDGE/INFO/Gratitude, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/Stoicism
 LIFE/KNOWLEDGE/INFO/5 second rule <- LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Distractions
 LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly <- BUSINESS/BOOKS/The Inevitable
-LIFE/KNOWLEDGE/INFO/Blue light <- LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/TOOLS/Kindle
-LIFE/KNOWLEDGE/INFO/Cold shower <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
+LIFE/KNOWLEDGE/INFO/Blue light <- LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/TOOLS/Kindle
+LIFE/KNOWLEDGE/INFO/Cold shower <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
 LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System <- LIFE/BOOKS/Włam się do mózgu, LIFE/TOOLS/OneNote
 LIFE/KNOWLEDGE/INFO/Digital Garden <- AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Quartz, LIFE/KNOWLEDGE/INFO/Second Brain Design, LIFE/TOOLS/Obsidian, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/DISC <- ABOUT/DISC
 LIFE/KNOWLEDGE/INFO/Eisenhower Matrix <- BUSINESS/BOOKS/The One Thing, LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation
-LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance <- LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Intermittent Fasting
+LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance <- LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol, LIFE/KNOWLEDGE/INFO/Intermittent Fasting
 LIFE/KNOWLEDGE/INFO/Gratitude <- LIFE/KNOWLEDGE/INFO/5 Minute Journal, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation
-LIFE/KNOWLEDGE/INFO/Hashimoto and Diet <- LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Intermittent Fasting
-LIFE/KNOWLEDGE/INFO/Intermittent Fasting <- LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet
+LIFE/KNOWLEDGE/INFO/Hashimoto and Diet <- LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol, LIFE/KNOWLEDGE/INFO/Intermittent Fasting
+LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol <- LIFE/KNOWLEDGE/INFO/Hashimoto and Diet
+LIFE/KNOWLEDGE/INFO/Intermittent Fasting <- LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol
 LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life <- LIFE/BOOKS/12 Rules for Life, LIFE/KNOWLEDGE/INFO/DISC, LIFE/KNOWLEDGE/INFO/Stoicism
 LIFE/KNOWLEDGE/INFO/Mind map <- BUSINESS/TOOLS/Miro, LIFE/KNOWLEDGE/HOWTO/How to create mind map, LIFE/KNOWLEDGE/HOWTO/How to learn, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System
 LIFE/KNOWLEDGE/INFO/Mindfulness Meditation <- LIFE/KNOWLEDGE/INFO/Stoicism
-LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers <- LIFE/KNOWLEDGE/HOWTO/When to exercise, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
+LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers <- LIFE/KNOWLEDGE/HOWTO/When to exercise, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
 LIFE/KNOWLEDGE/INFO/Obsidian <- AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/TOOLS/NotebookLM-py, AI/TOOLS/Obsidian Skills, BUSINESS/TOOLS/Excalidraw, CODE/TOOLS/Excalidraw, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Second Brain Design, LIFE/TOOLS/Obsidian, LIFE/TOOLS/OneNote, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/Pareto principle <- LIFE/NOTES/Programmer and what's next
 LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/HOWTO/When to exercise, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers
