@@ -24,16 +24,30 @@ _SKIP_KEYS = {"_source_file", "uncertain"}
 
 def load_fields_yaml(fields_path):
     with fields_path.open(encoding="utf-8") as f:
-        data = yaml.safe_load(f)
+        data = yaml.safe_load(f) or {}
+    # Accept both fields.yaml schema styles:
+    #   {field_categories: [{category, fields: [{name, required}]}]}  (original)
+    #   {categories:       [{name,     fields: [{name}]}]}            (research skill output)
+    categories = data.get("field_categories") or data.get("categories") or []
     items = [
-        (field["name"], category["category"], field.get("required", False))
-        for category in data.get("field_categories", [])
+        (
+            field["name"],
+            category.get("category") or category.get("name") or "Unknown",
+            field.get("required", False),
+        )
+        for category in categories
         for field in category.get("fields", [])
     ]
     all_fields = {name for name, _, _ in items}
     required_fields = {name for name, _, required in items if required}
+    # When the schema marks nothing as required, enforce FULL coverage: treat
+    # every defined field as required. This upholds the skill's "complete field
+    # coverage" contract and prevents a trivial pass (valid=True with 0 required).
+    enforce_all = not required_fields and bool(all_fields)
+    if enforce_all:
+        required_fields = set(all_fields)
     field_categories = {name: category for name, category, _ in items}
-    return all_fields, required_fields, field_categories
+    return all_fields, required_fields, field_categories, enforce_all
 
 
 def extract_json_fields(data, category_mapping=None):
@@ -126,8 +140,9 @@ def main():
         print(f"[ERROR] fields.yaml not found: {fields_path}")
         sys.exit(1)
     print(f"Field definition file: {fields_path}")
-    all_fields, required_fields, field_categories = load_fields_yaml(fields_path)
-    print(f"Total fields: {len(all_fields)} (required: {len(required_fields)}, optional: {len(all_fields) - len(required_fields)})")
+    all_fields, required_fields, field_categories, enforce_all = load_fields_yaml(fields_path)
+    coverage_note = " -- no `required:` flags, enforcing full coverage (all fields required)" if enforce_all else ""
+    print(f"Total fields: {len(all_fields)} (required: {len(required_fields)}, optional: {len(all_fields) - len(required_fields)}){coverage_note}")
     json_files = (
         [Path(p) for p in args.json]
         if args.json

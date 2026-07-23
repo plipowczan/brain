@@ -7,6 +7,20 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
 
 ## [Unreleased]
 
+### Fixed
+- **`/research-deep` JSON validator was a silent no-op** —
+  `.claude/skills/research/validate_json.py` only read the `field_categories:` /
+  `category:` schema, but `/research` Step 4 emits `fields.yaml` with `categories:` /
+  `name:`. On that schema the loader parsed **0 fields** and every file "passed"
+  trivially (100% of nothing). The loader now accepts **both** schema styles
+  (`field_categories`|`categories`, category label `category`|`name`). Second fix:
+  `valid` gated only on `required` fields, and nothing was ever marked `required`, so
+  even a correctly-parsed schema passed with fields missing — when a schema marks
+  nothing required the validator now **treats all defined fields as required and
+  enforces full coverage** (a file missing any field FAILs with exit 1). Backward
+  compatible: schemas that set explicit `required:` flags keep the original gating.
+  Existing bases: re-pull `.claude/skills/research/validate_json.py`.
+
 ### Changed
 - **`web-search-agent` no longer hard-depends on a Unix `date` call** — step 0 ("Get
   Current Date") ran `date +%Y-%m-%d`, which errors in a PowerShell-only environment

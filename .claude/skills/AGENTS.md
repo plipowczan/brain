@@ -36,6 +36,7 @@ scratchpad copies; source notes stay byte-identical.
 - Many skills here are mirrored into `kb-template/.claude/skills/`. After changing a shared skill, run `scripts/check-kb-template-drift.sh` and port intentional changes.
 - `ingest/scripts/yt_fetch.py` needs `yt-dlp.exe` on PATH (see the `yt-dlp-needs-exe-on-path` memory).
 - The `research*` suite dispatches the `web-search-agent` sub-agent in [`../agents/`](../agents/AGENTS.md); `research-deep` also shells out to `research/validate_json.py`. Both use **project-relative** paths — keep them project-scoped, and mirror agent changes into `kb-template/.claude/agents/` (the drift script does not cover agents).
+- `research/validate_json.py` accepts **both** `fields.yaml` schema styles: the original `field_categories:`/`category:` and the `/research`-emitted `categories:`/`name:`. When no field is marked `required:`, it treats **all** defined fields as required and enforces full coverage (missing field → FAIL, exit 1). Keep this file byte-identical (LF endings) to the `kb-template/` copy or the drift check flags it.
 
 ## Verify
 
