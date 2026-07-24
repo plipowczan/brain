@@ -7,13 +7,16 @@ tags: ["tool", "ai", "llm", "observability", "evaluation", "prompts", "open-sour
 type: tool
 source: "https://github.com/langfuse/langfuse"
 agent-created: true
-summary: "Open-source LLM engineering platform — tracing/observability, prompt management, evals, datasets, playground; self-hostable, YC W23, MIT (ee folders excepted)"
+agent-reviewed: 2026-07-24
+summary: "Open-source LLM engineering platform — tracing/observability, prompt management, evals, datasets, playground; self-hostable, YC W23 (part of ClickHouse since Jan 2026), MIT (ee folders excepted)"
 ---
 # Langfuse
 
 `langfuse/langfuse` — open-source **LLM engineering platform** (YC W23) that helps teams develop, monitor, evaluate, and debug AI applications. It is the layer you bolt onto an LLM app to see what actually happened inside each call: traces, costs, latency, prompt versions, and quality scores. Self-hostable in ~5 minutes via Docker Compose, or run as managed Langfuse Cloud. Built in TypeScript on top of the [ClickHouse](https://github.com/ClickHouse/ClickHouse) open-source database; ~29k GitHub stars.
 
-For my context — this is the **observability / eval backbone** for any serious chatbot or agent I build ([[Qamera AI]], [[AI Chatbots Architecture]]). It also closes the loop already implied by [[LightRAG]], which ships a built-in Langfuse tracing integration for its RAG pipeline.
+For my context — this is the **observability / eval backbone** for any serious chatbot or agent I build ([[Qamera AI]], [[AI Chatbots Architecture]]), and the runtime-monitoring lane of the [[LLM App Engineering Stack]]. It also closes the loop already implied by [[LightRAG]], which ships a built-in Langfuse tracing integration for its RAG pipeline.
+
+> 🆕 Update (ingest 2026-07-24): Langfuse has been **part of [ClickHouse](https://github.com/ClickHouse/ClickHouse) since January 2026** — the same ClickHouse OSS database it was already built on. The project remains open source (MIT core, `ee/` carved out) and is hiring/expanding across the EU.
 
 ## 🔗 Links
 
@@ -86,10 +89,10 @@ Langfuse is integration-rich, which is why it shows up as a dependency across th
 - **OpenTelemetry**-native ingestion
 - **OpenAI SDK** — drop-in replacement, auto-instrumented
 - **LangChain**, **LlamaIndex**, **Haystack** — callback/tracing hooks
-- **LiteLLM** — trace any of 100+ models (Azure, Anthropic, Cohere, Ollama, Bedrock, HF…)
+- **[[LiteLLM]]** — trace any of 100+ models (Azure, Anthropic, Cohere, [[Ollama]], Bedrock, HF…)
 - **Vercel AI SDK**, **Mastra** — TS agent frameworks
-- Agent frameworks: **CrewAI**, **AutoGen**, **smolagents**, **Goose**
-- Libraries: **Instructor**, **DSPy**, **Mirascope**
+- Agent frameworks: **[[CrewAI]]**, **AutoGen**, **smolagents**, **Goose**
+- Libraries: **[[Instructor]]**, **[[DSPy]]**, **Mirascope**
 
 ## ✍️ Reasoning for
 

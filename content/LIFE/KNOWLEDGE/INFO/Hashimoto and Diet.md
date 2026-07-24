@@ -107,5 +107,8 @@ Every dedicated timing claim **failed verification** (rate-limited/inconclusive)
 [^ramadan]: Meta-analysis — Ramadan fasting in hypothyroid patients on levothyroxine (14 studies, 1,661 pts). https://pmc.ncbi.nlm.nih.gov/articles/PMC10961289/
 [^diet]: Iodine-restriction RCT context (refuted benefit). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9962371/
 
+## 🔗 See also
+- [[Strength Training for Desk Workers 40+]] — evidence-flagged research on resistance training tailored to Hashimoto's + a weekly 24h fast (protein/leucine dosing, fasted-training interaction, thyroid-specific caveats).
+
 ---
 Template: [[templates/knowledge_note_info]]

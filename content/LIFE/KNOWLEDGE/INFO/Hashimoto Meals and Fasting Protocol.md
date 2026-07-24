@@ -153,5 +153,8 @@ Mediterranean beats gluten-free for **non-celiac** Hashimoto's: a 2025 meta-anal
 [^medpattern]: Mediterranean diet as a protective choice in autoimmune thyroid disorders; GF vs Med 12-wk trial (Ülker 2024). https://pmc.ncbi.nlm.nih.gov/articles/PMC10535745/ · https://onlinelibrary.wiley.com/doi/full/10.1002/fsn3.3833
 [^gut]: Gut microbiota in autoimmune thyroid disease — diet-based modulation. https://pmc.ncbi.nlm.nih.gov/articles/PMC12960086/
 
+## 🔗 See also
+- [[Strength Training for Desk Workers 40+]] — the training-side companion: per-meal protein/leucine targets, creatine, omega-3 & vitamin D as RT adjuncts, and how a weekly 24h fast interacts with fasted training.
+
 ---
 Template: [[templates/knowledge_note_info]]
