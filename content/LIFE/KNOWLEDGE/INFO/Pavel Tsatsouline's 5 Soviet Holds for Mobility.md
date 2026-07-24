@@ -13,6 +13,7 @@ duration: "12m11s"
 published: 2026-05-13
 transcription: captions
 agent-created: true
+agent-reviewed: 2026-07-24
 summary: "Five no-equipment isometric holds from Pavel Tsatsouline's Soviet method — a 15-minute, 3x/week routine for mobility and joint pain"
 ---
 
@@ -31,29 +32,34 @@ The recurring principle across all five: **tension and active engagement, not pa
 - **Only 10 seconds** — you should be shaking. If you can hold past 15s, you aren't generating enough tension.
 - 3 rounds, ~1 min rest. **Mistakes:** hips sagging (crushes the spine) or butt in the air (turns it passive).
 - *Regression:* drop to knees, keep everything else identical. *Progression:* lift one foot at a time.
+- ▶️ **Demo:** [Hardstyle Plank & push-up set-up — StrongFirst](https://www.youtube.com/watch?v=KSf9wxIQryU) (official) · [Generating tension in the plank — Karen Smith, StrongFirst](https://www.youtube.com/watch?v=0teTMH2BtLI)
 
 ### 2. Prying Squat — *ankle + hip opening*
 - Deepest squat you can manage, feet ~shoulder width, toes slightly out, hips below knees. Bring elbows inside the knees and gently push them outward; chest up, **heels glued to the floor**.
 - Hold 60s, building to 2–3 min over weeks.
 - **Mistakes:** butt drifting back off the heels (really a forward half-squat — fix by driving heels down hard); rounding the lower back (hips/ankles too tight — hold a door frame for support).
 - Fixes the *root cause*: stuck ankles and hips force the knees and lower back to compensate.
+- ▶️ **Demo:** [Improve hip & ankle mobility with the Prying Goblet Squat — StrongFirst](https://www.youtube.com/watch?v=7Sxo7Xtx2Ks) (official; the video uses a kettlebell as counterweight — do it bodyweight, elbows prying knees, for this routine)
 
 ### 3. Cossack Hold — *groin, inner thigh, lateral hip, ankle*
 - Wide stance. Sink onto one leg; the other stays straight to the side, toe up, heel down. Bent leg's heel glued to floor, chest upright.
 - 30s per side, 2 rounds per side. **Mistakes:** rounding the back (hands together at chest as counterweight); straight-leg heel lifting (pull toe toward shin); squatting-leg heel lifting.
 - *Regression:* hold a door frame with the hand opposite the bent leg. Loading tissue under tension is what produces lasting change — months of passive groin stretching usually do nothing.
+- ▶️ **Demo:** [How To Cossack Squat — Beginner to Advanced](https://www.youtube.com/watch?v=JaCbmoDqUc4) · [Cossack Squat demo & cues — Catalyst Athletics](https://www.catalystathletics.com/exercise/584/Cossack-Squat/)
 
 ### 4. Active Dead Hang — *shoulders + spinal decompression*
 - Hang from a bar/sturdy frame/branch, arms straight. **Active** = gently pull shoulder blades down and back ("into your back pockets") to switch on the shoulder muscles — not a passive dangle.
 - 30s, 3 rounds. Decompresses spinal discs, stretches lats/chest/back, builds grip strength (a strong longevity predictor).
 - **Mistake:** hanging fully passive, or letting go early when the grip burns — the burn is the point.
 - *Regression:* grab the top of a sturdy doorway, sink the knees so feet stay planted, hanging from ~60% bodyweight.
+- ▶️ **Demo:** [Dead Hang — form, muscles worked & video](https://fitbod.me/exercises/dead-hang) · [Active vs passive hang / scapular decompression guide](https://bodybuilding-wizard.com/dead-hang-scapular-decompression-exercise-guide/) (the "active" cue = shoulder blades down, not a passive dangle)
 
 ### 5. Couch Stretch Hold — *hip flexors (the biggest fix)*
 - Kneeling lunge with the **back foot's shin vertical against a couch/wall**, front leg in a normal lunge (foot flat, knee 90°). Squeeze the back-leg glute hard and push hips forward; keep chest tall. 60s per side.
 - The single biggest mobility problem for desk-sitters: tight hip flexors pull the pelvis into a constant lower-back arch, which is where most chronic back pain originates.
 - **Mistakes:** arching the back to cheat (the glute squeeze auto-tucks the pelvis and shuts off back compensation); collapsing the chest forward.
 - *Regression:* normal kneeling lunge, back foot flat, front foot further away.
+- ▶️ **Demo:** [Couch Stretch progressions — Beginner to Advanced](https://www.youtube.com/watch?v=WKo4APrwfXQ) · [The Couch Stretch — a physio's guide](https://www.yourwellnessnerd.com/blogs/blog/how-to-do-the-couch-stretch)
 
 ## 📒 The Routine (~15 min, 3x/week)
 
@@ -75,6 +81,7 @@ Three sessions a week is the "sweet spot." Expected payoff: less morning stiffne
 ## 📖 Further reading / watching
 
 - Source video: [Pavel Tsatsouline's 5 Soviet Holds That Fix 95% Of Your Mobility Problems](https://www.youtube.com/watch?v=Ur5HiUEtffQ) — *Strength Mode* (12:11)
+- **Per-hold form demos** are linked inline under each of the Five Holds above (▶️ Demo lines) — StrongFirst-official for the plank and prying squat; reputable coaching demos for the cossack hold, dead hang, and couch stretch.
 - Related: [[Mobility for Desk Workers]] — the evidence base behind why these holds work · [[Habits]] · [[Cold shower]] · [[Blue light]]
 
 ---
