@@ -54,17 +54,19 @@ Key flags worth knowing:
 Privacy/security notes: exposes full browser content to the MCP client — don't feed it sensitive sessions. Usage statistics + CrUX trace URLs are sent to Google **by default**; opt out with `--no-usage-statistics` / `--no-performance-crux` (or `CI` / `CHROME_DEVTOOLS_MCP_NO_USAGE_STATISTICS` env). Remote-debugging port is open to any local process — don't browse sensitive sites while it's enabled.
 
 ## Alternatives considered
-- **Playwright MCP** (Microsoft) — similar browser automation, multi-browser; Chrome DevTools MCP is Chrome-only but exposes deeper DevTools/perf/heap tooling.
+- **[[Playwright MCP]]** (Microsoft) — similar browser automation, multi-browser (Chromium/Firefox/WebKit), more token-efficient; Chrome DevTools MCP is Chrome-only but exposes deeper DevTools/perf/heap tooling.
+- **[[Claude in Chrome]]** (Anthropic) — drives your real logged-in browser via computer-use instead of an isolated profile; better for manual/exploratory checks, weaker for CI/CD (no headless mode).
 - **Puppeteer** raw — what this wraps; no MCP/agent layer.
 - **WebMCP / Antigravity built-in browser** — overlapping agent-browser approaches.
 - For scraping rather than live debugging: [[Scrapling]], [[Firecrawl]].
+- See [[Chrome DevTools MCP vs Claude in Chrome vs Playwright MCP]] for the full side-by-side.
 
 ## Resources
 - 🔗 Repo & docs: https://github.com/ChromeDevTools/chrome-devtools-mcp
 - 🔗 Tool reference: https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/docs/tool-reference.md
 - 🔗 CLI docs: https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/docs/cli.md
 - 🔗 Connecting to a running Chrome instance: https://github.com/ChromeDevTools/chrome-devtools-mcp#connecting-to-a-running-chrome-instance
-- See also: [[Claude Code]], [[Awesome Claude Code]], [[Qamera AI]], [[Storybook]], [[Codebase Memory MCP]] (sibling MCP server — static code intelligence rather than live-browser control)
+- See also: [[Claude Code]], [[Awesome Claude Code]], [[Qamera AI]], [[Storybook]], [[Codebase Memory MCP]] (sibling MCP server — static code intelligence rather than live-browser control), [[Playwright MCP]], [[Claude in Chrome]]
 
 ---
 Template: [[templates/tool]]
