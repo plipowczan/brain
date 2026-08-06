@@ -8,6 +8,20 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
 ## [Unreleased]
 
 ### Fixed
+- **`brain-ingest` no longer forces every vault to English.** The "Language enforcement"
+  paragraph in Phase 2 declared "the canonical vault language is **English**" and told the
+  agent to translate Polish (or any other) sources on ingest — a value leaked from the
+  template author's own base. Every vault onboarded from this template sets
+  `{{PRIMARY_LANGUAGE}}` in `content/WRITING_STYLE.md`, so a Polish-language base would get
+  its own notes silently translated into English against its stated style. The skill now
+  reads the primary language from `content/WRITING_STYLE.md` instead of assuming one, and
+  translates *into* that language. Its cluster-detection step no longer hardcodes
+  "English/Polish stop-words" either.
+
+  Known remaining hardcode: `brain-research-deep` still instructs research agents that
+  "all field values must be in English". That one is arguably intentional (machine-readable
+  JSON), but it flows into `/b:research-report`, so a non-English vault gets an
+  English report.
 - **`brain-reindex` no longer destroys the `## Recent Changes` section.**
   `scripts/build_indexes.py` regenerated that section from "the 15 newest notes by
   `date:`" with a 75-character `summary:` snippet. But Recent Changes is a hand-maintained
