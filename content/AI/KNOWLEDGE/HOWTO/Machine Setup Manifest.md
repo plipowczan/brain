@@ -132,7 +132,10 @@ notebooklm login                                 # interactive Google sign-in �
 notebooklm auth check --test --json              # expect "status": "ok"
 
 # Browser automation ([[Browser Use]]) — driven via isolated Edge CDP; launcher C:\Users\pawel\browser-use-edge.ps1
-uv tool install browser-use                       # v0.13.3 → CLI: browser-use / bu / browser-use-tui
+uv tool install browser-use                       # v0.13.7 → CLI: browser-use / bu / browser-use-tui
+# ⚠️ Smart App Control blocks uv's unsigned shim .exe after every install/upgrade.
+# Workaround wrapper: C:\Users\pawel\browser-use.ps1 (verified 2026-08-06: args + stdin + heredoc)
+# Full context: [[Running Browser Use on Windows via Edge CDP]] § Gotchas
 
 # Serena (semantic code MCP + agent)
 uv tool install serena-agent                      # v1.5.3 → serena / serena-agent / serena-hooks (also an MCP server, §5)

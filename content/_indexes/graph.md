@@ -1,7 +1,7 @@
 ---
-updated: 2026-07-29T00:00:00Z
+updated: 2026-08-06T00:00:00Z
 nodes: 380
-edges: 2514
+edges: 2515
 ---
 # Link Graph
 
@@ -27,7 +27,7 @@ ABOUT/Roles/Son -> ABOUT/Roles/Roles
 ABOUT/What tools I use -> AI/TOOLS/Claude Code, AI/TOOLS/Cursor, CODE/TOOLS/Visual Studio Code, CODE/TOOLS/Git, CODE/TOOLS/Docker, CODE/TOOLS/Supabase, BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, AI/TOOLS/VAPI, BUSINESS/TOOLS/ClickUp, LIFE/TOOLS/Microsoft To Do, LIFE/TOOLS/Obsidian, BUSINESS/TOOLS/Notion, BUSINESS/TOOLS/Outlook, BUSINESS/TOOLS/1Password, LIFE/TOOLS/Authenticator, LIFE/TOOLS/PowerToys, BUSINESS/TOOLS/Excalidraw, BUSINESS/TOOLS/Miro, LIFE/TOOLS/Edge, LIFE/TOOLS/Kindle, CODE/TOOLS/Google Cloud, AI/TOOLS/NemoClaw
 AI/KNOWLEDGE/HOWTO/Building an AI Second Brain -> AI/KNOWLEDGE/INFO/LLM Knowledge Bases, PROJECTS/BRAIN/Brain, goals, AI/TOOLS/Agent Skills, AI/TOOLS/OpenKB, LIFE/KNOWLEDGE/INFO/Second Brain Design, ABOUT/Building a Second Brain, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/KNOWLEDGE/INFO/Digital Garden, LIFE/KNOWLEDGE/INFO/Obsidian, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Extending Claude Code — Tools for Its Blind Spots, templates/knowledge_note_how_to
 AI/KNOWLEDGE/HOWTO/Chrome DevTools MCP vs Claude in Chrome vs Playwright MCP -> AI/TOOLS/Chrome DevTools MCP, AI/TOOLS/Claude in Chrome, AI/TOOLS/Playwright MCP, templates/knowledge_note_how_to
-AI/KNOWLEDGE/HOWTO/Machine Setup Manifest -> AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, AI/TOOLS/Claude Video, AI/TOOLS/Browser Use, AI/TOOLS/NotebookLM-py, CODE/TOOLS/Marp CLI, AI/TOOLS/Firecrawl, AI/TOOLS/Agent Skills, AI/TOOLS/Everything Claude Code, AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, PROJECTS/BRAIN/Brain, templates/knowledge_note_how_to
+AI/KNOWLEDGE/HOWTO/Machine Setup Manifest -> AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, AI/TOOLS/Claude Video, AI/TOOLS/Browser Use, AI/KNOWLEDGE/HOWTO/Running Browser Use on Windows via Edge CDP, AI/TOOLS/NotebookLM-py, CODE/TOOLS/Marp CLI, AI/TOOLS/Firecrawl, AI/TOOLS/Agent Skills, AI/TOOLS/Everything Claude Code, AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, PROJECTS/BRAIN/Brain, templates/knowledge_note_how_to
 AI/KNOWLEDGE/HOWTO/Running Browser Use on Windows via Edge CDP -> AI/TOOLS/Browser Harness, AI/TOOLS/Claude Code, AI/TOOLS/Browser Use, CODE/KNOWLEDGE/HOWTO/Wiring Serena into a Codebase, AI/TOOLS/Chrome DevTools MCP, templates/knowledge_note_how_to
 AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools -> AI/TOOLS/Fincept Terminal, AI/TOOLS/LibreChat, AI/TOOLS/Claude Code, AI/TOOLS/Camofox Browser, AI/TOOLS/HyperFrames, CODE/TOOLS/Remotion, AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/TOOLS/Browser Use, AI/TOOLS/Personal AI Infrastructure, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/4 Claude Code Upgrades for Making Money (Nate Herk) -> AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Loop Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/KNOWLEDGE/INFO/AI Agent Security, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/High-Signal AI Voices to Follow (2026), templates/knowledge_note_info
@@ -392,7 +392,7 @@ ABOUT/Roles/Son <- ABOUT/Roles/Roles
 AI/KNOWLEDGE/HOWTO/Building an AI Second Brain <- AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, AI/KNOWLEDGE/INFO/Extending Claude Code — Tools for Its Blind Spots, AI/KNOWLEDGE/INFO/High-Signal AI Voices to Follow (2026), AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Obsidian Skills, AI/TOOLS/OpenKB, AI/TOOLS/Santander AI Open Source, PROJECTS/BRAIN/Brain
 AI/KNOWLEDGE/HOWTO/Chrome DevTools MCP vs Claude in Chrome vs Playwright MCP <- AI/TOOLS/Chrome DevTools MCP, AI/TOOLS/Claude in Chrome, AI/TOOLS/Playwright MCP
 AI/KNOWLEDGE/HOWTO/Machine Setup Manifest <- AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, AI/KNOWLEDGE/INFO/Extending Claude Code — Tools for Its Blind Spots, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules
-AI/KNOWLEDGE/HOWTO/Running Browser Use on Windows via Edge CDP <- AI/TOOLS/Browser Harness, AI/TOOLS/Browser Use
+AI/KNOWLEDGE/HOWTO/Running Browser Use on Windows via Edge CDP <- AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, AI/TOOLS/Browser Harness, AI/TOOLS/Browser Use
 AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools <- AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/TOOLS/Camofox Browser, AI/TOOLS/Fincept Terminal, AI/TOOLS/HyperFrames, AI/TOOLS/LibreChat
 AI/KNOWLEDGE/INFO/4 Claude Code Upgrades for Making Money (Nate Herk) <- AI/KNOWLEDGE/INFO/High-Signal AI Voices to Follow (2026), AI/KNOWLEDGE/INFO/Loop Engineering, AI/TOOLS/Loop Engineering (cobusgreyling)
 AI/KNOWLEDGE/INFO/Agentic Auto-Scheduling (COMPILOT) <- AI/TOOLS/Loop Engineering (cobusgreyling)

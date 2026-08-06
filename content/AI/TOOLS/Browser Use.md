@@ -19,8 +19,11 @@ summary: "Open-source Python framework that makes websites accessible to AI agen
 
 The umbrella project for the [[Browser Harness]] (thin CDP harness, self-healing) and [[Video Use]] (same "give the LLM a structured surface, not raw frames" pattern, applied to video).
 
-> [!info] Version status (checked 2026-07-16)
-> Latest pip package: **0.13.4** — versioning still `0.x`, so **there is no v4**. The headline release is **Browser Use CLI 3.0** (2026-07-01), now powered by [[Browser Harness]]: the agent executes arbitrary **Python** in the browser instead of a fixed action menu (`click`/`type`), so it can inspect, adapt, and recover in the same coding loop it was trained on. Install shifted to `uv tool install browser-use`. Core deps now pin `browser-harness==0.1.5` and `browser-use-sdk==3.4.2`. This is the note's original "[[Browser Harness]] is the engine" thesis landing in the product.
+> [!info] Version status (checked 2026-08-06)
+> Latest pip package: **0.13.7**. Core deps now pin `browser-harness==0.1.8` and `browser-use-sdk==3.4.2`. The headline release is still **Browser Use CLI 3.0** (2026-07-01), powered by [[Browser Harness]]: the agent executes arbitrary **Python** in the browser instead of a fixed action menu (`click`/`type`), so it can inspect, adapt, and recover in the same coding loop it was trained on. Install is `uv tool install browser-use`. This is the note's original "[[Browser Harness]] is the engine" thesis landing in the product.
+
+> [!warning] "Browser Use v4" is the cloud agent, not the package
+> PyPI `browser-use` has published **136 releases, every one under major version `0`** — there has never been a 1.x, let alone a 4.x (verified against the PyPI JSON API, 2026-08-06). When you see "v4" it means the **hosted Browser Use Cloud agent**, a separate product at [cloud.browser-use.com](https://cloud.browser-use.com/). Three version numbers coexist and none of them match: pip package `0.13.7`, CLI product name `3.0`, cloud agent `v4` — plus `browser-use --version` reports the *internal harness* version (`0.1.8`), not the pip version. Don't "upgrade to v4"; `uv tool upgrade browser-use` is the whole story.
 
 ## 🧩 Features
 

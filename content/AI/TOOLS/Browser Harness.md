@@ -20,7 +20,7 @@ summary: "Thin self-healing CDP harness (~1k lines) connecting an LLM directly t
 Same org as [[Browser Use]] and [[Video Use]]. Where Browser Use is a full framework, Browser Harness goes the opposite direction: a thin shell where the agent writes its own helpers. Embodies the "bitter lesson of agent harnesses" — stop over-engineering, let the agent fill in gaps as it works.
 
 > [!success] The thesis won (2026-07-01)
-> **Browser Use CLI 3.0** is now officially powered by Browser Harness. The parent framework dropped its fixed action menu (`click`/`type`) in favor of this harness's model — the agent executes arbitrary **Python** in the browser and self-heals in one coding loop. So Browser Harness is no longer just the minimal sibling; it is the **engine behind [[Browser Use]]'s flagship CLI**. As of pip `browser-use` 0.13.4, the package pins `browser-harness==0.1.5` and `browser-use-sdk==3.4.2`.
+> **Browser Use CLI 3.0** is now officially powered by Browser Harness. The parent framework dropped its fixed action menu (`click`/`type`) in favor of this harness's model — the agent executes arbitrary **Python** in the browser and self-heals in one coding loop. So Browser Harness is no longer just the minimal sibling; it is the **engine behind [[Browser Use]]'s flagship CLI**. As of pip `browser-use` 0.13.7 (2026-08-06), the package pins `browser-harness==0.1.8` and `browser-use-sdk==3.4.2`.
 
 ## 🧩 Features
 
@@ -47,7 +47,7 @@ agent writes it → + custom helper
 
 ## 🛠️ Install & bring-up (verified 2026-07-10)
 
-Distribution has converged: the harness now ships **inside the `browser-use` pip package** — `uv tool install browser-use` (pkg v0.13.3) gives you the CLI `browser-use`, and `browser-use --doctor` self-identifies as `browser-harness`. The `browser-use` CLI *is* this harness. `browser-use --version` reports the internal `0.1.4`, not the pip version.
+Distribution has converged: the harness now ships **inside the `browser-use` pip package** — `uv tool install browser-use` (pkg v0.13.7 as of 2026-08-06) gives you the CLI `browser-use`, and `browser-use --doctor` self-identifies as `browser-harness`. The `browser-use` CLI *is* this harness. `browser-use --version` reports the internal harness version (`0.1.8`), not the pip version — see the version-confusion warning in [[Browser Use]].
 
 Day-to-day: `browser-use <<'PY' ... PY` heredocs, helpers pre-imported (`new_tab`, `page_info`, `js`, `click_at_xy`, `fill_input`, `wait_for_load`…). First navigation must be `new_tab(url)`. No LLM key needed in this mode — the agent writes the Python; keys are only for the framework `Agent(...)` loop or the hosted cloud agent.
 
