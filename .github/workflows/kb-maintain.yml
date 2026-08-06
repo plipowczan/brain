@@ -118,7 +118,18 @@ jobs:
           git checkout -B "$BRANCH"
           git add content/_indexes
           git commit -m "chore(kb): refresh navigation indexes"
-          git push --force-with-lease origin "$BRANCH"
+
+          # checkout@v4 fetches only the target branch at depth 1, so there is no
+          # refs/remotes/origin/$BRANCH. A bare `--force-with-lease` needs that
+          # remote-tracking ref and otherwise aborts with "stale info". Fetch it
+          # when the branch exists, and plain-push when it does not (nothing to
+          # clobber on a branch that isn't there yet).
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            git fetch origin "+refs/heads/$BRANCH:refs/remotes/origin/$BRANCH"
+            git push --force-with-lease origin "$BRANCH"
+          else
+            git push origin "$BRANCH"
+          fi
 
           # Reuse the open PR from a previous run if one exists.
           if [ -z "$(gh pr list --head "$BRANCH" --state open --json number --jq '.[].number')" ]; then

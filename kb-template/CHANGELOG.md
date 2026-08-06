@@ -7,6 +7,21 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
 
 ## [Unreleased]
 
+### Fixed
+- **`brain-reindex` no longer destroys the `## Recent Changes` section.**
+  `scripts/build_indexes.py` regenerated that section from "the 15 newest notes by
+  `date:`" with a 75-character `summary:` snippet. But Recent Changes is a hand-maintained
+  *change log* — "what changed and why" — which no frontmatter field records, so every
+  rebuild silently replaced curated narrative with a derived listing. The script now
+  preserves an existing `## Recent Changes` section verbatim and only falls back to the
+  derived listing when the section is absent (fresh vault); the fallback also now emits 10
+  entries, matching the "last 10 changes" contract in `AGENTS.md` instead of 15.
+
+  If you run the scheduled `kb-maintain` workflow, this was also making **every** run
+  report a substantive index diff and open a no-op PR whose only effect was clobbering
+  that section. After this fix a clean vault reproduces all three indexes exactly
+  (0 substantive diff), so the workflow opens a PR only on genuine drift.
+
 ### Changed
 - **BREAKING: all workflow commands and skills are namespaced** — command wrappers moved
   from `.claude/commands/*.md` to `.claude/commands/b/*.md` (subdirectory = native `:`

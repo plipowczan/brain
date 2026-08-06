@@ -211,11 +211,31 @@ vm.append(cloud)
 
 vm += ["", "## Recent Changes"]
 dated = [n for n in notes if re.match(r"\d{4}-\d{2}-\d{2}", n["date"])]
-dated.sort(key=lambda n: n["date"], reverse=True)
-for n in dated[:15]:
-    snip = n["summary"][:75]
-    vm.append(f"- {n['date']} {n['relpath']} ({snip})")
-with open(os.path.join(CONTENT, "_indexes", "vault-map.md"), "w", encoding="utf-8") as f:
+
+# Recent Changes is a hand-maintained CHANGE LOG ("what changed and why"), not a
+# derived listing. Nothing in the frontmatter records that -- only git history and
+# the agent that made the edit know it -- so a rebuild must PRESERVE an existing
+# section verbatim. Regenerating it would silently overwrite curated narrative with
+# "the 15 newest notes by date", which also made every scheduled kb-maintain run
+# report a substantive diff and open a no-op PR.
+# The derived listing below is a fallback for a vault that has no section yet.
+VAULT_MAP = os.path.join(CONTENT, "_indexes", "vault-map.md")
+existing_recent = ""
+if os.path.exists(VAULT_MAP):
+    with open(VAULT_MAP, encoding="utf-8") as f:
+        m = re.search(r"^## Recent Changes\n(.*)\Z", f.read(), re.M | re.S)
+    if m:
+        existing_recent = m.group(1).strip("\n")
+
+if existing_recent:
+    vm.append(existing_recent)
+else:
+    dated.sort(key=lambda n: n["date"], reverse=True)
+    for n in dated[:10]:
+        snip = n["summary"][:75]
+        vm.append(f"- {n['date']} {n['relpath']} ({snip})")
+
+with open(VAULT_MAP, "w", encoding="utf-8") as f:
     f.write("\n".join(vm) + "\n")
 
 print(f"OK notes={len(notes)} edges={edge_count} "
