@@ -7,8 +7,8 @@ tags: ["tool", "ai", "agents", "browser", "harness", "cdp", "self-improving", "o
 type: tool
 source: "_raw/inbox/Self-healing harness that enables LLMs to complete any task.md"
 agent-created: true
-agent-reviewed: 2026-07-16
-summary: "Thin self-healing CDP harness (~1k lines) connecting an LLM directly to your real browser — agent writes the missing helpers itself; now the engine behind Browser Use CLI 3.0"
+agent-reviewed: 2026-08-06
+summary: "Thin self-healing CDP harness (~1k lines) connecting an LLM directly to your real browser — agent writes the missing helpers itself; the engine behind Browser Use CLI 3.0, pinned at 0.1.8"
 ---
 
 # Browser Harness

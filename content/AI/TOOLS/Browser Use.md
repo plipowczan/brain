@@ -7,8 +7,8 @@ tags: ["tool", "ai", "agents", "browser", "automation", "open-source", "python"]
 type: tool
 source: "_raw/inbox/browser-usebrowser-use 🌐 Make websites accessible for AI agents. Automate tasks online with ease.md"
 agent-created: true
-agent-reviewed: 2026-07-16
-summary: "Open-source Python framework that makes websites accessible to AI agents — CLI 3.0 (2026-07) now runs on Browser Harness: agents execute Python in the browser, not a fixed action menu"
+agent-reviewed: 2026-08-06
+summary: "Open-source Python framework that makes websites accessible to AI agents — CLI 3.0 runs on Browser Harness: agents execute Python in the browser, not a fixed action menu; pip is 0.13.7 and there is no v4 (that's the cloud agent)"
 ---
 
 # Browser Use

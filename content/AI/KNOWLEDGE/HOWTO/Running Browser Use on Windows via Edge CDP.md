@@ -6,8 +6,8 @@ openToc: true
 tags: ["knowledge", "howto", "ai", "browser", "cdp", "windows", "automation", "claude-code"]
 type: knowledge-note
 agent-created: true
-agent-reviewed: 2026-07-10
-summary: "Real Windows bring-up of Browser Use / Browser Harness driven by a coding agent — install via uv, attach to an isolated Edge over CDP when no Chrome exists, install the Claude Code skill"
+agent-reviewed: 2026-08-06
+summary: "Real Windows bring-up of Browser Use / Browser Harness driven by a coding agent — install via uv, attach to an isolated Edge over CDP, plus the Smart App Control and BOM-less-.ps1 gotchas"
 ---
 
 # Running Browser Use on Windows via Edge CDP

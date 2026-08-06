@@ -5,12 +5,17 @@ name: KB maintenance
 # "doc drift is a CI problem, not a discipline problem" design.
 #
 # This vault's notes + deploy live on the `v4` branch, so this workflow explicitly
-# checks out v4 and opens its PR against v4 — NOT the `hugo` default branch.
+# checks out v4 and opens its PR against v4.
 #
-# ⚠️ CRON CAVEAT: GitHub only fires `schedule:` triggers from the workflow file on
-# the repository's DEFAULT branch (`hugo`). This file must also exist on `hugo` for
-# the weekly run to fire; otherwise only the manual "Run workflow" button works.
+# CRON NOTE: GitHub only fires `schedule:` triggers from the workflow file on the
+# repository's DEFAULT branch. That default is now `v4` (it used to be `hugo`), so
+# the copy on v4 is the one that schedules — no cross-branch duplication needed.
 # (workflow_dispatch always works regardless of branch.)
+#
+# ⚠️ PATHS ARE COUPLED TO SKILL DIRECTORY NAMES. The `brain-*` rename in efee0e1b
+# (2026-07-23) moved `.claude/skills/{reindex,lint}/` to `.claude/skills/brain-*/`
+# and silently broke this workflow — it failed every Monday from 2026-07-27 until
+# fixed on 2026-08-06. If you rename a skill folder, grep this file.
 #
 # What it does:
 #   1. Checks out v4 and rebuilds content/_indexes/{vault-map,catalog,graph}.md.
@@ -53,12 +58,12 @@ jobs:
         run: pip install pyyaml
 
       - name: Rebuild indexes
-        run: python .claude/skills/reindex/scripts/build_indexes.py
+        run: python .claude/skills/brain-reindex/scripts/build_indexes.py
 
       - name: Lint report
         id: lint
         run: |
-          python .claude/skills/lint/scripts/lint_scan.py > lint-report.json || true
+          python .claude/skills/brain-lint/scripts/lint_scan.py > lint-report.json || true
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json, pathlib, sys
           if hasattr(sys.stdout, "reconfigure"):
