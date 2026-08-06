@@ -18,6 +18,15 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
   translates *into* that language. Its cluster-detection step no longer hardcodes
   "English/Polish stop-words" either.
 
+  The rule now also names **both** writing-style filenames — `content/WRITING_STYLE.md`
+  (what `/b:onboard` generates) and `content/WRITING_STYLE_ANALYSIS.md` (what vaults
+  predating that template carry). The first pass replaced a hardcoded *language* with a
+  hardcoded *filename*, which would have sent the agent to a file that does not exist in
+  an older base. Naming both also keeps this skill byte-identical between `.claude/skills/`
+  and `kb-template/.claude/skills/`, so `scripts/check-kb-template-drift.sh` stays quiet —
+  the scripts already excluded both filenames (`build_indexes.py` `EXCLUDE_FILES`), so this
+  just brings the skill in line with the rest of the codebase.
+
   Known remaining hardcode: `brain-research-deep` still instructs research agents that
   "all field values must be in English". That one is arguably intentional (machine-readable
   JSON), but it flows into `/b:research-report`, so a non-English vault gets an
