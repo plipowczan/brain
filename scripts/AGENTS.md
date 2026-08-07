@@ -18,7 +18,7 @@ canonical `kb-template/` source. See the `kb-template project` memory and `kb-te
 - POSIX `bash` (`#!/usr/bin/env bash`); this repo's shell is Git Bash on Windows — keep scripts portable.
 - `kb-template/` is the **source**; the standalone repo is a **publish target**. Never edit the template by hand through these scripts — edit `kb-template/` directly, then sync.
 - **Every change under `kb-template/` MUST be logged in `kb-template/CHANGELOG.md`** (`## [Unreleased]`, newest first) before syncing — subscribers read it to know what to pull.
-- After changing a shared skill, run `check-kb-template-drift.sh` before syncing.
+- After changing a shared skill, run `check-kb-template-drift.sh` before syncing. It should print `no drift in shared skills` — **keep it that way**. Locally-generated build artifacts are filtered via the `EXCLUDES` array at the top of the script (currently `__pycache__`, `*.pyc`, `.venv`, `uv.lock`); add to that array rather than tolerating recurring noise, because a check that always complains stops being read. Note it compares the filesystem with `diff -rq`, so `.gitignore` has no effect on what it sees — new artifact types need entries in **both** places.
 - **Before `sync-kb-template.sh`: `git -C ../second-brain-template pull` first**, and sync only from a clean brain HEAD (after pulling brain). Two checkouts syncing from different brain commits produce diverged `sync from brain@X` history and merge conflicts. The script now hard-refuses to sync onto a target that is behind its remote or mid-merge — heed it, don't force past it.
 
 ## Verify

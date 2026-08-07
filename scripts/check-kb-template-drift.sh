@@ -20,12 +20,17 @@ SHARED="brain-ingest brain-compile brain-enhance brain-lint brain-output brain-q
         excalidraw-diagram brain-research brain-research-deep brain-research-report \
         brain-research-add-fields brain-research-add-items"
 
+# Local build artifacts that exist only on the live side because the skill was run
+# here. They are not drift, and reporting them trains people to ignore this check.
+# Kept in one place so the two diff calls below cannot fall out of sync.
+EXCLUDES=(-x '__pycache__' -x '*.pyc' -x '.venv' -x 'uv.lock')
+
 drift=0
 for s in $SHARED; do
   if [ -d "$LIVE/$s" ] && [ -d "$TMPL/$s" ]; then
-    if ! diff -rq -x '__pycache__' -x '*.pyc' "$LIVE/$s" "$TMPL/$s" >/dev/null 2>&1; then
+    if ! diff -rq "${EXCLUDES[@]}" "$LIVE/$s" "$TMPL/$s" >/dev/null 2>&1; then
       echo "== DRIFT: $s =="
-      diff -rq -x '__pycache__' -x '*.pyc' "$LIVE/$s" "$TMPL/$s" || true
+      diff -rq "${EXCLUDES[@]}" "$LIVE/$s" "$TMPL/$s" || true
       drift=1
     fi
   elif [ -d "$LIVE/$s" ] || [ -d "$TMPL/$s" ]; then

@@ -28,3 +28,9 @@ __pycache__/
 
 # Serena local LSP cache/config
 .serena/
+
+# uv environments/lockfiles created inside skill folders when a skill is run locally
+# (e.g. excalidraw-diagram/references/). Build artifacts, not skill source — the
+# kb-template drift check excludes them too.
+.venv/
+uv.lock
