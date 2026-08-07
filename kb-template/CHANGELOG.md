@@ -31,6 +31,18 @@ The format follows [Keep a Changelog](https://keepachangelog.com/). Dates are IS
   "all field values must be in English". That one is arguably intentional (machine-readable
   JSON), but it flows into `/b:research-report`, so a non-English vault gets an
   English report.
+- **`brain-reindex` no longer indexes underscore-prefixed files like `content/_privacy.md`.**
+  `_privacy.md` documents that it is "underscore-prefixed, so it is excluded from the site
+  build, the indexes, and can never be packed into a bundle itself" — but `build_indexes.py`
+  only skipped underscore-prefixed *directories* (`_raw/`, `_indexes/`, `_outputs/`,
+  `_graveyard/`) plus three files listed by name. A loose `_*.md` was indexed, so every
+  vault built from this template carried a phantom `| (root) | 1 | untyped(1) |` row in
+  `vault-map.md` and a matching catalog entry for a config file. The rule now matches the
+  documented convention: underscore prefix means infrastructure, not a note. The template's
+  own checked-in indexes are regenerated accordingly (3 → 2 notes, which is the real count).
+
+  Existing bases: re-pull `.claude/skills/brain-reindex/scripts/build_indexes.py` and run
+  `/b:reindex`. Harmless if your vault has no loose `_*.md` under `content/`.
 - **`brain-reindex` no longer destroys the `## Recent Changes` section.**
   `scripts/build_indexes.py` regenerated that section from "the 15 newest notes by
   `date:`" with a 75-character `summary:` snippet. But Recent Changes is a hand-maintained

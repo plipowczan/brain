@@ -91,6 +91,13 @@ for dirpath, dirnames, filenames in os.walk(CONTENT):
             continue
         if fn.endswith(".template.md") or fn in EXCLUDE_FILES:
             continue
+        # Underscore-prefixed means "infrastructure, not a note" in this vault --
+        # it is how _raw/, _indexes/, _outputs/, _graveyard/ are already skipped
+        # above. The same has to hold for loose files, or a config file like
+        # content/_privacy.md is indexed as an untyped root "note", contradicting
+        # the guarantee that file states about itself.
+        if fn.startswith("_"):
+            continue
         full = os.path.join(dirpath, fn)
         with open(full, encoding="utf-8") as f:
             text = f.read()
