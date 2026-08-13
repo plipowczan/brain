@@ -1,7 +1,7 @@
 ---
-updated: 2026-08-06T16:05:46Z
+updated: 2026-08-12T21:49:58Z
 nodes: 380
-edges: 2537
+edges: 2538
 ---
 # Link Graph
 
@@ -55,7 +55,7 @@ AI/KNOWLEDGE/INFO/LLM Knowledge Bases -> LIFE/KNOWLEDGE/INFO/Obsidian, ABOUT/Bui
 AI/KNOWLEDGE/INFO/Loop Engineering -> AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Harness Engineering, AI/TOOLS/Santander AI Open Source, AI/TOOLS/Archon, LIFE/KNOWLEDGE/INFO/Second Brain Design, AI/TOOLS/Loop Engineering (cobusgreyling), AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/HOMER — Structured Agent Memory, AI/KNOWLEDGE/INFO/4 Claude Code Upgrades for Making Money (Nate Herk), templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF) -> AI/TOOLS/Google Cloud Knowledge Catalog, PROJECTS/BRAIN/Brain, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Context Engineering, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, AI/TOOLS/CocoIndex, AI/TOOLS/LightRAG, AI/TOOLS/Graphify, LIFE/KNOWLEDGE/INFO/Obsidian, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman) -> AI/TOOLS/Claude Code, AI/TOOLS/OpenAI, AI/TOOLS/Open Notebook, AI/TOOLS/gstack, AI/TOOLS/Agent Skills, AI/TOOLS/Headroom, AI/TOOLS/Caveman, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/ElevenLabs, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools, templates/knowledge_note_info
-AI/KNOWLEDGE/INFO/Progressive Disclosure -> AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Graphify, AI/TOOLS/Codebase Memory MCP, CODE/KNOWLEDGE/INFO/Structural Retrieval for Code, AI/KNOWLEDGE/INFO/SkillWeaver — Compositional Skill Routing, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/KNOWLEDGE/INFO/HOMER — Structured Agent Memory, AI/KNOWLEDGE/INFO/DOX — Self-Documenting AGENTS.md, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, PROJECTS/BRAIN/Brain, templates/knowledge_note_info
+AI/KNOWLEDGE/INFO/Progressive Disclosure -> AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Harness Engineering, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Graphify, AI/TOOLS/Codebase Memory MCP, CODE/KNOWLEDGE/INFO/Structural Retrieval for Code, AI/KNOWLEDGE/INFO/SkillWeaver — Compositional Skill Routing, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/KNOWLEDGE/INFO/HOMER — Structured Agent Memory, AI/KNOWLEDGE/INFO/DOX — Self-Documenting AGENTS.md, AI/KNOWLEDGE/HOWTO/Running Browser Use on Windows via Edge CDP, AI/TOOLS/Claude Code, AI/TOOLS/Claude Code Best Practice, PROJECTS/BRAIN/Brain, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/RepoGraph -> CODE/KNOWLEDGE/INFO/Structural Retrieval for Code, AI/KNOWLEDGE/INFO/GrepRAG, AI/TOOLS/Codebase Memory MCP, AI/TOOLS/Graphify, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/Context Engineering, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/Self-Improving Company -> AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/Agentic Coding, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/gstack, PROJECTS/BRAIN/Brain, AI/TOOLS/Personal AI Infrastructure, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, AI/TOOLS/Agent Skills, AI/TOOLS/Karpathy Skills, AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Software 3.0, templates/knowledge_note_info
 AI/KNOWLEDGE/INFO/Skills 2.0 Testing -> AI/TOOLS/Agent Skills, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Context Engineering
@@ -392,7 +392,7 @@ ABOUT/Roles/Son <- ABOUT/Roles/Roles
 AI/KNOWLEDGE/HOWTO/Building an AI Second Brain <- AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, AI/KNOWLEDGE/INFO/Extending Claude Code — Tools for Its Blind Spots, AI/KNOWLEDGE/INFO/High-Signal AI Voices to Follow (2026), AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/TOOLS/Obsidian Skills, AI/TOOLS/OpenKB, AI/TOOLS/Santander AI Open Source, PROJECTS/BRAIN/Brain
 AI/KNOWLEDGE/HOWTO/Chrome DevTools MCP vs Claude in Chrome vs Playwright MCP <- AI/TOOLS/Chrome DevTools MCP, AI/TOOLS/Claude in Chrome, AI/TOOLS/Playwright MCP
 AI/KNOWLEDGE/HOWTO/Machine Setup Manifest <- AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, AI/KNOWLEDGE/INFO/Extending Claude Code — Tools for Its Blind Spots, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules
-AI/KNOWLEDGE/HOWTO/Running Browser Use on Windows via Edge CDP <- AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, AI/TOOLS/Browser Harness, AI/TOOLS/Browser Use
+AI/KNOWLEDGE/HOWTO/Running Browser Use on Windows via Edge CDP <- AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, AI/TOOLS/Browser Harness, AI/TOOLS/Browser Use, AI/KNOWLEDGE/INFO/Progressive Disclosure
 AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools <- AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), AI/TOOLS/Camofox Browser, AI/TOOLS/Fincept Terminal, AI/TOOLS/HyperFrames, AI/TOOLS/LibreChat
 AI/KNOWLEDGE/INFO/4 Claude Code Upgrades for Making Money (Nate Herk) <- AI/KNOWLEDGE/INFO/High-Signal AI Voices to Follow (2026), AI/KNOWLEDGE/INFO/Loop Engineering, AI/TOOLS/Loop Engineering (cobusgreyling)
 AI/KNOWLEDGE/INFO/Agentic Auto-Scheduling (COMPILOT) <- AI/TOOLS/Loop Engineering (cobusgreyling)

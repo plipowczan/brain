@@ -7,6 +7,7 @@ tags: ["knowledge", "info", "ai", "context-engineering", "progressive-disclosure
 type: knowledge-note
 source: "_raw/inbox/progressive-disclosure.md"
 agent-created: true
+agent-reviewed: 2026-08-12
 summary: "Index-first context priming — show what exists and retrieval cost, let the agent decide what to fetch"
 ---
 
@@ -16,6 +17,21 @@ summary: "Index-first context priming — show what exists and retrieval cost, l
 **Show what exists and its retrieval cost first. Let the agent decide what to fetch based on relevance and need.**
 
 Information architecture pattern that reveals complexity gradually instead of all at once. The default approach for [[Context Engineering]] in agent systems.
+
+## 🎨 The pattern at a glance
+
+![[Progressive Disclosure.png]]
+
+The same 100k context window drawn twice at the same scale — flooded on the left, a hairline on the right — with the three-layer funnel as the mechanism between them, a real Layer-1 index below, and the same shape applied across four domains at the bottom.
+
+Editable source: `Progressive Disclosure.excalidraw` (sibling file), built with the `excalidraw-diagram` skill. Re-render after editing:
+
+```bash
+cd .claude/skills/excalidraw-diagram/references
+uv run python render_excalidraw.py "content/AI/KNOWLEDGE/INFO/Progressive Disclosure.excalidraw"
+```
+
+On `PLSOFT-PCD1` that `uv run` fails with `An Application Control policy has blocked this file (os error 4551)` — Smart App Control blocks the uv-managed interpreter, the same class of gotcha as in [[Running Browser Use on Windows via Edge CDP]]. Workaround: build the venv from the signed python.org install (`%LOCALAPPDATA%\Programs\Python\Python313\python.exe -m venv …`), `pip install playwright`, `python -m playwright install chromium`, then call `render_excalidraw.py` with that interpreter.
 
 ## 🗒️ The three layers
 1. **Layer 1 — Index** — lightweight metadata: titles, dates, types, token counts
