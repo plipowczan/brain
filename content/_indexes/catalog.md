@@ -1,6 +1,6 @@
 ---
-updated: 2026-08-12T21:49:58Z
-entries: 380
+updated: 2026-08-25T00:00:00Z
+entries: 381
 ---
 # Note Catalog
 
@@ -419,6 +419,7 @@ entries: 380
 - **Agentic Systems** | basic-note | 2026-04-09 | [project, ai, agents, architecture] | Multi-agent architecture for two companies — shared skills, separate contexts | → Claude Code, Cursor, Harness Engineering, Harness Engineering in Practice, Harness Engineering (Ryan Lopopolo), Self-Improving Company, Loop Engineering, Agentic AI Repos, agentic-ai-system, agentic-ai-private, Agentic Skills Submodules, Agentic Coding, Context Engineering, Qamera AI, Paperclip, Hermes Agent, Agent Zero, Space Agent, Superpowers, Ruflo, Everything Claude Code, Career-Ops
 - **agentic-ai-private** | basic-note | 2026-05-10 | [project, ai, agents, plsoft, personal, claude-code] | PLSoft (JDG) + personal multi-agent advisory repo — separate from 200IQ LABS | → Agentic AI Repos, agentic-ai-system, Agentic Skills Submodules, PLSoft, About, Tech News Weekly, Value Builders
 - **agentic-ai-system** | basic-note | 2026-05-10 | [project, ai, agents, 200iq-labs, qamera, claude-code] | 200IQ LABS PSA multi-agent advisory repo — context, tools, orchestration for Qamera AI | → Agentic AI Repos, agentic-ai-private, Agentic Skills Submodules, Qamera AI, Agentic Systems, OpenSpec, Claude Code
+- **Marketing Agent Research** | compiled-note | 2026-08-25 | [project, ai, agents, marketing, social-media, claude-code, research] | Brief decyzyjny z researchu 31 itemow: agent marketingowy - co budowac, co kupic, w jakiej kolejnosci | → agentic-ai-system, agentic-ai-private, Agentic Skills Submodules, Agentic AI Repos, Agentic Systems, Qamera AI, Tech News Weekly, OpenSpec, Progressive Disclosure
 
 ## PROJECTS/AGRE
 - **AGRE** | basic-note | 2026-06-13 | [project, plsoft, client, real-estate, nextjs, i18n] | PLSoft client engagement — multilingual Costa Blanca real-estate platform: Next.js + Drizzle + Supabase, Kyero XML feed imports, manual admin curation | → PLSoft, Next.js, Tailwind CSS, Supabase, Drizzle ORM, NextAuth, Resend, Cloudflare, Vercel, Git, 1Password, Replicate, pnpm, Spec-driven SEO and GEO, Dev Libraries & Build Tools, Ops, Collaboration, Analytics & Community SaaS
