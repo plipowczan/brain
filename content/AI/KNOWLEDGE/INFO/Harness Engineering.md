@@ -110,6 +110,8 @@ Likelihood sukcesu silnie koreluje z agent's ability to verify own work:
 - [Context-Efficient Backpressure](https://www.humanlayer.dev/blog/context-efficient-backpressure)
 - [Mitchell Hashimoto on harness engineering](https://mitchellh.com/writing/my-ai-adoption-journey#step-5-engineer-the-harness)
 - [ETH Zurich agentfiles study](https://arxiv.org/abs/2602.11988)
+- [[DeepSeek Harness]] — DeepSeek AI's everything-is-a-plugin agent harness
+- [[herdr]] — the terminal runtime *below* the harness: agent sessions that survive reboots, panes marked working/blocked/idle
 
 ---
 Template: [[templates/knowledge_note_info]]

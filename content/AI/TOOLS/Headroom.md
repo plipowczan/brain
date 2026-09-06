@@ -60,6 +60,7 @@ The input-side complement to [[Caveman]] (which shrinks *output* tokens). Togeth
 - [[Context Engineering]] · [[Progressive Disclosure]] — the design context Headroom plugs into
 - [[Claude Code]] — primary host harness
 - Surfaced in [[Open-Source AI Projects Roundup (Matthew Berman)]]
+- [[OmniRoute]] — vendors Headroom's GCF codec as engine #6 of its compression stack
 
 ---
 Template: [[templates/tool]]

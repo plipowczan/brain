@@ -60,6 +60,7 @@ Talking-head edits, montages, travel cuts. Anything where speech boundaries driv
 - [[HyperFrames]] — overlay/animation engine integrated via parallel sub-agents
 - [[Claude Video]] — inverse tool: *watches* video (reads frames + transcript) vs this one's *editing* (transcript-only)
 - [[Claude Code]] — the primary host agent
+- [[OpenMontage]] — the other end of the pipeline: produces a video from a topic rather than editing footage you already have
 
 ---
 Template: [[templates/tool]]

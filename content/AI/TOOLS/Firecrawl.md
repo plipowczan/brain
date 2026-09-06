@@ -51,6 +51,7 @@ Firecrawl is the research-scraping layer where an agent needs *clean* content, n
 - 🧩 [Extract (structured)](https://docs.firecrawl.dev/features/extract)
 - 🔗 [[Perplexity]] · [[Scrapling]] · [[Bright Data]] — related research tooling
 - [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
+- [[anydoc]] — Firecrawl's Rust office-document → Markdown converter; powers Firecrawl Parse
 
 ---
 Template: [[templates/tool]]

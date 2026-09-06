@@ -5,10 +5,10 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agent-skills", "diagrams", "claude-code", "codex", "opencode", "open-source", "mit"]
 type: tool
-source: "_raw/processed/2026-07-23_tt-a1iarchify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.md"
+source: "_raw/processed/2026-09-06_tt-a1iarchify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams.md"
 agent-created: true
-agent-reviewed: 2026-07-23
-summary: "tt-a1i/archify — cross-agent skill (Claude Code / Cursor / Codex / opencode) that turns plain-English descriptions into verifiable, interactive self-contained HTML architecture, workflow, sequence, data-flow & lifecycle diagrams; 2.12 adds Architecture Delta review, validation receipts, share cards, and grounded interaction (reach/route/lens/stories)."
+agent-reviewed: 2026-09-06
+summary: "tt-a1i/archify — cross-agent skill (Claude Code / Cursor / Codex / opencode) that turns plain-English descriptions into verifiable, interactive self-contained HTML architecture, workflow, sequence, data-flow & lifecycle diagrams; 2.17 adds a fourth visual preset, route/reach share cards, a DeepSeek Harness plugin and Raven support, and a no-telemetry update check you can disable."
 ---
 # Archify
 
@@ -31,7 +31,7 @@ summary: "tt-a1i/archify — cross-agent skill (Claude Code / Cursor / Codex / o
 - **Architecture Delta review** — compare two validated snapshots as Before / Delta / After with exact added/removed/changed/moved/rerouted facts and a machine receipt: `node archify/bin/archify.mjs compare architecture base.json head.json delta.html --json`. Viewer-only — no impact/risk/merge-safety inference.
 - **Share cards & WebM** — canonical 1200×630 diagram, route, and reach share cards for READMEs/socials; browser-native WebM recording.
 - **Evidence-backed nodes (opt-in)** — Architecture nodes marked `SRC n` open Git-verified files and line ranges pinned to one public commit; ordinary artifacts stay source-free.
-- **Three visual presets** — `classic` (default), `signal-flow`, `blueprint`; motion is explicit (`"animation": "trace"`), finite, respects `prefers-reduced-motion`, never enters canonical exports.
+- **Visual presets** — `classic` (default), `signal-flow`, `blueprint`; the 2.17 README counts four presets without naming the new one, and adds built-in brand marks. Motion is explicit (`"animation": "trace"`), finite, respects `prefers-reduced-motion`, never enters canonical exports.
 - **deployment-ownership profile (opt-in)** — for production deployment reviews, fails closed when owners, single-region placement, private DB scope, or named boundary crossings are missing; validates authored facts, not live infra.
 
 ### Download or use
@@ -72,10 +72,12 @@ Renderer-backed diagrams run a small, inspectable loop — the same one the pack
 | **Deliver** | A same-directory candidate is rendered and checked; only a passing artifact atomically replaces the target (`deliver --open` for one-shot local handoff). |
 | **Iterate** | Targeted JSON edits applied while unrelated structure stays stable; the Skill caps repair at two focused correction rounds. |
 
-Not sure which diagram type fits? `node bin/archify.mjs guide "Show an API request with Redis cache miss"` recommends one. As of writing, Archify **2.12** ships typed JSON IR across all five modes, a real-repository proof case ([mco-org/mco](https://github.com/mco-org/mco) traced at a pinned commit), an 11-scenario [Proof Lab](https://tt-a1i.github.io/archify/gallery.html) with validation receipts, and explicit `standard` / `showcase` quality profiles.
+Not sure which diagram type fits? `node bin/archify.mjs guide "Show an API request with Redis cache miss"` recommends one. Archify ships typed JSON IR across all five modes, a real-repository proof case ([mco-org/mco](https://github.com/mco-org/mco) traced at pinned commit `9f1a1cf`), an 11-scenario [Proof Lab](https://tt-a1i.github.io/archify/gallery.html) with validation receipts, and explicit `standard` / `showcase` quality profiles.
+
+`meta.locale=en|zh-CN` localizes the page title, Legend, states/errors, a11y and the HTML/SVG `lang` — never authored content.
 
 ## Preview
-Three visual presets (Signal Flow · Blueprint · Classic) — real generated artifacts, not mockups:
+Signal Flow · Blueprint · Classic — real generated artifacts, not mockups:
 
 ![[c856d36189cbcac4c6e3d86867597671_MD5.gif]]
 
@@ -89,6 +91,23 @@ Architecture Delta compares two validated snapshots for design/PR review:
 
 ![[ef3e025fa6c996320f0b8def61363769_MD5.jpg]]
 
+## Installation surfaces
+2.17 widened where the skill can live. `npx skills add tt-a1i/archify -g` covers the [agent switcher](https://tt-a1i.github.io/archify/start.html?agent=cursor&type=architecture) targets — `cursor`, `codex`, `claude-code`, `opencode` — and there's an explicit non-interactive form for Cursor:
+```
+npx -y skills add tt-a1i/archify --skill archify --agent cursor --global --copy --yes
+```
+
+| Surface | Install | Capability |
+| --- | --- | --- |
+| **Claude Code** | `~/.claude/skills/` or `.claude/skills/` | Full renderer + validation |
+| **Codex CLI** | `~/.agents/skills/` or `.agents/skills/` | Full renderer + validation |
+| **opencode** | `~/.config/opencode/skills/`, `.opencode/skills/`, `.agents/skills/` | Full renderer + validation |
+| **Raven** (EverMind) | Manual ZIP into `~/.raven/workspace/skills` | Full renderer + validation; not a switcher target |
+| **[[DeepSeek Harness]]** | `dsh plugin --profile web add @tt-a1i/archify-dsh@0.1.0` | Community integration for developer-preview `@deepseek-ai/dsh@0.1.0-rc.6`, Node `^22.19.0 \|\| >=24.0.0`. Not an official DeepSeek product, no telemetry |
+| **Claude.ai** | Upload `archify.zip` under Settings → Capabilities → Skills | Depends on Node.js access in the sandbox |
+
+☘️ **Update check, and how to turn it off.** Archify may `GET` a fixed stable manifest purely to show an optional update reminder — it never downloads or installs anything. The server sees normal HTTP metadata (IP, time) and *no* version, agent, project data, prompts, account/device ID or ETag. Successful checks wait ~72h (±20%); failures retry after 6h then 24h. Set `ARCHIFY_UPDATE_CHECK_DISABLED=1` to disable the networking and the reminder-state writes entirely.
+
 ## Alternatives considered
 - **Mermaid** — text-to-diagram, but generic auto-layout and limited emphasis control; Archify explicitly is *not* a Mermaid theme and chooses hierarchy/spacing/routes for the story.
 - **[[CODE/TOOLS/Excalidraw|Excalidraw]]** — great for hand-drawn manual diagramming, but you draw it yourself; Archify generates from a description.
@@ -100,8 +119,8 @@ Archify is a fork/rewrite of [Cocoon-AI/architecture-diagram-generator](https://
 - 🔗 Repo: [github.com/tt-a1i/archify](https://github.com/tt-a1i/archify)
 - 🔗 Project page: [tt-a1i.github.io/archify](https://tt-a1i.github.io/archify/) · [Scenario guide](https://tt-a1i.github.io/archify/guide.html) · [Proof Lab](https://tt-a1i.github.io/archify/gallery.html)
 - 🔗 [Schema reference](https://github.com/tt-a1i/archify/blob/main/archify/schemas/README.md) · [SKILL.md contract](https://github.com/tt-a1i/archify/blob/main/archify/SKILL.md) · [CHANGELOG](https://github.com/tt-a1i/archify/blob/main/CHANGELOG.md) · [ROADMAP](https://github.com/tt-a1i/archify/blob/main/ROADMAP.md)
-- 🔗 Skills CLI: [github.com/vercel-labs/skills](https://github.com/vercel-labs/skills)
-- 📖 Related: [[Agent Skills]] · [[Awesome Agent Skills]] · [[Vercel Skills]] · [[Extending Claude Code — Tools for Its Blind Spots]]
+- 🔗 Skills CLI: [github.com/vercel-labs/skills](https://github.com/vercel-labs/skills) · [DSH integration README](https://github.com/tt-a1i/archify/blob/main/integrations/deepseek-harness/README.md) · [Agent cookbook](https://github.com/tt-a1i/archify/blob/main/docs/authoring-cookbook.md)
+- 📖 Related: [[Agent Skills]] · [[Awesome Agent Skills]] · [[Vercel Skills]] · [[DeepSeek Harness]] · [[Extending Claude Code — Tools for Its Blind Spots]]
 
 ---
 Template: [[templates/tool]]

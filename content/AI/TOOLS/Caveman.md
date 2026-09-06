@@ -91,6 +91,7 @@ Five composable tools, one philosophy (*agent do more with less*):
 - [benchmarks/](https://github.com/JuliusBrussee/caveman/blob/main/benchmarks) + [evals/](https://github.com/JuliusBrussee/caveman/blob/main/evals) — raw data + reproduction harness
 - Related: [[Awesome Claude Code]], [[Building Claude Skills Guide]], [[Karpathy Skills]], [[Superpowers]], [[gstack]]
 - [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
+- [[OmniRoute]] — bundles Caveman as engine #8 of its 12-engine compression stack (default `RTK → Caveman`)
 
 ---
 Template: [[templates/tool]]
