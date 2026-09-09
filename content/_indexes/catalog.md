@@ -1,6 +1,6 @@
 ---
-updated: 2026-09-06T00:00:00Z
-entries: 388
+updated: 2026-09-09T00:00:00Z
+entries: 394
 ---
 # Note Catalog
 
@@ -191,7 +191,9 @@ entries: 388
 - **Amp It Up** | book-note | 2025-04-06 | [book, business] | Frank Slootman's leadership playbook: raise standards, align people, sharpen focus, and pick up pace. | → -
 - **Company of one** | book-note | 2022-09-07 | [book, business, entrepreneurship] | Paul Jarvis argues that questioning growth and staying small can lead to a more sustainable, fulfilling business. | → I have a business and not business has me, PLSoft
 - **Millionaire Fastlane** | book-note | 2022-09-18 | [book, millionaire] | Book note for Millionaire Fastlane — incomplete, pending full review and notes | → -
+- **The 48 Laws of Power** | book-note | 2026-09-09 | [book, power, strategy, psychology, business] | Greene's amoral catalogue of power tactics from 3000 years of history — most useful read defensively, as description rather than manual. | → The Leader In You, 12 Rules for Life, templates/book
 - **The Inevitable** | book-note | 2023-01-08 | [book, inevitable, technology, future] | Kevin Kelly's 12 technological megatrends shaping economics, social relations, and ownership culture. | → 6 life tips from Kevin Kelly, AI Trends 2026, Software 3.0, Sapiens. A Brief History of Humankind
+- **The Leader In You** | book-note | 2026-09-09 | [book, leadership, communication, self-development, business] | Carnegie on leadership as relationship work: listen properly, motivate through shared purpose, admit mistakes first, balance work with rest. | → The Art of Public Speaking, Conference Talk Craft, Dopamine Detox, Atomic habits, templates/book
 - **The One Thing** | book-note | 2022-09-16 | [book] | Gary Keller's method: identify one goal, break it into daily steps, use counterbalance not work-life balance. | → Eisenhower Matrix, Atomic habits, Principles
 
 ## BUSINESS/KNOWLEDGE/HOWTO
@@ -348,6 +350,8 @@ entries: 388
 - **Learn Like a Pro** | book-note | 2025-11-02 | [book, learning] | Oakley & Schewe's science-backed learning guide: Pomodoro, focused/diffuse thinking, spaced repetition, elaboration. | → Włam się do mózgu
 - **Miracle morning** | book-note | 2022-08-21 | [book, morning routine, waking up early] | Hal Elrod's SAVERS morning routine framework and 3 steps to rise above mediocrity | → ABOUT/HABITS/Habits
 - **Sapiens. A Brief History of Humankind** | book-note | 2022-09-18 | [book, sapiens, religion] | Yuval Harari's controversial history of humanity prompting personal reflection on faith and belief. | → The Inevitable, How i read books
+- **TED Talks** | book-note | 2026-09-09 | [book, public-speaking, presentation, self-development] | Chris Anderson's TED handbook: the idea is the payload, the talk is the delivery mechanism, and both scripting and improvising are valid. | → Conference Talk Craft, The Art of Public Speaking, Public Speaking, Marp, templates/book
+- **The Art of Public Speaking** | book-note | 2026-09-09 | [book, public-speaking, presentation, self-development] | Carnegie's 1915 manual: speaking is learned by speaking, monotony is the enemy, and gesture must come from real feeling. | → TED Talks, The Leader In You, Conference Talk Craft, Public Speaking, templates/book
 - **The Mental Toughness Handbook** | book-note | 2025-09-14 | [book] | Damon Zahariades on building mental toughness: 7 habits, resilience vs toughness, and silencing the inner critic. | → Atomic habits, 5 second rule, Dopamine Detox
 - **Włam się do mózgu** | book-note | 2022-09-13 | [book, learning] | Radek Kotarski's Polish book on fast and efficient learning techniques (stub, notes pending). | → Learn Like a Pro, Cornel Notes Taking System, How to learn
 
@@ -365,6 +369,7 @@ entries: 388
 - **6 life tips from Kevin Kelly** | knowledge-note | 2022-10-09 | [knowledge, info, wisdom] | 6 practical life principles by Kevin Kelly: act now, value people over possessions, make new mistakes | → BUSINESS/BOOKS/The Inevitable, templates/knowledge_note_info
 - **Blue light** | knowledge-note | 2022-09-06 | [knowledge, info, health, sleep] | Blue light from screens suppresses melatonin and disrupts sleep; avoid screens 2-3h before bed. | → Kindle, templates/knowledge_note_info
 - **Cold shower** | knowledge-note | 2023-02-02 | [knowledge, info] | Cold shower habit benefits: dopamine release, improved circulation, immunity boost, and mental health gains. | → ABOUT/HABITS/Habits, templates/knowledge_note_info
+- **Conference Talk Craft** | compiled-note | 2026-09-09 | [knowledge, info, public-speaking, presentation, slides, research, evidence-based] | Researched playbook for a 25-minute technical talk — 27 techniques ordered by when they happen, evidence graded; a third of standard advice rests on debunked justifications. | → Public Speaking, TED Talks, The Art of Public Speaking, Marp, Marp CLI, Claude Code Marp Workflow, Progressive Disclosure, templates/knowledge_note_info
 - **Cornel Notes Taking System** | dailyjournal | 2022-08-21 | [journaling, notes] | Cornell Note Taking System: divide page into keywords, notes, and summary sections for efficient recall. | → ATTACHMENTS/Pasted image 20220821205449.png, Mind map, Zettelkasten, Włam się do mózgu
 - **Digital Garden** | basic-note | 2022-08-22 | [digital-garden, notes, knowledge-management] | Personal digital garden at brain.lipowczan.pl built with Obsidian and Quartz, managed by AI agents | → Obsidian, LLM Knowledge Bases, Brain
 - **DISC** | knowledge-note | 2022-09-12 | [knowledge, disc, self-development] | Extended DISC personality model based on Jung's theory for recruitment, team-building, and self-development. | → CLIFTONSTRENGTHS, Jordan Petersons 12 rules for life, ABOUT/DISC
@@ -382,6 +387,7 @@ entries: 388
 - **Pareto principle** | knowledge-note | 2023-01-04 | [knowledge, info, pareto, principle] | The 80/20 rule: 80% of outcomes derive from 20% of inputs, applicable across business and life. | → templates/knowledge_note_info
 - **Pavel Tsatsouline's 5 Soviet Holds for Mobility** | knowledge-note | 2026-06-14 | [knowledge, info, mobility, fitness, health, strength] | Five no-equipment isometric holds from Pavel Tsatsouline's Soviet method — a 15-minute, 3x/week routine for mobility and joint pain | → Habits, Mobility for Desk Workers, Cold shower, Blue light, templates/knowledge_note_info
 - **Pomodoro** | knowledge-note | 2022-10-28 | [knowledge, info] | Pomodoro Technique: 25-minute focused work intervals with short breaks to beat procrastination | → templates/knowledge_note_info
+- **Public Speaking** | knowledge-note | 2026-09-09 | [knowledge, info, public-speaking, presentation] | Hub for speaking craft — the researched playbook, the two canonical books, and where they agree and contradict each other. | → Conference Talk Craft, TED Talks, The Art of Public Speaking, The Leader In You, Marp, Marp CLI, Claude Code Marp Workflow, Progressive Disclosure, templates/knowledge_note_info
 - **Quartz** | knowledge-note | 2022-09-01 | [knowledge, quartz] | Quartz static site generator used to publish this digital garden for free on the web. | → LIFE/KNOWLEDGE/INFO/Digital Garden
 - **Second Brain Design** | knowledge-note | 2026-01-26 | [knowledge, info, pkm, obsidian, ai] | PKM system design: Obsidian vault + Claude Code + Skills — Capture, Organize, Retrieve with AI automation | → Obsidian, Claude Code, Agent Skills, Context Engineering, Digital Garden, templates/knowledge_note_info
 - **Stoicism** | knowledge-note | 2026-06-21 | [knowledge, info, stoicism, philosophy, wisdom] | Practical foundations of Stoicism — dichotomy of control, the four virtues, core practices (negative visualization, view from above), and the main texts. | → Trust, The Tale of the Old Man and His Son's Journey, Die with Zero, 5 Minute Journal, Mindfulness Meditation, Jordan Petersons 12 rules for life, templates/knowledge_note_info

@@ -1,7 +1,7 @@
 ---
-updated: 2026-09-06T00:00:00Z
-nodes: 388
-edges: 2618
+updated: 2026-09-09T00:00:00Z
+nodes: 394
+edges: 2653
 ---
 # Link Graph
 
@@ -175,7 +175,9 @@ AI/TOOLS/Video Use -> AI/TOOLS/Browser Use, AI/TOOLS/HyperFrames, AI/TOOLS/Brows
 AI/TOOLS/Voicebox -> AI/TOOLS/Claude Code, AI/TOOLS/Personal AI Infrastructure, AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish), AI/TOOLS/Pocket TTS, AI/TOOLS/Hermes Agent, AI/TOOLS/Paperclip, templates/tool
 AI/TOOLS/VoyageAI -> PROJECTS/TTTR/Tech To The Rescue, AI/TOOLS/OpenAI, AI/TOOLS/LightRAG, CODE/KNOWLEDGE/INFO/AI Chatbots Architecture, templates/tool
 BUSINESS/BOOKS/Company of one -> ABOUT/I have a business and not business has me, PROJECTS/PLSOFT/PLSoft
+BUSINESS/BOOKS/The 48 Laws of Power -> BUSINESS/BOOKS/The Leader In You, LIFE/BOOKS/12 Rules for Life, templates/book
 BUSINESS/BOOKS/The Inevitable -> LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly, AI/KNOWLEDGE/INFO/AI Trends 2026, AI/KNOWLEDGE/INFO/Software 3.0, LIFE/BOOKS/Sapiens. A Brief History of Humankind
+BUSINESS/BOOKS/The Leader In You -> LIFE/BOOKS/The Art of Public Speaking, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/BOOKS/Dopamine Detox, LIFE/BOOKS/Atomic habits, templates/book
 BUSINESS/BOOKS/The One Thing -> LIFE/KNOWLEDGE/INFO/Eisenhower Matrix, LIFE/BOOKS/Atomic habits, ABOUT/Principles
 BUSINESS/KNOWLEDGE/HOWTO/Contact a client -> BUSINESS/KNOWLEDGE/INFO/Autonomous Sales Agent Playbook, BUSINESS/KNOWLEDGE/INFO/LinkedIn Strategy, BUSINESS/KNOWLEDGE/INFO/Build in Public, templates/knowledge_note_how_to
 BUSINESS/KNOWLEDGE/HOWTO/How to convert multiselect field into a 'link to another table field' -> BUSINESS/TOOLS/Make, ATTACHMENTS/Pasted image 20220905171437.png, convert multiselect into link to another.json, ATTACHMENTS/Pasted image 20220905171755.png
@@ -293,6 +295,8 @@ LIFE/BOOKS/How to take smart notes -> LIFE/KNOWLEDGE/INFO/Zettelkasten
 LIFE/BOOKS/Learn Like a Pro -> LIFE/BOOKS/Włam się do mózgu
 LIFE/BOOKS/Miracle morning -> ABOUT/HABITS/Habits
 LIFE/BOOKS/Sapiens. A Brief History of Humankind -> BUSINESS/BOOKS/The Inevitable, ABOUT/How i read books
+LIFE/BOOKS/TED Talks -> LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/BOOKS/The Art of Public Speaking, LIFE/KNOWLEDGE/INFO/Public Speaking, CODE/TOOLS/Marp, templates/book
+LIFE/BOOKS/The Art of Public Speaking -> LIFE/BOOKS/TED Talks, BUSINESS/BOOKS/The Leader In You, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking, templates/book
 LIFE/BOOKS/The Mental Toughness Handbook -> LIFE/BOOKS/Atomic habits, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/BOOKS/Dopamine Detox
 LIFE/BOOKS/Włam się do mózgu -> LIFE/BOOKS/Learn Like a Pro, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System, LIFE/KNOWLEDGE/HOWTO/How to learn
 LIFE/KNOWLEDGE/HOWTO/How to clean desktop on Windows -> ATTACHMENTS/Pasted image 20221107103611.png, ATTACHMENTS/Pasted image 20221107103703.png, ATTACHMENTS/Pasted image 20221107104314.png, ATTACHMENTS/Pasted image 20221107104405.png, templates/knowledge_note_how_to
@@ -306,6 +310,7 @@ LIFE/KNOWLEDGE/INFO/5 second rule -> LIFE/BOOKS/The Mental Toughness Handbook, L
 LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly -> BUSINESS/BOOKS/The Inevitable, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Blue light -> LIFE/TOOLS/Kindle, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Cold shower -> ABOUT/HABITS/Habits, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Conference Talk Craft -> LIFE/KNOWLEDGE/INFO/Public Speaking, LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, CODE/TOOLS/Marp, CODE/TOOLS/Marp CLI, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, AI/KNOWLEDGE/INFO/Progressive Disclosure, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System -> ATTACHMENTS/Pasted image 20220821205449.png, LIFE/KNOWLEDGE/INFO/Mind map, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/BOOKS/Włam się do mózgu
 LIFE/KNOWLEDGE/INFO/Digital Garden -> LIFE/KNOWLEDGE/INFO/Obsidian, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/DISC -> ABOUT/CLIFTONSTRENGTHS, LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life, ABOUT/DISC
@@ -323,6 +328,7 @@ LIFE/KNOWLEDGE/INFO/Obsidian -> LIFE/KNOWLEDGE/INFO/Digital Garden, PROJECTS/BRA
 LIFE/KNOWLEDGE/INFO/Pareto principle -> templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility -> ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Pomodoro -> templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Public Speaking -> LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, BUSINESS/BOOKS/The Leader In You, CODE/TOOLS/Marp, CODE/TOOLS/Marp CLI, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, AI/KNOWLEDGE/INFO/Progressive Disclosure, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Quartz -> LIFE/KNOWLEDGE/INFO/Digital Garden
 LIFE/KNOWLEDGE/INFO/Second Brain Design -> LIFE/KNOWLEDGE/INFO/Obsidian, AI/TOOLS/Claude Code, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/Context Engineering, LIFE/KNOWLEDGE/INFO/Digital Garden, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Stoicism -> LIFE/KNOWLEDGE/INFO/Trust, LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey, LIFE/BOOKS/Die with Zero, LIFE/KNOWLEDGE/INFO/5 Minute Journal, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life, templates/knowledge_note_info
@@ -426,7 +432,7 @@ AI/KNOWLEDGE/INFO/LLM Knowledge Bases <- AI/KNOWLEDGE/HOWTO/Building an AI Secon
 AI/KNOWLEDGE/INFO/Loop Engineering <- AI/KNOWLEDGE/INFO/4 Claude Code Upgrades for Making Money (Nate Herk), AI/KNOWLEDGE/INFO/Agentic Auto-Scheduling (COMPILOT), AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Harness Engineering (Ryan Lopopolo), AI/KNOWLEDGE/INFO/High-Signal AI Voices to Follow (2026), AI/KNOWLEDGE/INFO/HOMER — Structured Agent Memory, AI/KNOWLEDGE/INFO/SkillWeaver — Compositional Skill Routing, AI/KNOWLEDGE/INFO/Swarm Research — Orchestrating Coding Agents, AI/TOOLS/Archon, AI/TOOLS/Loop Engineering (cobusgreyling), AI/TOOLS/Santander AI Open Source, CODE/KNOWLEDGE/HOWTO/Harness Engineering in Practice, LIFE/TOOLS/Career-Ops, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
 AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF) <- AI/KNOWLEDGE/INFO/DOX — Self-Documenting AGENTS.md, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, AI/KNOWLEDGE/INFO/Progressive Disclosure, AI/TOOLS/Google Cloud Knowledge Catalog, AI/TOOLS/OpenKB, AI/TOOLS/OpenWiki, AI/TOOLS/Understand Anything
 AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman) <- AI/KNOWLEDGE/INFO/10 Free GitHub Repos That Replace Paid Tools, AI/KNOWLEDGE/INFO/LLM App Engineering Stack, AI/TOOLS/Headroom, AI/TOOLS/Open Notebook
-AI/KNOWLEDGE/INFO/Progressive Disclosure <- AI/KNOWLEDGE/INFO/4 Claude Code Upgrades for Making Money (Nate Herk), AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/DOX — Self-Documenting AGENTS.md, AI/KNOWLEDGE/INFO/Extending Claude Code — Tools for Its Blind Spots, AI/KNOWLEDGE/INFO/GrepRAG, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Harness Engineering (Ryan Lopopolo), AI/KNOWLEDGE/INFO/HOMER — Structured Agent Memory, AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/LLM App Engineering Stack, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/KNOWLEDGE/INFO/RepoGraph, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/SkillWeaver — Compositional Skill Routing, AI/KNOWLEDGE/INFO/Spec-Driven + Self-Documenting, AI/KNOWLEDGE/INFO/Swarm Research — Orchestrating Coding Agents, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Codebase Memory MCP, AI/TOOLS/Deep-Research-skills, AI/TOOLS/Everything Claude Code, AI/TOOLS/Headroom, AI/TOOLS/MCP Language Server, AI/TOOLS/OpenMontage, AI/TOOLS/OpenWiki, AI/TOOLS/PageIndex, AI/TOOLS/Serena, AI/TOOLS/Understand Anything, CODE/KNOWLEDGE/HOWTO/Harness Engineering in Practice, CODE/KNOWLEDGE/INFO/Structural Retrieval for Code, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, PROJECTS/AGENTIC-SYSTEMS/Marketing Agent Research, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System
+AI/KNOWLEDGE/INFO/Progressive Disclosure <- AI/KNOWLEDGE/INFO/4 Claude Code Upgrades for Making Money (Nate Herk), AI/KNOWLEDGE/INFO/Building Claude Skills Guide, AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/DOX — Self-Documenting AGENTS.md, AI/KNOWLEDGE/INFO/Extending Claude Code — Tools for Its Blind Spots, AI/KNOWLEDGE/INFO/GrepRAG, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Harness Engineering (Ryan Lopopolo), AI/KNOWLEDGE/INFO/HOMER — Structured Agent Memory, AI/KNOWLEDGE/INFO/Karpathy Method, AI/KNOWLEDGE/INFO/LLM App Engineering Stack, AI/KNOWLEDGE/INFO/Open Knowledge Format (OKF), AI/KNOWLEDGE/INFO/RepoGraph, AI/KNOWLEDGE/INFO/Self-Improving Company, AI/KNOWLEDGE/INFO/SkillWeaver — Compositional Skill Routing, AI/KNOWLEDGE/INFO/Spec-Driven + Self-Documenting, AI/KNOWLEDGE/INFO/Swarm Research — Orchestrating Coding Agents, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Codebase Memory MCP, AI/TOOLS/Deep-Research-skills, AI/TOOLS/Everything Claude Code, AI/TOOLS/Headroom, AI/TOOLS/MCP Language Server, AI/TOOLS/OpenMontage, AI/TOOLS/OpenWiki, AI/TOOLS/PageIndex, AI/TOOLS/Serena, AI/TOOLS/Understand Anything, CODE/KNOWLEDGE/HOWTO/Harness Engineering in Practice, CODE/KNOWLEDGE/INFO/Structural Retrieval for Code, PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules, PROJECTS/AGENTIC-SYSTEMS/Marketing Agent Research, PROJECTS/JAKUB-GLAB/Jakub Głąb Agent System, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking
 AI/KNOWLEDGE/INFO/RepoGraph <- AI/KNOWLEDGE/INFO/GrepRAG, CODE/KNOWLEDGE/INFO/Structural Retrieval for Code
 AI/KNOWLEDGE/INFO/Self-Improving Company <- AI/KNOWLEDGE/INFO/Agentic Auto-Scheduling (COMPILOT), AI/KNOWLEDGE/INFO/Agentic Engineering, AI/KNOWLEDGE/INFO/Harness Engineering (Ryan Lopopolo), AI/KNOWLEDGE/INFO/Software 3.0, AI/KNOWLEDGE/INFO/Swarm Research — Orchestrating Coding Agents, CODE/KNOWLEDGE/HOWTO/Harness Engineering in Practice, PROJECTS/AGENTIC-SYSTEMS/Agentic Systems, PROJECTS/TTTR/Tech To The Rescue
 AI/KNOWLEDGE/INFO/Skills 2.0 Testing <- AI/KNOWLEDGE/INFO/Context Engineering, AI/KNOWLEDGE/INFO/DELEGATE-52, AI/TOOLS/Agent Skills, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Everything Claude Code
@@ -546,6 +552,7 @@ BUSINESS/BOOKS/Amp It Up <- BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't
 BUSINESS/BOOKS/Company of one <- ABOUT/I have a business and not business has me, BUSINESS/KNOWLEDGE/INFO/Product-Market Fit
 BUSINESS/BOOKS/Millionaire Fastlane <- ABOUT/Principles, BUSINESS/KNOWLEDGE/INFO/Lean Canvas, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, LIFE/NOTES/Reading list
 BUSINESS/BOOKS/The Inevitable <- LIFE/BOOKS/Sapiens. A Brief History of Humankind, LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly
+BUSINESS/BOOKS/The Leader In You <- LIFE/BOOKS/The Art of Public Speaking, BUSINESS/BOOKS/The 48 Laws of Power, LIFE/KNOWLEDGE/INFO/Public Speaking
 BUSINESS/BOOKS/The One Thing <- LIFE/BOOKS/Design Your Future, LIFE/NOTES/Reading list
 BUSINESS/KNOWLEDGE/HOWTO/Contact a client <- BUSINESS/KNOWLEDGE/HOWTO/Test email rating
 BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension <- BUSINESS/KNOWLEDGE/HOWTO/Test email rating
@@ -575,7 +582,7 @@ BUSINESS/TOOLS/People Data Labs <- AI/TOOLS/Bright Data, BUSINESS/KNOWLEDGE/INFO
 BUSINESS/TOOLS/Sendgrid <- BUSINESS/KNOWLEDGE/HOWTO/How to send emails directly from Free Airtable using Sendgrid extension, BUSINESS/KNOWLEDGE/HOWTO/Test email rating, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, CODE/TOOLS/Resend
 BUSINESS/TOOLS/Stripe <- BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/VALUE-BUILDERS/Value Builders
 BUSINESS/TOOLS/Zapier <- BUSINESS/TOOLS/Make, BUSINESS/TOOLS/n8n, NOCODE/KNOWLEDGE/INFO/Automation Tool Selection, PROJECTS/TTTR/Tech To The Rescue
-CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow <- CODE/TOOLS/Marp
+CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow <- CODE/TOOLS/Marp, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking
 CODE/KNOWLEDGE/HOWTO/Common workflow I use in dotnet projects using Azure DevOps <- CODE/TOOLS/Git
 CODE/KNOWLEDGE/HOWTO/Export git logs to file <- CODE/TOOLS/Git
 CODE/KNOWLEDGE/HOWTO/Harness Engineering in Practice <- AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Harness Engineering (Ryan Lopopolo), AI/TOOLS/Loop Engineering (cobusgreyling), PROJECTS/AGENTIC-SYSTEMS/Agentic Systems
@@ -599,8 +606,8 @@ CODE/TOOLS/Git <- ABOUT/What tools I use, CODE/KNOWLEDGE/HOWTO/Export git logs t
 CODE/TOOLS/Google Cloud <- ABOUT/What tools I use, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS
 CODE/TOOLS/Hetzner <- AI/TOOLS/Replicate, CODE/TOOLS/DigitalOcean, CODE/TOOLS/RabbitMQ, CODE/TOOLS/Turborepo, PROJECTS/QAMERA-AI/Qamera AI
 CODE/TOOLS/MakerKit <- CODE/TOOLS/shadcn-ui, CODE/TOOLS/Turborepo, PROJECTS/QAMERA-AI/Qamera AI
-CODE/TOOLS/Marp <- AI/TOOLS/HyperFrames, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, CODE/TOOLS/Marp CLI, CODE/TOOLS/Marpit
-CODE/TOOLS/Marp CLI <- AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, CODE/TOOLS/Marp, CODE/TOOLS/Marp Core, CODE/TOOLS/Marpit
+CODE/TOOLS/Marp <- AI/TOOLS/HyperFrames, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, CODE/TOOLS/Marp CLI, CODE/TOOLS/Marpit, LIFE/BOOKS/TED Talks, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking
+CODE/TOOLS/Marp CLI <- AI/KNOWLEDGE/HOWTO/Machine Setup Manifest, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, CODE/TOOLS/Marp, CODE/TOOLS/Marp Core, CODE/TOOLS/Marpit, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking
 CODE/TOOLS/Marp Core <- CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, CODE/TOOLS/Marp, CODE/TOOLS/Marpit
 CODE/TOOLS/Marpit <- CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, CODE/TOOLS/Marp, CODE/TOOLS/Marp CLI, CODE/TOOLS/Marp Core
 CODE/TOOLS/Next.js <- AI/TOOLS/LangGraph, AI/TOOLS/Lovable, AI/TOOLS/v0, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/BullMQ, CODE/TOOLS/DigitalOcean, CODE/TOOLS/Hetzner, CODE/TOOLS/NextAuth, CODE/TOOLS/pnpm, CODE/TOOLS/Prisma, CODE/TOOLS/RabbitMQ, CODE/TOOLS/React, CODE/TOOLS/Resend, CODE/TOOLS/shadcn-ui, CODE/TOOLS/Storybook, CODE/TOOLS/Supabase, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/Vercel, PROJECTS/AGRE/AGRE, PROJECTS/QAMERA-AI/Qamera AI, PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/TTTR/Tech To The Rescue, PROJECTS/VALUE-BUILDERS/Value Builders
@@ -644,16 +651,18 @@ INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing <- CRYPTO/NOTES/My Cryp
 INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology <- CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality, CRYPTO/NOTES/My Crypto Strategy, INVESTMENTS/BOOKS/The Intelligent Investor, INVESTMENTS/BOOKS/The Psychology of Money, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/My Investment Strategy
 INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies <- INVESTMENTS/BOOKS/The Intelligent Investor, INVESTMENTS/BOOKS/The Psychology of Money, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/My Investment Strategy, LIFE/BOOKS/Die with Zero
 INVESTMENTS/My Investment Strategy <- CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality, CRYPTO/NOTES/My Crypto Strategy, INVESTMENTS/BOOKS/The Intelligent Investor, INVESTMENTS/BOOKS/The Psychology of Money, LIFE/BOOKS/Die with Zero
-LIFE/BOOKS/12 Rules for Life <- LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
-LIFE/BOOKS/Atomic habits <- ABOUT/HABITS/Habits, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Reading list
+LIFE/BOOKS/12 Rules for Life <- LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life, BUSINESS/BOOKS/The 48 Laws of Power
+LIFE/BOOKS/Atomic habits <- ABOUT/HABITS/Habits, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Reading list, BUSINESS/BOOKS/The Leader In You
 LIFE/BOOKS/Building a Second Brain <- ABOUT/Building a Second Brain, LIFE/NOTES/Reading list
 LIFE/BOOKS/Design Your Future <- LIFE/NOTES/Reading list
 LIFE/BOOKS/Die with Zero <- CRYPTO/NOTES/My Crypto Strategy, LIFE/BOOKS/Design Your Future, LIFE/KNOWLEDGE/INFO/Stoicism
-LIFE/BOOKS/Dopamine Detox <- LIFE/BOOKS/The Mental Toughness Handbook, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/NOTES/Distractions
+LIFE/BOOKS/Dopamine Detox <- LIFE/BOOKS/The Mental Toughness Handbook, LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/NOTES/Distractions, BUSINESS/BOOKS/The Leader In You
 LIFE/BOOKS/How to take smart notes <- ABOUT/Building a Second Brain, LIFE/KNOWLEDGE/INFO/Zettelkasten, LIFE/NOTES/Reading list, PROJECTS/BRAIN/Brain
 LIFE/BOOKS/Learn Like a Pro <- LIFE/BOOKS/Włam się do mózgu
 LIFE/BOOKS/Miracle morning <- LIFE/KNOWLEDGE/INFO/5 Minute Journal
 LIFE/BOOKS/Sapiens. A Brief History of Humankind <- BUSINESS/BOOKS/The Inevitable
+LIFE/BOOKS/TED Talks <- LIFE/BOOKS/The Art of Public Speaking, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking
+LIFE/BOOKS/The Art of Public Speaking <- LIFE/BOOKS/TED Talks, BUSINESS/BOOKS/The Leader In You, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking
 LIFE/BOOKS/The Mental Toughness Handbook <- LIFE/KNOWLEDGE/INFO/5 second rule
 LIFE/BOOKS/Włam się do mózgu <- LIFE/BOOKS/Learn Like a Pro, LIFE/KNOWLEDGE/HOWTO/How to learn, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System
 LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation <- BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to
@@ -665,6 +674,7 @@ LIFE/KNOWLEDGE/INFO/5 second rule <- LIFE/BOOKS/The Mental Toughness Handbook, L
 LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly <- BUSINESS/BOOKS/The Inevitable
 LIFE/KNOWLEDGE/INFO/Blue light <- LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/TOOLS/Kindle
 LIFE/KNOWLEDGE/INFO/Cold shower <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
+LIFE/KNOWLEDGE/INFO/Conference Talk Craft <- LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, BUSINESS/BOOKS/The Leader In You, LIFE/KNOWLEDGE/INFO/Public Speaking
 LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System <- LIFE/BOOKS/Włam się do mózgu, LIFE/TOOLS/OneNote
 LIFE/KNOWLEDGE/INFO/Digital Garden <- AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Quartz, LIFE/KNOWLEDGE/INFO/Second Brain Design, LIFE/TOOLS/Obsidian, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/DISC <- ABOUT/DISC
@@ -682,6 +692,7 @@ LIFE/KNOWLEDGE/INFO/Obsidian <- AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, 
 LIFE/KNOWLEDGE/INFO/Pareto principle <- LIFE/NOTES/Programmer and what's next
 LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/HOWTO/When to exercise, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Strength Training for Desk Workers 40+
 LIFE/KNOWLEDGE/INFO/Pomodoro <- LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/NOTES/Distractions, LIFE/TOOLS/Microsoft To Do, LIFE/TOOLS/TextExpander
+LIFE/KNOWLEDGE/INFO/Public Speaking <- LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, LIFE/KNOWLEDGE/INFO/Conference Talk Craft
 LIFE/KNOWLEDGE/INFO/Quartz <- CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/Second Brain Design <- AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, AI/KNOWLEDGE/INFO/High-Signal AI Voices to Follow (2026), AI/KNOWLEDGE/INFO/Loop Engineering, AI/TOOLS/NotebookLM-py, AI/TOOLS/Obsidian Skills, AI/TOOLS/Open Notebook, AI/TOOLS/Personal AI Infrastructure
 LIFE/KNOWLEDGE/INFO/Stoicism <- LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey, LIFE/KNOWLEDGE/INFO/Trust
@@ -720,6 +731,8 @@ PROJECTS/TRAVELCAST-AI/Travelcast AI <- AI/TOOLS/Chatterbox TTS, AI/TOOLS/Eleven
 PROJECTS/TTTR/Tech To The Rescue <- AI/TOOLS/Bright Data, AI/TOOLS/Crawl4AI, AI/TOOLS/GitHub Copilot, AI/TOOLS/Google Gemini, AI/TOOLS/LangGraph, AI/TOOLS/LiteLLM, AI/TOOLS/Marker, AI/TOOLS/Ollama, AI/TOOLS/OpenAI, AI/TOOLS/Tactiq, AI/TOOLS/VoyageAI, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, CODE/KNOWLEDGE/HOWTO/Harness Engineering in Practice, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/BullMQ, CODE/TOOLS/Celery, CODE/TOOLS/DigitalOcean, CODE/TOOLS/Drizzle ORM, CODE/TOOLS/Hetzner, CODE/TOOLS/NextAuth, CODE/TOOLS/Prisma, CODE/TOOLS/RabbitMQ, CODE/TOOLS/Redis, CODE/TOOLS/Resend, CODE/TOOLS/Storybook, PROJECTS/PLSOFT/PLSoft, PROJECTS/Projects
 PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe <- ABOUT/About, AI/TOOLS/Space Agent, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS/Value Builders
 PROJECTS/VALUE-BUILDERS/Value Builders <- ABOUT/About, ABOUT/My career path, AI/TOOLS/ElevenLabs, AI/TOOLS/Lovable, AI/TOOLS/Paperclip, AI/TOOLS/v0, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, BUSINESS/TOOLS/Stripe, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/shadcn-ui, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/Vercel, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe
+templates/book <- LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, BUSINESS/BOOKS/The 48 Laws of Power, BUSINESS/BOOKS/The Leader In You
+templates/knowledge_note_info <- LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking
 TRAVELS/My travels <- TRAVELS/TRIPS/2024 07 Bieszczady, TRAVELS/TRIPS/2025 07 Beskidy
 TRAVELS/TOOLS/Ventusky <- TRAVELS/TRIPS/2022 Iceland October, TRAVELS/TRIPS/2024 07 Bieszczady, TRAVELS/TRIPS/2025 07 Beskidy
 TRAVELS/TRIPS/2022 Iceland October <- TRAVELS/TOOLS/Ventusky
