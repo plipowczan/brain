@@ -1,7 +1,7 @@
 ---
 updated: 2026-09-09T00:00:00Z
-nodes: 394
-edges: 2653
+nodes: 395
+edges: 2660
 ---
 # Link Graph
 
@@ -328,7 +328,8 @@ LIFE/KNOWLEDGE/INFO/Obsidian -> LIFE/KNOWLEDGE/INFO/Digital Garden, PROJECTS/BRA
 LIFE/KNOWLEDGE/INFO/Pareto principle -> templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility -> ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Cold shower, LIFE/KNOWLEDGE/INFO/Blue light, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Pomodoro -> templates/knowledge_note_info
-LIFE/KNOWLEDGE/INFO/Public Speaking -> LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, BUSINESS/BOOKS/The Leader In You, CODE/TOOLS/Marp, CODE/TOOLS/Marp CLI, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, AI/KNOWLEDGE/INFO/Progressive Disclosure, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/Public Speaking -> LIFE/KNOWLEDGE/INFO/What Carries Over Between Talks, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, BUSINESS/BOOKS/The Leader In You, CODE/TOOLS/Marp, CODE/TOOLS/Marp CLI, CODE/KNOWLEDGE/HOWTO/Claude Code Marp Workflow, AI/KNOWLEDGE/INFO/Progressive Disclosure, templates/knowledge_note_info
+LIFE/KNOWLEDGE/INFO/What Carries Over Between Talks -> LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking, LIFE/BOOKS/The Art of Public Speaking, LIFE/BOOKS/TED Talks, LIFE/BOOKS/Atomic habits, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Quartz -> LIFE/KNOWLEDGE/INFO/Digital Garden
 LIFE/KNOWLEDGE/INFO/Second Brain Design -> LIFE/KNOWLEDGE/INFO/Obsidian, AI/TOOLS/Claude Code, AI/TOOLS/Agent Skills, AI/KNOWLEDGE/INFO/Context Engineering, LIFE/KNOWLEDGE/INFO/Digital Garden, templates/knowledge_note_info
 LIFE/KNOWLEDGE/INFO/Stoicism -> LIFE/KNOWLEDGE/INFO/Trust, LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey, LIFE/BOOKS/Die with Zero, LIFE/KNOWLEDGE/INFO/5 Minute Journal, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life, templates/knowledge_note_info
@@ -652,7 +653,7 @@ INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology <- CRYPTO/KNOWLEDGE/INFO/Bitcoin
 INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies <- INVESTMENTS/BOOKS/The Intelligent Investor, INVESTMENTS/BOOKS/The Psychology of Money, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/My Investment Strategy, LIFE/BOOKS/Die with Zero
 INVESTMENTS/My Investment Strategy <- CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality, CRYPTO/NOTES/My Crypto Strategy, INVESTMENTS/BOOKS/The Intelligent Investor, INVESTMENTS/BOOKS/The Psychology of Money, LIFE/BOOKS/Die with Zero
 LIFE/BOOKS/12 Rules for Life <- LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life, BUSINESS/BOOKS/The 48 Laws of Power
-LIFE/BOOKS/Atomic habits <- ABOUT/HABITS/Habits, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Reading list, BUSINESS/BOOKS/The Leader In You
+LIFE/BOOKS/Atomic habits <- ABOUT/HABITS/Habits, BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/The Mental Toughness Handbook, LIFE/NOTES/Reading list, BUSINESS/BOOKS/The Leader In You, LIFE/KNOWLEDGE/INFO/What Carries Over Between Talks
 LIFE/BOOKS/Building a Second Brain <- ABOUT/Building a Second Brain, LIFE/NOTES/Reading list
 LIFE/BOOKS/Design Your Future <- LIFE/NOTES/Reading list
 LIFE/BOOKS/Die with Zero <- CRYPTO/NOTES/My Crypto Strategy, LIFE/BOOKS/Design Your Future, LIFE/KNOWLEDGE/INFO/Stoicism
@@ -661,8 +662,8 @@ LIFE/BOOKS/How to take smart notes <- ABOUT/Building a Second Brain, LIFE/KNOWLE
 LIFE/BOOKS/Learn Like a Pro <- LIFE/BOOKS/Włam się do mózgu
 LIFE/BOOKS/Miracle morning <- LIFE/KNOWLEDGE/INFO/5 Minute Journal
 LIFE/BOOKS/Sapiens. A Brief History of Humankind <- BUSINESS/BOOKS/The Inevitable
-LIFE/BOOKS/TED Talks <- LIFE/BOOKS/The Art of Public Speaking, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking
-LIFE/BOOKS/The Art of Public Speaking <- LIFE/BOOKS/TED Talks, BUSINESS/BOOKS/The Leader In You, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking
+LIFE/BOOKS/TED Talks <- LIFE/BOOKS/The Art of Public Speaking, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking, LIFE/KNOWLEDGE/INFO/What Carries Over Between Talks
+LIFE/BOOKS/The Art of Public Speaking <- LIFE/BOOKS/TED Talks, BUSINESS/BOOKS/The Leader In You, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking, LIFE/KNOWLEDGE/INFO/What Carries Over Between Talks
 LIFE/BOOKS/The Mental Toughness Handbook <- LIFE/KNOWLEDGE/INFO/5 second rule
 LIFE/BOOKS/Włam się do mózgu <- LIFE/BOOKS/Learn Like a Pro, LIFE/KNOWLEDGE/HOWTO/How to learn, LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System
 LIFE/KNOWLEDGE/HOWTO/How to create a task for delegation <- BUSINESS/KNOWLEDGE/HOWTO/React when employee doesn't do what he is supposed to
@@ -674,7 +675,7 @@ LIFE/KNOWLEDGE/INFO/5 second rule <- LIFE/BOOKS/The Mental Toughness Handbook, L
 LIFE/KNOWLEDGE/INFO/6 life tips from Kevin Kelly <- BUSINESS/BOOKS/The Inevitable
 LIFE/KNOWLEDGE/INFO/Blue light <- LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility, LIFE/TOOLS/Kindle
 LIFE/KNOWLEDGE/INFO/Cold shower <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/INFO/Glucose Spikes and Performance, LIFE/KNOWLEDGE/INFO/Hashimoto and Diet, LIFE/KNOWLEDGE/INFO/Hashimoto Meals and Fasting Protocol, LIFE/KNOWLEDGE/INFO/Intermittent Fasting, LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility
-LIFE/KNOWLEDGE/INFO/Conference Talk Craft <- LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, BUSINESS/BOOKS/The Leader In You, LIFE/KNOWLEDGE/INFO/Public Speaking
+LIFE/KNOWLEDGE/INFO/Conference Talk Craft <- LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, BUSINESS/BOOKS/The Leader In You, LIFE/KNOWLEDGE/INFO/Public Speaking, LIFE/KNOWLEDGE/INFO/What Carries Over Between Talks
 LIFE/KNOWLEDGE/INFO/Cornel Notes Taking System <- LIFE/BOOKS/Włam się do mózgu, LIFE/TOOLS/OneNote
 LIFE/KNOWLEDGE/INFO/Digital Garden <- AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, AI/KNOWLEDGE/INFO/LLM Knowledge Bases, CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed, LIFE/KNOWLEDGE/INFO/Obsidian, LIFE/KNOWLEDGE/INFO/Quartz, LIFE/KNOWLEDGE/INFO/Second Brain Design, LIFE/TOOLS/Obsidian, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/DISC <- ABOUT/DISC
@@ -692,7 +693,7 @@ LIFE/KNOWLEDGE/INFO/Obsidian <- AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, 
 LIFE/KNOWLEDGE/INFO/Pareto principle <- LIFE/NOTES/Programmer and what's next
 LIFE/KNOWLEDGE/INFO/Pavel Tsatsouline's 5 Soviet Holds for Mobility <- ABOUT/HABITS/Habits, LIFE/KNOWLEDGE/HOWTO/When to exercise, LIFE/KNOWLEDGE/INFO/Mobility for Desk Workers, LIFE/KNOWLEDGE/INFO/Strength Training for Desk Workers 40+
 LIFE/KNOWLEDGE/INFO/Pomodoro <- LIFE/KNOWLEDGE/INFO/5 second rule, LIFE/NOTES/Distractions, LIFE/TOOLS/Microsoft To Do, LIFE/TOOLS/TextExpander
-LIFE/KNOWLEDGE/INFO/Public Speaking <- LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, LIFE/KNOWLEDGE/INFO/Conference Talk Craft
+LIFE/KNOWLEDGE/INFO/Public Speaking <- LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/What Carries Over Between Talks
 LIFE/KNOWLEDGE/INFO/Quartz <- CODE/KNOWLEDGE/HOWTO/How to set Hugo RSS feed, PROJECTS/BRAIN/Brain
 LIFE/KNOWLEDGE/INFO/Second Brain Design <- AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, AI/KNOWLEDGE/INFO/High-Signal AI Voices to Follow (2026), AI/KNOWLEDGE/INFO/Loop Engineering, AI/TOOLS/NotebookLM-py, AI/TOOLS/Obsidian Skills, AI/TOOLS/Open Notebook, AI/TOOLS/Personal AI Infrastructure
 LIFE/KNOWLEDGE/INFO/Stoicism <- LIFE/KNOWLEDGE/INFO/Mindfulness Meditation, LIFE/KNOWLEDGE/INFO/The Tale of the Old Man and His Son's Journey, LIFE/KNOWLEDGE/INFO/Trust
@@ -732,9 +733,10 @@ PROJECTS/TTTR/Tech To The Rescue <- AI/TOOLS/Bright Data, AI/TOOLS/Crawl4AI, AI/
 PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe <- ABOUT/About, AI/TOOLS/Space Agent, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS/Value Builders
 PROJECTS/VALUE-BUILDERS/Value Builders <- ABOUT/About, ABOUT/My career path, AI/TOOLS/ElevenLabs, AI/TOOLS/Lovable, AI/TOOLS/Paperclip, AI/TOOLS/v0, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, BUSINESS/TOOLS/Stripe, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/shadcn-ui, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/Vercel, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe
 templates/book <- LIFE/BOOKS/TED Talks, LIFE/BOOKS/The Art of Public Speaking, BUSINESS/BOOKS/The 48 Laws of Power, BUSINESS/BOOKS/The Leader In You
-templates/knowledge_note_info <- LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking
+templates/knowledge_note_info <- LIFE/KNOWLEDGE/INFO/Conference Talk Craft, LIFE/KNOWLEDGE/INFO/Public Speaking, LIFE/KNOWLEDGE/INFO/What Carries Over Between Talks
 TRAVELS/My travels <- TRAVELS/TRIPS/2024 07 Bieszczady, TRAVELS/TRIPS/2025 07 Beskidy
 TRAVELS/TOOLS/Ventusky <- TRAVELS/TRIPS/2022 Iceland October, TRAVELS/TRIPS/2024 07 Bieszczady, TRAVELS/TRIPS/2025 07 Beskidy
 TRAVELS/TRIPS/2022 Iceland October <- TRAVELS/TOOLS/Ventusky
 TRAVELS/TRIPS/2024 07 Bieszczady <- TRAVELS/TOOLS/Ventusky, TRAVELS/TRIPS/2025 07 Beskidy
 TRAVELS/TRIPS/2025 07 Beskidy <- TRAVELS/KNOWLEDGE/INFO/Weekend Tent-Camping Hike Candidates (near Ustroń), TRAVELS/TOOLS/Ventusky, TRAVELS/TRIPS/2024 07 Bieszczady
+LIFE/KNOWLEDGE/INFO/What Carries Over Between Talks <- LIFE/KNOWLEDGE/INFO/Public Speaking

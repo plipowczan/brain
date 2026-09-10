@@ -29,6 +29,7 @@ The material here is cut for that, not for professional speaking.
 | [[Conference Talk Craft]] | The researched playbook: 27 techniques ordered by when they happen, with the evidence behind each one graded. Start here for anything operational. |
 | [[TED Talks]] | Chris Anderson. The idea is the payload; trust before content; the five-step explanation ladder. |
 | [[The Art of Public Speaking]] | Dale Carnegie, 1915. Emphasis and monotony, gesture from real feeling, the voice as a trained instrument, and an eight-question argument test. |
+| [[What Carries Over Between Talks]] | Audit of my own preparation across a series of talks: the lessons get re-solved instead of banked, and the effort drifts to the deck. |
 | [[Marp]] · [[Marp CLI]] · [[Claude Code Marp Workflow]] | The markdown-to-deck toolchain I actually use. |
 
 ## 🧩 Where the three sources agree
