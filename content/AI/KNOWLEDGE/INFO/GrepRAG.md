@@ -51,6 +51,7 @@ That split is the practical takeaway for a [[Claude Code]] harness: **grep for l
 - [Cline — why we don't index your codebase](https://cline.bot/blog/why-cline-doesnt-index-your-codebase-and-why-thats-a-good-thing) — the first-party manifesto version
 - [[Structural Retrieval for Code]] — the full taxonomy and when grep beats graph
 - [[RepoGraph]] — the opposing "graph helps" result
+- [[Graft]] — ships both bets: an LLM-summarized node graph *and* `graft grep`, exhaustive regex for when ranked top-N is not enough
 - [[Progressive Disclosure]] · [[Context Engineering]] · [[Token Optimization for Claude Code]]
 
 ---

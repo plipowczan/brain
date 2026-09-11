@@ -44,7 +44,7 @@ RepoGraph says *"graph helps, +32.8%"*. [[GrepRAG]] says *"index-free grep match
 - Paper: [RepoGraph, arXiv:2410.14684](https://arxiv.org/abs/2410.14684) (ICLR 2025)
 - [[Structural Retrieval for Code]] — the lane taxonomy this anchors
 - [[GrepRAG]] — the opposing "grep is enough" result
-- [[Codebase Memory MCP]] · [[Graphify]] — production tree-sitter graph tools in the same lane
+- [[Codebase Memory MCP]] · [[Graphify]] · [[Graft]] — production tree-sitter graph tools in the same lane
 - [[Progressive Disclosure]] · [[Context Engineering]] — the underlying context-shaping principle
 
 ---

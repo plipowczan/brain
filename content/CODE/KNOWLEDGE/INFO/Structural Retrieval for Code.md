@@ -130,6 +130,7 @@ Mechanically yes, in specific shapes — concrete for a [[Claude Code]] agent on
 ## 📖 Further reading
 
 - Existing lane-1 tools: [[Codebase Memory MCP]] · [[Graphify]] · [[Understand Anything]] · [[CocoIndex]]
+- Markdown-graph variant: [[Graft]] — the graph as readable `.md` nodes plus a `$0` tree-sitter tier; adds diff blast-radius (`graft blast`) and a push-vs-pull retrieval finding
 - New: [[Serena]] · [[MCP Language Server]] · [[RepoGraph]] · [[GrepRAG]]
 - Practical: [[Wiring Serena into a Codebase]] — bring-up HOWTO (install, Windows SAC DLL fix, monorepo timeout, pre-index)
 - Doc-RAG contrast: [[LightRAG]] — KG-RAG for prose/docs, not code-structure tracing

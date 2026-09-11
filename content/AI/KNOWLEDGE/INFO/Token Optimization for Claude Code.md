@@ -49,6 +49,7 @@ A short catalog of tools that cut token usage in [[Claude Code]] and LLM work in
 - [[Claude Code Best Practice]] — 69 tips
 - [[Agent Skills]] — complementary context-reduction mechanism (lazy loading of skills)
 - [[Graphify]] — its own code-graph approach, 71× token reduction
+- [[Graft]] — same roster: a repo-wide markdown node graph, vendor-reported −42% tokens / −60% latency vs cold Claude Code
 
 ---
 Template: [[templates/knowledge_note_info]]

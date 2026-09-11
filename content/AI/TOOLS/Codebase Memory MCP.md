@@ -71,6 +71,7 @@ Caveats before I trust it in a real workflow: benchmarks are self-reported; the 
 ## Resources
 - Repo: https://github.com/DeusData/codebase-memory-mcp
 - `.cbmignore` how-to, `docs/CONFIGURATION.md`, `SECURITY.md` — in the repo.
+- [[Graft]] — the markdown-graph take on the same problem: readable `.md` nodes instead of a SQLite artifact, `$0` structural tier, diff blast-radius
 
 ---
 Template: [[templates/tool]]
