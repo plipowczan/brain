@@ -34,3 +34,6 @@ __pycache__/
 # kb-template drift check excludes them too.
 .venv/
 uv.lock
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/

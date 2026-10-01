@@ -75,6 +75,7 @@ So it earns its place whenever the deliverable is a *comparison table* — techn
 **Already shipped from this pipeline in the vault:**
 - [[TTS Engines Comparison (Polish)]] — 19 TTS engines × quality/cost.
 - [[Social Media Algorithms — Maximizing Reach in 2026]] — 17 reach surfaces × 19 dimensions.
+- [[Writing Social Media Posts with AI — What Actually Drives Virality]] — 36 items × 32 fields; 18 circulating claims debunked.
 - [[PRD Methodologies and Templates]].
 
 ## 🔗 Related

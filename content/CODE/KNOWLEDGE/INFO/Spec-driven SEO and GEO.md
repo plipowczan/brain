@@ -112,6 +112,7 @@ Threshold: thematic cohesion + <500 lines of diff + single maintainer → one PR
 - [[Qamera AI]] — Next.js / Turborepo / i18n case study
 - [[Brain]] — related pattern: digital garden as a code artifact with its own verification loop
 - [[PRD Methodologies and Templates]] — spec-driven development in the broader PRD/spec landscape
+- [[Writing Social Media Posts with AI — What Actually Drives Virality]] — GEO for social posts: answer-shaped content and AI citation as a second objective, separate from feed reach
 
 ## 📖 Further reading
 

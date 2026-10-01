@@ -30,6 +30,7 @@ A content and business strategy where you share the real process of building you
 [[LinkedIn Strategy]]
 [[My career path]]
 [[Social Media Algorithms — Maximizing Reach in 2026]]
+[[Writing Social Media Posts with AI — What Actually Drives Virality]]
 
 ---
 Template: [[templates/knowledge_note_info]]

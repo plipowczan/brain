@@ -158,3 +158,4 @@ a kary dla MŚP to **niższa** z wartości 3% obrotu albo 15 mln EUR.
 - [[Agentic AI Repos]] · [[agentic-ai-system]] · [[agentic-ai-private]] · [[Agentic Systems]]
 - [[Tech News Weekly]] — działający pipeline referencyjny
 - [[OpenSpec]] · [[Progressive Disclosure]]
+- [[Writing Social Media Posts with AI — What Actually Drives Virality]] — the craft layer under this agent: evidence-graded writing tactics, the human-in-the-loop gate and the Art. 50 check

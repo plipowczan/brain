@@ -113,6 +113,7 @@ Specialized sub-agents with clean context windows. Main agent coordinates plan; 
 - [[Harness Engineering]] — the practical implementation of context engineering
 - [[Agent Skills]] — dynamically loaded instruction packages
 - [[Token Optimization for Claude Code]] — tools that reduce context spend 40–98%
+- [[Jev Engineering for Coding Agents]] — query-aware "visibility ladder" per context chunk as the fix for blind compaction; tiered tool disclosure
 - **Context window management** — knowing what fits and what to prioritize
 
 ## 📖 Further reading

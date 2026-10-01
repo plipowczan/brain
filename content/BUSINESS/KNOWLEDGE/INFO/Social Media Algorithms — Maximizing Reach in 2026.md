@@ -7,12 +7,37 @@ tags: ["research", "compiled", "social-media", "algorithms", "marketing", "reach
 type: compiled-note
 source: "research-en deep research — content/_raw/research-workspaces/algorytmy-social-media-zasieg-2026/"
 agent-created: true
-summary: "How 17 social platforms' 2026 algorithms rank content and the max-reach tactics for each — feeds plus GEO/AI-answer engines, live and broadcast surfaces"
+agent-reviewed: 2026-09-11
+summary: "How 17 social platforms' 2026 algorithms rank content and the max-reach tactics for each — feeds plus GEO/AI-answer engines, live and broadcast surfaces; corrected 2026-09-11 (X tone-scoring claim retracted, pod-detection figure removed)"
 ---
 
 # Social Media Algorithms — Maximizing Reach in 2026
 
 > Deep-research reference report · generated 2026-07-06 · 17 reach surfaces × 19 dimensions each. Sources: 2026 platform docs, engineering blogs, and social-marketing analyses (last ~6 months). **Uncertain / unverified values are omitted** — each platform's speculative figures (unpublished ranking weights, practitioner-estimated thresholds) were flagged during research and excluded here.
+
+> [!warning] Corrections applied 2026-09-11
+> Two claims in the original report were checked against primary sources during the
+> [[Writing Social Media Posts with AI — What Actually Drives Virality]] research and did not survive.
+> (That companion note was ingested 2026-09-29; the raw research lives in
+> `content/_raw/research-workspaces/ai-social-post-virality/`.)
+>
+> **1. X does not score tone.** The original "Sentiment Tone Signals" section for X asserted that Grok reads
+> the tone of every post and throttles combative content. X's open-sourced live ranker
+> ([`github.com/xai-org/x-algorithm`](https://github.com/xai-org/x-algorithm), Apache-2.0) contains **no valence
+> or tone score**: `Grox` runs spam/adult/violence classifiers plus text and image embeddings. The claim
+> propagates near-verbatim across 2026 vendor blogs that cite each other. What the code actually shows is
+> heavy **negative-action weighting** — corrected in place below. The vendors' *conclusion* (don't be
+> inflammatory) was right; their *mechanism* was wrong, and the wrong mechanism yields the wrong tactic.
+>
+> **2. The "~97% pod detection accuracy" figure is untraceable.** No primary source publishes it. The
+> verifiable facts are LinkedIn's policy wording and X's own parameter file — corrected in place below.
+>
+> **3. Sourcing caveat on 360Brew.** This note names 360Brew as LinkedIn's ranking model in several places.
+> The preprint behind that name, arXiv 2501.16450, was **withdrawn by arXiv administrators in Aug 2025** over
+> licensing. The model's existence is not in doubt, but every architectural detail here that rests on that paper
+> is currently unsupported by a citable source. Not rewritten — flagged.
+>
+> Everything else in this note is unreviewed and still carries its original 2026-07-06 sourcing.
 
 ## 🔗 Related notes
 
@@ -24,6 +49,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - [[Claude SEO]] — Claude Code plugin for automated SEO/GEO audits
 - [[High-Signal AI Voices to Follow (2026)]] — evidence-based AI/second-brain builders to follow (the feed that "teaches you")
 - [[Deep-Research-skills]] — the `/research*` pipeline this report was produced with
+- [[Writing Social Media Posts with AI — What Actually Drives Virality]] — companion: the writing craft and the science of sharing, evidence graded; the source of the 2026-09-11 corrections above
 
 ## Contents
 
@@ -77,7 +103,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 
 **Sentiment Tone Signals.**
 
-- **Verdict:** TikTok is essentially tone-AGNOSTIC — unlike X/Grok's 2026 positive/constructive boost, TikTok's FYP has no confirmed sentiment ranking input. It optimizes for engagement depth regardless of tone.
+- **Verdict:** TikTok is essentially tone-AGNOSTIC — its FYP has no confirmed sentiment ranking input and optimizes for engagement depth regardless of tone. *(Corrected 2026-09-11: this line previously contrasted TikTok with "X/Grok's 2026 positive/constructive boost". No such boost is documented — X has no tone score either. See the X section.)*
 - **How Negativity Behaves:** The algorithm does NOT penalize negative comments and does NOT specifically favor positive sentiment. Controversy tends to HELP distribution because disagreement drives comments, shares and time-on-video, which the recommender reads as high engagement. Constructive back-and-forth in comments keeps a video circulating.
 - **Moderation Boundary:** Tone only matters where it crosses Community Guidelines (hate, harassment, harmful content), which triggers suppression/removal — separate from ranking. Engagement-bait phrasing is the one 'tone' signal that is actively down-weighted.
 
@@ -430,15 +456,17 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
   - Profile clicks / dwell time / video completion (genuine-interest signals)
   - Author reputation & cluster affinity (SimClusters interest communities)
   - Recency / time-decay
-  - Tone/sentiment via Grok (positive-constructive up, combative down)
+  - Negative actions, weighted far above positive ones (see Sentiment Tone Signals below for the actual weights)
 - **Explicitly Not Weighted:** Raw follower count is NOT a direct ranking input; a 50-thoughtful-reply post can outperform a 500-like-no-discussion post. Likes have become a comparatively weak baseline signal.
 - **Notes:** Scoring is per-user-per-post; content that consistently earns engagement from one interest cluster gets extended to the rest of that cluster (niche authority compounds faster than broad appeal).
 
-**Sentiment Tone Signals.**
+**Sentiment Tone Signals.** *(corrected 2026-09-11 — see the banner at the top of this note)*
 
-- **Description:** New in 2026: Grok reads the tone of every post. Positive, constructive, and educational messaging gets wider distribution; negative, combative, or outrage-driven content is throttled EVEN IF engagement is high ('substance over outrage').
-- **Nuance:** This measures tone/delivery, not topic — you can disagree or post critical opinions; hostile/inflammatory framing is what gets suppressed. This decouples reach from raw engagement for the first time, weakening the classic rage-bait playbook.
-- **Practical Implication:** Frame contrarian or critical takes constructively; ask genuine questions; avoid dunking/pile-on tone to keep distribution.
+- **Correction:** There is **no tone or sentiment score**. The earlier claim here — that Grok reads the tone of every post and throttles combative content even at high engagement — could not be traced to any primary source. It propagates near-verbatim across 2026 vendor blogs citing each other. X's open-sourced live ranker carries no valence signal; `Grox` runs classifiers for spam, adult content and violent media, plus numeric text and image embeddings.
+- **What actually suppresses hostile content:** negative-action weighting in `home-mixer/params/param.rs`. Verified values: `ReportWeight -234.0`, `MuteAuthorWeight -58.8`, `NotInterestedWeight -43.2`, `BlockAuthorWeight -31.2`, against `FavoriteWeight 0.5`, `ReplyWeight`/`QuoteWeight`/`ShareViaDmWeight 5.0` and `ShareViaCopyLinkWeight 20.0`. One mute cancels roughly twelve replies; one report is worth about 468 likes.
+- **Account-level, not post-level:** the `Agatha` component labels **accounts** on `BlocksPerFav`, `ReportsPerFav` and `SpamReportsPerFav`, aggregating reports over **180 days** and feeding visibility filtering plus abuse enforcement. The cost is cumulative and invisible on any single post's analytics.
+- **Practical Implication:** the outcome resembles the old advice but the target is different. You are not optimizing to *sound* positive — plenty of blunt, critical posts do fine. You are optimizing so that **nobody reaches for mute, block, report or 'not interested'**. Pile-ons and dunking are costly because they attract those actions from the target's audience, not because a classifier read your tone.
+- **Also verified in the same file:** engagement arriving from group-chat coordination plus direct navigation *"has no ranking impact"* — engagement pods on X are inert before they are penalized.
 
 ### Distribution & Reach Mechanics
 
@@ -500,7 +528,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
   - Use native video and threads: the two formats with the strongest 2026 reach; keep video 15-60s.
   - Keep links out of the main post: put URLs in a reply or use link-free posts to avoid suppression.
   - Reply to bigger accounts in your niche: high-visibility reply real estate is a discovery on-ramp for new accounts.
-  - Constructive tone: frame hot takes positively to avoid Grok tone-throttling.
+  - Avoid provoking negative actions: a hot take is fine, a pile-on is not — mutes, blocks and reports outweigh likes by two to three orders of magnitude and accumulate against the account. *(Corrected 2026-09-11: previously "frame hot takes positively to avoid Grok tone-throttling" — there is no tone throttling.)*
   - Consider X Premium: a persistent 2x-8x reach multiplier applied before content signals (see paid_verified_boost).
   - Protect your reputation: minimize mutes/blocks/'not interested' — they carry heavy negative weight and depress global distribution.
 - **Compounding:** Niche authority + consistent cadence + Premium is the fastest documented organic growth stack in 2026.
@@ -511,7 +539,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 
 - **Jan 2026:** Legacy heuristic recommendation stack fully retired; replaced by a single Grok-based transformer that reads every post and watches every video. Individual verification now requires a paid Premium subscription (no free blue check).
 - **May 15 2026:** Largest open-source release ('x-algorithm'): downloadable pre-trained 'Phoenix' model + end-to-end run_pipeline.py (retrieval->ranking) + ads-blending + 'Grox' content-understanding classifiers — for the first time anyone can run X's real For You ranker locally.
-- **Tone Scoring:** Grok tone/sentiment scoring live: positive-constructive boosted, combative suppressed even at high engagement.
+- **~~Tone Scoring~~:** *Retracted 2026-09-11.* This entry claimed Grok tone/sentiment scoring went live in 2026 with positive-constructive boosted and combative suppressed. No primary source supports it, and the open-sourced ranker contains no tone score. The real mechanism is negative-action weighting, documented in the Sentiment Tone Signals section above.
 - **Link Suppression Tightened:** Since ~March 2026 non-Premium link posts get near-zero median engagement; link penalty measurably tightened.
 - **Monetization Shift:** Payouts re-weighted toward engagement from verified/Premium users ('Verified Home Timeline' impressions).
 - **AI Labeling:** 'Made with AI' voluntary label + 'Manipulated Media' auto-tag introduced.
@@ -548,7 +576,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - **Saves Bookmarks:** Increasingly treated as the strongest single 'lasting value' signal (Forbes/360Brew-era: ~5x a like). Saves indicate reference/utility and extend content longevity via evergreen resurfacing — this is why educational/how-to and document posts over-index on reach.
 - **Shares Reposts:** Reshares with added commentary are weighted above plain reposts; plain reposts of others' content are among the weakest formats and 2026 guidance discourages relying on them.
 - **Likes Reactions:** Still counted but the weakest meaningful signal; measured within engagement-rate ratios rather than as an absolute goal. '50 likes + 10 substantive comments outperforms 200 likes + 3 generic comments.'
-- **Quality Over Volume:** 2026 shift: signals are normalized per-impression and dwell-weighted, so a smaller, highly-relevant audience that reads and discusses can out-distribute a large indifferent one. Coordinated/pod engagement is detected (reported ~97% accuracy) and results in lasting reach reduction.
+- **Quality Over Volume:** 2026 shift: signals are normalized per-impression and dwell-weighted, so a smaller, highly-relevant audience that reads and discusses can out-distribute a large indifferent one. Coordinated/pod engagement is detected and results in lasting reach reduction. *(Corrected 2026-09-11: the "~97% accuracy" figure previously stated here is an untraceable vendor number and has been removed. Direction holds; magnitude was never published.)*
 
 ### Distribution & Reach Mechanics
 
@@ -559,7 +587,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - **Staged Distribution:** Stage 1 (0-60 min): shown to ~2-5% of your network; ~5-10% engagement rate advances it, below ~2% kills distribution. Stage 2 (~1-6 h): expands to ~10-20% of network plus 2nd-degree connections. Stage 3 (6+ h): only the top ~1% of posts break out to relevant users OUTSIDE your network. Roughly only 5% of posts that underperform early ever recover.
 - **Reach Compression:** Deployment of 360Brew coincided with organic reach falling ~50% YoY; median per-post impressions dropped ~47% (June 2024→May 2025), with some measures citing up to ~63%. LinkedIn is deliberately trading broad broadcast for precision targeting.
 
-**Account Maturity Cold-Start.** No hard time-gate like RedNote's 180-day rule. New/low-history accounts face a soft cold start: 360Brew leans on author-expertise and topic-authority signals it infers from a complete profile + consistent on-topic activity, so a brand-new account with a thin interest/expertise profile gets a smaller initial-distribution boost and slower Stage 1→3 escalation. There is no separate non-follower 'test pool' as on TikTok/IG — the first-degree network IS the test audience, so accounts with few or low-quality connections start from a weaker base. The fix is consistency (regular on-topic posting builds the topic-authority signal the model uses) and a complete, expertise-signalling profile; using engagement pods to fake a cold-start jump backfires (pod detection ~97% accuracy → durable reach reduction).
+**Account Maturity Cold-Start.** No hard time-gate like RedNote's 180-day rule. New/low-history accounts face a soft cold start: 360Brew leans on author-expertise and topic-authority signals it infers from a complete profile + consistent on-topic activity, so a brand-new account with a thin interest/expertise profile gets a smaller initial-distribution boost and slower Stage 1→3 escalation. There is no separate non-follower 'test pool' as on TikTok/IG — the first-degree network IS the test audience, so accounts with few or low-quality connections start from a weaker base. The fix is consistency (regular on-topic posting builds the topic-authority signal the model uses) and a complete, expertise-signalling profile; using engagement pods to fake a cold-start jump backfires (durable reach reduction). *(Corrected 2026-09-11: "~97% accuracy" removed as untraceable. What is verifiable is LinkedIn's Professional Community Policies wording — "don't agree with others ahead of time to like or re-share each other's content" — which makes the **prior agreement** the prohibited element. A curated list of accounts you comment on daily, with no reciprocity deal, is permitted at identical regularity.)*
 
 **Early Velocity Window.** LinkedIn's 'golden hour' is the first ~60-90 minutes: the post is tested on ~2-5% of your network and the engagement quality (especially dwell time + substantive comments) in that window largely decides whether it escalates — only ~5% of slow-starting posts recover. Because the audience is professional and checks the feed at intervals (not continuously), the window is longer and slower than TikTok/IG's minutes-scale golden hour. NOTE the 2026 debate: some analysts (Forbes/Jodie Cook) argue there is 'no golden hour' and that consistent posting cadence that trains an audience matters more than nailing the first 60 minutes. Practical read: strong early velocity still helps, but LinkedIn rewards it over 1-2 hours and heavily weights sustained dwell time, so a hooky first line + prompt author replies to early comments is the lever.
 
@@ -622,7 +650,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - **Generic AI Content:** Fully AI-generated posts with no original human perspective (and AI-generated comments) get reach-limited; flagged pages reported down to ~2% reach. Failure mode is near-zero dwell + no saves + no discussion.
 - **Off Topic And Expertise Mismatch:** Content misaligned with the author's stated field / profiled expertise ('360 Brew' mismatch) is distributed less; overtly off-topic, political, or low-professional-relevance posts under-perform.
 - **Reposts And Low Effort:** Plain reposts of others' content and low-effort/duplicate posts are weak formats; reshare-with-commentary is preferred. Excess hashtags (10+ cuts reach ~31%; sweet spot 0-4) and non-native square/horizontal video (vs boosted vertical) also cost distribution.
-- **Coordinated Engagement Pods:** Engagement pods / coordinated like-comment rings are detected (reported ~97% accuracy) and trigger durable, sometimes permanent, reach reduction.
+- **Coordinated Engagement Pods:** Engagement pods / coordinated like-comment rings are detected and trigger durable, sometimes permanent, reach reduction. *(Corrected 2026-09-11: "~97% accuracy" removed as untraceable vendor number. The prohibited element per LinkedIn's own policy is the pre-arrangement, not the regularity.)*
 - **Over Posting:** More than ~5-7 posts/day or dumping multiple posts close together suppresses each; space posts ~4-6 hours apart.
 
 ---
@@ -800,7 +828,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 
 **Growth Tactics.**
 
-- **Core Playbook:** 1) Optimize for conversation velocity: post hooks engineered to invite replies (questions, mild tension, specific claims) and answer every early reply within the first hour. 2) Reply more than you post — the sum of replies rivals the sum of posts for growth. 3) Always pair text with an image or short video (+~60%). 4) Front-load a specific, tension-creating first line. 5) Post at active-audience windows (weekday mornings) to win the golden hour. 6) Use one precise Topic Tag + natural-language keywords for search discovery. 7) Keep it constructive/positive — dunks and combativeness get throttled. 8) Publish original content; recycled/reposted-from-elsewhere and generic corporate tone underperform. 9) Leverage the Instagram cross-link — IG-active accounts grow ~15% faster. 10) Post consistently daily; volume of quality conversation compounds because each post has a short half-life.
+- **Core Playbook:** 1) Optimize for conversation velocity: post hooks engineered to invite replies (questions, mild tension, specific claims) and answer every early reply within the first hour. 2) Reply more than you post — the sum of replies rivals the sum of posts for growth. 3) Always pair text with an image or short video (+~60%). 4) Front-load a specific, tension-creating first line. 5) Post at active-audience windows (weekday mornings) to win the golden hour. 6) Use one precise Topic Tag + natural-language keywords for search discovery. 7) Don't provoke mutes, blocks or reports — dunks and pile-ons are costly because of the negative actions they attract, not because of a tone classifier (corrected 2026-09-11). 8) Publish original content; recycled/reposted-from-elsewhere and generic corporate tone underperform. 9) Leverage the Instagram cross-link — IG-active accounts grow ~15% faster. 10) Post consistently daily; volume of quality conversation compounds because each post has a short half-life.
 - **Reach Leverage:** Because For You injects heavy non-follower content and reach is decoupled from follower count, the winning move is manufacturing genuine back-and-forth conversation on discovery-friendly, self-contained posts rather than optimizing for the follower feed.
 
 ### 2026 Updates & Shifts
@@ -967,7 +995,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 
 **Sentiment Tone Signals.**
 
-- **Description:** Reddit has NO platform-wide algorithmic tone booster like X/Grok's positive-constructive reweighting. Tone is governed instead by (a) the community itself via up/downvotes and human/AutoModerator moderation, and (b) a 2026 ML toxicity/low-quality classifier layer that demotes and filters abusive or spammy content.
+- **Description:** Reddit has NO platform-wide algorithmic tone booster. *(Corrected 2026-09-11: this line previously compared Reddit to "X/Grok's positive-constructive reweighting", which does not exist — see the X section.)* Tone is governed instead by (a) the community itself via up/downvotes and human/AutoModerator moderation, and (b) a 2026 ML toxicity/low-quality classifier layer that demotes and filters abusive or spammy content.
 - **How Tone Affects Reach:** Because downvotes directly reduce score and destroy Wilson-score ratio, community-disapproved (hostile, off-culture, low-effort) tone is self-suppressing per subreddit. The dedicated 'Controversial' sort isolates divisive high-activity content so it does NOT dominate Hot — divisiveness is quarantined rather than amplified.
 - **Culture Fit Over Universal Tone:** The 'right' tone is subreddit-specific, not global: what wins in r/science (sourced, measured) fails in a meme sub and vice-versa. Matching the resident community's norms and voice is the real 'tone signal.'
 - **Practical Implication:** Optimize for genuine, on-culture, discussion-sparking framing that earns net-positive early votes and replies; rage-bait/outrage can still spike a single thread but risks downvote pile-ons and mod removal that kill reach and the account's standing.

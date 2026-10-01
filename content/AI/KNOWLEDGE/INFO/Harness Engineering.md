@@ -31,6 +31,7 @@ Kluczowy insight: większość failures agentów to **nie problem modelu, lecz k
 - [[LLM Knowledge Bases]] — LLM-maintained wiki pattern, pokrewna filozofia
 - [[Loop Engineering]] — self-prompting loops folded into harness engineering
 - [[Harness Engineering in Practice]] — HOWTO: stosowanie tych zasad w moich projektach (Brain, Qamera, Jakub Głąb, TTTR)
+- [[Jev Engineering for Coding Agents]] — Diogo Almeida (TypeSafe): design the harness as if there were no KV cache — per-query context, routing priced per context rebuild, conditional AGENTS.md
 
 ## 🧩 Features:
 
