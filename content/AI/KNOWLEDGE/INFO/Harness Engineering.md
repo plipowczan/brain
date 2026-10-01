@@ -113,6 +113,9 @@ Likelihood sukcesu silnie koreluje z agent's ability to verify own work:
 - [ETH Zurich agentfiles study](https://arxiv.org/abs/2602.11988)
 - [[DeepSeek Harness]] — DeepSeek AI's everything-is-a-plugin agent harness
 - [[herdr]] — the terminal runtime *below* the harness: agent sessions that survive reboots, panes marked working/blocked/idle
+- [[AI-Native SDLC Playbook]] — Anthropic's course on harness engineering at org scale: "a skill advises, a hook enforces", evals on every CLAUDE.md/skill/hook change, managed settings
+- [[Autoharness]] — a plugin that maintains the skill layer of the harness on its own: distills, merges and prunes skills by adherence
+- [[AI Software Factory]] — the harness taken to lights-out: issues in, merged PRs out, behind journeys and holdout gates
 
 ---
 Template: [[templates/knowledge_note_info]]

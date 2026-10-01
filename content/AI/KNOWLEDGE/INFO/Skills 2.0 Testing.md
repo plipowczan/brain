@@ -125,3 +125,5 @@ Separacja kontekstów przez fizyczną izolację w Git — agent CFO dla 200IQ La
 - [Skill Creator Plugin](https://github.com/anthropics/skill-creator) — oficjalne narzędzie Anthropic
 - [shared-skills repo](https://github.com/200iqlabs/shared-skills) — open source multi-agent starter kit
 - [Claude Code Skills docs](https://docs.anthropic.com/en/docs/claude-code/skills) — dokumentacja Skills 2.0
+- [[Autoharness]] — the opposite validation stance: skills survive by being used in later sessions, not by passing a benchmark
+- [[AI-Native SDLC Playbook]] — run the eval suite on every change to CLAUDE.md, skills or hooks, and turn each incident into a permanent eval

@@ -67,6 +67,7 @@ Weak points: needs decode-level access, so it shines on models you control, less
 - README: https://github.com/dottxt-ai/outlines
 - Docs: https://dottxt-ai.github.io/outlines/
 - dottxt blog (structured generation research): https://blog.dottxt.co
+- 📖 [[Drex]] · [[Laya]] — the other route to "valid by construction" for closed questions: no decoding at all, just a probability per option from one forward pass
 
 ---
 Template: [[templates/tool]]

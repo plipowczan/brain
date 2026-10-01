@@ -98,6 +98,8 @@ Skill registries (ClawHub, skills.sh) can execute arbitrary code — treat insta
 - [[Harness Engineering]] — skills as one of the key levers of harness engineering
 - [[LLM Knowledge Bases]] — LLM-driven knowledge management, a related pattern
 - [[Hermes Agent]] — compatible with the `agentskills.io` standard, autonomous skill creation
+- [[Autoharness]] — Claude Code plugin that writes, merges and archives its own skills from real sessions, never touching hand-written ones
+- [[AI-Native SDLC Playbook]] — "a skill is an advisory control; a hook is the deterministic layer behind it"
 - [[Agent Zero]] / [[Space Agent]] — agentic frameworks using SKILL.md as portable capabilities
 
 ---

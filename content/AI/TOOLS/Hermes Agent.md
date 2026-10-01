@@ -83,6 +83,7 @@ Risks:
 - [[Agent Skills]] / [[Vercel Skills]] — compatible skills ecosystem
 - [[NemoClaw]] — my self-hosted inference, compatible with Hermes via NVIDIA NIM
 - [[DELEGATE-52]] — why self-improving skills require an eval pipeline
+- [[Autoharness]] — the same self-learning-skills idea as a Claude Code plugin. It credits Hermes as inspiration, but prunes by adherence (loads ÷ requests) instead of wall-clock inactivity, and runs without a daemon.
 
 ---
 Template: [[templates/tool]]

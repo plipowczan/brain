@@ -49,6 +49,7 @@ LangGraph featured in the [[Tech To The Rescue]] platform's agent layer — orch
 - 📘 [LangGraph docs](https://langchain-ai.github.io/langgraph/)
 - 🧩 [Persistence & human-in-the-loop](https://langchain-ai.github.io/langgraph/concepts/persistence/)
 - 🔗 [[Agent Skills]] · [[Context Engineering]] — related agent design
+- 🔗 [[Laya]] — sub-35 ms conditional-edge routing for LangGraph: a typed decision model picks the next node, with a confidence fallback
 
 ---
 Template: [[templates/tool]]

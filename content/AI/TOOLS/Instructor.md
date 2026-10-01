@@ -70,6 +70,7 @@ Weak points: retries cost extra tokens/latency; it *coerces* rather than *guaran
 - Docs: https://python.useinstructor.com
 - Concepts (validation, retries, streaming): https://python.useinstructor.com/concepts/
 - Blog (Jason Liu): https://jxnl.co
+- 📖 [[Drex]] · [[Laya]] — decision models: for closed choice/yes-no/score questions they return a calibrated probability per option in one pass, with no generated text to validate
 
 ---
 Template: [[templates/tool]]

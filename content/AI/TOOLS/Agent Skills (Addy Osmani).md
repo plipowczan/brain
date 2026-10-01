@@ -60,6 +60,7 @@ Plus **1 meta-skill** for navigation.
 - [[Karpathy Skills]] — single-file counter-approach
 - [[Awesome Agent Skills]] — curated 1000+ skills list (includes this)
 - [[Harness Engineering]] — configuring the harness these skills run in
+- [[AI-Native SDLC Playbook]] — Anthropic's own SDLC playbook: skills as institutional knowledge per stage, backed by hooks where a policy must always hold
 - [[Claude Code]] — primary harness
 
 ---

@@ -139,6 +139,8 @@ Weak spot: 17 bundled workflows is a lot of abstraction to learn. I'll probably 
 
 See [[Loop Engineering]] for how Archon extracts the good parts of self-prompting loops into deterministic, cost-controlled workflows, and [[Loop Engineering (cobusgreyling)]] for the lighter patterns + readiness-audit CLIs.
 
+🔄 **2026-10-01:** Archon now ships a shared **SDLC pack** (`archon-backlog`, `-triage`, `-ship`, `-deliver`, `-verify-runtime`, `-regress`, `-merge-queue`, `-deploy`, `-lifecycle`…). [[AI Software Factory]] is Cole Medin's lights-out consumer of that pack: GitHub issues in, verified and merged PRs out, gated by a mission out-of-scope list, user journeys and holdout scenarios.
+
 ## 🔗 Resources
 
 - Author X: https://x.com/coleam00

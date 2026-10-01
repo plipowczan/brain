@@ -7,7 +7,7 @@ tags: ["tool", "ai", "coding-agents", "orchestration", "ide", "workspaces", "mob
 type: tool
 source: "_raw/processed/2026-09-06_stablyaiorca Orca is the ADE for working with a fleet of parallel agents.md"
 agent-created: true
-agent-reviewed: 2026-09-06
+agent-reviewed: 2026-10-01
 summary: "stablyai/orca — free MIT desktop ADE for running a fleet of coding agents in parallel, each in its own git worktree, with a mobile companion for steering them from your phone, click-to-prompt Design Mode, native GitHub/Linear and SSH worktrees."
 ---
 # Orca
@@ -32,6 +32,8 @@ summary: "stablyai/orca — free MIT desktop ADE for running a fleet of coding a
 - **Also in the box** — quick open across worktrees/files/agents, Claude & Codex usage and rate-limit tracking with account hot-swap, Computer Use, notifications and unread state.
 
 Works with **any CLI agent** — if it runs in a terminal, it runs in Orca. Explicitly supported: Claude Code, Codex, Grok, Cursor, Copilot, OpenCode, Amp, Antigravity, Pi, [[Hermes Agent]], Devin, Goose, Cline, Continue, Droid, Kimi, Kiro, Qwen Code and ~15 more.
+
+🔄 **Re-clipped 2026-10-01.** The supported-agent list now names 34 CLIs, including several my first note didn't list: Meta's Muse, [[DeepSeek Harness]], ZCode, Xiaomi's MiMo Code, OpenClaude, oh-my-pi, Autohand Code, Freebuff, Command Code, Mistral Vibe and Atlassian's Rovo Dev. The Android companion is at APK 0.0.50. Windows builds are **code-signed** (signing sponsored by SignPath.io, certificate from SignPath Foundation), which should cut down SmartScreen warnings on install. Arch users can also build from source with `stably-orca-git`. The README is translated into six languages. Otherwise the feature set is the same; the changelog is still "the real feature list".
 
 ### Download or use
 ```bash
@@ -64,6 +66,9 @@ Two features I'd use immediately:
 - 🔗 [Worktrees](https://www.onorca.dev/docs/model/worktrees) · [Design Mode](https://www.onorca.dev/docs/browser/design-mode) · [SSH](https://www.onorca.dev/docs/ssh) · [Orca CLI](https://www.onorca.dev/docs/cli/overview) · [Usage tracking](https://www.onorca.dev/docs/agents/usage-tracking)
 - 🔗 [Releases / changelog](https://github.com/stablyai/orca/releases) · [Discord](https://discord.gg/fzjDKHxv8Q)
 - 📖 Related: [[herdr]] · [[Claude Code]] · [[Cursor]] · [[Swarm Research — Orchestrating Coding Agents]] · [[Agentic Coding]] · [[OmniRoute]]
+- 📖 [[AI-Native SDLC Playbook]]: the "parallel sessions and subagents" play (2–3 sessions in separate worktrees, add more only while review keeps up), which is the workflow Orca packages
+- 📖 [[AI Software Factory]]: the opposite end of the spectrum. Orca keeps a human reviewing every diff; the factory merges behind verification gates nobody watches.
+- 🗂️ Re-clipped source: `_raw/processed/2026-10-01_stablyaiorca Orca is the ADE for working with a fleet of parallel agents.md`
 
 ---
 Template: [[templates/tool]]

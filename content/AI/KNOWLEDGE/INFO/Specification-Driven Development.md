@@ -36,6 +36,7 @@ Also known as **SDD** (Specification-Driven Development). The **OpenSpec** frame
 [[OpenSpec]] — the tool implementing SDD; note its brownfield rule: specs accumulate lazily, no backfill
 [[DOX — Self-Documenting AGENTS.md]] — complementary: SDD specifies *changes* (time), DOX maps *existing code* (space)
 [[Spec-Driven + Self-Documenting]] — synthesis of the two axes
+[[AI-Native SDLC Playbook]] — Anthropic's org-scale version of the same chain: intent.md → spec.md → plan.md, each committed, each commit triggering the next stage
 
 ---
 Template: [[templates/knowledge_note_info]]

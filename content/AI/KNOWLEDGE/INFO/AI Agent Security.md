@@ -102,6 +102,7 @@ Wniosek: boty nie mają woli ani świadomości, ale infrastruktura do masowej ko
 - Autonomia wymaga zaufania, a zaufanie wymaga weryfikowalnego bezpieczeństwa
 - Nadzorowane agenty ([[Claude Code]] + MCP) to praktyczna, bezpieczna alternatywa
 - Powiązane: [[NemoClaw]], [[Agentic Systems]]
+- [[AI-Native SDLC Playbook]] — Anthropic's managed-settings policy for a regulated enterprise: deny secrets and network egress, an OS-level sandbox with a domain allowlist, managed-only hooks, MCP servers and plugin marketplaces
 
 # 🔗 Zasoby
 

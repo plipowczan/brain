@@ -76,6 +76,7 @@ Cole's experimental [[Second Brain Design|second-brain]]-oriented loop dashboard
 - Source video: [The Creators of Claude Code and OpenClaw don't Prompt Their Agents Anymore?!](https://www.youtube.com/watch?v=UztrFXaSWv0) — Cole Medin, 2026-06-18 (24:39)
 - [[Loop Engineering (cobusgreyling)]] — the practical companion: patterns, starter kits, and `loop-audit` / `loop-init` / `loop-cost` CLIs
 - [[Archon]] — the harness builder used throughout
+- [[AI Software Factory]] — Cole Medin's follow-through: Archon's SDLC pack run on a schedule, with a mission, journeys and holdout as the gates that make an unread merge defensible
 - [[Harness Engineering]] — the broader discipline loop engineering folds into
 - [[Agentic Engineering]] · [[Agentic Coding]] — the paradigm
 - [[Karpathy Method]] — spec / verifier / environment layers
