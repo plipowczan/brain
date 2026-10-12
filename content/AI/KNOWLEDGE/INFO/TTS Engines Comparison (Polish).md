@@ -534,3 +534,4 @@ summary: "19 TTS engines compared for Polish quality and cost; Azure (MOS-backed
 - [[VAPI]] — voice-agent platform (conversational, distinct from text-to-audio narration)
 - [[AI Chatbots Architecture]] — voicebot architecture context
 - [[Deep-Research-skills]] — the `/research*` pipeline this comparison matrix was produced with
+- [[AI Voice Recorders for Meetings (Polish)]] — the speech-to-text side: 13 meeting recorders and local Whisper large-v3, the best-evidenced Polish ASR engine

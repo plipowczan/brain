@@ -75,6 +75,7 @@ Weak point: more overhead than lightweight harnesses like [[Karpathy Skills]] or
 - [[Agent Skills]] — open SKILL.md standard compatible with Agent Zero
 - [[Agentic Systems]] — multi-agent architectures
 - [[Harness Engineering]] — alternative approach to structuring AI work
+- [[Omarchy]] — DHH's opinionated "agentic" Linux distribution, the OS-level counterpart
 - A0 CLI Connector docs: https://github.com/agent0ai/agent-zero/blob/main/docs/guides/a0-cli-connector.md
 
 ---

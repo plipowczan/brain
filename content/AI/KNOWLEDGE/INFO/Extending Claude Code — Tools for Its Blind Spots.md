@@ -146,6 +146,7 @@ The through-line: **Claude Code is a great harness with holes, and skills are th
 - [[Token Optimization for Claude Code]] · [[AI UX Design Tools]] — topic hubs this article draws on
 - [[Deep-Research-skills]] — the agent-swarm research suite wired into this vault
 - [[Machine Setup Manifest]] — how these tools get installed across my machines
+- [[Claude Code Mods (RoboNuggets)]] — mods, the newest extension surface alongside skills and MCP: add-ons that change Claude Code's own UI and behaviour
 
 ---
 Template: [[templates/knowledge_note_info]]

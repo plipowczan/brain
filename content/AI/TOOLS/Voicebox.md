@@ -60,6 +60,7 @@ Local voice cloning for personal projects, dictation across all apps, giving any
 - [[Claude Code]] — primary MCP host
 - [[Personal AI Infrastructure]] — DA voice personas
 - [[Hermes Agent]] — agent that benefits from spoken output
+- [[AI Voice Recorders for Meetings (Polish)]] — meeting-recorder hardware vs local Whisper; the same keep-audio-local argument for client conversations
 - [[Paperclip]] — agent orchestration
 
 ---

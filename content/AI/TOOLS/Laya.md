@@ -95,7 +95,7 @@ Jev keeps the lead on high-cardinality label sets, soft accuracy against a teach
 - 🤗 Checkpoints: [laya](https://huggingface.co/convaiinnovations/laya) · [laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual) · [laya-typed-decisions](https://huggingface.co/convaiinnovations/laya-typed-decisions)
 - 📓 [Fine-tuning notebook (Kaggle 2× T4)](https://github.com/NandhaKishorM/laya/blob/main/notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb)
 - 📊 Third-party Jev latency benchmarks: [AbdelStark/jev-benchmarks](https://github.com/AbdelStark/jev-benchmarks) · [nibzard/decision-model-benchmark](https://github.com/nibzard/decision-model-benchmark)
-- 📖 Related: [[Drex]] · [[Jev Engineering for Coding Agents]] · [[Instructor]] · [[Outlines]] · [[LangGraph]]
+- 📖 Related: [[Drex]] · [[Jev Engineering for Coding Agents]] · [[Instructor]] · [[Outlines]] · [[LangGraph]] · [[Overmind]] (a fine-tune-from-production-traces pipeline, if the "fine-tune first" advice applies)
 
 ---
 Template: [[templates/tool]]

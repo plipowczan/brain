@@ -116,6 +116,8 @@ Likelihood sukcesu silnie koreluje z agent's ability to verify own work:
 - [[AI-Native SDLC Playbook]] — Anthropic's course on harness engineering at org scale: "a skill advises, a hook enforces", evals on every CLAUDE.md/skill/hook change, managed settings
 - [[Autoharness]] — a plugin that maintains the skill layer of the harness on its own: distills, merges and prunes skills by adherence
 - [[AI Software Factory]] — the harness taken to lights-out: issues in, merged PRs out, behind journeys and holdout gates
+- [[oh-my-pi]] — a coding agent that fixes the harness at the tool layer: content-hash edits, LSP and debugger wired in, just-in-time rules
+- [[Claude Code Mods (RoboNuggets)]] — mods, a way to change Claude Code's own UI and behaviour
 
 ---
 Template: [[templates/knowledge_note_info]]

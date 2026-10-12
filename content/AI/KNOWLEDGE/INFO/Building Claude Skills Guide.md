@@ -43,6 +43,7 @@ Clusters with the rest of the **Agent Skills** notes in the wiki — use as a re
 - [[UX RULER]] — example of a single skill with strong domain methodology
 - [[Progressive Disclosure]] — the concept underlying skill architecture
 - [[Token Optimization for Claude Code]] — why on-demand skill loading pays off
+- [[Skill Authoring Best Practices]] — Anthropic's short official checklist: concise, one level deep, eval-first
 
 ---
 Template: [[templates/knowledge_note_info]]

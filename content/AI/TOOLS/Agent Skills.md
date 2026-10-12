@@ -101,6 +101,7 @@ Skill registries (ClawHub, skills.sh) can execute arbitrary code — treat insta
 - [[Autoharness]] — Claude Code plugin that writes, merges and archives its own skills from real sessions, never touching hand-written ones
 - [[AI-Native SDLC Playbook]] — "a skill is an advisory control; a hook is the deterministic layer behind it"
 - [[Agent Zero]] / [[Space Agent]] — agentic frameworks using SKILL.md as portable capabilities
+- [[Skill Authoring Best Practices]] — Anthropic's guide to writing skills Claude can discover and use
 
 ---
 Template: [[templates/tool]]

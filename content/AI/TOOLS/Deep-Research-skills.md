@@ -77,6 +77,7 @@ So it earns its place whenever the deliverable is a *comparison table* — techn
 - [[Social Media Algorithms — Maximizing Reach in 2026]] — 17 reach surfaces × 19 dimensions.
 - [[Writing Social Media Posts with AI — What Actually Drives Virality]] — 36 items × 32 fields; 18 circulating claims debunked.
 - [[PRD Methodologies and Templates]].
+- [[AI Voice Recorders for Meetings (Polish)]] — 13 devices × 49 fields against Polish, USB-C and no-subscription requirements; 12 screening claims overturned.
 
 ## 🔗 Related
 

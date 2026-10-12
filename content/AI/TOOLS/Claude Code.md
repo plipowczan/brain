@@ -66,5 +66,8 @@ Framework [claude-piv-skeleton](https://github.com/plipowczan/claude-piv-skeleto
 ## Resources
 [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code/overview)
 
+- [[Claude Code Mods (RoboNuggets)]] — mods: add-ons that run inside Claude Code and change its UI and behaviour
+- [[oh-my-pi]] — open-source terminal coding agent with a different tool surface (hashline edits, LSP and debugger wired in)
+
 ---
 Template: [[templates/tool]]

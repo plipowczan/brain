@@ -38,6 +38,7 @@ Tactiq is the meeting-capture tool noted in the [[Tech To The Rescue]] engagemen
 - **Fireflies.ai / Fathom** — bot-joins-the-call model with CRM integrations; Tactiq's extension captures without a bot participant.
 - **Granola** — AI notepad that augments your own notes; lighter than full transcription.
 - **Native Zoom/Meet transcription** — built-in and free, but weaker AI summaries/search.
+- **Hardware AI recorders** (HiDock P1, Pocket, Plaud Note Pro…) — researched in [[AI Voice Recorders for Meetings (Polish)]]: they cover in-person meetings and phone calls, but for online calls none of them adds much over Tactiq.
 
 ## Resources
 

@@ -85,7 +85,7 @@ The README's own comparison:
 - 🔗 Repo: [github.com/tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness) · pipeline diagram: [docs/assets/pipeline.svg](https://github.com/tigerless-labs/autoharness/blob/main/docs/assets/pipeline.svg)
 - 📄 Cited: [HAL — Holistic Agent Leaderboard (arXiv 2510.11977)](https://arxiv.org/abs/2510.11977) · [Self-Harness (arXiv 2606.09498)](https://arxiv.org/abs/2606.09498)
 - 🎥 Third-party walkthrough: [AI Coding Tools (Tigerless Labs Workflow 2026)](https://www.youtube.com/watch?v=TM6tGpug1Hc), AI Insider channel, not reviewed by the authors
-- 📖 Related: [[Hermes Agent]] · [[Agent Skills]] · [[Skills 2.0 Testing]] · [[Harness Engineering]] · [[DELEGATE-52]] · [[Claude Code]]
+- 📖 Related: [[Hermes Agent]] · [[Agent Skills]] · [[Skills 2.0 Testing]] · [[Harness Engineering]] · [[DELEGATE-52]] · [[Claude Code]] · [[Overmind]] (the same self-improvement loop for production agents, judged by evals instead of adherence) · [[Claude Code Mods (RoboNuggets)]] (its Reflect mod is the click-to-approve version of turning corrections into rules)
 
 ---
 Template: [[templates/tool]]

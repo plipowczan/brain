@@ -114,6 +114,7 @@ Weak points:
 - **Helicone** — proxy-based observability, lighter to adopt but less eval/dataset depth.
 - **[[LightRAG]] built-in tracing + RAGAS** — only covers the RAG pipeline; Langfuse is the app-wide layer above it.
 - **Roll-your-own logging** — fine until you need eval pipelines, prompt versioning, and a UI; then you're rebuilding Langfuse.
+- **[[Overmind]]** — not a replacement but the next step: it syncs traces from Langfuse through a connector and adds optimisers, fine-tuning and serving on top.
 
 ## 🔗 Resources
 

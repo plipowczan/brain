@@ -60,6 +60,7 @@ Run open models privately, offline, at zero marginal cost.
 Catch regressions and vulnerabilities before ship; watch quality + cost in production.
 - **[[Promptfoo]]** — CLI/CI evals + red-teaming (pre-deploy gate).
 - **[[Langfuse]]** — tracing, prompt management, evals, datasets (runtime).
+- **[[Overmind]]** — closes the loop past observability: production traces → per-capability evals → prompt/code optimisations (as git diffs) and fine-tuned models you own, served on one OpenAI-compatible API.
 
 ## 🧩 How the lanes connect
 

@@ -127,3 +127,4 @@ Separacja kontekstów przez fizyczną izolację w Git — agent CFO dla 200IQ La
 - [Claude Code Skills docs](https://docs.anthropic.com/en/docs/claude-code/skills) — dokumentacja Skills 2.0
 - [[Autoharness]] — the opposite validation stance: skills survive by being used in later sessions, not by passing a benchmark
 - [[AI-Native SDLC Playbook]] — run the eval suite on every change to CLAUDE.md, skills or hooks, and turn each incident into a permanent eval
+- [[Skill Authoring Best Practices]] — Anthropic's official eval-first authoring loop (Claude A designs, Claude B tests), the manual version of this pipeline
