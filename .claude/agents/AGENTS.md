@@ -23,11 +23,12 @@ the upstream of the `research*` skills. See the vault note `AI/TOOLS/Deep-Resear
 
 - **Project-relative paths only.** Upstream assumed a global `~/.claude` install. Here the
   agent loads its modules from `.claude/agents/web-search-modules/` (NOT `~/.claude/…`) so
-  the repo — and any kb-template clone — is self-contained. Keep it that way if you re-sync
-  from upstream.
-- Mirror any change to `kb-template/.claude/agents/` (the drift script only checks
-  `.claude/skills/`, so agents must be kept in sync by hand) and log it in
-  `kb-template/CHANGELOG.md`.
+  the repo — and any base created from the template — is self-contained. Keep it that way if
+  you re-sync from upstream.
+- These agents are shared with the template, whose source is now `../second-brain-template`
+  (`kb-template/` is frozen — see `kb-template/FROZEN.md`). **Make a change there first**, with
+  its `CHANGELOG.md` entry, then port it here by hand. The drift script only checks
+  `.claude/skills/`, so nothing compares agents automatically.
 
 ## Verify
 
