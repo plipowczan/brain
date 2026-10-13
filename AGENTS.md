@@ -232,11 +232,21 @@ Run `npx quartz build` after bulk operations to verify. Deploy triggers on push 
 
 ## kb-template maintenance
 
-`kb-template/` is the canonical source for the published **second-brain-template** repo
-(synced via `scripts/`). **RULE: every change to anything under `kb-template/` MUST be
-recorded in `kb-template/CHANGELOG.md`** (newest entry under `## [Unreleased]`, Keep-a-
-Changelog format) so subscribers who cloned the template know what to pull. No silent
-template edits. After changing a shared skill, also run `scripts/check-kb-template-drift.sh`.
+**Since 2026-10-13 the template's source of truth is `../second-brain-template`**
+(github.com/plipowczan/second-brain-template); brain is one of its instances. The rules for
+developing the template — its CHANGELOG discipline included — live in that repo's
+`CONTRIBUTING.md`. Template work happens in a session whose working directory is that repo,
+not from here.
+
+- **`kb-template/` is frozen** (see `kb-template/FROZEN.md`). Do not edit it. It is no longer
+  published, so it takes no `CHANGELOG.md` entries. It stays only until brain adopts the
+  template (`brain-upgrade --adopt`, phase 5), which removes it.
+- **`scripts/sync-kb-template.sh` and `scripts/extract-kb-template.sh` refuse to run** — they
+  would overwrite the template from the stale copy. No override; they are history until phase 5.
+- **Changing a shared skill:** make the change in the template first, then port it by hand
+  into brain's `.claude/skills/` (template → brain). `scripts/check-kb-template-drift.sh`
+  compares the live `.claude/skills/` with `../second-brain-template/.claude/skills/` and must
+  print `no drift in shared skills`. Workflow: `docs/kb-template-maintenance.md`.
 
 ## DOX doc tree (code / harness layer)
 
@@ -250,7 +260,7 @@ two-regime table above).
 
 ### Child docs index
 
-- [`scripts/AGENTS.md`](scripts/AGENTS.md) — kb-template extract/sync/drift shell scripts
+- [`scripts/AGENTS.md`](scripts/AGENTS.md) — drift check of live shared skills against `../second-brain-template`; the disabled kb-template sync/extract scripts (history until phase 5)
 - [`brain-mcp/AGENTS.md`](brain-mcp/AGENTS.md) — TypeScript MCP server exposing vault search
 - [`.claude/skills/AGENTS.md`](.claude/skills/AGENTS.md) — the workflow skills (ingest, compile, qa, lint, …)
 - [`.claude/agents/AGENTS.md`](.claude/agents/AGENTS.md) — custom sub-agents skills dispatch (e.g. `web-search-agent` for the `research*` suite)

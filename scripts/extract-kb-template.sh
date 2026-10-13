@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 #
+# DISABLED since 2026-10-13. The template's source of truth is now the
+# second-brain-template repo (../second-brain-template); brain is one of its instances.
+# This script cut a fresh template repo from kb-template/, which is now a frozen, stale
+# copy, so its output would lack every change made in the template since. It refuses to
+# run and stays only as history until phase 5, when brain adopts the template
+# (brain-upgrade --adopt) and kb-template/ + these scripts go.
+# There is deliberately no override flag. See kb-template/FROZEN.md.
+#
+# --- original description (historical) ---------------------------------------
+#
 # Extract kb-template/ into a standalone, clean-slate git repository ready to push
 # to GitHub and mark as a Template repository.
 #
@@ -11,6 +21,21 @@
 # starts with a single "Initial commit". Run from the repo root.
 #
 set -euo pipefail
+
+# --- disabled: refuse before touching anything ------------------------------
+cat >&2 <<'EOF'
+error: scripts/extract-kb-template.sh is disabled (since 2026-10-13).
+
+The template's source of truth is now ../second-brain-template
+(github.com/plipowczan/second-brain-template). Make template changes there,
+in a session whose working directory is that repo.
+
+This script would cut a new template repo from the frozen kb-template/ copy,
+which lacks the changes made in the template since. It stays in this repo only as
+history until phase 5 (brain adopts the template via brain-upgrade --adopt).
+See kb-template/FROZEN.md.
+EOF
+exit 1
 
 SRC_REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SRC="$SRC_REPO/kb-template"

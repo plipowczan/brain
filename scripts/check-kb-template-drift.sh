@@ -1,20 +1,27 @@
 #!/usr/bin/env bash
 #
 # Report differences between the brain repo's LIVE skills (.claude/skills/) and the
-# kb-template COPIES (kb-template/.claude/skills/) for the skills shared by both.
-# Use it to decide what to port after changing a skill on either side.
+# TEMPLATE's skills (../second-brain-template/.claude/skills/) for the skills shared
+# by both.
 #
-# Some drift is EXPECTED and intentional (e.g. the live lint_scan.py is pinned to a
-# fixed "today" date, while the template uses date.today()). This tool only reports;
-# it does not change anything.
+# Since 2026-10-13 the template repo is the source of truth and brain is one of its
+# instances. A change to a shared skill lands in the template first, then is ported by
+# hand into brain's .claude/skills/ — template -> brain, never the other way. This check
+# guards that until phase 5, when brain adopts the template (brain-upgrade --adopt).
+# The frozen kb-template/ copy is no longer compared. This tool only reports; it does
+# not change anything.
 #
-# Usage:  scripts/check-kb-template-drift.sh
+# Usage:
+#   scripts/check-kb-template-drift.sh [TEMPLATE_DIR]   # default ../second-brain-template
 #
 set -euo pipefail
 
 SRC_REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 LIVE="$SRC_REPO/.claude/skills"
-TMPL="$SRC_REPO/kb-template/.claude/skills"
+TEMPLATE="${1:-$SRC_REPO/../second-brain-template}"
+TMPL="$TEMPLATE/.claude/skills"
+
+[ -d "$TMPL" ] || { echo "error: $TMPL missing. Clone the template there first (git clone git@github.com:plipowczan/second-brain-template.git), or pass its path as the first argument." >&2; exit 1; }
 
 SHARED="brain-ingest brain-compile brain-enhance brain-lint brain-output brain-qa brain-reindex \
         excalidraw-diagram brain-research brain-research-deep brain-research-report \
@@ -39,4 +46,4 @@ for s in $SHARED; do
   fi
 done
 
-[ "$drift" = 0 ] && echo "no drift in shared skills" || echo "--- review the drift above; port intentional changes with the workflow in docs/kb-template-maintenance.md ---"
+[ "$drift" = 0 ] && echo "no drift in shared skills" || echo "--- review the drift above. The template is the source: port its changes template -> brain by hand. A change made here first goes into the template (a session in $TEMPLATE) and comes back by that port. Workflow: docs/kb-template-maintenance.md ---"

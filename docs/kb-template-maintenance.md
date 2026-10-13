@@ -1,70 +1,64 @@
 # Maintaining the KB template
 
-This repo (`brain`) is both a live personal knowledge base **and** the home of a
-reusable template. There are three copies of the shared skills; keep the direction
-of truth clear so changes propagate cleanly.
+**Since 2026-10-13 the template's source of truth is the `second-brain-template` repo**
+(github.com/plipowczan/second-brain-template, checked out as `../second-brain-template`).
+Brain is one of its instances. Until then the template was built here in `kb-template/` and
+`scripts/sync-kb-template.sh` mirrored it over the public repo; that direction is reversed,
+and the sync is disabled so it cannot overwrite work done in the template.
 
-## The three copies
+## The copies
 
 | Copy | Path | Role |
 |------|------|------|
-| **Template source (canonical)** | `kb-template/` | The source of truth for the template. Generic, tested, no personal content. |
-| **Published mirror** | `github.com/plipowczan/second-brain-template` | Public template repo. A mirror of `kb-template/`, updated by the sync script. |
-| **Live skills** | `.claude/skills/`, `content/` | The brain vault's own daily-use skills + notes. May carry personal tweaks. |
+| **Template (source of truth)** | `../second-brain-template` | Generic, tested, no personal content. Developed in place; the developer rules (tests, CHANGELOG entry per change, registering a skill) live in its `CONTRIBUTING.md`. |
+| **Live brain** | `.claude/skills/`, `content/` | This vault's daily-use skills and notes. The skills shared with the template are kept byte-identical to the template's copies. |
+| **Frozen copy** | `kb-template/` | Snapshot of the template at the freeze (see `kb-template/FROZEN.md`). Not edited, not published, no CHANGELOG entries. Removed in phase 5. |
 
-**Rule of thumb:** generic, reusable improvements land in `kb-template/` first. The
-published repo is downstream of `kb-template/`. The live skills are independent — pull
-in template improvements only when you want them for your own vault.
+**Rule of thumb:** a generic, reusable change lands in the template first. Brain gets it by
+porting it by hand (template → brain) until phase 5.
 
-## Adding functionality and propagating it
+## Changing the template (a shared skill included)
 
-1. **Build it in `kb-template/`** (the canonical copy). Write the skill/script, add or
-   update tests, follow the existing patterns. Keep it generic — no personal names,
-   topics, or dates.
-2. **Test it:**
+1. **Work in the template.** Open a session whose working directory is
+   `../second-brain-template` and follow its `CONTRIBUTING.md`. Commit and push there.
+2. **Port it into brain** if the change touches a shared skill: copy the changed files from
+   `../second-brain-template/.claude/skills/<skill>/` into `.claude/skills/<skill>/`, so the two
+   copies are byte-identical again.
+3. **Check:**
    ```bash
-   cd kb-template
-   python tests/run_tests.py
-   # plus any per-skill unit tests you added, e.g.
-   python .claude/skills/<skill>/scripts/test_*.py
+   bash scripts/check-kb-template-drift.sh   # must print: no drift in shared skills
    ```
-3. **Register it** if it's a new skill: add a row to `kb-template/CLAUDE.template.md`
-   (Workflows) and `kb-template/README.md` (Skills table), and add a
-   `kb-template/.claude/commands/b/<skill>.md` (commands live under the `b/` namespace
-   subdir → `/b:<skill>`; skills are named `brain-<skill>`).
-4. **Publish to the standalone repo:**
-   ```bash
-   # one-time: clone the published repo as a sibling (if you don't have it)
-   git clone git@github.com:plipowczan/second-brain-template.git ../second-brain-template
-   # each release:
-   scripts/sync-kb-template.sh            # mirrors kb-template/ -> ../second-brain-template, runs smoke tests, commits
-   (cd ../second-brain-template && git push)
-   ```
-5. **(Optional) Adopt it in your live vault:** if you want the new skill for your own
-   daily use, copy it from `kb-template/.claude/skills/<skill>` into `.claude/skills/`.
+4. **New template skill you want in brain:** copy the whole skill directory into
+   `.claude/skills/` (plus its `/b:` command and the AGENTS.md workflow entry) and add it to
+   `SHARED` in `scripts/check-kb-template-drift.sh` so the drift check guards it.
 
-## Going the other way (built it live first)
+## Built it in brain first
 
-If you prototyped a generic improvement in `.claude/skills/` (live) and want it in the
-template, port the changed files into `kb-template/.claude/skills/`, then **re-generify**
-(strip personal references, replace any fixed dates with `date.today()`-style logic,
-add tests), and continue from step 2 above.
+If you prototyped a generic improvement in brain's `.claude/skills/`, move it into the
+template: a session in `../second-brain-template` ports it, re-generifies it (no personal
+names, topics or fixed dates), adds tests and a CHANGELOG entry. Then port the template's
+version back into brain. Until you do, the drift check flags the skill — that is intended.
 
 ## Spotting what needs porting
 
 ```bash
-scripts/check-kb-template-drift.sh
+bash scripts/check-kb-template-drift.sh [TEMPLATE_DIR]   # default ../second-brain-template
 ```
-Reports per-skill differences between the live `.claude/skills/` and the
-`kb-template/.claude/skills/` copies. Some drift is **intentional** — e.g. the live
-`lint_scan.py` is pinned to a fixed "today" date, while the template uses
-`date.today()`. The tool only reports; you decide what to port.
 
-## Re-cutting a clean standalone repo
+Reports per-skill differences between brain's live `.claude/skills/` and the template's
+`.claude/skills/` for the skills in its `SHARED` list. It only reports; you port. The frozen
+`kb-template/` is no longer compared. If the template directory is missing it exits 1 and
+tells you to clone it.
 
-To recreate the standalone repo from scratch (clean-slate, no history):
-```bash
-scripts/extract-kb-template.sh ../second-brain-template-fresh
-```
-Prefer `sync-kb-template.sh` for ongoing updates — it preserves the published repo's
-release history instead of replacing it.
+## Disabled scripts
+
+`scripts/sync-kb-template.sh` and `scripts/extract-kb-template.sh` print why they are
+disabled and exit 1 before touching anything. There is no override flag: publishing
+`kb-template/` would overwrite the template (sync) or cut a new one (extract) from the stale,
+frozen copy. They stay in the repo only as history.
+
+## Phase 5: adoption
+
+Brain adopts the template with `brain-upgrade --adopt`. From then on it receives template
+updates through that skill instead of manual ports, and `kb-template/` plus the two disabled
+scripts are removed.
