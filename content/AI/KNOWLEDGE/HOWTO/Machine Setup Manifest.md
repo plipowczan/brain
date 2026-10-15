@@ -6,7 +6,7 @@ openToc: true
 tags: ["knowledge", "howto", "ai", "claude-code", "agent-skills", "setup", "environment", "sync", "windows", "mcp"]
 type: knowledge-note
 agent-created: true
-agent-reviewed: 2026-07-13
+agent-reviewed: 2026-10-15
 summary: "Canonical unified desired-state manifest of Claude Code plugins, agent skills, CLI tools, MCP servers and runtimes across all my machines — say 'install from Machine Setup Manifest' and every tool gets reinstalled"
 ---
 
@@ -37,7 +37,7 @@ Everything below depends on these. Install via `winget` / `choco` on Windows.
 | **git** | ≥2.49 | **2.54.0** | `winget install Git.Git` |
 | **gh** (GitHub CLI) | ≥2.87 | **2.92.0** | `winget install GitHub.cli` → `gh auth login` |
 | **ffmpeg** | ≥8.0 | **8.1.2** (gyan full build) | `choco install ffmpeg` |
-| **yt-dlp** | latest | **2026.07.04** | `yt-dlp.exe` on PATH (`…\Python313\Scripts`, pip-provided). Update with `python -m pip install -U yt-dlp` — NOT `yt-dlp -U` (errors on pip installs). |
+| **yt-dlp** | latest | **2026.07.04** | `python -m pip install yt-dlp` (pip also drops `yt-dlp.exe` into `…\Python313\Scripts`). On PLSOFT-PCD1 Smart App Control blocks that `.exe` (`WinError 4551`), so `/b:ingest` runs `python -m yt_dlp` instead. Only the Python package matters. Update with `python -m pip install -U yt-dlp`, NOT `yt-dlp -U` (errors on pip installs). |
 | **scoop** | — | **installed** (2026-07-13) | `~\scoop\shims` on PATH. Backs `supabase` (§4). Update apps: `scoop update *`. See [scoop.sh](https://scoop.sh) |
 
 ---
@@ -218,7 +218,7 @@ npm i -g @github/copilot @google/gemini-cli @marp-team/marp-cli @openai/codex \
 - ✔ **Node manager** — `nvm4w` chosen canonical (active, stable path `C:\nvm4w\nodejs`); caveman hooks repointed off the fragile per-session fnm multishell path onto it. `fnm` (winget) left installed but unused — optionally `winget uninstall Schniz.fnm`.
 - ✔ **scoop + supabase** installed (2.109.1).
 - ✔ **notebooklm** logged in (`notebooklm auth check --test --json` → `"status": "ok"`).
-- ✔ **yt-dlp** confirmed as `.exe` on PATH (pip-managed; update via `python -m pip install -U yt-dlp`).
+- ✔ **yt-dlp** confirmed as `.exe` on PATH (pip-managed; update via `python -m pip install -U yt-dlp`). *2026-10-15:* Smart App Control now blocks that `.exe`; `yt_fetch.py` falls back to `python -m yt_dlp` on its own.
 
 **Still pending — need interactive auth (user action):**
 - **github MCP** ✘ fails to connect → authenticate via the `/mcp` menu (it uses its own OAuth; the `gh` token here has scopes `gist/read:org/repo/workflow`, no Copilot scope, and isn't used by this MCP).
