@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-12T06:20:00Z
+updated: 2026-10-15T10:34:45Z
 nodes: 409
 edges: 2881
 ---
@@ -147,7 +147,7 @@ AI/TOOLS/NotebookLM-py -> AI/TOOLS/Agent Skills, wikilinks, AI/TOOLS/Open Notebo
 AI/TOOLS/Obsidian Skills -> AI/TOOLS/Agent Skills, PROJECTS/BRAIN/Brain, LIFE/KNOWLEDGE/INFO/Obsidian, AI/TOOLS/Firecrawl, LIFE/KNOWLEDGE/INFO/Second Brain Design, AI/KNOWLEDGE/HOWTO/Building an AI Second Brain, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Karpathy Skills, templates/tool
 AI/TOOLS/oh-my-pi -> ba41e549c1825df71aead3a0568234de_MD5.png, AI/KNOWLEDGE/INFO/Harness Engineering, AI/KNOWLEDGE/INFO/Harness Engineering (Ryan Lopopolo), AI/KNOWLEDGE/INFO/4 Claude Code Upgrades for Making Money (Nate Herk), AI/KNOWLEDGE/INFO/AI Agent Security, AI/TOOLS/Claude Code, AI/KNOWLEDGE/INFO/Claude Code Mods (RoboNuggets), AI/TOOLS/Cursor, AI/TOOLS/GitHub Copilot, AI/TOOLS/Hermes Agent, AI/TOOLS/DeepSeek Harness, AI/TOOLS/Serena, AI/TOOLS/MCP Language Server, AI/TOOLS/OmniRoute, AI/TOOLS/LiteLLM, AI/TOOLS/Agent Skills, templates/tool
 AI/TOOLS/Ollama -> AI/KNOWLEDGE/INFO/LLM App Engineering Stack, AI/TOOLS/LiteLLM, AI/TOOLS/Instructor, AI/TOOLS/Outlines, AI/TOOLS/Open Notebook, PROJECTS/TTTR/Tech To The Rescue, templates/tool
-AI/TOOLS/OmniRoute -> AI/TOOLS/Claude Code, AI/TOOLS/Cursor, AI/TOOLS/Caveman, AI/TOOLS/Headroom, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Ponytail, AI/TOOLS/LiteLLM, AI/TOOLS/Ollama, AI/KNOWLEDGE/INFO/Context Engineering, AI/TOOLS/oh-my-pi, templates/tool
+AI/TOOLS/OmniRoute -> AI/TOOLS/Claude Code, AI/TOOLS/Cursor, AI/TOOLS/Caveman, AI/TOOLS/Headroom, AI/KNOWLEDGE/INFO/Token Optimization for Claude Code, AI/TOOLS/Ponytail, AI/TOOLS/oh-my-pi, AI/TOOLS/LiteLLM, AI/TOOLS/Ollama, AI/KNOWLEDGE/INFO/Context Engineering, templates/tool
 AI/TOOLS/Open Design -> AI/KNOWLEDGE/INFO/AI UX Design Tools, AI/TOOLS/UX Pilot, AI/TOOLS/UX RULER, AI/TOOLS/UI UX Pro Max, AI/TOOLS/Impeccable, AI/KNOWLEDGE/INFO/GPT Image 2 + Seedance Workflow, AI/TOOLS/Awesome Nano Banana Pro Prompts, AI/TOOLS/Agent Skills, AI/TOOLS/Awesome Agent Skills, AI/TOOLS/Awesome Claude Code, AI/TOOLS/Claude Code, AI/TOOLS/Cursor, AI/TOOLS/Everything Claude Code, AI/TOOLS/Hermes Agent
 AI/TOOLS/Open Notebook -> AI/TOOLS/OpenAI, PROJECTS/TRAVELCAST-AI/Travelcast AI, ABOUT/Building a Second Brain, LIFE/KNOWLEDGE/INFO/Second Brain Design, AI/TOOLS/ElevenLabs, AI/TOOLS/NotebookLM-py, AI/KNOWLEDGE/INFO/Open-Source AI Projects Roundup (Matthew Berman), templates/tool
 AI/TOOLS/OpenAI -> PROJECTS/TRAVELCAST-AI/Travelcast AI, PROJECTS/TTTR/Tech To The Rescue, AI/TOOLS/Google Gemini, AI/TOOLS/Claude Code, AI/TOOLS/ElevenLabs, templates/tool
