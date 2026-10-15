@@ -103,6 +103,7 @@ A 13-minute YouTube walkthrough by Jay of [RoboNuggets](https://www.youtube.com/
 - [[Extending Claude Code — Tools for Its Blind Spots]] — the skills and MCP tools I use to extend Claude Code
 - [[Autoharness]] · [[Token Optimization for Claude Code]] · [[AI-Native SDLC Playbook]] · [[AI Agent Security]]
 - [[oh-my-pi]] — another harness built around user-written extensions
+- [[Meme Generation for Coding Agents]] — mods as the in-process host for a meme skill (`turn.complete`, the Desktop-only `Svg` element); the mod API churns and mods are unsandboxed
 
 ---
 Template: [[templates/knowledge_note_info]]

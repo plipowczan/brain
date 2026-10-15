@@ -102,6 +102,7 @@ Skill registries (ClawHub, skills.sh) can execute arbitrary code — treat insta
 - [[AI-Native SDLC Playbook]] — "a skill is an advisory control; a hook is the deterministic layer behind it"
 - [[Agent Zero]] / [[Space Agent]] — agentic frameworks using SKILL.md as portable capabilities
 - [[Skill Authoring Best Practices]] — Anthropic's guide to writing skills Claude can discover and use
+- [[Meme Generation for Coding Agents]] — a worked case of choosing, forking and auditing skills (meme-factory, OpenClaw meme-maker, slack-gif-creator); registry audits and install counts are weak trust signals
 
 ---
 Template: [[templates/tool]]

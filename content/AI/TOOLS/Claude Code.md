@@ -68,6 +68,7 @@ Framework [claude-piv-skeleton](https://github.com/plipowczan/claude-piv-skeleto
 
 - [[Claude Code Mods (RoboNuggets)]] — mods: add-ons that run inside Claude Code and change its UI and behaviour
 - [[oh-my-pi]] — open-source terminal coding agent with a different tool surface (hashline edits, LSP and debugger wired in)
+- [[Meme Generation for Coding Agents]] — research on a skill or MCP that lets Claude Code make memes: an own skill on Satori, Stop-hook reactions, mods as phase 2
 
 ---
 Template: [[templates/tool]]
