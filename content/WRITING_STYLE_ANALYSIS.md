@@ -363,6 +363,10 @@ from "CATEGORY"
 ```
 ````
 
+### 8. Dollar signs
+
+Escape currency dollar signs as `\$` — Quartz renders `$…$` pairs as LaTeX. Write `\$169 / \$119`, not `$169 / $119`. Two bare dollars on one line (or in one table cell) become a garbled italic math span on the published site. `\$` renders as a plain `$` in both Obsidian and Quartz. Inside code blocks and inline code, leave `$` as is (`$HOME`, `$0`).
+
 ---
 
 ## Recommendations for the AI agent
@@ -379,6 +383,7 @@ from "CATEGORY"
 8. **Write in English** — this is the canonical vault language as of 2026-05-17
 9. **Use hierarchical heading structure**
 10. **Add personal reflections** and experience where it adds signal
+11. **Escape currency dollar signs as `\$`** — Quartz renders `$…$` pairs as LaTeX (see convention 8)
 
 ### When editing existing documents
 

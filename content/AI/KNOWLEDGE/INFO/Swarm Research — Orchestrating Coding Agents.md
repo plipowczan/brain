@@ -129,10 +129,10 @@ Coral's headline claim: *"our agents discover solutions that no single agent eve
 
 | Item | Cost (self-reported) |
 | --- | --- |
-| Coral, per task (via Claude Code) | ~$50 |
-| EvoX, per task (100 iterations) | ~$23.50 |
-| Full 15-task benchmark, **once**, no validation | **~$1,700** |
-| With evaluation + further runs | **~$2,000–$5,000**, "out of your pocket and gone" |
+| Coral, per task (via Claude Code) | ~\$50 |
+| EvoX, per task (100 iterations) | ~\$23.50 |
+| Full 15-task benchmark, **once**, no validation | **~\$1,700** |
+| With evaluation + further runs | **~\$2,000–\$5,000**, "out of your pocket and gone" |
 
 Practical advice from the video: **set hard financial limits**, or run **local models** rather than paying per-token for a 50-agent swarm. (Related: [[Token Optimization for Claude Code]].)
 

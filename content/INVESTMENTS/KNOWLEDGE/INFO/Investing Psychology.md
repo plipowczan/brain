@@ -52,7 +52,7 @@ The Prospect Theory paper (Kahneman & Tversky, 1979) is the most-cited article e
 
 ## 🧩 Loss Aversion — the 2× Asymmetry That Runs Everything
 
-The single most load-bearing finding in all of behavioral finance: **"losses loom larger than gains"** (Kahneman & Tversky, 1979). The pain of losing $100 is roughly twice the pleasure of gaining $100. The commonly cited coefficient is around **2** (later estimates land near 2.25, though the exact number varies by study and context — treat it as "about double", not a constant).
+The single most load-bearing finding in all of behavioral finance: **"losses loom larger than gains"** (Kahneman & Tversky, 1979). The pain of losing \$100 is roughly twice the pleasure of gaining \$100. The commonly cited coefficient is around **2** (later estimates land near 2.25, though the exact number varies by study and context — treat it as "about double", not a constant).
 
 Why this single asymmetry explains so much investor behavior:
 

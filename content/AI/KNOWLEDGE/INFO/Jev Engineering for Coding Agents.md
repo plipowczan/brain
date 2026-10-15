@@ -16,7 +16,7 @@ summary: "Diogo Almeida's (TypeSafe) harness thesis: design a coding agent as if
 
 A 12-page working note (September 2026) that synthesizes design notes by **Diogo Almeida**, founder and CEO of **TypeSafe AI**, on how to build a coding agent around **Jev**, TypeSafe's decision model. The PDF is an independent compilation: it says it is not affiliated with or endorsed by TypeSafe, and the design notes reached the compiler second-hand. I archived it in `_raw/processed/`.
 
-**What Jev is** (checked against launch coverage, not just the PDF): TypeSafe announced it on 2026-09-15 after two years in stealth, with $40M in funding. Jev is a "System One" model. You hand it a piece of state plus a list of typed questions, and it returns typed answers — a choice from a set you supplied, a score on a rubric, or a yes/no — each with a calibrated probability. It generates the whole output in one parallel pass, which is where the quoted 70–500 ms latency comes from. It is not a code-writing model. It is a decision layer that sits next to one. The yes/no answer type really is spelled `noul`. I first took it for a typo in the PDF, but [[Laya]]'s Jev-compatible server and [[Drex]]'s demo both use the same name. *(Corrected 2026-10-01.)*
+**What Jev is** (checked against launch coverage, not just the PDF): TypeSafe announced it on 2026-09-15 after two years in stealth, with \$40M in funding. Jev is a "System One" model. You hand it a piece of state plus a list of typed questions, and it returns typed answers — a choice from a set you supplied, a score on a rubric, or a yes/no — each with a calibrated probability. It generates the whole output in one parallel pass, which is where the quoted 70–500 ms latency comes from. It is not a code-writing model. It is a decision layer that sits next to one. The yes/no answer type really is spelled `noul`. I first took it for a typo in the PDF, but [[Laya]]'s Jev-compatible server and [[Drex]]'s demo both use the same name. *(Corrected 2026-10-01.)*
 
 The thesis in one line: **a coding agent is a while loop around a model, and the loop is not where the leverage is. The leverage is in what the loop puts in front of the model on every turn.**
 
@@ -84,7 +84,7 @@ A few of these are worth expanding:
 
 ## 🧩 The routing arithmetic
 
-The intuitive plan is to let a frontier model plan, hand execution to a cheaper model, and bring the frontier model back to review. The notes price it with list prices of Opus $5 in / $25 out and Sonnet $3 / $15 per million tokens. X = context tokens, Y = generated output, Z = extra tokens read during the work (command output, file reads).
+The intuitive plan is to let a frontier model plan, hand execution to a cheaper model, and bring the frontier model back to review. The notes price it with list prices of Opus \$5 in / \$25 out and Sonnet \$3 / \$15 per million tokens. X = context tokens, Y = generated output, Z = extra tokens read during the work (command output, file reads).
 
 | Path | Cost terms | Total |
 |---|---|---|

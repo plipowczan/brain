@@ -187,7 +187,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 
 **Monetization Reach Coupling.**
 
-- **Model:** Creator Rewards Program (replaced the old Creator Fund) pays ~$0.40-$1.00 RPM per 1K qualified views — 10-25x the old fund's ~$0.02-0.05.
+- **Model:** Creator Rewards Program (replaced the old Creator Fund) pays ~\$0.40-\$1.00 RPM per 1K qualified views — 10-25x the old fund's ~\$0.02-0.05.
 - **Eligibility:** 10,000 followers + 100,000 valid views in the trailing 30 days + account in good standing + 18+ in an eligible market (US, UK, DE, FR, JP, KR, BR core; expanding in waves).
 - **Reach Coupling Why:** Payout eligibility requires videos 60s+ AND at least 1,000 FYP views — this is the explicit lever tying reach to revenue and WHY TikTok pushes longer, high-completion content in 2026: the algorithm and the monetization rules jointly reward duration + retention. The trailing-30-day view requirement also incentivizes sustained recent reach over one-off virality.
 - **Other Streams:** LIVE gifts, TikTok Shop affiliate/commerce, Series (paid content), Subscriptions, and brand deals diversify creator revenue and further reward retaining audience on-platform.
@@ -309,7 +309,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - **Platform:** YouTube (Google/Alphabet)
 - **Algorithm Name:** Recommendation system — not one algorithm but a collection of surface-specific engines: Browse (homepage), Suggested (sidebar/autoplay), Shorts feed, Search, and Notifications. Powered by deep neural nets optimizing for viewer satisfaction and session value.
 - **Primary Content Formats:** Long-form video (horizontal 16:9), Shorts (vertical 9:16, <=3 min), Live streams, Podcasts. In 2026 Shorts and long-form are ranked by formally separate systems.
-- **Scale MAU:** ~2.7 billion monthly active users worldwide (mid-2026); ~2 billion+ logged-in MAU on Shorts. Shorts average 200+ billion daily views (up from ~70B in March 2024). ~1 billion hours of video watched daily; ~5 billion videos viewed/day; 500+ hours uploaded/minute. ~$60B annual revenue (announced Jan 2026).
+- **Scale MAU:** ~2.7 billion monthly active users worldwide (mid-2026); ~2 billion+ logged-in MAU on Shorts. Shorts average 200+ billion daily views (up from ~70B in March 2024). ~1 billion hours of video watched daily; ~5 billion videos viewed/day; 500+ hours uploaded/minute. ~\$60B annual revenue (announced Jan 2026).
 
 ### Ranking & Engagement Signals
 
@@ -405,7 +405,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 
 **Updates 2026.**
 
-- **Timeline:** {'Jan 2026': 'Neal Mohan announced ~$60B annual revenue, 200B daily Shorts views, Ask Studio AI at ~20M users.', 'Feb 2026': 'Browse feed overhaul — personalization shifted from broad topic categories to micro-niche clustering by viewer watch-history patterns; niche/focused content surfaced more in Q1.', 'Mar 2026': "Monetization guidelines relaxed for controversial content (affects eligibility + distribution incentives); Shorts 'original sound bonus' for sub-50k channels.", 'Apr 2026': 'Auto-dubbing rolled out platform-wide — expands cross-region Browse/Search reach.', 'May 2026': 'Viewer-satisfaction signal FORMALIZED — post-watch surveys, return visits, qualitative feedback weighted above raw watch time across Browse + Suggested. Ask Studio AI analytics expanded (natural-language performance queries).', 'Jun 2026': 'Hype feature expansion (smaller-channel discovery boost); Shorts dislike button removed (dislike data stops updating end of June).', 'early 2026': "Dedicated 'Shorts' content-type filter added to Search — Shorts rank independently of long-form. AI similarity filter suppresses repetitive/cloned formats.", 'late 2025 -> 2026': 'Shorts algorithm fully decoupled from long-form; Inauthentic Content Policy + SynthID/C2PA AI-slop crackdown scaled up.'}
+- **Timeline:** {'Jan 2026': 'Neal Mohan announced ~\$60B annual revenue, 200B daily Shorts views, Ask Studio AI at ~20M users.', 'Feb 2026': 'Browse feed overhaul — personalization shifted from broad topic categories to micro-niche clustering by viewer watch-history patterns; niche/focused content surfaced more in Q1.', 'Mar 2026': "Monetization guidelines relaxed for controversial content (affects eligibility + distribution incentives); Shorts 'original sound bonus' for sub-50k channels.", 'Apr 2026': 'Auto-dubbing rolled out platform-wide — expands cross-region Browse/Search reach.', 'May 2026': 'Viewer-satisfaction signal FORMALIZED — post-watch surveys, return visits, qualitative feedback weighted above raw watch time across Browse + Suggested. Ask Studio AI analytics expanded (natural-language performance queries).', 'Jun 2026': 'Hype feature expansion (smaller-channel discovery boost); Shorts dislike button removed (dislike data stops updating end of June).', 'early 2026': "Dedicated 'Shorts' content-type filter added to Search — Shorts rank independently of long-form. AI similarity filter suppresses repetitive/cloned formats.", 'late 2025 -> 2026': 'Shorts algorithm fully decoupled from long-form; Inauthentic Content Policy + SynthID/C2PA AI-slop crackdown scaled up.'}
 - **GEO AI Shift:** The single biggest 2026 discovery shift is off-platform: YouTube became the #1 most-cited domain in AI answer engines (see ai_search_citability). Optimizing for LLM extraction (chapters, spoken keywords, structured long-form) is now a first-class reach strategy.
 
 **AI Search Citability.**
@@ -418,7 +418,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 **Monetization Reach Coupling.**
 
 - **Model:** Ad revenue share is 55% creator / 45% YouTube on long-form; Shorts pool pays creators ~45% of the Shorts ad pool distributed by share-of-total-Shorts-views. Premium subscription revenue is split by watch time.
-- **Coupling:** Reach and revenue are tightly coupled but via different economics per format. Long-form: high RPM ($1-$10+/1k views; finance $25-50 CPM, gaming $1-4) and high evergreen longevity make long-form the profit + durable-reach engine. Shorts: RPM only ~$0.03-0.10/1k views (5-20x lower) — Shorts monetize reach poorly and function as a discovery/funnel top rather than a revenue center.
+- **Coupling:** Reach and revenue are tightly coupled but via different economics per format. Long-form: high RPM (\$1-\$10+/1k views; finance \$25-50 CPM, gaming \$1-4) and high evergreen longevity make long-form the profit + durable-reach engine. Shorts: RPM only ~\$0.03-0.10/1k views (5-20x lower) — Shorts monetize reach poorly and function as a discovery/funnel top rather than a revenue center.
 - **Why It Shapes Reach:** Because long-form watch time + Premium watch time drive most revenue, the algorithm's 2026 tilt toward session contribution and satisfaction aligns distribution with the formats YouTube earns most from — incentivizing binge-able, high-retention long-form. Demonetization of AI-slop/inauthentic content simultaneously removes its distribution.
 - **Thresholds:** Monetization (and thus revenue-linked reach incentives) requires YPP: 1,000 subs + 4,000 watch hours/12mo OR 10M Shorts views/90 days. RPM is depressed by ad-blockers (~25-40% desktop) and audience geography (emerging markets 40-70% lower).
 
@@ -745,7 +745,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - **Reels Surge:** Views and watch time on Facebook Reels approximately doubled in H2 2025 vs H2 2024; Meta is explicitly biasing distribution toward short-form vertical video to compete with TikTok.
 - **User True Interest Survey:** New 'User True Interest Survey' asks viewers to rate Reels 1-5 on relevance, giving the ranker an explicit negative-interest signal it can't infer from watch time alone.
 - **Ranking Churn:** ~247 discrete Feed-ranking updates across 2025 (~5/week); ~38% targeted misinformation and content-quality/'AI slop' suppression.
-- **Meta Subscriptions:** May 2026 global launch of consumer/creator subscriptions — Facebook Plus $3.99/mo (analytics/personalization, no reach boost), Meta One Essential $14.99 (Verified badge + impersonation protection + enhanced linksheets), Meta One Advanced $49.99 (featured Feed placement, higher search ranking, bold Follow button on Reels, auto follow-invites to engagers).
+- **Meta Subscriptions:** May 2026 global launch of consumer/creator subscriptions — Facebook Plus \$3.99/mo (analytics/personalization, no reach boost), Meta One Essential \$14.99 (Verified badge + impersonation protection + enhanced linksheets), Meta One Advanced \$49.99 (featured Feed placement, higher search ranking, bold Follow button on Reels, auto follow-invites to engagers).
 - **Link Monetization Pressure:** Meta reported to be considering charging business Pages to post external links, on top of links already being the lowest-reach format — reinforcing the keep-users-on-platform link penalty.
 
 ### Reach Penalties
@@ -866,7 +866,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - **Platform:** Pinterest
 - **Algorithm Name:** No single named algorithm publicly. It runs surface-specific rankers over three discovery surfaces — Home Feed (the 'Smart Feed'), Search, and Related Pins — all powered in 2026 by Pennock, Pinterest's proprietary generative-retrieval system (extended globally in Q1 2026). Pinterest is fundamentally a visual search engine: its ranking is more like Google's than Instagram's.
 - **Primary Content Format:** Static vertical image Pins (2:3, 1000x1500) remain the workhorse and highest-CTR format; video Pins and Idea Pins are the fastest-growing reach vehicle. A ~30% video / 70% static mix is the recommended profile balance.
-- **Scale:** 631 million monthly active users in Q1 2026 (+11% YoY, a record). ~50% of MAU are Gen Z. Over 80 billion monthly searches, roughly half commercial in intent. Users save 1.5 billion+ Pins weekly. Q1 2026 revenue $1.008B (+18% YoY).
+- **Scale:** 631 million monthly active users in Q1 2026 (+11% YoY, a record). ~50% of MAU are Gen Z. Over 80 billion monthly searches, roughly half commercial in intent. Users save 1.5 billion+ Pins weekly. Q1 2026 revenue \$1.008B (+18% YoY).
 - **Surfaces:** Home Feed (Smart Feed), Search (text + visual/Lens), Related Pins, plus board-driven discovery. Reach is won through keyword/intent match and saves that push a Pin into search results and related feeds — not through a follower graph.
 
 ### Ranking & Engagement Signals
@@ -946,7 +946,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - **AI Products:** Pinterest Assistant (Oct 2025) conversational multi-turn visual search; Canvas in-house AI image model; AI-powered personalized + shoppable boards; Auto-Collages; 'styled for you' / 'boards made for you' tests.
 - **AI Labeling:** Global 'Gen AI' content labels + user controls to reduce AI content ('combat AI slop').
 - **Commerce:** Top of Search Ads (Sept 2025), Shoppable Boards/Recipes (Dec 2025, Walmart), 'Bring My Pinterest to Life' shoppable streaming series on Roku (March 2026).
-- **Business:** Q1 2026: record 631M MAU (+11% YoY), revenue $1.008B (+18% YoY) — AI-driven visual search converting to revenue.
+- **Business:** Q1 2026: record 631M MAU (+11% YoY), revenue \$1.008B (+18% YoY) — AI-driven visual search converting to revenue.
 
 ### Reach Penalties
 
@@ -1038,7 +1038,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - **AI Slop Downranking:** Low-effort/AI-generated 'slop' is suppressed primarily by the community (downvotes) plus 2026 ML low-quality/toxicity classifiers and per-sub AutoMod rules; many subreddits explicitly ban or restrict AI-generated posts. Detected generic/AI-pattern comments are demoted and can trip spam filters.
 - **No Strong C2pa Regime:** Reddit does not run a prominent C2PA/SynthID content-credential passthrough or a platform-wide 'Made with AI' label like some peers; provenance is handled through community rules, moderation, and bot/authenticity detection rather than cryptographic labeling.
 - **Authenticity Detection:** In 2026 Reddit strengthened ML detection of coordinated/inauthentic and bot behavior (writing-style, account-creation timing, posting patterns, cross-referenced IP/login) to protect the 'real humans' value that makes its data valuable to AI licensors.
-- **Data Licensing And Privacy:** Reddit licenses its human content to LLM makers (Google ~$60M/yr from Feb 2024; OpenAI ~$70M/yr) and updated its Privacy Policy (published May 26 2026, effective July 1 2026) to explicitly allow sharing user data with LLM providers that help compile/summarize public content, and to acknowledge public content may appear in AI chatbot answers. No specific opt-out for LLM sharing. Regulatory context (EU AI Act Aug 2026, CA SB942 Jan 2026) applies to synthetic-media disclosure broadly but Reddit's own labeling regime is community/moderation-driven.
+- **Data Licensing And Privacy:** Reddit licenses its human content to LLM makers (Google ~\$60M/yr from Feb 2024; OpenAI ~\$70M/yr) and updated its Privacy Policy (published May 26 2026, effective July 1 2026) to explicitly allow sharing user data with LLM providers that help compile/summarize public content, and to acknowledge public content may appear in AI chatbot answers. No specific opt-out for LLM sharing. Regulatory context (EU AI Act Aug 2026, CA SB942 Jan 2026) applies to synthetic-media disclosure broadly but Reddit's own labeling regime is community/moderation-driven.
 - **Implication:** AI-assisted writing is tolerated if it reads as genuine, on-culture, and useful; undisclosed low-effort AI spam is the reach-killer, policed by voters + mods + ML, not by a formal provenance stamp.
 
 ### Posting & Growth Strategy
@@ -1157,7 +1157,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
   - AI Sponsored Snaps launched (~April 2026): brands bring their own AI agents into the Chat tab for conversational ads — Snap's push to monetize its ~1B MAU where users sent 950B+ messages in Q1 2026.
   - Chat-first strategic tilt: Snapchat leaning into private conversation (Sponsored Snaps in the inbox, users open Chat 30+ times/day) as the primary engagement surface, alongside Spotlight.
   - Spotlight scale milestones: 500M+ MAU, time-spent +175% YoY — Spotlight is Snap's fastest-growing reach surface.
-  - Creator Subscriptions expanded ($4.99-$19.99/mo, ~60% creator revenue share); Snapchat+ / storage subs hit ~24M (+71% YoY).
+  - Creator Subscriptions expanded (\$4.99-\$19.99/mo, ~60% creator revenue share); Snapchat+ / storage subs hit ~24M (+71% YoY).
   - Generative-AI transparency: ghost+sparkle watermark on Snap's own AI images, contextual in-app AI labels, ahead of EU AI Act (Aug 2026) marking rules.
   - Specs AR smart glasses (Snap OS 2.0) positioned as a new reach/experience surface.
 - **GEO AI Shift:** Snapchat remains a walled garden — Spotlight content is largely not crawlable/indexable off-platform, so it gains little from the GEO/AI-answer-engine shift compared with Reddit/YouTube. Snap's AI investment is internal (My AI, AI Sponsored Snaps, Sponsored AI Lenses) rather than making its content citable by external LLMs.
@@ -1170,10 +1170,10 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 
 **Monetization Reach Coupling.**
 
-- **Model:** Unified Creator Monetization Program shares ad revenue from ads placed in Spotlight videos and Public Stories. Reported effective earnings ~$1-$5 per 1,000 views, varying by content category and audience geography; Snap does not publicly disclose the exact split. Minimum payout $100, with daily cash-out available.
+- **Model:** Unified Creator Monetization Program shares ad revenue from ads placed in Spotlight videos and Public Stories. Reported effective earnings ~\$1-\$5 per 1,000 views, varying by content category and audience geography; Snap does not publicly disclose the exact split. Minimum payout \$100, with daily cash-out available.
 - **Eligibility:** >=50,000 Snapchat followers, verified identity, 18+, regular posting, residence in an eligible country, and — for revenue eligibility — Spotlight videos at least 1 minute long. From May 7, 2026: maintain >=100 hours of Total Spotlight View Time over the trailing 28 days for maximum Creator Rewards.
 - **Reach Coupling Why:** The 1-minute revenue-eligibility floor plus the 100-hour trailing-28-day view-time requirement explicitly tie PAYOUT to sustained, longer-form reach — pushing creators toward longer, retentive content even though the pure-reach sweet spot is 15-30s. This is the built-in tension: the algorithm rewards short high-completion clips, but the wallet rewards duration + sustained view-hours, incentivizing recent, repeat distribution over one-off virality.
-- **Other Streams:** Stackable on the same audience: Story mid-roll ad revenue, Creator Subscriptions ($4.99-$19.99/mo, ~60% creator share), Snap Star Collab Studio brand deals, and AR Lens monetization (beta) — diversifying revenue while keeping audiences on-platform.
+- **Other Streams:** Stackable on the same audience: Story mid-roll ad revenue, Creator Subscriptions (\$4.99-\$19.99/mo, ~60% creator share), Snap Star Collab Studio brand deals, and AR Lens monetization (beta) — diversifying revenue while keeping audiences on-platform.
 
 ### Reach Penalties
 
@@ -1265,7 +1265,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - **Moderation Strike System:** Nov 2025 into 2026: a severity-based strike system replaced ad-hoc suspensions — reporting categories expanded 6→9, escalating penalties, permanent bans for repeat/critical violations, and detailed enforcement notifications; partly driven by UK Online Safety Act compliance.
 - **Ecosystem And Media:** AT Protocol interop expansions incl. LIVE badges when users broadcast on Twitch/Streamplace; media/UX upgrades queued — drafts, longer/faster video, more than 4 photos per post, easier thread creation.
 - **Growth:** Registered accounts reached ~43.5M (April 2026); MAU ~27.5M / DAU ~3.68M (Feb 2026); ~50M registered projected by late 2026.
-- **Subscriptions:** Bluesky+ subscription (~$8/mo) discussed by CEO Jay Graber as an X-Premium alternative WITHOUT 'pay to win' reach mechanics; Bluesky continues to reject the advertising model.
+- **Subscriptions:** Bluesky+ subscription (~\$8/mo) discussed by CEO Jay Graber as an X-Premium alternative WITHOUT 'pay to win' reach mechanics; Bluesky continues to reject the advertising model.
 
 ### Reach Penalties
 
@@ -1511,7 +1511,7 @@ summary: "How 17 social platforms' 2026 algorithms rank content and the max-reac
 - **In App Growth Milestone:** ~32M new free subscriptions and ~500K new paid subscriptions came from inside the app in a single ~3-month window (disclosed Oct 2025); the app overtook recommendations and external search as Substack's top subscriber/revenue source.
 - **Algorithm Transparency:** Mike Cohen (Head of ML) publicly explained the Notes algorithm in more detail than ever before — confirming the subscribe/pay objective, audience-overlap mechanics, and on-platform full-lifecycle weighting.
 - **Product Expansion:** In-app video publishing, Notes stats/analytics, native live video (Substack Live), and a redesigned scrollable media feed — pushing Notes toward a fuller multi-format creator surface.
-- **Monetization Scale:** ~8.4M paid subscriptions by Q1 2026 (+~68% YoY); writers earned ~$450M gross in 2025 — reinforcing the subscription-not-ads model.
+- **Monetization Scale:** ~8.4M paid subscriptions by Q1 2026 (+~68% YoY); writers earned ~\$450M gross in 2025 — reinforcing the subscription-not-ads model.
 
 **Paid Verified Boost.** No pay-to-reach lever exists. Substack has NO ads, NO promoted-Notes/boost purchase, NO X-Premium-style verification multiplier, and no verification badge at all — you cannot buy distribution. The only 'badges' are earned bestseller badges (by paid-subscriber count: white/orange/purple) that confer social proof/trust, not algorithmic reach. Reach is purely organic and relationship/overlap-driven, which is a deliberate differentiator from X's 4-8x Premium boost and from ad-gated platforms. The only money-for-scale path is off-platform (e.g. buying ads elsewhere to funnel readers in), not an on-platform boost.
 

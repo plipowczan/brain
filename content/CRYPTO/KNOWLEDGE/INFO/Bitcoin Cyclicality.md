@@ -40,11 +40,11 @@ Bitcoin's monetary policy is fixed in code. New BTC enters circulation as a **bl
 
 | Halving | Date (approx.) | Block reward | Annual issuance after | BTC price near event |
 |---------|----------------|:------------:|-----------------------|----------------------|
-| Genesis | 2009-01 | 50 BTC | — | ~$0 |
-| 1st | **2012-11-28** | 50 → **25** | ~1.31M/yr | ~$12 |
-| 2nd | **2016-07-09** | 25 → **12.5** | ~0.66M/yr | ~$650 |
-| 3rd | **2020-05-11** | 12.5 → **6.25** | ~0.33M/yr | ~$8,700 |
-| 4th | **2024-04-19/20** | 6.25 → **3.125** | ~0.16M/yr | ~$64,000 |
+| Genesis | 2009-01 | 50 BTC | — | ~\$0 |
+| 1st | **2012-11-28** | 50 → **25** | ~1.31M/yr | ~\$12 |
+| 2nd | **2016-07-09** | 25 → **12.5** | ~0.66M/yr | ~\$650 |
+| 3rd | **2020-05-11** | 12.5 → **6.25** | ~0.33M/yr | ~\$8,700 |
+| 4th | **2024-04-19/20** | 6.25 → **3.125** | ~0.16M/yr | ~\$64,000 |
 | 5th | ~2028 (est.) | 3.125 → 1.5625 | ~0.08M/yr | — |
 
 *Sources: Bitget Academy, Kraken, Gemini Cryptopedia, VanEck (2024). Dates and reference prices are approximate; the exact halving block matters more than the wall-clock date.*
@@ -83,10 +83,10 @@ The headline numbers per cycle. **Prices are approximate, vary by exchange, and 
 
 | Cycle | Bottom (date / ~price) | Halving (date / ~price) | Top (date / ~price) | Peak gain (bottom→top) | Subsequent bear drawdown |
 |-------|------------------------|-------------------------|---------------------|:----------------------:|:------------------------:|
-| **2012–13** | ~2012-... / ~$12 (around 1st halving) | 2012-11 / ~$12 | **2013-11-30** / ~$1,150 | ~**90×+** | **−86%** (to ~$152, Jan 2015) |
-| **2016–17** | 2015-01 / ~$152 | 2016-07 / ~$650 | **2017-12-17** / ~$19,800 | ~**130×** | **−84%** (to ~$3,200, Dec 2018) |
-| **2020–21** | 2018-12 / ~$3,200 | 2020-05 / ~$8,700 | **2021-11-10** / ~$69,044 | ~**22×** | **−77%** (to ~$15,500, Nov 2022) |
-| **2024–?** | 2022-11 / ~$15,500 | 2024-04 / ~$64,000 | **2025-10-06** / ~$126,300 (so far) | ~**8×** | ongoing — shallowest so far (see Part VI) |
+| **2012–13** | ~2012-... / ~\$12 (around 1st halving) | 2012-11 / ~\$12 | **2013-11-30** / ~\$1,150 | ~**90×+** | **−86%** (to ~\$152, Jan 2015) |
+| **2016–17** | 2015-01 / ~\$152 | 2016-07 / ~\$650 | **2017-12-17** / ~\$19,800 | ~**130×** | **−84%** (to ~\$3,200, Dec 2018) |
+| **2020–21** | 2018-12 / ~\$3,200 | 2020-05 / ~\$8,700 | **2021-11-10** / ~\$69,044 | ~**22×** | **−77%** (to ~\$15,500, Nov 2022) |
+| **2024–?** | 2022-11 / ~\$15,500 | 2024-04 / ~\$64,000 | **2025-10-06** / ~\$126,300 (so far) | ~**8×** | ongoing — shallowest so far (see Part VI) |
 
 *Sources: Fidelity ("Bitcoin 4-year cycles"), CoinGecko research, Caleb & Brown, NYDIG, Bitget, hyrotrader. Drawdown figures (−86% / −84% / −77%) are the canonical cycle-bottom drops and are widely cited within ±a few points.*
 
@@ -106,7 +106,7 @@ The clearest empirical regularity is that **each cycle delivers a smaller multip
 - Bear drawdown shrinking: −86% → −84% → −77% → (this cycle materially shallower so far, ~−40–50% range to date).
 - Each cycle takes **longer** and is **less explosive** — fewer vertical blow-offs, more grind.
 
-The mechanical reason: as market cap grows, **moving the price requires ever more capital**. A $0.2T asset can 20×; a $2T asset cannot do that as easily — the marginal dollar buys less percentage move. Maturation also means more derivatives, more arbitrage, and fewer naive sellers.
+The mechanical reason: as market cap grows, **moving the price requires ever more capital**. A \$0.2T asset can 20×; a \$2T asset cannot do that as easily — the marginal dollar buys less percentage move. Maturation also means more derivatives, more arbitrage, and fewer naive sellers.
 
 **Implications:** if diminishing returns hold, future cycles offer lower upside *and* lower downside — Bitcoin behaves more like a maturing macro asset and less like a lottery ticket. This view sits in direct tension with the **supercycle** hypothesis (Part VI), which argues new structural demand could *break* the pattern in either direction.
 
@@ -135,7 +135,7 @@ The live, unresolved debate. I present both sides; I do **not** forecast.
 
 ### What changed
 
-- **US spot Bitcoin ETFs (Jan 2024).** BlackRock, Fidelity et al. opened a regulated, frictionless on-ramp for institutions and advisors. ETF flows routinely move **$500M+/day**, with peak single-day inflows around **$3.24B (Oct 2025)**; by some estimates ETF demand has run at **~10–12× daily mining supply**. That dwarfs the halving's supply effect.
+- **US spot Bitcoin ETFs (Jan 2024).** BlackRock, Fidelity et al. opened a regulated, frictionless on-ramp for institutions and advisors. ETF flows routinely move **\$500M+/day**, with peak single-day inflows around **\$3.24B (Oct 2025)**; by some estimates ETF demand has run at **~10–12× daily mining supply**. That dwarfs the halving's supply effect.
 - **Corporate treasuries** (Strategy / MicroStrategy and imitators) and persistent institutional bid replaced the old retail-driven blow-off.
 - **Macro correlation.** Bitcoin increasingly trades with the **Nasdaq and global liquidity** — a risk asset reacting to rates and Fed balance-sheet, not just to its own halving clock.
 

@@ -89,8 +89,8 @@ Backend workflow w [[n8n]]:
 
 | Model | Zaleta | Koszt |
 |-------|--------|-------|
-| OpenAI GPT-4 | Najlepsza jakość odpowiedzi, function calling | ~$0.01/1k tokens |
-| Claude 3.5 Sonnet | Świetna analiza, 200k context window | ~$0.003/1k tokens |
+| OpenAI GPT-4 | Najlepsza jakość odpowiedzi, function calling | ~\$0.01/1k tokens |
+| Claude 3.5 Sonnet | Świetna analiza, 200k context window | ~\$0.003/1k tokens |
 
 ## 🎙️ Voicebots
 
@@ -120,13 +120,13 @@ Backend workflow w [[n8n]]:
 
 | Składnik | Koszt |
 |----------|-------|
-| n8n (self-hosted) | $0-20 |
-| OpenAI API | $30-50 |
-| Qdrant Cloud | $25 |
-| VAPI (voicebot, opcjonalnie) | $99 |
-| **Razem** | **$150-200/mo** |
+| n8n (self-hosted) | \$0-20 |
+| OpenAI API | \$30-50 |
+| Qdrant Cloud | \$25 |
+| VAPI (voicebot, opcjonalnie) | \$99 |
+| **Razem** | **\$150-200/mo** |
 
-vs. 1 pracownik customer support: **$2500-3500/mo**
+vs. 1 pracownik customer support: **\$2500-3500/mo**
 
 ## 📊 Case Study — automation.house
 
@@ -157,7 +157,7 @@ vs. 1 pracownik customer support: **$2500-3500/mo**
 
 Context-based chatboty to przyszłość customer experience:
 - Dostępność 24/7 z konsystentną jakością
-- Skalowalność przy niskim koszcie operacyjnym ($150-200/mo vs $2500-3500/mo za pracownika)
+- Skalowalność przy niskim koszcie operacyjnym (\$150-200/mo vs \$2500-3500/mo za pracownika)
 - RAG zapewnia aktualną wiedzę bez retreningu modelu
 - Function calling umożliwia realne akcje (booking, search)
 - [[VAPI]] rozszerza chatboty o kanał głosowy

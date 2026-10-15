@@ -52,7 +52,7 @@ Two harnesses making two different claims.
 
 | Metric (mean/task) | Cold Claude Code | With Graft |
 |---|---|---|
-| Cost | $0.0429 | **$0.0292 (−32%)** |
+| Cost | \$0.0429 | **\$0.0292 (−32%)** |
 | Tokens | 8,070 | **4,650 (−42%)** |
 | Tool calls | 4.2 | **2.3 (−46%)** |
 | Latency | 39.8 s | **15.8 s (−60%)** |
@@ -70,7 +70,7 @@ The correctness wins have a consistent shape: the baseline patches one file and 
 
 **Push vs pull is the interesting finding.** Injecting a `graft ask --source` bundle up front (push) buys the speed. Exposing `graft_find_code` / `graft_file_api` as tools and paying for context only when the agent asks (pull) gave up most of the speed but pushed correctness to 98%, +5 points over cold — the strongest single result in their sweep. Push when speed is what you need; pull when being right matters more.
 
-Separately they ran 15 tasks each on popular OSS repos — 10 developer questions plus 5 real merged PRs re-implemented from base commit and scored against the files the maintainers actually touched. On PocketBase (Go, ~350 files): cost $13.91 → $11.02 (−21%), wall-clock −14%, and 5/5 PRs reproduced touching the same files. The gap was widest on cross-file synthesis — "how does auth work across OAuth2 providers" fell from $2.19 to $0.84.
+Separately they ran 15 tasks each on popular OSS repos — 10 developer questions plus 5 real merged PRs re-implemented from base commit and scored against the files the maintainers actually touched. On PocketBase (Go, ~350 files): cost \$13.91 → \$11.02 (−21%), wall-clock −14%, and 5/5 PRs reproduced touching the same files. The gap was widest on cross-file synthesis — "how does auth work across OAuth2 providers" fell from \$2.19 to \$0.84.
 
 ### Download or use
 ```
