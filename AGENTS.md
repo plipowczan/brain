@@ -163,6 +163,7 @@ After creating or editing ANY note, update indexes IMMEDIATELY — don't defer t
 - Bulleted lists, hierarchical headings, Resources section at end
 - Wikilinks: `[[Note Name]]` shortest-path, full path only when ambiguous
 - TODO markers: `#todo`, `#todo/replace`, `#todo/complete`
+- Escape currency dollar signs as `\$` — Quartz renders `$…$` pairs as LaTeX (`Plugin.Latex`, KaTeX), so `$169 / $119` on one line becomes a garbled math span. Leave `$` alone inside code.
 
 ## Frontmatter
 

@@ -28,11 +28,11 @@ summary: "Hyperautomation Labs lists 10 open-source GitHub repos that each repla
 |---|------|----------|-----------|
 | 1 | **AutoHedge** | A trading desk | Autonomous hedge fund in Python — 4 agents (director/quant/risk/execution) trading live on Solana. `pip install` and it runs. |
 | 2 | **Vibe-Trading** | Terminal seat + analyst | "The whole trading floor" — directed-graph agents, 77 finance skills, 29 specialist teams; watch the bull/bear agents debate a trade live. |
-| 3 | **[[Fincept Terminal\|Fincept]]** | Bloomberg (~$27k/yr) | Bloomberg replacement on your laptop — CFA analytics, 100+ connectors (Polygon/World Bank/IMF), 37 AI investor agents (Buffett/Munger/Graham/Lynch). |
-| 4 | **[[LibreChat]]** | ChatGPT Plus ($20/mo) | Self-hosted UI fronting every model (Claude/Gemini/DeepSeek + 20), your own keys, native MCP, you own the data. |
+| 3 | **[[Fincept Terminal\|Fincept]]** | Bloomberg (~\$27k/yr) | Bloomberg replacement on your laptop — CFA analytics, 100+ connectors (Polygon/World Bank/IMF), 37 AI investor agents (Buffett/Munger/Graham/Lynch). |
+| 4 | **[[LibreChat]]** | ChatGPT Plus (\$20/mo) | Self-hosted UI fronting every model (Claude/Gemini/DeepSeek + 20), your own keys, native MCP, you own the data. |
 | 5 | **Open Generative AI** (ex-Open Higgs Field) | 6 creative subscriptions | Self-hosted "cinema studio" — 200+ models (Flux/Sora/Kling/Veo/GPT-4o) behind one dashboard; control panel only, BYO API keys. |
 | 6 | **Open-LLM-VTuber** | Character companion apps | Live 2D animated AI companion, fully **offline** — sees your screen, hears your voice, shows its reasoning; pet mode; swap the LLM in one config line. |
-| 7 | **Claude Ads** | Ad-agency audit ($2k–$10k) | Free [[Claude Code]] skill — 200+ checks across Google/Meta/YouTube/LinkedIn/TikTok/Microsoft Ads via 6 parallel sub-agents → prioritized ads health score. |
+| 7 | **Claude Ads** | Ad-agency audit (\$2k–\$10k) | Free [[Claude Code]] skill — 200+ checks across Google/Meta/YouTube/LinkedIn/TikTok/Microsoft Ads via 6 parallel sub-agents → prioritized ads health score. |
 | 8 | **Agentic Inbox** | Paid AI inboxes | Cloudflare's open-sourced AI email client — runs entirely on Cloudflare Workers, each mailbox an isolated Durable Object, uses Cloudflare's own AI so mail never leaves your account. |
 | 9 | **[[Camofox Browser\|Camofox]]** | Commercial stealth-scraping APIs | Invisible browser for agents — Camoufox (Firefox fork) spoofs fingerprint/WebGL/audio/WebRTC at C++ level; returns accessibility tree, ~90% fewer tokens. |
 | 10 | **[[HyperFrames\|Hyperframes]]** | (vs Remotion) | HeyGen's agent video framework — agent writes plain **HTML**, framework renders to MP4. No React/JSX; GSAP/Lottie/Three.js work; deterministic. |

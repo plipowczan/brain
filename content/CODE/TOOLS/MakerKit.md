@@ -20,8 +20,8 @@ https://makerkit.dev/
 
 ### Download or use
 - Repo (open-source lite): https://github.com/makerkit/nextjs-saas-starter-kit-lite
-- Pro: $299/lifetime (Supabase stack)
-- Teams: $599/lifetime (do 5 osób)
+- Pro: \$299/lifetime (Supabase stack)
+- Teams: \$599/lifetime (do 5 osób)
 
 ## 🗒️ Description
 
@@ -56,7 +56,7 @@ Full-stack SaaS Starter Kit oparty na **Next.js 16** (lub React Router 7) z Supa
 | Blog & docs CMS | 1-2 tygodnie | Pre-built |
 | Responsive UI | 2-3 tygodnie | Pre-built |
 
-Szacowane oszczędności: **$15,000–$50,000** w developer time.
+Szacowane oszczędności: **\$15,000–\$50,000** w developer time.
 
 ## ✍️ Reasoning for
 

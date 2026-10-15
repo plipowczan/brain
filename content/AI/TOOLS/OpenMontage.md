@@ -93,7 +93,7 @@ Each tool declares which Layer 3 skills it depends on — a clean example of [[P
 - **Slideshow risk scoring** — 6 dimensions (repetition, decorative visuals, weak motion, shot intent, typography overreliance, unsupported cinematic claims) to prevent "animated PowerPoint".
 - **Scored provider selection** — 7 dimensions: task fit (30%), output quality (20%), control (15%), reliability (15%), cost efficiency (10%), latency (5%), continuity (5%). Winner and alternatives are logged.
 - **Decision audit trail** — every provider, style, music, voice, renderer and fallback choice logged with alternatives, confidence and reasoning.
-- **Budget controls** — estimate → reserve → reconcile, modes `observe` / `warn` / `cap`, per-action approval above a threshold (default $0.50), total cap default $10.
+- **Budget controls** — estimate → reserve → reconcile, modes `observe` / `warn` / `cap`, per-action approval above a threshold (default \$0.50), total cap default \$10.
 
 ## Alternatives considered
 - **[[Video Use]]** — agent-driven editor for footage you already shot; reads transcripts for word-level cuts. Complementary, not competing.

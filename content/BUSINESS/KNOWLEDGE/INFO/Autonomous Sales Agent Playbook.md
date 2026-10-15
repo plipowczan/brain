@@ -13,7 +13,7 @@ summary: "Playbook for building autonomous AI sales agents replacing $1.4k/mo Sa
 # Autonomous Sales Agent Playbook
 
 ## 🗒️ Description
-A playbook by Romàn from [gojiberry.ai](https://gojiberry.ai/) — how to replace a traditional marketing stack ($1,400+/mo) with a single autonomous sales system for ~$20/mo. It's not about a chatbot — it's an always-on operator that handles speed-to-lead, context research, and follow-up without a human in the loop.
+A playbook by Romàn from [gojiberry.ai](https://gojiberry.ai/) — how to replace a traditional marketing stack (\$1,400+/mo) with a single autonomous sales system for ~\$20/mo. It's not about a chatbot — it's an always-on operator that handles speed-to-lead, context research, and follow-up without a human in the loop.
 
 ## 🚀 Key Insight: Speed-to-Lead
 - Average lead response time: **47 hours** (Harvard Business Review, 2,241 firms)
@@ -57,11 +57,11 @@ A playbook by Romàn from [gojiberry.ai](https://gojiberry.ai/) — how to repla
 |---|---|---|
 | Response time | ~47h | < 2 min |
 | Follow-up rate | ~30% | ~100% |
-| Monthly cost | ~$1,447/mo | ~$20/mo |
+| Monthly cost | ~\$1,447/mo | ~\$20/mo |
 | Maintenance | High | Low |
 
-Stack: GoHighLevel ($297) + Zapier ($74) + Calendly ($16) + Mailchimp ($60) + VA ($1,000) = **$1,447/mo**
-Agent: OpenClaw ($0) + TidyCal ($29 lifetime) + Resend ($0) + Claude API (~$15) + VPS (~$5) = **~$20/mo**
+Stack: GoHighLevel (\$297) + Zapier (\$74) + Calendly (\$16) + Mailchimp (\$60) + VA (\$1,000) = **\$1,447/mo**
+Agent: OpenClaw (\$0) + TidyCal (\$29 lifetime) + Resend (\$0) + Claude API (~\$15) + VPS (~\$5) = **~\$20/mo**
 
 ## 🔗 Links
 - [[AI/KNOWLEDGE/INFO/Agentic Coding|Agentic Coding]] — related concept of AI agents in development

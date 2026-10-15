@@ -38,7 +38,7 @@ Większość firm traci **15-25 godzin tygodniowo** na powtarzalne zadania. Auto
 - Debugowanie to koszmar
 - Vendor lock-in — migracja = przepisywanie od zera
 
-**Pricing:** Free (100 zadań) → $19.99 (750) → $49 (2,000) → $299 (50,000)
+**Pricing:** Free (100 zadań) → \$19.99 (750) → \$49 (2,000) → \$299 (50,000)
 
 ### [[Make]] — dla wizualnych power users
 
@@ -57,7 +57,7 @@ Większość firm traci **15-25 godzin tygodniowo** na powtarzalne zadania. Auto
 - Dokumentacja nierówna
 - Interfejs może przytłaczać
 
-**Pricing:** Free (1,000 ops) → $9 (10,000) → $16 (10,000 + premium) → $29 (10,000 + teams)
+**Pricing:** Free (1,000 ops) → \$9 (10,000) → \$16 (10,000 + premium) → \$29 (10,000 + teams)
 
 ### [[n8n]] — dla technical teams
 
@@ -79,7 +79,7 @@ Większość firm traci **15-25 godzin tygodniowo** na powtarzalne zadania. Auto
 - Cloud hosting droższy niż Make
 - Sam dbasz o security
 
-**Pricing:** Self-hosted $0 + infra $10-50/mo | Cloud: $20 (2,500 exec) → $50 (10,000) → Enterprise
+**Pricing:** Self-hosted \$0 + infra \$10-50/mo | Cloud: \$20 (2,500 exec) → \$50 (10,000) → Enterprise
 
 ### Kod + AI Agents — czwarta opcja
 
@@ -89,7 +89,7 @@ Większość firm traci **15-25 godzin tygodniowo** na powtarzalne zadania. Auto
 - Zero vendor lock-in
 - Każde API bez oczekiwania — daj dokumentację agentowi
 - Brak limitów na kroki/uruchomienia/dane
-- Najtańszy przy skali — hosting $5-20/mo
+- Najtańszy przy skali — hosting \$5-20/mo
 - Pełna debugowalność
 - Composable — micro-tools jak klocki Lego
 
@@ -117,24 +117,24 @@ Większość firm traci **15-25 godzin tygodniowo** na powtarzalne zadania. Auto
 ### Typowe błędy
 
 1. **n8n bez technical resources** — po 3 miesiącach: security vulnerability, brak aktualizacji
-2. **Start na Zapier → utknięcie na limicie** — 5-step Zap × 100 uruchomień = 500 zadań, szybki upgrade do $300/mo
+2. **Start na Zapier → utknięcie na limicie** — 5-step Zap × 100 uruchomień = 500 zadań, szybki upgrade do \$300/mo
 3. **Wybór na feature list zamiast team fit** — CTO wybiera n8n bo open-source, marketing nie umie z niego korzystać → 0 wdrożeń po 3 miesiącach
-4. **Ignorowanie TCO** — n8n self-hosted: $520-550/mo (wliczając DevOps time $500), Make: $16-50/mo
+4. **Ignorowanie TCO** — n8n self-hosted: \$520-550/mo (wliczając DevOps time \$500), Make: \$16-50/mo
 
 ## 💰 Pricing Comparison (TCO)
 
 | Narzędzie | Miesięczny koszt | Jednorazowy koszt | Uwagi |
 |-----------|-----------------|-------------------|-------|
-| Zapier | $50-300 | minimal | Każdy krok = osobne zadanie |
-| Make | $16-50 | low (10h nauki) | Najlepsza wartość |
-| n8n self-hosted | $520-550 | high | Wlicza DevOps time |
-| n8n cloud | $50-200 | medium | Bez maintenance |
-| Kod + AI agent | ~$20 | medium (2-8h build) | Zero vendor lock-in |
+| Zapier | \$50-300 | minimal | Każdy krok = osobne zadanie |
+| Make | \$16-50 | low (10h nauki) | Najlepsza wartość |
+| n8n self-hosted | \$520-550 | high | Wlicza DevOps time |
+| n8n cloud | \$50-200 | medium | Bez maintenance |
+| Kod + AI agent | ~\$20 | medium (2-8h build) | Zero vendor lock-in |
 
 ### Strategie migracji
 
-- **Zapier → Make:** Gdy koszty Zapier > $100/mo. Przepisywanie od zera, 2-4h na workflow
-- **Make → n8n:** Gdy koszty Make > $200/mo lub compliance. Eksport JSON (częściowo kompatybilne), 5-10h na workflow
+- **Zapier → Make:** Gdy koszty Zapier > \$100/mo. Przepisywanie od zera, 2-4h na workflow
+- **Make → n8n:** Gdy koszty Make > \$200/mo lub compliance. Eksport JSON (częściowo kompatybilne), 5-10h na workflow
 - **Multi-platform:** Zapier (prototypy) + Make (production) + n8n (high-volume/sensitive data)
 
 ## 📒 Podsumowanie
