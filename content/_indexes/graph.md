@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-15T12:21:02Z
+updated: 2026-10-26T06:06:19Z
 nodes: 416
 edges: 2949
 ---
@@ -778,8 +778,6 @@ PROJECTS/TRAVELCAST-AI/Travelcast AI <- AI/TOOLS/Chatterbox TTS, AI/TOOLS/Eleven
 PROJECTS/TTTR/Tech To The Rescue <- AI/TOOLS/Bright Data, AI/TOOLS/Crawl4AI, AI/TOOLS/GitHub Copilot, AI/TOOLS/Google Gemini, AI/TOOLS/LangGraph, AI/TOOLS/LiteLLM, AI/TOOLS/Marker, AI/TOOLS/Ollama, AI/TOOLS/OpenAI, AI/TOOLS/Tactiq, AI/TOOLS/VoyageAI, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, CODE/KNOWLEDGE/HOWTO/Harness Engineering in Practice, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/BullMQ, CODE/TOOLS/Celery, CODE/TOOLS/DigitalOcean, CODE/TOOLS/Drizzle ORM, CODE/TOOLS/Hetzner, CODE/TOOLS/NextAuth, CODE/TOOLS/Prisma, CODE/TOOLS/RabbitMQ, CODE/TOOLS/Redis, CODE/TOOLS/Resend, CODE/TOOLS/Storybook, PROJECTS/PLSOFT/PLSoft, PROJECTS/Projects
 PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe <- ABOUT/About, AI/TOOLS/Space Agent, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS/Value Builders
 PROJECTS/VALUE-BUILDERS/Value Builders <- ABOUT/About, ABOUT/My career path, AI/TOOLS/ElevenLabs, AI/TOOLS/Lovable, AI/TOOLS/Paperclip, AI/TOOLS/v0, BUSINESS/KNOWLEDGE/INFO/Marketing, Sales & Publishing SaaS, BUSINESS/KNOWLEDGE/INFO/Ops, Collaboration, Analytics & Community SaaS, BUSINESS/TOOLS/Stripe, CODE/KNOWLEDGE/INFO/Dev Libraries & Build Tools, CODE/TOOLS/shadcn-ui, CODE/TOOLS/Tailwind CSS, CODE/TOOLS/Vercel, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/Projects, PROJECTS/VALUE-BUILDERS-TRIBE/Value Builders Tribe
-templates/knowledge_note_info <- AI/KNOWLEDGE/INFO/Meme Generation for Coding Agents
-templates/tool <- AI/TOOLS/Meme Factory, AI/TOOLS/Memegen, AI/TOOLS/OpenClaw Meme Maker, AI/TOOLS/Peon Ping, AI/TOOLS/Slack GIF Creator, CODE/TOOLS/Satori
 TRAVELS/My travels <- TRAVELS/TRIPS/2024 07 Bieszczady, TRAVELS/TRIPS/2025 07 Beskidy
 TRAVELS/TOOLS/Ventusky <- TRAVELS/TRIPS/2022 Iceland October, TRAVELS/TRIPS/2024 07 Bieszczady, TRAVELS/TRIPS/2025 07 Beskidy
 TRAVELS/TRIPS/2022 Iceland October <- TRAVELS/TOOLS/Ventusky
