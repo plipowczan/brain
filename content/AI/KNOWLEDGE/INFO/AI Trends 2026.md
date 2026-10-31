@@ -149,6 +149,8 @@ Polska implementacja: Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji +
 
 # 🔗 Zasoby
 
+- [[AI Bubble — What Happens After the Crash]] — Not Unprecedented's scenario connecting a financing crash with cheaper infrastructure and wider business adoption; forecasts remain attributed to the video.
+
 - Raporty: Gartner, Forrester, IDC, Deloitte, McKinsey, Cisco
 - EU AI Act — pełna dokumentacja regulacyjna
 - Polski Instytut Ekonomiczny — dane o adopcji AI w Polsce

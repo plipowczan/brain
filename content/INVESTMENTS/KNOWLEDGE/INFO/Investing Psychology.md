@@ -167,7 +167,7 @@ The strategy these defenses protect lives in [[Investment Strategies]]; the stru
 - Barber & Odean, "Boys Will Be Boys: Gender, Overconfidence, and Common Stock Investment", *Quarterly Journal of Economics*, 2001
 - Carl Richards, *The Behavior Gap* (2012)
 - Michael Kitces / Wade Pfau — critique of the DALBAR behavior-gap methodology (kitces.com)
-- Related: [[Bear Markets — 100 Years of History]] · [[Cognitive Biases in Investing]] · [[Investment Strategies]] · [[Asset Allocation and Diversification]] · [[What mistakes I made on the crypto market in 2021-2022]] · [[Crypto Market State 2026]]
+- Related: [[Bear Markets — 100 Years of History]] · [[Cognitive Biases in Investing]] · [[Investment Strategies]] · [[Asset Allocation and Diversification]] · [[What mistakes I made on the crypto market in 2021-2022]] · [[Crypto Market State 2026]] · [[Midterms 2026 Market Setup (Felix Prehn)]] (AAII sentiment as a contrarian signal, plus urgency framing to recognise)
 
 ---
 Template: [[templates/knowledge_note_info]]

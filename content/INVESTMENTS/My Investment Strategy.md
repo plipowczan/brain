@@ -128,6 +128,7 @@ The framework above is stable; these are the personal numbers and choices that m
 
 - Vault foundations: [[Investment Strategies]] · [[Asset Allocation and Diversification]] · [[Investing Psychology]] · [[Cognitive Biases in Investing]] · [[Bear Markets — 100 Years of History]]
 - My own scar tissue: [[What mistakes I made on the crypto market in 2021-2022]]
+- Market commentary checked against these rules: [[Midterms 2026 Market Setup (Felix Prehn)]] (index concentration, cash drag, midterm seasonality)
 - Howard Marks, *The Most Important Thing* & *Mastering the Market Cycle*
 - John Bogle, *The Little Book of Common Sense Investing*
 - Benjamin Graham, *The Intelligent Investor* (the "Mr. Market" and margin-of-safety chapters)

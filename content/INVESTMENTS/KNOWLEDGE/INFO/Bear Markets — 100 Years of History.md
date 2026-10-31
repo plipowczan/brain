@@ -320,7 +320,7 @@ Since the moment can't be predicted, think in **scenarios**: not "when" but "wha
 - Howard Marks, *Mastering the Market Cycle* (2018); memos "Nobody Knows", "The Anatomy of a Rally", "Cockroaches in the Coal Mine"
 - Charles Kindleberger & Robert Aliber, *Manias, Panics, and Crashes*
 - Marcin Iwuć — *Finansowa Forteca*, marciniwuc.com (source author)
-- Related: [[Crypto Market State 2026]] · [[Fincept Terminal]]
+- Related: [[Crypto Market State 2026]] · [[Fincept Terminal]] · [[Midterms 2026 Market Setup (Felix Prehn)]] (a bullish counterpoint from late Oct 2026: breadth already in a bear, liquidity turning back on)
 
 ---
 Template: [[templates/knowledge_note_info]]
