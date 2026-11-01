@@ -90,5 +90,6 @@ The spec and verifier need somewhere to live — the workshop. Most people rebui
 - 📺 Source: [Stop Prompting Claude. Use Karpathy's Method Instead.](https://www.youtube.com/watch?v=7zZy1QTvokM) — Austin Marchese, 13:18
 - The [[Agentic Engineering|original Karpathy @ Sequoia interview]] the three layers are drawn from
 
+- [[Super Brain]] — a ready-made Karpathy-style vault for product builders, with project and profile layers
 ---
 Template: [[templates/knowledge_note_info]]

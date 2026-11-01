@@ -70,5 +70,6 @@ Git worktrees w Cursor = izolowane kopie projektu na osobnych branchach. Pozwala
 ## Resources
 [Cursor Documentation](https://docs.cursor.com)
 
+- [[Cursor Plugins]] — the official plugin marketplace and manifest spec (skills, rules, MCP in one package)
 ---
 Template: [[templates/tool]]

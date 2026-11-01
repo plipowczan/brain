@@ -100,5 +100,6 @@ Checked against `.claude/skills/` on 2026-10-12:
 - [[Progressive Disclosure]] — the same index-first principle at vault level
 - [[Context Engineering]] · [[Harness Engineering]] · [[Autoharness]] · [[Claude Code Mods (RoboNuggets)]]
 
+- [[Matt Pocock Skills]] · [[ASD-STE100 Skill]] — a worked skill pack (user- vs model-invoked split) and a skill for unambiguous agent-facing English
 ---
 Template: [[templates/knowledge_note_info]]

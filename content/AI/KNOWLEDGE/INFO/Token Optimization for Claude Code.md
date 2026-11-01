@@ -52,5 +52,6 @@ A short catalog of tools that cut token usage in [[Claude Code]] and LLM work in
 - [[Graft]] — same roster: a repo-wide markdown node graph, vendor-reported −42% tokens / −60% latency vs cold Claude Code
 - [[Jev Engineering for Coding Agents]] — why retrieval (reading + searching ≈ two-thirds of tokens) is the bucket to optimize, and why mid-session routing to a cheaper model usually costs more
 
+- [[billion-context]] — model-driven reversible context compression via proxy
 ---
 Template: [[templates/knowledge_note_info]]

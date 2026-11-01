@@ -40,5 +40,6 @@ Weaker than [[Chrome DevTools MCP]] on performance tracing and deep network insp
 - 🔗 Testomat.io — Playwright MCP + Claude Code: https://testomat.io/blog/playwright-mcp-claude-code/
 - See also: [[Claude Code]], [[Chrome DevTools MCP]], [[Claude in Chrome]], [[CloakBrowser]] (stealth Playwright/Puppeteer drop-in replacement)
 
+- [[TesterArmy e2e]] — Playwright-based framework that records agent steps and replays them without model calls
 ---
 Template: [[templates/tool]]

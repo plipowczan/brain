@@ -36,10 +36,20 @@ Designed agent-first: ships as Claude Code / Codex / Cursor skills exposed as sl
 | Build step | None | Required (bundler) |
 | Library-clock animations (GSAP/Anime.js) | Seekable, frame-accurate | Wall-clock at render |
 | Arbitrary HTML/CSS passthrough | Paste and animate | Rewrite as JSX |
-| Distributed rendering | Single-machine today | Lambda, production-ready |
+| Distributed rendering | HeyGen cloud + AWS Lambda (added later) | Lambda, production-ready |
 | **License** | **Apache 2.0** (OSI) | Source-available, paid above thresholds |
 
 Licensing is the decisive factor for many: commercial use at any scale with no per-render fees, no seat caps, no company-size thresholds.
+
+## 🧩 Update 2026-11-01 — skills catalogue and tooling
+
+The README now describes a much bigger agent surface than the original ingest:
+
+- **21 skills** loaded on demand. `/hyperframes` is the router and capability map that picks a workflow for any "make me a…" request. Creation workflows: `/product-launch-video` (from a website URL), `/faceless-explainer`, `/pr-to-video` (GitHub PR via `gh`), `/embedded-captions`, `/talking-head-recut`, `/motion-graphics`, `/music-to-video` (beat-synced), `/slideshow` (navigable deck), `/general-video`, `/remotion-to-hyperframes` (one-way port). Domain skills: `hyperframes-core`, `-animation`, `-keyframes`, `-creative`, `-cli`, `-audio`, `-registry`, `media-use`, `figma`
+- **Install paths:** `claude plugin marketplace add heygen-com/hyperframes` then `claude plugin install hyperframes@hyperframes` (versioned plugin, use `/hyperframes:hyperframes`), or `npx skills add heygen-com/hyperframes` for standalone skills (the **Core Skills** group is enough); `npx hyperframes skills update` installs from current `main`, since the skills.sh registry can lag by hours
+- **frame.md** — a `DESIGN.md` superset that translates a web design system into one written for the camera (same tokens, rules rewritten for the frame); a gallery of designs lives at hyperframes.dev/design
+- **Rendering:** local CLI (`init`, `lint`, `check`, `snapshot`, `preview`, `render`, `publish`, `doctor`), HeyGen-hosted `cloud render`, and AWS Lambda rendering (`lambda deploy / render`) — the "single-machine today" row in the Remotion table above is out of date
+- Native Mac and Linux app, a Studio and a Playground; Codex plugin ZIP packaging (`dist/hyperframes-plugin.zip`, 100 MB Codex limit)
 
 ## Example composition
 

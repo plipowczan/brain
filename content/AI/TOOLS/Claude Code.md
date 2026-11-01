@@ -70,5 +70,8 @@ Framework [claude-piv-skeleton](https://github.com/plipowczan/claude-piv-skeleto
 - [[oh-my-pi]] — open-source terminal coding agent with a different tool surface (hashline edits, LSP and debugger wired in)
 - [[Meme Generation for Coding Agents]] — research on a skill or MCP that lets Claude Code make memes: an own skill on Satori, Stop-hook reactions, mods as phase 2
 
+- [[External Triggers for Claude Code]] — research on firing Claude Code from webhooks when the PC may be off
+- [[OpenRig]] — runs Claude Code and Codex as one persistent YAML-defined team
+- [[billion-context]] — proxy that lets the model compress and restore its own context
 ---
 Template: [[templates/tool]]

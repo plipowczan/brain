@@ -164,5 +164,6 @@ Practical advice from the video: **set hard financial limits**, or run **local m
 - [[Claude Code]] — the coding agent tested (and its Git work-tree workflow)
 - [[Agentic Systems]] — my running map of multi-agent architecture
 
+- [[OpenRig]] — tmux-based manager for persistent multi-agent teams
 ---
 Template: [[templates/knowledge_note_info]]
