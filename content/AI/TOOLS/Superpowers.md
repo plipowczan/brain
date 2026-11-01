@@ -83,6 +83,7 @@ Warning: the rigor is literal — "discards code written before the tests". You 
 - **[[Karpathy Skills]]** — minimal methodology in 1 CLAUDE.md; Superpowers is a complete stack
 - **[[Archon]]** — YAML workflow engine + worktrees; Superpowers stays in native skills + standard git
 - **[[Agent Skills]]** standalone — just the skills, no enforced methodology
+- **[[Elephant-Goldfish Model (EGM)]]** — Google's design-first plugin; narrower (brainstorm → design doc → review) but stricter about the review: it refuses to run without zero-context subagents
 
 ## 🔗 Resources
 

@@ -99,6 +99,7 @@ That split is exact and useful: OpenSpec leaves untouched code undocumented (the
 - [[Spec-Driven + Self-Documenting]] — synthesis article: the two axes of agent context engineering
 - [[Career-Ops]] — a shipped tool using the single-`AGENTS.md` + per-CLI-wrapper pattern
 - [[OpenWiki]] — the automated counterpart: an LLM regenerates a code wiki on a schedule and wires it into `AGENTS.md`/`CLAUDE.md`
+- [[Elephant-Goldfish Model (EGM)]] — `egm-bootstrap` builds the same kind of tree bottom-up as READMEs, and `egm-drift-report` audits docs against code weekly
 - [[Jev Engineering for Coding Agents]] — argues for *conditional* AGENTS.md sections (a footguns file per subdirectory, reloaded whenever its condition holds, immune to compaction)
 
 ---

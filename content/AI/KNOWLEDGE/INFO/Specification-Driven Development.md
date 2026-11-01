@@ -37,6 +37,7 @@ Also known as **SDD** (Specification-Driven Development). The **OpenSpec** frame
 [[DOX — Self-Documenting AGENTS.md]] — complementary: SDD specifies *changes* (time), DOX maps *existing code* (space)
 [[Spec-Driven + Self-Documenting]] — synthesis of the two axes
 [[AI-Native SDLC Playbook]] — Anthropic's org-scale version of the same chain: intent.md → spec.md → plan.md, each committed, each commit triggering the next stage
+[[Elephant-Goldfish Model (EGM)]] — Google's open-source SDD plugin: a deep-context agent drafts the spec, zero-context subagents review it, the human approves before any code
 
 ---
 Template: [[templates/knowledge_note_info]]

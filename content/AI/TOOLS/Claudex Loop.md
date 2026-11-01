@@ -76,6 +76,7 @@ Pass e.g. `rounds=3` when invoking to override.
 ## Alternatives considered
 - **Plan mode alone** — same model writes and grades; that's the echo chamber this exists to break.
 - **[[Superpowers]] brainstorming / spec-first skills** — great at *reaching* a plan, but the plan is still single-model. Claudex Loop is the adversarial layer you bolt on after.
+- **[[Elephant-Goldfish Model (EGM)]]** — Google's plugin breaks the echo chamber by *context* rather than by *model*: same model, but reviewers are fresh subagents with no conversation history and named lenses. Complementary; a zero-context reviewer from another model family gets both.
 - **Manual "ask another model"** — works, but nothing accumulates: no session memory of prior findings, no arbitration log, no bounded convergence.
 
 Predecessors: this repo *was* `grill-me-codex`, then `crucible`; GitHub redirects the old URLs and the old skills live in [`legacy/`](https://github.com/chaseai-yt/claudex-loop/blob/main/legacy). Act 1 of the legacy skills is © [Matt Pocock](https://github.com/mattpocock/skills) (MIT); phase 3's Codex-as-builder pattern is adapted from Peter Steinberger's [`codex-first`](https://github.com/steipete/agent-scripts).
