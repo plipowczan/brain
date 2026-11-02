@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-02T16:10:36Z
+updated: 2026-11-02T17:41:45Z
 entries: 431
 ---
 # Note Catalog
@@ -84,7 +84,7 @@ entries: 431
 - **TTS Engines Comparison (Polish)** | compiled-note | 2026-06-04 | [research, compiled, ai, tts, voice, polish] | 19 TTS engines compared for Polish quality and cost; Azure (MOS-backed) wins quality, Polly wins price. | → Voicebox, VAPI, AI Chatbots Architecture, Deep-Research-skills, AI Voice Recorders for Meetings (Polish)
 - **External Triggers for Claude Code** | compiled-note | 2026-11-01 | [knowledge, info, ai, claude-code, webhooks, automation, agents, research, compiled] | Deep research on 30 ways to trigger Claude Code or the Desktop Code tab from outside on Windows when the URL changes and the PC may be off — no first-party answer; stable ingress plus outbound poller wins | → Claude Code Mods (RoboNuggets), Hermes Agent, n8n, Claude Code, Loop Engineering, Claude Peers MCP, AI Agent Security
 - **Voice Studio — Free ElevenLabs Alternative (Maitis)** | knowledge-note | 2026-11-02 | [knowledge, info, ai, tts, voice-cloning, open-source, local, claude-code, dubbing] | Maitis demo: free local ElevenLabs alternative (cloning, voice design, dubbing) installed by Claude Code; unverified claims | → AI/TOOLS/Voicebox, AI/TOOLS/ElevenLabs, AI/KNOWLEDGE/INFO/TTS Engines Comparison (Polish), AI/TOOLS/Chatterbox TTS, AI/TOOLS/Claude Code, templates/knowledge_note_info
-- **How to Be More Ambitious with Models (Felix Rieseberg)** | knowledge-note | 2026-11-02 | [knowledge, info, ai, claude, prompts, agents, multi-agent, verifiability, red-teaming, methodology, psychology, ambition] | Felix Rieseberg (Anthropic): aim higher with models via altitude, depth and range, and always an outside judge | → Loop Engineering, Harness Engineering, Karpathy Method, Elephant-Goldfish Model (EGM), 40 AI Prompts for Expert Output, DELEGATE-52, External Triggers for Claude Code, Claudex Loop, Agentic Engineering, Software 3.0, templates/knowledge_note_info
+- **How to Be More Ambitious with Models (Felix Rieseberg)** | knowledge-note | 2026-11-02 | [knowledge, info, ai, claude, prompts, agents, multi-agent, verifiability, red-teaming, methodology, psychology, ambition] | Felix Rieseberg (Anthropic): aim higher with models via altitude, depth and range, and always an outside judge; includes a draft make-it-deeper skill and a Locke/Latham/self-efficacy background | → The One Thing, Atomic habits, Skill Authoring Best Practices, Loop Engineering, Harness Engineering, Karpathy Method, Elephant-Goldfish Model (EGM), 40 AI Prompts for Expert Output, DELEGATE-52, External Triggers for Claude Code, Claudex Loop, Agentic Engineering, Software 3.0, templates/knowledge_note_info
 
 ## AI/NOTES
 - **Hackathon Hacknation** | basic-note | 2025-12-12 | [basic, notes, hackathon, ai, govtech] | 24h hackathon building budget system with AI — lessons on validation, AI limitations, team dynamics | → Claude Code, Agentic Coding
@@ -223,7 +223,7 @@ entries: 431
 - **The 48 Laws of Power** | book-note | 2026-09-09 | [book, power, strategy, psychology, business] | Greene's amoral catalogue of power tactics drawn from 3000 years of history — most useful read defensively, as a description rather than a manual. | → 146cb40faa7a7b005302aa86a7034f34_MD5.png, The Leader In You, Conference Talk Craft, 12 Rules for Life, templates/book
 - **The Inevitable** | book-note | 2023-01-08 | [book, inevitable, technology, future] | Kevin Kelly's 12 technological megatrends shaping economics, social relations, and ownership culture. | → 6 life tips from Kevin Kelly, AI Trends 2026, Software 3.0, Sapiens. A Brief History of Humankind
 - **The Leader In You** | book-note | 2026-09-09 | [book, leadership, communication, self-development, business] | Carnegie on leadership as relationship work: listen properly, motivate through shared purpose, admit mistakes first, and balance work with rest. | → e4467b44d91c92360ede56bf7f42772e_MD5.png, The Art of Public Speaking, Conference Talk Craft, Dopamine Detox, Atomic habits, templates/book
-- **The One Thing** | book-note | 2022-09-16 | [book] | Gary Keller's method: identify one goal, break it into daily steps, use counterbalance not work-life balance. | → Eisenhower Matrix, Atomic habits, Principles
+- **The One Thing** | book-note | 2022-09-16 | [book] | Gary Keller's method: identify one goal, break it into daily steps, use counterbalance not work-life balance. | → Eisenhower Matrix, Atomic habits, Principles, How to Be More Ambitious with Models (Felix Rieseberg)
 
 ## BUSINESS/KNOWLEDGE/HOWTO
 - **Contact a client** | knowledge-note | 2022-12-12 | [knowledge, howto] | Step-by-step follow-up strategy for re-engaging clients: reminders, personalisation, and timing guidelines. | → Autonomous Sales Agent Playbook, LinkedIn Strategy, Build in Public, templates/knowledge_note_how_to

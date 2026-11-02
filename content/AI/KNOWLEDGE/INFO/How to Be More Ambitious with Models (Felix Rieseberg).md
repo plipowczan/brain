@@ -10,6 +10,7 @@ source_url: "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-
 author: "Felix Rieseberg"
 published: 2026-10-13
 agent-created: true
+agent-reviewed: 2026-11-02
 summary: "Felix Rieseberg (Anthropic) on using models more ambitiously along four axes: speed, altitude (outcomes over tasks), depth (a top professional's standard, raw data, an outside judge) and range (more fields, a crew, a red team), plus the self-efficacy research behind aiming higher."
 ---
 
@@ -78,6 +79,33 @@ Before you do this task, rewrite my prompt so it asks for a deeper version of it
 Then give me the rewritten prompt that asks for exactly that.
 ```
 
+### Skill draft: `make-it-deeper`
+
+A candidate skill that wraps the prompt above and pairs it with an outside judge, so the "unreasonable goal" rule never runs unchecked. Follows the conventions in [[Skill Authoring Best Practices]] (short body, one level deep, test it with an A/B run before trusting it).
+
+```markdown
+---
+name: make-it-deeper
+description: Use before any non-trivial task when the user says "go deeper", "make it ambitious", "do this like a top professional", or hands over a task that looks like a template fill. Rewrites the request into a deeper version and attaches an outside judge.
+---
+
+# Make it deeper
+
+1. Rewrite the user's request so it asks for a deeper version, not a bigger one:
+   - what a top professional in this field would do that was not asked for
+   - the rawest source material they would start from
+   - the specific methods and tools they would use
+   - what, other than the user's or your own judgment, shows the result is correct
+2. Show the rewritten prompt in two or three lines and proceed unless the user objects.
+3. Do the work as the professional would, with tools and data, not in their voice.
+4. Before reporting, run the outside judge from step 1 (test, validator script, or a zero-context reviewer subagent). Report what it said, including failures.
+```
+
+- **When to use:** work that would normally take meetings, template-shaped tasks (reports, decks, analyses), and anything with raw data available. Skip it for quick lookups and for creative work, where Rieseberg says altitude fits poorly.
+- **Judge options, cheapest first:** a runnable check (tests, schema validation, a script that recomputes the numbers); a zero-context reviewer subagent as in [[Elephant-Goldfish Model (EGM)]]; a second model via [[Claudex Loop]]. If none of the three exists for the task, the skill should say so and lower the claim instead of asserting correctness.
+- **Guard against persona drift:** step 3 says "do", not "write like". Do not add role-play lines to the skill.
+- **Status:** a draft only. It is not installed in `.claude/skills/`. Before installing, compare outputs with and without it on two real tasks.
+
 ## 🧩 Range: more fields than you would staff
 
 Multi-agent setups (threads, orchestrators, subagents) make it cheap to bring in disciplines you would never have paid for, and he has seen good results from simply asking Claude to pull in more fields.
@@ -102,6 +130,16 @@ The second half argues that the limit is self-belief, and that this is an old pr
   - *Seeing someone else do it.* Roger Bannister broke the four-minute mile in May 1954 and held it alone for only 46 days. Rieseberg thinks the two-hour marathon is following the same pattern: Sabastian Sawe ran the first official sub-two in London in April 2026, and the runner-up also went under two hours in the same race.
   - *Permission to fail.* *The Inner Game of Tennis*, whose core idea is that trying very hard can make you play worse, and Linux, which Torvalds announced as a hobby project.
 - **Closing:** self-efficacy is old, but it matters more now that capability moves every few weeks. He asks readers to send him their own techniques.
+
+### Background: Locke, Latham and self-efficacy
+
+Added on enhance. Rieseberg only name-drops these, so this is the short version of what they are. It comes from general knowledge, not from a source I checked in this session, and the vault had no note on either.
+
+- **Self-efficacy** is Albert Bandura's term (1977) for your belief that you can pull off a specific task. It is task-specific, not general confidence, which is why Michelangelo could be a master sculptor and still doubt himself as a painter. Bandura names four sources: past successes, watching others succeed (the Bannister effect above), encouragement, and your physical and emotional state.
+- **Goal-setting theory** is Edwin Locke and Gary Latham's finding that specific, difficult goals produce higher performance than "do your best" or easy goals. Their 2002 review is the "35-year odyssey" Rieseberg cites. Five conditions make it work: goal clarity, challenge, commitment, feedback, and task complexity (on very complex tasks, learning goals beat raw performance goals).
+- **Why they connect:** people with higher self-efficacy set harder goals and hold to them. A hard goal raises effort only if you believe it is reachable, which is the same loop as Dantzig mistaking open problems for homework.
+- **What transfers to prompting, and what is my inference:** "specific and hard" maps onto asking for a 200 ms load time and a named statistical model. "Feedback" maps onto his outside judge. "Commitment" and "complexity" are my reading; neither is tested for people prompting models.
+- **Related in the vault:** [[The One Thing]] (one specific goal, broken into daily steps) and [[Atomic habits]] (small wins as the source of self-belief) cover the human side. Neither uses these terms.
 
 ## 🔍 Claim check
 

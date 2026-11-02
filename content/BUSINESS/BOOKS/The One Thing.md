@@ -44,3 +44,4 @@ Key takeways:
 - [[Eisenhower Matrix]]
 - [[Atomic habits]]
 - [[Principles]]
+- [[How to Be More Ambitious with Models (Felix Rieseberg)]]: the research on specific, hard goals and self-efficacy behind this kind of goal-setting
