@@ -50,6 +50,6 @@ ElevenLabs is the **first tier** in [[Travelcast AI]]'s TTS fallback chain — i
 - 🗣️ [Voice cloning](https://elevenlabs.io/voice-cloning)
 - 🔊 [TTS API](https://elevenlabs.io/docs/capabilities/text-to-speech)
 - 📊 [[TTS Engines Comparison (Polish)]] — provider comparison
-
+- [[Voice Studio — Free ElevenLabs Alternative (Maitis)]] — a YouTube demo of a free local alternative (cloning, voice design, dubbing); repo not yet identified
 ---
 Template: [[templates/tool]]

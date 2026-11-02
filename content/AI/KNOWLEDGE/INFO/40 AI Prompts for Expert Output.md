@@ -50,6 +50,7 @@ Six categories, 40 prompts. Each prompt is a parametrized template with rules, s
 - [[Claude Code Best Practice]] — operational prompts inside Claude Code
 - [[Building Claude Skills Guide]] — packaging reusable prompts as skills
 - [[Awesome Claude Code]] — curated CC resources
+- [[How to Be More Ambitious with Models (Felix Rieseberg)]] — a counterpoint: persona prompts tend to change the model's vocabulary, not its method; ask it to do what the expert does instead
 
 ## 📖 Further reading
 

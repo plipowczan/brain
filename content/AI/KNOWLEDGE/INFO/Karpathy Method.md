@@ -91,5 +91,6 @@ The spec and verifier need somewhere to live — the workshop. Most people rebui
 - The [[Agentic Engineering|original Karpathy @ Sequoia interview]] the three layers are drawn from
 
 - [[Super Brain]] — a ready-made Karpathy-style vault for product builders, with project and profile layers
+- [[How to Be More Ambitious with Models (Felix Rieseberg)]] — the verifier layer as "use an outside judge", one of five depth techniques for aiming higher with models
 ---
 Template: [[templates/knowledge_note_info]]

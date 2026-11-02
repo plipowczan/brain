@@ -62,6 +62,6 @@ Local voice cloning for personal projects, dictation across all apps, giving any
 - [[Hermes Agent]] — agent that benefits from spoken output
 - [[AI Voice Recorders for Meetings (Polish)]] — meeting-recorder hardware vs local Whisper; the same keep-audio-local argument for client conversations
 - [[Paperclip]] — agent orchestration
-
+- [[Voice Studio — Free ElevenLabs Alternative (Maitis)]] — a YouTube demo of another free local ElevenLabs alternative (cloning, voice design, dubbing); repo not yet identified
 ---
 Template: [[templates/tool]]

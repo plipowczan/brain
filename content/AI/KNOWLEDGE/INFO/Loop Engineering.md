@@ -84,6 +84,7 @@ Cole's experimental [[Second Brain Design|second-brain]]-oriented loop dashboard
 - [[Context Engineering]] — why single-session loops poison context
 - [[HOMER — Structured Agent Memory]] — a self-improving memory-construction loop ("loop engineering" coined here)
 - [[4 Claude Code Upgrades for Making Money (Nate Herk)]] — `/goal` + parallel subagents applied to a business build
+- [[How to Be More Ambitious with Models (Felix Rieseberg)]] — "altitude": asking for the outcome (keep the apps crash-free) and building the environment that lets the loop run without you
 
 ---
 Template: [[templates/knowledge_note_info]]

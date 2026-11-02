@@ -169,6 +169,7 @@ Also: EGM's skills and reviewer prompts are tuned for **software design docs**. 
 - [[AI-Native SDLC Playbook]] — Anthropic's intent → spec → plan chain with human gates
 - [[Agent Skills]] — the SKILL.md format EGM ships in
 - [[Context Engineering]] — why an empty context is a feature for a reviewer
+- [[How to Be More Ambitious with Models (Felix Rieseberg)]] — the general rule behind the goldfish: never let the model grade its own work, and give a red team jobs rather than personas
 
 ---
 Template: [[templates/knowledge_note_info]]
