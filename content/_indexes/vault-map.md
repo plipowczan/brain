@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-01T20:00:00Z
+updated: 2026-11-02T06:04:16Z
 total_notes: 429
 ---
 # Vault Map
@@ -11,7 +11,7 @@ total_notes: 429
 | ABOUT/HABITS | 1 | basic-note(1) | habits, exercises, walking |
 | ABOUT/Roles | 8 | basic-note(8) | about, automation, integration, developer, architect |
 | AI/KNOWLEDGE/HOWTO | 4 | knowledge-note(4) | knowledge, howto, ai, claude-code, mcp |
-| AI/KNOWLEDGE/INFO | 46 | knowledge-note(40), compiled-note(6) | ai, knowledge, info, agents, context-engineering |
+| AI/KNOWLEDGE/INFO | 46 | knowledge-note(40), compiled-note(6) | ai, knowledge, info, agents, coding-agents |
 | AI/NOTES | 1 | basic-note(1) | basic, notes, hackathon, ai, govtech |
 | AI/TOOLS | 125 | tool(125) | tool, ai, open-source, claude-code, coding-agents |
 | BUSINESS/BOOKS | 7 | book-note(7) | book, business, entrepreneurship, millionaire, power |
@@ -21,12 +21,12 @@ total_notes: 429
 | BUSINESS/TOOLS | 14 | tool(14) | tool, automation, integration, database, sales |
 | CODE/KNOWLEDGE/HOWTO | 9 | knowledge-note(8), compiled-note(1) | knowledge, howto, ai, claude-code, vibe-coding |
 | CODE/KNOWLEDGE/INFO | 5 | knowledge-note(3), compiled-note(2) | knowledge, info, ai, rag, chatbots |
-| CODE/TOOLS | 44 | tool(44) | tool, frontend, ai, open-source, framework |
+| CODE/TOOLS | 44 | tool(44) | tool, open-source, ai, frontend, typescript |
 | CRYPTO/KNOWLEDGE/INFO | 4 | knowledge-note(4) | knowledge, info, crypto, bitcoin, investment |
 | CRYPTO/NOTES | 8 | basic-note(5), knowledge-note(2), compiled-note(1) | crypto, investment, project, analysis, basic |
 | INVESTMENTS | 1 | compiled-note(1) | investments, strategy, asset-allocation, psychology, risk-management |
 | INVESTMENTS/BOOKS | 2 | book-note(2) | book, investments, value-investing, strategy, stocks |
-| INVESTMENTS/KNOWLEDGE/INFO | 6 | knowledge-note(6) | knowledge, info, investments, psychology, asset-allocation |
+| INVESTMENTS/KNOWLEDGE/INFO | 6 | knowledge-note(6) | knowledge, info, investments, stocks, psychology |
 | KNOWLEDGES/QUOTES | 8 | quote(5), quote-note(2), knowledge-note(1) | quote, franklin, eisenhower, parkinson, knowledge |
 | LIFE/BOOKS | 14 | book-note(14) | book, self-development, psychology, notes, learning |
 | LIFE/KNOWLEDGE/HOWTO | 6 | knowledge-note(6) | knowledge, howto, delegation, mind-map, info |
