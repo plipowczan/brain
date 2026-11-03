@@ -67,6 +67,7 @@ Two features I'd use immediately:
 - 🔗 [Releases / changelog](https://github.com/stablyai/orca/releases) · [Discord](https://discord.gg/fzjDKHxv8Q)
 - 📖 Related: [[herdr]] · [[Claude Code]] · [[Cursor]] · [[Swarm Research — Orchestrating Coding Agents]] · [[Agentic Coding]] · [[OmniRoute]]
 - 📖 [[AI-Native SDLC Playbook]]: the "parallel sessions and subagents" play (2–3 sessions in separate worktrees, add more only while review keeps up), which is the workflow Orca packages
+- 📖 [[Two-Slice Teams — Git and Code Review After Agents (Przeprogramowani)]]: worktrees isolate agents on one machine, but merge collisions between people need module ownership
 - 📖 [[AI Software Factory]]: the opposite end of the spectrum. Orca keeps a human reviewing every diff; the factory merges behind verification gates nobody watches.
 - 🗂️ Re-clipped source: `_raw/processed/2026-10-01_stablyaiorca Orca is the ADE for working with a fleet of parallel agents.md`
 

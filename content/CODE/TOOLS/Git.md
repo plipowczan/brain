@@ -34,6 +34,7 @@ Git won on ubiquity: every host, CI system, and coding agent assumes it.
 ## Resources
 - [Pro Git book (free)](https://git-scm.com/book/en/v2)
 - Paired editor: [[Visual Studio Code]]
+- [[Two-Slice Teams — Git and Code Review After Agents (Przeprogramowani)]]: why Anthropic replaced Git with Scion once its monorepo passed 30,000 merges a day, and why the real fix for agent merge conflicts is module ownership
 
 ---
 Template: [[templates/tool]]

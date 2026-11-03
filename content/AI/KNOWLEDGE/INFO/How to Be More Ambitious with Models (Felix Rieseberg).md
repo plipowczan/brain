@@ -169,6 +169,7 @@ Added on enhance. Rieseberg only name-drops these, so this is the short version 
 - [[DELEGATE-52]]: what delegated work looks like with no outside judge
 - [[40 AI Prompts for Expert Output]]: the persona-prompt style the "do, don't write like" caution pushes against
 - [[Software 3.0]]: sell the outcome, the business version of altitude
+- [[Two-Slice Teams — Git and Code Review After Agents (Przeprogramowani)]]: Google Labs' backlog of "almost possible" tasks, re-checked on every model release
 
 ---
 Template: [[templates/knowledge_note_info]]

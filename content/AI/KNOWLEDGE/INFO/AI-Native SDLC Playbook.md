@@ -110,6 +110,7 @@ The most concretely useful block in the course is a managed-settings policy, pus
 - Clipped copy: [yibie/ai-native-sdlc-playbook — book.md](https://github.com/yibie/ai-native-sdlc-playbook/blob/main/book.md)
 - The course's own reading order for platform teams: Claude Code org setup → settings reference and managed-only keys → permissions → sandboxing → hooks → skills → plugins and private marketplaces → managed MCP → enterprise deployment (Bedrock, Vertex AI, Foundry) → OpenTelemetry monitoring → Compliance API
 - [[AI Software Factory]]: the closed loop, open source
+- [[Two-Slice Teams — Git and Code Review After Agents (Przeprogramowani)]]: Imprint's small-change rule, a concrete gate for merging without a second human, and two-slice teams as the org-level answer to parallel agents
 
 ---
 Template: [[templates/knowledge_note_info]]
