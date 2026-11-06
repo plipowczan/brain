@@ -16,6 +16,8 @@ summary: "Personal reading list of books yet to read, with links to Obsidian not
 - [ ] [[LIFE/BOOKS/Atomic habits]]
 - [ ] [[BUSINESS/BOOKS/Millionaire Fastlane]]
 - [ ] [[LIFE/BOOKS/Design Your Future]] - Brian Tracy
+- [ ] [[LIFE/BOOKS/Mastering Your Hidden Self]] - Serge Kahili King (PL: „Bądź mistrzem ukrytego ja”, Kos 2003)
+- [ ] [[LIFE/BOOKS/Secrets of the Lost Mode of Prayer]] - Gregg Braden (PL: „Tajemnice zagubionej modlitwy”, Studio Astropsychologii 2009)
 
 [[ABOUT/How i read books]]
 

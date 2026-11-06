@@ -77,5 +77,8 @@ Changed electronic task creation to paper schedule. Each task in schedule is wor
 
 We can introduce a rule from this podcast ex. give 5 USD from which 3 they can spend 1 share with others and 1 save for later. 
 
+## See also
+- [[Octalysis (Yu-kai Chou)]] — this system read through the gamification lens: it runs on money, loss and scarcity drives; the research says paid rewards hurt kids' intrinsic motivation most, so pay for chores, not for reading or music
+
 
 

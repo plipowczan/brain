@@ -55,3 +55,4 @@ My solo consulting practice (Jednoosobowa Dzialalnosc Gospodarcza), operating si
 - [[Qamera AI]] — my product company (separate entity)
 - [[agentic-ai-private]] — agent system + context for PLSoft + personal scope
 - [[Agentic AI Repos]] — full 3-repo architecture
+- [[MACH Architecture]] — when composable/headless fits a client, and when it's overkill
