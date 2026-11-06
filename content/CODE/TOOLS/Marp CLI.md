@@ -7,6 +7,7 @@ tags: ["tool", "presentation", "markdown", "cli", "slides"]
 type: tool
 source: "_raw/inbox/marp-teammarp-cli A CLI interface for Marp and Marpit based converters.md"
 agent-created: true
+agent-reviewed: 2026-11-06
 summary: "CLI dla Marp/Marpit — konwersja Markdown → HTML/PDF/PPTX/PNG, watch & server mode"
 ---
 # Marp CLI
@@ -131,6 +132,18 @@ const exitStatus = await marpCli(['deck.md', '--pdf'])
 ## ✍️ Reasoning for
 
 To jest właściwy entry point do całego ekosystemu. Skill `create-marp-deck` pod spodem woła Marp CLI, więc znajomość flag i config file pozwala mi tunować output bez modyfikacji skilla. `--pdf-outlines` + `--pdf-notes` są kluczowe gdy oddaję deck klientowi w PDF.
+
+## ✅ Verified export behaviour (CLI 4.5.1 / Core 4.4.0, 2026-11-06)
+
+Checked on the installed toolchain during the public-speaking research; the consequences for slide
+design are in [[Slides for Technical Talks]].
+
+- `*` lists build item by item **only in the HTML deck**. The PDF shows every item at once.
+- Fence line-highlight attributes such as `{2}` are silently ignored, and a mermaid fence renders as plain
+  code (native Mermaid is Core v5, still a release candidate).
+- An SVG added as an image stays vector in the PDF with searchable text. The PDF itself is untagged.
+- `--pdf-notes` and `--pptx` carry presenter notes, `--pptx-editable` does not. A `<video>` slide needs `poster=`.
+- A project-local Core v5 is picked up by the CLI automatically, so pinning the CLI does not pin the core.
 
 ## 🔗 Resources
 

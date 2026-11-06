@@ -6,7 +6,7 @@ openToc: true
 tags: ["knowledge", "info", "public-speaking", "presentation"]
 type: knowledge-note
 agent-created: true
-agent-reviewed: 2026-09-09
+agent-reviewed: 2026-11-06
 summary: "Audit of my own talk preparation across a series of talks — a retrospective without an extracted artefact changes nothing, and prep effort drifts to the deck."
 ---
 
@@ -88,15 +88,20 @@ Two standing artefacts now exist outside any single event's folder: a reusable o
 with the hard-won rules attached, and a standing answer to the question that returns at every
 talk and every sales call. Each is written to be filled in, not read and admired.
 
-The third piece is still missing: **a post-talk retrospective with an actual rubric**, run while
-the talk is fresh, whose output is an artefact rather than a list of intentions. That is an
-outstanding research item, and the honest test of it will be whether talk four starts from
-something instead of from nothing.
+The third piece was missing: **a post-talk retrospective with an actual rubric**, whose output is an
+artefact rather than a list of intentions. It is now researched — see [[Practising and Reviewing Talks]]:
+a hot pass within two hours (a short form and a ten-minute voice memo), a cold pass two to seven days
+later scored against a rubric with written anchors, and at most two action items. The usual reason for
+the hot pass, "feedback is more accurate while fresh", turned out not to hold; the reasons that do are
+that detail decays and that a late retrospective is one that never happens. From the finding above, each
+action item also needs a home outside the event's folder. It is designed, not yet used: the honest test
+is still whether talk four starts from something instead of from nothing.
 
 ## 📖 Further reading
 
 - [[Conference Talk Craft]] — the researched playbook, with the evidence graded
 - [[Public Speaking]] — hub note for the whole cluster
+- [[Practising and Reviewing Talks]] — the retrospective, signature-talk and reuse items this note was waiting for
 - [[The Art of Public Speaking]] — Carnegie on the drills; the emphasis exercise is the portable one
 - [[TED Talks]] — Anderson on scripting being a per-speaker question, not a rule
 - [[Atomic habits]] — the same "make it obvious" failure, applied to systems rather than habits

@@ -6,8 +6,8 @@ openToc: true
 tags: ["knowledge", "info", "public-speaking", "presentation"]
 type: knowledge-note
 agent-created: true
-agent-reviewed: 2026-09-09
-summary: "Hub for speaking craft — the researched playbook, the two canonical books, and where they agree and contradict each other."
+agent-reviewed: 2026-11-06
+summary: "Hub for speaking craft — the researched playbook in five notes, the two canonical books, and where they agree and contradict each other."
 ---
 
 # Public Speaking
@@ -26,7 +26,11 @@ The material here is cut for that, not for professional speaking.
 
 | Note | What it covers |
 |---|---|
-| [[Conference Talk Craft]] | The researched playbook: 27 techniques ordered by when they happen, with the evidence behind each one graded. Start here for anything operational. |
+| [[Conference Talk Craft]] | The researched playbook, wave 1: 27 techniques ordered by when they happen, with the evidence behind each one graded. Start here for anything operational. |
+| [[Talk Narrative and Structure]] | Wave 2: 11 techniques for deciding what the talk is for and in what order — throughline, audience outcome, archetypes, SCQA, signposting. |
+| [[Slides for Technical Talks]] | Wave 2: 14 slide techniques — assertion-evidence, code on slides, diagram builds, legibility, accessibility — each checked against what survives a Marp PDF export. |
+| [[Delivery and Stage Operations]] | Wave 2: 11 techniques for the day itself — voice, body, nerves, recovery, stage tech, question channel, moderator contract, demo reset, room recon, backup kit. |
+| [[Practising and Reviewing Talks]] | Wave 2: 11 techniques around the talk — spaced rehearsal, self-review, dry run, clubs, retrospective, signature talk, reuse, abstract, ethics, Polish/English layer. |
 | [[TED Talks]] | Chris Anderson. The idea is the payload; trust before content; the five-step explanation ladder. |
 | [[The Art of Public Speaking]] | Dale Carnegie, 1915. Emphasis and monotony, gesture from real feeling, the voice as a trained instrument, and an eight-question argument test. |
 | [[What Carries Over Between Talks]] | Audit of my own preparation across a series of talks: the lessons get re-solved instead of banked, and the effort drifts to the deck. |
@@ -66,7 +70,9 @@ Roughly a third of the standard advice in this field is a sound practice attache
 justification — the ten-minute attention rule, Mehrabian's 7-38-55 ratio, power posing, the recency
 effect as a reason to close after Q&A. Both books above repeat at least one of these in passing.
 [[Conference Talk Craft]] carries the full list with sources, and the practices mostly survive once
-the wrong reason is removed.
+the wrong reason is removed. The four wave-2 notes repeat the exercise: each has a "sound practice,
+wrong justification" table, and the gaps they could not close are named instead of filled — for
+example, my own speaking tempo in Polish is still open in [[Practising and Reviewing Talks]].
 
 ## 📖 Further reading
 

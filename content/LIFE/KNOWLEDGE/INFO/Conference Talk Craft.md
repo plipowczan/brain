@@ -7,8 +7,8 @@ tags: ["knowledge", "info", "public-speaking", "presentation", "slides", "resear
 type: compiled-note
 source: "_raw/processed/2026-09-08-research-wystapienia-publiczne-prelekcje.md"
 agent-created: true
-agent-reviewed: 2026-09-09
-summary: "Researched playbook for a 25-minute technical talk — 27 techniques ordered by when they happen, with the evidence behind each one graded."
+agent-reviewed: 2026-11-06
+summary: "Researched playbook for a 25-minute technical talk — 27 techniques ordered by when they happen, with the evidence behind each one graded. Wave 2 lives in four sibling notes."
 ---
 
 # Conference Talk Craft
@@ -24,8 +24,10 @@ The material is cut for a practitioner who speaks occasionally because they buil
 explaining — not a professional speaker. It assumes Polish delivery to a technical audience,
 markdown-based slides ([[Marp]]), and roughly 25 minutes plus 5 minutes of questions.
 
-This is wave 1 of the research. A second wave covering slide design, code on slides, narrative
-structure and accessibility is outstanding. The full field-by-field data and the source list live
+This is wave 1 of the research. Wave 2 (47 more techniques, closed 2026-11-06) is split into four
+notes: [[Talk Narrative and Structure]], [[Slides for Technical Talks]],
+[[Delivery and Stage Operations]] and [[Practising and Reviewing Talks]]. Where wave 2 corrected
+something here it is edited in place and marked. The full field-by-field data and the source list live
 in the workspace under `_raw/research-workspaces/wystapienia-publiczne-prelekcje/`.
 
 ## 🧩 The techniques, in the order they happen
@@ -112,7 +114,9 @@ Also debunked and worth not repeating: milk causes mucus, menthol lozenges sooth
   94 tests and over 8,000 participants. Committing to *how many* run-throughs, of what type and when,
   outperforms knowing you should rehearse.
 - **Assertion-Evidence slides** (Alley) — one of very few slide formats with comprehension and recall
-  data behind it.
+  data behind it. *Wave 2 narrowed this:* the experiments are classroom comparisons run almost entirely
+  by one group, and the one independent study supports only the cognitive-load part — see
+  [[Slides for Technical Talks]].
 - **Face-reading cannot carry "reading the room"** — Barrett et al. 2019 and Savitsky & Gilovich 2003.
   Route diagnosis through pre-talk observation, one counted probe, and coarse behavioural signals.
 
@@ -126,7 +130,8 @@ version of the whole talk, distributed) are two different patterns, frequently m
 
 ## 🔧 Tooling reality
 
-Verified empirically on Marp CLI v4.4.1 / Core v4.3.1 rather than read from documentation:
+Verified empirically rather than read from documentation, first on Marp CLI v4.4.1 / Core v4.3.1 and
+re-checked on **CLI v4.5.1 / Core v4.4.0 on 2026-11-06** with no change in any behaviour below:
 
 - `*` and `n)` fragments emit `data-marpit-fragment` in HTML and **flatten silently in PDF** — every
   item lands on one page, no warning. Load-bearing reveals must become separate slides.
@@ -134,7 +139,10 @@ Verified empirically on Marp CLI v4.4.1 / Core v4.3.1 rather than read from docu
   with no image. **`poster=` embeds that frame** and removes the empty player.
 - `--pdf-notes` attaches presenter notes as PDF annotations; `--notes` writes a separate text file;
   `transition:` is HTML-only.
-- Native Mermaid is a Core v5 feature and unavailable on v4. Pre-render diagrams to SVG.
+- Native Mermaid is a Core v5 feature and unavailable on v4 (v5 is still a release candidate). A
+  mermaid fence renders as plain code. Pre-render diagrams to SVG, which stays vector in the PDF.
+- Wave 2 added the rest of the export behaviour — fence highlight attributes ignored, `lang`, presenter
+  view, the untagged PDF — in [[Slides for Technical Talks]].
 
 The practical consequence: if the PDF is your backup *and* the file the organiser receives, design to
 the PDF and treat HTML-only behaviour as decoration.
@@ -142,6 +150,7 @@ the PDF and treat HTML-only behaviour as decoration.
 ## 📖 Further reading
 
 - [[Public Speaking]] — hub note
+- [[Talk Narrative and Structure]] · [[Slides for Technical Talks]] · [[Delivery and Stage Operations]] · [[Practising and Reviewing Talks]] — wave 2
 - [[TED Talks]] — Anderson: the idea is the payload; the five-step explanation ladder
 - [[The Art of Public Speaking]] — Carnegie: emphasis, gesture, voice, and an argument-testing protocol that predates red-teaming by a century
 - [[Marp]], [[Marp CLI]], [[Claude Code Marp Workflow]] — the deck toolchain
