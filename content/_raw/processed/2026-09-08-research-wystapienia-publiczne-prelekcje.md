@@ -104,7 +104,7 @@ the reason, and say so explicitly in the note rather than quietly dropping the m
 
 ### D. Facts verified on this machine — do not re-derive from documentation
 
-Installed toolchain: **Marp CLI v4.4.1 / Core v4.3.1** (note `slides/config.yaml` pins `^3`).
+Installed toolchain: **Marp CLI v4.4.1 / Core v4.3.1**.
 
 - `*` and `n)` fragments emit `data-marpit-fragment` in HTML and **flatten silently in PDF** — all
   items land on one page with no warning.
@@ -114,31 +114,18 @@ Installed toolchain: **Marp CLI v4.4.1 / Core v4.3.1** (note `slides/config.yaml
   `transition:` appears in HTML only.
 - Native Mermaid is a Core v5 claim and is **not available here**. Pre-render diagrams to SVG.
 
-Defects found in `C:\Projects\agentic-ai-private`, all cheap to fix:
+### E. BB4IT facts
 
-- `slides/themes/plsoft-dark.css` defines no `section.video` rule, so `<!-- _class: video -->` is a
-  styling no-op.
-- The NCP4 deck's video slides use `controls autoplay muted`: `autoplay` removes control over when
-  the demo starts, and `muted` (which autoplay requires) will silence a narrated clip.
-- `slides/config.yaml` pins `marp_cli_version: "^3"` against a resolved v4.4.1.
-- Windows Terminal `profiles.defaults` is empty, leaving the stock 12pt against a 14–18pt bold floor
-  for stage demos. (PSReadLine `PredictionSource` is already `None`, so the history-autocomplete leak
-  risk is closed.)
-
-### E. BB4IT facts — the authoritative source is `project.md`, not `brief.md`
-
-`context/plsoft/projects/BB4IT/project.md`, updated 2026-09-08 after reading all nine talk
-descriptions, records:
+Established on 2026-09-08 after reading all nine talk descriptions:
 
 - **Two** talks are explicitly about agents (Wojtyna, Wolny), with two adjacent (Michaluk,
   Rzeszowski). The earlier figure of four was guessed from titles.
 - **State no count of earlier talks from the stage at all** — it is contestable by anyone who sat
   through the day.
 
-`slides/workspace/bb4it/brief.md` still carries the stale "cztery wprost o agentach" and a hook line
-built on it. Twelve occurrences of the stale claim were corrected across six result JSONs on
-2026-09-08, including a ready-made Polish closing line that used *"słyszeliście dziś już cztery
-razy"*. Any opening or closing script in the report must avoid a numeric claim entirely.
+Twelve occurrences of the stale "cztery wprost o agentach" claim were corrected across six result
+JSONs on 2026-09-08, including a ready-made Polish closing line that used *"słyszeliście dziś już
+cztery razy"*. Any opening or closing script in the report must avoid a numeric claim entirely.
 
 ### F. Facts with a short shelf life — re-verify in the week of the talk
 
@@ -881,7 +868,7 @@ Screen recording: OBS Studio, Screen Studio, macOS/Windows built-in capture; asc
 
 **marp_implementation**
 
-Verified in this speaker's own NCP4 deck: a dedicated slide carrying `<!-- _class: video -->` followed by `<video src="./sources/budget-process.mp4" controls autoplay muted></video>`, with the narration held in an HTML-comment presenter note under it. Requires the HTML build path (`/slides:build --html`; Marp needs `--html` to pass raw tags through, and `--allow-local-files` when converting locally referenced media). Two concrete fixes found in the current setup: `section.video` is not defined anywhere in `slides/themes/plsoft-dark.css` (checked 2026-09-08), so the class is presently a styling no-op — add `section.video { padding: 0 } section.video video { width: 100%; height: 100%; object-fit: contain }`; and `autoplay` starts the clip the instant the slide appears, which removes your control over when the demo begins — drop `autoplay`, keep `controls`, and start it deliberately. Note `muted` is what makes autoplay legal in Chrome, so an autoplaying clip with narration audio will be blocked. Also add a DEMO transition slide before the video slide, as the NCP4 deck does, so the audience is told a mode change is coming.
+Verified in this speaker's own NCP4 deck: a dedicated slide carrying `<!-- _class: video -->` followed by a `<video>` element, with the narration held in an HTML-comment presenter note under it. Requires the HTML build path (`/slides:build --html`; Marp needs `--html` to pass raw tags through, and `--allow-local-files` when converting locally referenced media). Two details to get right: the theme must define `section.video`, or the class is a styling no-op — add `section.video { padding: 0 } section.video video { width: 100%; height: 100%; object-fit: contain }`; and `autoplay` starts the clip the instant the slide appears, which removes your control over when the demo begins — drop `autoplay`, keep `controls`, and start it deliberately. Note `muted` is what makes autoplay legal in Chrome, so an autoplaying clip with narration audio will be blocked. Also add a DEMO transition slide before the video slide, as the NCP4 deck does, so the audience is told a mode change is coming.
 
 
 **survives_pdf_export**
@@ -1693,7 +1680,7 @@ Whenever the deck is built with Marp and any of these three are true: the talk w
 
 **evidence_level**
 
-Documented tool behaviour plus direct verification — the strongest evidence level in this whole research set, because it was tested rather than read. Verified locally on 2026-09-08 with Marp CLI v4.4.1 / Core v4.3.1 (the globally installed toolchain, resolving in both this vault and the speaker's slides repo). The maintainer's rationale is a single-maintainer statement, and the design recommendation that follows from the constraint is practitioner judgement, not evidence.
+Documented tool behaviour plus direct verification — the strongest evidence level in this whole research set, because it was tested rather than read. Verified locally on 2026-09-08 with Marp CLI v4.4.1 / Core v4.3.1 (the globally installed toolchain). The maintainer's rationale is a single-maintainer statement, and the design recommendation that follows from the constraint is practitioner judgement, not evidence.
 
 - **myth_status** — confirmed — the constraint is real, current and documented, and it behaves exactly as the documentation says.
 
@@ -1734,7 +1721,7 @@ Indirect but sharp. A load-bearing reveal delivered as a build changes what the 
 
 **application_pl_talk**
 
-Nothing about the export behaviour is language-dependent, but two things about this speaker's setup are. First, the organiser obligation is concrete and dated: the presentation must reach biuro@itwgorach.pl by Friday 11.09 at 14:00, one day before the talk, which means the PDF is finalised while the talk is still being rehearsed — so the design rule has to be applied before that deadline, not on the morning of the conference. Second, the deck is English-language slides with Polish delivery, which raises the cost of flattening specifically: an audience reading a second language reads more slowly and more deliberately, so a fully revealed slide holds their eyes longer and pulls attention away from the Polish narration for longer than it would in a monolingual talk. Build discipline is therefore worth more here, not less. A third, purely local note: `slides/config.yaml` in the speaker's slides repo still pins `marp_cli_version: "^3"` while the resolved toolchain is CLI v4.4.1 with Core v4.3.1 (checked 2026-09-08) — worth reconciling before the 11.09 build, so the file sent to the organiser is produced by the version that was tested.
+Nothing about the export behaviour is language-dependent, but two things about this speaker's setup are. First, the organiser obligation is concrete and dated: the presentation must reach biuro@itwgorach.pl by Friday 11.09 at 14:00, one day before the talk, which means the PDF is finalised while the talk is still being rehearsed — so the design rule has to be applied before that deadline, not on the morning of the conference. Second, the deck is English-language slides with Polish delivery, which raises the cost of flattening specifically: an audience reading a second language reads more slowly and more deliberately, so a fully revealed slide holds their eyes longer and pulls attention away from the Polish narration for longer than it would in a monolingual talk. Build discipline is therefore worth more here, not less.
 
 
 **pl_language_notes**
@@ -1851,7 +1838,7 @@ Marp CLI (verified v4.4.1 with Core v4.3.1) with the flags that matter here: `--
 
 **marp_implementation**
 
-The syntax itself: `*` as a bullet marker makes a fragmented list, `n)` after a digit does the same for ordered lists, and both compile to `data-marpit-fragment="1…n"` attributes that only the HTML template acts on (verified: a three-item and a two-item list produced eight fragment attributes in the HTML and no extra pages in the PDF). The PDF-safe replacement is structural — duplicate the slide with `---` and add one line per copy, which requires no directives at all. For the demo slide, `<!-- _class: video -->` with `<video src="./sources/demo.mp4" controls muted poster="./sources/beat-1.png"></video>`; the poster is what stops the PDF page from being an empty player. Note that `slides/themes/plsoft-dark.css` currently defines no `section.video` rule, so that class styles nothing until one is added. The `transition:` directive is HTML-only and safe to use as decoration, never as meaning. Build both artefacts from one source in a single run so they cannot diverge, and reconcile `slides/config.yaml`'s `marp_cli_version: "^3"` pin with the v4.4.1 actually in use before producing the file the organiser receives.
+The syntax itself: `*` as a bullet marker makes a fragmented list, `n)` after a digit does the same for ordered lists, and both compile to `data-marpit-fragment="1…n"` attributes that only the HTML template acts on (verified: a three-item and a two-item list produced eight fragment attributes in the HTML and no extra pages in the PDF). The PDF-safe replacement is structural — duplicate the slide with `---` and add one line per copy, which requires no directives at all. For the demo slide, `<!-- _class: video -->` with `<video src="./sources/demo.mp4" controls muted poster="./sources/beat-1.png"></video>`; the poster is what stops the PDF page from being an empty player. The theme must define a `section.video` rule, or that class styles nothing. The `transition:` directive is HTML-only and safe to use as decoration, never as meaning. Build both artefacts from one source in a single run so they cannot diverge, and check that any pinned Marp CLI version matches the one actually in use before producing the file the organiser receives.
 
 
 **survives_pdf_export**
@@ -5798,7 +5785,7 @@ Capture: OBS Studio, Screen Studio (adds zoom and cursor emphasis, useful for te
 
 **marp_implementation**
 
-The pattern this speaker already runs: a slide with `<!-- _class: video -->` and `<video src="./sources/demo.mp4" controls muted></video>`, with the narration held as an HTML-comment presenter note directly beneath it (verified in `slides/workspace/ncp4-2-zalozycieli/slides.md`, which carries three such slides). Build through the HTML path — Marp requires `--html` for raw tags and `--allow-local-files` for locally referenced media. Three fixes to apply for BB4IT: drop `autoplay` so the clip starts on your action rather than on slide entry (the NCP4 slides have `controls autoplay muted`); add the missing `section.video` rule, since `slides/themes/plsoft-dark.css` defines none as of 2026-09-08, so the class currently styles nothing — `section.video { padding: 0 } section.video video { width: 100%; height: 100%; object-fit: contain }`; and precede the video slide with a `_class: lead` DEMO transition slide, as the NCP4 deck does, so the mode change is announced. Presenter notes in HTML comments are exactly where the beat timecodes belong, and they can be exported separately with `marp --notes`. Local toolchain verified 2026-09-08: Marp CLI v4.4.1 with Marp Core v4.3.1, while `slides/config.yaml` still pins `marp_cli_version: "^3"` — worth reconciling before the build.
+The pattern this speaker already runs: a slide with `<!-- _class: video -->` and `<video src="./sources/demo.mp4" controls muted></video>`, with the narration held as an HTML-comment presenter note directly beneath it. Build through the HTML path — Marp requires `--html` for raw tags and `--allow-local-files` for locally referenced media. Three fixes to apply for BB4IT: drop `autoplay` so the clip starts on your action rather than on slide entry; make sure the theme defines a `section.video` rule, otherwise the class styles nothing — `section.video { padding: 0 } section.video video { width: 100%; height: 100%; object-fit: contain }`; and precede the video slide with a `_class: lead` DEMO transition slide, as the NCP4 deck does, so the mode change is announced. Presenter notes in HTML comments are exactly where the beat timecodes belong, and they can be exported separately with `marp --notes`. Local toolchain verified 2026-09-08: Marp CLI v4.4.1 with Marp Core v4.3.1.
 
 
 **survives_pdf_export**
