@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-06T19:57:54Z
+updated: 2026-11-09T06:04:16Z
 entries: 443
 ---
 # Note Catalog
@@ -353,7 +353,7 @@ entries: 443
 - **What mistakes I made on the crypto market in 2021-2022** | basic-note | 2022-09-01 | [basic] | Personal retrospective on 2021-2022 crypto losses: not taking profit, trusting Luna, late entries | → -
 
 ## INVESTMENTS
-- **My Investment Strategy** | compiled-note | 2026-06-21 | [investments, strategy, asset-allocation, psychology, risk-management] | My personal Investment Policy Statement — goals, target allocation, a written cash re-entry plan (Nov 2026), rules for buying, rebalancing, and surviving a bear, stress-tested on real holdings, for a long-horizon high-risk-tolerance accumulator. | → Investment Strategies, Asset Allocation and Diversification, Investing Psychology, Cognitive Biases in Investing, Bear Markets — 100 Years of History, Principles, What mistakes I made on the crypto market in 2021-2022, My Crypto Strategy, Bitcoin Cyclicality, Crypto Market State 2026, Midterms 2026 Market Setup (Felix Prehn), Mechanical Crash Thursday — Cymcyk on Buying Panic, templates/knowledge_note_info
+- **My Investment Strategy** | compiled-note | 2026-06-21 | [investments, strategy, asset-allocation, psychology, risk-management] | My personal Investment Policy Statement — goals, target allocation, a written cash re-entry plan (Nov 2026), rules for buying, rebalancing, and surviving a bear, stress-tested on real holdings, for a long-horizon high-risk-tolerance accumulator. | → Investment Strategies, Asset Allocation and Diversification, Investing Psychology, Cognitive Biases in Investing, Bear Markets — 100 Years of History, Principles, Midterms 2026 Market Setup (Felix Prehn), Mechanical Crash Thursday — Cymcyk on Buying Panic, What mistakes I made on the crypto market in 2021-2022, My Crypto Strategy, Bitcoin Cyclicality, Crypto Market State 2026, templates/knowledge_note_info
 
 ## INVESTMENTS/BOOKS
 - **The Intelligent Investor** | book-note | 2026-06-21 | [book, investments, value-investing, strategy, stocks] | Graham's value-investing classic: margin of safety, Mr. Market, intrinsic value, defensive vs enterprising discipline. | → My Investment Strategy, Investing Psychology, Bear Markets — 100 Years of History, Asset Allocation and Diversification, Investment Strategies, templates/book

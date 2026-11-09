@@ -1,7 +1,7 @@
 ---
-updated: 2026-11-06T19:57:54Z
+updated: 2026-11-09T06:04:16Z
 nodes: 443
-edges: 3200
+edges: 3201
 ---
 # Link Graph
 
@@ -323,7 +323,7 @@ INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing -> INVESTMENTS/KNOWLEDG
 INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology -> INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Midterms 2026 Market Setup (Felix Prehn), templates/knowledge_note_info
 INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies -> INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, ABOUT/Principles, BUSINESS/BOOKS/Millionaire Fastlane, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, templates/knowledge_note_info
 INVESTMENTS/KNOWLEDGE/INFO/Midterms 2026 Market Setup (Felix Prehn) -> INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, INVESTMENTS/My Investment Strategy, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, templates/knowledge_note_info
-INVESTMENTS/My Investment Strategy -> INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, ABOUT/Principles, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/NOTES/My Crypto Strategy, CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, INVESTMENTS/KNOWLEDGE/INFO/Midterms 2026 Market Setup (Felix Prehn), INVESTMENTS/KNOWLEDGE/INFO/Mechanical Crash Thursday — Cymcyk on Buying Panic, templates/knowledge_note_info
+INVESTMENTS/My Investment Strategy -> INVESTMENTS/KNOWLEDGE/INFO/Investment Strategies, INVESTMENTS/KNOWLEDGE/INFO/Asset Allocation and Diversification, INVESTMENTS/KNOWLEDGE/INFO/Investing Psychology, INVESTMENTS/KNOWLEDGE/INFO/Cognitive Biases in Investing, INVESTMENTS/KNOWLEDGE/INFO/Bear Markets — 100 Years of History, ABOUT/Principles, INVESTMENTS/KNOWLEDGE/INFO/Midterms 2026 Market Setup (Felix Prehn), Mechanical Crash Thursday — Cymcyk on Buying Panic, CRYPTO/NOTES/What mistakes I made on the crypto market in 2021-2022, CRYPTO/NOTES/My Crypto Strategy, CRYPTO/KNOWLEDGE/INFO/Bitcoin Cyclicality, CRYPTO/KNOWLEDGE/INFO/Crypto Market State 2026, templates/knowledge_note_info
 LIFE/BOOKS/12 Rules for Life -> LIFE/KNOWLEDGE/INFO/Jordan Petersons 12 rules for life
 LIFE/BOOKS/Building a Second Brain -> LIFE/TOOLS/Obsidian
 LIFE/BOOKS/Design Your Future -> BUSINESS/BOOKS/The One Thing, LIFE/BOOKS/Die with Zero, ABOUT/Principles, LIFE/NOTES/Reading list
