@@ -6,7 +6,7 @@ openToc: true
 tags: ["knowledge", "info", "investments", "strategy", "asset-allocation", "stocks"]
 type: knowledge-note
 agent-created: true
-agent-reviewed: 2026-06-21
+agent-reviewed: 2026-11-13
 summary: "A sourced map of the major investing strategies — passive, value, growth, factor, dividend, FIRE, all-weather, barbell, core-satellite — and which fit a long-horizon high-risk accumulator."
 ---
 
@@ -238,10 +238,11 @@ Putting the map together for a long-horizon, high-tolerance, all-asset accumulat
 - Ray Dalio, *Principles* and the All-Weather framework (risk parity, four seasons)
 - Harry Browne, *Fail-Safe Investing* (Permanent Portfolio)
 - SPIVA® U.S. Scorecards — [spglobal.com/spdji/en/spiva](https://www.spglobal.com/spdji/en/spiva/article/spiva-us/) (active vs passive evidence)
-- Vanguard, "Cost averaging: Invest now or temporarily hold your cash?" (DCA vs lump-sum)
+- Vanguard, "Cost averaging: Invest now or temporarily hold your cash?" (DCA vs lump-sum); the full evidence review is in [[Lump Sum vs Dollar-Cost Averaging]]
 - Fama & French, "A Five-Factor Asset Pricing Model" (2015); CFA Institute, "Fama and French: The Five-Factor Model Revisited" (2022)
 - Cooley, Hubbard & Walz, the Trinity Study (1998); Bill Bengen (1994) on the 4% rule
 - DALBAR, *Quantitative Analysis of Investor Behavior* (the behavior gap)
+- Method notes (Nov 2026): [[Choosing an ETF]] · [[Moving-Average Trend Rule on Sector ETFs]] · [[Sentiment Indicators as a Panic-Buy Signal]] · [[Rebalancing — Threshold vs Calendar]]
 - Related: [[Investing Psychology]] · [[Cognitive Biases in Investing]] · [[Asset Allocation and Diversification]] · [[Bear Markets — 100 Years of History]] · [[Crypto Market State 2026]] · [[Principles]] · [[Millionaire Fastlane]]
 
 ---

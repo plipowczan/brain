@@ -6,7 +6,7 @@ openToc: true
 tags: ["investments", "strategy", "asset-allocation", "psychology", "risk-management"]
 type: compiled-note
 agent-created: true
-agent-reviewed: 2026-11-08
+agent-reviewed: 2026-11-13
 summary: "My personal Investment Policy Statement — goals, target allocation, a written cash re-entry plan (Nov 2026), rules for buying, rebalancing, and surviving a bear, stress-tested on real holdings, for a long-horizon high-risk-tolerance accumulator."
 ---
 
@@ -142,6 +142,7 @@ The framework above is stable; these are the personal numbers and choices that m
 ## 📖 Further reading/watching
 
 - Vault foundations: [[Investment Strategies]] · [[Asset Allocation and Diversification]] · [[Investing Psychology]] · [[Cognitive Biases in Investing]] · [[Bear Markets — 100 Years of History]]
+- Method notes behind the rules (Nov 2026 research; evidence, not my numbers): [[Polish Investor Taxes 2026]] · [[Choosing an ETF]] · [[Rebalancing — Threshold vs Calendar]] · [[Sentiment Indicators as a Panic-Buy Signal]] · [[Lump Sum vs Dollar-Cost Averaging]] · [[Moving-Average Trend Rule on Sector ETFs]] · [[Position Sizing and Loss Limits in a Speculative Sleeve]] · [[Crypto Custody and Exchanges in the EU after MiCA]]
 - My own scar tissue: [[What mistakes I made on the crypto market in 2021-2022]]
 - Market commentary checked against these rules: [[Midterms 2026 Market Setup (Felix Prehn)]] (index concentration, cash drag, midterm seasonality) · [[Mechanical Crash Thursday — Cymcyk on Buying Panic]] (buying a forced-liquidation flush)
 - Felix Prehn, live webinar on the 150-day moving-average rule for sector ETFs (7 Nov 2026) — the source of Rule 8; not in the vault, and its statistics are the presenter's own

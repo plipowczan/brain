@@ -6,7 +6,7 @@ openToc: true
 tags: ["crypto", "strategy", "bitcoin", "investment", "psychology"]
 type: compiled-note
 agent-created: true
-agent-reviewed: 2026-11-08
+agent-reviewed: 2026-11-13
 summary: "My personal crypto playbook — BTC/ETH plus two written exceptions, 4-year-cycle accumulation, a take-profit ladder with a hard 50% ceiling, built to fix my 2021–22 mistakes."
 ---
 
@@ -108,6 +108,9 @@ The single most important fix. A pre-committed ladder so I sell *into* strength 
 - The mistakes this fixes: [[What mistakes I made on the crypto market in 2021-2022]]
 - Current market context: [[Crypto Market State 2026]] · foundation: [[Bitcoin]]
 - Psychology behind the discipline: [[Investing Psychology]] · [[Cognitive Biases in Investing]]
+- Custody, exchanges and EU rules after MiCA: [[Crypto Custody and Exchanges in the EU after MiCA]]
+- Sizing, loss limits and tax for the sleeve: [[Position Sizing and Loss Limits in a Speculative Sleeve]] · [[Rebalancing — Threshold vs Calendar]] · [[Polish Investor Taxes 2026]]
+- What the crypto Fear & Greed index has and has not predicted: [[Sentiment Indicators as a Panic-Buy Signal]]
 - Phil Konieczny — Polish crypto education (4-year-cycle, take-profit, BTC-centric philosophy)
 
 ---
