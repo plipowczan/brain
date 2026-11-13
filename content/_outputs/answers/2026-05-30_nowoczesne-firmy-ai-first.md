@@ -69,7 +69,7 @@ Self-Improving Company (org jako pętle, context = aktyw)
 Paperclip (company-of-agents) + 70-20-10 (70% to ludzie/proces)
 ```
 
-Ten sam pryncypał co [[Brain]] (ten vault) i [[Personal AI Infrastructure]] — context jako aktyw, agenty/skille jako warstwa odnawialna.
+Ten sam pryncypał co [[Brain]] (ten vault) i [[LifeOS]] — context jako aktyw, agenty/skille jako warstwa odnawialna.
 
 ## ⚠️ Luki w vault
 

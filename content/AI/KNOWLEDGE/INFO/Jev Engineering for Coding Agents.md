@@ -29,7 +29,7 @@ The thesis in one line: **a coding agent is a while loop around a model, and the
 - [[DOX — Self-Documenting AGENTS.md]] — per-folder AGENTS.md is a manual version of "conditional instructions"; this vault's code layer already does it
 - [[Agent Skills]] · [[SkillWeaver — Compositional Skill Routing]] — skills vs. tool lists, and routing intent to the right tool
 - [[Token Optimization for Claude Code]] · [[Headroom]] · [[OmniRoute]] — the "batteries" (Headroom, RTK) the notes want built in natively
-- [[Structural Retrieval for Code]] · [[GrepRAG]] · [[Graft]] — retrieval is the biggest token bucket, so this is where the savings are
+- [[Structural Retrieval for Code]] · [[GrepRAG]] · [[Trail-code]] — retrieval is the biggest token bucket, so this is where the savings are
 - [[Swarm Research — Orchestrating Coding Agents]] · [[Loop Engineering]] — sub-agent parallelism and goal loops
 - [[AI Agent Security]] — programmable permissions and security-aware routing
 - [[Claudex Loop]] — cross-model review, one of the background patterns
@@ -226,7 +226,7 @@ They are all read-only functions of the current codebase state. Finding what's r
 - **The routing math changed how I think about "cheap model for easy work."** Mid-session hand-offs that carry the full transcript cost more than staying on Opus. What works is what the Explore/research sub-agents in my own setup already do: a narrow brief in, a compact answer out. That is routing priced per context rebuild.
 - **This vault already runs two of the ideas by hand.** The DOX tree (one `AGENTS.md` per code folder, read-before-edit) is conditional instructions without the automation, and the `_indexes/` protocol is progressive disclosure. The per-directory GOTCHAS file is worth copying straight into client repos.
 - **Tiered disclosure is already visible in Claude Code.** Skill descriptions are tier 1, deferred tools loaded through a tool search are tier 2. The gap is that nothing un-loads.
-- **Retrieval is where I should spend optimization effort.** Structural retrieval ([[Graft]], LSP) and output compression ([[Headroom]], RTK via [[OmniRoute]]) attack the biggest bucket. A terser agent voice attacks the 2–5% one.
+- **Retrieval is where I should spend optimization effort.** Structural retrieval ([[Trail-code]], LSP) and output compression ([[Headroom]], RTK via [[OmniRoute]]) attack the biggest bucket. A terser agent voice attacks the 2–5% one.
 - **Security-aware routing is directly relevant to PLSOFT client work.** "Client code never goes to a cheap third-party endpoint" should be a routing policy, not something I remember to do.
 - Open question: this is a founder's argument for why his product matters. The diagnosis (six symptoms, where tokens go) stands on its own; whether Jev is the right decider is a separate claim the PDF can't settle.
 

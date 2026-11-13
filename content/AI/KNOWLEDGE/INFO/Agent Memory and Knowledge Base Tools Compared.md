@@ -111,7 +111,7 @@ Every status line was checked against the repository, releases page or docs on *
 
 ## 🎨 How I use this
 
-My own vault ([[Brain]]) is the hand-run version of the compiled-wiki family: an agent ingests sources into notes and keeps three indexes (vault map → catalog → link graph) as [[Progressive Disclosure]]. That covers knowledge. For code I lean on structural tools; this repository itself is indexed by [[Graft]] (renamed Trail-code in October 2026), and I keep [[Graphify]] installed as a skill for unfamiliar codebases. The comparison above mostly told me where the gaps are: nothing in my setup does document RAG over large PDFs, and if that need appears, [[PageIndex]] and [[LightRAG]] are the two I would test first.
+My own vault ([[Brain]]) is the hand-run version of the compiled-wiki family: an agent ingests sources into notes and keeps three indexes (vault map → catalog → link graph) as [[Progressive Disclosure]]. That covers knowledge. For code I lean on structural tools; this repository itself is indexed by [[Trail-code]] (formerly Graft, renamed in October 2026), and I keep [[Graphify]] installed as a skill for unfamiliar codebases. The comparison above mostly told me where the gaps are: nothing in my setup does document RAG over large PDFs, and if that need appears, [[PageIndex]] and [[LightRAG]] are the two I would test first.
 
 ## 📖 Further reading
 

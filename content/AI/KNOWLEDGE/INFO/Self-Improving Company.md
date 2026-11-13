@@ -81,13 +81,13 @@ The whole loop must be runnable with **minimal human intervention** for the self
 - The durable moat for a small team is the **company brain**: every email, every conversation, every decision captured and synthesizable into context and skills.
 - Tooling and dashboards become disposable. Don't over-invest in internal software — invest in the **data + skills + instructions** layer underneath.
 - Organisationally: collapse to ICs + DRIs; drop middle management; reserve humans for novel/ethical/high-stakes contact with reality.
-- Direct mapping to my own setup: this is the same principle behind [[Brain]] (this vault) and [[Personal AI Infrastructure]] — context as the asset, skills/agents as the renewable layer on top.
+- Direct mapping to my own setup: this is the same principle behind [[Brain]] (this vault) and [[LifeOS]] — context as the asset, skills/agents as the renewable layer on top.
 
 ## 📖 Further reading / watching
 
 - Source video — [How to Build a Self-Improving Company with AI](https://www.youtube.com/watch?v=t-G67yKAHBQ) · YC Root Access · 2026-05-19 · 13:28
 - Speaker: Jared Friedman (YC), drawing on Diana's earlier YC talk and Jack Dorsey's tweets on flat org structures
-- Related notes — [[Context Engineering]] · [[Agentic Coding]] · [[Agentic Systems]] · [[Agent Skills]] · [[LLM Knowledge Bases]] · [[Progressive Disclosure]] · [[Karpathy Skills]] · [[gstack]] · [[Claude Code]] · [[Personal AI Infrastructure]] · [[Brain]] · [[Software 3.0]]
+- Related notes — [[Context Engineering]] · [[Agentic Coding]] · [[Agentic Systems]] · [[Agent Skills]] · [[LLM Knowledge Bases]] · [[Progressive Disclosure]] · [[Karpathy Skills]] · [[gstack]] · [[Claude Code]] · [[LifeOS]] · [[Brain]] · [[Software 3.0]]
 - [[Two-Slice Teams — Git and Code Review After Agents (Przeprogramowani)]]: the same flattening at team level, with one or two owners plus agents per module
 
 ---

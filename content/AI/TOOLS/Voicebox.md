@@ -43,7 +43,7 @@ Built with Tauri (Rust), not Electron. Privacy by default — models, voice data
 
 ## 🎨 Why this matters for an agent workflow
 
-Bridges the input and output halves of voice I/O. Existing cloud incumbents sit on opposite sides — Voicebox does both, glued by a local LLM. MCP integration means a [[Claude Code]] session can literally talk back to you in a voice you own — useful for Pulse-style background notifications or [[Personal AI Infrastructure]] DA personas.
+Bridges the input and output halves of voice I/O. Existing cloud incumbents sit on opposite sides — Voicebox does both, glued by a local LLM. MCP integration means a [[Claude Code]] session can literally talk back to you in a voice you own — useful for Pulse-style background notifications or [[LifeOS]] DA personas.
 
 ## Reasoning for
 
@@ -66,7 +66,7 @@ Local voice cloning for personal projects, dictation across all apps, giving any
 - [[TTS Engines Comparison (Polish)]] — where Voicebox's TTS engines (Kokoro, Chatterbox, Qwen3-TTS) sit vs cloud rivals for Polish
 - [[Pocket TTS]] — Kyutai's 100M CPU-only TTS engine; candidate 8th engine, same local-first philosophy
 - [[Claude Code]] — primary MCP host
-- [[Personal AI Infrastructure]] — DA voice personas
+- [[LifeOS]] — DA voice personas
 - [[Hermes Agent]] — agent that benefits from spoken output
 - [[AI Voice Recorders for Meetings (Polish)]] — meeting-recorder hardware vs local Whisper; the same keep-audio-local argument for client conversations
 - [[Paperclip]] — agent orchestration
