@@ -651,6 +651,26 @@ class PipelineTest(unittest.TestCase):
         dg = watch.build_digest(self.v.root, scan, ws)
         self.assertNotIn("content/AI/TOOLS/Widget.md", dg["notes"])
 
+    def test_apply_checks_an_edited_digest_again(self):
+        self.v.write("content/_privacy.local.md", "## Always cut\n- \"Vexmoor\"\n")   # a made-up name
+        scan, path = self.scan(), "content/AI/TOOLS/Widget.md"
+        for entry in ({"liveness": "active", "lines": ["Now run by Vexmoor."]},   # added by a translation
+                      {"liveness": "active\ntitle: x", "lines": ["fine"]}):
+            done = watch.apply_changes(self.v.root, scan, {"notes": {path: entry}}, dry=True)
+            self.assertIn(path, done["held"], entry)
+            self.assertNotIn(path, done["status"], entry)
+
+    def test_report_checks_private_terms_before_escaping(self):
+        self.v.write("content/_privacy.local.md", "## Always cut\n- \"Vexmoor #2\"\n")   # made up
+        watch.write_json(self.v.root / watch.SNAPSHOT, {"repos": {"acme/widget": {
+            "full_name": "acme/widget", "archived": False, "license": "MIT", "latest_kind": "none",
+            "pushed_at": "2026-11-01", "checked": "2026-10-13"}}, "urls": {}})
+        gh = FakeGitHub(dict(self.gh.routes, **{
+            "repos/acme/widget/releases/latest": release("Vexmoor #2 build")}))
+        report = watch.build_report(self.v.root, self.scan(gh=gh), dry=True)
+        self.assertNotIn("vexmoor", report.lower())
+        self.assertIn("(withheld: a private term)", report)
+
     def test_rate_limit_skips_rest(self):
         scan = self.scan(gh=FakeGitHub(self.gh.routes, remaining=28))
         errs = sorted((n["facts"].get("error") or "ok") for n in scan["notes"] if n["kind"] == "repo")
