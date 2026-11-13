@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "ux", "design", "wireframe", "figma"]
 type: tool
-source: "_raw/inbox/Superfast UXUI Design with AI.md"
+source: "_raw/processed/2026-05-09_Superfast UXUI Design with AI.md"
 agent-created: true
 summary: "AI wireframe and hi-fi UI generator — from sketch/PRD to a finished screen in ~12s, export to Figma and code"
 status-checked: 2026-11-13

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "llm", "benchmark", "delegated-work", "vibe-coding", "reliability", "evaluation"]
 type: knowledge-note
-source: "_raw/inbox/2604.15597v1.pdf"
+source: "_raw/processed/2026-04-29_2604.15597v1_DELEGATE-52.pdf"
 agent-created: true
 summary: "Microsoft Research benchmark (arXiv 2604.15597) — frontier LLMs corrupt 25% of a document after 20 delegated edits across 52 domains; Python is the only domain where models are ready"
 ---

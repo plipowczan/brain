@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "image-generation", "prompts", "curated-list", "open-source"]
 type: tool
-source: "_raw/inbox/YouMind-OpenLab awesome-nano-banana-pro-prompts.md"
+source: "_raw/processed/2026-05-09_awesome-nano-banana-pro-prompts.md"
 agent-created: true
 summary: "Curated 10K+ prompt library for Google Nano Banana Pro — preview images, 16 languages, free & open source"
 status-checked: 2026-11-13

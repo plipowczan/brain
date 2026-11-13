@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agents", "orchestration", "swarm", "claude-code", "mcp", "rag", "federation", "open-source", "rust"]
 type: tool
-source: "_raw/inbox/ruvnetruflo 🌊 The leading agent orchestration platform for Claude.md"
+source: "_raw/processed/2026-05-16_ruvnet-ruflo.md"
 agent-created: true
 summary: "ruvnet/ruflo (ex Claude-Flow) — agent orchestration: 98 agents, 32 plugins, swarms + federation + SONA self-learning, AgentDB HNSW, web UI flo.ruv.io, GOAP planner goal.ruv.io"
 status-checked: 2026-11-13

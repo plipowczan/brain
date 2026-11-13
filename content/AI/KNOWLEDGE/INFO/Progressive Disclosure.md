@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "context-engineering", "progressive-disclosure", "agents", "memory"]
 type: knowledge-note
-source: "_raw/inbox/progressive-disclosure.md"
+source: "_raw/processed/2026-04-30_progressive-disclosure.md"
 agent-created: true
 agent-reviewed: 2026-08-12
 summary: "Index-first context priming — show what exists and retrieval cost, let the agent decide what to fetch"

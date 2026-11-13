@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "video", "image-generation", "workflow", "ads"]
 type: knowledge-note
-source: "_raw/inbox/Post  LinkedIn.md"
+source: "_raw/processed/2026-05-09_Post LinkedIn GPT Image 2 Seedance.md"
 agent-created: true
 summary: "Storyboard-driven AI video ad workflow: GPT Image 2 generates a frame-by-frame storyboard, Seedance 2 turns each frame into a clip"
 ---

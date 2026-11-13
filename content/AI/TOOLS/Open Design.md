@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "design", "ux", "open-source", "apache-2.0", "byok", "claude-code", "codex", "skills", "design-systems"]
 type: tool
-source: "_raw/inbox/nexu-ioopen-design 🎨 Local-first, open-source alternative to Anthropic's Claude Design.md"
+source: "_raw/processed/2026-05-16_nexu-io-open-design.md"
 agent-created: true
 summary: "nexu-io/open-design — began as a local-first OSS Claude Design alternative, rebranded 'OpenDesign: the 1st collaborative AI design agent workspace'; Apache-2.0, 26 agent CLIs, 100+ skills, 151 design systems, team workspaces, HTML/PDF/PPTX/MP4 export, BYOK or paid OpenDesign Cloud"
 status-checked: 2026-11-13

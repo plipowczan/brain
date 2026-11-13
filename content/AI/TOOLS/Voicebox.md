@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "voice", "tts", "stt", "mcp", "local-first", "open-source", "rust", "tauri"]
 type: tool
-source: "_raw/inbox/jamiepinevoicebox The open-source AI voice studio. Clone, dictate, create.md"
+source: "_raw/processed/2026-05-19_jamiepinevoicebox The open-source AI voice studio. Clone, dictate, create.md"
 agent-created: true
 summary: "Local-first AI voice studio — free OSS alternative to ElevenLabs + WisprFlow in one app. 7 TTS engines, 23 languages, voice cloning, MCP-aware agent voice output"
 status-checked: 2026-11-13

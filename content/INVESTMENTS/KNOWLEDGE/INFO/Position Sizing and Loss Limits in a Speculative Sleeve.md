@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "investments", "risk-management", "position-sizing", "stop-loss", "crypto", "psychology", "research"]
 type: knowledge-note
-source: "_raw/research-workspaces/position-sizing-speculative-sleeve/ (deep research, 10 items, 2026-11-13)"
+source: "_raw/research-workspaces/position-sizing-speculative-sleeve/report.md"
 agent-created: true
 summary: "How to size the speculative satellite of a long-term portfolio and limit its losses: base rates, drawdown math, fixed-fractional, Kelly, volatility and risk-budget sizing, sleeve caps, stop-loss evidence, losses a stop cannot catch, behaviour and Polish PIT-38 rules."
 ---

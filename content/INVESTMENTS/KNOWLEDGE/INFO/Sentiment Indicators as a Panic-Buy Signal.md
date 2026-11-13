@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "investments", "sentiment", "vix", "bear-market", "market-breadth", "crypto", "psychology", "research"]
 type: knowledge-note
-source: "_raw/research-workspaces/sentiment-indicators-panic-buy/ (deep research, 10 items, 2026-11-13)"
+source: "_raw/research-workspaces/sentiment-indicators-panic-buy/report.md"
 agent-created: true
 summary: "Whether fear gauges (VIX, put/call, AAII, CNN and crypto Fear & Greed, credit and stress indices, breadth, COT and margin, surveys) work as buy-the-panic signals, what the academic and backtest evidence shows, how often they fire too early, and which data sources are free and reliable as of Nov 2026."
 ---

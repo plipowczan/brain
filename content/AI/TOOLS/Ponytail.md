@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "coding-agents", "minimalism", "vibe-coding", "open-source", "mit"]
 type: tool
-source: "_raw/inbox/DietrichGebertponytail Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.md"
+source: "_raw/processed/2026-06-30_DietrichGebert-ponytail.md"
 agent-created: true
 agent-reviewed: 2026-11-13
 summary: "Plugin: teach AI agents to write minimal code by reasoning YAGNI-first before generating anything."

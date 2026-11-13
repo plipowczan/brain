@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "investments", "dca", "lump-sum", "psychology", "risk-management", "poland", "research"]
 type: knowledge-note
-source: "_raw/research-workspaces/lump-sum-vs-dca/ (deep research, 10 items, 2026-11-13)"
+source: "_raw/research-workspaces/lump-sum-vs-dca/report.md"
 agent-created: true
 summary: "Investing a cash pile at once vs in instalments: Vanguard 2012 and 2023, practitioner backtests, academic theory, entering at highs, waiting for a dip, volatile assets, the behavioural case and hybrids, and what changes for a PLN-based investor."
 ---

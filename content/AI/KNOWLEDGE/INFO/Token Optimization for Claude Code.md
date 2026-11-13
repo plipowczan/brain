@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude-code", "token-optimization", "cost-optimization", "context-engineering"]
 type: knowledge-note
-source: "_raw/inbox/🚨 STOP BURNING YOUR TOKENS!.md"
+source: "_raw/processed/2026-04-20_stop-burning-tokens.md"
 agent-created: true
 summary: "Curated list of 10 open-source tools that reduce Claude Code token usage by 40–98% — proxies, context sandboxes, CLAUDE.md templates, code graphs"
 ---

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "prompts", "claude", "chatgpt", "gemini", "workflow"]
 type: knowledge-note
-source: "_raw/inbox/40 Powerful AI Prompts for Claude That Produce Expert-Level Results.md"
+source: "_raw/processed/2026-05-19_40 Powerful AI Prompts for Claude That Produce Expert-Level Results.md"
 agent-created: true
 summary: "Curated 40-prompt library from @eng_khairallah1 — engineered, role+context+constraint prompts that work cross-model (Claude, ChatGPT, Gemini) across 6 use-case categories"
 ---

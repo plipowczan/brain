@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "investments", "trend-following", "moving-average", "etf", "sectors", "backtest", "taxes", "poland", "research"]
 type: knowledge-note
-source: "_raw/research-workspaces/moving-average-rule-sector-etfs/ (deep research, 10 items, 2026-11-13)"
+source: "_raw/research-workspaces/moving-average-rule-sector-etfs/report.md"
 agent-created: true
 summary: "What the evidence says about 150/200-day, 30-week and 10-month moving-average rules on indices and sector ETFs: classic tests, data-snooping critiques, Faber and timing luck, Weinstein, sector studies, whipsaws and filters, volatility regimes, the Pacer Trendpilot live record, the index-to-ETF gap, and costs and taxes for a Polish investor."
 ---

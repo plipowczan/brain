@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "investments", "rebalancing", "asset-allocation", "risk-management", "taxes", "poland", "research"]
 type: knowledge-note
-source: "_raw/research-workspaces/rebalancing-threshold-vs-calendar/ (deep research, 10 items, 2026-11-13)"
+source: "_raw/research-workspaces/rebalancing-threshold-vs-calendar/report.md"
 agent-created: true
 summary: "What the evidence says about calendar vs threshold rebalancing: Vanguard 2010-2024, Dichtl et al., Daryanani, AQR and Man on momentum, the front-running cost of predictable rebalancing, timing luck, band design, volatile sleeves, and rebalancing under Polish tax rules."
 ---

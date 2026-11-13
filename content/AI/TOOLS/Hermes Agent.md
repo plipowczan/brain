@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agents", "open-source", "self-improving", "messaging", "memory"]
 type: tool
-source: "_raw/inbox/NousResearchhermes-agent The agent that grows with you.md"
+source: "_raw/processed/2026-05-03_NousResearchhermes-agent.md"
 agent-created: true
 agent-reviewed: 2026-05-16
 summary: "Nous Research self-improving agent — TUI + Telegram/Discord/Slack/WhatsApp/Signal gateway, autonomous skill creation, FTS5 cross-session search, Honcho user modeling, runtime on a $5 VPS"

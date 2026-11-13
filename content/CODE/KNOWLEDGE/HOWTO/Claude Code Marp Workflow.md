@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto", "ai", "claude-code", "presentation", "markdown", "marp"]
 type: knowledge-note
-source: "_raw/inbox/Stop Staring at a Blank Deck How I Use Claude Code + Marp to Think Through Presentations.md"
+source: "_raw/processed/2026-04-29_Stop-Staring-Blank-Deck-Claude-Marp.md"
 agent-created: true
 summary: "4-phase workflow for creating Markdown presentations: Brainstorm (interview) → React (first draft) → Iterate (chat or VS Code) → Export (HTML/PPTX)"
 ---

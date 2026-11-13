@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "design", "coding-agents", "specs", "design-systems", "google", "open-source"]
 type: tool
-source: "_raw/inbox/google-labs-codedesign.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.md"
+source: "_raw/processed/2026-05-19_google-labs-codedesign.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.md"
 agent-created: true
 summary: "Google Labs format spec — DESIGN.md combines YAML design tokens with markdown rationale so coding agents have a persistent, structured grasp of a design system"
 status-checked: 2026-11-13

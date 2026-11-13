@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "framework", "laravel", "nuxt", "fullstack", "modular"]
 type: tool
-source: "_raw/inbox/Modular Web Framework for Laravel & Nuxt.md"
+source: "_raw/processed/2026-04-09_nucleify_modular_framework.md"
 agent-created: true
 summary: "Modular full-stack framework for Laravel 11 + Nuxt 3 — 40+ production modules, Atomic Design, override system"
 homepage: "https://nucleify.io/"

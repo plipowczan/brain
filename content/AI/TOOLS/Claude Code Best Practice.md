@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "claude-code", "coding-agents", "resources"]
 type: tool
-source: "_raw/inbox/shanraisshanclaude-code-best-practice practice made claude perfect.md"
+source: "_raw/processed/2026-04-10_shanraisshan-claude-code-best-practice.md"
 agent-created: true
 summary: "69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering"
 status-checked: 2026-11-13

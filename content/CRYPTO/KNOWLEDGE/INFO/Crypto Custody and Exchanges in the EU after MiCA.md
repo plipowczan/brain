@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "crypto", "mica", "regulation", "custody", "exchanges", "self-custody", "poland", "stablecoins", "research"]
 type: knowledge-note
-source: "_raw/research-workspaces/crypto-custody-eu-mica/ (deep research, 10 items, 2026-11-13)"
+source: "_raw/research-workspaces/crypto-custody-eu-mica/report.md"
 agent-created: true
 summary: "What MiCA protects and what it does not, for an EU retail crypto holder after the transitional period ended on 1 Jul 2026: CASP custody duties, Poland's missing regulator, stablecoins and USDT, travel rule, the Zondacrypto collapse, how to verify a provider, self-custody and pending EU changes."
 ---

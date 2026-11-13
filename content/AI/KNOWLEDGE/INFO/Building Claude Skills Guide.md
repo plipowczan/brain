@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude", "skills", "claude-code", "guide"]
 type: knowledge-note
-source: "_raw/inbox/The-Complete-Guide-to-Building-Skill-for-Claude.pdf"
+source: "_raw/processed/2026-05-09_The-Complete-Guide-to-Building-Skill-for-Claude.pdf"
 agent-created: true
 summary: "Pointer to The Complete Guide to Building Skill for Claude (PDF) — a compendium for creating your own skills for Claude Code"
 ---

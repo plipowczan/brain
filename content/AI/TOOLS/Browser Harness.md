@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agents", "browser", "harness", "cdp", "self-improving", "open-source"]
 type: tool
-source: "_raw/inbox/Self-healing harness that enables LLMs to complete any task.md"
+source: "_raw/processed/2026-05-19_Self-healing harness that enables LLMs to complete any task.md"
 agent-created: true
 agent-reviewed: 2026-11-13
 summary: "Self-healing CDP harness connecting an LLM directly to your real browser — agent writes the missing helpers itself; the engine inside browser-use 1.0 (pins 0.1.13), also an MCP server; MIT"

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["project", "ai", "agents", "200iq-labs", "qamera", "claude-code"]
 type: basic-note
-source: "_raw/inbox/2026-05-10-seed-second-brain-agentic-ai-system.md"
+source: "_raw/processed/2026-05-10_seed-second-brain-agentic-ai-system.md"
 agent-created: true
 summary: "200IQ LABS PSA multi-agent advisory repo — context, tools, orchestration for Qamera AI"
 ---
