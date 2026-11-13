@@ -44,7 +44,7 @@ For closed products and APIs "active" means the product is sold and documented t
 
 Four categories have a note that compares the tools side by side, says when to pick which, and lists what none of them can do:
 
-- [[Agent Memory and Knowledge Base Tools Compared]]: LightRAG, Graphify, PageIndex, OpenKB, OpenWiki, Super Brain, Codebase Memory MCP, CocoIndex, HOMER
+- [[Agent Memory and Knowledge Base Tools Compared]]: LightRAG, Graphify, PageIndex, OpenKB, OpenWiki, Super Brain, Codebase Memory MCP, CocoIndex, HORMA
 - [[Browser Tools for AI Agents Compared]]: Browser Use, Browser Harness, Playwright MCP, Chrome DevTools MCP, Claude in Chrome, Camofox, CloakBrowser
 - [[Claude Code Skill Packs Compared]]: Superpowers, Matt Pocock Skills, Karpathy Skills, Everything Claude Code, gstack, Agent Skills, the awesome lists
 - [[Document Parsing and OCR Tools Compared]]: Marker, MinerU, Unlimited-OCR, Chonkie, anydoc

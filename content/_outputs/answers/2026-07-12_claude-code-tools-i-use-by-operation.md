@@ -290,7 +290,7 @@ From [[Token Optimization for Claude Code]] — a curated list of tools cutting 
 - **[[Graphify]]** — code/docs/images → queryable knowledge graph: **71× token reduction** via structural retrieval instead of file-by-file reads.
 - **[[Codebase Memory MCP]]** — tree-sitter + LSP persistent repo knowledge graph: ~99% fewer tokens on code navigation.
 - **[[Camofox Browser]]** — returns pages as an accessibility tree instead of raw HTML: ~90% agent token cut on web work.
-- **[[Progressive Disclosure]]** / **[[HOMER — Structured Agent Memory]]** / **[[SkillWeaver — Compositional Skill Routing]]** — the context-engineering patterns behind the numbers (index-first priming; hierarchical memory ~22% baseline tokens; MCP tool-routing 99.9% token cut).
+- **[[Progressive Disclosure]]** / **[[HORMA — Structured Agent Memory]]** / **[[SkillWeaver — Compositional Skill Routing]]** — the context-engineering patterns behind the numbers (index-first priming; hierarchical memory ~22% baseline tokens; MCP tool-routing 99.9% token cut).
 
 ---
 
@@ -323,4 +323,4 @@ From [[Token Optimization for Claude Code]] — a curated list of tools cutting 
 ---
 
 ## Sources cited
-[[Claude Video]] · [[Video Use]] · [[HyperFrames]] · [[UI UX Pro Max]] · [[UX RULER]] · [[Impeccable]] · [[LLM Knowledge Bases]] · [[Building an AI Second Brain]] · [[Brain]] · [[NotebookLM-py]] · [[Open Notebook]] · [[Firecrawl]] · [[Perplexity]] · [[Caveman]] · [[Headroom]] · [[Token Optimization for Claude Code]] · [[Graphify]] · [[Camofox Browser]] · [[Ponytail]] · [[Codebase Memory MCP]] · [[Progressive Disclosure]] · [[HOMER — Structured Agent Memory]] · [[SkillWeaver — Compositional Skill Routing]] · [[Swarm Research — Orchestrating Coding Agents]] · [[Agent Skills]] · [[OpenKB]] · in-repo skills: `.claude/skills/research`, `.claude/skills/research-deep`
+[[Claude Video]] · [[Video Use]] · [[HyperFrames]] · [[UI UX Pro Max]] · [[UX RULER]] · [[Impeccable]] · [[LLM Knowledge Bases]] · [[Building an AI Second Brain]] · [[Brain]] · [[NotebookLM-py]] · [[Open Notebook]] · [[Firecrawl]] · [[Perplexity]] · [[Caveman]] · [[Headroom]] · [[Token Optimization for Claude Code]] · [[Graphify]] · [[Camofox Browser]] · [[Ponytail]] · [[Codebase Memory MCP]] · [[Progressive Disclosure]] · [[HORMA — Structured Agent Memory]] · [[SkillWeaver — Compositional Skill Routing]] · [[Swarm Research — Orchestrating Coding Agents]] · [[Agent Skills]] · [[OpenKB]] · in-repo skills: `.claude/skills/research`, `.claude/skills/research-deep`

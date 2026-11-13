@@ -1,5 +1,5 @@
 ---
-title: "HOMER — Structured Agent Memory"
+title: "HORMA — Structured Agent Memory"
 date: 2026-06-25
 enableToc: true
 openToc: true
@@ -14,13 +14,13 @@ published: 2026-06-12
 transcription: captions
 agent-created: true
 agent-reviewed: 2026-11-13
-aliases: ["HORMA"]
-summary: "HORMA, which the video called HOMER (Duke + Snowflake, arXiv 2606.11680), is organize-then-retrieve agent memory: build a hierarchical memory tree first, then navigate it instead of using RAG. 3–22% of baseline tokens on LoCoMo; no code released."
+aliases: ["HOMER"]
+summary: "HORMA (Duke + Snowflake, arXiv 2606.11680; the video called it HOMER) is organize-then-retrieve agent memory: build a hierarchical memory tree first, then navigate it instead of using RAG. 3–22% of baseline tokens on LoCoMo; no code released."
 status-checked: 2026-11-13
 project-status: done
 ---
 
-# HOMER — Structured Agent Memory
+# HORMA — Structured Agent Memory
 
 > [!info] Status check 2026-11-13 — done
 > **Verdict:** A single static preprint (arXiv v1, 2026-06-10) with no revision, code or follow-up release in five months.
@@ -32,8 +32,8 @@ project-status: done
 
 Walkthrough (Discover AI / @code4AI) of the June 2026 preprint **"Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents"** ([arXiv 2606.11680](https://arxiv.org/abs/2606.11680), v1 of 2026-06-10) by **Hao-Lun Hsu (Duke University) and Nikki Lijing Kuang, Boyi Liu, Zhewei Yao and Yuxiong He (Snowflake AI Research)**.
 
-> [!note] The method is HORMA, not HOMER (checked against the paper, 2026-11-13)
-> The video (and so this note's title) calls it **HOMER**, "Hierarchical Organize-then-retrieve Memory agent". The paper's own name is **HORMA**, "Hierarchical Organize-and-Retrieve Memory Agent". I kept the note's title so existing links keep working; read "HOMER" as HORMA throughout. As of 2026-11-13 the paper is still a single v1 preprint, not peer-reviewed, with **no code, weights or data released**.
+> [!note] HORMA, not HOMER (checked against the paper, 2026-11-13)
+> The video calls it **HOMER**, "Hierarchical Organize-then-retrieve Memory agent", and this note carried that name until 2026-11-13. The paper's own name is **HORMA**, "Hierarchical Organize-and-Retrieve Memory Agent"; "HOMER" stays as an alias. As of 2026-11-13 the paper is still a single v1 preprint, not peer-reviewed, with **no code, weights or data released**.
 
 The core argument: every agent memory system today is built backwards. The dogma is **"store everything, retrieve later"** — because you never know what a future task needs. HORMA says that is wrong. Instead of optimizing *retrieval* over an unorganized pile of experiences, optimize the **organization of memory before retrieval ever happens**.
 

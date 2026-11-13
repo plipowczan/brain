@@ -115,7 +115,7 @@ From [[Token Optimization for Claude Code]] — tools that cut usage 40–98%:
 - **[[Graphify]]** — code/docs → queryable knowledge graph: 71× token reduction.
 - **[[Codebase Memory MCP]]** — persistent repo knowledge graph: ~99% fewer tokens on navigation.
 - **[[Camofox Browser]]** — pages as accessibility tree not raw HTML: ~90% cut on web work.
-- Patterns behind the numbers: [[Progressive Disclosure]], [[HOMER — Structured Agent Memory]], [[SkillWeaver — Compositional Skill Routing]].
+- Patterns behind the numbers: [[Progressive Disclosure]], [[HORMA — Structured Agent Memory]], [[SkillWeaver — Compositional Skill Routing]].
 
 ## 🧩 At a glance
 

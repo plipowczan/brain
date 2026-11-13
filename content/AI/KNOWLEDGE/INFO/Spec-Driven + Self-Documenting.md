@@ -74,7 +74,7 @@ A realistic loop on an existing project:
 2. **OpenSpec per change** — `/opsx:explore` (agent reads the relevant area, guided by the DOX docs) → `/opsx:new` writes the delta → `/opsx:apply` implements → `/opsx:archive` merges into `specs/`.
 3. **DOX update-after-edit** — the same edit updates the leaf `AGENTS.md`, keeping the space-map current.
 
-Net: the DOX tree keeps *where/what-exists* fresh; OpenSpec keeps *what-changed/why* versioned. Both are [[Progressive Disclosure]] — logarithmic navigation over a hierarchy instead of dumping everything into the window — applied to two different dimensions of the same problem. Same math as [[HOMER — Structured Agent Memory]] and the index-first protocol this vault ([[Brain]]) runs on.
+Net: the DOX tree keeps *where/what-exists* fresh; OpenSpec keeps *what-changed/why* versioned. Both are [[Progressive Disclosure]] — logarithmic navigation over a hierarchy instead of dumping everything into the window — applied to two different dimensions of the same problem. Same math as [[HORMA — Structured Agent Memory]] and the index-first protocol this vault ([[Brain]]) runs on.
 
 ## 🧭 The third regime: intent (`docs/`)
 
@@ -122,7 +122,7 @@ Retrofit ≠ init: on a repo that already speaks `AGENTS.md`, you adopt the *rul
 - [[DOX — Self-Documenting AGENTS.md]] — the self-documenting `AGENTS.md` tree (space axis)
 - [[Progressive Disclosure]] — the shared underlying principle
 - [[Context Engineering]] — right-sizing the attention budget
-- [[HOMER — Structured Agent Memory]] — organize-then-navigate hierarchy for agent memory
+- [[HORMA — Structured Agent Memory]] — organize-then-navigate hierarchy for agent memory
 - [[Agentic Coding]] — designing the agent's environment instead of writing code
 
 ---

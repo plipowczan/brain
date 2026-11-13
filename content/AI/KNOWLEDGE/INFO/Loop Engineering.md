@@ -82,7 +82,7 @@ Cole's experimental [[Second Brain Design|second-brain]]-oriented loop dashboard
 - [[Karpathy Method]] — spec / verifier / environment layers
 - [[Token Optimization for Claude Code]] — related cost-control tooling
 - [[Context Engineering]] — why single-session loops poison context
-- [[HOMER — Structured Agent Memory]] — a self-improving memory-construction loop ("loop engineering" coined here)
+- [[HORMA — Structured Agent Memory]] — a self-improving memory-construction loop ("loop engineering" coined here)
 - [[4 Claude Code Upgrades for Making Money (Nate Herk)]] — `/goal` + parallel subagents applied to a business build
 - [[How to Be More Ambitious with Models (Felix Rieseberg)]] — "altitude": asking for the outcome (keep the apps crash-free) and building the environment that lets the loop run without you
 

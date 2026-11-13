@@ -15,7 +15,7 @@ summary: "RAG is not one thing — for code, structural retrieval (LSP symbols, 
 
 "Use RAG for the codebase" hides a decision that actually matters. **RAG is not one technique — it is a family, and the members are not equal.** For prose, naive vector RAG (chunk → embed → top-k cosine) is fine. For *code*, it is usually the weakest option, because it throws away the one thing code has that prose doesn't: **exact, verifiable structure** — definitions, references, call edges, types, imports, inheritance.
 
-The sharp version of the claim, from [[HOMER — Structured Agent Memory]]: **similarity ≠ causality.** Cosine nearness in embedding space is not a call graph. When the question is *"who calls this function"*, *"what breaks if I change this signature"*, or *"trace the path from route to database"*, a vector index answers with vibes and a structural index answers with facts.
+The sharp version of the claim, from [[HORMA — Structured Agent Memory]]: **similarity ≠ causality.** Cosine nearness in embedding space is not a call graph. When the question is *"who calls this function"*, *"what breaks if I change this signature"*, or *"trace the path from route to database"*, a vector index answers with vibes and a structural index answers with facts.
 
 This note is the map I wished existed when the tools started piling up: the **lanes** of structural code retrieval, what lives in each, and where the honest counter-arguments are.
 
@@ -134,7 +134,7 @@ Mechanically yes, in specific shapes — concrete for a [[Claude Code]] agent on
 - New: [[Serena]] · [[MCP Language Server]] · [[RepoGraph]] · [[GrepRAG]]
 - Practical: [[Wiring Serena into a Codebase]] — bring-up HOWTO (install, Windows SAC DLL fix, monorepo timeout, pre-index)
 - Doc-RAG contrast: [[LightRAG]] — KG-RAG for prose/docs, not code-structure tracing
-- Memory analogue: [[HOMER — Structured Agent Memory]] — organize-then-navigate, "similarity ≠ causality"
+- Memory analogue: [[HORMA — Structured Agent Memory]] — organize-then-navigate, "similarity ≠ causality"
 - The shared principle: [[Progressive Disclosure]] · [[Context Engineering]] · [[Token Optimization for Claude Code]]
 - Also on RAG architecture: [[AI Chatbots Architecture]]
 
