@@ -8,8 +8,17 @@ type: tool
 source: "_raw/processed/2026-10-15_2026-10-15-research-meme-generation-for-coding-agents.md"
 agent-created: true
 summary: "meme-factory skill in softaworks/agent-toolkit — a Claude Code skill on memegen.link with a template-selection guide; popular (4K installs) but 8 of 21 template IDs are dead and it hides the watermark"
+status-checked: 2026-11-13
+project-status: stale
 ---
 # Meme Factory
+
+> [!warning] Status check 2026-11-13 — stale
+> **Verdict:** The last commit on main was 2026-03-05, about 253 days ago, and the meme-factory folder has not changed since its only commit on 2026-01-18.
+> **Last release:** no releases (commits only). The repo has no GitHub releases or tags. · **last commit:** 2026-03-05 · **licence:** MIT
+> **Repo:** https://github.com/softaworks/agent-toolkit
+> **Use instead:** No official successor. The closest alive replacement is [[OpenClaw Meme Maker]] (openclaw/openclaw, skills/meme-maker, MIT).
+> **Changed since this note:** The skill files are byte-for-byte as they were in January 2026, so every defect the note lists is still there. I re-checked two of the dead template IDs today: api.memegen.link/templates/changemind and /distracted still return 404, while 'cmm' returns 200. skills.sh installs went from about 4.0K to 4.1K…
 
 🗒️ **`meme-factory`** is a Claude Code skill in [softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit/tree/main/skills/meme-factory) that makes memes through [[Memegen]]. It brings a template-selection guide and extra text formats (ASCII art, greentext). skills.sh shows about 4.0K installs (first seen 2026-01-20) and passing audits from three providers; a byte-identical copy ships in `davila7/claude-code-templates`. The folder has a single commit from January 2026 and no fixes since. [3rd-party registry data]
 

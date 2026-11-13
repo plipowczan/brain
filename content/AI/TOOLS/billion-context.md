@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-11-01_ranxiangleibillion-context.md"
 agent-created: true
 summary: "ranxianglei/billion-context (bili) — proxy/plugin that lets the model itself compress and restore conversation ranges, targeting 5x fewer tokens and month-long single sessions on 100K windows"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # billion-context
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits landed on master on 2026-11-13 (about 100 commits since 2026-11-01), and npm/GitHub releases ship every one to five days (v0.1.211 2026-11-01, v0.1.212 2026-11-02, v0.1.213 2026-11-07).
+> **Last release:** v0.1.213, 2026-11-07 (GitHub release; npm billion-context 0.1.213 published the same day). · **last commit:** 2026-11-13 · **licence:** MIT plus an 'Additional Term - Attribution on Product Surfaces': any product or service with a user-facing surface that…
+> **Repo:** https://github.com/ranxianglei/billion-context
+> **Changed since this note:** On 2026-11-13 the repo added a governance policy for in-app announcements. The 1,500-item benchmark (LongMemEval-S, ContextBench, MemoryAgentBench, run on v0.1.202 by contributor Wang Tian Yi) was added on 2026-10-31, the day before the note.
 
 ## 🚀 Description
 

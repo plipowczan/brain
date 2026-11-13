@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/YouMind-OpenLab awesome-nano-banana-pro-prompts.md"
 agent-created: true
 summary: "Curated 10K+ prompt library for Google Nano Banana Pro — preview images, 16 languages, free & open source"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Awesome Nano Banana Pro Prompts
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** A bot commits the regenerated README about every 4 hours; the latest commit was on 2026-11-13 at 08:02 UTC. The prompt count grew from '10,000+' at note time to 15,848 on 2026-11-13.
+> **Last release:** no releases (commits only). A GitHub Action regenerates the README from YouMind's CMS about every 4 hours. · **last commit:** 2026-11-13 · **licence:** CC BY 4.0, per the LICENSE file and the README badge.
+> **Repo:** https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts
+> **Changed since this note:** The library grew from 10,000+ to 15,848 prompts. The GitHub README shows only 9 featured and the first 120 regular prompts; the rest are only on the youmind.com gallery, which now offers 17 languages.
 
 A curated collection of **10,000+ prompts** for **Google Nano Banana Pro** — a multimodal image generation model. Maintained by YouMind-OpenLab. Each prompt comes with a preview image, classified by use case / style / subject, in 16 languages.
 

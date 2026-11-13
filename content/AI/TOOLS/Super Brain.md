@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-11-01_superhero-techsuper-brain Product Builder Second Brain - AI Product Heroes Edition 3.md"
 agent-created: true
 summary: "superhero-tech/super-brain — AI Product Heroes' Karpathy-style second brain for product builders: ingest/query/lint skills plus project and profile layers; index-only, ceiling about 100 pages"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Super Brain
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The last commit is 2026-10-26 (18 days ago), PR #7 "Remove vault limits and allow material across topics".
+> **Last release:** no releases (commits only) · **last commit:** 2026-10-26 · **licence:** MIT (LICENSE file added 2026-08-25)
+> **Repo:** https://github.com/superhero-tech/super-brain
+> **Changed since this note:** The note (2026-11-01) describes a state the repo had already left on 2026-10-26. Commit 47d73a2 deleted `8-System/limits.md`, the five failure modes the note cites as "honest limits".
 
 ## 🚀 Description
 

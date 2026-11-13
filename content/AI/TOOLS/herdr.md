@@ -9,8 +9,17 @@ source: "_raw/processed/2026-09-06_herdrdevherdr the runtime your coding agents 
 agent-created: true
 agent-reviewed: 2026-09-06
 summary: "herdrdev/herdr — a background terminal runtime that owns your coding agents' sessions: agents survive lid-close, network drops and reboots, every pane is marked working/blocked/idle, and agents drive it themselves via CLI and socket API. One Rust binary, Apache 2.0."
+status-checked: 2026-11-13
+project-status: active
 ---
 # herdr
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The last commit was on 2026-10-29 (15 days ago) and the last stable release, v0.9.5, on 2026-10-14.
+> **Last release:** v0.9.5 (2026-10-14), a hotfix for v0.9.4 (2026-10-13); preview builds are also published. · **last commit:** 2026-10-29 · **licence:** Apache-2.0 (Herdr TUI, herdr-app and herdr-core alike).
+> **Repo:** https://github.com/herdrdev/herdr — **moved/renamed:** The repo did not move, but the product was split and rebranded. The original herdr is now called 'Herdr TUI', with docs at herdr.dev/tui. herdr.dev now leads with a new native desktop app (herdrdev/herdr-app) built on a separate server, herdr-core (`hc`).
+> **Successor / fallback:** It is not formally superseded. The vendor's primary product is now the Herdr desktop app (herdrdev/herdr-app) on herdr-core, which adds a GUI, machine management over SSH and an iOS/Android phone app.
+> **Changed since this note:** v0.9.0 (2026-09-07) manages Local and saved SSH machines from one window with a combined agent list, lets several clients view different workspaces independently…
 
 🗒️ **[herdrdev/herdr](https://github.com/herdrdev/herdr)** — *"the runtime your coding agents live on."* A background server that **owns the terminals your agents run in**, rather than wrapping or replacing the agents themselves. One Rust binary, no Electron. Apache 2.0.
 

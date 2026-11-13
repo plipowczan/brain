@@ -7,9 +7,17 @@ tags: ["tool", "ai", "image-enhancement", "upscaling", "image-processing", "api"
 type: tool
 agent-created: true
 summary: "AI image/video upscaling and enhancement — sharpen, denoise, super-resolution; the final-quality upscaling step in Qamera AI's image pipeline"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Topaz Labs
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** topazlabs.com/updates lists ten updates in 2026.
+> **Latest release:** Wonder 4 Update, 2026-11-03: a new image-model architecture for one-click upscale, sharpen and denoise. · **last dated update:** 2026-11-03 · **licence:** Proprietary, subscription only since 2025-10-03, when perpetual licences ended.
+> **Source:** https://www.topazlabs.com/updates — **moved/renamed:** New owner: Adobe announced the acquisition on 2026-06-25 and closed it on 2026-09-23. Topaz stays a standalone brand, its apps and models are still sold separately, and CEO Eric Yang joins Adobe's Digital Video and Audio team.
+> **Changed since this note:** Adobe bought the company: the deal was announced on 2026-06-25 and closed on 2026-09-23, and Topaz technology is now available in Adobe Firefly and Photoshop. Releases since 2026-06-13 are three.
 
 A maker of AI-powered image and video **enhancement** tools — upscaling (super-resolution), sharpening, denoising, and detail recovery. Best known for desktop apps (Gigapixel, Photo AI, Video AI), it also offers an API for programmatic enhancement. In a generation pipeline it's the *post-processing* stage: take a generated image and push it to print/commercial quality.
 

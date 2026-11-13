@@ -8,8 +8,16 @@ type: tool
 source: "https://github.com/stanfordnlp/dspy"
 agent-created: true
 summary: "Stanford NLP framework for programming — not prompting — language models: write modular Python, declare I/O signatures, and let optimizers tune the prompts (and weights)"
+status-checked: 2026-11-13
+project-status: active
 ---
 # DSPy
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Four stable releases since August, the newest being 3.5.0 on 2026-11-10 (3.4.1 came on 2026-10-12).
+> **Last release:** 3.5.0, 2026-11-10 (GitHub release, and PyPI `dspy` 3.5.0 uploaded 2026-11-10). · **last commit:** 2026-11-12 · **licence:** MIT (LICENSE: Copyright (c) 2023 Stanford Future Data Systems; the same text ships on PyPI).
+> **Repo:** https://github.com/stanfordnlp/dspy
+> **Changed since this note:** When the note was written, the latest stable release was 3.2.1 (2026-05-05), with 3.3.0b1 in beta. (1) 3.3.0 (2026-08-03) added experimental dspy.Flex, where GEPA rewrites a module's source code (not only its prompt) inside a sandbox.
 
 `stanfordnlp/dspy` — **DSPy = Declarative Self-improving Python**, a framework for **programming rather than prompting** language models. Instead of brittle hand-written prompt strings, you write **compositional Python** with declared input/output *signatures* and modules (Predict, ChainOfThought, ReAct…), then hand the program to **optimizers** that automatically tune the prompts — and, where applicable, the weights — against a metric. Works for simple classifiers, RAG pipelines, and agent loops. Out of Stanford NLP.
 

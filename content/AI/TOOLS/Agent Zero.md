@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/agent0aiagent-zero Agent Zero AI framework.md"
 agent-created: true
 summary: "Open agentic framework — Linux-native AI agent with terminal, browser, Office canvas and multi-agent cooperation; foundation for Space Agent"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Agent Zero
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There is a release roughly every 2-3 weeks (v2.13 2026-09-23, v2.14 2026-10-13, v2.15 2026-11-01), and the 'ready' branch got commits on 2026-11-12.
+> **Last release:** v2.15 (2026-11-01) · **last commit:** 2026-11-01 · **licence:** MIT. GitHub reports NOASSERTION only because the root LICENSE adds contact and repository lines above the standard MIT…
+> **Repo:** https://github.com/agent0ai/agent-zero
+> **Changed since this note:** The major version moved: about v1.12 at the note date (2026-05-03) -> v2.0 (2026-06-24) -> v2.15. v2.0 brought a native OpenAI Responses API transport with chat-completions fallback, parallel tool calls, project-scoped MCP configuration, a Time Travel workspace selector, shared canvas surfaces (Files, Browser, Editor…
 
 `agent0ai/agent-zero` — a dynamic, organic framework for autonomous AI agents. It gives the agent **an entire Linux system as a tool**: terminal, code execution, files, memory, Playwright browser, plugins, and tools it learns to create on the fly. It is not a predefined single-task agent — it is a transparent, extensible environment.
 

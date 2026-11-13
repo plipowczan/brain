@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-05-27_AgriciDaniel-claude-seo.md"
 agent-created: true
 summary: "Open-source Claude Code plugin — 25 sub-skills + 18 agents for full SEO/GEO audits with parallel sub-agent dispatch and falsifiable recommendations."
+status-checked: 2026-11-13
+project-status: active
 ---
 # Claude SEO
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The latest commit on main is cca7e4a2, dated 2026-11-11.
+> **Last release:** v2.6.0, 2026-11-10 ('deterministic page, TLS, sitemap and JavaScript-gap checks')… · **last commit:** 2026-11-11 · **licence:** MIT. A separate private early-access build for paying AI Marketing Hub Pro (Skool) members lives at…
+> **Repo:** https://github.com/AgriciDaniel/claude-seo
+> **Changed since this note:** Thirteen releases from v2.2.0 (2026-06-12) to v2.6.0 since the note, all inside the 2.x line with no breaking change of scope. It now has 26 sub-skills, 19 agents (up to 17 in parallel), 30 commands and 63 scripts, up from the note's 25 sub-skills and 18 agents.
 
 Open-source SEO analysis plugin for [[Claude Code]] by AgriciDaniel. Runs 25 sub-skills and up to 15 specialist agents in parallel across technical SEO, content quality (E-E-A-T), Schema.org markup, AI-search optimization (GEO/AEO), local SEO, e-commerce, and international SEO. Every audit produces a prioritized action plan where each recommendation carries a first-principle observation, dependency relationships, an explicit falsifiability check, and a leading indicator.
 

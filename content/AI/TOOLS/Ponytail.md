@@ -9,7 +9,15 @@ source: "_raw/inbox/DietrichGebertponytail Makes your AI agent think like the la
 agent-created: true
 agent-reviewed: 2026-06-30
 summary: "Plugin: teach AI agents to write minimal code by reasoning YAGNI-first before generating anything."
+status-checked: 2026-11-13
+project-status: active
 ---
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The last release (v5.3.3) and the last commit are both dated 2026-10-29, 15 days ago; October alone had 14 releases (v4.10.1 to v5.3.3).
+> **Last release:** v5.3.3, 2026-10-29 (GitHub release; npm @dietrichgebert/ponytail 5.3.3 published the same day). · **last commit:** 2026-10-29 · **licence:** MIT
+> **Repo:** https://github.com/DietrichGebert/ponytail
+> **Changed since this note:** Major version change: the note describes v4.8.x; the current line is Ponytail 5 (v5.0.0, 2026-10-08), 'rebuilt from the ground up'. The rules were rewritten and halved: before writing, the agent maps callers, tests and config the change must reach, and every reply ends with what it skipped and any risk…
 
 🚀 **Ponytail** — makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 

@@ -9,8 +9,16 @@ source: "https://github.com/langfuse/langfuse"
 agent-created: true
 agent-reviewed: 2026-07-24
 summary: "Open-source LLM engineering platform — tracing/observability, prompt management, evals, datasets, playground; self-hostable, YC W23 (part of ClickHouse since Jan 2026), MIT (ee folders excepted)"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Langfuse
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Releases v4.76.0 (2026-11-05), v4.77.0 (11-09), v4.78.0 (11-10) and v4.79.0 (11-12).
+> **Last release:** v4.79.0, 2026-11-12 (GitHub release). The v3 line is still patched: v3.227.1 shipped on 2026-11-10. · **last commit:** 2026-11-13 · **licence:** Open core (GitHub shows NOASSERTION because of the split).
+> **Repo:** https://github.com/langfuse/langfuse
+> **Changed since this note:** The note was written at v3.185.0 (2026-06-12). (1) Langfuse v4.0.0 went GA on 2026-07-29, after RCs from 2026-07-23.
 
 `langfuse/langfuse` — open-source **LLM engineering platform** (YC W23) that helps teams develop, monitor, evaluate, and debug AI applications. It is the layer you bolt onto an LLM app to see what actually happened inside each call: traces, costs, latency, prompt versions, and quality scores. Self-hostable in ~5 minutes via Docker Compose, or run as managed Langfuse Cloud. Built in TypeScript on top of the [ClickHouse](https://github.com/ClickHouse/ClickHouse) open-source database; ~29k GitHub stars.
 

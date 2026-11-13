@@ -9,9 +9,17 @@ source: "_raw/processed/2026-07-06_affaan-mECC The agent harness performance opt
 agent-created: true
 agent-reviewed: 2026-07-06
 summary: "ECC (affaan-m) — cross-harness agent perf system (repo renamed everything-claude-code → ECC): ~67 agents, ~277 skills, hooks, instincts, AgentShield, orch-* orchestrators, ECC 2.0 Rust control-plane. 211K+ stars, MIT."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Everything Claude Code
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The last commit on main is from 2026-11-06 (7 days ago), with about 100 commits since 2026-10-02.
+> **Last release:** v2.2.3, 2026-10-01 (GitHub release). npm ecc-universal@2.2.3 was published 2026-10-02. · **last commit:** 2026-11-06 · **licence:** MIT (LICENSE, copyright Affaan Mustafa); the README calls the OSS repo 'MIT-licensed forever'.
+> **Repo:** https://github.com/affaan-m/ECC
+> **Changed since this note:** Two minor lines shipped after the note's v2.0.0 (2026-06-10). v2.1.0 (2026-07-27) added Plan Canvas, a browser-based review of /plan output with annotations, plus install targets for Kimi Code, Hermes and OpenClaw. It also consolidated the PostToolUse hooks and named Moonshot AI…
 
 > **ECC** (formerly *Everything Claude Code*) is a performance optimization system for agent harnesses — not just Claude Code, but also **Codex**, **Cursor**, **OpenCode**, **Gemini**, **GitHub Copilot**, **Hermes**. Anthropic Hackathon winner, MIT, **211.9K+ stars**, 230+ contributors, single maintainer ([affaan-m](https://github.com/affaan-m)) ships weekly across 7 harnesses.
 

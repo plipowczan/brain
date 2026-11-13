@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-11-01_mvschwarzopenrig Build your own network of agents from Claude Code, Codex and Pi persistent teams with roles, shared context and owned work.md"
 agent-created: true
 summary: "mvschwarz/openrig — a harness for harnesses: define a persistent team of Claude Code, Codex and Pi agents in YAML, boot it with one command on tmux (macOS/Linux)"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # OpenRig
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There were 14 releases between v0.7.0 (2026-10-23) and v0.7.13 (2026-11-12), and several commits landed on main on 2026-11-13.
+> **Last release:** v0.7.13 (2026-11-12), also published on npm as @openrig/cli · **last commit:** 2026-11-13 · **licence:** Apache-2.0
+> **Repo:** https://github.com/mvschwarz/openrig
+> **Changed since this note:** The note says the current release at ingest was v0.6.8, but v0.6.8 is from 2026-10-09 and v0.7.6 was already out by the note date. Today's version is v0.7.13. v0.7.0 (2026-10-23) added a human gateway with quiet hours and modes (asleep, out of office), rig names usable in place of ids…
 
 ## 🚀 Description
 

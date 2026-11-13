@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/Superfast UXUI Design with AI.md"
 agent-created: true
 summary: "AI wireframe and hi-fi UI generator — from sketch/PRD to a finished screen in ~12s, export to Figma and code"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # UX Pilot
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** UX Pilot 2.0 shipped in July 2026. Since then the site has added the Nodey Figma agent, the MCP server at mcp.uxpilot.net, a Design PR Review Agent, motion/video makers and UX Pilot Labs.
+> **Latest release:** UX Pilot 2.0, launched July 2026 (no exact day is published). · **last dated update:** 2026-10-22 · **licence:** Proprietary SaaS with freemium credits. Free: 80 credits a day (up to 13 screens), 1 project, every design feature…
+> **Source:** https://uxpilot.ai/llms.txt
+> **Changed since this note:** Since 2026-05-09: UX Pilot 2.0 launched in July 2026. It runs on Glide, UX Pilot's own design model, with vendor-published benchmarks: preferred over Claude Opus 4.8 in all 1,828 blind judgments, and 91.5 on a 'Design-Value Index' against Gemini 3.5 Flash 86.2, Claude Opus 4.8 82.7 and GPT-5.5 75.0.
 
 An AI-powered platform for **wireframing and hi-fi design**. Idea → wireframe → high-fidelity → code, all in one tool. Built by product designers led by Kresimir Retih for product builders.
 

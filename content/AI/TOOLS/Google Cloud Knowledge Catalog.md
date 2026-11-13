@@ -9,8 +9,16 @@ source: "_raw/processed/2026-06-14_GoogleCloudPlatform-knowledge-catalog.md"
 agent-created: true
 agent-reviewed: 2026-06-15
 summary: "Google Cloud's AI-powered data catalog (formerly Dataplex) — a dynamic knowledge graph over structured + unstructured data that gives AI agents semantics and business context; companion GitHub repo ships tools, agents, and samples."
+status-checked: 2026-11-13
+project-status: active
 ---
 # Google Cloud Knowledge Catalog
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There are dozens of commits a week. The last 100 commits run from 2026-10-27 to 2026-11-13, almost all feat/fix work on toolbox/mdcode (kcmd semantic models, OKF v0.3 layout, context sets)…
+> **Last release:** No GitHub releases or tags in the repo (commits only). · **last commit:** 2026-11-13 · **licence:** Repo: Apache-2.0. Product: proprietary Google Cloud managed service, pay-as-you-go.
+> **Repo:** https://github.com/GoogleCloudPlatform/knowledge-catalog — **moved/renamed:** The repo is unchanged. The product rename (Dataplex Universal Catalog to Knowledge Catalog, 2026-04-10) predates the note, and APIs, gcloud dataplex commands, client libraries and IAM names are unchanged.
+> **Changed since this note:** The repo's focus moved from sample agents to 'Metadata as Code'. toolbox/mdcode ships kcmd, a TypeScript/Python library, CLI and MCP server that syncs catalog metadata both ways as YAML and markdown files under version control. It now has a semantic-model layer for BigQuery, Spanner, AlloyDB and BigLake…
 
 Google Cloud's **AI-powered data catalog and metadata-management platform** (formerly **Dataplex**). It builds a *dynamic knowledge graph* over all of an organisation's data — structured and unstructured — so that **AI agents** get semantics and business context rather than raw tables. The [knowledge-catalog GitHub repo](https://github.com/GoogleCloudPlatform/knowledge-catalog) ships tools, agents, and samples that demonstrate the platform's features and patterns for context management, enrichment, and retrieval. Apache 2.0.
 

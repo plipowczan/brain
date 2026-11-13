@@ -7,9 +7,17 @@ tags: ["tool", "ai", "coding-assistant", "ide", "code-completion", "github"]
 type: tool
 agent-created: true
 summary: "In-IDE AI code completion and chat from GitHub/OpenAI — inline suggestions, chat, agent mode; the in-editor assist used on the Tech To The Rescue project"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # GitHub Copilot
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There are multiple Copilot changelog entries per week; 2026-11-03 to 2026-11-10 alone brought JetBrains Air and Xcode support, new models and seat-management features.
+> **Latest release:** Rolling weekly releases. The latest roll-up is 'GitHub Copilot weekly releases - November 2' (posted 2026-11-06). · **last dated update:** 2026-11-10 · **licence:** Proprietary SaaS. Individual plans: Free (2,000 completions/mo, limited chat and agent use), Pro \$10/mo, Pro+ \$39/mo…
+> **Source:** https://github.blog/changelog/label/copilot/
+> **Changed since this note:** (1) Billing: the switch from premium requests to usage-based GitHub AI Credits took effect on 2026-06-01, 12 days before the note, but the note does not mention it. Flex allotments and the new Max plan (\$100/mo) were announced 2026-05-12.
 
 The original mainstream in-IDE AI coding assistant, from GitHub (built on OpenAI models). It offers inline autocomplete as you type, a chat sidebar for questions/refactors, and — more recently — agent and multi-file editing modes. It lives inside VS Code, JetBrains, Visual Studio, and on github.com, making it the lowest-friction AI assist for developers already in those editors.
 

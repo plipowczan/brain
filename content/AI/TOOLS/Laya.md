@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-10-01_NandhaKishorMlaya Non-autoregressive System 1 decision engine.md"
 agent-created: true
 summary: "NandhaKishorM/laya — open-source Jev-compatible System 1 decision engine: typed choice/score/yes-no answers in one encoder pass (33 ms on T4), 100+ languages via a router; fine-tune first"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Laya
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** PyPI lists about 75 releases since the first one on 2026-09-18, roughly 40 of them after the note (0.3.23 on 2026-10-01 to 0.4.31 on 2026-11-10), often several a day.
+> **Last release:** v0.4.31 (2026-11-10), matching on the GitHub releases page and PyPI (laya 0.4.31, uploaded 2026-11-10) · **last commit:** 2026-11-10 · **licence:** Apache-2.0 for the code (LICENSE, README, PyPI metadata) and for the Hugging Face weights: convaiinnovations/laya and…
+> **Repo:** https://github.com/NandhaKishorM/laya
+> **Changed since this note:** The note was written at about v0.3.23 and the current version is 0.4.31. The biggest change is the vega engine inside laya (0.4.23, 2026-11-05). laya.Agent(vegaml=True) loads a frozen 0.8B reader (nandakishorm/vega-U, based on Qwen3.5-0.8B; Qwen3.5-4B and gemma-3-1b-it readers are optional).
 
 🗒️ **[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)** is an open-source, non-autoregressive "System 1" decision engine. You give it a state (text, an email, a ticket, a JSON document) and typed questions. It answers all of them in **one forward pass** of an encoder: about 33 ms for one question and 7.2 ms per question batched, measured on a T4. It never generates text, so there is nothing to parse. Weights are Apache 2.0 on Hugging Face (`convaiinnovations/laya*`). It is trained with reinforcement learning against strictly proper scoring rules, which the README calls RLCD.
 

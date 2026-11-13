@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/VoltAgentawesome-agent-skills A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.md"
 agent-created: true
 summary: "VoltAgent-curated list of 1000+ Agent Skills from official dev teams and community — cross-platform (Claude Code, Codex, Gemini CLI, Cursor, etc.)"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Awesome Agent Skills
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The last commit is from 2026-11-05 (8 days ago).
+> **Last release:** no releases (commits only) · **last commit:** 2026-11-05 · **licence:** MIT for the list itself. Each listed skill keeps its own licence, and the README disclaims endorsement or audit.
+> **Repo:** https://github.com/VoltAgent/awesome-agent-skills
+> **Changed since this note:** The README skill-count badge went from 1100+ at the note date to 1497+, and the README grew from about 1,500 to about 2,000 lines. New: a Sponsors section and promo blocks (TestMu AI, Crawlbase, SerpApi, EveryFeed, getdesign.md kits), plus a badge linking a sister 'Official MCP Servers' list.
 
 A curated collection of 1000+ [[Agent Skills]] from official developer teams (Anthropic, Google, Vercel, Stripe, Cloudflare, Netlify, Trail of Bits, Sentry, Expo, Hugging Face, Figma, MongoDB, Notion, Resend, Apollo, Auth0, Browserbase, Datadog, Firebase, Flutter, Coinbase, Binance...) plus community skills — as opposed to "AI-slop" repos full of bulk-generated skills.
 

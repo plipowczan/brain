@@ -7,9 +7,17 @@ tags: ["tool", "ai", "rag", "retrieval", "knowledge-base", "pdf", "vectorless", 
 type: tool
 agent-created: true
 summary: "VectifyAI's vectorless, reasoning-based retrieval engine for long documents — builds a hierarchical tree index the LLM reasons over instead of chunk-and-embed; the retrieval layer under OpenKB."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # PageIndex
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Latest commit and release v0.5.3 are both 2026-11-05 (8 days ago); 12 releases between 2026-10-12 (v0.4.0) and 2026-11-05, and the repo was pushed on 2026-11-13.
+> **Last release:** v0.5.3 (2026-11-05), GitHub release and PyPI pageindex 0.5.3 · **last commit:** 2026-11-05 · **licence:** MIT (open-source SDK, local mode free); PageIndex Cloud is proprietary…
+> **Repo:** https://github.com/VectifyAI/PageIndex
+> **Changed since this note:** The note was written at about v0.3.0.dev3 (2026-07-10). Since then: v0.4.0 (2026-10-12) and v0.5.0 (2026-10-29) turned it into one PageIndexClient SDK with identical local and cloud modes (submit, tree, page content, chat, agent tools).
 
 ## 🚀 Description
 

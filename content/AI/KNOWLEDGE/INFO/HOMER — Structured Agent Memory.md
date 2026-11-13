@@ -14,9 +14,17 @@ published: 2026-06-12
 transcription: captions
 agent-created: true
 summary: "HOMER (Duke + Snowflake) — organize-then-retrieve agent memory: build a hierarchical memory tree first, navigate it instead of RAG. ~22% of baseline tokens."
+status-checked: 2026-11-13
+project-status: done
 ---
 
 # HOMER — Structured Agent Memory
+
+> [!info] Status check 2026-11-13 — done
+> **Verdict:** A single static preprint (arXiv v1, 2026-06-10) with no revision, code or follow-up release in five months.
+> **Published:** arXiv v1, 2026-06-10 (the only version) · **code / weights:** none released · **licence:** arXiv non-exclusive distribution licence 1.0
+> **Source:** https://arxiv.org/abs/2606.11680 — **name:** the paper calls the method **HORMA** (Hierarchical Organize-and-Retrieve Memory Agent); "HOMER" and the expansion above came from the video transcript. The paper title is 'Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents'.
+> **Changed since this note:** Nothing new was published: no v2, no code, no weights. Corrections to this note: the method is HORMA, not HOMER; the authors are Hao-Lun Hsu (Duke) and Nikki Lijing Kuang, Boyi Liu, Zhewei Yao and Yuxiong He (Snowflake AI Research); the navigator is Qwen 3.5 4B trained with GRPO, while the headline results use Claude Sonnet 4.5; the long-memory benchmark is LongMemEval; token use is 3–22% of baseline on LoCoMo and 1–16% on LongMemEval.
 
 ## 🗒️ Description
 

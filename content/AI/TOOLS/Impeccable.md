@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-05-28_pbakaus-impeccable.md"
 agent-created: true
 summary: "pbakaus/impeccable — a design-language skill (1 skill, 23 commands, 27 anti-pattern rules) that makes any AI coding harness better at frontend design; builds on Anthropic's frontend-design skill, Apache 2.0"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Impeccable
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Releases nearly every week: skill 4.6.0 (2026-10-15), 4.7.0 (10-19), 4.8.0 (10-26), 4.8.1 (11-08), 4.8.2 (11-09) and 4.9.0 (11-13), plus engine and Loop tags in the same week.
+> **Last release:** Skill 4.9.0 (tag skill-v4.9.0) and CLI 4.9.0 (tag cli-v4.9.0), both 2026-11-13. npm 'impeccable' is at 4.9.0. · **last commit:** 2026-11-13 · **licence:** Apache-2.0, with NOTICE.md crediting Anthropic's frontend-design skill as its starting point.
+> **Repo:** https://github.com/pbakaus/impeccable
+> **Changed since this note:** Two major lines shipped since the note's 3.1.x era, 3.5-3.9 and then 4.0-4.9. Skill 4.0.0 (2026-07-22) was a redesign.
 
 A design-language skill that makes your AI harness better at frontend design — *"the vocabulary you didn't know you needed."* Built by [Paul Bakaus](https://www.paulbakaus.com/) (@pbakaus), it extends [Anthropic's frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design) with deeper reference material, a shared command vocabulary, and a deterministic anti-slop linter.
 

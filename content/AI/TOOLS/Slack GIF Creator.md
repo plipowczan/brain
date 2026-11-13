@@ -8,8 +8,17 @@ type: tool
 source: "_raw/processed/2026-10-15_2026-10-15-research-meme-generation-for-coding-agents.md"
 agent-created: true
 summary: "Anthropic's official slack-gif-creator skill (anthropics/skills) — Pillow + imageio GIF builder with Slack-size validators; a good first-party base for animated reaction memes once you swap the default font"
+status-checked: 2026-11-13
+project-status: stale
 ---
 # Slack GIF Creator
+
+> [!warning] Status check 2026-11-13 — stale
+> **Verdict:** The skill's code has not changed since 2025-12-04, and its only later commit (2026-04-20) touched the licence text, about 207 days ago.
+> **Last release:** no releases (commits only). anthropics/skills publishes no GitHub releases. · **last commit:** 2026-04-20 · **licence:** Apache-2.0. The skill folder has its own LICENSE.txt ('Copyright 2026 Anthropic, PBC').
+> **Repo:** https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator
+> **Use instead:** No official successor: it still ships in anthropics/skills and the example-skills plugin. The practical path is a local fork with the open fix PRs applied: #2112 (copy NumPy frames in add_frame), #2116 (sum per-frame durations in validate_gif), #2120 (round delays to the nearest centisecond)…
+> **Changed since this note:** New bug reports since the note: #2070 (2026-10-23, add_frame keeps mutable NumPy arrays, so later edits overwrite earlier frames) and #2176 (2026-11-10, GIFBuilder.save() permanently changes the builder's frames and size). New fix PRs #2071, #2112, #2116, #2120, #2158, #2174 and #2179 are all open.
 
 🗒️ **`slack-gif-creator`** is an official skill in [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator) (Apache-2.0) that builds animated GIFs for Slack. It is built on Pillow, imageio and numpy and ships a `GIFBuilder`, validators (`is_slack_ready`), easing functions and a frame composer. It targets 480x480 message GIFs and 128x128 emoji at 10-30 fps. In the [[Meme Generation for Coding Agents]] research it was the best first-party starting point for **animated** reaction memes, not for captioned templates.
 

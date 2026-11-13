@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/HKUDSCLI-Anything CLI-Anything Making ALL Software Agent-Native -- CLI-Hub httpsclianything.cc.md"
 agent-created: true
 summary: "Auto-generate agent-native CLIs for any software — 7-phase pipeline, Claude Code plugin, 30+ harnesses"
+status-checked: 2026-11-13
+project-status: maintained
 ---
 
 # CLI-Anything
+
+> [!success] Status check 2026-11-13 — maintained
+> **Verdict:** The last commit is 2026-09-22, 52 days ago, so it is inside the 90-day window, but those commits only reorder README badges; the last code merges were on 2026-08-21 and the last release on 2026-06-25.
+> **Last release:** v0.4.0, 2026-06-25 (GitHub release). The hub package cli-anything-hub is at 0.4.1 on PyPI (2026-07-09). · **last commit:** 2026-09-22 · **licence:** Apache-2.0 (repo LICENSE and badge, corrected from MIT in v0.4.0)…
+> **Repo:** https://github.com/HKUDS/CLI-Anything
+> **Changed since this note:** Two releases since the note (written around v0.2.0). v0.3.0 (2026-04-24): the CLI-Hub package manager (cli-anything-hub, 'cli-hub install <name>'), many new harnesses (n8n, Obsidian, Godot, Exa, Dify, QGIS, Openscreen, Slay the Spire II…
 
 🚀 Tomorrow's software users will be agents, not humans. CLI-Anything bridges that gap — feed it a codebase or a GitHub repo and it auto-generates a full, structured CLI harness that LLM agents can drive directly. No UI automation, no brittle RPA, no dumbed-down API wrappers.
 

@@ -8,8 +8,18 @@ type: tool
 source: "_raw/processed/2026-06-24_Santander AI Open Source.md"
 agent-created: true
 summary: "Banco Santander AI Lab's open-source org — small models, harness engineering, evolving agents, responsible AI, graph ML for financial services; Apache-2.0"
+status-checked: 2026-11-13
+project-status: slowing
 ---
 # Santander AI Open Source
+
+> [!warning] Status check 2026-11-13 — slowing
+> **Verdict:** The last human commit on any default branch was 2026-07-23, 113 days ago.
+> **Last release:** No org-wide releases since the launch wave. · **last commit:** 2026-07-23 · **licence:** Apache-2.0 for the 11 code projects. sota-stressed-datasets is dual-licensed: data and docs under CC BY 4.0…
+> **Repo:** https://github.com/SantanderAI
+> **Use instead:** No official successor. The repos still work as reference code.
+> **Changed since this note:** No new repos since the note: the newest, causal-perception-implementation, was created 2026-06-19. The CLA was finalised on 2026-07-21, when the DRAFT/legal-review banner was removed.
+
 Open-source AI org from **Banco Santander AI Lab** (Madrid). Publishes tools for **small models, harness engineering, evolving agents, responsible AI, MLOps, and graph ML** for financial services. All projects ship under permissive licenses (mostly Apache-2.0) and use **synthetic or anonymised data only** — no real customer data. Notable as a regulated bank running a formal Open Source Programme Office (OSPO).
 
 ## Links

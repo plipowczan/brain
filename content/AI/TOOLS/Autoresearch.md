@@ -9,9 +9,17 @@ source: "_raw/inbox/karpathyautoresearch AI agents running research on single-GP
 agent-created: true
 agent-reviewed: 2026-04-09
 summary: "Karpathy's framework for AI agents running autonomous ML research experiments overnight"
+status-checked: 2026-11-13
+project-status: stale
 ---
 
 # Autoresearch
+
+> [!warning] Status check 2026-11-13 — stale
+> **Verdict:** The last commit on master (PR #342 merge) is 2026-03-26, 232 days ago, and nothing has been pushed since.
+> **Last release:** no releases (commits only); pyproject version 0.1.0 · **last commit:** 2026-03-26 · **licence:** MIT according to the README's License section, but the repo has no LICENSE file (the GitHub API detects no license)
+> **Repo:** https://github.com/karpathy/autoresearch
+> **Use instead:** No official successor. The README's bare-bones baseline still works as a reference design.
 
 AI agents autonomicznie prowadzące eksperymenty ML research na single-GPU. Projekt Andreja Karpathy'ego — dajesz agentowi setup treningowy LLM, a on modyfikuje kod, trenuje 5 minut, sprawdza wynik, zachowuje lub odrzuca zmianę i powtarza. Rano masz log eksperymentów i (hopefully) lepszy model.
 

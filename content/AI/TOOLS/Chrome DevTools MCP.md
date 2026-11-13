@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-06-25_ChromeDevToolschrome-devtools-mcp Chrome DevTools for coding agents.md"
 agent-created: true
 summary: "Google's MCP server giving coding agents a live Chrome — DevTools automation, debugging, performance traces via Puppeteer"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Chrome DevTools MCP
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Nine releases since the note date, v1.5.0 (2026-07-03) through v1.13.0 (2026-11-11), with three in October-November alone.
+> **Last release:** chrome-devtools-mcp-v1.13.0 (2026-11-11), on GitHub Releases and npm (chrome-devtools-mcp 1.13.0, same day). · **last commit:** 2026-11-12 · **licence:** Apache-2.0. Free. Google collects usage statistics by default (opt out with --no-usage-statistics…
+> **Repo:** https://github.com/ChromeDevTools/chrome-devtools-mcp
+> **Changed since this note:** At the note date (2026-06-25) the latest release was v1.4.0 (2026-06-23). Since then: (1) A heap-snapshot memory toolkit: comparison, duplicate strings, retaining paths, query_heapsnapshot, analyze_heapsnapshot_contexts, and analysis without a browser connection (v1.12).
 
 `chrome-devtools-mcp` is Google / Chrome DevTools' [Model Context Protocol](https://modelcontextprotocol.io) server that lets a coding agent (Claude Code, Cursor, Copilot, Antigravity, Gemini CLI, Codex…) control and inspect a **live Chrome browser**. It exposes the full power of Chrome DevTools — reliable automation, deep debugging, and performance analysis — to the agent. A CLI is also provided for use without MCP.
 

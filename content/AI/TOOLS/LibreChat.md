@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-06-14_yt-RegzpFdW8pM_10-github-repos-so-good-they-shouldn-t-be-free-and-the-paid.md"
 agent-created: true
 summary: "danny-avila/LibreChat — self-hosted, open-source chat UI that fronts every major model (ChatGPT, Claude, Gemini, DeepSeek + 20 more) with your own API keys. Native MCP support; you own the data and history. MIT."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # LibreChat
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** v0.8.8 shipped on 2026-10-01 after four RCs (2026-08-14 to 09-23), and v0.8.9-rc1 followed on 2026-10-26.
+> **Last release:** v0.8.8, 2026-10-01 (latest final tag). The newest tag is v0.8.9-rc1, 2026-10-26. · **last commit:** 2026-11-12 · **licence:** MIT for the main repo (LICENSE: Copyright (c) 2026 LibreChat).
+> **Repo:** https://github.com/LibreChat-AI/LibreChat — **moved/renamed:** Yes. danny-avila/LibreChat -> LibreChat-AI/LibreChat (GitHub 301 redirect). The 2026-09-29 'Meet Lia' blog post says all LibreChat repositories moved from Danny Avila's personal account to the LibreChat-AI org.
+> **Changed since this note:** At the note date v0.8.6 (2026-06-01) was current. (1) Repo move to the LibreChat-AI org, and the ClickHouse ownership the note omits.
 
 ## 🚀 Description
 

@@ -7,8 +7,17 @@ tags: ["tool", "ai", "mcp", "lsp", "code-intelligence", "coding-agents", "open-s
 type: tool
 agent-created: true
 summary: "isaacphi/mcp-language-server — a generic LSP→MCP bridge: run any stdio language server (gopls, rust-analyzer, pyright, clangd, tsserver) and expose definition/references/diagnostics/hover/rename/edit to an LLM agent. Structure, not embeddings."
+status-checked: 2026-11-13
+project-status: stale
 ---
 # MCP Language Server
+
+> [!warning] Status check 2026-11-13 — stale
+> **Verdict:** The last commit on main was 2025-06-03 and the last release v0.1.1 was 2025-05-16, about 17 months ago.
+> **Last release:** v0.1.1, 2025-05-16 (GitHub releases page; tags v0.0.3 to v0.1.1 only) · **last commit:** 2025-06-03 · **licence:** BSD-3-Clause
+> **Repo:** https://github.com/isaacphi/mcp-language-server
+> **Use instead:** There is no official successor. For [[Claude Code]], the first-party replacement is the native LSP tool, turned on by installing an official code-intelligence plugin (typescript-lsp, pyright-lsp, gopls-lsp, rust-analyzer-lsp, clangd-lsp…
+> **Changed since this note:** Around it: Claude Code's native LSP tool and official code-intelligence plugins (shipped in 2.0.74, Dec 2025; the note did not mention them) now cover the read-only half of this tool's surface. Serena reached v2.0/v2.1 (Oct 2026).
 
 `isaacphi/mcp-language-server` — the minimal, generic version of the [[Serena|LSP-as-context]] idea: a thin **bridge that runs any stdio language server and re-exposes its capabilities as MCP tools**. The agent gets IDE-grade navigation and edits derived from the language server's native type system and symbol tables — not grep, not embeddings.
 

@@ -9,8 +9,16 @@ source: "_raw/processed/2026-10-12_diegosouzapwOmniRoute Never stop coding. Free
 agent-created: true
 agent-reviewed: 2026-10-12
 summary: "diegosouzapw/OmniRoute — self-hosted MIT AI gateway: one OpenAI-compatible endpoint over ~358 providers and 1300+ models, quota-aware auto-fallback across 19 routing strategies, and a 12-engine compression stack (RTK → Caveman) that cuts 15–95% of tokens transparently. Re-clipped at v3.8.52 (2026-10-12)."
+status-checked: 2026-11-13
+project-status: active
 ---
 # OmniRoute
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits landed on the default branch on 2026-11-12, and v3.8.53 shipped 2026-11-06 with 1,189 changelog entries from 1,162 commits by 222 contributors.
+> **Last release:** v3.8.53, 2026-11-06 (GitHub release; npm omniroute 3.8.53 published the same day). · **last commit:** 2026-11-12 · **licence:** MIT (repo LICENSE and npm). A separate, private OmniRoute-Enterprise-Cloud repo exists in the new owner org…
+> **Repo:** https://github.com/cheaper-inference/OmniRoute — **moved/renamed:** Yes. The repo was transferred from diegosouzapw/OmniRoute to the cheaper-inference GitHub organisation on 2026-10-21 (issue #17871; CI broke briefly that day, #17866).
+> **Changed since this note:** (1) Ownership: transferred to the cheaper-inference org on 2026-10-21, the org of a commercial sponsor that resells model access, with a private enterprise cloud repo alongside. This sharpens the note's monetisation caveat.
 
 🗒️ **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)** — a free, self-hosted **AI gateway**: one OpenAI-compatible endpoint (`http://localhost:20128/v1`) fronting **~358 providers and ~1,312 chat model IDs** (the v3.8.52 README says 357, 358 and 359 in different places), with quota-aware auto-fallback and a transparent token-compression pipeline. Works with [[Claude Code]], Codex, [[Cursor]], OpenCode, Cline and Copilot. MIT, v3.8.52 as of the 2026-10-12 re-clip (first ingested at v3.8.51); Node ≥22.22.2 was the requirement at v3.8.51.
 

@@ -8,8 +8,16 @@ type: tool
 source: "https://github.com/crewAIInc/crewAI"
 agent-created: true
 summary: "Open-source Python framework for orchestrating role-playing autonomous agents — Crews (autonomous collaboration) + Flows (event-driven control); standalone, not built on LangChain"
+status-checked: 2026-11-13
+project-status: active
 ---
 # CrewAI
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** 1.15.41 shipped on 2026-11-12, 1.15.40 on 2026-11-11, and three commits landed on main on 2026-11-13; the project has released 35 patch versions since the note's 1.15.6 (2026-07-24).
+> **Last release:** 1.15.41, 2026-11-12 (GitHub release and PyPI `crewai`; nightly dev builds such as 1.15.41.dev20261113 also… · **last commit:** 2026-11-13 · **licence:** MIT for the open-source framework (LICENSE, Copyright (c) 2025 crewAI, Inc.).
+> **Repo:** https://github.com/crewAIInc/crewAI
+> **Changed since this note:** No new major or minor version: still the 1.15.x line (1.15.6 -> 1.15.41). Conversational flows were promoted to stable (1.15.18, 2026-08-27), and experimental conversational Agent sessions followed (1.15.36).
 
 `crewAIInc/crewAI` — an open-source **Python framework for multi-agent orchestration**. You define agents with roles, goals, and tools, then compose them two ways: **Crews** (role-based agents collaborating autonomously) and **Flows** (event-driven workflows with precise, deterministic control, single LLM calls, and native Crew support). Deliberately **standalone** — a lightweight core, not a LangChain wrapper — which is its main pitch versus heavier frameworks.
 

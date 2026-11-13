@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-06-25_MinerU.md"
 agent-created: true
 summary: "OpenDataLab's high-accuracy document parser — PDF/DOCX/PPTX/XLSX/images → LLM-ready Markdown/JSON; VLM+OCR dual engine, 109-language OCR, MCP server, runs CPU-only or GPU."
+status-checked: 2026-11-13
+project-status: active
 ---
 # MinerU
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Releases are very frequent: 4.0.0 (2026-09-16) and 4.0.1 to 4.0.12, then 4.1.0 (2026-10-29) to 4.1.7 (2026-11-04), 4.2.0 (2026-11-10) and 4.2.1 (2026-11-11).
+> **Last release:** MinerU 4.2.1 (tag mineru-4.2.1-released), 2026-11-11 (GitHub release and PyPI mineru 4.2.1) · **last commit:** 2026-11-11 · **licence:** MinerU Open Source License, PyPI LicenseRef-MinerU-Open-Source-License…
+> **Repo:** https://github.com/opendatalab/MinerU
+> **Changed since this note:** The note (2026-06-25) describes 3.x. 3.4.1 to 3.4.5 followed in July and August, 4.0 alphas from 2026-07-14, then 4.0.0 on 2026-09-16, a ground-up rebuild. (1) Four quality tiers, flash, basic, standard and advanced…
 
 OpenDataLab's open-source document parsing engine that converts complex documents — `PDF`, `DOCX`, `PPTX`, `XLSX`, images, web pages — into LLM-ready Markdown / JSON. Built for **RAG · Agent · pre-training** pipelines. Born inside the [InternLM](https://github.com/InternLM/InternLM) pre-training effort to solve symbol conversion in scientific literature.
 

@@ -7,8 +7,16 @@ tags: ["tool", "ai", "mcp", "lsp", "code-intelligence", "coding-agents", "open-s
 type: tool
 agent-created: true
 summary: "oraios/serena — MIT MCP server that gives coding agents symbol-level code retrieval AND refactoring backed by real language servers (LSP), not vector embeddings. 'The IDE for your agent', 40+ languages."
+status-checked: 2026-11-13
+project-status: active
 ---
 # Serena
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits on main through 2026-11-09 (dependency pinning, an OpenSSF Scorecard workflow) after fixes on 2026-10-28.
+> **Last release:** v2.1.0 (2026-10-19), GitHub release and PyPI serena-agent 2.1.0 · **last commit:** 2026-11-09 · **licence:** Component licensing since v2.0.0. The Serena application is GPL-3.0-or-later…
+> **Repo:** https://github.com/oraios/serena
+> **Changed since this note:** The note was written at v1.5.3; the current version is v2.1.0. (1) LICENSE CHANGE: the note's "MIT" is now wrong for current versions.
 
 `oraios/serena` — an MCP toolkit that turns any LLM coding agent into something closer to an IDE: it retrieves and edits code at the **symbol level** using real **language servers (LSP)**, the same engines that power go-to-definition and find-references in VS Code. Tagline: *"the IDE for your agent."* MIT, 40+ languages, free.
 

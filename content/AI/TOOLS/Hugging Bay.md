@@ -9,9 +9,17 @@ source: "_raw/processed/2026-07-07_Post by Charly Wargnier on LinkedIn.md"
 agent-created: true
 agent-reviewed: 2026-07-07
 summary: "huggingbay.xyz — 'Pirate Bay for open LLMs': artifact registry distributing open model weights via torrents and hash-checked mirrors. Site verified live 2026-07-07; operator anonymous, 'verified' = metadata provenance + license clarity + community signals, no cryptographic signing."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Hugging Bay
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The site returns 200, and its changelog has nine entries from 2026-10-14 to 2026-11-13: the Teach local fine-tuning feature, an MCP server on npm, desktop apps 0.2.27 and 0.2.96, an in-browser phone run, and a website release on 2026-11-13.
+> **Last release:** Website release c4a6896871cf on 2026-11-13. · **last commit:** 2026-11-13 · **licence:** Proprietary hosted service, free to use. Public API reads need no key and allow 300 requests/min per IP…
+> **Source:** https://huggingbay.xyz/changelog
+> **Changed since this note:** Three of the note's points changed. (1) The operator is no longer anonymous: the site names Barney Wohl (GitHub barneywohl) as operator, and the MCP Registry lists io.github.barneywohl/hugging-bay.
 
 ## 🚀 Description
 

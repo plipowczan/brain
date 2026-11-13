@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-10-01_tigerless-labsautoharness Autoharness — a self-learning skill layer for Claude Code.md"
 agent-created: true
 summary: "tigerless-labs/autoharness — Claude Code plugin that distills skills from your real sessions, merges near-duplicates, and archives unused ones by adherence rate; never touches skills it didn't write"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Autoharness
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** About 100 commits landed on main since 2026-10-01, the latest merge (PR #313) on 2026-11-12.
+> **Last release:** No GitHub releases. The newest git tag is v0.2.5 (2026-07-02). · **last commit:** 2026-11-12 · **licence:** MIT
+> **Repo:** https://github.com/tigerless-labs/autoharness
+> **Changed since this note:** Still manifest 0.5.3, so no new release, but there is heavy fix work. Redaction now covers credentials in URLs, bare vendor-prefixed keys and secret-named variables, and treats hosted identifiers as PII. The promoter can no longer overwrite a skill it did not write (#210).
 
 🗒️ **[tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness)** is a self-learning skill layer for [[Claude Code]]. It watches your real sessions, **distills** reusable lessons into native `SKILL.md` files, **merges** same-scenario skills instead of piling up near-duplicates, **patches** them as you correct them, and **archives** the ones that stop getting used. It only ever touches skills it wrote itself. There's no daemon and no benchmark. MIT, by Tigerless Labs.
 

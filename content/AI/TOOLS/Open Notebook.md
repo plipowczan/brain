@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-06-14_yt-zjFE-dBzP_E_you-need-to-try-these-open-source-ai-projects-right-now.md"
 agent-created: true
 summary: "lfnovo/open-notebook — open-source, self-hostable NotebookLM clone. Upload PDFs/URLs/audio/video, chat with sources, generate multi-speaker podcasts. Runs hosted or fully local (Ollama/LM Studio). ~28k stars."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Open Notebook
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** v1.15.1 shipped 2026-11-04, nine days ago, after v1.15.0 (2026-10-04) and six minor releases since June.
+> **Last release:** v1.15.1 ('security release'), 2026-11-04 · **last commit:** 2026-11-12 · **licence:** MIT
+> **Repo:** https://github.com/lfnovo/open-notebook
+> **Changed since this note:** Seven releases since the note (v1.10.0 on 2026-06-18 through v1.15.1). Security: v1.11.0 was a 16-fix hardening pass (SurrealQL injection, SSRF on web ingestion, constant-time password check…
 
 ## 🚀 Description
 

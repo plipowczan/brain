@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-11-07_deepseek-aidsh-superagent-prototype Towards a More Autonomous Agent System.md"
 agent-created: true
 summary: "deepseek-ai/dsh-superagent-prototype — DeepSeek's research prototype of a proactive coding agent for one GitHub repo (optionally Feishu): opens work items, works in its own session and directory, answers with a PR, web panel for what needs a person. MIT, not official."
+status-checked: 2026-11-13
+project-status: active
 ---
 # DSH Superagent
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Under the 30-day rule it counts as active: the only commit landed on 2026-10-31, 13 days ago, and GitHub shows 22.9k stars and 2.8k forks.
+> **Last release:** no releases (commits only); the repo has no tags and no GitHub releases · **last commit:** 2026-10-31 · **licence:** MIT (LICENSE file at the repo root, linked from the README; GitHub reports MIT)
+> **Repo:** https://github.com/deepseek-ai/dsh-superagent-prototype
+> **Changed since this note:** The note dates from 2026-11-07 and the repo has had no commits since 2026-10-31. One open item from the note is now settled: press coverage (SCMP and Interesting Engineering, 2026-11-01) confirms the companion article 'Exploring Super-agent Design: Towards a More Autonomous Agent System'.
 
 🗒️ **[deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype)** — a proactive coding agent for **one GitHub repository**, packaged as a bundle for [[DeepSeek Harness]]. It listens to GitHub and, optionally, Feishu. When an allowed person asks for work, it opens a **work item**, handles it in its own agent session and directory, and replies in the original conversation, for example with a pull request. A web panel shows what needs a person. MIT.
 

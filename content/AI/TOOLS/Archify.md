@@ -9,8 +9,16 @@ source: "_raw/processed/2026-09-06_tt-a1iarchify Agent skill for beautiful, veri
 agent-created: true
 agent-reviewed: 2026-09-06
 summary: "tt-a1i/archify — cross-agent skill (Claude Code / Cursor / Codex / opencode) that turns plain-English descriptions into verifiable, interactive self-contained HTML architecture, workflow, sequence, data-flow & lifecycle diagrams; 2.17 adds a fourth visual preset, route/reach share cards, a DeepSeek Harness plugin and Raven support, and a no-telemetry update check you can disable."
+status-checked: 2026-11-13
+project-status: active
 ---
 # Archify
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits on main through 2026-11-10, and four core releases in six weeks: v3.0.0 and v3.0.1 (2026-09-28), v3.1.0 (2026-10-13), v3.2.0 (2026-10-19).
+> **Last release:** v3.2.0, 2026-10-19 (GitHub release; CHANGELOG dates it 2026-10-18). · **last commit:** 2026-11-10 · **licence:** Apache-2.0 on main since 2026-10-25 (commit 'license: adopt Apache-2.0 while preserving historical MIT grants').
+> **Repo:** https://github.com/tt-a1i/archify
+> **Changed since this note:** Major version 3 and a licence change. v3.0.0 (2026-09-28) brought a redesigned reader, better layout and routing, Lifecycle schema v2 and verified delivery for all types. It removed the guided/story views and the ordinary share-card exports that the note lists…
 
 🗒️ **[tt-a1i/archify](https://github.com/tt-a1i/archify)** — an [[Agent Skills|agent skill]] that turns a plain-English description of a system or process (or a whole repository) into a polished, **interactive, verifiable** self-contained HTML system map you can open, present, theme-toggle, copy, and export at up to 4× resolution. Works in [[Claude Code]], [[Cursor]], Codex CLI, and opencode. MIT-licensed. Not a drawing editor and not a Mermaid theme — its job is turning technical intent into a communication artifact you can trust: every interaction (search, reach tracing, route probing, guided stories) reuses authored topology instead of inventing it.
 

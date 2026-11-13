@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/ruvnetruflo 🌊 The leading agent orchestration platform for Claude.md"
 agent-created: true
 summary: "ruvnet/ruflo (ex Claude-Flow) — agent orchestration: 98 agents, 32 plugins, swarms + federation + SONA self-learning, AgentDB HNSW, web UI flo.ruv.io, GOAP planner goal.ruv.io"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Ruflo
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Release v3.77.0 and the last default-branch merge (PR #4980) both landed on 2026-11-12; five releases shipped between 2026-11-10 and 2026-11-12 and npm lists about 496 versions of `ruflo` since 2026-02-16.
+> **Last release:** v3.77.0, 2026-11-12 (GitHub release; npm `ruflo` dist-tag latest = 3.77.0; `alpha`/`v3alpha` held at 3.75.2) · **last commit:** 2026-11-12 · **licence:** MIT (root LICENSE, Copyright (c) 2024-2026 ruvnet).
+> **Repo:** https://github.com/ruvnet/ruflo
+> **Changed since this note:** Version jumped from the 3.6.x / 3.7.0-alpha line (npm, mid-May 2026) to 3.77.0. The README now calls it "an agent meta-harness for Claude Code and Codex", with a Codex plugin (@claude-flow/codex)…
 
 > Multi-agent orchestration platform for Claude Code and other harnesses. **Claude Flow rebranded as Ruflo** by [rUv](https://ruv.io/) — Rust engine, embeddings, memory, plugin system from [Cognitum.One](https://cognitum.one/?RuFlo). 100+ specialized agents coordinate in swarms, learn from every task, remember across sessions, and federate across trust boundaries.
 

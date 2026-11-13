@@ -7,9 +7,18 @@ tags: ["tool", "ai", "image-generation", "text-to-image", "byteplus", "api"]
 type: tool
 agent-created: true
 summary: "BytePlus's high-resolution text/image-to-image generation model (up to 4K) — the primary image generator in Qamera AI's pipeline"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # BytePlus Seedream 4.0
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** ByteDance Seed released Seedream 5.0 Lite on ModelArk on 2026-02-24 and 5.0 Pro in mid-2026 (model ID date code 260628; secondary sources report a 2026-07-08 launch).
+> **Latest release:** Seedream 5.5, announced by ByteDance Seed on 2026-11-09. · **last dated update:** 2026-11-09 · **licence:** Proprietary model served through a paid API on BytePlus ModelArk (international) and Volcano Engine Ark (China)…
+> **Source:** https://seed.bytedance.com/en/models
+> **Successor / fallback:** Within the same product line: replace Seedream 4.0 with Seedream 5.0 Lite (cheapest, USD 0.035 per image) or 5.0 Pro (best quality, interactive and region editing, layer separation) now…
+> **Changed since this note:** The note describes Seedream 4.0 (up to about 4K). Seedream 4.5 (late 2025) and Seedream 5.0 Lite (ModelArk API from 2026-02-24) already existed when it was written.
 
 A high-end image-generation model from **BytePlus** (ByteDance's enterprise cloud arm). Seedream 4.0 does both text-to-image and image-to-image at high resolution (up to ~4K), with strong prompt adherence and the consistency needed for product/commercial imagery. It's exposed as an API, which is how it slots into a generation pipeline as one provider among several.
 

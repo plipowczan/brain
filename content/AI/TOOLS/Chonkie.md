@@ -8,8 +8,17 @@ type: tool
 source: "https://github.com/feyninc/chonkie"
 agent-created: true
 summary: "Lightweight, fast text-chunking library for RAG — fetch, chunk, refine, embed and ship to a vector DB; 32+ integrations, 56 languages, local or cloud; the pygmy-hippo chunker"
+status-checked: 2026-11-13
+project-status: maintained
 ---
 # Chonkie
+
+> [!success] Status check 2026-11-13 — maintained
+> **Verdict:** The last commit on main was 2026-08-26, 79 days ago, which is just inside the 90-day 'maintained' window and will cross into 'slowing' after 2026-11-24.
+> **Last release:** v1.7.0, 2026-07-07 (GitHub release and PyPI chonkie 1.7.0). · **last commit:** 2026-08-26 · **licence:** MIT (LICENSE file and PyPI metadata). The sibling 'chunk' crate is Apache-2.0.
+> **Repo:** https://github.com/feyninc/chonkie
+> **Successor / fallback:** Not needed yet: v1 still works and is MIT. Chonkie v2 is announced but unreleased (a small Rust core with only token, sentence, recursive and code chunkers); until it ships, pin chonkie==1.7.0.
+> **Changed since this note:** (1) The Chonkie v2 RFC (2026-08-21) is a 'course correction'. It drops the semantic, neural and slumber (agentic) chunkers, which on Chonkie's own MTCB benchmark were worse than or within 2-3% of the recursive chunker with modern embedders.
 
 `feyninc/chonkie` — a **lightweight, fast chunking library** for RAG pipelines (mascot: a pygmy hippo). It covers the "split source text into good retrieval units" step end-to-end: **fetch → CHONK → refine → embed → ship to your vector DB**. The pitch is no-bloat and "just works": small install, quick chunking, and 32+ integrations with embedders and vector stores out of the box, across 56 languages.
 

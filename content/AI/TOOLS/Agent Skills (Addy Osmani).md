@@ -9,9 +9,17 @@ source: "_raw/processed/2026-07-12_addyosmaniagent-skills Production-grade engin
 agent-created: true
 agent-reviewed: 2026-07-12
 summary: "addyosmani/agent-skills — Addy Osmani's production-grade SDLC skill collection for AI coding agents: Define→Plan→Build→Verify→Review→Ship, 4 personas, 8 slash commands, MIT"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Agent Skills (Addy Osmani)
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Recent releases are 0.6.13 (2026-10-13), 0.6.14 (2026-10-29) and 0.6.15 (2026-10-31), and the last commit landed on main on 2026-11-01, 12 days ago.
+> **Last release:** 0.6.15 (2026-10-31) · **last commit:** 2026-11-01 · **licence:** MIT
+> **Repo:** https://github.com/addyosmani/agent-skills
+> **Changed since this note:** The version went from 0.6.4 (current at the note date) to 0.6.15. A new constraint-driven-development skill and a /constraints command bring the totals to 9 commands and 25 skills (24 lifecycle skills plus the using-agent-skills meta-skill); the note lists 8 commands.
 
 An **independent** collection of production-grade engineering [[Agent Skills]] that walk AI coding agents through a structured software development lifecycle. Built by **Addy Osmani** (Google Chrome eng lead, author of *Learning JavaScript Design Patterns*) with **Federico Bartoli** and **Joan León**. Not affiliated with Anthropic's [[Agent Skills|anthropics/skills]] repo — it is a *methodology stack*, sibling to [[Superpowers]] and [[gstack]].
 

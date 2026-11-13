@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-07-11_bradautomatesclaude-video.md"
 agent-created: true
 summary: "bradautomates/claude-video — the /watch agent skill that lets Claude see any video: yt-dlp download, ffmpeg frame extraction, captions/Whisper transcript, handed back as images"
+status-checked: 2026-11-13
+project-status: maintained
 ---
 
 # Claude Video
+
+> [!success] Status check 2026-11-13 — maintained
+> **Verdict:** v0.3.0, v0.3.1 and v0.3.2 shipped on 2026-09-24/25, after v0.2.0 on 2026-06-29 (GitHub release 2026-07-01).
+> **Last release:** v0.3.2, 2026-09-25 (GitHub release and CHANGELOG) · **last commit:** 2026-09-25 · **licence:** MIT
+> **Repo:** https://github.com/bradautomates/claude-video
+> **Changed since this note:** The note (2026-07-11) describes v0.2.0. v0.3.0 (2026-09-25) added an optional Gemini engine (gemini-3.7-flash). With a GEMINI_API_KEY the whole video goes to Google's video model: YouTube URLs directly, other files through a Files API upload that is deleted afterwards.
 
 ## 🚀 Description
 

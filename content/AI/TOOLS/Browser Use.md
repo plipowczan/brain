@@ -9,9 +9,17 @@ source: "_raw/inbox/browser-usebrowser-use 🌐 Make websites accessible for AI 
 agent-created: true
 agent-reviewed: 2026-08-06
 summary: "Open-source Python framework that makes websites accessible to AI agents — CLI 3.0 runs on Browser Harness: agents execute Python in the browser, not a fixed action menu; pip is 0.13.7 and there is no v4 (that's the cloud agent)"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Browser Use
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Four stable releases in three days (1.0.0 to 1.0.3, 2026-11-10 to 2026-11-12) and commits on main on 2026-11-12 and 2026-11-13.
+> **Last release:** 1.0.3, 2026-11-12 (GitHub release and PyPI browser-use 1.0.3). 1.0.0 'CDP is all you need' shipped… · **last commit:** 2026-11-13 · **licence:** MIT for the open-source library. Browser Use Cloud (hosted browsers, the bu-fast/bu-smart gateway models, web search…
+> **Repo:** https://github.com/browser-use/browser-use
+> **Changed since this note:** The note's version callout is obsolete: browser-use 1.0.0 shipped on 2026-11-10 after 0.13.7 to 0.13.14. 1.0 is a rewrite that deleted about 80% of the library (-136,866 lines): the agent now writes Python in one persistent REPL directly on Chrome DevTools Protocol through browser-harness (pinned 0.1.13)…
 
 ## 🚀 Description
 

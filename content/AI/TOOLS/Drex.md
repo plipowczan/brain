@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-10-01_Drex, a small model that decides.md"
 agent-created: true
 summary: "Nace.ai's sub-10B decision model: facts and options in, one probability per option out in a single pass; claims #1 on Decision Index 0.2, 1.15 points ahead of Jev"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Drex
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Nace shipped Drex v2.0 (2026-10-13), Drex Max v1 (2026-10-14) and Drex Max v1.1 (ranked as of 2026-11-12), plus a tech report on 2026-11-05 (revised 2026-11-09).
+> **Latest release:** Drex Max v1.1 (API only, no open weights). · **last dated update:** 2026-11-09 · **licence:** Mixed. The hosted API is proprietary and usage-priced, with output not billed.
+> **Source:** https://www.nace.ai/drex
+> **Changed since this note:** The note (2026-10-01) covered Drex 1.0/1.1, an under-10B model with 52.82 on Decision Index 0.2 (1.15 points ahead of Jev), with no public weights, pricing or API reference. Since then Nace released open weights for Drex v1.5 (9B, on MiMo-V2.6-Distill-Qwen-9B), Drex DLM (8B, on NVIDIA Efficient-DLM-8B…
 
 🗒️ **[Drex](https://www.nace.ai/drex)** from **Nace.ai** is a "small model that decides". You send the facts of a case and the options you would accept. One forward pass returns a probability for each option. It never writes text, so there is nothing to parse and it cannot answer with an option you didn't offer. It's commercial: managed, self-hosted or hybrid, and Nace will tune it on your labelled outcomes and ship you the weights.
 

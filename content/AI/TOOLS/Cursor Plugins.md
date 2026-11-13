@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-11-01_cursorplugins Cursor plugin specification and official plugins.md"
 agent-created: true
 summary: "cursor/plugins — the official Cursor plugin marketplace repo and spec: per-plugin manifest bundling skills, rules and MCP; ~100 plugins from agent workflows to SaaS and finance integrations"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Cursor Plugins
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits land almost daily; the latest is from 2026-11-13 (Rippling MCP docs).
+> **Last release:** No releases (commits only). Each plugin versions itself in its plugin.json and CHANGELOG… · **last commit:** 2026-11-13 · **licence:** There is no root LICENSE, so GitHub reports none.
+> **Repo:** https://github.com/cursor/plugins
+> **Changed since this note:** The note is 12 days old, so the changes are small. The marketplace grew from 129 to 136 plugins.
 
 ## 🚀 Description
 

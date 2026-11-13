@@ -9,9 +9,17 @@ source: "_raw/inbox/NousResearchhermes-agent The agent that grows with you.md"
 agent-created: true
 agent-reviewed: 2026-05-16
 summary: "Nous Research self-improving agent — TUI + Telegram/Discord/Slack/WhatsApp/Signal gateway, autonomous skill creation, FTS5 cross-session search, Honcho user modeling, runtime on a $5 VPS"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Hermes Agent
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** v0.22.0 (2026-10-13), v0.22.5-v0.22.7 (2026-10-23 to 11-03), v0.23.0 (2026-11-05) and v0.23.1 (2026-11-10) shipped, with commits on main on 2026-11-13.
+> **Last release:** v0.23.1 (2026-11-10). The last feature release was v0.23.0 'The Hearth Release' (2026-11-05). · **last commit:** 2026-11-13 · **licence:** MIT (LICENSE file and README). Optional paid or hosted pieces come from Nous: Nous Portal models…
+> **Repo:** https://github.com/NousResearch/hermes-agent
+> **Changed since this note:** Eleven minor versions since the note (v0.12.0, 2026-04-30, was current at the note date -> v0.23.1). Material changes: (1) native Windows is now fully supported (CLI, gateway, TUI, tools), so the note's 'Native Windows = no; WSL2 required' is stale…
 
 `NousResearch/hermes-agent` — a **self-improving AI agent** from [Nous Research](https://nousresearch.com/). The only agent with a built-in learning loop: it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of the user across sessions. Hosts on a $5 VPS, a GPU cluster, or serverless infrastructure (idle = pennies).
 

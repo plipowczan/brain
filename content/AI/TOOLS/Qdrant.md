@@ -8,8 +8,16 @@ type: tool
 source: "https://github.com/qdrant/qdrant"
 agent-created: true
 summary: "High-performance vector similarity search engine + database in Rust — stores vectors with payloads, strong filtering, production API; self-host via Docker or managed Qdrant Cloud"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Qdrant
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** v1.20.0 shipped 2026-10-22 after v1.19.0 (2026-08-05), v1.19.1 (2026-09-04) and v1.19.2 (2026-10-05), a steady monthly cadence.
+> **Last release:** v1.20.0, 2026-10-22 · **last commit:** 2026-11-12 · **licence:** Apache-2.0 for the open-source engine. Qdrant Cloud is a proprietary managed service: a free-forever single-node…
+> **Repo:** https://github.com/qdrant/qdrant
+> **Changed since this note:** At note time the latest release was v1.18.3 (2026-07-17). v1.19.0 (2026-08-05) added TurboQuant 4-bit as a primary vector storage type (no full-precision copy on disk), per-component memory tiers ('cold' / 'cached' / 'pinned'), prefix match in keyword filters, per-query IDF corpora for sparse/BM25 search…
 
 `qdrant/qdrant` (read *quadrant*) — a **vector similarity search engine and vector database** written in Rust. It stores **points** (a vector plus an arbitrary JSON payload) and serves fast nearest-neighbour search with **strong filtering** — combining semantic similarity with structured constraints on the payload (faceted search, metadata filters). Production-ready API, fast and reliable under load, self-hostable via a single Docker image, or run as managed **Qdrant Cloud** (with a free tier).
 

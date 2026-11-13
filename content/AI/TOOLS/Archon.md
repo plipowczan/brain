@@ -8,8 +8,16 @@ type: tool
 source: "_raw/inbox/coleam00Archon The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.md"
 agent-created: true
 summary: "Open-source harness builder — YAML workflows for AI coding agents (plan/implement/validate/review/PR), deterministic + parallel via worktrees"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Archon
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There are several commits a day on dev (the last on 2026-11-12, PR numbers near #5600) and 30 tagged releases since April, the latest being v0.14.0 on 2026-11-07.
+> **Last release:** v0.14.0 ('Archon CLI v0.14.0', 2026-11-07) · **last commit:** 2026-11-12 · **licence:** MIT
+> **Repo:** https://github.com/coleam00/Archon
+> **Changed since this note:** The note (2026-04-29) was written at v0.3.10; the current release is v0.14.0. Archon now calls itself a 'factory builder' and ships a bundled SDLC pack: intake, build queue, archon-ship, merge queue, discoveries and metrics take a GitHub issue to a merged PR. It has a plugin system with workflow packs, providers…
 
 `coleam00/Archon` — workflow engine for AI coding agents. You define the development process as a YAML workflow (plan → implement → validate → review → PR) and run it deterministically via CLI, Web UI, Slack, Telegram or GitHub. README analogy: *Dockerfile did this for infrastructure, GitHub Actions for CI/CD — Archon does this for AI coding*.
 

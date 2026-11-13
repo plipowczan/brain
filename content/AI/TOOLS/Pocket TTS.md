@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-07-07_kyutai-labspocket-tts A TTS that fits in your CPU (and pocket).md"
 agent-created: true
 summary: "kyutai-labs/pocket-tts — 100M-param text-to-speech that runs on 2 CPU cores: ~200ms first-chunk latency, ~6x real-time on MacBook Air M4, voice cloning, streaming, 6 languages; pip install + one function call, no GPU, no API."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Pocket TTS
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There have been 16 PyPI releases in 2026, most recently v3.2.0 and v3.3.0 (2026-09-23/24), v4.0.0 (2026-10-20) and v4.0.1 (2026-10-21).
+> **Last release:** v4.0.1, 2026-10-21 (GitHub release and PyPI pocket-tts 4.0.1) · **last commit:** 2026-11-12 · **licence:** Code: MIT. Model weights on Hugging Face (kyutai/pocket-tts): CC-BY-4.0…
+> **Repo:** https://github.com/kyutai-labs/pocket-tts
+> **Changed since this note:** Two major versions since the note (v2.1.0 was current then). v3.0.0 (2026-08-25) published the training code and added a 24-layer English model, and renamed internal modules (possible breakage for code that imports internals)…
 
 ## 🚀 Description
 

@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-07-29_claude-in-chrome-v-chrome-devtools-mcp.md"
 agent-created: true
 summary: "Anthropic's official Chrome extension giving Claude computer-use control of your real, logged-in browser"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Claude in Chrome
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** It went GA on every paid plan on 2026-08-26.
+> **Latest release:** Anthropic publishes no public version number for the extension. · **last dated update:** 2026-11-12 · **licence:** Proprietary. It is included in paid Claude plans (Pro, Max, Ultra, Team, Enterprise)…
+> **Source:** https://code.claude.com/docs/en/changelog
+> **Changed since this note:** At the note date it was in beta; it went GA on all paid plans on 2026-08-26. Claude can now act without approving each step. 'Automatically approve' is the side panel's default, a safety classifier checks each action against the original request, and probes flag likely prompt injections in tool results.
 
 Anthropic's official Chrome extension that lets [[Claude Code]] (or claude.ai) drive your **actual browser session** — clicking, typing, scrolling, reading pages and console/network output — using computer-use-style control rather than a fixed automation API. Beta, rolling out to Pro/Max/Team/Enterprise plans.
 

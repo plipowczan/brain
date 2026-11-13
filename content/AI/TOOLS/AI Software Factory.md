@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-10-01_coleam00ai-software-factory A repository that ships without anyone reading the diff.md"
 agent-created: true
 summary: "coleam00/ai-software-factory — lights-out repo setup on Archon's SDLC pack: GitHub issues in, verified and merged PRs out; MISSION.md out-of-scope list, journeys and holdout scenarios are the trust gates"
+status-checked: 2026-11-13
+project-status: active
 ---
 # AI Software Factory
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Main has 82 commits since 2026-10-01, the last on 2026-10-27, 17 days ago.
+> **Last release:** no releases (commits only); no tags · **last commit:** 2026-10-27 · **licence:** No license. There is no LICENSE file at the root, the README states no license and GitHub reports none.
+> **Repo:** https://github.com/coleam00/ai-software-factory
+> **Changed since this note:** Since 2026-10-01 the project has been reframed: the README now says humans plan the release and test it in staging, and explicitly that this is not a dark factory, so the note's 'ships without anyone reading the diff' framing is outdated. The flow now starts from a PRD (archon-holdouts writes hidden holdout scenarios, archon-backlog slices issues), the recommended scheduled workflow is archon-loop with a deterministic merge gate, and scheduling moved to Archon's native triggers (.factory/loop.sh is gone).
 
 🗒️ **[coleam00/ai-software-factory](https://github.com/coleam00/ai-software-factory)** by Cole Medin is a setup that makes a repository ship "without anyone reading the diff". You file a GitHub issue. The factory checks it against your mission, plans it, builds it, has something that didn't write the code judge it, and merges it. A scheduled regression run can re-test what already merged and file the bugs it finds. Some people call this a *dark factory*, after lights-out manufacturing.
 

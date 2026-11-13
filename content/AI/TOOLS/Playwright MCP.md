@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-07-29_claude-in-chrome-v-chrome-devtools-mcp.md"
 agent-created: true
 summary: "Microsoft's accessibility-tree-based browser automation MCP — cross-browser E2E testing, most token-efficient of the three main browser MCPs"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Playwright MCP
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Seven releases since the note date: v0.0.79 (2026-08-06) through v0.0.85 (2026-11-09), one every one to four weeks.
+> **Last release:** v0.0.85 (2026-11-09), on GitHub Releases and npm (@playwright/mcp 0.0.85, same day). · **last commit:** 2026-11-11 · **licence:** Apache-2.0. Free; you run it locally with Node.js 18+ or in Docker.
+> **Repo:** https://github.com/microsoft/playwright-mcp
+> **Changed since this note:** At the note date (2026-07-29) the latest version was v0.0.78 (2026-07-09). Since then: v0.0.79 added WebP screenshots, code generation in Python, Java and C#, and --timeout-settle. v0.0.80 added browser_start_recording/stop_recording…
 
 Microsoft's official (plus community) [Model Context Protocol](https://modelcontextprotocol.io) server wrapping [Playwright](https://playwright.dev) for coding agents. Drives automation off the **accessibility tree** rather than raw DOM/CSS selectors or screenshots, which makes interactions deterministic and far less prone to breaking when the UI changes.
 

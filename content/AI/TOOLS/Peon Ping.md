@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-10-15_2026-10-15-research-meme-generation-for-coding-agents.md"
 agent-created: true
 summary: "PeonPing/peon-ping — plays a sound (Warcraft peon voices and other packs) when Claude Code finishes or fails; the most popular reaction-on-finish hook, worth copying for throttling but not for installing"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Peon Ping
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The last commit was 2026-11-06 (docs) and a bug-triage batch of about 30 fixes merged on 2026-10-19 (PR #619), so commits fall inside 30 days; releases have paused since v2.37.0 on 2026-08-26 (79 days).
+> **Last release:** v2.37.0, 2026-08-26 (latest GitHub release and tag; the VERSION file on main still reads 2.37.0). · **last commit:** 2026-11-06 · **licence:** MIT for the code. Sound packs are downloaded from the OpenPeon registry and the README says the sound files are the…
+> **Repo:** https://github.com/PeonPing/peon-ping
+> **Changed since this note:** The note saw the last push on 2026-10-06. On 2026-10-19 PR #619 merged a triage batch: Codex hook migration fixes (TOML and JSON configs, Windows JSON hooks), OpenCode support for both host contracts, oh-my-pi firing once per prompt, a hook fast path (repeat tool events exit early without child processes…
 
 🗒️ **[PeonPing/peon-ping](https://github.com/PeonPing/peon-ping)** plays a sound when a coding agent finishes a task, fails, or needs input. About 5k stars (created 2026-02-09, last push 2026-10-06), a pack registry and a published spec (CESP). I looked at it because it is the closest popular precedent for a **reaction hook**, the pattern behind a "meme on task end" feature in [[Meme Generation for Coding Agents]]. Verdict from the research: **adopt the design lessons, skip installing it**.
 

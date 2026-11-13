@@ -9,9 +9,17 @@ source: "_raw/inbox/Self-healing harness that enables LLMs to complete any task.
 agent-created: true
 agent-reviewed: 2026-08-06
 summary: "Thin self-healing CDP harness (~1k lines) connecting an LLM directly to your real browser — agent writes the missing helpers itself; the engine behind Browser Use CLI 3.0, pinned at 0.1.8"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Browser Harness
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The default branch had commits on 2026-11-13, and domain-skill PRs merge daily.
+> **Last release:** v0.1.13 (2026-09-04), on GitHub Releases and PyPI (browser-harness 0.1.13, same day). · **last commit:** 2026-11-13 · **licence:** MIT (LICENSE file; pyproject declares license = 'MIT').
+> **Repo:** https://github.com/browser-use/browser-harness
+> **Changed since this note:** The note was written 2026-05-19 and last reviewed 2026-08-06, when it recorded that browser-use 0.13.7 pinned harness 0.1.8. Since then: (1) Harness releases v0.1.9 to v0.1.13 (2026-08-16 to 2026-09-04) added reusable background tabs in the daemon, a macOS remote-debugging approval helper…
 
 ## 🚀 Description
 

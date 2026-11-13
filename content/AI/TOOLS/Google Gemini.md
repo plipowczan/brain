@@ -7,9 +7,17 @@ tags: ["tool", "ai", "llm", "multimodal", "image-understanding", "google", "api"
 type: tool
 agent-created: true
 summary: "Google's multimodal LLM family — strong image understanding, large context, and image generation (Nano Banana); used for vision/analysis and idea generation across my AI pipelines"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Google Gemini
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Three GA launches in the past four days: Gemini 4 Carbon (2026-11-10), the Decisions API (11-11) and Gemini 4 Hydrogen (11-12).
+> **Latest release:** Gemini 4 Hydrogen (`gemini-4-hydrogen`) GA, 2026-11-12. · **last dated update:** 2026-11-12 · **licence:** Proprietary API with a free tier, where content is used to improve Google products, and a paid tier, where it is not.
+> **Source:** https://aistudio.google.com/docs/changelog — **moved/renamed:** The model brand is unchanged, but the surrounding names and URLs moved. Vertex AI was renamed Gemini Enterprise Agent Platform at Google Cloud Next 2026 (announced 2026-04-22).
+> **Changed since this note:** (1) A new generation: Gemini 4 Argon (GA 2026-10-13, 'most capable' for coding, agentic, math and science work), Gemini 4 Carbon (GA 11-10, reasoning model for sustained agentic coding) and Gemini 4 Hydrogen (GA 11-12, fast, on the free tier, default model for the Antigravity managed agent). All have 1M-token context.
 
 Google's multimodal large-language-model family, accessed via the Gemini API (and Google AI Studio / Vertex AI). Its strengths in my stack are **image understanding** (analyzing and describing visual input), **large context windows**, and **image generation** through the Gemini image models (the "Nano Banana" line). It's another provider I keep in a multi-vendor setup rather than committing to exclusively.
 

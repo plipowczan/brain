@@ -8,8 +8,16 @@ type: tool
 source: "_raw/inbox/HKUDSLightRAG EMNLP2025 LightRAG Simple and Fast Retrieval-Augmented Generation.md"
 agent-created: true
 summary: "EMNLP2025 RAG framework — combines KG entity extraction with dual-level retrieval, beats NaiveRAG/HyDE/GraphRAG across 4 domains"
+status-checked: 2026-11-13
+project-status: active
 ---
 # LightRAG
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The latest commit on main is 0bbd9f87, dated 2026-11-13 (merge of PR #4386), and more than 100 commits landed after 2026-10-13.
+> **Last release:** v1.5.7, 2026-09-02 (GitHub release and PyPI lightrag-hku 1.5.7). main already declares 1.5.8… · **last commit:** 2026-11-13 · **licence:** MIT. The LICENSE file is the plain MIT text (Copyright 2025 LightRAG Team)…
+> **Repo:** https://github.com/HKUDS/LightRAG
+> **Changed since this note:** The v1.5 line shipped after the note (v1.4.16 on 2026-05-07, v1.5.0 on 2026-06-03, through v1.5.7 on 2026-09-02). Major changes: RAG-Anything's multimodal processing was merged into LightRAG (images, tables, formulas).
 
 `HKUDS/LightRAG` — open-source RAG framework published at EMNLP2025 ([arXiv:2410.05779](https://arxiv.org/abs/2410.05779)). Instead of naive vector search, LightRAG extracts entities and relations into a knowledge graph, then combines dual-level retrieval (low-level → specific entities, high-level → broad topics/entity groups). In the authors' evaluations it beats NaiveRAG, RQ-RAG, HyDE, and GraphRAG on agriculture, CS, legal, and mixed domains.
 

@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-10-12_can1357oh-my-pi Coding agent with the IDE wired in. Built by Stencil Labs.md"
 agent-created: true
 summary: "can1357/oh-my-pi (omp) — Stencil Labs' MIT terminal coding agent, a fork of Pi: hashline content-hash edits, LSP and debugger wired into the agent, subagents in isolated worktrees, an advisor model, 60+ providers, and a ~80k-line Rust core"
+status-checked: 2026-11-13
+project-status: active
 ---
 # oh-my-pi
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Releases ship almost daily: about 200 releases listed, with tags on 2026-11-08 through 11-12 (four on 11-09 alone), v18.19.0 and v18.20.0 both on 2026-11-12, and a commit on main on 2026-11-13.
+> **Last release:** v18.20.0 (2026-11-12; also the npm 'latest' of @oh-my-pi/pi-coding-agent, 18.20.0) · **last commit:** 2026-11-13 · **licence:** MIT (GitHub SPDX MIT, npm license MIT); copyright Stencil Labs, Inc.
+> **Repo:** https://github.com/can1357/oh-my-pi
+> **Changed since this note:** The note was written at v18.10.x (2026-10-12); since then came ten minor releases (v18.11.0 to v18.20.0) and no new major. Details worth knowing: (1) the minors carry breaking SDK changes, e.g. v18.11.0 removed ApprovalDetailsOptions, v18.12.0 replaced PI_CODEX_ZSTD with PI_REQUEST_COMPRESSION…
 
 ![[ba41e549c1825df71aead3a0568234de_MD5.png]]
 

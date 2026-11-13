@@ -8,8 +8,18 @@ type: tool
 source: "_raw/processed/2026-09-10_trailhq-graft.md"
 agent-created: true
 summary: "trailhq/Graft — builds a markdown node graph of your repo once (tree-sitter + optional LLM pass) so coding agents skip rediscovery. Claims −42% tokens, −60% latency, and 66% vs 54% on SWE-bench Verified."
+status-checked: 2026-11-13
+project-status: active
 ---
 # Graft
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits on main through 2026-11-09 (Bash and GLSL indexing, 28 languages counted in the README commit). npm releases 0.27.0-0.29.0 between 2026-10-27 and 2026-11-06.
+> **Last release:** npm @trailhq/trail-code 0.29.0 (2026-11-06); no GitHub Releases, and the newest git tag… · **last commit:** 2026-11-09 · **licence:** MIT (LICENSE: Context Graph Engine contributors).
+> **Repo:** https://github.com/trailhq/Trail-Code — **moved/renamed:** yes: Graft was renamed and expanded into Trail-code. The repo moved from trailhq/Graft to trailhq/Trail-Code (the old URL redirects), and the npm package from @nanonets/graft to @trailhq/trail-code (first published 2026-10-14…
+> **Successor / fallback:** Official successor: Trail-code (@trailhq/trail-code, `trail init`), the same product renamed. Existing graft setups migrate automatically the first time [[Claude Code]] opens the repo once `trail` is installed, or right away with `trail init`. `graft upgrade` adds the `trail` command.
+> **Changed since this note:** Note written at @nanonets/graft 0.18.0 (2026-09-10). Since then: (1) Rename to Trail-code, about 2026-10-14, with new repo, package, CLI and MCP tool names; graft aliases are kept.
+
 Every coding-agent task starts blind: grep a term, open a file, follow an import, back out, try again. Graft's bet is that this rediscovery is pure, repeated, discarded overhead — so it builds the understanding **once** and writes it into the repo as a folder of linked markdown files, one node per system, API, or concept. The agent reads those files the way it reads any other file.
 
 Repo: [trailhq/Graft](https://github.com/trailhq/Graft) · npm `@nanonets/graft` · dev repo `NanoNets/context-graph-engine`.

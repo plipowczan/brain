@@ -8,8 +8,16 @@ type: tool
 source: "https://github.com/ollama/ollama"
 agent-created: true
 summary: "Run open LLMs locally with one command — pulls and serves Kimi-K2.6, GLM-5.2, DeepSeek, gpt-oss, Qwen, Gemma etc. behind a REST API; macOS/Linux/Windows/Docker"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Ollama
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Stable releases v0.40.13 (2026-10-28), v0.40.14 and v0.40.15 (11-03) and v0.40.16 (11-09), then an RC on 11-10.
+> **Last release:** v0.40.16, 2026-11-09 (latest stable GitHub release). v0.40.17-rc0 was published as a pre-release on… · **last commit:** 2026-11-12 · **licence:** MIT for the engine, CLI and app repo. Each model's weights carry their own licence.
+> **Repo:** https://github.com/ollama/ollama
+> **Changed since this note:** Incremental releases since v0.32.3 (2026-07-23), with two notable shifts: from v0.40.0 (2026-09-25) MLX-supported architectures run on MLX by default on Apple Silicon, and agent clients got first-class support (Claude Desktop can use Ollama as a gateway, `ollama launch claude` fixes, an Anthropic-compatible /v1/messages endpoint). Ollama Cloud moved to monthly dollar credits with per-token billing.
 
 `ollama/ollama` — the simplest way to **run open LLMs on your own machine**. One command pulls a quantized model and serves it behind a local **REST API** (OpenAI-compatible endpoints included), so local inference feels like calling a hosted provider. Ships current open models out of the box — Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma — across macOS, Linux, Windows, and Docker.
 

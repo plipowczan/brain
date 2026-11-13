@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-10-15_2026-10-15-research-meme-generation-for-coding-agents.md"
 agent-created: true
 summary: "jacebrowning/memegen (memegen.link) — open-source URL-based meme API with 209 templates and no auth; my default hosted renderer, with a watermark, training-data terms and thin template metadata"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Memegen
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The maintainer merged about 20 community PRs between 2026-10-28 and 2026-11-11 and a Dependabot bump on 2026-11-12.
+> **Last release:** no releases (commits only). The hosted api.memegen.link is deployed from main… · **last commit:** 2026-11-12 · **licence:** MIT for the code. The hosted service has its own terms: requests without a key are watermarked and 'may be rate-limited…
+> **Repo:** https://github.com/jacebrowning/memegen
+> **Changed since this note:** Between 2026-10-28 and 2026-11-11, one contributor (Brian Keegan) landed a burst of PRs. Security: custom background images download only from public addresses and within a size limit (#1087), API keys and tokens stay out of logs and error reports (#1088)…
 
 🗒️ **[jacebrowning/memegen](https://github.com/jacebrowning/memegen)** is the open-source service behind **memegen.link**: a URL-based meme API. You pick a template id, put the lines in the path and get an image back, no account and no key. MIT, about 1.75k stars, last push 2026-10-15 (mostly dependency bumps), with an agent-oriented URL guide added in May 2026. I use it as the hosted renderer in the [[Meme Generation for Coding Agents]] design, because it is the only hosted option that behaved in every test.
 

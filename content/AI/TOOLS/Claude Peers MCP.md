@@ -8,9 +8,18 @@ type: tool
 source: "_raw/inbox/louislvaclaude-peers-mcp Allow all your Claude Codes to message each other ad-hoc!.md"
 agent-created: true
 summary: "MCP that lets multiple Claude Code instances on the same machine discover each other and exchange messages in real time"
+status-checked: 2026-11-13
+project-status: stale
 ---
 
 # Claude Peers MCP
+
+> [!warning] Status check 2026-11-13 — stale
+> **Verdict:** The last commit on main is 2026-04-26 (adding the MIT license), 201 days ago.
+> **Last release:** no releases (commits only) · **last commit:** 2026-04-26 · **licence:** MIT (LICENSE added 2026-04-26)
+> **Repo:** https://github.com/louislva/claude-peers-mcp
+> **Use instead:** [[Claude Code]]'s native cross-session messaging (SendMessage + ListAgents, `/list-agents` alias `/peers`). It shipped in Claude Code 2.1.224 (2026-08-07) on macOS/Linux and 2.1.234 (2026-08-17) on native Windows, and it is on by default.
+> **Changed since this note:** In the repo: only the MIT LICENSE file (2026-04-26). Around it: Claude Code shipped a native equivalent (cross-session messaging, Aug 2026), which makes this MCP largely redundant.
 
 🚀 Ad-hoc inter-agent communication for [[Claude Code]] — lets every Claude Code session on the same machine discover each other and send messages instantly. Practical when you're running 3–5 sessions across different projects and you want one Claude to ask another "what are you editing?" before doing something conflicting.
 

@@ -8,8 +8,16 @@ type: tool
 source: "https://github.com/BerriAI/litellm"
 agent-created: true
 summary: "Open-source AI Gateway — call 100+ LLM APIs in unified OpenAI format, with cost tracking, load balancing, guardrails and logging; Rust core + Python SDK, self-hostable proxy"
+status-checked: 2026-11-13
+project-status: active
 ---
 # LiteLLM
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits land on main several times a day (latest 2026-11-13), and stable, LTS and patch releases shipped almost daily in November 2026 (e.g. v1.108.0 LTS 2026-11-04, v1.109.0 2026-11-11, v1.109.1 and 1.108.7 LTS 2026-11-12).
+> **Last release:** v1.109.1, 2026-11-12 (latest non-prerelease on GitHub; PyPI litellm 1.109.1 uploaded 2026-11-12). · **last commit:** 2026-11-13 · **licence:** Mixed, which is why GitHub reports NOASSERTION. The root LICENSE puts everything under MIT except the…
+> **Repo:** https://github.com/BerriAI/litellm
+> **Changed since this note:** (1) Versions went from v1.93.0/1.94.0 (July) to v1.109.1, one minor version per weekly stable release; from the week of 2026-11-02, rc and stable releases ship on Tuesdays instead of Saturdays. (2) A new LTS line (1.108.x, from 2026-11-04) with an 'lts' Docker tag…
 
 `BerriAI/litellm` — an open-source **AI Gateway** that lets you call 100+ LLM APIs (OpenAI, Anthropic, Azure, Bedrock, VertexAI, vLLM, Nvidia NIM, Ollama, HuggingFace…) through **one unified OpenAI-format interface**. Ships in two shapes: a **Python SDK** (import it in code) and a **Proxy Server / Gateway** (a self-hosted service that sits in front of every provider and adds cost tracking, virtual keys, load balancing, rate limits, guardrails, and logging). A Rust core drives the hot path for speed.
 
