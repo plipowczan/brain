@@ -166,6 +166,10 @@ After creating or editing ANY note, update indexes IMMEDIATELY — don't defer t
 - TODO markers: `#todo`, `#todo/replace`, `#todo/complete`
 - Escape currency dollar signs as `\$` — Quartz renders `$…$` pairs as LaTeX (`Plugin.Latex`, KaTeX), so `$169 / $119` on one line becomes a garbled math span. Leave `$` alone inside code.
 
+## Limits
+
+**Read `LIMITS.md` before telling the user that the vault is sure of anything** — it says where this method fails and what to do.
+
 ## Frontmatter
 
 ```yaml
@@ -177,7 +181,7 @@ openToc: true
 tags: ["tag1", "tag2"]
 type: basic-note | book-note | knowledge-note | tool | compiled-note | answer-note
 # Optional agent fields:
-source: "_raw/inbox/filename.md"
+sources: ["_raw/processed/YYYY-MM-DD_filename.md"]  # or source: "<one value>"; URLs and descriptions allowed
 agent-created: true
 agent-reviewed: YYYY-MM-DD
 summary: "One-line description for indexes"
@@ -205,15 +209,15 @@ project-status: active                # active | maintained | slowing | stale | 
 
 Each workflow is a skill with a matching slash command:
 
-- **INGEST** (`ingest`, `process inbox`) — `.claude/skills/brain-ingest/`, command `/b:ingest`
+- **INGEST** (`ingest`, `process inbox`) — `.claude/skills/brain-ingest/`, command `/b:ingest` — reads every source, maps it against the vault and shows one plan (notes to create, notes to add to, contradictions) before writing; updates every note a source touches and marks conflicts with `> [!contradiction]` callouts instead of overwriting. `--batch` skips the plan; a run with no person present and no `--batch` stops at the plan and writes nothing
 - **COMPILE** (`compile X`, `write article about X`) — `.claude/skills/brain-compile/`, command `/b:compile`
 - **INDEX** (`reindex`, `update indexes`) — `.claude/skills/brain-reindex/`, command `/b:reindex`
-- **Q&A** (`research X`, `what do my notes say about X`) — `.claude/skills/brain-qa/`, command `/b:qa`
-- **LINT** (`lint`, `health check`, `audit`) — `.claude/skills/brain-lint/`, command `/b:lint`
+- **Q&A** (`research X`, `what do my notes say about X`) — `.claude/skills/brain-qa/`, command `/b:qa` — saves every substantive answer to `content/_outputs/answers/` with what it rests on and its gaps (`gaps:` count); `--no-save` answers without writing, and every headless caller (e.g. the user-level `/brain` query) must pass it
+- **LINT** (`lint`, `health check`, `audit`) — `.claude/skills/brain-lint/`, command `/b:lint` — every finding names its next step and the report ends with "Fix first"; source paths that lead nowhere (`missing_source_file`, often with a ready `fix=`) and open contradictions are warnings, listed apart from issues
 - **OUTPUT** (`generate report about X`) — `.claude/skills/brain-output/`, command `/b:output`
 - **ENHANCE** (`enhance [[Note]]`, `improve X`) — `.claude/skills/brain-enhance/`, command `/b:enhance`
 - **REFACTOR** (`rename note`, `merge notes`, `split note`) — `.claude/skills/brain-refactor/`, command `/b:refactor` — note surgery (rename/move/merge/split) with automatic wikilink repair
-- **GAPS** (`find gaps`, `coverage analysis`, `what's missing`) — `.claude/skills/brain-gaps/`, command `/b:gaps` — surfaces weakly-connected notes, missing topics, thin areas
+- **GAPS** (`find gaps`, `coverage analysis`, `what's missing`) — `.claude/skills/brain-gaps/`, command `/b:gaps` — surfaces weakly-connected notes, missing topics, thin areas, and saved answers whose `gaps:` is above zero
 - **CURATE** (`curate`, `prune`, `cleanup`, `retire stale notes`) — `.claude/skills/brain-curate/`, command `/b:curate` — staleness/relevance hygiene: scores notes, proposes archive/merge/refresh, retires confirmed notes to `_graveyard/` (reversible)
 - **WATCH** (`watch`, `check my tools`, `re-check tool status`, `is X still maintained`) — `.claude/skills/brain-watch/`, command `/b:watch` — recurring status check of `type: tool` notes: a cheap GitHub/URL pass flags archives, renames, licence changes, new releases and stale repos against `content/_outputs/watch/snapshot.json`; web-search agents research flagged + due notes (`--deep-budget`, default 40); writes only each note's `Status check YYYY-MM-DD` box + `status-checked` / `project-status` (and `repo:` / `homepage:` once), plus `content/_outputs/reports/YYYY-MM-DD_watch.md` with `/b:enhance` and `/b:curate` candidates; never moves a note. Private terms: the git-ignored `content/_privacy.local.md`. Runs monthly as the desktop scheduled task `brain-watch-monthly` (1st of the month, 09:00; own worktree, branch `kb-watch/YYYY-MM-DD`, never pushes)
 - **EXPORT** (`export [[A]] [[B]]`, `export #tag`, `export FOLDER`, `export --public …`) — `.claude/skills/brain-export/`, command `/b:export` — packs selected notes into a portable `brain-pack-*.zip`; two privacy levels: `me` (default, verbatim, read-only) and `--public` (redaction pipeline: policy + `content/_privacy.md` overrides + the always-cut terms of the git-ignored `content/_privacy.local.md`, verdict table, sweep + audit nets, local report that never quotes a private term)
@@ -255,6 +259,10 @@ not from here.
   into brain's `.claude/skills/` (template → brain). `scripts/check-kb-template-drift.sh`
   compares the live `.claude/skills/` with `../second-brain-template/.claude/skills/` and must
   print `no drift in shared skills`. Workflow: `docs/kb-template-maintenance.md`.
+- **Template-owned files outside `.claude/skills/`:** `LIMITS.md` (since template 0.3.0) is
+  copied verbatim from the template; port it with every release that changes it. The drift
+  check does not compare it. The "Limits" section and the `sources:` frontmatter example above
+  come from the template's `AGENTS.template.md` and are ported by hand.
 
 ## DOX doc tree (code / harness layer)
 
