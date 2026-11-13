@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "orm", "typescript", "database", "postgres", "schema"]
 type: tool
 agent-created: true
-summary: "TypeScript ORM with a declarative schema, typed client, and migrations — the data layer in the Tech To The Rescue platform (Postgres + pgvector)"
+summary: "TypeScript ORM with a declarative schema, typed client, and migrations — the data layer in a nonprofit platform (Postgres + pgvector)"
 homepage: "https://www.prisma.io/"
 ---
 
@@ -37,11 +37,11 @@ npx prisma init && npx prisma migrate dev
 
 ## Reasoning for
 
-Prisma is the ORM in the [[Tech To The Rescue]] platform, over PostgreSQL 17 with pgvector. It fits a TypeScript-first [[Next.js]] codebase where a readable, version-controlled schema matters — especially given that one of the diagnosis findings was *schema debt* carried over from no-code migrations (150–200 legacy columns, duplicate status fields). A declarative `schema.prisma` plus migrations makes that debt visible and gives a disciplined path to pay it down, and the typed client removes a whole class of runtime query bugs. Where the schema is volatile (fast-changing forms), the team leans on JSON metadata columns — which Prisma models cleanly — rather than migrating weekly.
+Prisma is the ORM in the [[Nonprofit AI-Native Platform|nonprofit platform]], over PostgreSQL 17 with pgvector. It fits a TypeScript-first [[Next.js]] codebase where a readable, version-controlled schema matters — especially given that one of the diagnosis findings was *schema debt* carried over from no-code migrations (150–200 legacy columns, duplicate status fields). A declarative `schema.prisma` plus migrations makes that debt visible and gives a disciplined path to pay it down, and the typed client removes a whole class of runtime query bugs. Where the schema is volatile (fast-changing forms), the team leans on JSON metadata columns — which Prisma models cleanly — rather than migrating weekly.
 
 ## Alternatives considered
 
-- **[[Drizzle ORM]]** — the lighter, SQL-closer TypeScript ORM I used on [[AGRE]]; Drizzle is thinner and more SQL-explicit, Prisma is more batteries-included with a richer migration/Studio story.
+- **[[Drizzle ORM]]** — the lighter, SQL-closer TypeScript ORM I used on the [[Costa Blanca Real Estate Platform|real-estate platform]]; Drizzle is thinner and more SQL-explicit, Prisma is more batteries-included with a richer migration/Studio story.
 - **TypeORM / Sequelize** — older Node ORMs; less type-safety and rougher DX than Prisma.
 - **Kysely** — type-safe query builder (not a full ORM); more control, less abstraction.
 - **Raw SQL** — maximum control; loses the generated types and migration ergonomics.

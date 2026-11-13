@@ -80,7 +80,7 @@ My clients are SMBs: one market or a few, small catalogues or none, no in-house 
 Agency blogs put the line at about **\$5M revenue or ~500 SKUs**, with **\$20–50k to build** a headless store. Those numbers are unverified marketing figures, but the direction is plausible.
 
 **Middle paths ("headless-lite"):**
-- a headless CMS plus [[Next.js]] on [[Vercel]] for content and marketing sites; [[AGRE]] is the shape I already use;
+- a headless CMS plus [[Next.js]] on [[Vercel]] for content and marketing sites; the [[Costa Blanca Real Estate Platform|real-estate platform]] is the shape I already use;
 - **Shopify Hydrogen**: Shopify's commerce building blocks inside your own React frontend;
 - open-source commerce engines such as **Medusa** (Node/TypeScript, MIT) or **Saleor** (Python, GraphQL, BSD-3) when the client wants to own the backend;
 - **"pragmatic composability"**: use best-of-breed only where it gives a clear edge and the platform's native features everywhere else.
@@ -96,7 +96,7 @@ Agency blogs put the line at about **\$5M revenue or ~500 SKUs**, with **\$20–
 
 - [[PLSoft]] — the consultancy whose clients this verdict is for
 - [[Next.js]] · [[Vercel]] — my default headless frontend stack
-- [[AGRE]] — an existing multilingual Next.js platform (headless-lite in practice)
+- [[Costa Blanca Real Estate Platform]] — an existing multilingual Next.js platform (headless-lite in practice)
 - [[Make]] · [[n8n]] · [[Automation Tool Selection]] — why API-first matters most
 - [[Process Mapping]] — map the process before choosing components
 - [[Qamera AI]] — e-commerce SaaS on the other side: a PBC-like capability others plug in

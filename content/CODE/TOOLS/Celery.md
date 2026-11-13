@@ -41,7 +41,7 @@ Celery orchestrates the generator in [[Travelcast AI]]. The core pattern is a **
 
 ## Alternatives considered
 
-- **[[BullMQ]]** — the Node equivalent (used in [[Tech To The Rescue]]); Celery is the choice in Python land.
+- **[[BullMQ]]** — the Node equivalent (used in the [[Nonprofit AI-Native Platform|nonprofit platform]]); Celery is the choice in Python land.
 - **RQ (Redis Queue)** — simpler Python queue, but no canvas/chord primitives — the chord is exactly what Travelcast needs.
 - **Dramatiq** — lighter, modern Celery alternative; smaller ecosystem.
 - **Prefect / Temporal** — full workflow orchestrators with durable execution; more power and more operational weight than this pipeline warranted.

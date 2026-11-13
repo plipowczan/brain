@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "nodejs", "typescript", "queue", "jobs", "redis", "async"]
 type: tool
 agent-created: true
-summary: "Redis-backed background-job queue for Node/TypeScript — retries, rate limiting, scheduling, flows; the job runner in the Tech To The Rescue platform"
+summary: "Redis-backed background-job queue for Node/TypeScript — retries, rate limiting, scheduling, flows; the job runner in a nonprofit platform"
 repo: "https://github.com/taskforcesh/bullmq"
 ---
 
@@ -36,7 +36,7 @@ npm i bullmq            # requires a Redis instance
 
 ## Reasoning for
 
-BullMQ is the background-job runner in the [[Tech To The Rescue]] platform — the [[Next.js]] + Postgres stack offloads embedding generation, syncs, and other slow work to BullMQ workers on [[Redis]], keeping request handlers fast. It's the natural pick there because the whole stack is TypeScript: one language, typed job payloads, and rate limiting to stay within external API quotas (relevant when generating embeddings in bulk). Conceptually it plays the same role [[Celery]] plays for the Python [[Travelcast AI]] generator — Redis-backed durable jobs with retries — just on the Node side.
+BullMQ is the background-job runner in the [[Nonprofit AI-Native Platform|nonprofit platform]] — the [[Next.js]] + Postgres stack offloads embedding generation, syncs, and other slow work to BullMQ workers on [[Redis]], keeping request handlers fast. It's the natural pick there because the whole stack is TypeScript: one language, typed job payloads, and rate limiting to stay within external API quotas (relevant when generating embeddings in bulk). Conceptually it plays the same role [[Celery]] plays for the Python [[Travelcast AI]] generator — Redis-backed durable jobs with retries — just on the Node side.
 
 ## Alternatives considered
 

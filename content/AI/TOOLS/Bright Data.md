@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "web-scraping", "proxies", "data-enrichment", "datasets", "ai"]
 type: tool
 agent-created: true
-summary: "Industrial-scale web data platform — proxies, scraping APIs, and ready datasets for company/person enrichment; used in TTTR (via n8n) and the Jakub Głąb agent"
+summary: "Industrial-scale web data platform — proxies, scraping APIs, and ready datasets for company/person enrichment; used in a nonprofit platform (via n8n) and a fintech-executive agent system"
 status-checked: 2026-11-13
 project-status: active
 homepage: "https://brightdata.com/"
@@ -40,7 +40,7 @@ An industrial-grade web-data platform. Where lighter tools fetch a page, Bright 
 
 ## Reasoning for
 
-Bright Data is the enrichment/scraping muscle in two engagements. In the [[Tech To The Rescue]] platform it supplies company-data enrichment, invoked from [[n8n]] automation flows rather than ad-hoc scripts. In the [[Jakub Głąb Agent System]] it sits in the research/enrichment toolkit for building out contact and company context. It's deliberately distinct from [[Firecrawl]]/[[Perplexity]]: those are for clean-content and cited-answers, while Bright Data is for *volume and resistance* — getting structured records reliably from sources that actively fight scrapers, or buying the dataset outright instead of crawling it.
+Bright Data is the enrichment/scraping muscle in two engagements. In the [[Nonprofit AI-Native Platform|nonprofit platform]] it supplies company-data enrichment, invoked from [[n8n]] automation flows rather than ad-hoc scripts. In the [[Fintech Executive Agent System]] it sits in the research/enrichment toolkit for building out contact and company context. It's deliberately distinct from [[Firecrawl]]/[[Perplexity]]: those are for clean-content and cited-answers, while Bright Data is for *volume and resistance* — getting structured records reliably from sources that actively fight scrapers, or buying the dataset outright instead of crawling it.
 
 ## Alternatives considered
 

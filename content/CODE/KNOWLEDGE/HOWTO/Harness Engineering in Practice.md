@@ -6,7 +6,7 @@ openToc: true
 tags: ["knowledge", "howto", "ai", "coding-agents", "harness", "context-engineering", "claude-code"]
 type: compiled-note
 agent-created: true
-summary: "Hands-on playbook for applying harness engineering to my agentic projects — the shift-right escalation ladder, three PR phases, review-personas, and a self-improvement loop, mapped onto Brain, Qamera AI, Jakub Głąb, and TTTR."
+summary: "Hands-on playbook for applying harness engineering to my agentic projects — the shift-right escalation ladder, three PR phases, review-personas, and a self-improvement loop, mapped onto Brain, Qamera AI, a fintech-executive agent system, and a nonprofit platform."
 ---
 
 # Harness Engineering in Practice
@@ -14,7 +14,7 @@ summary: "Hands-on playbook for applying harness engineering to my agentic proje
 > A practical, project-oriented synthesis. For the concept and its lineage see [[Harness Engineering]] and the talk note [[Harness Engineering (Ryan Lopopolo)]]; for the broader discipline see [[Context Engineering]].
 
 ## 🗒️ Task
-Turn "harness engineering" from a concept into a concrete operating practice across my agentic projects ([[Brain]], [[Qamera AI]], [[Jakub Głąb Agent System]], [[Tech To The Rescue]]) — so agents produce aligned, high-quality output **without** me catching the same mistakes by hand every time.
+Turn "harness engineering" from a concept into a concrete operating practice across my agentic projects ([[Brain]], [[Qamera AI]], [[Fintech Executive Agent System]], [[Nonprofit AI-Native Platform]]) — so agents produce aligned, high-quality output **without** me catching the same mistakes by hand every time.
 
 The mental model: `coding agent = AI model + harness`. Most agent failures are **configuration problems, not model problems** ([[Harness Engineering]]). The job is to make "what a good job looks like" legible as text and surface it to the agent at the right moment ([[Harness Engineering (Ryan Lopopolo)]]).
 
@@ -56,7 +56,7 @@ Every interrupt, failed build, review comment, and production exception is a **s
 
 ## ✅ Outcome / per-project rollout
 - **[[Brain]] (this vault)** — already a harness: `CLAUDE.md` Navigation Protocol + `/ingest` `/qa` skills + 3-index progressive disclosure. **Next:** add review-persona files (guardrails per note type) and a numbered operating loop inside the skills.
-- **[[Qamera AI]] / [[Jakub Głąb Agent System]] / [[Tech To The Rescue]]** — add a **review-agent on every PR** plus static guardrails (start with the network timeout+retry lint) so misalignment is caught before it reaches you.
+- **[[Qamera AI]] / [[Fintech Executive Agent System]] / [[Nonprofit AI-Native Platform]]** — add a **review-agent on every PR** plus static guardrails (start with the network timeout+retry lint) so misalignment is caught before it reaches you.
 - **All repos** — stand up the step-5 feedback loop; graduate guardrails left only on repeat offenders.
 - **Tooling shortcut** — adopt [[Archon]] for the deterministic plan/implement/validate/review/PR workflow and parallel worktrees, instead of hand-rolling the pipeline.
 

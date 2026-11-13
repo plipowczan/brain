@@ -66,7 +66,7 @@ Self-host the proxy via Docker/Helm; images are **cosign-signed** to GHCR. Stabl
 
 ## ✍️ Reasoning for
 - **Vendor independence** — I don't want app code coupled to one provider's SDK. LiteLLM makes the model a config value.
-- **Cost governance** — the proxy's virtual keys + budgets are the cleanest way to cap spend per project or client (relevant to any [[Tech To The Rescue]]-style multi-tenant build).
+- **Cost governance** — the proxy's virtual keys + budgets are the cleanest way to cap spend per project or client (relevant to any multi-tenant client build like the [[Nonprofit AI-Native Platform]]).
 - **Local + cloud mix** — routes to [[Ollama]] for local models under the same schema as hosted APIs.
 
 Weak points: the 2026-03-24 supply-chain incident means version hygiene is non-negotiable; the proxy is another stateful service to operate; some gateway features are commercial-licensed, not MIT.

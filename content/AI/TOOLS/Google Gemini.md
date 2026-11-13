@@ -54,7 +54,7 @@ npm i @google/genai      # or: pip install google-genai
 
 ## Reasoning for
 
-Gemini covers the vision-heavy and ideation parts of my pipelines. In [[Qamera AI]] — an AI photo product — Gemini's image-understanding handles analysis and idea-generation steps, and its image models are part of the generation toolkit alongside Replicate and BytePlus Seedream. In the [[Tech To The Rescue]] diagnosis it appeared as a general-purpose LLM option. Keeping it next to [[OpenAI]] and [[Claude Code|Claude]] is intentional: different models win at different tasks (Gemini for multimodal/long-context, Claude for agentic/coding, OpenAI for TTS), and a multi-provider design lets each pipeline step pick the best fit. It connects to the broader Nano Banana image-prompting material already in the vault ([[Awesome Nano Banana Pro Prompts]]).
+Gemini covers the vision-heavy and ideation parts of my pipelines. In [[Qamera AI]] — an AI photo product — Gemini's image-understanding handles analysis and idea-generation steps, and its image models are part of the generation toolkit alongside Replicate and BytePlus Seedream. In the [[Nonprofit AI-Native Platform|nonprofit-platform]] diagnosis it appeared as a general-purpose LLM option. Keeping it next to [[OpenAI]] and [[Claude Code|Claude]] is intentional: different models win at different tasks (Gemini for multimodal/long-context, Claude for agentic/coding, OpenAI for TTS), and a multi-provider design lets each pipeline step pick the best fit. It connects to the broader Nano Banana image-prompting material already in the vault ([[Awesome Nano Banana Pro Prompts]]).
 
 ## Alternatives considered
 

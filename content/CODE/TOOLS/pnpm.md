@@ -37,7 +37,7 @@ pnpm install
 
 ## Reasoning for
 
-pnpm is the package manager across my JavaScript/TypeScript projects — [[Qamera AI]], [[AGRE]], and [[Tech News Weekly]]. It earns its place for two reasons. In monorepos (Qamera, managed with [[Turborepo]]) its workspaces + hard-linked store make installs fast and keep disk usage sane across packages. Across *many separate* repos on one machine, the shared global store means I'm not re-downloading and re-storing the same `[[Next.js]]`/React trees for every project. The strict `node_modules` is a quiet quality win too: it surfaces undeclared dependencies at install time instead of letting them break in CI or production.
+pnpm is the package manager across my JavaScript/TypeScript projects — [[Qamera AI]], the [[Costa Blanca Real Estate Platform|real-estate platform]], and [[Tech News Weekly]]. It earns its place for two reasons. In monorepos (Qamera, managed with [[Turborepo]]) its workspaces + hard-linked store make installs fast and keep disk usage sane across packages. Across *many separate* repos on one machine, the shared global store means I'm not re-downloading and re-storing the same `[[Next.js]]`/React trees for every project. The strict `node_modules` is a quiet quality win too: it surfaces undeclared dependencies at install time instead of letting them break in CI or production.
 
 ## Alternatives considered
 

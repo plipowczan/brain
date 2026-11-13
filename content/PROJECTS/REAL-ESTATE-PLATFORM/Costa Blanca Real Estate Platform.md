@@ -1,5 +1,5 @@
 ---
-title: "AGRE"
+title: "Costa Blanca Real Estate Platform"
 date: 2026-06-13
 enableToc: true
 openToc: true
@@ -8,7 +8,7 @@ type: basic-note
 agent-created: true
 summary: "PLSoft client engagement — multilingual Costa Blanca real-estate platform: Next.js + Drizzle + Supabase, Kyero XML feed imports, manual admin curation"
 ---
-# AGRE — Anna Gawłowska Real Estate
+# Costa Blanca Real Estate Platform
 
 ## 🗒️ Description
 A [[PLSoft]] client engagement: a multilingual (PL/EN/ES/NL) property platform for a boutique Costa Blanca real-estate agency. The site imports listings from third-party XML feeds, lets an admin curate and translate them, and publishes a fast public catalogue. Live since 2026-05; core catalogue + admin panel shipped to production, with advanced filters, a buyer CRM and listing forms in the next phase.

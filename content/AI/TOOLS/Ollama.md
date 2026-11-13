@@ -60,7 +60,7 @@ pip install ollama    # Python client
 - **Broad integrations** — LangChain, LlamaIndex, [[LiteLLM]], Open WebUI, and dozens more community front-ends.
 
 ## ✍️ Reasoning for
-- **Privacy / offline** — runs client or sensitive data locally, no third-party API. Matters for [[Tech To The Rescue]]-style engagements and personal-data work.
+- **Privacy / offline** — runs client or sensitive data locally, no third-party API. Matters for client engagements like the [[Nonprofit AI-Native Platform]] and for personal-data work.
 - **Cost** — after the hardware, inference is free; good for high-volume batch jobs and dev loops.
 - **Uniform interface** — the OpenAI-compatible endpoint means I can develop against local models and switch to hosted ones (via [[LiteLLM]]) without rewriting call sites.
 

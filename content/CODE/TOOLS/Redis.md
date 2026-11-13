@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "cache", "queue", "in-memory", "broker", "database"]
 type: tool
 agent-created: true
-summary: "In-memory data store used as cache, message broker, and job-queue backend — the broker behind Celery (Travelcast) and BullMQ (TTTR)"
+summary: "In-memory data store used as cache, message broker, and job-queue backend — the broker behind Celery (Travelcast) and BullMQ (a nonprofit platform)"
 homepage: "https://redis.io/"
 ---
 
@@ -37,7 +37,7 @@ docker run -p 6379:6379 redis        # local
 
 ## Reasoning for
 
-Redis is the queue backbone in two of my pipelines. In [[Travelcast AI]] it's the broker (and result backend) for [[Celery]] — the four research agents run as a Celery *chord* with Redis carrying the task messages, and I rely on a long visibility timeout + `task_acks_late` so a worker crash mid-episode doesn't lose the job. In the [[Tech To The Rescue]] platform it backs [[BullMQ]] for Node background work. The reason it shows up everywhere: it's the lowest-friction way to get a durable-enough, fast queue without standing up heavier infrastructure like [[RabbitMQ]] — and the same instance doubles as a cache and a place to keep atomic locks/counters.
+Redis is the queue backbone in two of my pipelines. In [[Travelcast AI]] it's the broker (and result backend) for [[Celery]] — the four research agents run as a Celery *chord* with Redis carrying the task messages, and I rely on a long visibility timeout + `task_acks_late` so a worker crash mid-episode doesn't lose the job. In the [[Nonprofit AI-Native Platform|nonprofit platform]] it backs [[BullMQ]] for Node background work. The reason it shows up everywhere: it's the lowest-friction way to get a durable-enough, fast queue without standing up heavier infrastructure like [[RabbitMQ]] — and the same instance doubles as a cache and a place to keep atomic locks/counters.
 
 ## Alternatives considered
 

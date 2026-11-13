@@ -38,7 +38,7 @@ npm i tailwindcss @tailwindcss/postcss
 
 ## Reasoning for
 
-Tailwind is the styling layer under essentially every app I ship: [[Qamera AI]], [[AGRE]], [[Travelcast AI]]'s website, and the [[Value Builders]] MVP track all use Tailwind v4. Two reasons it sticks. First, it kills the context-switch between markup and a separate stylesheet — you read a component and see exactly how it looks. Second, it's the substrate [[shadcn-ui|shadcn/ui]] is built on: shadcn components are just [[React]] + Tailwind classes you own, so Tailwind fluency is what makes that workflow productive. For client work and teaching, utility classes also lower the barrier — there's no bespoke CSS architecture to learn before someone can contribute.
+Tailwind is the styling layer under essentially every app I ship: [[Qamera AI]], the [[Costa Blanca Real Estate Platform|real-estate platform]], [[Travelcast AI]]'s website, and the [[Value Builders]] MVP track all use Tailwind v4. Two reasons it sticks. First, it kills the context-switch between markup and a separate stylesheet — you read a component and see exactly how it looks. Second, it's the substrate [[shadcn-ui|shadcn/ui]] is built on: shadcn components are just [[React]] + Tailwind classes you own, so Tailwind fluency is what makes that workflow productive. For client work and teaching, utility classes also lower the barrier — there's no bespoke CSS architecture to learn before someone can contribute.
 
 ## Alternatives considered
 

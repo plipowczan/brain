@@ -37,7 +37,7 @@ Hetzner runs [[Qamera AI]]'s self-hosted backend: a [[Docker]] stack hosting the
 ## Alternatives considered
 
 - **[[Vercel]]** — paired with Hetzner, not replaced by it: Vercel hosts the web tier, Hetzner the workers.
-- **[[DigitalOcean]]** — managed App Platform + Spaces; easier ops, higher cost — chosen for [[Tech To The Rescue]] but not for Qamera's cost-sensitive compute.
+- **[[DigitalOcean]]** — managed App Platform + Spaces; easier ops, higher cost — chosen for the [[Nonprofit AI-Native Platform|nonprofit platform]] but not for Qamera's cost-sensitive compute.
 - **AWS EC2 / GCP** — vastly more services, far higher cost and complexity for the same raw compute.
 - **Fly.io / Railway** — nice DX for containers; more expensive at the sustained compute Qamera's workers need.
 

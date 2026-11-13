@@ -34,12 +34,12 @@ A transactional email API built for developers. Where legacy email providers bur
 
 ## Reasoning for
 
-Resend is my transactional email layer for [[Next.js]] apps. In [[AGRE]] it sends magic-link auth emails (paired with NextAuth/Auth.js) and lead/enquiry notifications; in [[Travelcast AI]] it handles user-facing notifications. The win is twofold: the SDK drops straight into a Next.js route handler with zero ceremony, and **React Email** lets templates live in the same codebase, typed and previewable, instead of in a vendor's WYSIWYG editor. For a solo/small team that means email becomes versioned code reviewed in the same PR as the feature that triggers it.
+Resend is my transactional email layer for [[Next.js]] apps. In the [[Costa Blanca Real Estate Platform|real-estate platform]] it sends magic-link auth emails (paired with NextAuth/Auth.js) and lead/enquiry notifications; in [[Travelcast AI]] it handles user-facing notifications. The win is twofold: the SDK drops straight into a Next.js route handler with zero ceremony, and **React Email** lets templates live in the same codebase, typed and previewable, instead of in a vendor's WYSIWYG editor. For a solo/small team that means email becomes versioned code reviewed in the same PR as the feature that triggers it.
 
 ## Alternatives considered
 
 - **[[Sendgrid]]** — the incumbent I've used before; far more features and deeper analytics, but heavier API and dashboard-centric. Resend trades breadth for DX.
-- **Mailgun** — solid transactional API used on other engagements (e.g. [[Tech To The Rescue]]); comparable deliverability, less polished templating story.
+- **Mailgun** — solid transactional API used on other engagements (e.g. the [[Nonprofit AI-Native Platform|nonprofit platform]]); comparable deliverability, less polished templating story.
 - **Postmark** — excellent transactional deliverability and speed; Resend's React Email templating and modern SDK edged it out for new builds.
 - **AWS SES** — cheapest at scale but raw: you build the templating, retries, and webhooks yourself.
 

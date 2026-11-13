@@ -87,7 +87,7 @@ v0.9.0 made the Docker API server secure-by-default; v0.8.7 fixed critical RCE/S
 
 ## ✍️ Reasoning for
 - **RAG data acquisition** — the cleanest OSS path from "a list of URLs" to "markdown corpus" before chunking + embedding.
-- **Own the pipeline** — no per-request API bill or vendor rate limits; runs on my own infra (matters for [[Tech To The Rescue]]-style data work, alongside [[Bright Data]] for the harder anti-bot cases).
+- **Own the pipeline** — no per-request API bill or vendor rate limits; runs on my own infra (matters for [[Nonprofit AI-Native Platform|nonprofit-platform]]-style data work, alongside [[Bright Data]] for the harder anti-bot cases).
 - **Agent tooling** — a controllable crawler is a natural tool to hand an agent that needs live web content.
 
 Weak points: Playwright means a real browser dependency (heavier than plain HTTP fetch); JS-heavy/anti-bot sites still fight back; if exposing the server, security config is on you. New since I wrote this: the attribution clause is an obligation beyond Apache-2.0, the README and CLI now push the paid cloud, and the 0.x API keeps churning (deprecations, new restrictions on Docker-server request fields).
