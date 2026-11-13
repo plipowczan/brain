@@ -150,6 +150,8 @@ Porównanie z MCP servers: MCP ładuje **wszystkie narzędzia z góry**. Jeśli 
 - [[Agent Skills]] — system rozszerzania agenta
 - [[Context Engineering]] — zarządzanie kontekstem w pracy z LLM
 - [[Digital Garden]] — publikowanie bazy wiedzy
+- [[LIFE/BOOKS/Building a Second Brain]] — Tiago Forte's book behind PARA and the capture–organise–distil–express loop
+- [[Zettelkasten]] — the slip-box method: one idea per note, linked; how an agent-maintained vault keeps it
 
 ---
 Template: [[templates/knowledge_note_info]]

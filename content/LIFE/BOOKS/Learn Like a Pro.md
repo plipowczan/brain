@@ -8,6 +8,7 @@ tags:
   - learning
 type: book-note
 summary: "Oakley & Schewe's science-backed learning guide: Pomodoro, focused/diffuse thinking, spaced repetition, elaboration."
+agent-reviewed: 2026-11-13
 ---
 
 # Learn Like a Pro
@@ -112,3 +113,8 @@ A mnemonic technique where you visualize information you want to remember in a l
 
 ## 🔗 Related
 - [[Włam się do mózgu]] — Polish companion book on fast, efficient learning techniques
+- [[Spaced Repetition and Flashcards from Your Own Notes]] — the spaced-repetition chapter in practice: the science, Anki and FSRS, and how to turn your own notes into flashcards
+- [[Pomodoro]] — the full technique behind section 1, with Cirillo's original rules
+- [[Cornel Notes Taking System]] — the "split notes method" from section 4, as a full system
+- [[Zettelkasten]] — elaboration in writing: one idea per note, linked to what you already know
+- [[Mind map]] — a visual way to chunk a topic, and what the evidence says about it
