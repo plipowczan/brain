@@ -10,6 +10,7 @@ agent-created: true
 summary: "kyutai-labs/pocket-tts — 100M-param text-to-speech that runs on 2 CPU cores: ~200ms first-chunk latency, ~6x real-time on MacBook Air M4, voice cloning, streaming, 6 languages; pip install + one function call, no GPU, no API."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/kyutai-labs/pocket-tts"
 ---
 
 # Pocket TTS

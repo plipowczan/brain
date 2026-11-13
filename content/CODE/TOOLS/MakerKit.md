@@ -8,6 +8,7 @@ type: tool
 source: "_raw/inbox/Next.js SaaS Starter Kit & Boilerplate.md"
 agent-created: true
 summary: "Production-ready Next.js SaaS starter kit with auth, billing, teams and multi-tenancy"
+repo: "https://github.com/makerkit/nextjs-saas-starter-kit-lite"
 ---
 # MakerKit
 

@@ -9,6 +9,7 @@ agent-created: true
 summary: "AI meeting transcription and summaries for Google Meet/Zoom/Teams — live transcripts, AI notes, action items; meeting-capture tool on the Tech To The Rescue engagement"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://tactiq.io/"
 ---
 
 # Tactiq

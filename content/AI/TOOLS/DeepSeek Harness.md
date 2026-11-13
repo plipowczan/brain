@@ -11,6 +11,7 @@ agent-reviewed: 2026-09-06
 summary: "deepseek-ai/deepseek-harness (dsh) — DeepSeek AI's open agent harness built on an everything-is-a-plugin architecture over the Cordis framework; Web UI on localhost:3080. Developer preview, MIT."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/deepseek-ai/deepseek-harness"
 ---
 # DeepSeek Harness
 

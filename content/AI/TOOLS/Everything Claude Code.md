@@ -11,6 +11,7 @@ agent-reviewed: 2026-07-06
 summary: "ECC (affaan-m) — cross-harness agent perf system (repo renamed everything-claude-code → ECC): ~67 agents, ~277 skills, hooks, instincts, AgentShield, orch-* orchestrators, ECC 2.0 Rust control-plane. 211K+ stars, MIT."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/affaan-m/ECC"
 ---
 
 # Everything Claude Code

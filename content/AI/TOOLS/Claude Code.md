@@ -10,6 +10,7 @@ agent-created: true
 summary: "Anthropic's CLI for AI-assisted development — primary dev environment"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/anthropics/claude-code"
 ---
 # Claude Code
 

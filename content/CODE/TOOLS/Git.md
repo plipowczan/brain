@@ -7,6 +7,7 @@ tags: ["tool", "git", "version-control"]
 type: tool
 summary: "Distributed version control system — the backbone of every code project I work on; branching, history, and collaboration."
 agent-reviewed: 2026-06-25
+homepage: "https://git-scm.com/"
 
 ---
 # Git

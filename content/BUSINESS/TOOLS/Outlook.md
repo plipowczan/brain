@@ -7,6 +7,7 @@ tags: ["tool"]
 type: tool
 summary: "Microsoft email and calendar client used to manage mail, meetings, tasks, and contacts in one place."
 agent-reviewed: 2026-06-16
+homepage: "https://outlook.live.com/"
 
 ---
 # Outlook

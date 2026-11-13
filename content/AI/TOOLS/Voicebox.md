@@ -10,6 +10,7 @@ agent-created: true
 summary: "Local-first AI voice studio — free OSS alternative to ElevenLabs + WisprFlow in one app. 7 TTS engines, 23 languages, voice cloning, MCP-aware agent voice output"
 status-checked: 2026-11-13
 project-status: maintained
+repo: "https://github.com/jamiepine/voicebox"
 ---
 
 # Voicebox

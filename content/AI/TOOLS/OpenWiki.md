@@ -10,6 +10,7 @@ agent-created: true
 summary: "langchain-ai/openwiki — a CLI that writes and maintains agent documentation for your codebase; appends a reference block to AGENTS.md/CLAUDE.md and ships a GitHub Action that opens a daily doc-update PR"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/langchain-ai/openwiki"
 ---
 # OpenWiki
 

@@ -7,6 +7,7 @@ tags: ["tool", "hosting", "serverless", "deployment", "nextjs", "frontend-cloud"
 type: tool
 agent-created: true
 summary: "Frontend cloud from the makers of Next.js — Git-push deploys, serverless/edge functions, cron, preview URLs, and analytics; the default hosting target for my Next.js apps"
+homepage: "https://vercel.com/"
 ---
 
 # Vercel

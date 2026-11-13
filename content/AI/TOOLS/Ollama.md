@@ -10,6 +10,7 @@ agent-created: true
 summary: "Run open LLMs locally with one command — pulls and serves Kimi-K2.6, GLM-5.2, DeepSeek, gpt-oss, Qwen, Gemma etc. behind a REST API; macOS/Linux/Windows/Docker"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/ollama/ollama"
 ---
 # Ollama
 

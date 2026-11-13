@@ -10,6 +10,7 @@ agent-created: true
 summary: "pbakaus/impeccable — a design-language skill (1 skill, 23 commands, 27 anti-pattern rules) that makes any AI coding harness better at frontend design; builds on Anthropic's frontend-design skill, Apache 2.0"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/pbakaus/impeccable"
 ---
 
 # Impeccable

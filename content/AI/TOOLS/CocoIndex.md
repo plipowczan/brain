@@ -10,6 +10,7 @@ agent-created: true
 summary: "Incremental indexing engine for long-horizon AI agents — Python declarative API, Rust core; turns codebases/notes/PDFs/Slack/video into always-fresh agent context, recomputing only the delta."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/cocoindex-io/cocoindex"
 ---
 # CocoIndex
 

@@ -8,6 +8,7 @@ type: tool
 source: "_raw/processed/2026-11-01_EpicGamesraddebugger A native, user-mode, multi-process, graphical debugger.md"
 agent-created: true
 summary: "EpicGames/raddebugger — native user-mode multi-process graphical debugger for Windows x64 (alpha), plus the RDI debug-info format and a very fast RAD Linker"
+repo: "https://github.com/EpicGames/raddebugger"
 ---
 
 # RAD Debugger

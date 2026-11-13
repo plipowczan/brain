@@ -10,6 +10,7 @@ agent-created: true
 summary: "Open-source Claude Code plugin — 25 sub-skills + 18 agents for full SEO/GEO audits with parallel sub-agent dispatch and falsifiable recommendations."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/AgriciDaniel/claude-seo"
 ---
 # Claude SEO
 

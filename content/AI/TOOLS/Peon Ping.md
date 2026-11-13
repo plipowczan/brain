@@ -10,6 +10,7 @@ agent-created: true
 summary: "PeonPing/peon-ping — plays a sound (Warcraft peon voices and other packs) when Claude Code finishes or fails; the most popular reaction-on-finish hook, worth copying for throttling but not for installing"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/PeonPing/peon-ping"
 ---
 # Peon Ping
 

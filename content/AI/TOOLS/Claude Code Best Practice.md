@@ -10,6 +10,7 @@ agent-created: true
 summary: "69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/shanraisshan/claude-code-best-practice"
 ---
 
 # Claude Code Best Practice

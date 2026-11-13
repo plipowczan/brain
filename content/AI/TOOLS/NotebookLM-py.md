@@ -10,6 +10,7 @@ agent-created: true
 summary: "teng-lin/notebooklm-py — unofficial Python API, CLI, MCP server and agent skill for Google NotebookLM; drives it as a zero-token synthesis + memory layer, exports artifacts the web UI can't"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/teng-lin/notebooklm-py"
 ---
 
 # NotebookLM-py

@@ -10,6 +10,7 @@ agent-created: true
 summary: "meme-maker skill in openclaw/openclaw — a 3-file MIT skill with a curated registry of ~20 templates, local SVG/PNG rendering and an Imgflip mode; the best base to fork for a Claude Code meme skill"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/openclaw/openclaw"
 ---
 # OpenClaw Meme Maker
 

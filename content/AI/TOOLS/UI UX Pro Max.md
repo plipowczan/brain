@@ -11,6 +11,7 @@ source: "_raw/inbox/nextlevelbuilderui-ux-pro-max-skill An AI SKILL that provide
 summary: "Claude Code design system skill — adapts UI/UX guidance per project type; v2.0 adds Design System Generator (161 reasoning rules, 67 styles, 161 palettes, 57 font pairings)"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
 ---
 
 # UI UX Pro Max

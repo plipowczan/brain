@@ -7,6 +7,7 @@ tags: ["tool", "ui", "react", "components", "tailwind", "design-system", "fronte
 type: tool
 agent-created: true
 summary: "Copy-in React component collection built on Tailwind + Radix — you own the code, not a dependency; the component layer of my Next.js apps and the v0/AI-builder lingua franca"
+repo: "https://github.com/shadcn-ui/ui"
 ---
 
 # shadcn/ui

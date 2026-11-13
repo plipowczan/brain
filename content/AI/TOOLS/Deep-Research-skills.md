@@ -11,6 +11,7 @@ agent-reviewed: 2026-07-12
 summary: "The upstream repo behind this vault's /research* skill suite — a 5-skill schema-first deep-research pipeline (outline → parallel deep dive → matrix report)."
 status-checked: 2026-11-13
 project-status: maintained
+repo: "https://github.com/Weizhena/Deep-Research-skills"
 ---
 # Deep-Research-skills
 

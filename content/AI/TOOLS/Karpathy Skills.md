@@ -10,6 +10,7 @@ agent-created: true
 summary: "A single CLAUDE.md addressing 4 typical LLM-coder pitfalls per Karpathy: assumptions, overengineering, scope creep, weak goals"
 status-checked: 2026-11-13
 project-status: done
+repo: "https://github.com/multica-ai/andrej-karpathy-skills"
 ---
 # Karpathy Skills
 

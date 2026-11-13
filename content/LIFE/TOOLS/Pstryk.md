@@ -8,6 +8,7 @@ type: tool
 source: "_raw/inbox/Pstryk, czyli kolejna odsłona Prądu dla Finansowych Ninja.md"
 agent-created: true
 summary: "Polish electricity vendor with hourly dynamic pricing, a 0.61 PLN/kWh government-style price cap, WiFi meter and a transparent app"
+homepage: "https://pstryk.pl/"
 ---
 # Pstryk
 

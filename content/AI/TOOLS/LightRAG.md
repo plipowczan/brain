@@ -10,6 +10,7 @@ agent-created: true
 summary: "EMNLP2025 RAG framework — combines KG entity extraction with dual-level retrieval, beats NaiveRAG/HyDE/GraphRAG across 4 domains"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/HKUDS/LightRAG"
 ---
 # LightRAG
 

@@ -7,6 +7,7 @@ tags: ["tool", "cdn", "storage", "dns", "edge", "security", "r2"]
 type: tool
 agent-created: true
 summary: "Global edge platform — R2 object storage (zero egress), DNS, CDN, Turnstile CAPTCHA, Workers; my object-storage + DNS + bot-protection layer across projects"
+homepage: "https://www.cloudflare.com/"
 ---
 
 # Cloudflare

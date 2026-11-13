@@ -11,6 +11,7 @@ summary: "OpenDataLab's document parser and local document library (4.x) — PDF
 status-checked: 2026-11-13
 project-status: active
 agent-reviewed: 2026-11-13
+repo: "https://github.com/opendatalab/MinerU"
 ---
 # MinerU
 

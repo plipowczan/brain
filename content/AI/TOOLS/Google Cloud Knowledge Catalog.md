@@ -11,6 +11,7 @@ agent-reviewed: 2026-06-15
 summary: "Google Cloud's AI-powered data catalog (formerly Dataplex) — a dynamic knowledge graph over structured + unstructured data that gives AI agents semantics and business context; companion GitHub repo ships tools, agents, and samples."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/GoogleCloudPlatform/knowledge-catalog"
 ---
 # Google Cloud Knowledge Catalog
 

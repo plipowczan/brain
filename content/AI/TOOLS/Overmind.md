@@ -10,6 +10,7 @@ agent-created: true
 summary: "overmind-core/overmind — training platform that turns an agent's production traces into evals, code/prompt optimisations and fine-tuned models you own, served on one OpenAI-compatible API; driven from your coding agent via MCP"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/overmind-core/overmind"
 ---
 # Overmind
 

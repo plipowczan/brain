@@ -8,6 +8,7 @@ type: tool
 source: "_raw/inbox/Modular Web Framework for Laravel & Nuxt.md"
 agent-created: true
 summary: "Modular full-stack framework for Laravel 11 + Nuxt 3 — 40+ production modules, Atomic Design, override system"
+homepage: "https://nucleify.io/"
 ---
 
 # Nucleify

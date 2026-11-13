@@ -7,6 +7,7 @@ tags: ["tool", "cache", "queue", "in-memory", "broker", "database"]
 type: tool
 agent-created: true
 summary: "In-memory data store used as cache, message broker, and job-queue backend — the broker behind Celery (Travelcast) and BullMQ (TTTR)"
+homepage: "https://redis.io/"
 ---
 
 # Redis

@@ -8,6 +8,7 @@ type: tool
 source: "_raw/inbox/VoltAgentawesome-design-md A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.md"
 agent-created: true
 summary: "Collection of DESIGN.md files from real brands — drop into project, AI agent generates matching UI"
+repo: "https://github.com/VoltAgent/awesome-design-md"
 ---
 
 # Awesome Design MD

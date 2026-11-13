@@ -10,6 +10,7 @@ agent-reviewed: 2026-11-13
 summary: "Google's multimodal LLM family — strong image understanding, large context, and image generation (Nano Banana); used for vision/analysis and idea generation across my AI pipelines"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://ai.google.dev/"
 ---
 
 # Google Gemini

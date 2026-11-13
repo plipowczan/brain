@@ -10,6 +10,7 @@ agent-created: true
 summary: "AI wireframe and hi-fi UI generator — from sketch/PRD to a finished screen in ~12s, export to Figma and code"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://uxpilot.ai/"
 ---
 
 # UX Pilot

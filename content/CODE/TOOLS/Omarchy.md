@@ -8,6 +8,7 @@ type: tool
 source: "_raw/processed/2026-10-12_omacomomarchy Beautiful, Modern & Opinionated Linux.md"
 agent-created: true
 summary: "omacom/omarchy — DHH's 'beautiful, fun & agentic' opinionated Linux distribution, MIT, documented by a 51-chapter manual in the repo; clipped README is only the manual's table of contents"
+repo: "https://github.com/omacom/omarchy"
 ---
 # Omarchy
 

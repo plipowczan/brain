@@ -11,6 +11,7 @@ agent-reviewed: 2026-11-13
 summary: "headroomlabs-ai/headroom (formerly chopratejas/headroom) — compresses what an AI agent reads (tool outputs, logs, RAG chunks, files, history) before it hits the LLM. Now claims 21–57% fewer input tokens on agent scenarios, 90%+ only on repetitive JSON/logs. Library, proxy, middleware or MCP. Apache 2.0 OSS; paid Enterprise tier from Headroom Labs."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/headroomlabs-ai/headroom"
 ---
 
 # Headroom

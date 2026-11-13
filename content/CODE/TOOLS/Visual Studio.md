@@ -7,6 +7,7 @@ tags: ["tool", "visualstudio", "code"]
 type: tool
 summary: "Microsoft IDE for editing, debugging, and compiling code, used primarily for .NET development"
 agent-reviewed: 2026-06-16
+homepage: "https://visualstudio.microsoft.com/"
 
 ---
 # Visual Studio

@@ -7,6 +7,7 @@ tags: ["tool", "nodejs", "typescript", "queue", "jobs", "redis", "async"]
 type: tool
 agent-created: true
 summary: "Redis-backed background-job queue for Node/TypeScript — retries, rate limiting, scheduling, flows; the job runner in the Tech To The Rescue platform"
+repo: "https://github.com/taskforcesh/bullmq"
 ---
 
 # BullMQ

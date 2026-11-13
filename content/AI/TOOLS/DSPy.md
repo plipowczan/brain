@@ -10,6 +10,7 @@ agent-created: true
 summary: "Stanford NLP framework for programming — not prompting — language models: write modular Python, declare I/O signatures, and let optimizers tune the prompts (and weights)"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/stanfordnlp/dspy"
 ---
 # DSPy
 

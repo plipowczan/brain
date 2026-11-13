@@ -12,6 +12,7 @@ aliases: ["Graft"]
 summary: "Trail-code, formerly Graft (renamed Oct 2026; trailhq/Trail-Code, npm @trailhq/trail-code, CLI trail; graft still works) — builds a markdown code graph of your repo (tree-sitter + optional LLM pass) so coding agents skip rediscovery, now plus git-shared team 'learnings'. Claims −42% uncached input tokens, −60% time, 66% vs 54% on SWE-bench Verified."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/trailhq/Trail-Code"
 ---
 # Trail-code
 

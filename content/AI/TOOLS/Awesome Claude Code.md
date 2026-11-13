@@ -10,6 +10,7 @@ agent-reviewed: 2026-05-16
 summary: "Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/hesreallyhim/awesome-claude-code"
 ---
 
 # Awesome Claude Code

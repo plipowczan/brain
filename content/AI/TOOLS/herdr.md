@@ -11,6 +11,7 @@ agent-reviewed: 2026-09-06
 summary: "herdrdev/herdr — a background terminal runtime that owns your coding agents' sessions: agents survive lid-close, network drops and reboots, every pane is marked working/blocked/idle, and agents drive it themselves via CLI and socket API. One Rust binary, Apache 2.0."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/herdrdev/herdr"
 ---
 # herdr
 

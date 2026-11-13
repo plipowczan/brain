@@ -8,8 +8,17 @@ type: tool
 source: "_raw/processed/2026-07-05_santifer-career-ops.md"
 agent-created: true
 summary: "santifer/career-ops — an AI job-search command center built on Claude Code skills: A-F offer scoring, ATS-optimized CV/cover-letter PDFs, portal scanning, and batch sub-agent evaluation. Human-in-the-loop; never auto-submits."
+repo: "https://github.com/career-ops-hq/career-ops"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Career-Ops
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits landed on main on 2026-11-13, and v1.40.0 shipped on 2026-11-10 with 239 pull requests from 58 contributors.
+> **Last release:** career-ops-v1.40.0 'No Silent Drops' on 2026-11-10 (npm @santifer/career-ops 1.40.0). · **last commit:** 2026-11-13 · **licence:** MIT (code). The 'career-ops' name and brand are covered by a separate TRADEMARK.md policy that reserves the name for…
+> **Repo:** https://github.com/career-ops-hq/career-ops — **moved/renamed:** yes: santifer/career-ops -> career-ops-hq/career-ops (GitHub org move; repository links were updated on 2026-09-01 in PR #3611). The project name, the npm package @santifer/career-ops and the site career-ops.org are unchanged.
+> **Changed since this note:** The repo moved to the career-ops-hq org (2026-09-01) and went from v1.17.0 at the note date to v1.40.0. It now has 800+ contributors, a sponsor and a trademark policy.
 
 `santifer/career-ops` ([career-ops.org](https://career-ops.org/)) — turns any AI coding CLI ([[Claude Code]], Codex, Gemini/Antigravity, opencode, Grok, Qwen) into a **job-search command center**. Instead of tracking applications in a spreadsheet, you get an agentic pipeline that evaluates offers, tailors CVs, scans portals, and keeps one source of truth. Built by someone who used it to evaluate 740+ offers, generate 100+ tailored CVs, and land a Head of Applied AI role.
 

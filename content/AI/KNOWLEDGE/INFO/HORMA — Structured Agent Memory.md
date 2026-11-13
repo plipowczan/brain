@@ -18,6 +18,7 @@ aliases: ["HOMER"]
 summary: "HORMA (Duke + Snowflake, arXiv 2606.11680; the video called it HOMER) is organize-then-retrieve agent memory: build a hierarchical memory tree first, then navigate it instead of using RAG. 3–22% of baseline tokens on LoCoMo; no code released."
 status-checked: 2026-11-13
 project-status: done
+homepage: "https://arxiv.org/abs/2606.11680"
 ---
 
 # HORMA — Structured Agent Memory

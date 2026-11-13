@@ -11,6 +11,7 @@ agent-reviewed: 2026-05-16
 summary: "Nous Research self-improving agent — TUI + Telegram/Discord/Slack/WhatsApp/Signal gateway, autonomous skill creation, FTS5 cross-session search, Honcho user modeling, runtime on a $5 VPS"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/NousResearch/hermes-agent"
 ---
 
 # Hermes Agent

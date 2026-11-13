@@ -10,6 +10,7 @@ agent-reviewed: 2026-11-13
 summary: "AI image/video upscaling and enhancement — sharpen, denoise, super-resolution; the final-quality upscaling step in Qamera AI's image pipeline"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://www.topazlabs.com/"
 ---
 
 # Topaz Labs

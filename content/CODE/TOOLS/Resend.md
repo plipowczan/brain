@@ -7,6 +7,7 @@ tags: ["tool", "email", "transactional-email", "developer-tools", "react-email"]
 type: tool
 agent-created: true
 summary: "Developer-first transactional email API — clean SDK, React Email templating, good deliverability; used for magic-link auth and notifications in my Next.js apps"
+homepage: "https://resend.com/"
 ---
 
 # Resend

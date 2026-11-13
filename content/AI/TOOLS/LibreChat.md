@@ -11,6 +11,7 @@ agent-reviewed: 2026-11-13
 summary: "LibreChat-AI/LibreChat (moved from danny-avila in 2026; owned by ClickHouse since Nov 2025) — self-hosted, open-source chat UI and agent platform that fronts every major model (ChatGPT, Claude, Gemini, DeepSeek + 20 more) with your own API keys. MCP, agents, skills; you own the data and history. MIT (bundled admin panel AGPL-3.0). v0.8.8."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/LibreChat-AI/LibreChat"
 ---
 
 # LibreChat

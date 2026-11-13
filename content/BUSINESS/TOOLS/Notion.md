@@ -7,6 +7,7 @@ tags: ["tool", "database", "nocode", "notes"]
 type: tool
 summary: "All-in-one workspace for notes, knowledge bases, and project management dashboards"
 agent-reviewed: 2026-06-16
+homepage: "https://www.notion.so/"
 
 ---
 # Notion

@@ -10,6 +10,7 @@ agent-created: true
 summary: "High-performance vector similarity search engine + database in Rust — stores vectors with payloads, strong filtering, production API; self-host via Docker or managed Qdrant Cloud"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/qdrant/qdrant"
 ---
 # Qdrant
 

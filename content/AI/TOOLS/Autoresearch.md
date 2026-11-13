@@ -11,6 +11,7 @@ agent-reviewed: 2026-04-09
 summary: "Karpathy's framework for AI agents running autonomous ML research experiments overnight"
 status-checked: 2026-11-13
 project-status: stale
+repo: "https://github.com/karpathy/autoresearch"
 ---
 
 # Autoresearch

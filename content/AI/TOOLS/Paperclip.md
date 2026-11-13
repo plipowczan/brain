@@ -10,6 +10,7 @@ agent-created: true
 summary: "paperclipai/paperclip — Node.js + React control plane for running a 'company' of AI agents: org chart, goals, budgets, governance, heartbeats, audit log; bring-your-own-agent (Claude Code/Codex/Cursor/OpenClaw/HTTP)"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/paperclipai/paperclip"
 ---
 
 # Paperclip

@@ -7,6 +7,7 @@ tags: ["tool", "ventusky", "weather", "forecast"]
 type: tool
 summary: "Animated weather forecast app showing hourly cloud cover, temperature, and wind on an interactive map"
 agent-reviewed: 2026-06-16
+homepage: "https://www.ventusky.com/"
 
 ---
 # Ventusky

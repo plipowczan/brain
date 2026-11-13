@@ -9,6 +9,7 @@ agent-created: true
 summary: "Best-in-class AI text-to-speech and voice cloning — multilingual, expressive voices; the primary TTS provider in my audio pipelines with cloud/local fallbacks behind it"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://elevenlabs.io/"
 ---
 
 # ElevenLabs

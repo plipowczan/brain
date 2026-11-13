@@ -7,6 +7,7 @@ tags: ["tool", "payments", "billing", "subscriptions", "saas", "fintech"]
 type: tool
 agent-created: true
 summary: "Developer-first payments platform — subscriptions, one-off credit top-ups, checkout, and MRR/revenue data; the billing backbone for my SaaS products"
+homepage: "https://stripe.com/"
 ---
 
 # Stripe

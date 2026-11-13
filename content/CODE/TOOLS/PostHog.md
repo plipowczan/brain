@@ -8,6 +8,7 @@ type: tool
 source: "_raw/processed/2026-06-13_posthog-posthog-github.md"
 agent-created: true
 summary: "posthog/posthog — all-in-one open-source product OS: analytics, session replay, feature flags, experiments, surveys, data warehouse/CDP, and LLM observability; MIT (ee/ proprietary), cloud or Docker self-host"
+repo: "https://github.com/posthog/posthog"
 ---
 
 # PostHog

@@ -9,6 +9,7 @@ agent-created: true
 summary: "VectifyAI's vectorless, reasoning-based retrieval engine for long documents — builds a hierarchical tree index the LLM reasons over instead of chunk-and-embed; the retrieval layer under OpenKB."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/VectifyAI/PageIndex"
 ---
 
 # PageIndex

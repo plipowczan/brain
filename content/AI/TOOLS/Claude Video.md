@@ -10,6 +10,7 @@ agent-created: true
 summary: "bradautomates/claude-video — the /watch agent skill that lets Claude see any video: yt-dlp download, ffmpeg frame extraction, captions/Whisper transcript, handed back as images"
 status-checked: 2026-11-13
 project-status: maintained
+repo: "https://github.com/bradautomates/claude-video"
 ---
 
 # Claude Video

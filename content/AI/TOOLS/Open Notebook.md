@@ -10,6 +10,7 @@ agent-created: true
 summary: "lfnovo/open-notebook — open-source, self-hostable NotebookLM clone. Upload PDFs/URLs/audio/video, chat with sources, generate multi-speaker podcasts. Runs hosted or fully local (Ollama/LM Studio). ~28k stars."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/lfnovo/open-notebook"
 ---
 
 # Open Notebook

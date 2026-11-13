@@ -9,6 +9,7 @@ agent-created: true
 summary: "isaacphi/mcp-language-server — a generic LSP→MCP bridge: run any stdio language server (gopls, rust-analyzer, pyright, clangd, tsserver) and expose definition/references/diagnostics/hover/rename/edit to an LLM agent. Structure, not embeddings."
 status-checked: 2026-11-13
 project-status: stale
+repo: "https://github.com/isaacphi/mcp-language-server"
 ---
 # MCP Language Server
 

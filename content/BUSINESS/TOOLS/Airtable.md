@@ -7,8 +7,18 @@ tags: ["tool", "database"]
 type: tool
 agent-reviewed: 2026-04-10
 summary: "No-code relational database tool used as structured data store and automation hub"
+homepage: "https://www.airtable.com/"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Airtable
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Airtable shipped its Fall Release on 2026-10-21 (Omni 2.0, Canvas beta, expanded MCP, agent audit logs).
+> **Latest release:** Fall Release announced on 2026-10-21: Omni 2.0 on all plans, Airtable Canvas in open beta, an expanded MCP server (Claude… · **last dated update:** 2026-10-21 · **licence:** proprietary SaaS; billed per editor: Free, Team \$20/seat/mo and Business \$45/seat/mo (billed annually)…
+> **Source:** https://community.airtable.com/announcements-6
+> **Changed since this note:** Ownership changed: Bending Spoons bought Airtable (closed 2026-09-04). In October 2026 it let go a large part of the pre-acquisition team and published a 'Back to bases' plan: monthly core fixes, higher record limits, EU data residency and admin controls over what people and agents can do.
+
 It is an excel on steroids. No-code database.
 
 ## 🔗 Links

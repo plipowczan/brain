@@ -10,6 +10,7 @@ agent-created: true
 summary: "meme-factory skill in softaworks/agent-toolkit — a Claude Code skill on memegen.link with a template-selection guide; popular (4K installs) but 8 of 21 template IDs are dead and it hides the watermark"
 status-checked: 2026-11-13
 project-status: stale
+repo: "https://github.com/softaworks/agent-toolkit"
 ---
 # Meme Factory
 

@@ -10,6 +10,7 @@ agent-created: true
 summary: "cobusgreyling/loop-engineering — patterns, starters & CLI tools (loop-audit, loop-init, loop-cost) for building self-prompting loops around AI coding agents; the practical companion to the Loop Engineering concept."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/cobusgreyling/loop-engineering"
 ---
 # Loop Engineering (cobusgreyling)
 

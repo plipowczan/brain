@@ -10,6 +10,7 @@ agent-created: true
 summary: "danyuchn/asd-ste100-skill — Claude Code skill that rewrites ambiguous English into Simplified Technical English so another agent cannot misread tool descriptions, errors or instructions"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/danyuchn/asd-ste100-skill"
 ---
 
 # ASD-STE100 Skill

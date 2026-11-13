@@ -10,6 +10,7 @@ agent-created: true
 summary: "Fincept-Corporation/FinceptTerminal — open-source Bloomberg Terminal replacement that runs on your laptop. CFA-level analytics, 100+ data connectors (Polygon, World Bank, IMF), and 37 AI investor agents modeled on Buffett/Munger/Graham/Lynch. ~24k stars, free."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/Fincept-Corporation/FinceptTerminal"
 ---
 
 # Fincept Terminal

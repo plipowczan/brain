@@ -7,6 +7,7 @@ tags: ["tool", "notes", "microsoft"]
 type: tool
 summary: "Microsoft's free-form note-taking app — once my notes hub, now replaced by Obsidian for PKM."
 agent-reviewed: 2026-06-25
+homepage: "https://www.onenote.com/"
 
 ---
 # OneNote

@@ -7,6 +7,7 @@ tags: ["tool", "ai", "workflow", "development"]
 type: tool
 agent-created: true
 summary: "Structured spec-driven AI development workflow — replaces reactive prompting with persistent artifacts and DAG-based state"
+repo: "https://github.com/Fission-AI/openspec"
 ---
 
 # OPSX Workflow

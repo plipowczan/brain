@@ -8,6 +8,7 @@ type: tool
 source: "_raw/processed/2026-06-13_getsentry-sentry-github.md"
 agent-created: true
 summary: "getsentry/sentry — developer-first debugging platform: error tracking, performance/APM, session replay, distributed tracing, uptime, logs, AI fix suggestions; 20+ SDKs; FSL (Fair Source), cloud or Docker self-host"
+repo: "https://github.com/getsentry/sentry"
 ---
 
 # Sentry

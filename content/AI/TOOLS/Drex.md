@@ -10,6 +10,7 @@ agent-created: true
 summary: "Nace.ai's sub-10B decision model: facts and options in, one probability per option out in a single pass; claims #1 on Decision Index 0.2, 1.15 points ahead of Jev"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://drex.nace.ai/"
 ---
 # Drex
 

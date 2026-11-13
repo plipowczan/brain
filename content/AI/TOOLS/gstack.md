@@ -10,6 +10,7 @@ agent-created: true
 summary: "Garry Tan's (YC) opinionated Claude Code stack — 23+ skills as a virtual team (CEO/Designer/EngMgr/QA/SRE), MIT, sprint-driven (Think→Plan→Build→Review→Test→Ship→Reflect)"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/garrytan/gstack"
 ---
 
 # gstack

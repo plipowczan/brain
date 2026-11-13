@@ -11,6 +11,7 @@ agent-reviewed: 2026-06-15
 summary: "JuliusBrussee/caveman — Claude Code skill that makes the agent talk like a caveman, cutting ~65% of output tokens while keeping full technical accuracy; MIT, 30+ agent hosts."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/JuliusBrussee/caveman"
 ---
 # Caveman
 

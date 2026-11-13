@@ -11,6 +11,7 @@ agent-reviewed: 2026-11-13
 summary: "Plugin: teach AI agents to write minimal code by reasoning YAGNI-first before generating anything."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/DietrichGebert/ponytail"
 ---
 
 > [!success] Status check 2026-11-13 — active

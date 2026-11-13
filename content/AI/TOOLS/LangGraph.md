@@ -9,6 +9,7 @@ agent-created: true
 summary: "Graph-based framework for stateful, controllable LLM agent workflows — nodes, edges, persistence, human-in-the-loop; evaluated for agent orchestration in TTTR"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/langchain-ai/langgraph"
 ---
 
 # LangGraph

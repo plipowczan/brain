@@ -11,6 +11,7 @@ agent-reviewed: 2026-09-06
 summary: "tt-a1i/archify — cross-agent skill (Claude Code / Cursor / Codex / opencode) that turns plain-English descriptions into verifiable, interactive self-contained HTML architecture, workflow, sequence, data-flow & lifecycle diagrams; 2.17 adds a fourth visual preset, route/reach share cards, a DeepSeek Harness plugin and Raven support, and a no-telemetry update check you can disable."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/tt-a1i/archify"
 ---
 # Archify
 

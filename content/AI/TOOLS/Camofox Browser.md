@@ -10,6 +10,7 @@ agent-created: true
 summary: "jo-inc/camofox-browser — stealth headless browser for AI agents, built on the Camoufox Firefox fork. Beats bot detection at the C++ level and returns pages as an accessibility tree instead of raw HTML, cutting agent token cost ~90%. Drop-in Puppeteer/Playwright replacement."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/jo-inc/camofox-browser"
 ---
 
 # Camofox Browser

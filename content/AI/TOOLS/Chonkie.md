@@ -11,6 +11,7 @@ summary: "Lightweight MIT text-chunking library for RAG (the pygmy-hippo chunker
 status-checked: 2026-11-13
 project-status: maintained
 agent-reviewed: 2026-11-13
+repo: "https://github.com/feyninc/chonkie"
 ---
 # Chonkie
 

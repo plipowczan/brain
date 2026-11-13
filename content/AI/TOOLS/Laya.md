@@ -10,6 +10,7 @@ agent-created: true
 summary: "NandhaKishorM/laya — open-source Jev-compatible System 1 decision engine: typed choice/score/yes-no answers in one encoder pass (33 ms on T4), 100+ languages via a router; fine-tune first"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/NandhaKishorM/laya"
 ---
 # Laya
 

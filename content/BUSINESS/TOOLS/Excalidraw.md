@@ -8,6 +8,7 @@ type: tool
 source: "_raw/inbox/excalidrawexcalidraw Virtual whiteboard for sketching hand-drawn like diagrams.md"
 agent-created: true
 summary: "Open-source virtual whiteboard for hand-drawn style diagrams, collaborative and end-to-end encrypted"
+repo: "https://github.com/excalidraw/excalidraw"
 ---
 
 # Excalidraw
