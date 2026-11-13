@@ -117,7 +117,8 @@ def set_fm(fm, key, value):
     pat = re.compile(rf"^{re.escape(key)}:.*$", re.M)
     if pat.search(fm):
         return pat.sub(lambda m: line, fm, count=1)
-    return fm.rstrip("\n") + "\n" + line
+    head = fm.rstrip("\n")
+    return head + "\n" + line + fm[len(head):]  # blank lines before the closing --- stay
 
 
 def fm_value(v):
@@ -1074,16 +1075,25 @@ def build_report(root, scan, digest=None, dry=False):
 
     L += ["## Frontmatter seeded" + (" (would be)" if dry else ""), ""]
     if seeded:
-        check = [n for n in seeded if n["basis"] == "single-link"]
+        def written(n):
+            """The value apply writes: a confirmed rename wins over the seed."""
+            seed = n["seed"].get("repo") or n["seed"].get("homepage") or "watch: false"
+            moved = entries.get(n["path"], {}).get("repo")
+            if moved and moved != seed and not private_hit(moved, terms):
+                return f"{moved} (moved from {seed})"
+            return seed
+
+        # A researched note's link was just checked by the deep pass.
+        check = [n for n in seeded if n["basis"] == "single-link" and n["path"] not in entries]
         L.append(f"{len(seeded)} notes {'would get' if dry else 'got'} `repo:` / `homepage:` for the first time. "
                  "A wrong value is fixed by editing the field; set `watch: false` to stop tracking a note.")
         if check:
             L += ["", "Taken from the only GitHub link in the note (check these):", ""]
             for n in check:
-                L.append(f"- {wl(n)} → {n['seed'].get('repo')}")
+                L.append(f"- {wl(n)} → {written(n)}")
         L += ["", "<details><summary>All seeded notes</summary>", ""]
         for n in seeded:
-            L.append(f"- {wl(n)} → {n['seed'].get('repo') or n['seed'].get('homepage') or 'watch: false'} ({n['basis']})")
+            L.append(f"- {wl(n)} → {written(n)} ({n['basis']})")
         L += ["", "</details>"]
     else:
         L.append("None.")
@@ -1095,7 +1105,8 @@ def build_report(root, scan, digest=None, dry=False):
         L.append("")
         for n in ambiguous:
             cands = ["(a private link)" if private_hit(c, terms) else c for c in n["ambiguous"]]
-            L.append(f"- {wl(n)} — several candidates: " + ", ".join(cands))
+            why = "several candidates" if len(cands) > 1 else "one link, but its site is not named after the note"
+            L.append(f"- {wl(n)} — {why}: " + ", ".join(cands))
         for n in untracked:
             L.append(f"- {wl(n)} — no repo or product link in the note")
     else:
