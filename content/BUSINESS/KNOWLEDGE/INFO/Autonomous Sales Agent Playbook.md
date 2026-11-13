@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "business", "ai", "agents", "sales", "automation", "lead-generation"]
 type: knowledge-note
-source: "_raw/inbox/Where teams and agents work together.md"
+source: "_raw/processed/2026-04-14_Autonomous_Sales_Agent_Playbook.md"
 agent-created: true
 summary: "Playbook for building autonomous AI sales agents replacing $1.4k/mo SaaS stacks with ~$20/mo agent architecture"
 ---

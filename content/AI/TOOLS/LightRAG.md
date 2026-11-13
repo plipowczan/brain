@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "rag", "knowledge-graph", "llm", "open-source"]
 type: tool
-source: "_raw/inbox/HKUDSLightRAG EMNLP2025 LightRAG Simple and Fast Retrieval-Augmented Generation.md"
+source: "_raw/processed/2026-04-29_HKUDS-LightRAG.md"
 agent-created: true
 summary: "EMNLP2025 RAG framework — combines KG entity extraction with dual-level retrieval, beats NaiveRAG/HyDE/GraphRAG across 4 domains"
 status-checked: 2026-11-13

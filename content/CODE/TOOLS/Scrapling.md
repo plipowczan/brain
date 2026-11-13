@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "python", "web-scraping", "crawler", "automation", "mcp", "open-source"]
 type: tool
-source: "_raw/inbox/D4VinciScrapling 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!.md"
+source: "_raw/processed/2026-05-10_D4Vinci_Scrapling.md"
 agent-created: true
 summary: "Adaptive Python web scraping framework — fetchers, spiders, anti-bot bypass, MCP server"
 repo: "https://github.com/D4Vinci/Scrapling"

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agents", "life-os", "personal", "claude-code", "skills", "memory", "open-source"]
 type: tool
-source: "_raw/inbox/danielmiesslerPersonal_AI_Infrastructure Agentic AI Infrastructure for magnifying HUMAN capabilities.md"
+source: "_raw/processed/2026-05-19_danielmiesslerPersonal_AI_Infrastructure Agentic AI Infrastructure for magnifying HUMAN capabilities.md"
 agent-created: true
 aliases: ["Personal AI Infrastructure", "PAI", "AI/TOOLS/Personal AI Infrastructure"]
 summary: "Daniel Miessler's LifeOS (renamed from PAI in v6.0.0, 2026-07) — MIT Life Operating System on Claude Code: TELOS goals, the Algorithm (current→ideal state) with ISA + Assay evals, Pulse dashboard, DA assistant, 97 skills, plain-text memory; v8.761.0"

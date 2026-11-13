@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "energy", "dynamic-pricing", "household", "savings", "poland"]
 type: tool
-source: "_raw/inbox/Pstryk, czyli kolejna odsłona Prądu dla Finansowych Ninja.md"
+source: "_raw/processed/2026-05-10_Pstryk-czyli-kolejna-odslona-Pradu-dla-Finansowych-Ninja.md"
 agent-created: true
 summary: "Polish electricity vendor with hourly dynamic pricing, a 0.61 PLN/kWh government-style price cap, WiFi meter and a transparent app"
 homepage: "https://pstryk.pl/"

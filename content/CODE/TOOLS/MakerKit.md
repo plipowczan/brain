@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "nextjs", "saas", "boilerplate", "fullstack", "react"]
 type: tool
-source: "_raw/inbox/Next.js SaaS Starter Kit & Boilerplate.md"
+source: "_raw/processed/2026-04-12_Next.js SaaS Starter Kit & Boilerplate.md"
 agent-created: true
 summary: "Production-ready Next.js SaaS starter kit with auth, billing, teams and multi-tenancy"
 repo: "https://github.com/makerkit/nextjs-saas-starter-kit-lite"

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "coding-agents", "context-engineering", "claude"]
 type: knowledge-note
-source: "_raw/inbox/Skill Issue Harness Engineering for Coding Agents.md"
+source: "_raw/processed/2026-04-09_skill_issue_harness_engineering.md"
 agent-created: true
 summary: "Configuring coding agent harness (CLAUDE.md, MCP, skills, sub-agents, hooks) to maximize output quality"
 ---

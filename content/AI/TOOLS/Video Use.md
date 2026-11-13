@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "video", "claude-code", "coding-agents", "open-source", "ffmpeg"]
 type: tool
-source: "_raw/inbox/browser-usevideo-use Edit videos with coding agents.md"
+source: "_raw/processed/2026-05-19_browser-usevideo-use Edit videos with coding agents.md"
 agent-created: true
 summary: "Open-source video editor for coding agents — drop raw footage in a folder, chat with Claude Code, get final.mp4. Reads transcripts (not frames) for word-level cuts"
 status-checked: 2026-11-13

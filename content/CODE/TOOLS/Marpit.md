@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "presentation", "framework", "markdown", "slides"]
 type: tool
-source: "_raw/inbox/marp-teammarpit The skinny framework for creating slide deck from Markdown.md"
+source: "_raw/processed/2026-04-26_marp-team-marpit.md"
 agent-created: true
 summary: "Skinny framework: Markdown + CSS theme → static HTML/CSS slide deck — the foundation of all of Marp"
 repo: "https://github.com/marp-team/marpit"

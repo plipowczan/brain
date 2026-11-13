@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "claude-code", "coding-agents", "context-engineering"]
 type: tool
-source: "_raw/inbox/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md"
+source: "_raw/processed/2026-04-26_forrestchang-karpathy-skills.md"
 agent-created: true
 summary: "A single CLAUDE.md addressing 4 typical LLM-coder pitfalls per Karpathy: assumptions, overengineering, scope creep, weak goals"
 status-checked: 2026-11-13

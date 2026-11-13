@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "llm", "knowledge-base", "knowledge-management", "coding-agents", "apache-2.0"]
 type: tool
-source: "_raw/inbox/safishamsigraphify AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph.md"
+source: "_raw/processed/2026-04-10_safishamsi-graphify.md"
 agent-created: true
 summary: "Graphify-Labs/graphify (Apache-2.0 since 2026-07, was MIT) — CLI + /graphify skill: code/docs/media → queryable knowledge graph, local tree-sitter for ~40 languages; the company behind it now sells a hosted Graphify Cloud"
 status-checked: 2026-11-13

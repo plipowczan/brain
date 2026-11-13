@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agent-skills", "claude-code", "codex", "gemini-cli", "cursor", "resources", "curated-list"]
 type: tool
-source: "_raw/inbox/VoltAgentawesome-agent-skills A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.md"
+source: "_raw/processed/2026-04-30_VoltAgent-awesome-agent-skills.md"
 agent-created: true
 summary: "VoltAgent-curated list of 1000+ Agent Skills from official dev teams and community — cross-platform (Claude Code, Codex, Gemini CLI, Cursor, etc.)"
 status-checked: 2026-11-13

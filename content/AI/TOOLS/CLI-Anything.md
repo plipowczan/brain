@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "cli", "coding-agents", "agent-native", "claude-code"]
 type: tool
-source: "_raw/inbox/HKUDSCLI-Anything CLI-Anything Making ALL Software Agent-Native -- CLI-Hub httpsclianything.cc.md"
+source: "_raw/processed/2026-04-20_CLI-Anything.md"
 agent-created: true
 summary: "Auto-generate agent-native CLIs for any software — 7-phase pipeline, Claude Code plugin, 30+ harnesses"
 status-checked: 2026-11-13

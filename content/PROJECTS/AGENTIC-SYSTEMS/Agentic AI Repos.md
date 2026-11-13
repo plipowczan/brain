@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["project", "ai", "agents", "architecture", "claude-code", "skills"]
 type: knowledge-note
-source: "_raw/inbox/2026-05-10-seed-second-brain-skills-submodules.md"
+source: "_raw/processed/2026-05-10_seed-second-brain-skills-submodules.md"
 agent-created: true
 summary: "Hub: 3 repos (agentic-ai-system, agentic-ai-private, shared-skills+private-skills) forming 200IQ LABS + PLSoft agent infrastructure"
 ---

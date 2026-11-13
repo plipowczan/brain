@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "claude-code", "skills", "cli", "open-source"]
 type: tool
-source: "_raw/inbox/vercel-labsskills The open agent skills tool.md"
+source: "_raw/processed/2026-04-29_vercel-labs-skills.md"
 agent-created: true
 summary: "npx skills — CLI for the open agent skills ecosystem, installs SKILL.md from any repo into 50+ agents (Claude Code, Codex, Cursor, OpenCode...)"
 status-checked: 2026-11-13

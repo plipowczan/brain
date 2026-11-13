@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "llm", "knowledge-base", "obsidian", "ai"]
 type: knowledge-note
-source: "_raw/inbox/Thread by @karpathy.md"
+source: "_raw/processed/2026-04-05_Thread by @karpathy.md"
 agent-created: true
 agent-reviewed: 2026-04-09
 summary: "Using LLMs to build and maintain personal knowledge bases — methodology described by Andrej Karpathy"

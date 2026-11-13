@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "coding-agents", "harness", "workflow", "open-source"]
 type: tool
-source: "_raw/inbox/coleam00Archon The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.md"
+source: "_raw/processed/2026-04-29_coleam00Archon.md"
 agent-created: true
 summary: "Open-source harness builder — YAML workflows for AI coding agents (plan/implement/validate/review/PR), deterministic + parallel via worktrees"
 status-checked: 2026-11-13

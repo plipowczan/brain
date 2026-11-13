@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["project", "ai", "agents", "plsoft", "personal", "claude-code"]
 type: basic-note
-source: "_raw/inbox/second-brain-export.md"
+source: "_raw/processed/2026-05-10_second-brain-export.md"
 agent-created: true
 summary: "PLSoft (JDG) + personal multi-agent advisory repo — separate from 200IQ LABS"
 ---

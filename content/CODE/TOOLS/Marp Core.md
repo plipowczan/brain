@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "presentation", "markdown", "framework", "slides"]
 type: tool
-source: "_raw/inbox/marp-teammarp-core The core of Marp converter.md"
+source: "_raw/processed/2026-04-26_marp-team-marp-core.md"
 agent-created: true
 summary: "Marpit + oficjalne themy + math + emoji + auto-scaling — silnik domyślny dla Marp tooling"
 repo: "https://github.com/marp-team/marp-core"

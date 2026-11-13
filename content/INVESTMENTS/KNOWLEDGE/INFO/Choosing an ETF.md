@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "investments", "etf", "ucits", "costs", "taxes", "withholding-tax", "currency", "poland", "research"]
 type: knowledge-note
-source: "_raw/research-workspaces/choosing-an-etf/ (deep research, 10 items, 2026-11-13)"
+source: "_raw/research-workspaces/choosing-an-etf/report.md"
 agent-created: true
 summary: "How to compare UCITS ETFs as a Polish investor: total cost and tracking difference, replication, domicile and US withholding, W-8BEN, accumulating vs distributing, currency and hedging, fund size and closure risk, legal form and compensation, execution, and which wrapper holds the fund."
 ---

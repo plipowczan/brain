@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agents", "frontend-runtime", "skills", "open-source"]
 type: tool
-source: "_raw/inbox/agent0aispace-agent The agent that re-shapes the Space.md"
+source: "_raw/processed/2026-05-03_agent0aispace-agent The agent that re-shapes the Space.md"
 agent-created: true
 summary: "Frontend-runtime agent from agent0ai — rebuilds its workspace on the fly (pages, widgets, workflows) via SKILL.md in plain text/JS"
 status-checked: 2026-11-13

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "llm", "claude", "coding-agents", "agent-skills"]
 type: tool
-source: "_raw/inbox/anthropicsskills Public repository for Agent Skills.md"
+source: "_raw/processed/2026-04-09_anthropicsskills_agent_skills.md"
 agent-created: true
 agent-reviewed: 2026-07-12
 summary: "Anthropic's system for dynamically loading specialized instructions into Claude — reusable, cross-harness skill packages"

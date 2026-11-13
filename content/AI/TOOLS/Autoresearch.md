@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "research", "llm", "autonomous-agents"]
 type: tool
-source: "_raw/inbox/karpathyautoresearch AI agents running research on single-GPU nanochat training automatically.md"
+sources: ["_raw/processed/2026-04-05_karpathyautoresearch.md", "_raw/processed/2026-04-09_karpathy_autoresearch.md"]
 agent-created: true
 agent-reviewed: 2026-04-09
 summary: "Karpathy's framework for AI agents running autonomous ML research experiments overnight"

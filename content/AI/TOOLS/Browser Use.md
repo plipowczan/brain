@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agents", "browser", "automation", "open-source", "python"]
 type: tool
-source: "_raw/inbox/browser-usebrowser-use 🌐 Make websites accessible for AI agents. Automate tasks online with ease.md"
+source: "_raw/processed/2026-05-19_browser-usebrowser-use 🌐 Make websites accessible for AI agents. Automate tasks online with ease.md"
 agent-created: true
 agent-reviewed: 2026-11-13
 summary: "Open-source Python library, CLI and MCP server where an LLM drives a real browser by writing Python on raw CDP (via Browser Harness). 1.0 (2026-11-10) rewrote it and made cloud browser + bu-fast model the defaults; 'V4' is the hosted cloud agent"

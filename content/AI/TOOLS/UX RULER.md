@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "ux", "skills", "claude-code", "open-source", "methodology"]
 type: tool
-source: "_raw/inbox/Guide a product from mission to measurable value for users.md"
+source: "_raw/processed/2026-05-09_Guide a product from mission to measurable value for users.md"
 agent-created: true
 summary: "Open-source UX skill for agents — guides from mission through audience/need to measurable value, records decisions in the repo"
 status-checked: 2026-11-13

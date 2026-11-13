@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "whiteboard", "diagrams", "drawing", "collaboration"]
 type: tool
-source: "_raw/inbox/excalidrawexcalidraw Virtual whiteboard for sketching hand-drawn like diagrams.md"
+source: "_raw/processed/2026-04-05_excalidraw.md"
 agent-created: true
 summary: "Open-source virtual whiteboard for hand-drawn style diagrams, collaborative and end-to-end encrypted"
 repo: "https://github.com/excalidraw/excalidraw"

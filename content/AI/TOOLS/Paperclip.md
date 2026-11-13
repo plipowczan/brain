@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agents", "orchestration", "company-of-agents", "open-source", "self-hosted"]
 type: tool
-source: "_raw/inbox/paperclipaipaperclip Open-source orchestration for zero-human companies.md"
+source: "_raw/processed/2026-05-03_paperclipaipaperclip.md"
 agent-created: true
 summary: "paperclipai/paperclip — Node.js + React control plane for running a 'company' of AI agents: org chart, goals, budgets, governance, heartbeats, audit log; bring-your-own-agent (Claude Code/Codex/Cursor/OpenClaw/HTTP)"
 status-checked: 2026-11-13

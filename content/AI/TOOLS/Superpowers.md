@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "claude-code", "skills", "methodology", "tdd", "open-source"]
 type: tool
-source: "_raw/inbox/obrasuperpowers An agentic skills framework & software development methodology that works.md"
+source: "_raw/processed/2026-05-03_obrasuperpowers.md"
 agent-created: true
 summary: "Jesse Vincent (obra) opinionated software development methodology for coding agents — composable skills (brainstorm→worktree→plan→subagent-driven→TDD→review→finish), auto-trigger, multi-host (CC/Cursor/Codex/OpenCode/Copilot/Gemini)"
 status-checked: 2026-11-13

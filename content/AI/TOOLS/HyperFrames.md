@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "video", "html", "agents", "skills", "apache-2.0", "open-source", "claude-code"]
 type: tool
-source: "_raw/inbox/heygen-comhyperframes Write HTML. Render video. Built for agents.md"
+sources: ["_raw/processed/2026-05-19_heygen-comhyperframes Write HTML. Render video. Built for agents.md", "_raw/processed/2026-11-01_heygen-comhyperframes Write HTML. Render video. Built for agents.md"]
 agent-created: true
 summary: "HeyGen's open-source video rendering framework — write HTML + CSS + GSAP, render to MP4. First-class Claude Code / Codex / Cursor skills. Apache 2.0"
 status-checked: 2026-11-13

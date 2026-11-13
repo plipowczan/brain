@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agents", "framework", "open-source", "linux"]
 type: tool
-source: "_raw/inbox/agent0aiagent-zero Agent Zero AI framework.md"
+source: "_raw/processed/2026-05-03_agent0aiagent-zero Agent Zero AI framework.md"
 agent-created: true
 summary: "Open agentic framework — Linux-native AI agent with terminal, browser, Office canvas and multi-agent cooperation; foundation for Space Agent"
 status-checked: 2026-11-13

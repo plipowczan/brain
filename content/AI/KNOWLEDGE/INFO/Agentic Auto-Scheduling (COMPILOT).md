@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "agents", "compilers", "loop-optimization", "llm", "feedback-loop", "polyhedral"]
 type: knowledge-note
-source: "_raw/inbox/2511.00592v2.pdf"
+source: "_raw/processed/2026-06-30_arXiv-2511.00592v2-COMPILOT.pdf"
 agent-created: true
 agent-reviewed: 2026-06-30
 summary: "COMPILOT: LLMs guide compiler loop optimization via closed-loop interaction; 3.54× speedup (best-of-5) vs original, 2.94× vs Pluto optimizer."

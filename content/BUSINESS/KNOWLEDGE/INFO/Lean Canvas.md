@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "business", "startup", "lean-startup", "business-model", "methodology"]
 type: knowledge-note
-source: "_raw/inbox/Lean canvas – Encyklopedia Zarządzania.md"
+source: "_raw/processed/2026-05-19_Lean canvas – Encyklopedia Zarządzania.md"
 agent-created: true
 summary: "Ash Maurya's one-page business model template adapted from Business Model Canvas for startups — nine segments emphasizing problem, unfair advantage, and key metrics"
 ---

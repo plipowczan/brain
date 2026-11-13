@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["project", "ai", "skills", "claude-code", "open-source", "200iq-labs"]
 type: basic-note
-source: "_raw/inbox/2026-05-10-seed-second-brain-skills-submodules.md"
+source: "_raw/processed/2026-05-10_seed-second-brain-skills-submodules.md"
 agent-created: true
 agent-reviewed: 2026-07-13
 summary: "shared-skills (Apache 2.0) + private-skills (proprietary) — git submodules feeding both agentic-ai repos"

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "claude-code", "coding-agents", "skills", "workflow", "open-source"]
 type: tool
-source: "_raw/inbox/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.md"
+source: "_raw/processed/2026-05-03_garrytangstack.md"
 agent-created: true
 summary: "Garry Tan's (YC) opinionated Claude Code stack — 23+ skills as a virtual team (CEO/Designer/EngMgr/QA/SRE), MIT, sprint-driven (Think→Plan→Build→Review→Test→Ship→Reflect)"
 status-checked: 2026-11-13

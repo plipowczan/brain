@@ -7,7 +7,7 @@ tags: ["tool", "ai", "design", "claude-code", "skills"]
 type: tool
 agent-created: true
 agent-reviewed: 2026-05-03
-source: "_raw/inbox/nextlevelbuilderui-ux-pro-max-skill An AI SKILL that provide design intelligence for building professional UIUX multiple platforms.md"
+source: "_raw/processed/2026-05-03_nextlevelbuilderui-ux-pro-max-skill.md"
 summary: "Claude Code design system skill — adapts UI/UX guidance per project type; v2.0 adds Design System Generator (161 reasoning rules, 67 styles, 161 palettes, 57 font pairings)"
 status-checked: 2026-11-13
 project-status: active

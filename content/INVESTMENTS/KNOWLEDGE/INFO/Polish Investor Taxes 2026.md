@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "investments", "taxes", "poland", "pit-38", "ike", "ikze", "crypto", "research"]
 type: knowledge-note
-source: "_raw/research-workspaces/polish-investor-taxes-2026/ (deep research, 10 items, 2026-11-13)"
+source: "_raw/research-workspaces/polish-investor-taxes-2026/report.md"
 agent-created: true
 summary: "How a Polish resident investor is taxed for 2026: Belka 19%, who withholds, PIT-38 and loss carry-forward, foreign dividends and W-8BEN, IKE/IKZE/OIPE limits for 2026 and 2027, crypto in PIT-38, DAC8 reporting, OKI from 2027, levy and exit tax. Statute-based, with dates."
 ---
