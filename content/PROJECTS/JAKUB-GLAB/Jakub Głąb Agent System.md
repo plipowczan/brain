@@ -6,6 +6,7 @@ openToc: true
 tags: ["project", "plsoft", "client", "ai", "agents", "knowledge-base", "claude-code"]
 type: basic-note
 agent-created: true
+agent-reviewed: 2026-11-13
 summary: "PLSoft client engagement — a personal agent system for a fintech executive: Claude Code plugin (skills) + a Markdown entity-wiki knowledge base for document Q&A, LinkedIn ghostwriting, and web research"
 ---
 # Jakub Głąb Agent System
@@ -26,7 +27,7 @@ A [[PLSoft]] engagement: a personal AI agent system built for an executive at a 
 - **Knowledge base**: a shared cloud-drive folder (Google Drive in phase 1, OneDrive planned) — all Markdown + native Office files, no database.
 - **Versioning**: [[Git]] + GitHub (private plugin repo + vault repo).
 - **Models**: started on Opus, moved primary work to Sonnet for cost; Opus kept for heavy reasoning. The provider chain lets you swap models per-skill without refactoring.
-- **Research providers**: [[Firecrawl]] (with WebSearch fallback) + [[Perplexity]] for cited answers; LinkedIn deliberately blocked in phase 1 for compliance. [[Bright Data]] / [[Clay]] / [[People Data Labs]] scoped for later.
+- **Research providers**: [[Firecrawl]] with a WebSearch fallback; LinkedIn deliberately blocked in phase 1 for compliance. [[Bright Data]] / [[Clay]] / [[People Data Labs]] scoped for later.
 - **Doc generation**: Node `docx`. One whitelisted MCP server (Asana) for tasks.
 
 ## ⚙️ Architecture know-how (reusable)
@@ -42,5 +43,5 @@ A [[PLSoft]] engagement: a personal AI agent system built for an executive at a 
 - [[Agentic Systems]] — shared skills + context architecture
 - [[Agent Skills]] · [[Claude Code]] · [[Progressive Disclosure]]
 - [[Token Optimization for Claude Code]] · [[Building Claude Skills Guide]]
-- [[Firecrawl]] · [[Perplexity]] · [[Bright Data]] · [[Clay]] · [[People Data Labs]] — research/enrichment tooling
+- [[Firecrawl]] · [[Bright Data]] · [[Clay]] · [[People Data Labs]] — research/enrichment tooling
 - [[Ops, Collaboration, Analytics & Community SaaS]] (Google Workspace, Asana)

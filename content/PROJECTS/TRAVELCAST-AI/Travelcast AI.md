@@ -6,6 +6,7 @@ openToc: true
 tags: ["project", "ai", "podcast", "audio", "multi-agent", "travel"]
 type: basic-note
 agent-created: true
+agent-reviewed: 2026-11-13
 summary: "AI travel-podcast platform — a Python/FastAPI multi-agent generator that researches a place, synthesizes a script, and produces multilingual audio, published to a Next.js website"
 ---
 # Travelcast AI
@@ -21,7 +22,7 @@ An AI-powered travel-podcast platform in two repos: a **generator** (Python/Fast
 
 ### Stack — Generator
 - Python 3.11+, FastAPI, [[Celery]] on [[Redis]] for the task queue, [[Supabase]] (Postgres) for place/episode state.
-- **Research**: Google Maps/Places API (POIs), [[Perplexity]] API (facts), web scraping for vibe/critic content.
+- **Research**: Google Maps/Places API (POIs) and the [[Perplexity]] API (`sonar-pro`), which answers the history, atmosphere and review questions; the generator does no scraping of its own.
 - **LLM**: [[OpenAI]] GPT-5.5 for consensus synthesis and translation.
 - **TTS (multi-provider fallback)**: [[ElevenLabs]] (primary, multilingual) → OpenAI TTS → Chatterbox (local, torch-based, free; retired upstream in August 2026, [[Pocket TTS]] is the maintained alternative).
 - **Audio**: FFmpeg normalization (stereo, 44.1 kHz, 192 kbps).
@@ -32,7 +33,7 @@ An AI-powered travel-podcast platform in two repos: a **generator** (Python/Fast
 - Hosted on [[Vercel]]; [[Git]] with Husky hooks.
 
 ## ⚙️ Architecture know-how (reusable)
-- **Parallel research, single synthesis.** A Celery *chord* runs four agents concurrently for the English master — Geo (Maps), Historian (Perplexity), Vibe (blogs/forums), Critic (reviews) — then one GPT consensus pass synthesizes them *without filtering* to preserve nuance. Translations reuse the English script; no re-research per language.
+- **Parallel research, single synthesis.** A Celery *chord* runs four agents concurrently for the English master — Geo (Maps), Historian (history), Vibe (travel blogs, vlogs) and Critic (reviews, forums), the last three all through Perplexity — then one GPT consensus pass synthesizes them *without filtering* to preserve nuance. Translations reuse the English script; no re-research per language.
 - **Provider-factory TTS with per-episode fallback.** Audio stays consistent within an episode (one provider chosen up front, after a credit preflight) but flexes across episodes. New providers implement one ABC; voice IDs + provider chains live in a central `languages.json`, not in env.
 - **Config-file-driven languages.** Adding a language is a config edit (voice IDs, provider order), not a code change. A pronunciation agent handles proper nouns from a config override file.
 - **File-native publishing.** The site's truth lives on disk per episode/language; the generator POSTs to it with a timing-safe bearer-token comparison.
