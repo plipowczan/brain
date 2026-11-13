@@ -59,6 +59,7 @@ A default (Playwright MCP for day-to-day E2E) plus two specialists (Chrome DevTo
 
 ## 📖 Further reading
 - [[Chrome DevTools MCP]] · [[Claude in Chrome]] · [[Playwright MCP]] — individual tool notes with full tool lists and setup
+- [[Browser Tools for AI Agents Compared]] — the wider picture: these three next to Browser Use, Browser Harness and the stealth browsers (CloakBrowser, Camofox), sorted by layer, with the November 2026 status of each
 - Security note: Claude in Chrome's own security work reports a 23.6% attack-success rate without mitigations (11.2% with defenses) for prompt-injection-style attacks via page content — factor that in before pointing it at sensitive sessions.
 - Sources: [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) · [Anthropic — Piloting Claude in Chrome](https://claude.com/blog/claude-for-chrome) · [Claude in Chrome Help Center](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome) · [Playwright MCP](https://github.com/microsoft/playwright-mcp) · [Simon Willison](https://til.simonwillison.net/claude-code/playwright-mcp-claude-code) · [Testomat.io](https://testomat.io/blog/playwright-mcp-claude-code/)
 
