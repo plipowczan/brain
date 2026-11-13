@@ -50,6 +50,19 @@ Reports per-skill differences between brain's live `.claude/skills/` and the tem
 `kb-template/` is no longer compared. If the template directory is missing it exits 1 and
 tells you to clone it.
 
+It compares with the template's working tree. If that checkout's `main` is behind the
+release you are porting, extract the release and compare with that instead:
+
+```bash
+git -C ../second-brain-template fetch origin
+git -C ../second-brain-template archive v0.3.0 .claude | tar -x -C <scratch dir>
+bash scripts/check-kb-template-drift.sh <scratch dir>
+```
+
+A release can also change template-owned files outside `.claude/skills/` (`LIMITS.md`, the
+`AGENTS.template.md` sections that brain's `AGENTS.md` mirrors, the `/b:` command files).
+Read its `CHANGELOG.md` entry and port those by hand too: the check does not see them.
+
 ## Disabled scripts
 
 `scripts/sync-kb-template.sh` and `scripts/extract-kb-template.sh` print why they are
