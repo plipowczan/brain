@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-13T14:43:15Z
+updated: 2026-11-13T16:16:57Z
 entries: 459
 ---
 # Note Catalog
@@ -495,7 +495,7 @@ entries: 459
 - **Agentic AI Repos** | knowledge-note | 2026-05-10 | [project, ai, agents, architecture, claude-code, skills] | Hub: 3 repos (agentic-ai-system, agentic-ai-private, shared-skills+private-skills) forming 200IQ LABS + PLSoft agent infrastructure | → Agentic Systems, agentic-ai-system, agentic-ai-private, Agentic Skills Submodules, Qamera AI, PLSoft, Agent Skills, Awesome Claude Code, Superpowers, Karpathy Skills
 - **Agentic Skills Submodules** | basic-note | 2026-05-10 | [project, ai, skills, claude-code, open-source, 200iq-labs] | shared-skills (Apache 2.0) + private-skills (proprietary) — git submodules feeding both agentic-ai repos | → agentic-ai-system, agentic-ai-private, Agentic AI Repos, Agent Skills, Awesome Claude Code, Awesome Agent Skills, Karpathy Skills, Vercel Skills, Superpowers, gstack, Progressive Disclosure, Token Optimization for Claude Code, Building Claude Skills Guide, Machine Setup Manifest
 - **Agentic Systems** | basic-note | 2026-04-09 | [project, ai, agents, architecture] | Multi-agent architecture for two companies — shared skills, separate contexts | → Claude Code, Cursor, Harness Engineering, Harness Engineering in Practice, Harness Engineering (Ryan Lopopolo), Self-Improving Company, Loop Engineering, Agentic AI Repos, agentic-ai-system, agentic-ai-private, Agentic Skills Submodules, Agentic Coding, Context Engineering, Qamera AI, Paperclip, Hermes Agent, Agent Zero, Space Agent, Superpowers, Ruflo, Everything Claude Code, Career-Ops
-- **agentic-ai-private** | basic-note | 2026-05-10 | [project, ai, agents, plsoft, personal, claude-code] | PLSoft (JDG) + personal multi-agent advisory repo — separate from 200IQ LABS | → Agentic AI Repos, agentic-ai-system, Agentic Skills Submodules, PLSoft, About, Tech News Weekly, Value Builders
+- **agentic-ai-private** | basic-note | 2026-05-10 | [project, ai, agents, plsoft, personal, claude-code] | PLSoft (JDG) + personal multi-agent advisory repo — separate from 200IQ LABS | → Agentic AI Repos, agentic-ai-system, Value Builders, Tech News Weekly, Agentic Skills Submodules, PLSoft, About
 - **agentic-ai-system** | basic-note | 2026-05-10 | [project, ai, agents, 200iq-labs, qamera, claude-code] | 200IQ LABS PSA multi-agent advisory repo — context, tools, orchestration for Qamera AI | → Agentic AI Repos, agentic-ai-private, Agentic Skills Submodules, Qamera AI, Agentic Systems, OpenSpec, Claude Code
 - **Marketing Agent Research** | compiled-note | 2026-08-25 | [project, ai, agents, marketing, social-media, claude-code, research] | Brief decyzyjny z researchu 31 itemów: agent marketingowy dla agentic-ai-system i agentic-ai-private — co budować, co kupić, w jakiej kolejności | → agentic-ai-system, agentic-ai-private, Agentic Skills Submodules, Qamera AI, Agentic AI Repos, Agentic Systems, Tech News Weekly, OpenSpec, Progressive Disclosure, Writing Social Media Posts with AI — What Actually Drives Virality
 
