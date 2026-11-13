@@ -42,7 +42,7 @@ The framing from the source video is sharp: "OpenAI charges you \$20/month to us
 
 ## Reasoning for
 
-The obvious self-hosted hub when you're paying multiple consumer chat subscriptions (\$20/mo each) but already hold API keys. Useful as a shared team front-end for [[Qamera AI]] / [[PLSoft]] where data residency and cost control matter, and as a personal MCP-capable client that isn't tied to one vendor. Sits alongside [[Personal AI Infrastructure]] thinking — own the layer, rent the models.
+The obvious self-hosted hub when you're paying multiple consumer chat subscriptions (\$20/mo each) but already hold API keys. Useful as a shared team front-end for [[Qamera AI]] / [[PLSoft]] where data residency and cost control matter, and as a personal MCP-capable client that isn't tied to one vendor. Sits alongside [[LifeOS]] thinking — own the layer, rent the models.
 
 Where I'd be careful now: the stack to run is no longer just a chat app (Node app, MongoDB, Meilisearch, RAG API, vector DB, optionally the Admin Panel and Code Interpreter); it is still 0.8.x with every release marked pre-release and a `librechat.yaml` schema that moves often; many of the new agent features are beta or experimental; the Admin Panel's AGPL matters if you modify and expose it; and roadmap priorities are now set inside ClickHouse.
 
@@ -61,7 +61,7 @@ Where I'd be careful now: the stack to run is no longer just a chat app (Node ap
 
 ## 🔗 Related notes
 
-- [[Personal AI Infrastructure]] — own-your-stack philosophy
+- [[LifeOS]] — own-your-stack philosophy
 - [[Claude Code]] — shares the MCP tool-integration model
 - [[Google Gemini]] · [[OpenAI]] — providers you'd wire in
 - [[Langfuse]] — also part of ClickHouse; LibreChat ships a Langfuse trace viewer

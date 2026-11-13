@@ -49,7 +49,7 @@ summary: "Hyperautomation Labs lists 10 open-source GitHub repos that each repla
 - Source video: https://www.youtube.com/watch?v=RegzpFdW8pM (Hyperautomation Labs, 9:16)
 - Dedicated tool notes: [[Fincept Terminal|Fincept]], [[LibreChat]], [[Camofox Browser|Camofox]], [[HyperFrames]]
 - Companion roundup: [[Open-Source AI Projects Roundup (Matthew Berman)]]
-- Related: [[Browser Use]], [[Personal AI Infrastructure]], [[Claude Code]]
+- Related: [[Browser Use]], [[LifeOS]], [[Claude Code]]
 
 ---
 Template: [[templates/knowledge_note_info]]

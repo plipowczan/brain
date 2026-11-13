@@ -1,5 +1,5 @@
 ---
-title: "Personal AI Infrastructure"
+title: "LifeOS"
 date: 2026-05-19
 enableToc: true
 openToc: true
@@ -7,13 +7,14 @@ tags: ["tool", "ai", "agents", "life-os", "personal", "claude-code", "skills", "
 type: tool
 source: "_raw/inbox/danielmiesslerPersonal_AI_Infrastructure Agentic AI Infrastructure for magnifying HUMAN capabilities.md"
 agent-created: true
+aliases: ["Personal AI Infrastructure", "PAI"]
 summary: "Daniel Miessler's LifeOS (renamed from PAI in v6.0.0, 2026-07) — MIT Life Operating System on Claude Code: TELOS goals, the Algorithm (current→ideal state) with ISA + Assay evals, Pulse dashboard, DA assistant, 97 skills, plain-text memory; v8.761.0"
 status-checked: 2026-11-13
 project-status: active
 agent-reviewed: 2026-11-13
 ---
 
-# Personal AI Infrastructure
+# LifeOS
 
 > [!success] Status check 2026-11-13 — active
 > **Verdict:** The latest commit on main is f6ab5e02, dated 2026-11-05 (README: 'your security is your responsibility').
@@ -23,7 +24,7 @@ agent-reviewed: 2026-11-13
 
 ## 🚀 Description
 
-**Now called LifeOS.** With v6.0.0 (2026-07-02) Personal AI Infrastructure (PAI) was renamed **LifeOS**: "same system, renamed", same owner, not a fork. The repo is now [danielmiessler/LifeOS](https://github.com/danielmiessler/LifeOS) (the old `Personal_AI_Infrastructure` URL redirects), the site moved from ourpai.ai to [ourlifeos.ai](https://ourlifeos.ai), and v6.0.5 carried the rename into the code (the `pai` launch alias became `lifeos`). I keep the old title here so existing links work. Latest release as of 2026-11-13: **v8.761.0 "The One Loop"** (2026-10-27). Licence: MIT.
+**Now called LifeOS.** With v6.0.0 (2026-07-02) Personal AI Infrastructure (PAI) was renamed **LifeOS**: "same system, renamed", same owner, not a fork. The repo is now [danielmiessler/LifeOS](https://github.com/danielmiessler/LifeOS) (the old `Personal_AI_Infrastructure` URL redirects), the site moved from ourpai.ai to [ourlifeos.ai](https://ourlifeos.ai), and v6.0.5 carried the rename into the code (the `pai` launch alias became `lifeos`). This note was titled Personal AI Infrastructure until 2026-11-13. Latest release as of 2026-11-13: **v8.761.0 "The One Loop"** (2026-10-27). Licence: MIT.
 
 LifeOS (ex-PAI) — agentic AI infrastructure for magnifying human capabilities. As of v5.0.0 it called itself a **Life Operating System**, not "AI scaffolding". The README now pitches it as a *general-purpose AI harness for life and work* built on one idea: moving from your Current State to your Ideal State.
 

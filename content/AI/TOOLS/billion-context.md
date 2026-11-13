@@ -65,7 +65,7 @@ A different bet from [[Token Optimization for Claude Code]] and [[Headroom]]: in
 
 - Built-in `/compact` in [[Claude Code]] — lossy and not reversible
 - [[Headroom]] and [[Caveman]] — token-saving by compressing or shortening content
-- [[Graft]] — avoids reading code in the first place, via a prebuilt graph
+- [[Trail-code]] — avoids reading code in the first place, via a prebuilt graph
 
 ## 🔗 Links
 

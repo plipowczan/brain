@@ -38,7 +38,7 @@ For closed products and APIs "active" means the product is sold and documented t
 - **5 stale**: [[MCP Language Server]], Claude Peers MCP (archived), [[Autoresearch]], [[Meme Factory]], [[Slack GIF Creator]].
 - **2 dead**: Chatterbox TTS (retired by its authors in August 2026; archived) and Magic MCP (replaced by its vendor's [[21st MCP]]; the note was rewritten to cover the successor).
 - **1 done**: [[Karpathy Skills]], a static rules file that needs no maintenance.
-- Notable changes my notes did not cover yet: Cursor's maker was acquired by SpaceX, Topaz Labs by Adobe, Replicate became part of Cloudflare; Graft was renamed Trail-code, Personal AI Infrastructure became LifeOS, Browser Use 1.0 rewrote the library around Browser Harness; Serena moved to GPL-3.0 and Graphify to Apache-2.0.
+- Notable changes my notes did not cover yet: Cursor's maker was acquired by SpaceX, Topaz Labs by Adobe, Replicate became part of Cloudflare; Graft was renamed Trail-code and Personal AI Infrastructure became LifeOS (both notes now carry the new names), Browser Use 1.0 rewrote the library around Browser Harness; Serena moved to GPL-3.0 and Graphify to Apache-2.0.
 
 ## 🧭 Comparison notes
 
@@ -112,7 +112,7 @@ Skills, plugins and the lists that index them. Compared in [[Claude Code Skill P
 | [[Awesome Claude Code]] | A hand-picked list of Claude Code resources: guides, skills, plugins, orchestrators, status lines and tooling (CC BY-NC-ND). | active, v3 relaunch 2026-07-03; commits weekly |
 | [[Claude Code Best Practice]] | A reference repo that explains Claude Code primitives, collects sourced tips and compares popular agentic workflows. | active, no releases; last commit 2026-11-13 |
 | [[Deep-Research-skills]] | Five skills that turn a research topic into an items-by-fields matrix filled by parallel web-search subagents, then a report. | maintained, no releases; last commit 2026-08-23 |
-| [[Personal AI Infrastructure]] | Daniel Miessler's personal 'life operating system' for Claude Code (now LifeOS): goals, memory, preferences and verified workflows. | active, v8.761.0 (2026-10-27) |
+| [[LifeOS]] | Daniel Miessler's personal 'life operating system' for Claude Code (formerly Personal AI Infrastructure, PAI): goals, memory, preferences and verified workflows. | active, v8.761.0 (2026-10-27) |
 | [[ASD-STE100 Skill]] | A skill with a Python linter that rewrites ambiguous English into ASD-STE100 Simplified Technical English for agents and docs. | active, no releases; last commit 2026-11-12 |
 | [[Claude SEO]] | A free Claude Code plugin that runs multi-agent SEO audits (technical, content, schema, AI search) and writes the report locally. | active, v2.6.0 (2026-11-10) |
 | [[UX RULER]] | An open UX and product-discovery skill that walks you or an agent from mission and audience to decisions and metrics. | active, no releases; last commit 2026-10-16 |
@@ -131,7 +131,7 @@ Long-term memory for agents: document RAG, compiled wikis, code graphs and vecto
 | [[Super Brain]] | An Obsidian-compatible vault template with Claude Code and Codex skills that runs Karpathy's LLM-wiki method. | active, no releases; last commit 2026-10-26 |
 | [[Codebase Memory MCP]] | A single binary that indexes a repo into a local SQLite knowledge graph and answers structural code questions over MCP. | active, v0.12.1 (2026-10-16) |
 | [[CocoIndex]] | A Python framework with a Rust core that keeps vector indexes, graphs and tables in sync with changing sources incrementally. | active, v1.2.0 (2026-11-09) |
-| [[Graft]] | A CLI and MCP server (renamed Trail-code) that maps a repo with tree-sitter into markdown and keeps a shared store of team learnings. | active, 0.29.0 (2026-11-06) |
+| [[Trail-code]] | A CLI and MCP server (formerly Graft) that maps a repo with tree-sitter into markdown and keeps a shared store of team learnings. | active, 0.29.0 (2026-11-06) |
 | [[Serena]] | An MCP server that gives coding agents symbol-level navigation and editing backed by real language servers or a JetBrains IDE. | active, v2.1.0 (2026-10-19) |
 | [[MCP Language Server]] | A Go MCP server that wraps any stdio language server and exposes definition, references, diagnostics, hover and rename. | **stale**, v0.1.1 (2025-05-16) |
 | [[Understand Anything]] | A Claude Code plugin that scans a codebase with tree-sitter and LLM agents into a JSON knowledge graph with an interactive dashboard. | active, v2.9.0 (2026-07-10) |
