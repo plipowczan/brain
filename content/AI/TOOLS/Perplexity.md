@@ -7,7 +7,7 @@ tags: ["tool", "ai", "research", "search", "rag", "api", "llm"]
 type: tool
 agent-created: true
 agent-reviewed: 2026-11-13
-summary: "AI answer engine with a search-grounded API — returns cited, up-to-date factual answers; Sonar Chat Completions ended 2026-09-27, the Agent API (effort levels + tools) replaces it; the research/fact layer in Travelcast AI and the Jakub Głąb agent"
+summary: "AI answer engine with a search-grounded API — returns cited, up-to-date factual answers; Sonar Chat Completions ended 2026-09-27, the Agent API (effort levels + tools) replaces it; the research layer behind three of Travelcast AI's four research agents (Historian, Vibe, Critic)"
 status-checked: 2026-11-13
 project-status: active
 ---
@@ -24,7 +24,7 @@ project-status: active
 An AI "answer engine": instead of a list of links it returns a synthesized, **cited** answer grounded in a live web search. The product is the consumer app, but what I use is the API: retrieval + synthesis in one call, the answer returned with its sources. It's the pragmatic way to give an agent fresh, factual, attributable information without building your own search+RAG stack.
 
 > [!warning] Sonar Chat Completions ended on 2026-09-27 (checked 2026-11-13)
-> What I originally wired in was the **Sonar API**: an OpenAI Chat Completions-shaped endpoint (`messages` in, `choices` out) with `model="sonar"`. Perplexity announced the **Agent API** on 2026-08-13 and ended Sonar Chat Completions support on **2026-09-27**. Per the [migration guide](https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview), synchronous and streaming Sonar calls still answer for now: they're reformulated as Agent API requests, rolling out model by model. **Async Sonar requests no longer work** (use background mode). Anything still calling `sonar` should move to the Agent API; I don't count on the reformulation lasting.
+> What I originally wired in was the **Sonar API**: an OpenAI Chat Completions-shaped endpoint (`messages` in, `choices` out); Travelcast calls it with `model="sonar-pro"`. Perplexity announced the **Agent API** on 2026-08-13 and ended Sonar Chat Completions support on **2026-09-27**. Per the [migration guide](https://docs.perplexity.ai/docs/agent-api/migrate-from-sonar/overview), synchronous and streaming Sonar calls still answer for now: they're reformulated as Agent API requests, rolling out model by model. **Async Sonar requests no longer work** (use background mode). Anything still calling a Sonar model should move to the Agent API; I don't count on the reformulation lasting.
 >
 > The guide maps the old tiers to effort levels: Sonar → `fast`, Sonar Pro → `fast`, Sonar Reasoning Pro → `low`, Sonar Deep Research → `high`, and it recommends `xhigh` for deep research. Perplexity's own 2026-08-13 blog post gave a different mapping, so trust the current guide.
 
@@ -57,7 +57,11 @@ print(response.output_text)
 
 ## Reasoning for
 
-Perplexity is the factual-research layer in two projects. In [[Travelcast AI]] it powers the **Historian** agent — one of the four parallel research agents — pulling verifiable, cited facts about a destination's history that then feed the GPT consensus script ([[OpenAI]]). In the [[Jakub Głąb Agent System]] it backs the `/research` skill, giving the agent current, attributable answers for briefings. The reason it beats a raw LLM call here: the citations make hallucination auditable, and the live search means the answer isn't frozen at a training cutoff — both essential when the output is going into something a person will publish or act on. Both integrations were built on Sonar Chat Completions, so they need moving to the Agent API (`fast` is the guide's equivalent of plain Sonar; go up a level for multi-step research). Citations make hallucination auditable; they don't remove it.
+Perplexity is the factual-research layer in [[Travelcast AI]]. Three of its four parallel research agents call it: **Historian** for verifiable, cited facts about a destination's history, **Vibe** for atmosphere (prompted to favour travel blogs and vlogs) and **Critic** for reviews (TripAdvisor, Google Reviews, Reddit). The fourth, Geo, uses Google Maps. All four reports feed the GPT consensus script ([[OpenAI]]). The reason it beats a raw LLM call here: the citations make hallucination auditable (not impossible), and the live search means the answer isn't frozen at a training cutoff — both essential when the output is going into something a person will publish or act on.
+
+The integration still calls `sonar-pro` on Chat Completions (checked on the generator's `main`, 2026-11-13). Perplexity answers such calls for now by reformulating them as Agent API requests, but it needs moving to the Agent API: the guide maps Sonar Pro to `fast`, and a higher level suits multi-step research such as the Historian's.
+
+Until 2026-11-13 this note also said Perplexity backs the `/research` skill of the [[Jakub Głąb Agent System]]. That was wrong: there is no Perplexity call in that system, and the skill (now `/vs-research`) chains [[Firecrawl]] and Claude Code's WebSearch.
 
 ## Alternatives considered
 

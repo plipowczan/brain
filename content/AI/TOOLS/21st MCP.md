@@ -1,6 +1,6 @@
 ---
 title: "21st MCP"
-aliases: ["Magic MCP"]
+aliases: ["Magic MCP", "AI/TOOLS/Magic MCP"]
 date: 2026-07-23
 enableToc: true
 openToc: true
