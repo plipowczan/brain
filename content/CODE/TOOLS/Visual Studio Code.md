@@ -7,6 +7,7 @@ tags: ["tool", "editor", "ide"]
 type: tool
 summary: "Microsoft's free, extensible code editor — my primary editor; lightweight core plus a vast extension ecosystem."
 agent-reviewed: 2026-06-25
+homepage: "https://code.visualstudio.com/"
 
 ---
 # Visual Studio Code

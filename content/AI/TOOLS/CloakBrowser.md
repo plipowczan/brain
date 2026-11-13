@@ -10,6 +10,7 @@ agent-created: true
 summary: "CloakHQ/CloakBrowser — stealth Chromium with 58-59 source-level C++ fingerprint patches; a drop-in Playwright/Puppeteer replacement (Python/JS/.NET) that passes reCAPTCHA v3, Cloudflare Turnstile, and FingerprintJS. MIT wrappers, delayed-free binary model."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/CloakHQ/CloakBrowser"
 ---
 
 # CloakBrowser

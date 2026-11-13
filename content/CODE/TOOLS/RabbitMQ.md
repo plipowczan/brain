@@ -7,6 +7,7 @@ tags: ["tool", "message-queue", "broker", "amqp", "async", "infrastructure"]
 type: tool
 agent-created: true
 summary: "Mature message broker (AMQP) for reliable async job pipelines — the queue behind Qamera AI's HTTP-variant generation pipeline"
+homepage: "https://www.rabbitmq.com/"
 ---
 
 # RabbitMQ

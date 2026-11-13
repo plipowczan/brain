@@ -7,6 +7,7 @@ tags: ["tool", "ai", "video", "react"]
 type: tool
 agent-created: true
 summary: "React-based video production — code-driven explainers, dynamic data, AI-assisted via Claude Code"
+repo: "https://github.com/remotion-dev/skills"
 ---
 
 # Remotion

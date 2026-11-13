@@ -7,6 +7,7 @@ tags: ["tool", "hosting", "vps", "dedicated-servers", "infrastructure", "self-ho
 type: tool
 agent-created: true
 summary: "Low-cost German cloud/dedicated-server provider — exceptional price/performance for self-hosted compute; runs Qamera AI's Docker worker + queue stack"
+homepage: "https://www.hetzner.com/"
 ---
 
 # Hetzner

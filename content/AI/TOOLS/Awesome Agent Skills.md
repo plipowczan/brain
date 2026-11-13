@@ -10,6 +10,7 @@ agent-created: true
 summary: "VoltAgent-curated list of 1000+ Agent Skills from official dev teams and community — cross-platform (Claude Code, Codex, Gemini CLI, Cursor, etc.)"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/VoltAgent/awesome-agent-skills"
 ---
 
 # Awesome Agent Skills

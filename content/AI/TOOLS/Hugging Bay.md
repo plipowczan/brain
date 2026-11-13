@@ -11,6 +11,7 @@ agent-reviewed: 2026-07-07
 summary: "huggingbay.xyz — 'Pirate Bay for open LLMs': artifact registry distributing open model weights via torrents and hash-checked mirrors. Site verified live 2026-07-07; operator anonymous, 'verified' = metadata provenance + license clarity + community signals, no cryptographic signing."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/DrMaxis/the-hugging-bay"
 ---
 
 # Hugging Bay

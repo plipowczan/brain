@@ -10,6 +10,7 @@ agent-created: true
 summary: "Curated 10K+ prompt library for Google Nano Banana Pro — preview images, 16 languages, free & open source"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
 ---
 
 # Awesome Nano Banana Pro Prompts

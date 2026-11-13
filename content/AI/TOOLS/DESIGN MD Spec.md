@@ -10,6 +10,7 @@ agent-created: true
 summary: "Google Labs format spec — DESIGN.md combines YAML design tokens with markdown rationale so coding agents have a persistent, structured grasp of a design system"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/google-labs-code/design.md"
 ---
 
 # DESIGN.md Spec (google-labs-code)

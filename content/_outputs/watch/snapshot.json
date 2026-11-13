@@ -1,0 +1,1637 @@
+{
+ "repos": {
+  "567-labs/instructor": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "567-labs/instructor",
+   "latest": "v1.17.0",
+   "latest_date": "2026-09-09",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "addyosmani/agent-skills": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "addyosmani/agent-skills",
+   "latest": "0.6.15",
+   "latest_date": "2026-10-31",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-01"
+  },
+  "affaan-m/ecc": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "affaan-m/ECC",
+   "latest": "v2.2.3",
+   "latest_date": "2026-10-01",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-09"
+  },
+  "agent0ai/agent-zero": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "agent0ai/agent-zero",
+   "latest": "v2.15",
+   "latest_date": "2026-11-01",
+   "latest_kind": "release",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-12"
+  },
+  "agent0ai/space-agent": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "agent0ai/space-agent",
+   "latest": "v0.66",
+   "latest_date": "2026-04-30",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-06-08"
+  },
+  "agricidaniel/claude-seo": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "AgriciDaniel/claude-seo",
+   "latest": "v2.6.0",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-11"
+  },
+  "ai-job-search-dev/ai-job-search": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "ai-job-search-dev/ai-job-search",
+   "latest": "v1.7.5",
+   "latest_date": "2026-11-09",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "anthropics/claude-code": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "anthropics/claude-code",
+   "latest": "v2.1.323",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": null,
+   "pushed_at": "2026-11-13"
+  },
+  "anthropics/skills": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "anthropics/skills",
+   "last_commit": "2026-11-06",
+   "latest_kind": "none",
+   "license": null,
+   "pushed_at": "2026-11-06"
+  },
+  "baidu/unlimited-ocr": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "baidu/Unlimited-OCR",
+   "latest": "UnlimitedOCR1.0",
+   "latest_kind": "tag",
+   "license": "MIT",
+   "pushed_at": "2026-11-09"
+  },
+  "berriai/litellm": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "BerriAI/litellm",
+   "latest": "v1.109.1",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-13"
+  },
+  "bradautomates/claude-video": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "bradautomates/claude-video",
+   "latest": "v0.3.2",
+   "latest_date": "2026-09-25",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-09-25"
+  },
+  "browser-use/browser-harness": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "browser-use/browser-harness",
+   "latest": "v0.1.13",
+   "latest_date": "2026-09-04",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "browser-use/browser-use": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "browser-use/browser-use",
+   "latest": "1.0.3",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "browser-use/video-use": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "browser-use/video-use",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-10-08"
+  },
+  "can1357/oh-my-pi": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "can1357/oh-my-pi",
+   "latest": "v18.20.0",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "career-ops-hq/career-ops": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "career-ops-hq/career-ops",
+   "latest": "career-ops-v1.40.0",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "celery/celery": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "celery/celery",
+   "latest": "v5.7.0",
+   "latest_date": "2026-11-05",
+   "latest_kind": "release",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-11"
+  },
+  "chaseai-yt/claudex-loop": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "chaseai-yt/claudex-loop",
+   "latest_kind": "none",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-10-14"
+  },
+  "cheaper-inference/omniroute": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "cheaper-inference/OmniRoute",
+   "latest": "v3.8.53",
+   "latest_date": "2026-11-06",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "chromedevtools/chrome-devtools-mcp": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "ChromeDevTools/chrome-devtools-mcp",
+   "latest": "chrome-devtools-mcp-v1.13.0",
+   "latest_date": "2026-11-11",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "cloakhq/cloakbrowser": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "CloakHQ/CloakBrowser",
+   "latest": "chromium-v156.0.8078.47.1-pro",
+   "latest_date": "2026-11-03",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "cobusgreyling/loop-engineering": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "cobusgreyling/loop-engineering",
+   "latest": "v1.6.0",
+   "latest_date": "2026-07-20",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "cocoindex-io/cocoindex": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "cocoindex-io/cocoindex",
+   "latest": "v1.2.0",
+   "latest_date": "2026-11-09",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-12"
+  },
+  "coleam00/ai-software-factory": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "coleam00/ai-software-factory",
+   "latest_kind": "none",
+   "license": null,
+   "pushed_at": "2026-11-09"
+  },
+  "coleam00/archon": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "coleam00/Archon",
+   "latest": "v0.14.0",
+   "latest_date": "2026-11-07",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "crewaiinc/crewai": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "crewAIInc/crewAI",
+   "latest": "1.15.41",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "cursor/plugins": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "cursor/plugins",
+   "latest_kind": "none",
+   "license": null,
+   "pushed_at": "2026-11-13"
+  },
+  "d4vinci/scrapling": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "D4Vinci/Scrapling",
+   "latest": "v0.5.1",
+   "latest_date": "2026-11-04",
+   "latest_kind": "release",
+   "license": "BSD-3-Clause",
+   "pushed_at": "2026-11-11"
+  },
+  "danielmiessler/lifeos": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "danielmiessler/LifeOS",
+   "latest": "v8.761.0",
+   "latest_date": "2026-10-27",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-05"
+  },
+  "danyuchn/asd-ste100-skill": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "danyuchn/asd-ste100-skill",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "datalab-to/marker": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "datalab-to/marker",
+   "latest": "v2.2.0",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-12"
+  },
+  "deepseek-ai/deepseek-harness": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "deepseek-ai/deepseek-harness",
+   "latest": "dsh-v0.2.2-rc.3",
+   "latest_kind": "tag",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "deepseek-ai/dsh-superagent-prototype": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "deepseek-ai/dsh-superagent-prototype",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-11-03"
+  },
+  "deusdata/codebase-memory-mcp": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "DeusData/codebase-memory-mcp",
+   "latest": "v0.12.1",
+   "latest_date": "2026-10-16",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "dietrichgebert/ponytail": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "DietrichGebert/ponytail",
+   "latest": "v5.3.3",
+   "latest_date": "2026-10-29",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-10-29"
+  },
+  "dottxt-ai/outlines": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "dottxt-ai/outlines",
+   "latest": "1.3.3",
+   "latest_date": "2026-08-06",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-09-21"
+  },
+  "drizzle-team/drizzle-orm": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "drizzle-team/drizzle-orm",
+   "latest": "0.45.4",
+   "latest_date": "2026-10-08",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "drmaxis/the-hugging-bay": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "DrMaxis/the-hugging-bay",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-08-08"
+  },
+  "e2e-inc/e2e": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "e2e-inc/e2e",
+   "latest": "@e2e-dev/testmu@0.0.4",
+   "latest_date": "2026-11-05",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "egonex-ai/understand-anything": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "Egonex-AI/Understand-Anything",
+   "latest": "v2.9.0",
+   "latest_date": "2026-07-10",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "epicgames/raddebugger": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "EpicGames/raddebugger",
+   "latest": "v0.9.29-alpha",
+   "latest_date": "2026-09-30",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-10"
+  },
+  "excalidraw/excalidraw": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "excalidraw/excalidraw",
+   "latest": "v0.18.1",
+   "latest_date": "2026-04-21",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "feyninc/chonkie": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "feyninc/chonkie",
+   "latest": "v1.7.0",
+   "latest_date": "2026-07-07",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-05"
+  },
+  "fincept-corporation/finceptterminal": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "Fincept-Corporation/FinceptTerminal",
+   "latest": "v4.5.2",
+   "latest_date": "2026-11-09",
+   "latest_kind": "release",
+   "license": "AGPL-3.0",
+   "pushed_at": "2026-11-13"
+  },
+  "firecrawl/anydoc": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "firecrawl/anydoc",
+   "latest": "v0.2.4",
+   "latest_date": "2026-08-27",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-10-23"
+  },
+  "firecrawl/firecrawl": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "firecrawl/firecrawl",
+   "latest": "v2.11.0",
+   "latest_date": "2026-06-19",
+   "latest_kind": "release",
+   "license": "AGPL-3.0",
+   "pushed_at": "2026-11-13"
+  },
+  "fission-ai/openspec": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "Fission-AI/OpenSpec",
+   "latest": "v2.0.0",
+   "latest_date": "2026-11-11",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "garrytan/gstack": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "garrytan/gstack",
+   "latest": "v1.99.2.0",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "getsentry/sentry": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "getsentry/sentry",
+   "latest": "26.10.1",
+   "latest_date": "2026-10-28",
+   "latest_kind": "release",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-13"
+  },
+  "google-labs-code/design.md": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "google-labs-code/design.md",
+   "latest": "0.4.0",
+   "latest_date": "2026-07-27",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-06"
+  },
+  "googlecloudplatform/knowledge-catalog": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "GoogleCloudPlatform/knowledge-catalog",
+   "latest_kind": "none",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "graphify-labs/graphify": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "Graphify-Labs/graphify",
+   "latest": "v0.9.108",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-12"
+  },
+  "headroomlabs-ai/headroom": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "headroomlabs-ai/headroom",
+   "latest": "v0.44.0",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "herdrdev/herdr": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "herdrdev/herdr",
+   "latest": "v0.9.5",
+   "latest_date": "2026-10-14",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-07"
+  },
+  "hesreallyhim/awesome-claude-code": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "hesreallyhim/awesome-claude-code",
+   "latest": "v2-pre-v3-cutover",
+   "latest_kind": "tag",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-13"
+  },
+  "heygen-com/hyperframes": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "heygen-com/hyperframes",
+   "latest": "v0.9.41",
+   "latest_date": "2026-11-13",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "hkuds/cli-anything": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "HKUDS/CLI-Anything",
+   "latest": "v0.4.0",
+   "latest_date": "2026-06-25",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-09-22"
+  },
+  "hkuds/lightrag": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "HKUDS/LightRAG",
+   "latest": "v1.5.7",
+   "latest_date": "2026-09-02",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "isaacphi/mcp-language-server": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "isaacphi/mcp-language-server",
+   "last_commit": "2025-06-03",
+   "latest": "v0.1.1",
+   "latest_date": "2025-05-16",
+   "latest_kind": "release",
+   "license": "BSD-3-Clause",
+   "pushed_at": "2026-03-01"
+  },
+  "jacebrowning/memegen": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "jacebrowning/memegen",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "jamiepine/voicebox": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "jamiepine/voicebox",
+   "latest": "v0.5.0",
+   "latest_date": "2026-04-25",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-10-07"
+  },
+  "jo-inc/camofox-browser": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "jo-inc/camofox-browser",
+   "latest": "v1.19.0",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-10"
+  },
+  "juliusbrussee/caveman": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "JuliusBrussee/caveman",
+   "latest": "v4.1.0",
+   "latest_date": "2026-11-08",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "karpathy/autoresearch": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "karpathy/autoresearch",
+   "last_commit": "2026-03-26",
+   "latest_kind": "none",
+   "license": null,
+   "pushed_at": "2026-03-26"
+  },
+  "kyutai-labs/pocket-tts": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "kyutai-labs/pocket-tts",
+   "latest": "v4.0.1",
+   "latest_date": "2026-10-21",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "langchain-ai/langgraph": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "langchain-ai/langgraph",
+   "latest": "1.2.21",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "langchain-ai/openwiki": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "langchain-ai/openwiki",
+   "latest": "v0.9.0",
+   "latest_date": "2026-11-05",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "langfuse/langfuse": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "langfuse/langfuse",
+   "latest": "v4.80.0",
+   "latest_date": "2026-11-13",
+   "latest_kind": "release",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-13"
+  },
+  "lfnovo/open-notebook": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "lfnovo/open-notebook",
+   "latest": "v1.15.1",
+   "latest_date": "2026-11-04",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "librechat-ai/librechat": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "LibreChat-AI/LibreChat",
+   "latest": "v0.8.9-rc1",
+   "latest_kind": "tag",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "makerkit/nextjs-saas-starter-kit-lite": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "makerkit/nextjs-saas-starter-kit-lite",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-10-15"
+  },
+  "making-mike/uxruler": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "making-mike/uxruler",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-10-16"
+  },
+  "marp-team/marp": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "marp-team/marp",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-11-07"
+  },
+  "marp-team/marp-cli": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "marp-team/marp-cli",
+   "latest": "v4.5.1",
+   "latest_date": "2026-09-06",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-09-08"
+  },
+  "marp-team/marp-core": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "marp-team/marp-core",
+   "latest": "v4.4.0",
+   "latest_date": "2026-07-17",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-10-20"
+  },
+  "marp-team/marpit": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "marp-team/marpit",
+   "latest": "v3.2.3",
+   "latest_date": "2026-09-04",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-01"
+  },
+  "mattpocock/skills": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "mattpocock/skills",
+   "latest": "v1.3.2",
+   "latest_date": "2026-10-29",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "maziyarpanahi/openmed": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "maziyarpanahi/openmed",
+   "latest": "v3.2.0",
+   "latest_date": "2026-11-03",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-11"
+  },
+  "microsoft/playwright-mcp": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "microsoft/playwright-mcp",
+   "latest": "v0.0.85",
+   "latest_date": "2026-11-09",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "microsoft/powertoys": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "microsoft/PowerToys",
+   "latest": "v0.102.3101",
+   "latest_date": "2026-11-06",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "multica-ai/andrej-karpathy-skills": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "multica-ai/andrej-karpathy-skills",
+   "latest_kind": "none",
+   "license": null,
+   "pushed_at": "2026-04-20"
+  },
+  "mvschwarz/openrig": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "mvschwarz/openrig",
+   "latest": "v0.7.13",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "nandhakishorm/laya": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "NandhaKishorM/laya",
+   "latest": "v0.4.31",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-10"
+  },
+  "nextauthjs/next-auth": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "nextauthjs/next-auth",
+   "latest": "next-auth@4.24.15",
+   "latest_date": "2026-07-20",
+   "latest_kind": "release",
+   "license": "ISC",
+   "pushed_at": "2026-07-22"
+  },
+  "nextlevelbuilder/ui-ux-pro-max-skill": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+   "latest": "v2.15.0",
+   "latest_date": "2026-08-13",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-10"
+  },
+  "nexu-io/open-design": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "nexu-io/open-design",
+   "latest": "open-design-v0.27.1",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "nousresearch/hermes-agent": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "NousResearch/hermes-agent",
+   "latest": "v0.23.1",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "nvidia/nemoclaw": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "NVIDIA/NemoClaw",
+   "latest": "v1.0.0-rc1",
+   "latest_kind": "tag",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "obra/superpowers": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "obra/superpowers",
+   "latest": "v7.0.2",
+   "latest_date": "2026-11-03",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-03"
+  },
+  "obsidianmd/obsidian-skills": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "obsidianmd/obsidian-skills",
+   "latest": "1.1.0",
+   "latest_date": "2026-11-11",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-11"
+  },
+  "ollama/ollama": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "ollama/ollama",
+   "latest": "v0.40.16",
+   "latest_date": "2026-11-09",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "omacom/omarchy": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "omacom/omarchy",
+   "latest": "v4.5.0",
+   "latest_date": "2026-11-05",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "openclaw/openclaw": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "openclaw/openclaw",
+   "latest": "v2026.11.3",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "opendatalab/mineru": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "opendatalab/MinerU",
+   "latest": "mineru-4.2.1-released",
+   "latest_date": "2026-11-11",
+   "latest_kind": "release",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-12"
+  },
+  "openmontageinc/openmontage": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "OpenMontageInc/OpenMontage",
+   "latest_kind": "none",
+   "license": "AGPL-3.0",
+   "pushed_at": "2026-11-09"
+  },
+  "oraios/serena": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "oraios/serena",
+   "latest": "v2.1.0",
+   "latest_date": "2026-10-19",
+   "latest_kind": "release",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-09"
+  },
+  "overmind-core/overmind": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "overmind-core/overmind",
+   "latest": "v0.1.32",
+   "latest_date": "2026-11-11",
+   "latest_kind": "release",
+   "license": "AGPL-3.0",
+   "pushed_at": "2026-11-12"
+  },
+  "paperclipai/paperclip": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "paperclipai/paperclip",
+   "latest": "v2026.1106.0",
+   "latest_date": "2026-11-06",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "pbakaus/impeccable": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "pbakaus/impeccable",
+   "latest": "cli-v4.9.0",
+   "latest_date": "2026-11-13",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "peonping/peon-ping": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "PeonPing/peon-ping",
+   "latest": "v2.37.0",
+   "latest_date": "2026-08-26",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-06"
+  },
+  "pnpm/pnpm": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "pnpm/pnpm",
+   "latest": "v12.18.0",
+   "latest_date": "2026-11-05",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "posthog/posthog": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "PostHog/posthog",
+   "latest": "desktop-v0.61.1016",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-13"
+  },
+  "promptfoo/promptfoo": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "promptfoo/promptfoo",
+   "latest": "0.125.1",
+   "latest_date": "2026-10-25",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "qdrant/qdrant": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "qdrant/qdrant",
+   "latest": "v1.20.0",
+   "latest_date": "2026-10-22",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "ranxianglei/billion-context": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "ranxianglei/billion-context",
+   "latest": "v0.1.213",
+   "latest_date": "2026-11-07",
+   "latest_kind": "release",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-13"
+  },
+  "redocly/redoc": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "Redocly/redoc",
+   "latest": "redoc@3.1.0",
+   "latest_date": "2026-11-05",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "remotion-dev/skills": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "remotion-dev/skills",
+   "latest_kind": "none",
+   "license": null,
+   "pushed_at": "2026-11-11"
+  },
+  "replicate/cog": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "replicate/cog",
+   "latest": "v0.23.1",
+   "latest_date": "2026-10-20",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-07"
+  },
+  "ruvnet/ruflo": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "ruvnet/ruflo",
+   "latest": "v3.77.0",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "santanderai/.github": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "SantanderAI/.github",
+   "latest_kind": "none",
+   "license": null,
+   "pushed_at": "2026-07-10"
+  },
+  "shadcn-ui/ui": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "shadcn-ui/ui",
+   "latest": "shadcn@4.23.0",
+   "latest_date": "2026-10-27",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "shanraisshan/claude-code-best-practice": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "shanraisshan/claude-code-best-practice",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "softaworks/agent-toolkit": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "softaworks/agent-toolkit",
+   "last_commit": "2026-03-05",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-03-05"
+  },
+  "stablyai/orca": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "stablyai/orca",
+   "latest": "v1.4.258",
+   "latest_date": "2026-11-13",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "stanfordnlp/dspy": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "stanfordnlp/dspy",
+   "latest": "3.5.0",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "storybookjs/storybook": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "storybookjs/storybook",
+   "latest": "v10.6.7",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "superhero-tech/super-brain": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "superhero-tech/super-brain",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-10-26"
+  },
+  "tailwindlabs/tailwindcss": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "tailwindlabs/tailwindcss",
+   "latest": "v4.3.5",
+   "latest_date": "2026-11-06",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-11"
+  },
+  "taskforcesh/bullmq": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "taskforcesh/bullmq",
+   "latest": "vnet1.3.1",
+   "latest_date": "2026-11-12",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "teng-lin/notebooklm-py": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "teng-lin/notebooklm-py",
+   "latest": "v0.8.6",
+   "latest_date": "2026-10-29",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-08"
+  },
+  "tigerless-labs/autoharness": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "tigerless-labs/autoharness",
+   "latest": "v0.2.5",
+   "latest_kind": "tag",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "trailhq/trail-code": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "trailhq/Trail-Code",
+   "latest": "v0.21.1",
+   "latest_kind": "tag",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "tt-a1i/archify": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "tt-a1i/archify",
+   "latest": "v3.2.0",
+   "latest_date": "2026-10-19",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-13"
+  },
+  "unclecode/crawl4ai": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "unclecode/crawl4ai",
+   "latest": "v0.9.5",
+   "latest_date": "2026-10-14",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-11-12"
+  },
+  "vectifyai/openkb": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "VectifyAI/OpenKB",
+   "latest": "v0.4.5",
+   "latest_date": "2026-07-20",
+   "latest_kind": "release",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-07-22"
+  },
+  "vectifyai/pageindex": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "VectifyAI/PageIndex",
+   "latest": "v0.5.3",
+   "latest_date": "2026-11-05",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-13"
+  },
+  "vercel-labs/skills": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "vercel-labs/skills",
+   "latest": "v1.8.1",
+   "latest_date": "2026-11-10",
+   "latest_kind": "release",
+   "license": "MIT",
+   "pushed_at": "2026-11-12"
+  },
+  "vercel/satori": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "vercel/satori",
+   "latest": "0.63.2",
+   "latest_date": "2026-10-20",
+   "latest_kind": "release",
+   "license": "MPL-2.0",
+   "pushed_at": "2026-11-12"
+  },
+  "voltagent/awesome-agent-skills": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "VoltAgent/awesome-agent-skills",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-11-05"
+  },
+  "voltagent/awesome-design-md": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "VoltAgent/awesome-design-md",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-10-28"
+  },
+  "weizhena/deep-research-skills": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "Weizhena/Deep-Research-skills",
+   "latest_kind": "none",
+   "license": "MIT",
+   "pushed_at": "2026-08-23"
+  },
+  "youmind-openlab/awesome-nano-banana-pro-prompts": {
+   "archived": false,
+   "checked": "2026-11-13",
+   "disabled": false,
+   "full_name": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+   "latest_kind": "none",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-11-13"
+  }
+ },
+ "updated": "2026-11-13",
+ "urls": {
+  "https://1password.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://21st.dev/mcp": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://ai.google.dev/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://arxiv.org/abs/2606.11680": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://brightdata.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://claude.com/blog/claude-for-chrome": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://clickup.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://code.visualstudio.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://cursor.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://drex.nace.ai/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://elevenlabs.io/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://git-scm.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://github.com/features/copilot": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://lovable.dev/": {
+   "checked": "2026-11-13",
+   "status": "unverified"
+  },
+  "https://miro.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://n8n.io/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://nextjs.org/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://nucleify.io/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://outlook.live.com/": {
+   "checked": "2026-11-13",
+   "status": "unverified"
+  },
+  "https://peopledatalabs.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://platform.openai.com/": {
+   "checked": "2026-11-13",
+   "status": "unverified"
+  },
+  "https://pstryk.pl/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://react.dev/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://redis.io/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://resend.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://sendgrid.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://stripe.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://supabase.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://tactiq.io/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://textexpander.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://to-do.microsoft.com/": {
+   "checked": "2026-11-13",
+   "status": "unverified"
+  },
+  "https://turborepo.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://uxpilot.ai/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://v0.app/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://vapi.ai/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://vercel.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://visualstudio.microsoft.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.airtable.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.byteplus.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.clay.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.cloudflare.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.digitalocean.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.docker.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.hetzner.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.make.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.notion.so/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.onenote.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.perplexity.ai/": {
+   "checked": "2026-11-13",
+   "status": "unverified"
+  },
+  "https://www.prisma.io/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.rabbitmq.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.revolut.com/": {
+   "checked": "2026-11-13",
+   "status": "unverified"
+  },
+  "https://www.topazlabs.com/": {
+   "checked": "2026-11-13",
+   "status": "unverified"
+  },
+  "https://www.ventusky.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://www.voyageai.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  },
+  "https://zapier.com/": {
+   "checked": "2026-11-13",
+   "status": "alive"
+  }
+ }
+}

@@ -7,6 +7,7 @@ tags: ["tool", "database", "backend", "baas"]
 type: tool
 agent-created: true
 summary: "Open-source Firebase alternative — Postgres database, auth, storage, realtime"
+homepage: "https://supabase.com/"
 ---
 # Supabase
 

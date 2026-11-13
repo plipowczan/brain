@@ -7,6 +7,7 @@ tags: ["tool", "automation", "integration", "workflow"]
 type: tool
 agent-created: true
 summary: "Self-hosted workflow automation platform — open-source alternative to Make/Zapier"
+homepage: "https://n8n.io/"
 ---
 # n8n
 

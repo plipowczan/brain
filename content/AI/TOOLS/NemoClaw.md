@@ -9,6 +9,7 @@ agent-created: true
 summary: "Self-hosted AI inference setup — OpenClaw gateway + NVIDIA Nemotron model"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/NVIDIA/NemoClaw"
 ---
 # NemoClaw
 

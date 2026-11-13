@@ -10,6 +10,7 @@ agent-reviewed: 2026-11-13
 summary: "Run open and commercial ML models via one API — image gen, upscaling, audio, more; the hosted-inference fallback in Qamera AI and image generation in AGRE"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/replicate/cog"
 ---
 
 # Replicate

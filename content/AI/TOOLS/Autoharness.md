@@ -10,6 +10,7 @@ agent-created: true
 summary: "tigerless-labs/autoharness — Claude Code plugin that distills skills from your real sessions, merges near-duplicates, and archives unused ones by adherence rate; never touches skills it didn't write"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/tigerless-labs/autoharness"
 ---
 # Autoharness
 

@@ -9,6 +9,7 @@ agent-created: true
 summary: "Platform for building AI voice agents and voicebots"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://vapi.ai/"
 ---
 # VAPI
 

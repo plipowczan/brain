@@ -10,6 +10,7 @@ agent-created: true
 summary: "mvschwarz/openrig — a harness for harnesses: define a persistent team of Claude Code, Codex and Pi agents in YAML, boot it with one command on tmux (macOS/Linux)"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/mvschwarz/openrig"
 ---
 
 # OpenRig

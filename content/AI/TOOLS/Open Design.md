@@ -11,6 +11,7 @@ summary: "nexu-io/open-design — began as a local-first OSS Claude Design alter
 status-checked: 2026-11-13
 project-status: active
 agent-reviewed: 2026-11-13
+repo: "https://github.com/nexu-io/open-design"
 ---
 
 # Open Design

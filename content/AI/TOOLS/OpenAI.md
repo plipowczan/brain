@@ -10,6 +10,7 @@ agent-reviewed: 2026-11-13
 summary: "OpenAI API — GPT models (now GPT-6/6.1) for synthesis/translation, speech (TTS models retiring 2027-01-06), and embeddings; one of the multi-provider LLM backbones in my AI pipelines, used as both primary and fallback"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://platform.openai.com/"
 ---
 
 # OpenAI

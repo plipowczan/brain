@@ -11,6 +11,7 @@ agent-reviewed: 2026-09-06
 summary: "firecrawl/anydoc — Rust library converting Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV and PDF to clean GFM Markdown in under 5ms median; Node/Python/WASM bindings and an agent skill. Beats libreoffice, markitdown, pandoc and docling on all 14 formats."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/firecrawl/anydoc"
 ---
 # anydoc
 

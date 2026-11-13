@@ -10,6 +10,7 @@ agent-created: true
 summary: "Banco Santander AI Lab's open-source org — small models, harness engineering, evolving agents, responsible AI, graph ML for financial services; Apache-2.0"
 status-checked: 2026-11-13
 project-status: slowing
+repo: "https://github.com/SantanderAI/.github"
 ---
 # Santander AI Open Source
 

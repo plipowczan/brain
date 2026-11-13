@@ -7,6 +7,7 @@ tags: ["tool", "zapier", "automation", "integration"]
 type: tool
 summary: "No-code automation tool for connecting apps; used for simple multi-step integrations."
 agent-reviewed: 2026-06-16
+homepage: "https://zapier.com/"
 
 ---
 # Zapier

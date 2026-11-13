@@ -11,6 +11,7 @@ summary: "Datalab's document-intelligence converter — PDF/image/PPTX/DOCX/XLSX
 status-checked: 2026-11-13
 project-status: active
 agent-reviewed: 2026-11-13
+repo: "https://github.com/datalab-to/marker"
 ---
 # Marker
 

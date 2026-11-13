@@ -9,6 +9,7 @@ agent-created: true
 summary: "Industrial-scale web data platform — proxies, scraping APIs, and ready datasets for company/person enrichment; used in TTTR (via n8n) and the Jakub Głąb agent"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://brightdata.com/"
 ---
 
 # Bright Data

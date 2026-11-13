@@ -7,9 +7,18 @@ tags: ["tool", "sales", "data-enrichment", "crm", "outbound", "automation"]
 type: tool
 agent-created: true
 summary: "Data-enrichment and outbound platform — spreadsheet UI over 100+ enrichment sources + AI for prospecting/personalization; planned for the Jakub Głąb agent's enrichment"
+homepage: "https://www.clay.com/"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Clay
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Clay publishes weekly product roundups (latest 2026-11-09) and shipped Claygent auto-mode on 2026-10-27.
+> **Latest release:** Product Roundup for the week of 2026-11-02, published on the Clay changelog on 2026-11-09. · **last dated update:** 2026-11-09 · **licence:** proprietary SaaS; usage-based plans metered in Data Credits plus Actions: Free (\$0, 100 credits and 500 actions/mo)…
+> **Source:** https://www.clay.com/changelog
+> **Changed since this note:** Clay now presents itself as a full GTM platform ('Build systems to grow revenue') rather than an enrichment layer, and it raised a \$115M Series D at \$7.1B on 2026-09-09. No claim in the note is outright wrong, but parts of it are now out of date.
 
 A go-to-market data platform with a spreadsheet-like UI sitting on top of **100+ enrichment providers**. You drop in a list of people/companies and Clay waterfalls across data sources to fill in emails, firmographics, signals, and social profiles — then uses AI to research and personalize outreach. It's the modern "enrichment + prospecting" layer that replaces stitching together a dozen separate data APIs by hand.
 

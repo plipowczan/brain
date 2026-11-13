@@ -8,6 +8,7 @@ type: tool
 source: "_raw/inbox/marp-teammarp-core The core of Marp converter.md"
 agent-created: true
 summary: "Marpit + oficjalne themy + math + emoji + auto-scaling — silnik domyślny dla Marp tooling"
+repo: "https://github.com/marp-team/marp-core"
 ---
 # Marp Core
 

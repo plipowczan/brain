@@ -10,6 +10,7 @@ agent-created: true
 summary: "CLI + library for evaluating and red-teaming LLM apps — declarative test configs, side-by-side model comparison, and vulnerability scanning; MIT, now part of OpenAI"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/promptfoo/promptfoo"
 ---
 # Promptfoo
 

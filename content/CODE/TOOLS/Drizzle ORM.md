@@ -7,6 +7,7 @@ tags: ["tool", "orm", "typescript", "database", "postgres", "sql"]
 type: tool
 agent-created: true
 summary: "Lightweight, SQL-first TypeScript ORM — thin, type-safe, no codegen runtime; the data layer in AGRE (Postgres on Supabase)"
+repo: "https://github.com/drizzle-team/drizzle-orm"
 ---
 
 # Drizzle ORM

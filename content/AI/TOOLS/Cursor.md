@@ -10,6 +10,7 @@ agent-created: true
 summary: "AI-powered IDE based on VS Code with built-in coding agents"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://cursor.com/"
 ---
 # Cursor
 

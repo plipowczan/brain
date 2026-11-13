@@ -11,6 +11,7 @@ agent-reviewed: 2026-07-12
 summary: "Anthropic's system for dynamically loading specialized instructions into Claude — reusable, cross-harness skill packages"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/anthropics/skills"
 ---
 
 # Agent Skills

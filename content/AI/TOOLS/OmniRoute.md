@@ -11,6 +11,7 @@ agent-reviewed: 2026-11-13
 summary: "cheaper-inference/OmniRoute (moved from diegosouzapw on 2026-10-21; owned by the Cheaper Inference gateway org) — self-hosted MIT AI gateway: one OpenAI-compatible endpoint over ~380–393 providers and 1,400+ models, quota-aware auto-fallback across 20 routing strategies, and a 12-engine compression stack (RTK → Caveman) that cuts 15–95% of tokens transparently. v3.8.53 (2026-11-06)."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/cheaper-inference/OmniRoute"
 ---
 # OmniRoute
 

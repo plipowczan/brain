@@ -7,6 +7,7 @@ tags: ["tool", "auth", "authentication", "nextjs", "magic-link", "oauth"]
 type: tool
 agent-created: true
 summary: "Open-source authentication for Next.js (now Auth.js) — OAuth, passwordless magic-link, sessions; the auth layer in AGRE and the TTTR platform"
+repo: "https://github.com/nextauthjs/next-auth"
 ---
 
 # NextAuth / Auth.js

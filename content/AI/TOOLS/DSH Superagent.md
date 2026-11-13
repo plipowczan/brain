@@ -10,6 +10,7 @@ agent-created: true
 summary: "deepseek-ai/dsh-superagent-prototype — DeepSeek's research prototype of a proactive coding agent for one GitHub repo (optionally Feishu): opens work items, works in its own session and directory, answers with a PR, web panel for what needs a person. MIT, not official."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/deepseek-ai/dsh-superagent-prototype"
 ---
 # DSH Superagent
 

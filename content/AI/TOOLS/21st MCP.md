@@ -12,6 +12,7 @@ agent-reviewed: 2026-11-13
 summary: "21st.dev's hosted MCP server, the successor of Magic MCP since 2026-07-24: coding agents search 12,000+ React/Tailwind components, install their code and, on a paid AI plan, generate new UI from Cursor, Claude Code, Codex and other MCP clients."
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://21st.dev/mcp"
 ---
 # 21st MCP
 

@@ -10,6 +10,7 @@ agent-created: true
 summary: "Open-source UX skill for agents — guides from mission through audience/need to measurable value, records decisions in the repo"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/making-mike/uxruler"
 ---
 
 # UX RULER

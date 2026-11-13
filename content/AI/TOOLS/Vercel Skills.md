@@ -10,6 +10,7 @@ agent-created: true
 summary: "npx skills — CLI for the open agent skills ecosystem, installs SKILL.md from any repo into 50+ agents (Claude Code, Codex, Cursor, OpenCode...)"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/vercel-labs/skills"
 ---
 # Vercel Skills
 

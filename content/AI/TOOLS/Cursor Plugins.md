@@ -10,6 +10,7 @@ agent-created: true
 summary: "cursor/plugins — the official Cursor plugin marketplace repo and spec: per-plugin manifest bundling skills, rules and MCP; ~100 plugins from agent workflows to SaaS and finance integrations"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/cursor/plugins"
 ---
 
 # Cursor Plugins

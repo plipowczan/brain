@@ -7,6 +7,7 @@ tags: ["tool", "frontend", "fullstack", "framework"]
 type: tool
 agent-created: true
 summary: "React meta-framework — SSR, routing, API routes. Used for Qamera AI frontend."
+homepage: "https://nextjs.org/"
 ---
 # Next.js
 

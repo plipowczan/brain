@@ -10,6 +10,7 @@ agent-created: true
 summary: "Auto-generate agent-native CLIs for any software — 7-phase pipeline, Claude Code plugin, 30+ harnesses"
 status-checked: 2026-11-13
 project-status: maintained
+repo: "https://github.com/HKUDS/CLI-Anything"
 ---
 
 # CLI-Anything

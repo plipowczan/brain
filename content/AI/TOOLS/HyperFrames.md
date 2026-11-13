@@ -10,6 +10,7 @@ agent-created: true
 summary: "HeyGen's open-source video rendering framework — write HTML + CSS + GSAP, render to MP4. First-class Claude Code / Codex / Cursor skills. Apache 2.0"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/heygen-com/hyperframes"
 ---
 
 # HyperFrames

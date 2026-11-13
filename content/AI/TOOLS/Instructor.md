@@ -10,6 +10,7 @@ agent-created: true
 summary: "Most-popular library for structured LLM outputs — Pydantic-schema extraction with type safety, validation, automatic retries and streaming; 15+ providers, 6 languages"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/567-labs/instructor"
 ---
 # Instructor
 

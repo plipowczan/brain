@@ -10,6 +10,7 @@ agent-created: true
 summary: "can1357/oh-my-pi (omp) — Stencil Labs' MIT terminal coding agent, a fork of Pi: hashline content-hash edits, LSP and debugger wired into the agent, subagents in isolated worktrees, an advisor model, 60+ providers, and a ~80k-line Rust core"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/can1357/oh-my-pi"
 ---
 # oh-my-pi
 

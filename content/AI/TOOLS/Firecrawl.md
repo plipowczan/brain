@@ -10,6 +10,7 @@ agent-reviewed: 2026-11-13
 summary: "Web data API (AGPL-3.0 server, MIT SDKs, credit-based cloud) that turns websites into clean LLM-ready Markdown/JSON — scrape, crawl, map, search, agent; the research-scraping layer for the Jakub Głąb agent and shared-skills"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/firecrawl/firecrawl"
 ---
 
 # Firecrawl

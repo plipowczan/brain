@@ -11,6 +11,7 @@ agent-reviewed: 2026-09-06
 summary: "chaseai-yt/claudex-loop — Claude Code plugin where Claude locks the plan with you and OpenAI Codex attacks it round after round in a read-only sandbox; whoever built a thing never grades it. MIT."
 status-checked: 2026-11-13
 project-status: maintained
+repo: "https://github.com/chaseai-yt/claudex-loop"
 ---
 # Claudex Loop
 

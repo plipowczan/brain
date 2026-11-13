@@ -8,6 +8,7 @@ type: tool
 source: "_raw/processed/2026-10-15_2026-10-15-research-meme-generation-for-coding-agents.md"
 agent-created: true
 summary: "vercel/satori + resvg-wasm — turns a JSX/CSS element tree into SVG and PNG in pure JS and WASM, no native modules; my primary meme renderer because it runs under Smart App Control and handles Polish glyphs"
+repo: "https://github.com/vercel/satori"
 ---
 # Satori
 

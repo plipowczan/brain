@@ -10,6 +10,7 @@ agent-created: true
 summary: "VectifyAI's CLI that compiles raw docs into an interlinked Obsidian-compatible wiki via LLMs — vectorless PageIndex retrieval, no vector DB, Skill Factory"
 status-checked: 2026-11-13
 project-status: slowing
+repo: "https://github.com/VectifyAI/OpenKB"
 ---
 # OpenKB
 

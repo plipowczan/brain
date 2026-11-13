@@ -10,6 +10,7 @@ agent-created: true
 summary: "Open-source video editor for coding agents — drop raw footage in a folder, chat with Claude Code, get final.mp4. Reads transcripts (not frames) for word-level cuts"
 status-checked: 2026-11-13
 project-status: maintained
+repo: "https://github.com/browser-use/video-use"
 ---
 
 # Video Use

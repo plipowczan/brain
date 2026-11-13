@@ -8,9 +8,18 @@ type: tool
 source: "_raw/processed/2026-07-07_MadsLorentzen-ai-job-search.md"
 agent-created: true
 summary: "MadsLorentzen/ai-job-search — fork-and-fill job application framework on Claude Code: /setup profile, /scrape portals, /apply runs a drafter-reviewer pipeline producing compiled, ATS-checked LaTeX CV + cover letter PDFs."
+repo: "https://github.com/ai-job-search-dev/ai-job-search"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # AI Job Search
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Several fix commits landed on master on 2026-11-12.
+> **Last release:** v1.7.5 on 2026-11-09. Releases are weekly SemVer tags from a release workflow… · **last commit:** 2026-11-12 · **licence:** MIT
+> **Repo:** https://github.com/ai-job-search-dev/ai-job-search — **moved/renamed:** yes: MadsLorentzen/ai-job-search -> ai-job-search-dev/ai-job-search (GitHub org move; in-tree references were repointed on 2026-10-26 in PR #776). The project name and author are unchanged.
+> **Changed since this note:** The repo moved to the ai-job-search-dev org and now ships tagged weekly releases (v1.0.0 on 2026-07-22 through v1.7.5 on 2026-11-09), so the note's repo link and its '7 commands' are outdated. There are now 14 commands…
 
 ## 🚀 Description
 

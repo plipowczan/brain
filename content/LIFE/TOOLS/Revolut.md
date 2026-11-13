@@ -7,6 +7,7 @@ tags: ["tool", "revolut", "bank", "money"]
 type: tool
 summary: "Multi-currency banking app used for travel spending, kids' finances, and family travel insurance"
 agent-reviewed: 2026-06-16
+homepage: "https://www.revolut.com/"
 
 ---
 # Revolut

@@ -10,6 +10,7 @@ agent-reviewed: 2026-11-13
 summary: "AI answer engine with a search-grounded API — returns cited, up-to-date factual answers; Sonar Chat Completions ended 2026-09-27, the Agent API (effort levels + tools) replaces it; the research layer behind three of Travelcast AI's four research agents (Historian, Vibe, Critic)"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://www.perplexity.ai/"
 ---
 
 # Perplexity

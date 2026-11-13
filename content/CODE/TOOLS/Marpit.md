@@ -8,6 +8,7 @@ type: tool
 source: "_raw/inbox/marp-teammarpit The skinny framework for creating slide deck from Markdown.md"
 agent-created: true
 summary: "Skinny framework: Markdown + CSS theme → static HTML/CSS slide deck — the foundation of all of Marp"
+repo: "https://github.com/marp-team/marpit"
 ---
 # Marpit
 

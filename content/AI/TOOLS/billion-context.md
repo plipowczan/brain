@@ -11,6 +11,7 @@ agent-reviewed: 2026-11-13
 summary: "ranxianglei/billion-context (bili) — proxy/plugin that lets the model itself compress and restore conversation ranges, targeting 5x fewer tokens and month-long single sessions on 100K windows"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/ranxianglei/billion-context"
 ---
 
 # billion-context

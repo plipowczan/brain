@@ -10,6 +10,7 @@ agent-created: true
 summary: "Jesse Vincent (obra) opinionated software development methodology for coding agents — composable skills (brainstorm→worktree→plan→subagent-driven→TDD→review→finish), auto-trigger, multi-host (CC/Cursor/Codex/OpenCode/Copilot/Gemini)"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/obra/superpowers"
 ---
 
 # Superpowers

@@ -7,6 +7,7 @@ tags: ["tool", "orm", "typescript", "database", "postgres", "schema"]
 type: tool
 agent-created: true
 summary: "TypeScript ORM with a declarative schema, typed client, and migrations — the data layer in the Tech To The Rescue platform (Postgres + pgvector)"
+homepage: "https://www.prisma.io/"
 ---
 
 # Prisma

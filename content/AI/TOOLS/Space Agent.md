@@ -10,6 +10,7 @@ agent-created: true
 summary: "Frontend-runtime agent from agent0ai — rebuilds its workspace on the fly (pages, widgets, workflows) via SKILL.md in plain text/JS"
 status-checked: 2026-11-13
 project-status: slowing
+repo: "https://github.com/agent0ai/space-agent"
 ---
 
 # Space Agent

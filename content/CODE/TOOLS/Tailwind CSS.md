@@ -7,6 +7,7 @@ tags: ["tool", "css", "styling", "frontend", "design-system", "utility-first"]
 type: tool
 agent-created: true
 summary: "Utility-first CSS framework — style in markup with composable classes; the styling layer under every Next.js app I build, and the foundation shadcn/ui sits on"
+repo: "https://github.com/tailwindlabs/tailwindcss"
 ---
 
 # Tailwind CSS

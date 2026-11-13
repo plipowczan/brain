@@ -7,6 +7,7 @@ tags: ["tool", "python", "task-queue", "async", "distributed", "workers"]
 type: tool
 agent-created: true
 summary: "Python distributed task queue — runs background work across workers with retries, scheduling, and primitives like chord/group; orchestrates Travelcast AI's parallel research agents"
+repo: "https://github.com/celery/celery"
 ---
 
 # Celery

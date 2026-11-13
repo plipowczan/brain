@@ -11,6 +11,7 @@ agent-reviewed: 2026-11-13
 summary: "Open-source Python library, CLI and MCP server where an LLM drives a real browser by writing Python on raw CDP (via Browser Harness). 1.0 (2026-11-10) rewrote it and made cloud browser + bu-fast model the defaults; 'V4' is the hosted cloud agent"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/browser-use/browser-use"
 ---
 
 # Browser Use

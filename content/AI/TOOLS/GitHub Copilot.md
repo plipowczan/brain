@@ -9,6 +9,7 @@ agent-created: true
 summary: "In-IDE AI code completion and chat from GitHub/OpenAI — inline suggestions, chat, agent mode; the in-editor assist used on the Tech To The Rescue project"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://github.com/features/copilot"
 ---
 
 # GitHub Copilot

@@ -10,6 +10,7 @@ agent-created: true
 summary: "mattpocock/skills — small composable engineering skills (grill-me, tdd, diagnosing-bugs, to-spec, code-review…) built around four agent failure modes; installs as a plugin on Claude Code, Codex, Copilot"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/mattpocock/skills"
 ---
 
 # Matt Pocock Skills

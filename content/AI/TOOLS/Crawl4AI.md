@@ -11,6 +11,7 @@ agent-reviewed: 2026-11-13
 summary: "Open-source LLM-friendly web crawler & scraper — turns the web into clean, LLM-ready markdown for RAG, agents and data pipelines; async, controllable, Docker/FastAPI, ~87k stars; Apache-2.0 plus a mandatory attribution clause; now also sold as hosted Crawl4AI Cloud"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/unclecode/crawl4ai"
 ---
 # Crawl4AI
 

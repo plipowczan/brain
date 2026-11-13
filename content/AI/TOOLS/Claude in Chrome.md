@@ -11,6 +11,7 @@ agent-reviewed: 2026-11-13
 summary: "Anthropic's official Chrome extension giving Claude computer-use control of your real, logged-in browser — GA on all paid plans since 2026-08-26; auto-approves actions by default behind a safety classifier and prompt-injection probes; usable from Claude Code via --chrome"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://claude.com/blog/claude-for-chrome"
 ---
 # Claude in Chrome
 

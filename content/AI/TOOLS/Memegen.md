@@ -10,6 +10,7 @@ agent-created: true
 summary: "jacebrowning/memegen (memegen.link) — open-source URL-based meme API with 209 templates and no auth; my default hosted renderer, with a watermark, training-data terms and thin template metadata"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/jacebrowning/memegen"
 ---
 # Memegen
 

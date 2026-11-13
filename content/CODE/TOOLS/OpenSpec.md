@@ -7,6 +7,7 @@ tags: ["tool", "ai", "development", "specs", "claude-code"]
 type: tool
 agent-created: true
 summary: "Spec-driven development framework — explore → specs → plan → implementation with version-controlled artifacts"
+repo: "https://github.com/Fission-AI/OpenSpec"
 ---
 
 # OpenSpec

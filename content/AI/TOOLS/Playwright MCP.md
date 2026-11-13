@@ -10,6 +10,7 @@ agent-created: true
 summary: "Microsoft's accessibility-tree-based browser automation MCP — cross-browser E2E testing, most token-efficient of the three main browser MCPs"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/microsoft/playwright-mcp"
 ---
 # Playwright MCP
 

@@ -11,6 +11,7 @@ summary: "coleam00/ai-software-factory — you plan the release (PRD), agents on
 status-checked: 2026-11-13
 project-status: active
 agent-reviewed: 2026-11-13
+repo: "https://github.com/coleam00/ai-software-factory"
 ---
 # AI Software Factory
 

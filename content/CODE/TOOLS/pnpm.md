@@ -7,6 +7,7 @@ tags: ["tool", "package-manager", "javascript", "nodejs", "monorepo", "workspace
 type: tool
 agent-created: true
 summary: "Fast, disk-efficient Node package manager with a strict content-addressable store and first-class workspaces — the package manager across my JS/TS projects"
+repo: "https://github.com/pnpm/pnpm"
 ---
 
 # pnpm

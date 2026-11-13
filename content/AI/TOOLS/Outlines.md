@@ -10,6 +10,7 @@ agent-created: true
 summary: "dottxt's structured-generation library — constrains LLM decoding to a schema/regex/grammar so outputs are valid by construction (JSON, types, FSM), not fixed up after the fact"
 status-checked: 2026-11-13
 project-status: maintained
+repo: "https://github.com/dottxt-ai/outlines"
 ---
 # Outlines
 

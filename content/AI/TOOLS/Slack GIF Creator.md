@@ -10,6 +10,7 @@ agent-created: true
 summary: "Anthropic's official slack-gif-creator skill (anthropics/skills) — Pillow + imageio GIF builder with Slack-size validators; a good first-party base for animated reaction memes once you swap the default font"
 status-checked: 2026-11-13
 project-status: stale
+repo: "https://github.com/anthropics/skills"
 ---
 # Slack GIF Creator
 

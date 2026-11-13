@@ -10,6 +10,7 @@ summary: "oraios/serena — MCP server (GPL-3.0-or-later since v2.0; MIT through
 status-checked: 2026-11-13
 project-status: active
 agent-reviewed: 2026-11-13
+repo: "https://github.com/oraios/serena"
 ---
 # Serena
 

@@ -8,6 +8,7 @@ type: tool
 source: "_raw/processed/2026-06-13_Redoclyredoc-OpenAPI-Swagger-API-Reference-Documentation.md"
 agent-created: true
 summary: "Redocly/redoc — open-source generator of three-panel API reference docs from OpenAPI/Swagger definitions; CLI, HTML tag, or React component"
+repo: "https://github.com/Redocly/redoc"
 ---
 
 # Redoc

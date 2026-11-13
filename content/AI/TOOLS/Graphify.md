@@ -11,6 +11,7 @@ summary: "Graphify-Labs/graphify (Apache-2.0 since 2026-07, was MIT) — CLI + /
 status-checked: 2026-11-13
 project-status: active
 agent-reviewed: 2026-11-13
+repo: "https://github.com/Graphify-Labs/graphify"
 ---
 
 # Graphify

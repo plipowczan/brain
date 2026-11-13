@@ -10,6 +10,7 @@ agent-created: true
 summary: "superhero-tech/super-brain — AI Product Heroes' Karpathy-style second brain for product builders: ingest/query/lint skills plus project and profile layers; index-only, ceiling about 100 pages"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/superhero-tech/super-brain"
 ---
 
 # Super Brain

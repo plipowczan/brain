@@ -10,6 +10,7 @@ agent-created: true
 summary: "maziyarpanahi/openmed — local-first healthcare AI: clinical NER + HIPAA PII de-identification, 100% on-device; 1,000+ medical models, 247 PII checkpoints in 15 languages, Python/MLX/Swift/REST/WebGPU, Apache-2.0."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/maziyarpanahi/openmed"
 ---
 
 # OpenMed

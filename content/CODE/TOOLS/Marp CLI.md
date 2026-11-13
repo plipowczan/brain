@@ -9,6 +9,7 @@ source: "_raw/inbox/marp-teammarp-cli A CLI interface for Marp and Marpit based 
 agent-created: true
 agent-reviewed: 2026-11-06
 summary: "CLI dla Marp/Marpit — konwersja Markdown → HTML/PDF/PPTX/PNG, watch & server mode"
+repo: "https://github.com/marp-team/marp-cli"
 ---
 # Marp CLI
 

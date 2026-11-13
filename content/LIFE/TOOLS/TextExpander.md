@@ -7,6 +7,7 @@ tags: ["tool", "productivity", "automation"]
 type: tool
 summary: "Text-expansion tool: type a short abbreviation, get a full snippet — kills repetitive typing of boilerplate."
 agent-reviewed: 2026-06-25
+homepage: "https://textexpander.com/"
 
 ---
 # TextExpander

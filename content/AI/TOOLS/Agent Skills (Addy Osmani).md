@@ -11,6 +11,7 @@ agent-reviewed: 2026-07-12
 summary: "addyosmani/agent-skills — Addy Osmani's production-grade SDLC skill collection for AI coding agents: Define→Plan→Build→Verify→Review→Ship, 4 personas, 8 slash commands, MIT"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/addyosmani/agent-skills"
 ---
 
 # Agent Skills (Addy Osmani)

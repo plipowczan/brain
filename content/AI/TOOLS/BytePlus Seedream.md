@@ -10,6 +10,7 @@ agent-reviewed: 2026-11-13
 summary: "ByteDance Seed's Seedream text/image-to-image models on BytePlus ModelArk (4.0 up to ~4K; now 5.0 Lite/Pro and 5.5) — the primary image generator in Qamera AI's pipeline"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://www.byteplus.com/"
 ---
 
 # BytePlus Seedream

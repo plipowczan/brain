@@ -10,6 +10,7 @@ agent-created: true
 summary: "Open-source harness builder — YAML workflows for AI coding agents (plan/implement/validate/review/PR), deterministic + parallel via worktrees"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/coleam00/Archon"
 ---
 # Archon
 

@@ -7,6 +7,7 @@ tags: ["tool", "data-enrichment", "api", "b2b-data", "sales", "person-data"]
 type: tool
 agent-created: true
 summary: "Person- and company-data enrichment API — developer-first access to large B2B datasets; planned enrichment source for the Jakub Głąb agent"
+homepage: "https://peopledatalabs.com/"
 ---
 
 # People Data Labs

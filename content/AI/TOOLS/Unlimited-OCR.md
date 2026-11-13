@@ -11,6 +11,7 @@ summary: "Baidu's ~3.3B end-to-end OCR model (MIT) — v1's Reference Sliding Wi
 status-checked: 2026-11-13
 project-status: active
 agent-reviewed: 2026-11-13
+repo: "https://github.com/baidu/Unlimited-OCR"
 ---
 # Unlimited-OCR
 

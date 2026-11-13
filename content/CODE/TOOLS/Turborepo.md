@@ -7,6 +7,7 @@ tags: ["tool", "monorepo", "build-system", "javascript", "caching", "vercel"]
 type: tool
 agent-created: true
 summary: "High-performance build system for JS/TS monorepos — task pipelines with content-aware caching and parallelism; orchestrates the Qamera AI monorepo"
+homepage: "https://turborepo.com/"
 ---
 
 # Turborepo

@@ -7,8 +7,17 @@ tags: ["tool", "security", "passwords"]
 type: tool
 agent-created: true
 summary: "Password manager and secrets vault — replaces Dashlane"
+homepage: "https://1password.com/"
+status-checked: 2026-11-13
+project-status: active
 ---
 # 1Password
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** 1Password shipped CLI 2.42.0 on 2026-11-04 and a JavaScript SDK beta on 2026-11-11, and posted its October 2026 product roundup on 2026-11-02.
+> **Latest release:** 1Password CLI 2.42.0 on 2026-11-04 (stable). · **last dated update:** 2026-11-11 · **licence:** proprietary SaaS; paid subscription per user or per family (personal plans, plus Teams/Business/Enterprise per seat)…
+> **Source:** https://releases.1password.com/
+> **Changed since this note:** No claim in the note is wrong, but the product now covers much more than the note describes, with a strong push into AI-agent and machine identity. On 2026-06-15 1Password acquired Apono (just-in-time access governance) and launched Credential Broker in private beta (starting with GitHub Actions workload identity)…
 
 Password manager and secrets management tool.
 

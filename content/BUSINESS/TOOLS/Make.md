@@ -7,6 +7,7 @@ tags: ["tool", "make", "automation", "integration"]
 type: tool
 agent-reviewed: 2026-04-10
 summary: "Visual workflow automation platform used as middleware for integrations and AI-driven email handling."
+homepage: "https://www.make.com/"
 ---
 # Make
 Make allows you to visually create, build, and automate workflows.

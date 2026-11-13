@@ -10,6 +10,7 @@ agent-created: true
 summary: "DeusData's single-binary code-intelligence MCP server — tree-sitter + Hybrid LSP builds a persistent knowledge graph of your repo, answering structural queries in <1ms with ~99% fewer tokens; 158 languages, 14 tools, 11 agents, MIT."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/DeusData/codebase-memory-mcp"
 ---
 # Codebase Memory MCP
 

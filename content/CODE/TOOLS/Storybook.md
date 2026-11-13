@@ -7,6 +7,7 @@ tags: ["tool", "frontend", "react", "components", "design-system", "testing", "d
 type: tool
 agent-created: true
 summary: "Isolated workshop for UI components — build, document, and visually test each component on its own, decoupled from the app; pairs with React/Next.js + Tailwind + shadcn/ui and gives AI agents a verifiable render target"
+repo: "https://github.com/storybookjs/storybook"
 ---
 
 # Storybook

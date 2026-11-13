@@ -10,6 +10,7 @@ agent-created: true
 summary: "ruvnet/ruflo (ex Claude-Flow) — agent orchestration: 98 agents, 32 plugins, swarms + federation + SONA self-learning, AgentDB HNSW, web UI flo.ruv.io, GOAP planner goal.ruv.io"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/ruvnet/ruflo"
 ---
 
 # Ruflo

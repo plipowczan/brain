@@ -9,6 +9,7 @@ agent-created: true
 summary: "AI full-stack app builder — describe an app in chat, get a deployed React+Supabase MVP; the Builder-track tool taught in Value Builders"
 status-checked: 2026-11-13
 project-status: active
+homepage: "https://lovable.dev/"
 ---
 
 # Lovable

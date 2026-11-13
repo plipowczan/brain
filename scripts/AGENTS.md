@@ -12,7 +12,7 @@ two publishing scripts are disabled and kept as history. See `kb-template/FROZEN
 
 | Script | Status | What it does |
 |--------|--------|--------------|
-| `check-kb-template-drift.sh` | **in use** | Report diffs between this repo's LIVE `.claude/skills/` and the template's `.claude/skills/` for the shared skills. Template dir is the first argument, default `../second-brain-template`. |
+| `check-kb-template-drift.sh` | **in use** | Report diffs between this repo's LIVE `.claude/skills/` and the template's `.claude/skills/` for the shared skills. Template dir is the first argument, default `../second-brain-template`. Trailing CRs are ignored (`--strip-trailing-cr`). |
 | `sync-kb-template.sh` | **disabled** | Used to mirror `kb-template/` over the template repo. Now prints why and exits 1 before touching anything. |
 | `extract-kb-template.sh` | **disabled** | Used to cut a fresh standalone template repo from `kb-template/`. Now prints why and exits 1 before touching anything. |
 
@@ -28,8 +28,8 @@ two publishing scripts are disabled and kept as history. See `kb-template/FROZEN
   `kb-template/` in phase 5, when brain adopts the template (`brain-upgrade --adopt`). The code
   below each `exit 1` is unreachable history.
 - `kb-template/` is frozen — no edits, no `CHANGELOG.md` entries (it is no longer published).
-- After porting a shared skill, run `check-kb-template-drift.sh`. It should print `no drift in shared skills` — **keep it that way**. If the template dir is missing it exits 1 with a clone hint. Locally-generated build artifacts are filtered via the `EXCLUDES` array at the top of the script (currently `__pycache__`, `*.pyc`, `.venv`, `uv.lock`); add to that array rather than tolerating recurring noise, because a check that always complains stops being read. Note it compares the filesystem with `diff -rq`, so `.gitignore` has no effect on what it sees — new artifact types need entries in **both** places.
-- `SHARED` is a hand-kept list and does **not** cover every skill both sides carry: `brain-curate`, `brain-export`, `brain-gaps`, `brain-import` and `brain-refactor` exist on both sides but are not checked. Template-only skills (`brain-onboard`) and brain-only ones (`openspec-*`, `sop-creator`, `brand-voice-generator`) stay out.
+- After porting a shared skill, run `check-kb-template-drift.sh`. It should print `no drift in shared skills` — **keep it that way**. If the template dir is missing it exits 1 with a clone hint. Locally-generated build artifacts are filtered via the `EXCLUDES` array at the top of the script (currently `__pycache__`, `*.pyc`, `.venv`, `uv.lock`); add to that array rather than tolerating recurring noise, because a check that always complains stops being read. Note it compares the filesystem with `diff -rq`, so `.gitignore` has no effect on what it sees — new artifact types need entries in **both** places. It passes `--strip-trailing-cr`: brain has no `.gitattributes` and `core.autocrlf=true`, so a worktree created on Windows checks the skills out with CRLF while the template is LF; the committed blobs are LF on both sides, and without the flag the check reported every shared skill as drifted from any fresh worktree.
+- `SHARED` is a hand-kept list and does **not** cover every skill both sides carry: `brain-curate`, `brain-export`, `brain-gaps`, `brain-import` and `brain-refactor` exist on both sides but are not checked. `brain-watch` (added 2026-11-13) is checked. Template-only skills (`brain-onboard`) and brain-only ones (`openspec-*`, `sop-creator`, `brand-voice-generator`) stay out.
 
 ## Verify
 

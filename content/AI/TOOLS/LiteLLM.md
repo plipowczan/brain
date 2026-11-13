@@ -10,6 +10,7 @@ agent-created: true
 summary: "Open-source AI Gateway — call 100+ LLM APIs in unified OpenAI format, with cost tracking, load balancing, guardrails and logging; Rust core + Python SDK, self-hostable proxy"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/BerriAI/litellm"
 ---
 # LiteLLM
 

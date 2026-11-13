@@ -8,9 +8,18 @@ type: tool
 source: "_raw/processed/2026-11-01_tester-armye2e Next generation e2e testing framework for web and mobile apps.md"
 agent-created: true
 summary: "tester-army/e2e — Playwright-based e2e framework where a test step can be a natural-language goal; the agent's actions are recorded and replayed with no model calls until the app changes"
+repo: "https://github.com/e2e-inc/e2e"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # TesterArmy e2e
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Several commits landed on main on 2026-11-13.
+> **Last release:** e2e@0.23.0 (core npm package) on 2026-11-05. · **last commit:** 2026-11-13 · **licence:** Apache-2.0
+> **Repo:** https://github.com/e2e-inc/e2e — **moved/renamed:** yes: the GitHub repo moved from tester-army/e2e to e2e-inc/e2e (org move on 2026-11-10, PR #1672). The vendor TesterArmy is winding down and its team now builds e2e under the e2e.com brand; docs moved from e2e.tester.army/docs to e2e.com/docs.
+> **Changed since this note:** The note's vendor framing is now wrong. TesterArmy is winding down (new sign-ups closed, platform online until 2027-01-15, no automatic test migration), and the same team now develops e2e as a standalone open-source product under e2e.com, so the framework is no longer a funnel for a hosted platform.
 
 ## 🚀 Description
 

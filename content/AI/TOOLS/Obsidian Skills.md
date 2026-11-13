@@ -10,6 +10,7 @@ agent-created: true
 summary: "kepano/obsidian-skills — official agent skills that teach any skills-compatible agent to use the Obsidian CLI and open formats (Markdown, Bases, JSON Canvas)"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/obsidianmd/obsidian-skills"
 ---
 
 # Obsidian Skills

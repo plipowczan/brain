@@ -7,6 +7,7 @@ tags: ["tool", "hosting", "cloud", "paas", "storage", "infrastructure"]
 type: tool
 agent-created: true
 summary: "Developer-friendly cloud — App Platform PaaS + Spaces object storage + Droplets; hosts the Tech To The Rescue platform"
+homepage: "https://www.digitalocean.com/"
 ---
 
 # DigitalOcean

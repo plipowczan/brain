@@ -10,6 +10,7 @@ agent-created: true
 summary: "Open-source Python framework for orchestrating role-playing autonomous agents — Crews (autonomous collaboration) + Flows (event-driven control); standalone, not built on LangChain"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/crewAIInc/crewAI"
 ---
 # CrewAI
 

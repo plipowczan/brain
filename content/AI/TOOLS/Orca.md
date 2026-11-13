@@ -11,6 +11,7 @@ agent-reviewed: 2026-10-01
 summary: "stablyai/orca — free MIT desktop ADE for running a fleet of coding agents in parallel, each in its own git worktree, with a mobile companion for steering them from your phone, click-to-prompt Design Mode, native GitHub/Linear and SSH worktrees."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/stablyai/orca"
 ---
 # Orca
 

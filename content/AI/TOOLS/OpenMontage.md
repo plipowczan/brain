@@ -11,6 +11,7 @@ agent-reviewed: 2026-09-06
 summary: "calesthio/OpenMontage — agent-first video production system: 12 pipelines, 100+ tools, 700+ skill files that turn a coding agent into a full production studio; runs free with zero API keys via Piper, Remotion, HyperFrames and open archives. AGPLv3."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/OpenMontageInc/OpenMontage"
 ---
 # OpenMontage
 

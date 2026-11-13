@@ -12,6 +12,7 @@ summary: "Daniel Miessler's LifeOS (renamed from PAI in v6.0.0, 2026-07) — MIT
 status-checked: 2026-11-13
 project-status: active
 agent-reviewed: 2026-11-13
+repo: "https://github.com/danielmiessler/LifeOS"
 ---
 
 # LifeOS

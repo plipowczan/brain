@@ -10,6 +10,7 @@ agent-created: true
 summary: "Egonex-AI/Understand-Anything — Claude Code plugin (and multi-platform skill) that turns any codebase, docs, or LLM wiki into an interactive knowledge graph via a multi-agent Tree-sitter+LLM pipeline. Explore, search, ask, diff-impact. MIT."
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/Egonex-AI/Understand-Anything"
 ---
 
 # Understand Anything

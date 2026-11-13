@@ -8,6 +8,7 @@ type: tool
 source: "_raw/inbox/Marp Markdown Presentation Ecosystem.md"
 agent-created: true
 summary: "Markdown Presentation Ecosystem — Markdown → HTML/PDF/PPTX slide decks via CLI, VS Code, or framework"
+repo: "https://github.com/marp-team/marp"
 ---
 # Marp
 

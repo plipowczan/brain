@@ -10,6 +10,7 @@ agent-created: true
 summary: "Google's MCP server giving coding agents a live Chrome — DevTools automation, debugging, performance traces via Puppeteer"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
 ---
 # Chrome DevTools MCP
 

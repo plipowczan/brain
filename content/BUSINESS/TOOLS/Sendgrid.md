@@ -7,6 +7,7 @@ tags: ["tool"]
 type: tool
 summary: "Transactional and marketing email delivery service used for reliable inbox delivery at scale."
 agent-reviewed: 2026-06-16
+homepage: "https://sendgrid.com/"
 
 ---
 # Sendgrid

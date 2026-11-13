@@ -10,6 +10,7 @@ agent-created: true
 summary: "Open agentic framework — Linux-native AI agent with terminal, browser, Office canvas and multi-agent cooperation; foundation for Space Agent"
 status-checked: 2026-11-13
 project-status: active
+repo: "https://github.com/agent0ai/agent-zero"
 ---
 
 # Agent Zero
