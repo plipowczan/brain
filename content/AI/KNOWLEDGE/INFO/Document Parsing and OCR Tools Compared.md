@@ -49,7 +49,7 @@ file ──► convert / parse ──► (OCR if scanned) ──► clean Markdo
 | [[Marker]] | Surya vision model for layout, OCR and tables | strongly recommended | yes | code Apache-2.0; model weights restricted for larger commercial use | active, v2.2.0 (2026-11-12) |
 | [[MinerU]] | `pipeline` (CPU) or VLM / hybrid backends | no for `pipeline`, yes for VLM | yes, plus MCP server and hosted API | MinerU Open Source License (Apache-2.0 based) | active, 4.2.1 (2026-11-11) |
 | [[Unlimited-OCR]] | 3B OCR model with a constant KV cache (R-SWA) | yes | yes (Transformers, SGLang or vLLM) | MIT for code and weights | active: Unlimited-OCR 2 shipped 2026-10-27; no GitHub releases, last commit 2026-11-09 |
-| [[Chonkie]] | chunking library: token, sentence, recursive, semantic, code, late | no (semantic chunking calls an embedder) | yes, or Chonkie Cloud | MIT | maintained, v1.7.0 (2026-07-07), last commit 2026-08-26 |
+| [[Chonkie]] | chunking library: token, sentence, recursive, semantic, code, late | no (semantic chunking calls an embedder) | yes (Chonkie Cloud is offline since at least 2026-11-13) | MIT | maintained, v1.7.0 (2026-07-07), last commit 2026-08-26 |
 
 ## ☘️ When to choose which
 

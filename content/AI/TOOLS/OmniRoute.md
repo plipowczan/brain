@@ -7,8 +7,8 @@ tags: ["tool", "ai", "llm", "gateway", "proxy", "token-optimization", "cost-opti
 type: tool
 source: "_raw/processed/2026-10-12_diegosouzapwOmniRoute Never stop coding. Free MIT AI gateway.md"
 agent-created: true
-agent-reviewed: 2026-10-12
-summary: "diegosouzapw/OmniRoute — self-hosted MIT AI gateway: one OpenAI-compatible endpoint over ~358 providers and 1300+ models, quota-aware auto-fallback across 19 routing strategies, and a 12-engine compression stack (RTK → Caveman) that cuts 15–95% of tokens transparently. Re-clipped at v3.8.52 (2026-10-12)."
+agent-reviewed: 2026-11-13
+summary: "cheaper-inference/OmniRoute (moved from diegosouzapw on 2026-10-21; owned by the Cheaper Inference gateway org) — self-hosted MIT AI gateway: one OpenAI-compatible endpoint over ~380–393 providers and 1,400+ models, quota-aware auto-fallback across 20 routing strategies, and a 12-engine compression stack (RTK → Caveman) that cuts 15–95% of tokens transparently. v3.8.53 (2026-11-06)."
 status-checked: 2026-11-13
 project-status: active
 ---
@@ -20,32 +20,36 @@ project-status: active
 > **Repo:** https://github.com/cheaper-inference/OmniRoute — **moved/renamed:** Yes. The repo was transferred from diegosouzapw/OmniRoute to the cheaper-inference GitHub organisation on 2026-10-21 (issue #17871; CI broke briefly that day, #17866).
 > **Changed since this note:** (1) Ownership: transferred to the cheaper-inference org on 2026-10-21, the org of a commercial sponsor that resells model access, with a private enterprise cloud repo alongside. This sharpens the note's monetisation caveat.
 
-🗒️ **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)** — a free, self-hosted **AI gateway**: one OpenAI-compatible endpoint (`http://localhost:20128/v1`) fronting **~358 providers and ~1,312 chat model IDs** (the v3.8.52 README says 357, 358 and 359 in different places), with quota-aware auto-fallback and a transparent token-compression pipeline. Works with [[Claude Code]], Codex, [[Cursor]], OpenCode, Cline and Copilot. MIT, v3.8.52 as of the 2026-10-12 re-clip (first ingested at v3.8.51); Node ≥22.22.2 was the requirement at v3.8.51.
+🗒️ **[cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute)** — a free, self-hosted **AI gateway**: one OpenAI-compatible endpoint (`http://localhost:20128/v1`) fronting **~380 providers and 1,400+ models** (the v3.8.53 README says 380, the v3.8.54 development branch says 393 and the repo description says 375), with quota-aware auto-fallback and a transparent token-compression pipeline. Works with [[Claude Code]], Codex, [[Cursor]], OpenCode, Cline and Copilot. MIT, v3.8.53 (2026-11-06) as of the 2026-11-13 check (first ingested at v3.8.51, re-clipped at v3.8.52). Node.js `>=22.22.2 <23` or `>=24 <27` (npm `engines`).
 
-🚀 The headline claim: **~1.62B free tokens/month** (it was ~1.47B at v3.8.51), computed from a catalog of 489 free-tier entries across 35 recurring pool keys, with up to ~2.22B in the first month once signup credits count. It is published with the methodology, re-audited every two weeks, and explicitly allowed to *go down* when a provider ends a free tier. Quotas that open only after a regional identity check (ModelScope today, about 6M) are shown apart and never summed into the headline.
+Until 2026-10-21 the repo lived under Diego Souza's personal account (`diegosouzapw/OmniRoute`); since then it belongs to the **cheaper-inference** GitHub org, the org of the Cheaper Inference paid model-reselling gateway that the README lists as a sponsor. Old URLs redirect. Diego is still credited as creator and wrote 607 of the 1,162 commits in the v3.8.53 cycle. The org also holds OmniCopilot, prompt-studio and, going by the description of a fork created there on 2026-11-03, a private OmniRoute-Enterprise-Cloud repo whose terms aren't public. npm (`omniroute`) and Docker Hub (`diegosouzapw/omniroute`) names didn't change; the GHCR image is now `ghcr.io/cheaper-inference/omniroute`.
+
+🚀 The headline claim: **~1.62B free tokens/month** (it was ~1.47B at v3.8.51), now framed explicitly as "bring your own provider accounts". At v3.8.53 it is computed from a catalog of 485 free-tier entries across 34 recurring pool keys (489 and 35 at v3.8.52; the v3.8.54 branch says 466), with up to ~2.22B in the first month once signup credits count. It is published with the methodology, re-audited every two weeks, and explicitly allowed to *go down* when a provider ends a free tier. Quotas that open only after a regional identity check (ModelScope today, about 6M) are shown apart and never summed into the headline.
 
 > **Update 2026-10-12 (v3.8.51 → v3.8.52):** counts moved as above, the README's description of `auto/chaos` changed (corrected below), and it now lists new features. See [Update at v3.8.52](#update-at-v3852).
+>
+> **Update 2026-11-13 (v3.8.52 → v3.8.53):** ownership moved to the cheaper-inference org, counts moved again, and a fresh install no longer promises keyless routing. See [Update at v3.8.53](#update-at-v3853).
 
 ## Links
 ### Description
 🧩 What it does:
 
-- **Works with zero credentials** — a fresh install already answers `{"model":"auto"}` by routing to keyless free backends (OpenCode Free, Pollinations, and friends).
-- **Combos + 19 routing strategies** — a combo is a chain of models OmniRoute moves across automatically when quota runs out, a provider fails, or cost spikes. Strategies include `priority`, `cost-optimized`, `headroom`, `reset-aware`, `context-relay`, `cache-optimized`, `lkgp` (last-known-good path), `fusion` (model panel + judge) and `pipeline` (chained steps).
-- **Zero-config `auto` variants** — `auto`, `auto/coding`, `auto/fast`, `auto/cheap`, `auto/offline` (most quota headroom first), `auto/smart` (quality-first plus 10% exploration), `auto/lkgp`, `auto/chaos` (parallel fan-out to a panel of models, one per provider and five by default, returning a single answer; the v3.8.51 README described it as fault injection for resilience testing, so the docs changed under me). The Auto-Combo engine scores every candidate on 16 live factors.
+- **Keyless start, no longer guaranteed** — up to v3.8.52 the README said a fresh install already answers `{"model":"auto"}` by routing to keyless free backends (OpenCode Free, Pollinations, and friends). The v3.8.53 README says the opposite: `auto` needs an eligible route, a fresh install can have no eligible keyless target, and a keyless provider may reject third-party clients. Plan on connecting at least one account of your own.
+- **Combos + 20 routing strategies** (19 at v3.8.52) — a combo is a chain of models OmniRoute moves across automatically when quota runs out, a provider fails, or cost spikes. Strategies include `priority`, `cost-optimized`, `headroom`, `reset-aware`, `context-relay`, `cache-optimized`, `lkgp` (last-known-good path), `fusion` (model panel + judge) and `pipeline` (chained steps).
+- **Zero-config `auto` variants** — `auto` (balanced, sticks to the last good provider), `auto/coding`, `auto/fast`, `auto/cheap`, `auto/subscription` (only the subscription quota you already pay for; fails closed rather than falling back to billable models), `auto/thrifty` (plan quota first, then the cheapest paid options one rung at a time), `auto/offline` (most quota headroom first), `auto/smart` (quality-first plus 10% exploration), `auto/lkgp`, `auto/chaos` (parallel fan-out to a panel of models, one per provider and five by default, returning a single answer; the v3.8.51 README described it as fault injection for resilience testing, so the docs changed under me). The Auto-Combo engine scores every candidate on 16 live factors.
 - **12-engine compression stack** — see below; 15–95% fewer tokens with no client changes.
 - **Full CLI, 80+ commands** — `omniroute` (serve), `chat` (TUI), `setup`, `doctor`, plus `omniroute run claude|codex|aider|goose|opencode|qwen|gemini` to launch a CLI through the gateway with credentials injected per process and no config files written.
 - **Remote mode** — run OmniRoute on a VPS and drive it from your laptop with the same CLI and scoped `read`/`write`/`admin` tokens; process-spawning routes stay loopback-only.
 - **Agent-drivable** — MCP over stdio (`omniroute --mcp`), HTTP (`/api/mcp/stream`, **110 tools**, 33 scopes) and SSE; A2A via `/.well-known/agent.json`; REST, webhooks.
 - **Private & local-first** — SQLite on your machine, AES-256-GCM at rest, prompt-injection guard on every LLM route, opt-in credential-masking guardrail, optional OIDC gate for the dashboard.
-- **Runs anywhere** — npm global, Docker, source, Nix/devbox, Arch AUR, Electron desktop, Termux on Android, PWA.
+- **Runs anywhere** — npm or Bun global, Docker, source, Nix/devbox, Arch AUR, Electron desktop, Termux on Android, PWA.
 
 ### Download or use
 ```bash
-npm install -g omniroute
+npm install -g omniroute       # or: bun add -g omniroute
 omniroute
 ```
-Dashboard at `http://localhost:20128`, API at `http://localhost:20128/v1`. Then Dashboard → **Providers** → connect a free provider (Kiro AI, or OpenCode Free with no auth).
+On npm 11+ the global install may block OmniRoute's required `postinstall`; the README gives an `--allow-scripts=omniroute,…` list for that, and says the list can change between releases. Dashboard at `http://localhost:20128`, API at `http://localhost:20128/v1`. Then Dashboard → **Providers** → connect a provider with your own account or API key, after checking its terms in the Free Tiers Guide. I used to suggest Kiro AI here; Kiro is now marked `tos: avoid` and is excluded from `auto` routing by default, even when connected.
 
 Point a coding agent at it in one command:
 ```bash
@@ -53,9 +57,9 @@ omniroute run claude   --model openai/gpt-5.4
 omniroute run codex    --model glm/glm-5.2
 omniroute configure codex          # or: claude opencode qwen aider goose gemini cline continue kilo
 ```
-Give Claude Code the whole gateway over MCP:
+Give Claude Code the whole gateway over MCP (the README prints `claude mcp add-server … --type http --url …`, which isn't Claude Code's documented syntax; this is):
 ```bash
-claude mcp add-server omniroute --type http --url http://localhost:20128/api/mcp/stream
+claude mcp add --transport http omniroute http://localhost:20128/api/mcp/stream
 ```
 
 ## Reasoning for
@@ -67,8 +71,8 @@ Where it earns attention:
 - **`omniroute run <cli>`** avoids the usual mess of rewriting each agent's config file to point at a proxy.
 
 Where I'd be careful:
-- Enormous surface for one project (122 domain modules, 169 migrations, 39k test declarations) and a fast release cadence — that's a lot of moving parts between me and the model.
-- Heavy affiliate/partner monetisation in the README. Disclosed openly, but it does shape which providers get top billing.
+- Enormous surface for one project (147 domain modules, 222 migrations and 56,000–60,000+ test declarations per the v3.8.53 README, up from 122 / 169 / 39k at v3.8.51) and a fast release cadence (1,162 commits in the v3.8.53 cycle alone) — that's a lot of moving parts between me and the model.
+- Heavy affiliate/partner monetisation in the README. Disclosed openly, but it does shape which providers get top billing. Since 2026-10-21 this is sharper: the repo is owned by the org of Cheaper Inference, a gateway that resells frontier models and is itself one of the providers OmniRoute can route to, with a private enterprise-cloud repo alongside. The README says "sponsorship never affects routing priority"; I take that at face value but would watch which providers the defaults and docs push.
 - The stealth layer (`wreq-js` JA3/JA4 TLS fingerprint impersonation) exists to make provider endpoints accept traffic they might otherwise refuse. Know that before pointing it at an account you care about.
 
 ## The 12-engine compression stack
@@ -115,6 +119,31 @@ New or newly highlighted features:
 - **Sponsors and affiliates:** Kimi (Moonshot AI) is named a founding "Open Source Friend" whose credits power the merge-validation stage, and a gateway (Cheaper Inference) is a second sponsor. The README also carries affiliate links, labelled as such. This strengthens the "heavy monetisation" caveat above rather than changing it.
 - **Supporter tier:** a separate, mutable ceiling of "approximately 3B tokens/month at most", explicitly not a guarantee.
 
+## Update at v3.8.53
+Checked on 2026-11-13 against the repo, the v3.8.53 release (2026-11-06; 1,189 changelog entries from 1,162 commits by 222 contributors) and npm. v3.8.54 is in progress on the default branch `release/v3.8.54`.
+
+| | v3.8.52 | v3.8.53 |
+|---|---|---|
+| Repo owner | `diegosouzapw` | `cheaper-inference` org (transferred 2026-10-21) |
+| Providers | ~358 | 380 in the README (393 on the v3.8.54 branch, 375 in the repo description) |
+| Models | 1,312 chat model IDs | 1,400+ (repo description) |
+| Routing strategies | 19 | 20 |
+| Free-tier catalog | 489 entries, 35 pool keys | 485 entries, 34 pool keys |
+| Free tokens / month | ~1.62B | ~1.62B, framed as "bring your own provider accounts" |
+| CLI / agent integrations | 36 (26 + 10) | 39 (28 coding CLIs + 11 agents) |
+| Fresh install | keyless `auto` works | may have no eligible keyless route |
+
+Unchanged: MCP still exposes 110 tools, and the compression stack is still 12 engines with `RTK → Caveman` as the default stack.
+
+New in v3.8.53 that I'd note:
+
+- **Dashboard re-skin** on a vendored "Keak CI UI Kit".
+- **Team billing:** cost centers with shared soft budgets and team usage reporting.
+- **Microsoft Entra ID tokens** accepted on `/v1/*` instead of a static API key, with Entra groups mapped onto OmniRoute key groups.
+- **Opt-in Gemini prompt-cache mode** (`geminiPromptCacheMode`, off by default) for Antigravity Gemini targets.
+- **Proxy subscriptions:** subscription URIs and Clash nodes are turned into outbounds.
+- **Bun-first packaging** for global installs.
+
 ## Alternatives considered
 - **[[oh-my-pi]]** — a coding agent rather than a gateway, but it does its own routing in the harness (fallback chains on 429s, round-robin credentials, path-scoped model sets), so for one agent it can replace the gateway layer.
 - **[[LiteLLM]]** — the mature, boring choice: 100+ APIs in unified OpenAI format with cost tracking and guardrails. No compression stack, no free-tier quota arbitrage, far smaller surface. Better fit for production.
@@ -123,9 +152,9 @@ New or newly highlighted features:
 - **Rolling your own** — [[Caveman]] + [[Headroom]] + a thin proxy gets most of the token savings with a fraction of the moving parts.
 
 ## Resources
-- 🔗 Repo: [github.com/diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) · [omniroute.online](https://omniroute.online/) · [npm](https://www.npmjs.com/package/omniroute)
-- 🔗 [Auto-Combo engine](https://github.com/diegosouzapw/OmniRoute/blob/release/v3.8.52/docs/routing/AUTO-COMBO.md) · [Compression engines](https://github.com/diegosouzapw/OmniRoute/blob/release/v3.8.52/docs/compression/COMPRESSION_ENGINES.md) · [Free tiers methodology](https://github.com/diegosouzapw/OmniRoute/blob/release/v3.8.52/docs/reference/FREE_TIERS.md)
-- 🔗 [Provider reference](https://github.com/diegosouzapw/OmniRoute/blob/release/v3.8.52/docs/reference/PROVIDER_REFERENCE.md) · [CLI integrations](https://github.com/diegosouzapw/OmniRoute/blob/release/v3.8.52/docs/guides/CLI-INTEGRATIONS.md) · [vs alternatives](https://github.com/diegosouzapw/OmniRoute/blob/release/v3.8.52/docs/comparison/OMNIROUTE_VS_ALTERNATIVES.md)
+- 🔗 Repo: [github.com/cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) (formerly `diegosouzapw/OmniRoute`; old links redirect) · [v3.8.53 release](https://github.com/cheaper-inference/OmniRoute/releases/tag/v3.8.53) · [transfer issue #17871](https://github.com/cheaper-inference/OmniRoute/issues/17871) · [omniroute.online](https://omniroute.online/) · [npm](https://www.npmjs.com/package/omniroute)
+- 🔗 [Auto-Combo engine](https://github.com/cheaper-inference/OmniRoute/blob/v3.8.53/docs/routing/AUTO-COMBO.md) · [Compression engines](https://github.com/cheaper-inference/OmniRoute/blob/v3.8.53/docs/compression/COMPRESSION_ENGINES.md) · [Free tiers methodology](https://github.com/cheaper-inference/OmniRoute/blob/v3.8.53/docs/reference/FREE_TIERS.md)
+- 🔗 [Provider reference](https://github.com/cheaper-inference/OmniRoute/blob/v3.8.53/docs/reference/PROVIDER_REFERENCE.md) · [CLI integrations](https://github.com/cheaper-inference/OmniRoute/blob/v3.8.53/docs/guides/CLI-INTEGRATIONS.md) · [vs alternatives](https://github.com/cheaper-inference/OmniRoute/blob/v3.8.53/docs/comparison/OMNIROUTE_VS_ALTERNATIVES.md)
 - 📖 Related: [[oh-my-pi]] · [[LiteLLM]] · [[Caveman]] · [[Headroom]] · [[Ponytail]] · [[Token Optimization for Claude Code]] · [[Ollama]] · [[Context Engineering]]
 
 ---
