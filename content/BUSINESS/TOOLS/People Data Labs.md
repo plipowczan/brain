@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "data-enrichment", "api", "b2b-data", "sales", "person-data"]
 type: tool
 agent-created: true
-summary: "Person- and company-data enrichment API — developer-first access to large B2B datasets; planned enrichment source for the Jakub Głąb agent"
+summary: "Person- and company-data enrichment API — developer-first access to large B2B datasets; planned enrichment source for a fintech-executive agent system"
 homepage: "https://peopledatalabs.com/"
 ---
 
@@ -36,7 +36,7 @@ A developer-first **data-enrichment API** providing programmatic access to large
 
 ## Reasoning for
 
-People Data Labs is a **planned** enrichment source for the [[Jakub Głąb Agent System]] — a clean API to resolve and enrich the people/companies the agent tracks in its entity-wiki. Being developer-first matters here: the agent system is code/skill-driven, so a predictable enrichment API drops straight into a skill, versus a GUI tool that needs a human. It's the lower-level counterpart to [[Clay]] (which can orchestrate PDL among many sources with AI on top) and complements scraping-based collection ([[Bright Data]], [[Firecrawl]]) — API enrichment for known entities vs scraping for open-ended discovery.
+People Data Labs is a **planned** enrichment source for the [[Fintech Executive Agent System]] — a clean API to resolve and enrich the people/companies the agent tracks in its entity-wiki. Being developer-first matters here: the agent system is code/skill-driven, so a predictable enrichment API drops straight into a skill, versus a GUI tool that needs a human. It's the lower-level counterpart to [[Clay]] (which can orchestrate PDL among many sources with AI on top) and complements scraping-based collection ([[Bright Data]], [[Firecrawl]]) — API enrichment for known entities vs scraping for open-ended discovery.
 
 ## Alternatives considered
 

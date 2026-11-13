@@ -1,5 +1,5 @@
 ---
-title: "Jakub Głąb Agent System"
+title: "Fintech Executive Agent System"
 date: 2026-06-13
 enableToc: true
 openToc: true
@@ -9,7 +9,7 @@ agent-created: true
 agent-reviewed: 2026-11-13
 summary: "PLSoft client engagement — a personal agent system for a fintech executive: Claude Code plugin (skills) + a Markdown entity-wiki knowledge base for document Q&A, LinkedIn ghostwriting, and web research"
 ---
-# Jakub Głąb Agent System
+# Fintech Executive Agent System
 
 ## 🗒️ Description
 A [[PLSoft]] engagement: a personal AI agent system built for an executive at a fintech software company. It lets him self-serve over a private knowledge base of company documents, generate LinkedIn posts in his own voice, and run business research — without integrating into the corporate M365 estate. A clean, forkable template for "an agent for one knowledge worker."

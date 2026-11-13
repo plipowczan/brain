@@ -37,7 +37,7 @@ The v4 release is a major overhaul — from a Python text interface to a native 
 
 ## Reasoning for
 
-The standout from the "repos that replace paid tools" roundup — institutional-grade market tooling, free and self-hosted. Relevant to my crypto / investment analysis notes and as a reference architecture for **multi-agent finance systems** (the 37-agent investor panel echoes patterns in [[Jakub Głąb Agent System]], a fintech-executive agent build). The agent-debate / persona-modeling approach is a reusable design idea even outside trading.
+The standout from the "repos that replace paid tools" roundup — institutional-grade market tooling, free and self-hosted. Relevant to my crypto / investment analysis notes and as a reference architecture for **multi-agent finance systems** (the 37-agent investor panel echoes patterns in my [[Fintech Executive Agent System]]). The agent-debate / persona-modeling approach is a reusable design idea even outside trading.
 
 ## Alternatives considered
 
@@ -56,7 +56,7 @@ The standout from the "repos that replace paid tools" roundup — institutional-
 
 ## 🔗 Related notes
 
-- [[Jakub Głąb Agent System]] — fintech-executive multi-agent build; related domain
+- [[Fintech Executive Agent System]] — multi-agent build for a fintech executive; related domain
 - Surfaced in [[10 Free GitHub Repos That Replace Paid Tools]]
 
 ---

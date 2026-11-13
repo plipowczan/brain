@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "ai", "embeddings", "rag", "retrieval", "rerank", "api"]
 type: tool
 agent-created: true
-summary: "Specialist embedding and reranking models for retrieval (a MongoDB company) — Voyage 4 family in one shared embedding space, rerank-3, code/context/multimodal models; served via the Atlas API; evaluated for the Tech To The Rescue RAG layer"
+summary: "Specialist embedding and reranking models for retrieval (a MongoDB company) — Voyage 4 family in one shared embedding space, rerank-3, code/context/multimodal models; served via the Atlas API; evaluated for a nonprofit platform's RAG layer"
 status-checked: 2026-11-13
 project-status: active
 agent-reviewed: 2026-11-13
@@ -47,7 +47,7 @@ pip install voyageai   # client ≥0.3.7 picks the legacy or Atlas endpoint from
 
 ## Reasoning for
 
-VoyageAI was **evaluated for the retrieval layer** in the [[Tech To The Rescue]] platform — the Postgres + pgvector stack that powers semantic search over the organization's documents. It's relevant precisely because one of the diagnosis findings was that *embedding quality depends on chunking and model choice*, not just on having vectors: poor embeddings spread similarity scores unpredictably and dilute keyword matches. A specialist embedder (plus a reranker pass) is one of the levers to fix that, sitting alongside [[OpenAI]] embeddings as the candidate to beat. It connects to the broader retrieval thinking in [[LightRAG]] and [[AI Chatbots Architecture]].
+VoyageAI was **evaluated for the retrieval layer** in the [[Nonprofit AI-Native Platform|nonprofit platform]] — the Postgres + pgvector stack that powers semantic search over the organization's documents. It's relevant precisely because one of the diagnosis findings was that *embedding quality depends on chunking and model choice*, not just on having vectors: poor embeddings spread similarity scores unpredictably and dilute keyword matches. A specialist embedder (plus a reranker pass) is one of the levers to fix that, sitting alongside [[OpenAI]] embeddings as the candidate to beat. It connects to the broader retrieval thinking in [[LightRAG]] and [[AI Chatbots Architecture]].
 
 MongoDB's product direction ties Voyage to Atlas (database, vector search and models under one control plane and bill), which matters less on a Postgres + pgvector stack — MongoDB itself calls the API database-agnostic, so it works standalone. Two parallel platforms with different keys (legacy `api.voyageai.com` vs Atlas `ai.mongodb.com`) are the main source of confusion; for new work I'd start on Atlas keys, where the lifecycle guarantees apply. The Atlas API launched as a public preview (2026-01-15); I could not confirm on MongoDB's docs as of 2026-11-13 whether it has since gone GA.
 

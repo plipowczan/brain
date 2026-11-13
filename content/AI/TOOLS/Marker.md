@@ -73,7 +73,7 @@ Only `balanced` and `vllm` need the Surya inference server. It is spawned automa
 
 ## ✍️ Reasoning for
 - **RAG ingestion quality** — retrieval is only as good as the parse; Marker's equation/table/reference fidelity beats naive `pdf2text` for technical PDFs, which is exactly the failure mode in document-heavy RAG.
-- **Local + private** — runs on-prem (no uploading client PDFs to a third party), important for [[Tech To The Rescue]]-style engagements.
+- **Local + private** — runs on-prem (no uploading client PDFs to a third party), important for client engagements like the [[Nonprofit AI-Native Platform]].
 - **Structured output** — JSON with bounding boxes enables layout-aware chunking rather than blind splitting.
 
 Weak points: the accurate modes (`balanced`, `vllm`) need a GPU and a Surya inference server, while the CPU modes trade accuracy for speed; the model-weight license restricts larger commercial use (code is fine); the headline benchmark is Datalab's own; modes, default model and defaults changed in both 2.1 and 2.2, so pin the version.

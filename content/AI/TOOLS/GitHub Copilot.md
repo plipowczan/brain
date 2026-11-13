@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "ai", "coding-assistant", "ide", "code-completion", "github"]
 type: tool
 agent-created: true
-summary: "In-IDE AI code completion and chat from GitHub/OpenAI — inline suggestions, chat, agent mode; the in-editor assist used on the Tech To The Rescue project"
+summary: "In-IDE AI code completion and chat from GitHub/OpenAI — inline suggestions, chat, agent mode; the in-editor assist used on a nonprofit platform project"
 status-checked: 2026-11-13
 project-status: active
 homepage: "https://github.com/features/copilot"
@@ -39,7 +39,7 @@ The original mainstream in-IDE AI coding assistant, from GitHub (built on OpenAI
 
 ## Reasoning for
 
-GitHub Copilot appears in the [[Tech To The Rescue]] platform's dev tooling, alongside [[Claude Code]] and [[Cursor]]. It's the in-editor, stay-in-flow assist — inline completions and quick chat — complementing the heavier agentic tools I lead with. The pragmatic case for noting it: in a client/team context, Copilot is often already adopted and IDE-native, so it's the path of least resistance for day-to-day completion, while [[Claude Code]] handles the larger autonomous, multi-step work. They're different points on the spectrum from *autocomplete* to *agent*, not competitors for the same job.
+GitHub Copilot appears in the [[Nonprofit AI-Native Platform|nonprofit platform]]'s dev tooling, alongside [[Claude Code]] and [[Cursor]]. It's the in-editor, stay-in-flow assist — inline completions and quick chat — complementing the heavier agentic tools I lead with. The pragmatic case for noting it: in a client/team context, Copilot is often already adopted and IDE-native, so it's the path of least resistance for day-to-day completion, while [[Claude Code]] handles the larger autonomous, multi-step work. They're different points on the spectrum from *autocomplete* to *agent*, not competitors for the same job.
 
 ## Alternatives considered
 

@@ -47,14 +47,14 @@ npm i openai      # or: pip install openai
 
 ## Reasoning for
 
-OpenAI is one of the LLM backbones in my AI pipelines, deliberately wired into multi-provider designs. In [[Travelcast AI]] it serves two roles — script synthesis/consensus alongside other models, and as the **second tier in a TTS fallback chain** (ElevenLabs → OpenAI → Chatterbox), so a podcast still renders if the primary voice provider fails. That TTS tier needs migrating before 2027-01-06, when OpenAI shuts down `tts-1`, `tts-1-hd` and `gpt-4o-mini-tts`. In the [[Tech To The Rescue]] diagnosis its embeddings and chat models featured in the RAG/semantic-search layer. The reason it stays in the mix rather than being the sole provider: the OpenAI-compatible API shape has become a de-facto standard, so coding against it keeps the door open to [[Google Gemini]], local models, and others without rewrites.
+OpenAI is one of the LLM backbones in my AI pipelines, deliberately wired into multi-provider designs. In [[Travelcast AI]] it serves two roles — script synthesis/consensus alongside other models, and as the **second tier in a TTS fallback chain** (ElevenLabs → OpenAI → Chatterbox), so a podcast still renders if the primary voice provider fails. That TTS tier needs migrating before 2027-01-06, when OpenAI shuts down `tts-1`, `tts-1-hd` and `gpt-4o-mini-tts`. In the [[Nonprofit AI-Native Platform|nonprofit-platform]] diagnosis its embeddings and chat models featured in the RAG/semantic-search layer. The reason it stays in the mix rather than being the sole provider: the OpenAI-compatible API shape has become a de-facto standard, so coding against it keeps the door open to [[Google Gemini]], local models, and others without rewrites.
 
 ## Alternatives considered
 
 - **[[Claude Code|Anthropic Claude]]** — my primary model for agentic/coding work and long-context reasoning; OpenAI is used where its TTS or specific model strengths fit, or for provider diversity.
 - **[[Google Gemini]]** — strong multimodal/image-understanding and generous context; used side-by-side, not instead.
 - **[[ElevenLabs]]** — beats OpenAI TTS on voice quality/cloning, hence primary for TTS with OpenAI as fallback.
-- **VoyageAI** — specialist embeddings (used in TTTR) that can outperform general-purpose ones for retrieval.
+- **VoyageAI** — specialist embeddings (used in the nonprofit platform) that can outperform general-purpose ones for retrieval.
 
 ## Resources
 

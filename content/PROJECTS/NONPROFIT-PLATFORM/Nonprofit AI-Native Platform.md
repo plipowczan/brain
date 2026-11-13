@@ -1,5 +1,5 @@
 ---
-title: "Tech To The Rescue"
+title: "Nonprofit AI-Native Platform"
 date: 2026-06-13
 enableToc: true
 openToc: true
@@ -8,10 +8,10 @@ type: basic-note
 agent-created: true
 summary: "PLSoft client engagement — IT diagnosis + AI-native transition for a tech-for-good nonprofit: consolidate a fragmented no-code stack into a unified Next.js + Postgres/pgvector platform with governed agentic skills"
 ---
-# Tech To The Rescue
+# Nonprofit AI-Native Platform
 
 ## 🗒️ Description
-A [[PLSoft]] advisory engagement with a tech-for-good nonprofit that connects tech companies and volunteers with NGOs. The work is a strategic IT diagnosis and enablement: move the organization from a fragmented no-code/SaaS stack toward an AI-native, unified platform — consolidating data sources, embedding AI into operations, and turning ad-hoc automation into governed, auditable skills.
+A [[PLSoft]] advisory engagement with a tech-for-good nonprofit. The work is a strategic IT diagnosis and enablement: move the organization from a fragmented no-code/SaaS stack toward an AI-native, unified platform — consolidating data sources, embedding AI into operations, and turning ad-hoc automation into governed, auditable skills.
 
 ## 🧩 Scope
 - Audit the existing data architecture and integration patterns

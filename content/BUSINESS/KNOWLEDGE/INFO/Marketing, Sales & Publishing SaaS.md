@@ -12,22 +12,22 @@ summary: "Reference roundup of the CRM, email-marketing, web/CMS, ads, and conte
 
 A collective reference for the marketing-, sales-, and publishing-side SaaS that appears across my projects and client engagements. Individually these are well-known products that don't need standalone notes; grouped here they keep the go-to-market stack searchable and linkable.
 
-**Project key:** Q = [[Qamera AI]] · AGRE = [[AGRE]] · TTTR = [[Tech To The Rescue]] · JG = [[Jakub Głąb Agent System]] · TNW = [[Tech News Weekly]] · TC = [[Travelcast AI]] · VB = [[Value Builders]]
+**Project key:** Q = [[Qamera AI]] · RE = [[Costa Blanca Real Estate Platform]] · NP = [[Nonprofit AI-Native Platform]] · FE = [[Fintech Executive Agent System]] · TNW = [[Tech News Weekly]] · TC = [[Travelcast AI]] · VB = [[Value Builders]]
 
 ## 🧩 CRM & operations
-- **HubSpot** — CRM for sales/fundraising plus marketing automation; the relationship/pipeline system in a nonprofit's stack. *Used by: TTTR.* — [hubspot.com](https://www.hubspot.com/)
-- **Monday.com** — work-OS boards used as operations + lightweight CRM; notable as a place where the *operational source of truth* often lives outside the database. *Used by: TTTR.* — [monday.com](https://monday.com/)
+- **HubSpot** — CRM for sales/fundraising plus marketing automation; the relationship/pipeline system in a nonprofit's stack. *Used by: NP.* — [hubspot.com](https://www.hubspot.com/)
+- **Monday.com** — work-OS boards used as operations + lightweight CRM; notable as a place where the *operational source of truth* often lives outside the database. *Used by: NP.* — [monday.com](https://monday.com/)
 
 > Related dedicated notes: [[Clay]] and [[People Data Labs]] (sales data enrichment), [[Stripe]] (payments), [[Autonomous Sales Agent Playbook]].
 
 ## ✉️ Email marketing & delivery
-- **Mailchimp** — email marketing / newsletter campaigns and audiences. *Used by: TTTR.* — [mailchimp.com](https://mailchimp.com/)
-- **Mailgun** — developer transactional email API (send, routing, webhooks); the transactional counterpart to Mailchimp's marketing sends. *Used by: TTTR.* — [mailgun.com](https://www.mailgun.com/)
+- **Mailchimp** — email marketing / newsletter campaigns and audiences. *Used by: NP.* — [mailchimp.com](https://mailchimp.com/)
+- **Mailgun** — developer transactional email API (send, routing, webhooks); the transactional counterpart to Mailchimp's marketing sends. *Used by: NP.* — [mailgun.com](https://www.mailgun.com/)
 
 > For new builds I default to [[Resend]] (developer-first + React Email); [[Sendgrid]] is the older transactional option in the vault.
 
 ## 🌐 Web & CMS
-- **Webflow** — visual website builder / CMS for marketing sites without hand-coding. *Used by: TTTR.* — [webflow.com](https://webflow.com/)
+- **Webflow** — visual website builder / CMS for marketing sites without hand-coding. *Used by: NP.* — [webflow.com](https://webflow.com/)
 - **Keystatic** — Git-based, code-first CMS (content as files in the repo) for a blog/changelog beside a [[Next.js]] app. *Used by: Q.* — [keystatic.com](https://keystatic.com/)
 
 ## 📣 Advertising & conversion tracking

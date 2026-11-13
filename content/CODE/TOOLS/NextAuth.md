@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "auth", "authentication", "nextjs", "magic-link", "oauth"]
 type: tool
 agent-created: true
-summary: "Open-source authentication for Next.js (now Auth.js) — OAuth, passwordless magic-link, sessions; the auth layer in AGRE and the TTTR platform"
+summary: "Open-source authentication for Next.js (now Auth.js) — OAuth, passwordless magic-link, sessions; the auth layer in a real-estate platform and a nonprofit platform"
 repo: "https://github.com/nextauthjs/next-auth"
 ---
 
@@ -36,7 +36,7 @@ npm i next-auth@beta        # Auth.js v5 for Next.js
 
 ## Reasoning for
 
-NextAuth/Auth.js v5 is the authentication layer in two projects. On [[AGRE]] it provides **passwordless magic-link** admin sign-in restricted to an allowlist — paired with [[Resend]] for the actual emails — and it's hardened to silently drop non-allowlisted addresses (no account enumeration). On the [[Tech To The Rescue]] platform it again handles magic-link auth over the [[Next.js]] + [[Prisma]]/Postgres stack. The appeal is simple: auth is exactly the kind of code you should *not* write yourself, and Auth.js gives a vetted, adapter-friendly implementation that drops into the App Router and persists through whichever ORM the project already uses.
+NextAuth/Auth.js v5 is the authentication layer in two projects. On the [[Costa Blanca Real Estate Platform|real-estate platform]] it provides **passwordless magic-link** admin sign-in restricted to an allowlist — paired with [[Resend]] for the actual emails — and it's hardened to silently drop non-allowlisted addresses (no account enumeration). On the [[Nonprofit AI-Native Platform|nonprofit platform]] it again handles magic-link auth over the [[Next.js]] + [[Prisma]]/Postgres stack. The appeal is simple: auth is exactly the kind of code you should *not* write yourself, and Auth.js gives a vetted, adapter-friendly implementation that drops into the App Router and persists through whichever ORM the project already uses.
 
 ## Alternatives considered
 

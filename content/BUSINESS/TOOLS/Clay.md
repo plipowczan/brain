@@ -38,7 +38,7 @@ A go-to-market data platform with a spreadsheet-like UI sitting on top of **100+
 
 ## Reasoning for
 
-Clay is **planned** for the [[Jakub Głąb Agent System]] — the enrichment layer for building contact/company context behind the agent's research and outreach skills. It fits because the agent already operates over a structured entity-wiki; Clay's waterfall enrichment is a natural upstream source to populate and refresh those entities with verified contact and firmographic data. It sits alongside scraping-based approaches ([[Bright Data]], [[Firecrawl]]) and pure-API enrichment ([[People Data Labs]]): Clay is the orchestration layer that can *combine* many of those sources with AI on top, rather than a single data vendor.
+Clay is **planned** for the [[Fintech Executive Agent System]] — the enrichment layer for building contact/company context behind the agent's research and outreach skills. It fits because the agent already operates over a structured entity-wiki; Clay's waterfall enrichment is a natural upstream source to populate and refresh those entities with verified contact and firmographic data. It sits alongside scraping-based approaches ([[Bright Data]], [[Firecrawl]]) and pure-API enrichment ([[People Data Labs]]): Clay is the orchestration layer that can *combine* many of those sources with AI on top, rather than a single data vendor.
 
 ## Alternatives considered
 

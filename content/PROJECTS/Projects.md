@@ -21,9 +21,9 @@ summary: "Hub listing all active and historical personal and client projects, fr
 8. [[Travelcast AI]] — AI travel-podcast generator + website
 
 ### PLSoft client engagements
-- [[AGRE]] — Multilingual Costa Blanca real-estate platform
-- [[Tech To The Rescue]] — AI-native platform transition (nonprofit)
-- [[Jakub Głąb Agent System]] — Personal agent system for a fintech executive
+- [[Costa Blanca Real Estate Platform]] — Multilingual Costa Blanca real-estate platform
+- [[Nonprofit AI-Native Platform]] — AI-native platform transition (nonprofit)
+- [[Fintech Executive Agent System]] — Personal agent system for a fintech executive
 
 ## 📒 Historical Projects
 Archive of previous projects:

@@ -82,12 +82,12 @@ Stack: Make / n8n / Python automation, AI integrations (OpenAI, Claude, Qdrant),
 ## 📒 Active PLSoft clients (snapshot 2026-05-04)
 | Client | Project | Status |
 |--------|---------|--------|
-| TECH TO THE RESCUE (TTTR) | diagnoza-strategiczna-IT | All sessions DONE; presentation 2026-05-12 16:00 |
+| Nonprofit client | diagnoza-strategiczna-IT | All sessions DONE; presentation 2026-05-12 16:00 |
 | JAREK_KALASZ (Aireveo) | architektura-agentowa | Discovery — warm lead, meeting end of May |
 | ANNA_JEGLINSKA | warsztat-analityczno-projektowy | On Hold — DIY mode |
-| JAKUB_GLAB | warsztat-ai-optymalizacja | Active — 20k PLN paid for 66.67h. Vault: `C:\PROJEKTY\vsoft-vault` (git, migrated 2026-04-17 from Google Drive). Jakub has collaborator access. |
+| Fintech client | warsztat-ai-optymalizacja | Active — 20k PLN paid for 66.67h. Vault: the client's own git repo (migrated 2026-04-17 from Google Drive). The client has collaborator access. |
 
-Naming: TTTR not TTR. Sessions are conversation-style (TO-BE > AS-IS); diagrams produced ex-post from transcripts.
+Sessions are conversation-style (TO-BE > AS-IS); diagrams produced ex-post from transcripts.
 
 ## 📒 Active own projects (snapshot 2026-05-05)
 | Project | Status |
@@ -106,7 +106,7 @@ Personal: **KANALIZACJA** (Active) — new sewer connection in Ustroń. Active l
 ## 🧩 Workflow conventions
 - **Index protocol** — read `_index.md` → `catalog.md` → file. Never scan folders directly. Update both after edits.
 - **/ingest** — inbox → data + catalog/index update + raw → archive with date prefix.
-- **Slides workflow** — `/slides:init` → `:explore` → `:new` → `:draft` → `:build [--html]` → `:tweak` → `:archive`. Decks live in `slides/`, not in client folders. Linkage via `context: clients/tttr` field in `brief.md` frontmatter.
+- **Slides workflow** — `/slides:init` → `:explore` → `:new` → `:draft` → `:build [--html]` → `:tweak` → `:archive`. Decks live in `slides/`, not in client folders. Linkage via `context: clients/<client>` field in `brief.md` frontmatter.
 - **Communication** — Polish (technical PL/EN), direct/concrete/professional, code in English, short by default.
 - **Data freshness** — every context file has "Last updated"; older than 30 days → flag staleness.
 

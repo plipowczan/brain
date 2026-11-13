@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "ai", "agents", "orchestration", "workflow", "llm", "python"]
 type: tool
 agent-created: true
-summary: "Graph-based framework for stateful, controllable LLM agent workflows — nodes, edges, persistence, human-in-the-loop; evaluated for agent orchestration in TTTR"
+summary: "Graph-based framework for stateful, controllable LLM agent workflows — nodes, edges, persistence, human-in-the-loop; evaluated for agent orchestration in a nonprofit platform"
 status-checked: 2026-11-13
 project-status: active
 repo: "https://github.com/langchain-ai/langgraph"
@@ -44,7 +44,7 @@ pip install langgraph        # or: npm i @langchain/langgraph
 
 ## Reasoning for
 
-LangGraph featured in the [[Tech To The Rescue]] platform's agent layer — orchestrating multi-step agent workflows (alongside MCP for tool access) over the [[Next.js]] + Postgres stack. Its appeal in an enterprise-transition context is **control and auditability**: a tech-for-good org moving from ad-hoc automation to *governed* skills needs agent flows that are inspectable, resumable, and human-approvable, not opaque autonomous loops. The explicit graph + persistence model gives exactly that — which aligns with the engagement's theme of turning shadow-IT automation into owned, auditable systems. It's the orchestration counterpart to lighter skill frameworks like [[Agent Skills]].
+LangGraph featured in the [[Nonprofit AI-Native Platform|nonprofit platform]]'s agent layer — orchestrating multi-step agent workflows (alongside MCP for tool access) over the [[Next.js]] + Postgres stack. Its appeal in an enterprise-transition context is **control and auditability**: a tech-for-good org moving from ad-hoc automation to *governed* skills needs agent flows that are inspectable, resumable, and human-approvable, not opaque autonomous loops. The explicit graph + persistence model gives exactly that — which aligns with the engagement's theme of turning shadow-IT automation into owned, auditable systems. It's the orchestration counterpart to lighter skill frameworks like [[Agent Skills]].
 
 ## Alternatives considered
 

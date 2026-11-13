@@ -7,7 +7,7 @@ tags: ["tool", "ai", "model-inference", "image-generation", "api", "ml-hosting"]
 type: tool
 agent-created: true
 agent-reviewed: 2026-11-13
-summary: "Run open and commercial ML models via one API — image gen, upscaling, audio, more; the hosted-inference fallback in Qamera AI and image generation in AGRE"
+summary: "Run open and commercial ML models via one API — image gen, upscaling, audio, more; the hosted-inference fallback in Qamera AI and image generation in a real-estate platform"
 status-checked: 2026-11-13
 project-status: active
 repo: "https://github.com/replicate/cog"
@@ -47,7 +47,7 @@ pip install replicate        # or: npm i replicate
 
 ## Reasoning for
 
-Replicate is the "any model on tap" layer in my image pipelines. In [[Qamera AI]] it serves as a **fallback** generation provider behind the primary [[BytePlus Seedream|BytePlus Seedream 4.0]] — when a specific model or capability is needed that the primary doesn't cover, Replicate provides it without standing up GPU infra. In [[AGRE]] it's used for image generation/processing tasks. The strategic value is optionality: a single API in front of a constantly-changing model landscape means I can adopt a new state-of-the-art model the day it lands, behind the same provider abstraction, instead of integrating each vendor separately.
+Replicate is the "any model on tap" layer in my image pipelines. In [[Qamera AI]] it serves as a **fallback** generation provider behind the primary [[BytePlus Seedream|BytePlus Seedream 4.0]] — when a specific model or capability is needed that the primary doesn't cover, Replicate provides it without standing up GPU infra. In the [[Costa Blanca Real Estate Platform|real-estate platform]] it's used for image generation/processing tasks. The strategic value is optionality: a single API in front of a constantly-changing model landscape means I can adopt a new state-of-the-art model the day it lands, behind the same provider abstraction, instead of integrating each vendor separately.
 
 ## Alternatives considered
 

@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "hosting", "cloud", "paas", "storage", "infrastructure"]
 type: tool
 agent-created: true
-summary: "Developer-friendly cloud — App Platform PaaS + Spaces object storage + Droplets; hosts the Tech To The Rescue platform"
+summary: "Developer-friendly cloud — App Platform PaaS + Spaces object storage + Droplets; hosts a nonprofit platform"
 homepage: "https://www.digitalocean.com/"
 ---
 
@@ -33,7 +33,7 @@ A developer-friendly cloud provider known for simple pricing and a clean UX comp
 
 ## Reasoning for
 
-DigitalOcean hosts the [[Tech To The Rescue]] platform — the [[Next.js]] app runs on **App Platform** with assets in **Spaces**, fronted by [[Cloudflare]] DNS. For a nonprofit, the draw is predictable, modest cost and a PaaS that removes server administration without the per-execution limits that make [[Vercel]] a poor fit for the platform's [[BullMQ]]/[[Redis]] background workers (which need long-running processes). It's the pragmatic "managed enough, cheap enough, no surprises" host for that engagement — distinct from [[Qamera AI]], where heavy AI workers run on bare [[Hetzner]] [[Docker]] instead.
+DigitalOcean hosts the [[Nonprofit AI-Native Platform|nonprofit platform]] — the [[Next.js]] app runs on **App Platform** with assets in **Spaces**, fronted by [[Cloudflare]] DNS. For a nonprofit, the draw is predictable, modest cost and a PaaS that removes server administration without the per-execution limits that make [[Vercel]] a poor fit for the platform's [[BullMQ]]/[[Redis]] background workers (which need long-running processes). It's the pragmatic "managed enough, cheap enough, no surprises" host for that engagement — distinct from [[Qamera AI]], where heavy AI workers run on bare [[Hetzner]] [[Docker]] instead.
 
 ## Alternatives considered
 

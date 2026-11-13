@@ -40,7 +40,7 @@ RabbitMQ is the queue at the heart of [[Qamera AI]]'s asynchronous image-generat
 
 ## Alternatives considered
 
-- **[[Redis]] (+ [[Celery]]/[[BullMQ]])** — simpler and already-present; fine for [[Travelcast AI]]/[[Tech To The Rescue]], but weaker delivery guarantees than a real broker.
+- **[[Redis]] (+ [[Celery]]/[[BullMQ]])** — simpler and already-present; fine for [[Travelcast AI]] or the [[Nonprofit AI-Native Platform|nonprofit platform]], but weaker delivery guarantees than a real broker.
 - **AWS SQS / Google Pub/Sub** — managed queues, no ops; chosen against to avoid cloud lock-in and keep the self-hosted [[Docker]] stack portable.
 - **Kafka** — built for high-throughput event streaming/replay; overkill for a task queue at this scale.
 - **NATS** — lightweight and fast; smaller ecosystem and fewer built-in delivery guarantees than RabbitMQ.

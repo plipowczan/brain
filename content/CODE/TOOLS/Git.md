@@ -25,7 +25,7 @@ Git is the version control system under every project I touch. I use it to:
 - Branch per feature/fix and merge through pull requests — see [[How to deal with pull request merge conflicts]].
 - Keep an auditable commit history; I export it for reporting via [[Export git logs to file]].
 - Drive the team Agile flow in .NET work — see [[Common workflow I use in dotnet projects using Azure DevOps]].
-It is the default for all my agentic project repos (Brain, Qamera, Jakub Głąb, TTTR).
+It is the default for all my agentic project repos (Brain, Qamera, a fintech-executive agent system, a nonprofit platform).
 
 ## Alternatives considered
 - **Mercurial** — simpler model, far smaller ecosystem.

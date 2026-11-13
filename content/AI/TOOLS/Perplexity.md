@@ -62,7 +62,7 @@ Perplexity is the factual-research layer in [[Travelcast AI]]. Three of its four
 
 The integration still calls `sonar-pro` on Chat Completions (checked on the generator's `main`, 2026-11-13). Perplexity answers such calls for now by reformulating them as Agent API requests, but it needs moving to the Agent API: the guide maps Sonar Pro to `fast`, and a higher level suits multi-step research such as the Historian's.
 
-Until 2026-11-13 this note also said Perplexity backs the `/research` skill of the [[Jakub Głąb Agent System]]. That was wrong: there is no Perplexity call in that system, and the skill (now `/vs-research`) chains [[Firecrawl]] and Claude Code's WebSearch.
+Until 2026-11-13 this note also said Perplexity backs the `/research` skill of the [[Fintech Executive Agent System]]. That was wrong: there is no Perplexity call in that system, and the skill (now `/vs-research`) chains [[Firecrawl]] and Claude Code's WebSearch.
 
 ## Alternatives considered
 

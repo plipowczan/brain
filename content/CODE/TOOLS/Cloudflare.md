@@ -34,7 +34,7 @@ A global edge platform that started as a CDN/DNS provider and grew into a full d
 
 ## Reasoning for
 
-Cloudflare is my object-storage + DNS + bot-protection layer. **R2** is the decisive piece: [[AGRE]] stores property imagery there and [[Travelcast AI]] stores generated audio/cover assets — and because R2 charges nothing for egress, serving lots of media to the public doesn't accrue the surprise bandwidth bills that AWS S3 would. Being S3-compatible means the existing AWS SDK works with a changed endpoint, so there's no lock-in cost to trying it. On [[Qamera AI]], **Turnstile** guards signup/auth flows against bots without the friction (or privacy baggage) of Google reCAPTCHA, and Cloudflare DNS/CDN fronts the public sites. It sits cleanly alongside [[Vercel]] (app hosting) and [[Supabase]] (database/auth) — each owns the layer it's best at.
+Cloudflare is my object-storage + DNS + bot-protection layer. **R2** is the decisive piece: the [[Costa Blanca Real Estate Platform|real-estate platform]] stores property imagery there and [[Travelcast AI]] stores generated audio/cover assets — and because R2 charges nothing for egress, serving lots of media to the public doesn't accrue the surprise bandwidth bills that AWS S3 would. Being S3-compatible means the existing AWS SDK works with a changed endpoint, so there's no lock-in cost to trying it. On [[Qamera AI]], **Turnstile** guards signup/auth flows against bots without the friction (or privacy baggage) of Google reCAPTCHA, and Cloudflare DNS/CDN fronts the public sites. It sits cleanly alongside [[Vercel]] (app hosting) and [[Supabase]] (database/auth) — each owns the layer it's best at.
 
 ## Alternatives considered
 

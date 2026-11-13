@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "ai", "transcription", "meetings", "productivity", "notes"]
 type: tool
 agent-created: true
-summary: "AI meeting transcription and summaries for Google Meet/Zoom/Teams — live transcripts, AI notes, action items; meeting-capture tool on the Tech To The Rescue engagement"
+summary: "AI meeting transcription and summaries for Google Meet/Zoom/Teams — live transcripts, AI notes, action items; meeting-capture tool on a nonprofit platform engagement"
 status-checked: 2026-11-13
 project-status: active
 homepage: "https://tactiq.io/"
@@ -39,7 +39,7 @@ An AI meeting assistant that produces live **transcripts** and AI-generated summ
 
 ## Reasoning for
 
-Tactiq is the meeting-capture tool noted in the [[Tech To The Rescue]] engagement — turning discovery/stakeholder calls into searchable transcripts and summaries. In a diagnosis project that's more than convenience: one of the findings was that the *operational source of truth often lives in conversations* that never reach a system. Capturing meetings as structured, searchable text is a small concrete countermeasure — it moves knowledge out of people's heads and ad-hoc notes into something that can feed the documentation and, eventually, the governed agent/skill layer.
+Tactiq is the meeting-capture tool noted in the [[Nonprofit AI-Native Platform|nonprofit-platform]] engagement — turning discovery/stakeholder calls into searchable transcripts and summaries. In a diagnosis project that's more than convenience: one of the findings was that the *operational source of truth often lives in conversations* that never reach a system. Capturing meetings as structured, searchable text is a small concrete countermeasure — it moves knowledge out of people's heads and ad-hoc notes into something that can feed the documentation and, eventually, the governed agent/skill layer.
 
 ## Alternatives considered
 
