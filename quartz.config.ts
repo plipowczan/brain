@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "brain.lipowczan.pl",
-    ignorePatterns: ["private", "templates", ".obsidian", "_raw", "_indexes", "_outputs", "_graveyard"],
+    ignorePatterns: ["private", "templates", ".obsidian", "_raw", "_indexes", "_outputs", "_graveyard", "_privacy.local.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

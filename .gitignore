@@ -38,5 +38,5 @@ uv.lock
 # graft's local graph cache — regenerable, not committed (run `graft build`).
 /graft/
 
-# brain-watch: private terms that must not even be committed (read by /b:watch)
+# private terms that must not even be committed (read by /b:watch and /b:export --public)
 content/_privacy.local.md
