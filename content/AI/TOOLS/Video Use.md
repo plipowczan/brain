@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/browser-usevideo-use Edit videos with coding agents.md"
 agent-created: true
 summary: "Open-source video editor for coding agents — drop raw footage in a folder, chat with Claude Code, get final.mp4. Reads transcripts (not frames) for word-level cuts"
+status-checked: 2026-11-13
+project-status: maintained
 ---
 
 # Video Use
+
+> [!success] Status check 2026-11-13 — maintained
+> **Verdict:** The last commit on main was on 2026-10-08, 36 days ago, and it was a README change; the last code change landed on 2026-09-24.
+> **Last release:** no releases (commits only); pyproject version 0.1.0 · **last commit:** 2026-10-08 · **licence:** MIT. Transcription needs a paid ElevenLabs API key (Scribe).
+> **Repo:** https://github.com/browser-use/video-use
+> **Changed since this note:** Rendering keeps the source frame rate by default (with an --fps override) and reads rotation metadata to detect portrait video (2026-08-30). Transcription now picks the audio track and refuses to upload a silent one (2026-08-30).
 
 ## 🚀 Description
 

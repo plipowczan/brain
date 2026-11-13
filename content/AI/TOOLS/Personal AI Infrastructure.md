@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/danielmiesslerPersonal_AI_Infrastructure Agentic AI Infrastructure for magnifying HUMAN capabilities.md"
 agent-created: true
 summary: "Daniel Miessler's PAI v5 — Life Operating System: Pulse dashboard, DA digital assistant, Algorithm v6.3 (current→ideal state), 45 skills, 171 workflows, plain-text memory"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Personal AI Infrastructure
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The latest commit on main is f6ab5e02, dated 2026-11-05 (README: 'your security is your responsibility').
+> **Last release:** v8.761.0 'The One Loop', 2026-10-27 · **last commit:** 2026-11-05 · **licence:** MIT (Copyright 2025-2026 Daniel Miessler).
+> **Repo:** https://github.com/danielmiessler/LifeOS — **moved/renamed:** Yes, it was rebranded. Personal AI Infrastructure (PAI) became LifeOS with v6.0.0 on 2026-07-02, which the notes describe as the 'first release under the LifeOS name … same system, renamed'.
+> **Changed since this note:** Rebrand PAI -> LifeOS (repo, site, installer, code), and three major versions after the v5.0.0 described in the note. v6.0.0 (2026-07-02) ships the whole system as one self-contained 'LifeOS' skill installed by prompt ('Read https://ourlifeos.ai/install and install LifeOS for me'). v7.0.0 'Bitter Pill' (2026-07-12)…
 
 ## 🚀 Description
 

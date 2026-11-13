@@ -9,8 +9,16 @@ source: "_raw/processed/2026-09-06_chaseai-ytclaudex-loop Claude Code skill four
 agent-created: true
 agent-reviewed: 2026-09-06
 summary: "chaseai-yt/claudex-loop — Claude Code plugin where Claude locks the plan with you and OpenAI Codex attacks it round after round in a read-only sandbox; whoever built a thing never grades it. MIT."
+status-checked: 2026-11-13
+project-status: maintained
 ---
 # Claudex Loop
+
+> [!success] Status check 2026-11-13 — maintained
+> **Verdict:** The last commit on main (PR #41) is 2026-10-14, exactly 30 days ago, so it sits on the active/maintained boundary.
+> **Last release:** no releases (commits only); distributed through the plugin marketplace from main… · **last commit:** 2026-10-14 · **licence:** MIT. GitHub reports NOASSERTION because the LICENSE file adds a preamble saying the legacy grill skills and the…
+> **Repo:** https://github.com/chaseai-yt/claudex-loop
+> **Changed since this note:** Now bidirectional (PR #16, 2026-09-06): you can start from Codex with Claude as reviewer, pick `builder=claude|codex`, and the inspector is always the other provider. A standalone `claudex-route` skill (PR #17) recommends a model or role and can do one scoped handoff.
 
 🗒️ **[chaseai-yt/claudex-loop](https://github.com/chaseai-yt/claudex-loop)** — a [[Claude Code]] plugin that makes **two rival models harden a plan before a line of code exists**, then swap jobs to build it. Claude locks intent *with you*; **OpenAI Codex** — a different provider's model — attacks the locked plan round after round until it can't find anything else wrong. MIT.
 

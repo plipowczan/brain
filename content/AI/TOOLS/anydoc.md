@@ -9,8 +9,16 @@ source: "_raw/processed/2026-09-06_firecrawlanydoc Convert Word, PowerPoint, Exc
 agent-created: true
 agent-reviewed: 2026-09-06
 summary: "firecrawl/anydoc — Rust library converting Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV and PDF to clean GFM Markdown in under 5ms median; Node/Python/WASM bindings and an agent skill. Beats libreoffice, markitdown, pandoc and docling on all 14 formats."
+status-checked: 2026-11-13
+project-status: active
 ---
 # anydoc
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The last commit on main was 2026-10-23 (21 days ago), after fixes and features merged 2026-10-16 to 10-20.
+> **Last release:** v0.2.4 'Scanned pages', 2026-08-27. The same version is current on PyPI (firecrawl-anydoc)… · **last commit:** 2026-10-23 · **licence:** MIT (GitHub, PyPI). The optional hosted OCR path calls Firecrawl Parse…
+> **Repo:** https://github.com/firecrawl/anydoc
+> **Changed since this note:** No new release since the note. Unreleased on main: hosted-OCR callers can choose the Firecrawl Parse mode (auto, fast or ocr) via --parse-mode / parseMode / parse_mode (#199, 2026-10-20; the default stays auto).
 
 🗒️ **[firecrawl/anydoc](https://github.com/firecrawl/anydoc)** — a fast Rust library that turns office documents (Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, PDF) into clean **GitHub-Flavored Markdown**, with bindings for Node.js, Python and the browser (WebAssembly). Built by [[Firecrawl]] to make any document LLM-ready in single-digit milliseconds, with one consistent output no matter which format goes in. It powers Firecrawl Parse.
 

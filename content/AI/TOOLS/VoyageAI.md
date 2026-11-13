@@ -7,9 +7,17 @@ tags: ["tool", "ai", "embeddings", "rag", "retrieval", "rerank", "api"]
 type: tool
 agent-created: true
 summary: "Specialist embedding and reranking models for retrieval — higher-quality vectors than general-purpose; evaluated for the Tech To The Rescue RAG layer"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # VoyageAI
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The lifecycle changelog has dated entries on 2026-07-30, 2026-09-01, 2026-09-29 and 2026-10-20.
+> **Latest release:** rerank-3 and rerank-3-lite: Preview on 2026-09-01, Active (GA) on 2026-09-29. · **last dated update:** 2026-10-20 · **licence:** Proprietary API, usage-based per million tokens, with 200M free tokens on each current model.
+> **Source:** https://www.mongodb.com/docs/voyageai/models/lifecycle/ — **moved/renamed:** Partly. Voyage AI is a MongoDB company (acquired February 2025), and the models are now offered mainly as the MongoDB Atlas Embedding and Reranking API at ai.mongodb.com, with regional endpoints eu.ai.mongodb.com and us.ai.mongodb.com.
+> **Changed since this note:** The model names in the note (voyage-3, rerank-2) were already superseded before it: the Voyage 4 family (voyage-4-large, voyage-4, voyage-4-lite, plus the open-weight voyage-4-nano) launched on 2026-01-15. These models share one embedding space…
 
 A provider of specialist **embedding** and **reranking** models, focused purely on retrieval quality (now part of MongoDB). Where general-purpose model vendors offer embeddings as a side feature, Voyage optimizes specifically for semantic search — including domain-tuned models (code, finance, law) and rerankers that reorder candidates for precision. For RAG, better embeddings mean better recall before the LLM ever sees the context.
 

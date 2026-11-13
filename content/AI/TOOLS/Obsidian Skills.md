@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-07-11_kepanoobsidian-skills.md"
 agent-created: true
 summary: "kepano/obsidian-skills — official agent skills that teach any skills-compatible agent to use the Obsidian CLI and open formats (Markdown, Bases, JSON Canvas)"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Obsidian Skills
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The last commit (the 1.2.0 bump) is from 2026-11-11.
+> **Last release:** 1.1.0, 2026-11-11 (the first GitHub release). · **last commit:** 2026-11-11 · **licence:** MIT (root LICENSE plus plugins/obsidian/LICENSE)
+> **Repo:** https://github.com/obsidianmd/obsidian-skills — **moved/renamed:** Yes: kepano/obsidian-skills -> obsidianmd/obsidian-skills, moving from Steph Ango's personal account to the official Obsidian org. Release 1.1.0 (2026-11-11) announced it, and old links redirect.
+> **Changed since this note:** The repo moved to the obsidianmd org and is now 'published by Obsidian'. It is now one plugin with Claude Code, Codex/ChatGPT and Cursor marketplace manifests; Cursor installs it from the Cursor Marketplace.
 
 ## 🚀 Description
 

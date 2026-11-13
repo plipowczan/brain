@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-07-05_cobusgrayling-loop-engineering.md"
 agent-created: true
 summary: "cobusgreyling/loop-engineering — patterns, starters & CLI tools (loop-audit, loop-init, loop-cost) for building self-prompting loops around AI coding agents; the practical companion to the Loop Engineering concept."
+status-checked: 2026-11-13
+project-status: active
 ---
 # Loop Engineering (cobusgreyling)
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits land on main daily, the latest on 2026-11-13.
+> **Last release:** GitHub release v1.6.0, 2026-07-20. The newest npm publishes are from 2026-08-28: @cobusgreyling/loop 0.2.0… · **last commit:** 2026-11-13 · **licence:** MIT
+> **Repo:** https://github.com/cobusgreyling/loop-engineering
+> **Changed since this note:** A unified front door, `npx @cobusgreyling/loop` (init, doctor, status, audit, cost), arrived on 2026-07-24 and reached 0.2.0 on 2026-08-28; the old per-tool packages stay supported. `--tool` now defaults to claude, with grok, codex and opencode as options (the note's examples used grok).
 
 `cobusgreyling/loop-engineering` — a practical, tool-aware reference repo for **[[Loop Engineering]]**: patterns you can clone, CLI tools that score readiness, and checklists to ship against. It operationalizes the Osmani/Cherny/Steinberger idea — *"stop prompting agents; design the loop that prompts them"* — for Grok, [[Claude Code]], Codex, Cursor and other coding agents.
 

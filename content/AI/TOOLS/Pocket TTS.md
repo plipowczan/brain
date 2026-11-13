@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-07-07_kyutai-labspocket-tts A TTS that fits in your CPU (and pocket).md"
 agent-created: true
 summary: "kyutai-labs/pocket-tts — 100M-param text-to-speech that runs on 2 CPU cores: ~200ms first-chunk latency, ~6x real-time on MacBook Air M4, voice cloning, streaming, 6 languages; pip install + one function call, no GPU, no API."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Pocket TTS
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There have been 16 PyPI releases in 2026, most recently v3.2.0 and v3.3.0 (2026-09-23/24), v4.0.0 (2026-10-20) and v4.0.1 (2026-10-21).
+> **Last release:** v4.0.1, 2026-10-21 (GitHub release and PyPI pocket-tts 4.0.1) · **last commit:** 2026-11-12 · **licence:** Code: MIT. Model weights on Hugging Face (kyutai/pocket-tts): CC-BY-4.0…
+> **Repo:** https://github.com/kyutai-labs/pocket-tts
+> **Changed since this note:** Two major versions since the note (v2.1.0 was current then). v3.0.0 (2026-08-25) published the training code and added a 24-layer English model, and renamed internal modules (possible breakage for code that imports internals)…
 
 ## 🚀 Description
 
@@ -32,11 +40,11 @@ Generating audio is `pip install pocket-tts` (or `uvx pocket-tts generate`) and 
 
 ## Reasoning for
 
-Fills the **free local tier** of my TTS stack thinking — the same slot [[Chatterbox TTS]] holds in [[Travelcast AI]]'s fallback chain, but radically cheaper to run: no GPU, no torch-CUDA install, ~instant startup via `uvx`. For agent voice output ([[Voicebox]] pattern) or any pipeline where [[ElevenLabs]]-quality is overkill, a 100M CPU model with streaming and cloning is the new floor. Main limitation for my use: **no Polish** — see [[TTS Engines Comparison (Polish)]], where Azure still wins Polish quality. The prohibited-use policy requires lawful consent for voice cloning.
+Fills the **free local tier** of my TTS stack thinking — the same slot Chatterbox TTS (retired upstream in August 2026) holds in [[Travelcast AI]]'s fallback chain, but radically cheaper to run: no GPU, no torch-CUDA install, ~instant startup via `uvx`. For agent voice output ([[Voicebox]] pattern) or any pipeline where [[ElevenLabs]]-quality is overkill, a 100M CPU model with streaming and cloning is the new floor. Main limitation for my use: **no Polish** — see [[TTS Engines Comparison (Polish)]], where Azure still wins Polish quality. The prohibited-use policy requires lawful consent for voice cloning.
 
 ## Alternatives considered
 
-- [[Chatterbox TTS]] — open-source local TTS with cloning, but torch-heavy; Pocket TTS is far lighter.
+- Chatterbox TTS — open-source local TTS with cloning, but torch-heavy and retired by its authors in August 2026; Pocket TTS is far lighter.
 - [[Voicebox]] — local-first voice *studio* (7 TTS engines, STT, MCP) — an app, not a library; could adopt Pocket TTS as an engine.
 - [[ElevenLabs]] — best-in-class quality and languages (paid API); Pocket TTS is the zero-cost offline end of that spectrum.
 - [[OpenAI]] TTS — cloud API voices; no offline story.
@@ -53,7 +61,7 @@ Fills the **free local tier** of my TTS stack thinking — the same slot [[Chatt
 ## 🔗 Related notes
 
 - [[TTS Engines Comparison (Polish)]] — my Polish TTS quality/cost benchmark (Pocket TTS doesn't support Polish)
-- [[Chatterbox TTS]] · [[Voicebox]] — local/open TTS siblings
+- [[Voicebox]] — local/open TTS sibling (Chatterbox TTS was another, now retired)
 - [[ElevenLabs]] · [[OpenAI]] — the cloud tiers above it
 - [[Travelcast AI]] — project with a TTS fallback chain this could slot into
 

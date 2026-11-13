@@ -7,9 +7,17 @@ tags: ["tool", "ai", "web-scraping", "crawler", "research", "llm", "markdown"]
 type: tool
 agent-created: true
 summary: "API that turns websites into clean LLM-ready Markdown — scrape, crawl, search, extract; the research-scraping layer for the Jakub Głąb agent and shared-skills"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Firecrawl
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits land daily (latest 2026-11-13). SDK and MCP releases came on 2026-11-12, and the firecrawl.dev changelog has entries nearly every weekday through 2026-11-12 (MCP v3).
+> **Last release:** The last GitHub release is v2.11.0 (2026-06-19; the changelog post 'v2.11.0 is live' is dated 2026-06-24)… · **last commit:** 2026-11-13 · **licence:** AGPL-3.0 for the server monorepo. The SDKs (apps/js-sdk, apps/python-sdk and others) are MIT. The cloud is a…
+> **Repo:** https://github.com/firecrawl/firecrawl — **moved/renamed:** The GitHub org changed from mendableai to firecrawl; the GitHub API redirects the old URL to firecrawl/firecrawl. The date of the org rename could not be confirmed.
+> **Changed since this note:** Since 2026-06-13: v2.11.0 brought the Research Index (arXiv papers and linked GitHub code), keyless use of /scrape, /search, /interact and /parse from official clients, redactPII, a deterministicJson format, and cdpUrl for driving Firecrawl browser sessions with Playwright or Puppeteer…
 
 An API that turns any website into clean, **LLM-ready Markdown** (or structured JSON). It handles the messy parts of web data — JavaScript rendering, pagination, anti-bot friction, boilerplate stripping — and gives back content an agent can actually use. Modes cover single-page `scrape`, whole-site `crawl`, `map` (discover URLs), `search`, and schema-driven `extract`.
 

@@ -7,9 +7,17 @@ tags: ["tool", "ai", "agents", "orchestration", "workflow", "llm", "python"]
 type: tool
 agent-created: true
 summary: "Graph-based framework for stateful, controllable LLM agent workflows — nodes, edges, persistence, human-in-the-loop; evaluated for agent orchestration in TTTR"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # LangGraph
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** 1.2.21 shipped on 2026-11-12 and 1.2.20 on 2026-11-05; several checkpoint-postgres and add_messages performance commits landed on main on 2026-11-13.
+> **Last release:** 1.2.21, 2026-11-12 (GitHub release and PyPI `langgraph`; also cli==0.4.43 on 2026-11-12… · **last commit:** 2026-11-13 · **licence:** MIT for the library, checkpointers, CLI and SDKs.
+> **Repo:** https://github.com/langchain-ai/langgraph
+> **Changed since this note:** No breaking change: still the 1.2.x line (1.2.5 on 2026-06-12 -> 1.2.21). Human-in-the-loop got stricter. interrupt() takes a response_schema (1.2.12), and each interrupt() in a task gets its own id plus a strict resume mode that refuses stale answers (1.2.20).
 
 A framework (from the LangChain team) for building **stateful, controllable** LLM agent workflows as graphs. You model an agent as nodes (steps/tools/LLM calls) connected by edges (including conditional and cyclic ones), with shared state threaded through. Unlike a linear chain or a fully autonomous loop, the graph makes control flow explicit — which branches run, when to loop, where a human approves — and supports persistence so long-running agents can pause, resume, and recover.
 

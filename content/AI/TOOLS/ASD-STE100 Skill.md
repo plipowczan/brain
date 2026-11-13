@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-11-01_danyuchnasd-ste100-skill ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.md"
 agent-created: true
 summary: "danyuchn/asd-ste100-skill — Claude Code skill that rewrites ambiguous English into Simplified Technical English so another agent cannot misread tool descriptions, errors or instructions"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # ASD-STE100 Skill
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The latest commit on master is d5caf549, dated 2026-11-12 (PR #66, a linter fix for sentence ends at trailing emphasis markers).
+> **Last release:** no releases (commits only); no tags · **last commit:** 2026-11-12 · **licence:** MIT. The official ASD-STE100 dictionary (about 900 words) is deliberately not included…
+> **Repo:** https://github.com/danyuchn/asd-ste100-skill
+> **Changed since this note:** The two weeks since the note brought a burst of fixes to the deterministic linter (scripts/ste-lint.py). It now lints the front-matter 'description' key (relevant for SKILL.md files) and supports MkDocs admonitions.
 
 ## 🚀 Description
 

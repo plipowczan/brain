@@ -8,8 +8,16 @@ type: tool
 agent-reviewed: 2026-04-10
 agent-created: true
 summary: "Anthropic's CLI for AI-assisted development — primary dev environment"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Claude Code
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Releases ship several times a week: v2.1.318 (2026-11-04) through v2.1.323 (2026-11-12), with the latest commit on main on 2026-11-13.
+> **Last release:** v2.1.323 (2026-11-12, GitHub release and npm 'latest'/'next' dist-tag)… · **last commit:** 2026-11-13 · **licence:** Proprietary. LICENSE.md: '(c) Anthropic PBC. All rights reserved.
+> **Repo:** https://github.com/anthropics/claude-code
+> **Changed since this note:** No major version bump (still 2.1.x, v2.1.98 -> v2.1.323), but the product grew a lot: (1) npm install deprecated in favour of the native installer (curl/irm), Homebrew cask and WinGet, so the note's 'npm install -g' line is stale; (2) docs moved to code.claude.com…
 
 Anthropic's official CLI tool for AI-assisted software development. My primary development environment since 2025.
 

@@ -8,8 +8,17 @@ type: tool
 source: "_raw/processed/2026-06-24_baiduUnlimited-OCR Unlimited OCR Works Welcome the Era of One-shot Long-horizon Parsing.md"
 agent-created: true
 summary: "Baidu's 3B OCR model — constant KV cache via Reference Sliding Window Attention, transcribes dozens of pages in one forward pass under 32K"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Unlimited-OCR
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Unlimited-OCR 2 shipped on 2026-10-27, along with the MarathonDocBench benchmark, ModelScope and Baidu Cloud availability and a HF Space.
+> **Last release:** No GitHub releases. The only tag is UnlimitedOCR1.0, which points at a 2026-10-12 commit and marks the v1… · **last commit:** 2026-11-09 · **licence:** MIT, for both the code (LICENSE has been MIT since the initial commit on 2026-06-22) and the model weights (the Hugging…
+> **Repo:** https://github.com/baidu/Unlimited-OCR
+> **Changed since this note:** Since the note (2026-06-24): vLLM inference support (2026-06-28), Baidu Cloud availability (2026-07-03) and ms-swift fine-tuning support (2026-07-21). The main change is Unlimited-OCR 2 (2026-10-27, paper 'Unlimited OCR Works 2', arXiv 2610.39308, 2026-10-29).
+
 End-to-end OCR model from Baidu that parses **dozens of pages of documents in a single forward pass** under a standard 32K max length — "one-shot long-horizon parsing." Builds directly on [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR), pushing it one step further. 3B params, BF16, Apache-2.0.
 
 ## Links

@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/paperclipaipaperclip Open-source orchestration for zero-human companies.md"
 agent-created: true
 summary: "paperclipai/paperclip — Node.js + React control plane for running a 'company' of AI agents: org chart, goals, budgets, governance, heartbeats, audit log; bring-your-own-agent (Claude Code/Codex/Cursor/OpenClaw/HTTP)"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Paperclip
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Several commits per hour on 2026-11-13, with PR numbers above #21300.
+> **Last release:** v2026.1106.0 (2026-11-06), promoted from 2026.1023.0-beta.0 and carrying 515 commits · **last commit:** 2026-11-13 · **licence:** MIT (c) 2026 Paperclip Labs, Inc. Self-hosting is free and needs no account.
+> **Repo:** https://github.com/paperclipai/paperclip
+> **Changed since this note:** The note (2026-05-03) was written at about v2026.428.0; the current release is v2026.1106.0. In v2026.1106.0 the native Paperclip Runner, which needs a Rust toolchain for source builds, became the default for new Claude, Codex, OpenCode and Pi agents on qualified macOS and Linux hosts.
 
 `paperclipai/paperclip` — **open-source orchestration for zero-human companies**. If OpenClaw is an *employee*, Paperclip is the *company*. A Node.js server + React UI that orchestrates a team of AI agents: you define a goal, hire agents (any model, any runtime), approve the strategy, set budgets, and ship.
 

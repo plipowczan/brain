@@ -8,8 +8,17 @@ type: tool
 source: "_raw/processed/2026-07-07_DeusData-codebase-memory-mcp.md"
 agent-created: true
 summary: "DeusData's single-binary code-intelligence MCP server — tree-sitter + Hybrid LSP builds a persistent knowledge graph of your repo, answering structural queries in <1ms with ~99% fewer tokens; 158 languages, 14 tools, 11 agents, MIT."
+status-checked: 2026-11-13
+project-status: active
 ---
 # Codebase Memory MCP
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** PRs were merged to main on 2026-11-13 (#2967, #2968) and 2026-11-12.
+> **Last release:** v0.12.1 (2026-10-16), GitHub release and npm codebase-memory-mcp 0.12.1 · **last commit:** 2026-11-13 · **licence:** MIT
+> **Repo:** https://github.com/DeusData/codebase-memory-mcp
+> **Changed since this note:** The note was written at v0.8.1, just before v0.9.0 (2026-07-08); the current version is v0.12.1.; v0.11.0 (2026-09-15): an index format change (File nodes keep extensions) forces one full reindex. Compact "lean" default output arrived, with no tools removed.
+
 A single static C binary that indexes a whole codebase into a persistent **knowledge graph** and serves it to any AI coding agent over MCP. Full-indexes an average repo in milliseconds, the Linux kernel (28M LOC, 75K files) in ~3 minutes, and answers structural queries in under 1 ms. The pitch: replace dozens of grep/read cycles with one graph query — ~120× fewer tokens.
 
 Repo: [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) · MIT · zero runtime dependencies.

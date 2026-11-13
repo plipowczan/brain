@@ -7,9 +7,17 @@ tags: ["tool", "web-scraping", "proxies", "data-enrichment", "datasets", "ai"]
 type: tool
 agent-created: true
 summary: "Industrial-scale web data platform — proxies, scraping APIs, and ready datasets for company/person enrichment; used in TTTR (via n8n) and the Jakub Głąb agent"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Bright Data
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The release notes have entries on 2026-10-19, 10-24, 10-27, 11-05, 11-08 and 11-10.
+> **Latest release:** Closed product with no versions. Latest release-notes entries: 2026-11-10 (Perplexity Scraper known issue) and 2026-11-08 (new… · **last dated update:** 2026-11-10 · **licence:** Proprietary SaaS. You pay into a prepaid wallet, either pay-as-you-go or on monthly plans.
+> **Source:** https://docs.brightdata.com/release-notes
+> **Changed since this note:** Since the note (2026-06-13): (1) A permanent free tier of 5,000 credits per month shared across the API products and the MCP server (release notes, June 2026; the exact day relative to the note is unclear). (2) Residential access tightened.
 
 An industrial-grade web-data platform. Where lighter tools fetch a page, Bright Data operates at scale: a large proxy network (residential/datacenter/mobile), managed **Scraper APIs** for tough targets, a Web Unlocker that defeats anti-bot defenses, and pre-collected **datasets** (company, LinkedIn-style profiles, e-commerce). It's the heavy machinery you reach for when scraping has to be reliable, large-volume, and enrichment-grade.
 

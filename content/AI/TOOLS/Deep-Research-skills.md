@@ -9,8 +9,16 @@ source: ".claude/skills/research*/ (adapted from Weizhena/Deep-Research-skills)"
 agent-created: true
 agent-reviewed: 2026-07-12
 summary: "The upstream repo behind this vault's /research* skill suite — a 5-skill schema-first deep-research pipeline (outline → parallel deep dive → matrix report)."
+status-checked: 2026-11-13
+project-status: maintained
 ---
 # Deep-Research-skills
+
+> [!success] Status check 2026-11-13 — maintained
+> **Verdict:** The latest commit on the default branch (master) is 6ce38f60, dated 2026-08-23 ('Tighten validate_json.py to a single fields.yaml schema').
+> **Last release:** no releases (commits only); no tags · **last commit:** 2026-08-23 · **licence:** MIT (LICENSE file added 2026-05-07)
+> **Repo:** https://github.com/Weizhena/Deep-Research-skills
+> **Changed since this note:** One substantive upstream change: PR #8 (merged 2026-08-23), then a follow-up commit, fixed a 'vacuous pass' bug in validate_json.py. The old script parsed only a 'field_categories' schema that /research never emits…
 
 The open-source repo that this vault's `/research`, `/research-add-items`, `/research-add-fields`, `/research-deep` and `/research-report` skills were adapted from. It is a **structured, comparative deep-research pipeline** for coding agents: give it a topic, it builds a matrix of *N research items × M fields*, fills every cell in parallel from the web, and compiles a report. Built for technology selection, benchmark surveys, competitive/market analysis — anything that wants a **table, not an essay**.
 

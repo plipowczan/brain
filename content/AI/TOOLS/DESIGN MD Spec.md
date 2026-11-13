@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/google-labs-codedesign.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.md"
 agent-created: true
 summary: "Google Labs format spec — DESIGN.md combines YAML design tokens with markdown rationale so coding agents have a persistent, structured grasp of a design system"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # DESIGN.md Spec (google-labs-code)
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The latest commits landed on 2026-11-06: a zod v3-to-v4 upgrade, a DTCG typography fix and the 0.4.1 version bump.
+> **Last release:** 0.4.0, 2026-07-27 (GitHub release and npm @google/design.md latest). · **last commit:** 2026-11-06 · **licence:** Apache-2.0. The README adds that the project is not eligible for the Google Open Source Software Vulnerability Rewards…
+> **Repo:** https://github.com/google-labs-code/design.md
+> **Changed since this note:** At note time the release was 0.1.1. 0.2.0 (2026-05-26) added Tailwind v4 CSS export ('--format css-tailwind', with 'json-tailwind' for v3 and 'tailwind' as an alias), CSS Color Module colour formats…
 
 ## 🚀 Description
 

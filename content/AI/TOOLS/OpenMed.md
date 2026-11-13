@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-07-07_maziyarpanahi-openmed.md"
 agent-created: true
 summary: "maziyarpanahi/openmed — local-first healthcare AI: clinical NER + HIPAA PII de-identification, 100% on-device; 1,000+ medical models, 247 PII checkpoints in 15 languages, Python/MLX/Swift/REST/WebGPU, Apache-2.0."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # OpenMed
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Releases come every one to three weeks: v3.0.0 2026-10-07, v3.1.0 2026-10-26, v3.2.0 2026-11-03.
+> **Last release:** v3.2.0, 2026-11-03 (GitHub release and PyPI 'openmed' 3.2.0). · **last commit:** 2026-11-11 · **licence:** Apache-2.0 for the SDK source. Model and dataset terms vary per checkpoint…
+> **Repo:** https://github.com/maziyarpanahi/openmed
+> **Changed since this note:** At note time the latest release was v1.7.0 (2026-07-01). Since then: v1.8 and v1.9 (July), then v2.0.0 (2026-07-28). v2.0.0 added Kotlin/Android (JitPack), JavaScript (npm 'openmed'), typed MCP tools, a GHCR container, watchOS and visionOS targets, 34 built-in PII language codes…
 
 ## 🚀 Description
 

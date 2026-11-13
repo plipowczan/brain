@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/Guide a product from mission to measurable value for users.md"
 agent-created: true
 summary: "Open-source UX skill for agents — guides from mission through audience/need to measurable value, records decisions in the repo"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # UX RULER
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The latest commit on main is ffe9086f, dated 2026-10-16 ('Remove the temporary preview routes'), 28 days before 2026-11-13, so the repo counts as active by the 30-day rule.
+> **Last release:** no releases (commits only); no tags · **last commit:** 2026-10-16 · **licence:** MIT
+> **Repo:** https://github.com/making-mike/uxruler
+> **Changed since this note:** Two commits on 2026-05-17 refined the 'attraction' UX dimension: the four dimensions now read usefulness, ergonomics, attraction and identity, where the note says Attractiveness. The rest of the work since the note is website and portfolio: a founder 'story' page with case studies (Lendi, Jasne, OpenExpert, Argos…
 
 An open-source **UX skill** for AI agents (Claude Code, Codex). Helps you go from an idea or a repo to a **concrete decision, metric, and next step** — instead of jumping straight into features.
 

@@ -8,8 +8,16 @@ type: tool
 source: "_raw/inbox/vercel-labsskills The open agent skills tool.md"
 agent-created: true
 summary: "npx skills — CLI for the open agent skills ecosystem, installs SKILL.md from any repo into 50+ agents (Claude Code, Codex, Cursor, OpenCode...)"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Vercel Skills
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Two feature commits landed on 2026-11-12 (install under a new name with --rename, pinning lock entries to the installed commit). v1.8.0 and v1.8.1 were both released on 2026-11-10, after v1.7.4-1.7.6 in October and early November.
+> **Last release:** v1.8.1, 2026-11-10 (GitHub release). npm skills@1.8.1 was published 2026-11-11 00:01 UTC. · **last commit:** 2026-11-12 · **licence:** MIT (LICENSE file and npm metadata). The note only says 'open source'.
+> **Repo:** https://github.com/vercel-labs/skills
+> **Changed since this note:** npm 1.5.3 at the note date (2026-04-28) -> 1.8.1. Supported agents went from 54 to 79.
 
 `vercel-labs/skills` — CLI for the open [[Agent Skills]] ecosystem. The command `npx skills add <repo>` installs skills from any repo (GitHub, GitLab, local path) into any of 50+ supported coding agents. It is Vercel's answer to fragmentation — every agent has a different path for skills (`~/.claude/skills/`, `~/.cursor/skills/`, `~/.config/opencode/skills/`...), and Skills CLI abstracts this through symlinks or copies.
 

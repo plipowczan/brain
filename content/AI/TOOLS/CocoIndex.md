@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-05-27_cocoindex-io-cocoindex.md"
 agent-created: true
 summary: "Incremental indexing engine for long-horizon AI agents — Python declarative API, Rust core; turns codebases/notes/PDFs/Slack/video into always-fresh agent context, recomputing only the delta."
+status-checked: 2026-11-13
+project-status: active
 ---
 # CocoIndex
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits on main through 2026-11-12. Releases v1.1.0 (2026-11-01), v1.1.1 (2026-11-05) and v1.2.0 (2026-11-09), after about 20 v1.0.x patch releases since the note (v1.0.7 on 2026-05-31 to v1.0.26 on 2026-10-22).
+> **Last release:** v1.2.0 (2026-11-09), GitHub release and PyPI cocoindex 1.2.0 · **last commit:** 2026-11-12 · **licence:** Apache-2.0 for the open-source engine. Paid commercial layer: CocoIndex Plus (enterprise…
+> **Repo:** https://github.com/cocoindex-io/cocoindex
+> **Changed since this note:** The note was written at about v1.0.6/v1.0.7; the engine is now v1.2.0, with the same API shape (coco.fn memo, mount_each, App.update_blocking).; v1.1.0 (2026-11-01): an audit of connector keys fixed collisions, lost writes and missed deletes. Affected connectors: Google Drive (now keyed by file ID), S3/Azure/OCI…
 
 Open-source incremental data-transformation engine for AI agents. Turns codebases, meeting notes, inboxes, Slack, PDFs, and videos into live, continuously fresh context for LLM apps — recomputing **only the delta** when sources change. Python declarative API on top of a Rust engine; Apache 2.0.
 

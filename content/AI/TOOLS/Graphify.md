@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/safishamsigraphify AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph.md"
 agent-created: true
 summary: "AI skill — code/docs/images → queryable knowledge graph with clustering, 71x token reduction"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Graphify
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The latest commit is 52cb2821, dated 2026-11-12 (version bump to 0.9.108).
+> **Last release:** v0.9.108, 2026-11-12 (GitHub release, PyPI graphifyy 0.9.108, CHANGELOG). · **last commit:** 2026-11-12 · **licence:** Apache-2.0 for the open-source CLI and skill since 2026-07-22, relicensed from MIT…
+> **Repo:** https://github.com/Graphify-Labs/graphify — **moved/renamed:** Yes. It moved from safishamsi/graphify to the Graphify-Labs organisation (github.com/safishamsi/graphify returns 301 to Graphify-Labs/graphify).
+> **Changed since this note:** The project went from a solo repo at about v0.4 to a VC-backed company product at v0.9.108. Repo moved to Graphify-Labs (July 2026).
 
 AI coding assistant skill — type `/graphify` in Claude Code (or Codex, Cursor, Gemini CLI, OpenCode, OpenClaw, Aider, Trae) and you get an interactive knowledge graph from any folder. Code, docs, papers, screenshots, diagrams — everything lands in a single graph.
 

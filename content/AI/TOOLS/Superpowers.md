@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/obrasuperpowers An agentic skills framework & software development methodology that works.md"
 agent-created: true
 summary: "Jesse Vincent (obra) opinionated software development methodology for coding agents — composable skills (brainstorm→worktree→plan→subagent-driven→TDD→review→finish), auto-trigger, multi-host (CC/Cursor/Codex/OpenCode/Copilot/Gemini)"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Superpowers
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There have been three releases in the last five weeks: v7.0.0 (2026-10-10), v7.0.1 (2026-10-21) and v7.0.2 (2026-11-03), and the last commit was on 2026-11-03, 10 days ago.
+> **Last release:** v7.0.2 (2026-11-03) · **last commit:** 2026-11-03 · **licence:** MIT. Prime Radiant offers optional commercial support, extra tooling and managed spending for enterprises…
+> **Repo:** https://github.com/obra/superpowers
+> **Changed since this note:** Two major versions since the note (v5.0.7, then v5.1.0 on 2026-05-04). v6.0.0 (2026-06-16) rewrote subagent-driven-development: one reviewer per task returns both a spec and a quality verdict, a single whole-branch review runs at the end, diffs are handed over as files…
 
 `obra/superpowers` — a **complete software development workflow for coding agents**, built on a set of composable "skills" + initial instructions that force the agent to use them. Author: Jesse Vincent (`obra`). Philosophy: the agent does **not** jump straight to code — first it teases out a spec from the conversation, shows it in small chunks, and only after sign-off writes a plan for an "enthusiastic junior with poor taste, no judgement, no project context, and aversion to testing", then subagent-driven-development with true red/green TDD, YAGNI, and DRY.
 

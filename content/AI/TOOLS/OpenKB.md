@@ -8,8 +8,18 @@ type: tool
 source: "_raw/processed/2026-06-24_VectifyAIOpenKB OpenKB Open LLM Knowledge Base.md"
 agent-created: true
 summary: "VectifyAI's CLI that compiles raw docs into an interlinked Obsidian-compatible wiki via LLMs — vectorless PageIndex retrieval, no vector DB, Skill Factory"
+status-checked: 2026-11-13
+project-status: slowing
 ---
 # OpenKB
+
+> [!warning] Status check 2026-11-13 — slowing
+> **Verdict:** The last commit on main is 2026-07-22 (114 days ago) and the last stable release, 0.4.5, is from 2026-07-20 (a hotfix pinning openai==2.44.0).
+> **Last release:** v0.4.5 (2026-07-20), GitHub release and PyPI openkb 0.4.5… · **last commit:** 2026-07-22 · **licence:** Apache-2.0
+> **Repo:** https://github.com/VectifyAI/OpenKB
+> **Use instead:** No official successor. The closest alive alternative for a compiled personal wiki is langchain-ai [[OpenWiki]] in `personal` mode: Deep Agents, nine connectors, OKF v0.2 output, weekly releases.
+> **Changed since this note:** Releases v0.4.2-v0.4.5 (2026-06-27 to 2026-07-20) added: the Knowledge Workbench web UI matured (`pip install "openkb[web]"`, `openkb-web`, default port 7566, delete KB/edit wiki pages, a source-text reader, configurable entity types); an `openkb deck new` single-file HTML slide generator…
+
 **Open LLM Knowledge Base** — an open-source CLI (VectifyAI) that compiles raw documents into a structured, interlinked **wiki-style knowledge base** using LLMs. It is a direct, packaged implementation of the [[LLM Knowledge Bases|Karpathy LLM Wiki pattern]]: instead of re-deriving knowledge on every query (traditional RAG), it compiles knowledge *once* into a persistent wiki and keeps it current. Apache-2.0.
 
 This is the same architecture this vault runs by hand — a relevant reference for [[Brain]] and [[Building an AI Second Brain]].

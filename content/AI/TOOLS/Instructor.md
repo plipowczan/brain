@@ -8,8 +8,16 @@ type: tool
 source: "https://python.useinstructor.com/"
 agent-created: true
 summary: "Most-popular library for structured LLM outputs — Pydantic-schema extraction with type safety, validation, automatic retries and streaming; 15+ providers, 6 languages"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Instructor
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Releases v1.16.0 (2026-08-27) and v1.17.0 (2026-09-09) followed v1.15.4 (2026-06-28).
+> **Last release:** v1.17.0, 2026-09-09 (GitHub release and PyPI instructor 1.17.0). 1.18.0 is prepared on main (pyproject… · **last commit:** 2026-11-06 · **licence:** MIT
+> **Repo:** https://github.com/567-labs/instructor — **moved/renamed:** Yes, but before the note: instructor-ai/instructor -> 567-labs/instructor (Jason Liu's 567 Labs). The old URL in the note redirects.
+> **Changed since this note:** v1.16.0 (2026-08-27) added native Bedrock structured outputs (Mode.JSON_SCHEMA, TOOLS_STRICT via Converse outputConfig), cumulative token_budget limits for validation retries, Mistral SDK 2.x support and many streaming and retry fixes. v1.17.0 (2026-09-09) is security-focused…
 
 `Instructor` (by [[Jason Liu]]) — the most widely-used library for getting **structured, validated data out of any LLM**. Built on **Pydantic**: you define a schema as a typed model, and Instructor handles the prompt plumbing, parses the response into that model, **validates** it, and **automatically retries** on validation failure. Supports streaming and nested objects, 15+ providers (OpenAI, Anthropic, Google, [[Ollama]], DeepSeek…), and 6 languages (Python, TypeScript, Go, Ruby, Elixir, Rust). ~3M monthly downloads, 11k+ stars.
 

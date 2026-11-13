@@ -8,9 +8,18 @@ type: tool
 source: "_raw/inbox/agent0aispace-agent The agent that re-shapes the Space.md"
 agent-created: true
 summary: "Frontend-runtime agent from agent0ai — rebuilds its workspace on the fly (pages, widgets, workflows) via SKILL.md in plain text/JS"
+status-checked: 2026-11-13
+project-status: slowing
 ---
 
 # Space Agent
+
+> [!warning] Status check 2026-11-13 — slowing
+> **Verdict:** The last commit was 2026-06-08 (158 days before 2026-11-13, so the 90-180 day band) and the last release was v0.66 on 2026-04-30 (197 days).
+> **Last release:** v0.66 (2026-04-30); 31 releases in total, none since · **last commit:** 2026-06-08 · **licence:** MIT (LICENSE: copyright 2026 Space Agent).
+> **Repo:** https://github.com/agent0ai/space-agent
+> **Use instead:** No official successor. The same team's active project is [[Agent Zero]] (v2.15, 2026-11-01).
+> **Changed since this note:** Almost nothing: one commit (DOX hierarchical AGENTS.md documentation, 2026-06-08) and no new release since v0.66 (2026-04-30, before the note). The repo went quiet while the team shipped Agent Zero v2.0-v2.15 and spun the AGENTS.md pattern out as agent0ai/dox.
 
 `agent0ai/space-agent` — an agent that **rebuilds the interface while it works**. Ask for a page, a tool, a widget, or a workflow, and the agent builds it straight into the running workspace. Created by [[Agent Zero]], it runs in the browser (tab or desktop app), directly in the frontend runtime layer.
 

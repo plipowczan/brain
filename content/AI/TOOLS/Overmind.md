@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-10-02_overmind-coreovermind The platform for continuously improving AI agents.md"
 agent-created: true
 summary: "overmind-core/overmind — training platform that turns an agent's production traces into evals, code/prompt optimisations and fine-tuned models you own, served on one OpenAI-compatible API; driven from your coding agent via MCP"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Overmind
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** 32 releases have shipped since v0.1.0 on 2026-10-01, the latest being v0.1.32 on 2026-11-11, and there were commits on 2026-11-12.
+> **Last release:** v0.1.32 (2026-11-11). The SDK and CLI are on PyPI as `overmind`. · **last commit:** 2026-11-12 · **licence:** Dual-licensed. The platform (overbae/, frontend/ and everything outside overmind/) is AGPL-3.0…
+> **Repo:** https://github.com/overmind-core/overmind
+> **Changed since this note:** The version went from about v0.1.0/0.1.1 at note time to v0.1.32. New: decision models, with their own MCP tools for training, native evaluation and performance measurement.
 
 ![[cdaafd8da0a67d8fdf9d8692b4ad4c76_MD5.svg]]
 

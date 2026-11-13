@@ -7,8 +7,16 @@ tags: ["tool", "ai", "voicebot", "voice-agents"]
 type: tool
 agent-created: true
 summary: "Platform for building AI voice agents and voicebots"
+status-checked: 2026-11-13
+project-status: active
 ---
 # VAPI
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The changelog has weekly entries through 2026-11-09, including 2026-10-12 (traffic splitting), 2026-10-19, 2026-10-26 and 2026-11-02 (GPT-Live voices).
+> **Latest release:** Continuous delivery with no version numbers. · **last dated update:** 2026-11-09 · **licence:** Proprietary SaaS, usage-based. The Vapi hosting fee is USD 0.05 per minute, and STT…
+> **Source:** https://docs.vapi.ai/changelog
+> **Changed since this note:** Funding: a USD 50M Series B led by Peak XV (2026-05-12), with more than 1 billion calls processed. The product shifted toward an agent lifecycle platform.
 
 Platform for building AI-powered voice agents and conversational voicebots.
 

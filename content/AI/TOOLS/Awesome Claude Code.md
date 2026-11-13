@@ -8,9 +8,17 @@ type: tool
 agent-created: true
 agent-reviewed: 2026-05-16
 summary: "Curated list of Claude Code resources — skills, MCP servers, workflows, prompts, integrations"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Awesome Claude Code
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Bot commits refresh the ticker several times a day (latest 2026-11-13).
+> **Last release:** No releases (commits only). The tags are snapshot backups, not versions: 2026.04.05, 2026.04.05.2… · **last commit:** 2026-11-13 · **licence:** CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives), per the LICENSE file…
+> **Repo:** https://github.com/hesreallyhim/awesome-claude-code
+> **Changed since this note:** The list was relaunched as v3 ('release - renovation') on 2026-07-03, after the note's 2026-05-16 review. It was rebuilt with a new taxonomy: Start Here, From Anthropic, Documentation (with Obsidian and Data Visualization), Agent Orchestration (Ralph Wiggum, Dynamic Workflows, SDLC), Skills…
 
 A carefully curated list of the best resources for [[Claude Code]] — skills, workflows, MCP servers, prompts, tools. One entry point instead of searching hundreds of repositories.
 

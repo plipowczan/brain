@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-07-11_teng-linnotebooklm-py.md"
 agent-created: true
 summary: "teng-lin/notebooklm-py — unofficial Python API, CLI, MCP server and agent skill for Google NotebookLM; drives it as a zero-token synthesis + memory layer, exports artifacts the web UI can't"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # NotebookLM-py
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Seven stable releases since 2026-08-03 (v0.8.0 through v0.8.6, about every 2 to 4 weeks), the latest on 2026-10-29.
+> **Last release:** v0.8.6, 2026-10-29 (GitHub release and PyPI upload) · **last commit:** 2026-11-07 · **licence:** MIT
+> **Repo:** https://github.com/teng-lin/notebooklm-py — **moved/renamed:** The repo and the PyPI package (notebooklm-py) are unchanged. The product it drives was renamed: Google rebranded NotebookLM to Gemini Notebook on 2026-07-16, five days after the note.
+> **Changed since this note:** When the note was written, v0.7.3 (2026-06-30) was the latest stable release and 0.8.0 was in beta. v0.8.0 (2026-08-03) made the MCP server, the experimental single-tenant REST server and the self-hostable remote MCP connector for claude.ai (behind a Cloudflare Tunnel or Tailscale Funnel with a password) official. The…
 
 ## 🚀 Description
 

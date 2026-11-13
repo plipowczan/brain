@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/shanraisshanclaude-code-best-practice practice made claude perfect.md"
 agent-created: true
 summary: "69 tips, development workflows comparison, orchestration patterns — from vibe coding to agentic engineering"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Claude Code Best Practice
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Latest commit 5f0b1740 on main is dated 2026-11-13 (a badge bump for Claude Code v2.1.323). 100 commits landed between 2026-10-01 and 2026-11-13. 95 of them are authored by 'Claude' or 'Claude Routine' (automated drift tracking) and 5 by the maintainer Shayan…
+> **Last release:** no releases (commits only); no tags either · **last commit:** 2026-11-13 · **licence:** MIT
+> **Repo:** https://github.com/shanraisshan/claude-code-best-practice
+> **Changed since this note:** No rename, licence change or release. The content has grown: the tips section is now 'Tips and Tricks (84)', up from the 69 tips in the note, with new groups for Context, Session Management and Usage/Limits, and many new tips from Boris Cherny and Thariq (Anthropic) dated Mar-Apr 2026.
 
 "From vibe coding to agentic engineering — practice makes claude perfect." The shanraisshan repository is a structural overview of the [[Claude Code]] ecosystem — not another link list, but a workflow comparison, thematically grouped tips, and orchestration pattern demos.
 

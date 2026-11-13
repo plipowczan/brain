@@ -9,8 +9,17 @@ source: "_raw/processed/2026-05-31_JuliusBrussee-caveman.md"
 agent-created: true
 agent-reviewed: 2026-06-15
 summary: "JuliusBrussee/caveman — Claude Code skill that makes the agent talk like a caveman, cutting ~65% of output tokens while keeping full technical accuracy; MIT, 30+ agent hosts."
+status-checked: 2026-11-13
+project-status: active
 ---
 # Caveman
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Release 4.1.0 shipped 2026-11-08 after 4.0.0/4.0.1 (2026-10-13), 3.2.0 (2026-10-08) and 3.0.0 (2026-09-30), and commits landed on main on 2026-11-12 and 2026-11-13.
+> **Last release:** Caveman 4.1.0 (tag v4.1.0), 2026-11-08. Companion artifacts released alongside: bin-v4.1.0 (2026-11-07)… · **last commit:** 2026-11-13 · **licence:** Apache-2.0 for the whole repo since Caveman 3.0.0 (relicensed 2026-09-24, released 2026-09-30).
+> **Repo:** https://github.com/JuliusBrussee/caveman
+> **Changed since this note:** The project grew from a single output-compression skill into a multi-part platform. At note time the latest release was v1.8.2 (2026-05-12). v2.0.0 (2026-08-11) added a local compression engine and proxy that shrink tool output, logs and JSON before the model reads them…
+
 🪨 *why use many token when few do trick* — a [[Claude Code]] skill/plugin (also Codex, Gemini, Cursor, Windsurf, Cline, Copilot, 30+ more) that makes the agent **talk like a caveman**: drop articles, filler, and pleasantries, keep substance, use fragments. Cuts **~65% of output tokens** on average (range 22–87%) with **100% technical accuracy** preserved. Brain still big. Mouth small.
 
 ## 🛠️ How to use

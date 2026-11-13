@@ -9,9 +9,17 @@ agent-created: true
 agent-reviewed: 2026-05-03
 source: "_raw/inbox/nextlevelbuilderui-ux-pro-max-skill An AI SKILL that provide design intelligence for building professional UIUX multiple platforms.md"
 summary: "Claude Code design system skill — adapts UI/UX guidance per project type; v2.0 adds Design System Generator (161 reasoning rules, 67 styles, 161 palettes, 57 font pairings)"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # UI UX Pro Max
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** 82 commits have landed on main since the v2.15.0 release, the latest on 2026-11-10.
+> **Last release:** v2.15.0, 2026-08-13 (GitHub release; npm ui-ux-pro-max-cli 2.15.0, published the same day) · **last commit:** 2026-11-10 · **licence:** MIT. Donations go through PayPal; no paid tier.
+> **Repo:** https://github.com/nextlevelbuilder/ui-ux-pro-max-skill — **moved/renamed:** The repo is unchanged. The npm CLI package was renamed from 'uipro-cli' to 'ui-ux-pro-max-cli'.
+> **Changed since this note:** The note describes v2.0-era counts. At note time the version was v2.5.0 (2026-03-10).
 
 A skill for [[Claude Code]] that solves the **generic AI slop** problem — the generic look of frontends that instantly betrays the page was AI-generated. Instead of one universal approach to design, it offers intelligent generation of design systems tailored to the project type.
 

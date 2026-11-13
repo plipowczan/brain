@@ -9,8 +9,16 @@ source: "_raw/processed/2026-09-06_calesthioOpenMontage World's first open-sourc
 agent-created: true
 agent-reviewed: 2026-09-06
 summary: "calesthio/OpenMontage — agent-first video production system: 12 pipelines, 100+ tools, 700+ skill files that turn a coding agent into a full production studio; runs free with zero API keys via Piper, Remotion, HyperFrames and open archives. AGPLv3."
+status-checked: 2026-11-13
+project-status: active
 ---
 # OpenMontage
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There are 256 commits on main since 2026-09-06, with a batch of merges on 2026-11-08 and a new video provider on 2026-11-09.
+> **Last release:** no releases (commits only); the repo has no tags either · **last commit:** 2026-11-09 · **licence:** AGPL-3.0 (the LICENSE file is the GNU AGPLv3 text).
+> **Repo:** https://github.com/OpenMontageInc/OpenMontage — **moved/renamed:** yes: calesthio/OpenMontage -> OpenMontageInc/OpenMontage. GitHub redirects the old URL. The OpenMontageInc organisation was created on 2026-09-21; I did not find the exact transfer date.
+> **Changed since this note:** Since 2026-09-06 the repo moved to the OpenMontageInc organisation. The team announced OpenMontage Studio (discussion #892, 2026-11-03): a Windows desktop workspace in private alpha that the site says has a waitlist of 30,000+, plus an OpenMontage plugin for Claude Code and Codex.
 
 🗒️ **[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)** — an open-source, **agentic video production system**. There is no code orchestrator: your AI coding assistant *is* the orchestrator. It reads YAML pipeline manifests and Markdown "director skills", calls Python tools, self-reviews its own output, and pauses for your approval at every creative gate. Works with [[Claude Code]], [[Cursor]], Copilot, Windsurf and Codex. AGPLv3.
 

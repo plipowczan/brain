@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/heygen-comhyperframes Write HTML. Render video. Built for agents.md"
 agent-created: true
 summary: "HeyGen's open-source video rendering framework — write HTML + CSS + GSAP, render to MP4. First-class Claude Code / Codex / Cursor skills. Apache 2.0"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # HyperFrames
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There are 625 GitHub releases since 2026-03-25, often several a day: v0.9.37 to v0.9.41 shipped on 2026-11-12 and 2026-11-13.
+> **Last release:** v0.9.41, 2026-11-13 (GitHub release, also npm 'hyperframes' 0.9.41). · **last commit:** 2026-11-13 · **licence:** Apache-2.0 (root LICENSE) for the framework: CLI, core, engine, producer, Studio, player…
+> **Repo:** https://github.com/heygen-com/hyperframes — **moved/renamed:** The repo is unchanged. The hosted Studio, Playground and design gallery moved to hyperframes.studio (README links changed on 2026-10-27).
+> **Changed since this note:** At note time the latest release was v0.6.27 (2026-05-19). v0.7.0 (2026-06-22) added GSAP keyframe and motion-path editing in Studio and frame presets for skills. v0.8.0 (2026-08-17) made Plan v2 the default distributed transport…
 
 ## 🚀 Description
 

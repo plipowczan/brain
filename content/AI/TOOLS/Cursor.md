@@ -8,8 +8,16 @@ type: tool
 agent-reviewed: 2026-04-10
 agent-created: true
 summary: "AI-powered IDE based on VS Code with built-in coding agents"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Cursor
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Changelog entries on 2026-10-06, 10-13, 10-16, 10-20, 11-05 and 11-06, and the desktop app is at 3.30.
+> **Latest release:** Desktop app 3.30, marked 'Latest' on cursor.com/download (the page shows no release date). · **last dated update:** 2026-11-06 · **licence:** Proprietary SaaS plus a closed-source desktop app (VS Code fork).
+> **Source:** https://cursor.com/changelog
+> **Changed since this note:** Material: (1) ownership: SpaceX acquired Anysphere, deal closed 2026-08-14, with Grok models trained jointly (Grok 4.6, then Grok 4.7 announced 2026-09-21); (2) pricing: since 2026-10-12 new customers get X Subscription tiers (Plus \$8, Premium \$30, Super \$100, Ultra \$200), where Claude…
 
 AI-powered IDE built on VS Code with integrated coding agents.
 

@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-11-01_mattpocockskills Skills for Real Engineers. Straight from my .agents directory.md"
 agent-created: true
 summary: "mattpocock/skills — small composable engineering skills (grill-me, tdd, diagnosing-bugs, to-spec, code-review…) built around four agent failure modes; installs as a plugin on Claude Code, Codex, Copilot"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Matt Pocock Skills
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The last commit was on 2026-11-12 (a merged PR on the software-factory skill), and releases v1.3.0 and v1.3.1 (2026-10-04) and v1.3.2 (2026-10-29) shipped within the last six weeks.
+> **Last release:** v1.3.2 (2026-10-29). The CHANGELOG is managed with changesets, and the plugin auto-updates. · **last commit:** 2026-11-12 · **licence:** MIT
+> **Repo:** https://github.com/mattpocock/skills
+> **Changed since this note:** Since 2026-11-01 the only commits reword the beta `software-factory` skill in skills/in-progress (a glossary for designing a software factory, added 2026-10-31). The repo also has a skills/in-progress/ bucket the note doesn't mention: chief-of-staff, claude-handoff, loop-me, setup-ts-deep-modules…
 
 ## 🚀 Description
 

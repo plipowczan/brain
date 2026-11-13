@@ -8,8 +8,16 @@ type: tool
 source: "https://github.com/promptfoo/promptfoo"
 agent-created: true
 summary: "CLI + library for evaluating and red-teaming LLM apps — declarative test configs, side-by-side model comparison, and vulnerability scanning; MIT, now part of OpenAI"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Promptfoo
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits on main on 2026-11-13 added Bedrock pricing for GPT-6.1 Terra and GPT-6 Sol/Astra, plus dependency bumps.
+> **Last release:** 0.125.1, 2026-10-25 (GitHub release, and npm `promptfoo` 0.125.1 published 2026-10-25). · **last commit:** 2026-11-13 · **licence:** MIT (LICENSE and README badge). Commercial Enterprise (managed cloud) and On-Premise plans are custom-priced.
+> **Repo:** https://github.com/promptfoo/promptfoo
+> **Changed since this note:** At the note date the latest release was 0.121.19 (2026-07-14). (1) 0.122.0 (2026-08-04) dropped Node.js 20. package.json now requires node >=22.22.0, so the note's 'Node ^20.20.0 or >=22.x' line is out of date.
 
 `promptfoo/promptfoo` — a **CLI and library for evaluating and red-teaming LLM apps**. Two jobs: (1) **evals** — declarative configs that run your prompts/agents/RAGs across models and assert on the outputs, with side-by-side comparison of GPT / Claude / Gemini / DeepSeek etc.; (2) **red teaming / pentesting** — automated vulnerability and jailbreak scanning for AI systems. Built for the command line and CI/CD, so quality and safety checks become part of the pipeline rather than manual vibe-testing. Used by OpenAI and Anthropic; MIT-licensed; as of 2026 the company is **part of OpenAI** (project stays open source).
 

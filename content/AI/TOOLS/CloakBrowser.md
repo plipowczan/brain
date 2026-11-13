@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-07-06_CloakHQCloakBrowser Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 3030 tests passed.md"
 agent-created: true
 summary: "CloakHQ/CloakBrowser — stealth Chromium with 58-59 source-level C++ fingerprint patches; a drop-in Playwright/Puppeteer replacement (Python/JS/.NET) that passes reCAPTCHA v3, Cloudflare Turnstile, and FingerprintJS. MIT wrappers, delayed-free binary model."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # CloakBrowser
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Wrapper 0.7.2 shipped on 2026-11-10 and the latest Pro binary on 2026-11-03, with commits on 2026-11-12.
+> **Last release:** Wrapper v0.7.2 (2026-11-10), on PyPI and npm (cloakbrowser 0.7.2) and in CHANGELOG.md. · **last commit:** 2026-11-12 · **licence:** Dual. The Python, JS and .NET wrapper code is MIT. The Chromium binary is proprietary under BINARY-LICENSE.md v1.3…
+> **Repo:** https://github.com/CloakHQ/CloakBrowser
+> **Changed since this note:** At the note date there were 58-59 patches, a keyless free Chromium 146 binary on GitHub and Pro on Chromium 148. Now there are 87 source-level patches on Chromium 156.
 
 ## 🚀 Description
 

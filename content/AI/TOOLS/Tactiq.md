@@ -7,9 +7,17 @@ tags: ["tool", "ai", "transcription", "meetings", "productivity", "notes"]
 type: tool
 agent-created: true
 summary: "AI meeting transcription and summaries for Google Meet/Zoom/Teams — live transcripts, AI notes, action items; meeting-capture tool on the Tech To The Rescue engagement"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Tactiq
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Google's update API serves extension build 3.1.7556 today.
+> **Latest release:** Tactiq ships continuously and publishes no version notes. · **last dated update:** 2026-11-07 · **licence:** Proprietary SaaS with freemium per-seat pricing.
+> **Source:** https://tactiq.io/buy
+> **Changed since this note:** The note (2026-06-13) describes a Chrome extension with live transcripts, AI summaries and custom prompts. Today the product also includes the following: a hosted MCP server (https://mcp.tactiq.io) and a verified Claude connector in Claude's directory, plus a ChatGPT plugin…
 
 An AI meeting assistant that produces live **transcripts** and AI-generated summaries/action items for Google Meet, Zoom, and Microsoft Teams. It runs as a browser extension that captures the call in real time (no bot joining required), then turns the transcript into notes, summaries, and follow-ups you can search and share.
 

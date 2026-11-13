@@ -23,7 +23,7 @@ An AI-powered travel-podcast platform in two repos: a **generator** (Python/Fast
 - Python 3.11+, FastAPI, [[Celery]] on [[Redis]] for the task queue, [[Supabase]] (Postgres) for place/episode state.
 - **Research**: Google Maps/Places API (POIs), [[Perplexity]] API (facts), web scraping for vibe/critic content.
 - **LLM**: [[OpenAI]] GPT-5.5 for consensus synthesis and translation.
-- **TTS (multi-provider fallback)**: [[ElevenLabs]] (primary, multilingual) → OpenAI TTS → [[Chatterbox TTS|Chatterbox]] (local, torch-based, free).
+- **TTS (multi-provider fallback)**: [[ElevenLabs]] (primary, multilingual) → OpenAI TTS → Chatterbox (local, torch-based, free; retired upstream in August 2026, [[Pocket TTS]] is the maintained alternative).
 - **Audio**: FFmpeg normalization (stereo, 44.1 kHz, 192 kbps).
 
 ### Stack — Website
@@ -39,7 +39,7 @@ An AI-powered travel-podcast platform in two repos: a **generator** (Python/Fast
 - **Queue resilience**: `task_acks_late`, reject-on-worker-lost, a 2-hour visibility timeout, and explicit orphan-task detection in API endpoints to recover from broker hiccups. Agents check for existing output before re-running (resume-from-failure).
 
 ## 🔗 Links
-- [[Next.js]] · [[Supabase]] · [[Vercel]] · [[OpenAI]] · [[ElevenLabs]] · [[Chatterbox TTS]] · [[Perplexity]] · [[Resend]] · [[Cloudflare]] · [[Tailwind CSS]] · [[shadcn-ui|shadcn/ui]] · [[Celery]] · [[Redis]] · [[Git]]
+- [[Next.js]] · [[Supabase]] · [[Vercel]] · [[OpenAI]] · [[ElevenLabs]] · Chatterbox TTS · [[Perplexity]] · [[Resend]] · [[Cloudflare]] · [[Tailwind CSS]] · [[shadcn-ui|shadcn/ui]] · [[Celery]] · [[Redis]] · [[Git]]
 - [[TTS Engines Comparison (Polish)]] — TTS provider/quality research relevant to the audio layer
 - [[GPT Image 2 + Seedance Workflow]] — sibling AI-media generation pattern
 - [[Dev Libraries & Build Tools]] (FFmpeg, Zod, Vitest) · [[Marketing, Sales & Publishing SaaS]] (Unsplash)

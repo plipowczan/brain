@@ -9,8 +9,16 @@ source: "_raw/processed/2026-09-06_stablyaiorca Orca is the ADE for working with
 agent-created: true
 agent-reviewed: 2026-10-01
 summary: "stablyai/orca — free MIT desktop ADE for running a fleet of coding agents in parallel, each in its own git worktree, with a mobile companion for steering them from your phone, click-to-prompt Design Mode, native GitHub/Linear and SSH worktrees."
+status-checked: 2026-11-13
+project-status: active
 ---
 # Orca
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** 61 desktop releases shipped between v1.4.197 (2026-09-04, the current version at note time) and v1.4.258 (2026-11-13).
+> **Last release:** v1.4.258 (2026-11-13). Desktop releases ship near-daily, with separate mobile-android-v* tags for the Android… · **last commit:** 2026-11-13 · **licence:** MIT (copyright Lovecast Inc., the company behind Stably).
+> **Repo:** https://github.com/stablyai/orca
+> **Changed since this note:** The version went from v1.4.197 to v1.4.258, and the scope grew from a parallel-worktree ADE into an orchestrator. New: a Chat UI next to the raw terminal, with conversations movable between the two (Copilot Chat arrived in 1.4.258).
 
 🗒️ **[stablyai/orca](https://github.com/stablyai/orca)** — *"the ADE for working with a fleet of parallel agents."* A free, open-source desktop app (macOS/Windows/Linux) that runs Codex, [[Claude Code]], OpenCode, Pi and **any CLI agent** side by side, each in its own git worktree, tracked in one place. Runs on your own subscriptions. MIT.
 

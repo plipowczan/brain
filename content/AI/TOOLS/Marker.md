@@ -8,8 +8,16 @@ type: tool
 source: "https://github.com/datalab-to/marker"
 agent-created: true
 summary: "Datalab's document-intelligence converter — PDF/image/PPTX/DOCX/XLSX/HTML/EPUB → markdown, JSON, chunks or HTML with high accuracy, via a single Surya VLM; Apache-2.0 code"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Marker
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** v2.1.0 shipped 2026-10-29 and v2.2.0 on 2026-11-12, both on GitHub and PyPI. A CLA sign-off and community bugfix merges also landed in November.
+> **Last release:** v2.2.0, 2026-11-12 (GitHub release and PyPI marker-pdf 2.2.0) · **last commit:** 2026-11-12 · **licence:** Dual. The code is Apache-2.0 (changed from GPL on 2026-07-17, before the note).
+> **Repo:** https://github.com/datalab-to/marker
+> **Changed since this note:** The note (2026-07-24) was written just after v2.0.0 (2026-07-20). v2.0.0 was the rewrite: Python 3.10+, Poetry replaced by uv, the structured-extraction converter removed, and the default mode chosen by device. v2.1.0 (2026-10-29) made Surya 2.5 (datalab-to/surya-ocr-2.5, about 0.69B parameters) the default VLM…
 
 `datalab-to/marker` — a **document-intelligence converter** from Datalab that turns PDF, image, PPTX, DOCX, XLSX, HTML, and EPUB files into clean **markdown, JSON, chunks, or HTML**, in all languages. It formats tables, forms, equations (inline + block math), links, references, and code blocks, and extracts/saves embedded images. Layout, OCR, and table recognition run through a single **Surya VLM** served by a local inference server (vLLM on NVIDIA GPUs, llama.cpp elsewhere).
 

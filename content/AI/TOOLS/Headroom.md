@@ -9,9 +9,17 @@ source: "_raw/processed/2026-06-14_yt-zjFE-dBzP_E_you-need-to-try-these-open-sou
 agent-created: true
 agent-reviewed: 2026-06-19
 summary: "chopratejas/headroom — compresses everything an AI agent reads (tool outputs, logs, RAG chunks, files, history) before it hits the LLM. 60–95% fewer tokens, same answers. Library, proxy, or MCP. Apache 2.0."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Headroom
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits landed on main on 2026-11-12 and 2026-11-13, and releases ship every one to two weeks (v0.42.0 2026-10-26, v0.43.0/0.43.1 2026-11-05, v0.44.0 2026-11-10).
+> **Last release:** v0.44.0, 2026-11-10 (GitHub release; CHANGELOG dates it 2026-11-09). · **last commit:** 2026-11-13 · **licence:** Apache-2.0 for the whole repo (LICENSE + NOTICE); the README states everything in the repo stays Apache-2.0.
+> **Repo:** https://github.com/headroomlabs-ai/headroom — **moved/renamed:** Yes. The repo was transferred from chopratejas/headroom to the headroomlabs-ai organisation, between v0.27.0 (2026-06-22, last CHANGELOG entry with chopratejas compare links) and v0.28.0 (2026-06-29, first with headroomlabs-ai links)…
+> **Changed since this note:** Large changes between v0.25/0.26 (note time) and v0.44.0. (1) Ownership: moved to the headroomlabs-ai org with a company and an Enterprise upsell; the README now says Headroom OSS 'saves less than it could' and points teams to Headroom Enterprise.
 
 ## 🚀 Description
 

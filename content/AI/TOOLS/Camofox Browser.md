@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-06-14_yt-RegzpFdW8pM_10-github-repos-so-good-they-shouldn-t-be-free-and-the-paid.md"
 agent-created: true
 summary: "jo-inc/camofox-browser — stealth headless browser for AI agents, built on the Camoufox Firefox fork. Beats bot detection at the C++ level and returns pages as an accessibility tree instead of raw HTML, cutting agent token cost ~90%. Drop-in Puppeteer/Playwright replacement."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Camofox Browser
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Eight feature releases since the note date, v1.12.0 (2026-07-19) through v1.19.0 (2026-11-10), most recently v1.18.1 on 2026-10-05 and v1.19.0 on 2026-11-10.
+> **Last release:** v1.19.0 'Agent tooling, reliability, and hardening' (2026-11-10)… · **last commit:** 2026-11-10 · **licence:** MIT for the camofox-browser server. The Camoufox browser engine it downloads (daijro/camoufox) is MPL-2.0.
+> **Repo:** https://github.com/jo-inc/camofox-browser
+> **Changed since this note:** At the note date (2026-06-14) the latest release was v1.11.2 (2026-05-24). Since then: v1.12 brought production reliability work from Jo. v1.13 added persistence and browser recovery. v1.13.1 added a standalone MCP adapter (@askjo/camofox-browser-mcp) for Claude Code, Codex, Cursor and OpenCode…
 
 ## 🚀 Description
 

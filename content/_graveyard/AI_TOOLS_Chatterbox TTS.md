@@ -7,9 +7,21 @@ tags: ["tool", "ai", "tts", "text-to-speech", "open-source", "local", "voice"]
 type: tool
 agent-created: true
 summary: "Open-source, local, torch-based text-to-speech with voice cloning — the free final-tier fallback in Travelcast AI's TTS chain"
+status-checked: 2026-11-13
+project-status: dead
+archived: 2026-11-13
+archived-reason: "dead: retired by Resemble AI as unmaintained research in August 2026; free local fallback now Pocket TTS; status check 2026-11-13, confirmed by Paweł"
 ---
 
 # Chatterbox TTS
+
+> [!danger] Status check 2026-11-13 — dead
+> **Verdict:** The README update of 2026-11-04 declares the project retired research, no longer maintained, as of August 2026.
+> **Last release:** PyPI chatterbox-tts 0.1.7, 2026-03-26. The last GitHub release is v0.1.2 (2025-06-13). · **last commit:** 2026-11-04 · **licence:** MIT (code and the Hugging Face weights). Generated audio carries Resemble's Perth imperceptible watermark.
+> **Repo:** https://github.com/resemble-ai/chatterbox
+> **Retired:** Deprecated. The README now says: 'As of August 2026, Chatterbox is retired research and is no longer maintained.' The code stays public as an archive under MIT with no support, updates or paid tier.
+> **Use instead:** There is no official successor. The frozen MIT weights still work, so an existing pipeline can keep running, but expect no fixes as PyTorch and Transformers move on.
+> **Changed since this note:** Resemble AI pivoted to deepfake detection (blog post 2026-08-13), and the README now marks Chatterbox as unmaintained research as of August 2026 (commit 2026-11-04). Just before and after the note, new models were published: Chatterbox Multilingual V3 (23+ languages including Polish, 500M…
 
 An open-source, locally-runnable text-to-speech model (from Resemble AI), built on PyTorch. It does zero-shot voice cloning and expressive speech, runs on your own GPU/CPU with no per-character API fee, and is permissively licensed. The trade-off versus cloud TTS is quality/latency for **cost and control** — which is exactly what makes it valuable as a safety-net tier.
 

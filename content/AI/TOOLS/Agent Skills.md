@@ -9,9 +9,17 @@ source: "_raw/inbox/anthropicsskills Public repository for Agent Skills.md"
 agent-created: true
 agent-reviewed: 2026-07-12
 summary: "Anthropic's system for dynamically loading specialized instructions into Claude — reusable, cross-harness skill packages"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Agent Skills
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** anthropics/skills got commits on 2026-10-09, 2026-10-28 and 2026-11-06: claude-api and mcp-builder updates and the Office licence change.
+> **Last release:** no releases (commits only) in either repo. · **last commit:** 2026-11-06 · **licence:** anthropics/skills has no root licence, only per-skill LICENSE.txt files.
+> **Repo:** https://github.com/anthropics/skills — **moved/renamed:** The spec's ownership moved. Anthropic donated Agent Skills (the name, logo, agentskills GitHub org and agentskills.io domain) to the Agentic AI Foundation under the Linux Foundation, announced on 2026-10-22.
+> **Changed since this note:** (1) The four Office document skills (docx, pdf, pptx, xlsx) are now Apache-2.0; the note says they are source-available, not open source. (2) The spec was donated to the AAIF (Linux Foundation).
 
 Skills are folders of instructions, scripts and resources that Claude loads **dynamically** to do specialized work better. Instead of stuffing everything into the system prompt — **progressive disclosure**: the agent gains access to specific instructions only when it (or the user) decides they are needed.
 

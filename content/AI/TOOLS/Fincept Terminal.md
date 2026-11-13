@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-06-14_yt-RegzpFdW8pM_10-github-repos-so-good-they-shouldn-t-be-free-and-the-paid.md"
 agent-created: true
 summary: "Fincept-Corporation/FinceptTerminal — open-source Bloomberg Terminal replacement that runs on your laptop. CFA-level analytics, 100+ data connectors (Polygon, World Bank, IMF), and 37 AI investor agents modeled on Buffett/Munger/Graham/Lynch. ~24k stars, free."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Fincept Terminal
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** v4.5.2 shipped 2026-11-09 after monthly releases since July (v4.2.0 2026-07-07 through v4.5.1 2026-10-13).
+> **Last release:** v4.5.2, 2026-11-09. Earlier releases: v4.5.1 2026-10-13, v4.5.0 2026-09-01, v4.4.1 2026-08-20… · **last commit:** 2026-11-13 · **licence:** AGPL-3.0-or-later. The LICENSE file is the plain AGPL-3.0 text with no added terms.
+> **Repo:** https://github.com/Fincept-Corporation/FinceptTerminal
+> **Changed since this note:** Six releases since the note (v4.1.0 was current then): v4.2.0 through v4.5.2. v4.2.0 (2026-07-07) wired many Python analytics libraries into the M&A/analytics service: statsmodels, FFN, Functime, PyPortfolioOpt, GS Quant, Fortitudo, PyPME, PyVollib…
 
 ## 🚀 Description
 

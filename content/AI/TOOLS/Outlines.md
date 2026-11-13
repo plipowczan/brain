@@ -8,8 +8,16 @@ type: tool
 source: "https://github.com/dottxt-ai/outlines"
 agent-created: true
 summary: "dottxt's structured-generation library — constrains LLM decoding to a schema/regex/grammar so outputs are valid by construction (JSON, types, FSM), not fixed up after the fact"
+status-checked: 2026-11-13
+project-status: maintained
 ---
 # Outlines
+
+> [!success] Status check 2026-11-13 — maintained
+> **Verdict:** The last release was 1.3.3 on 2026-08-06 and the last merge to main was on 2026-08-24, 81 days ago.
+> **Last release:** 1.3.3, 2026-08-06 (GitHub release 'Outlines v1.3.3' and PyPI outlines 1.3.3) · **last commit:** 2026-08-24 · **licence:** Apache-2.0. dottxt sells separate proprietary products: .lambda (constrained decoding running inside vLLM…
+> **Repo:** https://github.com/dottxt-ai/outlines — **moved/renamed:** The repo has not moved. The company's domains moved from dottxt.co to dottxt.ai: dottxt.co, docs.dottxt.co and blog.dottxt.co now 301-redirect to the .ai equivalents, so the note's company links still resolve.
+> **Changed since this note:** Small in the code, larger in the project's trajectory. 1.3.3 (2026-08-06) added PEP 604 union output types (int | str), new custom types (hex_color, slug, plus iban, bic, e164 and latitude/longitude merged around the same time) and many type, regex…
 
 `dottxt-ai/outlines` — a Python library for **structured generation**: instead of parsing and repairing an LLM's free-text output after the fact, Outlines **constrains the decoding process itself** so the model can only emit tokens valid under your schema, regex, type, or grammar. The output is correct *by construction* — guaranteed-valid JSON, enums, or arbitrary context-free grammars.
 

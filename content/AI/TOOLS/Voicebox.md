@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/jamiepinevoicebox The open-source AI voice studio. Clone, dictate, create.md"
 agent-created: true
 summary: "Local-first AI voice studio — free OSS alternative to ElevenLabs + WisprFlow in one app. 7 TTS engines, 23 languages, voice cloning, MCP-aware agent voice output"
+status-checked: 2026-11-13
+project-status: maintained
 ---
 
 # Voicebox
+
+> [!success] Status check 2026-11-13 — maintained
+> **Verdict:** The last commit on main was 2026-10-07, 37 days ago, which puts it inside the 90-day window but outside 30 days.
+> **Last release:** v0.5.0, 2026-04-25 ('The Capture release'), which is still the latest GitHub release and tag. · **last commit:** 2026-10-07 · **licence:** MIT. The local app is free with no account.
+> **Repo:** https://github.com/jamiepine/voicebox
+> **Changed since this note:** The note (2026-05-19) lists 7 TTS engines and the MCP tool 'voicebox.speak'. Since then, 0.6.0 (CHANGELOG, 2026-10-04, untagged) is a stability release.
 
 ## 🚀 Description
 

@@ -7,9 +7,17 @@ tags: ["tool", "ai", "app-builder", "no-code", "vibe-coding", "fullstack"]
 type: tool
 agent-created: true
 summary: "AI full-stack app builder — describe an app in chat, get a deployed React+Supabase MVP; the Builder-track tool taught in Value Builders"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Lovable
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The changelog has entries almost every day: eight between 2026-11-10 and 2026-11-12 (Automations, personal skills and memory, credit renewal dates, new connectors).
+> **Latest release:** Continuous delivery with no version numbers. · **last dated update:** 2026-11-12 · **licence:** Proprietary SaaS with credit-based freemium pricing.
+> **Source:** https://docs.lovable.dev/changelog
+> **Changed since this note:** Since 2026-06-13: a Windows desktop app (Jul 6) alongside macOS, and mobile apps. Agent runs can now work on one message for up to 10 hours, with a /goal command (Aug 26 and Aug 30).
 
 An AI app builder: you describe what you want in natural language and it generates a working full-stack web app — [[React]] + [[Tailwind CSS]] + [[shadcn-ui|shadcn/ui]] frontend, [[Supabase]] backend, deployable in-platform, with the option to sync to GitHub. It targets non-engineers and fast prototyping: the "vibe" of building software by conversation rather than code, getting to a visible, functional MVP in minutes.
 

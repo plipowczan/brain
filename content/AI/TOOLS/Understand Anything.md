@@ -8,9 +8,17 @@ type: tool
 source: "_raw/processed/2026-06-19_egonex-understand-anything-readme.md"
 agent-created: true
 summary: "Egonex-AI/Understand-Anything — Claude Code plugin (and multi-platform skill) that turns any codebase, docs, or LLM wiki into an interactive knowledge graph via a multi-agent Tree-sitter+LLM pipeline. Explore, search, ask, diff-impact. MIT."
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Understand Anything
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits land almost daily on main: 2026-11-13 (code-lessons merge #753), 2026-11-07 (Devin support), 2026-11-06 (MCP server fixes).
+> **Last release:** v2.9.0 ('Figma design graphs + .ua data directory'), 2026-07-10. · **last commit:** 2026-11-13 · **licence:** MIT (LICENSE and README footer: © Yuxiang Lin and Infinite Universe, Inc.)
+> **Repo:** https://github.com/Egonex-AI/Understand-Anything
+> **Changed since this note:** v2.9.0 (2026-07-10) added a /understand-figma mode that turns a Figma file into a design graph (pages, screens, components, tokens) through a new design-analyzer agent. The same release moved the data directory to .ua/ (backward compatible), added Dart, Scala, Swift and Kotlin parsing and Kiro…
 
 ## 🚀 Description
 

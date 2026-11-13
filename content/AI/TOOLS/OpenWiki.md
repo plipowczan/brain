@@ -8,8 +8,17 @@ type: tool
 source: "_raw/processed/2026-07-05_langchain-aiopenwiki OpenWiki is a CLI that writes and maintains agent documentation for your codebase.md"
 agent-created: true
 summary: "langchain-ai/openwiki — a CLI that writes and maintains agent documentation for your codebase; appends a reference block to AGENTS.md/CLAUDE.md and ships a GitHub Action that opens a daily doc-update PR"
+status-checked: 2026-11-13
+project-status: active
 ---
 # OpenWiki
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits on main through 2026-11-12, including the repo's own daily "docs: update OpenWiki" PRs and features such as an OpenRouter base-URL override on 2026-11-11.
+> **Last release:** v0.9.0 (2026-11-05), GitHub release and npm openwiki 0.9.0 · **last commit:** 2026-11-12 · **licence:** MIT
+> **Repo:** https://github.com/langchain-ai/openwiki
+> **Changed since this note:** The note was written the day 0.0.1 shipped; the current version is 0.9.0. The tool grew from a code-doc CLI into "a living wiki for your code, your agents, and you": (1) Coding-agent integrations (`openwiki integrations install codex|claude|opencode|cursor|copilot|kiro|bob|antigravity|omp`, plus Pi).
+
 **langchain-ai/openwiki** — an open-source CLI that writes and maintains documentation for your codebase, **built specifically for agents**. It generates a wiki under `openwiki/`, keeps it current as the repo changes, and wires your coding agent to consult it. Where [[OpenKB]] compiles *arbitrary documents* into a personal wiki, OpenWiki is narrowed to one job: keep an always-current **agent-facing map of the code**. That makes it the packaged, LLM-driven counterpart of the hand-written [[DOX — Self-Documenting AGENTS.md|DOX]] doc tree.
 
 ## Links

@@ -7,9 +7,17 @@ tags: ["tool", "ai", "model-inference", "image-generation", "api", "ml-hosting"]
 type: tool
 agent-created: true
 summary: "Run open and commercial ML models via one API — image gen, upscaling, audio, more; the hosted-inference fallback in Qamera AI and image generation in AGRE"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Replicate
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Cog shipped v0.23.0 on 2026-09-22 and v0.23.1 on 2026-10-20, with commits on main on 2026-10-27.
+> **Last release:** Cog v0.23.1, 2026-10-20 (GitHub releases, marked Latest). · **last commit:** 2026-10-27 · **licence:** Cog: Apache-2.0. Replicate platform: proprietary SaaS, pay per use.
+> **Source:** https://replicate.com/changelog
+> **Changed since this note:** The note does not mention the Cloudflare ownership, which predates it (announced 2025-11-17, 'officially part of Cloudflare' 2025-12-01). On 2026-04-16 Cloudflare said the Replicate team had joined its AI Platform team and that work to replatform hosted models onto Cloudflare and expose them through AI Gateway was…
 
 A platform for running machine-learning models in the cloud through **one consistent API**. Thousands of community and commercial models (image generation, upscaling, background removal, audio, video, LLMs) are packaged so you can call any of them with a simple HTTP request — no GPUs to provision, pay per run. You can also push your own models (packaged with Cog) and get an instant scalable endpoint.
 

@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.md"
 agent-created: true
 summary: "Garry Tan's (YC) opinionated Claude Code stack — 23+ skills as a virtual team (CEO/Designer/EngMgr/QA/SRE), MIT, sprint-driven (Think→Plan→Build→Review→Test→Ship→Reflect)"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # gstack
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Commits land daily; the latest is from 2026-11-12.
+> **Last release:** v1.99.2.0, 2026-11-12 (GitHub release). Tags and GitHub Releases exist only from v1.91.242.0 (2026-10-26) on… · **last commit:** 2026-11-12 · **licence:** MIT. The README says 'Free, MIT licensed, open source.
+> **Repo:** https://github.com/garrytan/gstack
+> **Changed since this note:** VERSION was 1.26.0.0 at the note date (2026-05-02) and is now 1.99.2.0. The skill count grew from 23+ to about 60 top-level skills.
 
 `garrytan/gstack` — **23+ opinionated skills for [[Claude Code]]** from Garry Tan (CEO of Y Combinator). Turns Claude Code into a virtual team: a CEO who thinks the problem through, an eng manager who freezes the architecture, a designer who catches AI slop, a reviewer hunting production bugs, a QA opening a real browser, a security officer (OWASP+STRIDE), a release engineer opening the PR. Everything as slash commands in Markdown, MIT licensed.
 

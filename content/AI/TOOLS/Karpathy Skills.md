@@ -8,8 +8,16 @@ type: tool
 source: "_raw/inbox/forrestchangandrej-karpathy-skills A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.md"
 agent-created: true
 summary: "A single CLAUDE.md addressing 4 typical LLM-coder pitfalls per Karpathy: assumptions, overengineering, scope creep, weak goals"
+status-checked: 2026-11-13
+project-status: done
 ---
 # Karpathy Skills
+
+> [!info] Status check 2026-11-13 — done
+> **Verdict:** The last commit and the last merged PR (#95, Chinese README sync) are from 2026-04-20, 207 days ago.
+> **Last release:** No releases (commits only). plugin.json and marketplace.json are still at version 1.0.0. · **last commit:** 2026-04-20 · **licence:** MIT, as stated in the README and in .claude-plugin/plugin.json.
+> **Repo:** https://github.com/multica-ai/andrej-karpathy-skills — **moved/renamed:** Yes: forrestchang/andrej-karpathy-skills -> multica-ai/andrej-karpathy-skills. It is the same repository (created 2026-01-27), now under the author's Multica org, and the old URL redirects.
+> **Changed since this note:** CLAUDE.md and the four rules have not changed since the note (2026-04-26), and the last commits (Cursor rule, Chinese README) predate it. The repo is now addressed as multica-ai/andrej-karpathy-skills, and Awesome Claude Code lists it under that name in 'Start Here'.
 
 `forrestchang/andrej-karpathy-skills` — a single `CLAUDE.md` with 4 rules that directly address [Andrej Karpathy's](https://x.com/karpathy/status/2015883857489522876) observations on where LLM coders fall down. Distributed as a Claude Code plugin or for appending to an existing CLAUDE.md.
 

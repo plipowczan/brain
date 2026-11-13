@@ -8,9 +8,17 @@ type: tool
 source: "_raw/inbox/nexu-ioopen-design 🎨 Local-first, open-source alternative to Anthropic's Claude Design.md"
 agent-created: true
 summary: "nexu-io/open-design — local-first OSS alternative to Claude Design: 16 CLI agents, 31 skills, 72+ design systems, HTML/PDF/PPTX/MP4 export, BYOK"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Open Design
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Stable releases ship every one to two weeks: 0.25.0 (2026-10-15), 0.26.0 (10-20), 0.26.1 (10-22), 0.27.0 (11-04) and 0.27.1 (11-10).
+> **Last release:** open-design-v0.27.1, 2026-11-10 (stable). · **last commit:** 2026-11-13 · **licence:** Apache-2.0 for the repo. Bundled templates and skills keep their own licences (for example MIT for…
+> **Repo:** https://github.com/nexu-io/open-design — **moved/renamed:** The repo is unchanged. The product was rebranded from 'Open Design: local-first, open-source alternative to Anthropic's Claude Design' to 'OpenDesign: The 1st Collaborative AI Design Agent Workspace'.
+> **Changed since this note:** It moved from 0.8.0-preview to 0.27.1, and both scope and business model changed. 0.8.0 (2026-05-22) added plugin-marketplace infrastructure (261 official plugins). 0.9.0 (2026-06-02) added OpenDesign Cloud, a built-in hosted model service with one-click sign-in…
 
 > Open-source, local-first alternative to **Claude Design** (Anthropic, Apr 2026, Opus 4.7). Apache-2.0, BYOK at every layer, **16 coding-agent CLIs** auto-detected from `PATH` become the design engine, driven by **31 composable Skills** + **72+ Design Systems**. 40k stars in 2 weeks. Repo: https://github.com/nexu-io/open-design
 

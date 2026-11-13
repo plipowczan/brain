@@ -8,8 +8,16 @@ type: tool
 source: "_raw/processed/2026-10-15_2026-10-15-research-meme-generation-for-coding-agents.md"
 agent-created: true
 summary: "meme-maker skill in openclaw/openclaw — a 3-file MIT skill with a curated registry of ~20 templates, local SVG/PNG rendering and an Imgflip mode; the best base to fork for a Claude Code meme skill"
+status-checked: 2026-11-13
+project-status: active
 ---
 # OpenClaw Meme Maker
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** The skill folder has six commits, from 2026-05-17 to 2026-11-11.
+> **Last release:** The skill has no release of its own; it ships inside OpenClaw. · **last commit:** 2026-11-11 · **licence:** MIT (OpenClaw repo licence). The skill deliberately ships no template images.
+> **Repo:** https://github.com/openclaw/openclaw/tree/main/skills/meme-maker
+> **Changed since this note:** Two small bug fixes to scripts/meme.mjs. First, 4d66ae9 (2026-11-09, #195929): rotated captions on Two Buttons, Left Exit 12 and Change My Mind used to be offset twice and drift 19-27 px out of their boxes.
 
 🗒️ The **`meme-maker` skill** in [openclaw/openclaw](https://github.com/openclaw/openclaw/tree/main/skills/meme-maker) is a small MIT skill (3 files) that turns a joke topic into a captioned meme. It ships a **curated registry of about 20 templates** with named fields, hand-placed text boxes and a "use" line each, and it **does not ship copyrighted template images**: in local mode it downloads and caches them, writes SVG and rasterises to PNG with Playwright. An Imgflip mode is also available. It is the closest thing to a ready design reference I found for an agent-picks-template skill, and the cheapest base to fork in the [[Meme Generation for Coding Agents]] plan.
 

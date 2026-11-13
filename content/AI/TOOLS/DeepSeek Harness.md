@@ -9,8 +9,16 @@ source: "_raw/processed/2026-09-06_deepseek-aideepseek-harness DeepSeek Harness 
 agent-created: true
 agent-reviewed: 2026-09-06
 summary: "deepseek-ai/deepseek-harness (dsh) — DeepSeek AI's open agent harness built on an everything-is-a-plugin architecture over the Cordis framework; Web UI on localhost:3080. Developer preview, MIT."
+status-checked: 2026-11-13
+project-status: active
 ---
 # DeepSeek Harness
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There were 39 prereleases between 2026-08-17 and 2026-11-13, including rc.1 (2026-11-04), rc.2 (2026-11-11) and rc.3 (2026-11-13).
+> **Last release:** No stable release yet, only prereleases. The newest GitHub prerelease is dsh-v0.2.2-rc.3 (2026-11-13)… · **last commit:** 2026-11-13 · **licence:** MIT (LICENSE; third-party licences listed in THIRD_PARTY_NOTICES.md).
+> **Repo:** https://github.com/deepseek-ai/deepseek-harness
+> **Changed since this note:** Two prerelease minor lines since the note (about 0.1.3-alpha at 2026-09-06 -> 0.2.0-rc.1 on 2026-09-28 -> 0.2.1 rc series -> 0.2.2-rc.3). Material additions: (1) desktop apps for macOS (Apple silicon) and Windows x64 with in-app updates, alongside the Web UI, so it is no longer just localhost:3080…
 
 🗒️ **[deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)** (`dsh`) — an open-source **agent harness** from DeepSeek AI, built on an **everything-is-a-plugin** architecture and powered by [Cordis](https://github.com/cordiverse/cordis), whose design is written up in *[A Programming Paradigm for Spatiotemporal Composability](https://arxiv.org/abs/2608.25512)*. MIT.
 

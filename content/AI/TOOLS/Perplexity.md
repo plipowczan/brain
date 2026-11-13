@@ -7,9 +7,18 @@ tags: ["tool", "ai", "research", "search", "rag", "api", "llm"]
 type: tool
 agent-created: true
 summary: "AI answer engine with a search-grounded API (Sonar) — returns cited, up-to-date factual answers; the research/fact layer in Travelcast AI and the Jakub Głąb agent"
+status-checked: 2026-11-13
+project-status: active
 ---
 
 # Perplexity
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** Monthly changelog sections from June to November 2026 add models and APIs.
+> **Latest release:** The newest changelog section is 'November 2026', which gives no day. · **last dated update:** 2026-11-11 · **licence:** Proprietary SaaS, pay as you go. The Agent API bills the underlying model's tokens at published rates…
+> **Source:** https://docs.perplexity.ai/docs/resources/changelog — **moved/renamed:** Yes, at the API product level. The Sonar API the note describes was folded into the Agent API. The 2026-08-13 'Agent API' post announced it, and Sonar tiers were retired on 2026-09-27.
+> **Successor / fallback:** Within Perplexity, the Agent API replaces Sonar. The migration guide maps Sonar -> fast, Sonar Pro -> fast, Sonar Reasoning Pro -> low and Sonar Deep Research -> high, and recommends xhigh for deep research.
+> **Changed since this note:** Material, and breaking for the note's setup. (1) The note's integration (OpenAI Chat Completions shape, base_url api.perplexity.ai, model 'sonar') is retired: Sonar tiers ended on 2026-09-27.
 
 An AI "answer engine": instead of a list of links it returns a synthesized, **cited** answer grounded in a live web search. The product is the consumer app, but what I use is the **Sonar API** — an OpenAI-compatible endpoint that performs retrieval + synthesis in one call and returns the answer with its sources. It's the pragmatic way to give an agent fresh, factual, attributable information without building your own search+RAG stack.
 

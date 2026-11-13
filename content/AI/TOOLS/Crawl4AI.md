@@ -8,8 +8,16 @@ type: tool
 source: "https://github.com/unclecode/crawl4ai"
 agent-created: true
 summary: "Open-source LLM-friendly web crawler & scraper — turns the web into clean, LLM-ready markdown for RAG, agents and data pipelines; async, controllable, Docker/FastAPI, 50k+ stars"
+status-checked: 2026-11-13
+project-status: active
 ---
 # Crawl4AI
+
+> [!success] Status check 2026-11-13 — active
+> **Verdict:** There were commits on develop on 2026-11-12 and on main on 2026-11-04.
+> **Last release:** v0.9.5 (2026-10-14), on GitHub Releases, PyPI (crawl4ai 0.9.5… · **last commit:** 2026-11-04 · **licence:** Apache-2.0, plus an 'Attribution Requirement' section appended to LICENSE that requires crediting UncleCode/Crawl4AI in…
+> **Repo:** https://github.com/unclecode/crawl4ai
+> **Changed since this note:** At the note date the version was v0.9.2. Since then: v0.9.3, v0.9.4 and v0.9.5 were security releases closing 14 coordinated-disclosure advisories in the Docker server's handling of untrusted request bodies.
 
 `unclecode/crawl4ai` — an open-source **LLM-friendly web crawler and scraper** that turns web pages into **clean, LLM-ready markdown** for RAG, agents, and data pipelines. Fast, controllable, and self-hostable, with no rate-limited API and no lock-in: you own the pipeline. Runs as a Python package or a Dockerized **FastAPI** server; ~50k+ stars. Recent releases (v0.8.x–v0.9.x) hardened the Docker API to **secure-by-default** (auth on, loopback binding, request body treated as an untrusted boundary).
 
