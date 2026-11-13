@@ -86,6 +86,7 @@ For agent-generated video — product intros, vertical TikTok hooks, animated ch
 - [[10 Free GitHub Repos That Replace Paid Tools]] — listed as #10 (vs Remotion)
 - [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
 - [[Meme Generation for Coding Agents]] — tested for a 480x480 Polish GIF meme: 5.3 s render, a root-element background turns transparent in GIF mode, lint rejects fonts without `@font-face`, telemetry on by default
+- [[Stage Show — Benji Taylor's Demo Design Skill (AI LABS)]] — frame-sheet self-check for motion, an idea worth borrowing for rendered video
 
 ---
 Template: [[templates/tool]]

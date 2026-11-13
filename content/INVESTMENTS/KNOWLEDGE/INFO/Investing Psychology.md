@@ -168,6 +168,7 @@ The strategy these defenses protect lives in [[Investment Strategies]]; the stru
 - Carl Richards, *The Behavior Gap* (2012)
 - Michael Kitces / Wade Pfau — critique of the DALBAR behavior-gap methodology (kitces.com)
 - Related: [[Bear Markets — 100 Years of History]] · [[Cognitive Biases in Investing]] · [[Investment Strategies]] · [[Asset Allocation and Diversification]] · [[What mistakes I made on the crypto market in 2021-2022]] · [[Crypto Market State 2026]] · [[Midterms 2026 Market Setup (Felix Prehn)]] (AAII sentiment as a contrarian signal, plus urgency framing to recognise)
+- See also: [[Mechanical Crash Thursday — Cymcyk on Buying Panic]] (Cymcyk, Nov 2026: a one-day forced-liquidation flush and what such days led to)
 
 ---
 Template: [[templates/knowledge_note_info]]

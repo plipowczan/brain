@@ -46,6 +46,7 @@ In practice the sensible stack is: **UX RULER** for decisions and product memory
 - [[UI UX Pro Max]] — related tool generating design system + reasoning rules
 - [[Awesome Agent Skills]] — curated list where skills like UX RULER are indexed
 - [[Spec-driven SEO and GEO]] — related pattern: methodology recorded as files in the repo
+- [[Stage Show — Benji Taylor's Demo Design Skill (AI LABS)]] — a narrow design skill: animated product demos with a record-and-check loop
 
 ---
 Template: [[templates/knowledge_note_info]]

@@ -62,7 +62,7 @@ For me this stays in the *watch* column until the breaking-change window closes.
 - 🔗 [Documentation](https://deepseek-harness.github.io/deepseek-harness/) · [Architecture docs](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.md) · [Development guide](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/development.md)
 - 🔗 [Cordis](https://github.com/cordiverse/cordis) · [the paradigm paper](https://arxiv.org/abs/2608.25512)
 - 🔗 [Discord](https://discord.gg/Ycq5dCaS4) · [Discussions](https://github.com/deepseek-ai/deepseek-harness/discussions)
-- 📖 Related: [[Harness Engineering]] · [[Agent Skills]] · [[Archify]] · [[Claude Code]]
+- 📖 Related: [[Harness Engineering]] · [[Agent Skills]] · [[Archify]] · [[Claude Code]] · [[DSH Superagent]]
 
 ---
 Template: [[templates/tool]]

@@ -62,6 +62,7 @@ What it adds on top of a base design skill:
 - Skill ecosystem: [[Agent Skills]]
 - Follow @pbakaus on Twitter for release notes and lint-rule highlights
 - [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
+- [[Stage Show — Benji Taylor's Demo Design Skill (AI LABS)]] — narrower sibling: Benji Taylor's skill just for animated landing-page product demos
 
 ---
 Template: [[templates/tool]]

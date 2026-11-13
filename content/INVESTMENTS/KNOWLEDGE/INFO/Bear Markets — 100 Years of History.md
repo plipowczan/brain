@@ -321,6 +321,7 @@ Since the moment can't be predicted, think in **scenarios**: not "when" but "wha
 - Charles Kindleberger & Robert Aliber, *Manias, Panics, and Crashes*
 - Marcin Iwuć — *Finansowa Forteca*, marciniwuc.com (source author)
 - Related: [[Crypto Market State 2026]] · [[Fincept Terminal]] · [[Midterms 2026 Market Setup (Felix Prehn)]] (a bullish counterpoint from late Oct 2026: breadth already in a bear, liquidity turning back on)
+- See also: [[Mechanical Crash Thursday — Cymcyk on Buying Panic]] (Cymcyk, Nov 2026: a one-day forced-liquidation flush and what such days led to)
 
 ---
 Template: [[templates/knowledge_note_info]]

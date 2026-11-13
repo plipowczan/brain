@@ -203,6 +203,7 @@ The video and PDF were published in late October 2026. I could not verify the cu
 - AAII Investor Sentiment Survey (aaii.com), weekly bull/bear readings since 1987
 - Felix Prehn on YouTube: youtube.com/@felixprehn
 - Related: [[Bear Markets — 100 Years of History]] · [[Investing Psychology]] · [[Cognitive Biases in Investing]] · [[Investment Strategies]] · [[Asset Allocation and Diversification]] · [[My Investment Strategy]]
+- See also: [[Mechanical Crash Thursday — Cymcyk on Buying Panic]] (Cymcyk, Nov 2026: a one-day forced-liquidation flush and what such days led to)
 
 ---
 Template: [[templates/knowledge_note_info]]
