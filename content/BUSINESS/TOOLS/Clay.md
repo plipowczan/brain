@@ -6,7 +6,7 @@ openToc: true
 tags: ["tool", "sales", "data-enrichment", "crm", "outbound", "automation"]
 type: tool
 agent-created: true
-summary: "Data-enrichment and outbound platform — spreadsheet UI over 100+ enrichment sources + AI for prospecting/personalization; planned for the Jakub Głąb agent's enrichment"
+summary: "Data-enrichment and outbound platform — spreadsheet UI over 100+ enrichment sources + AI for prospecting/personalization; planned as the enrichment layer for a client's agent system"
 ---
 
 # Clay

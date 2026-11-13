@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-13T10:14:03Z
+updated: 2026-11-13T12:14:44Z
 entries: 459
 ---
 # Note Catalog
@@ -264,7 +264,7 @@ entries: 459
 ## BUSINESS/TOOLS
 - **1Password** | tool | 2026-04-09 | [tool, security, passwords] | Password manager and secrets vault — replaces Dashlane | → Authenticator, templates/tool
 - **Airtable** | tool | 2022-09-21 | [tool, database] | No-code relational database tool used as structured data store and automation hub | → Notion, ClickUp, templates/tool
-- **Clay** | tool | 2026-06-13 | [tool, sales, data-enrichment, crm, outbound, automation] | Data-enrichment and outbound platform — spreadsheet UI over 100+ enrichment sources + AI for prospecting/personalization; planned for the Jakub Głąb agent's enrichment | → Jakub Głąb Agent System, Bright Data, Firecrawl, People Data Labs, Autonomous Sales Agent Playbook, templates/tool
+- **Clay** | tool | 2026-06-13 | [tool, sales, data-enrichment, crm, outbound, automation] | Data-enrichment and outbound platform — spreadsheet UI over 100+ enrichment sources + AI for prospecting/personalization; planned as the enrichment layer for a client's agent system | → Jakub Głąb Agent System, Bright Data, Firecrawl, People Data Labs, Autonomous Sales Agent Playbook, templates/tool
 - **ClickUp** | tool | 2022-10-28 | [tool, project-management, crm] | Primary work hub: task management, CRM pipeline, sprint tracking, and project docs for 200IQ and PLSoft. | → Notion, Qamera AI, PLSoft, Microsoft To Do, templates/tool
 - **Excalidraw** | tool | 2026-04-05 | [tool, whiteboard, diagrams, drawing, collaboration] | Open-source virtual whiteboard for hand-drawn style diagrams, collaborative and end-to-end encrypted | → Obsidian, Miro, templates/tool
 - **Make** | tool | 2022-09-06 | [tool, make, automation, integration] | Visual workflow automation platform used as middleware for integrations and AI-driven email handling. | → Agentic Systems, Zapier, Airtable
