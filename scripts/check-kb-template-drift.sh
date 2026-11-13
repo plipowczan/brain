@@ -25,7 +25,7 @@ TMPL="$TEMPLATE/.claude/skills"
 
 SHARED="brain-ingest brain-compile brain-enhance brain-lint brain-output brain-qa brain-reindex \
         excalidraw-diagram brain-research brain-research-deep brain-research-report \
-        brain-research-add-fields brain-research-add-items brain-watch"
+        brain-research-add-fields brain-research-add-items brain-watch brain-export"
 
 # Local build artifacts that exist only on the live side because the skill was run
 # here. They are not drift, and reporting them trains people to ignore this check.

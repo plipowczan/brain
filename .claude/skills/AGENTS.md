@@ -27,10 +27,12 @@ bundle format v1 tool; tests in `brain-export/scripts/test_bundle.py`.
 
 Export privacy levels: default `me` = verbatim, 2 prompts, writes nothing but the zip;
 `--public` = redaction pipeline (default policy + optional `content/_privacy.md`
-overrides → verdict table include/redact/exclude as the 3rd prompt → verification nets:
-`brain-export/scripts/privacy_sweep.py` pattern scan + fresh-context adversarial audit) and
-writes one local report to `content/_outputs/reports/` — the sole exception to export's
-read-only rule. The shipped bundle carries no redaction trace. Redaction works on
+overrides + the always-cut terms of the git-ignored `content/_privacy.local.md`, listed by
+`privacy_sweep.py --terms` → verdict table include/redact/exclude as the 3rd prompt →
+verification nets: `brain-export/scripts/privacy_sweep.py` pattern and private-term scan +
+fresh-context adversarial audit) and writes one local report to `content/_outputs/reports/`
+— the sole exception to export's read-only rule. The report never quotes a private term
+(it is committed). The shipped bundle carries no redaction trace. Redaction works on
 scratchpad copies; source notes stay byte-identical.
 
 ## Rules
