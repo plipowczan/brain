@@ -8,7 +8,7 @@ type: compiled-note
 source: "research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/"
 agent-created: true
 status-checked: 2026-11-13
-summary: "Every AI tool note in the vault (126) sorted into 13 categories, one sentence each, with the status checked on 2026-11-13: what it is, whether it is still alive, and where the comparison notes go deeper."
+summary: "All 124 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13: what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
 ---
 
 # AI Tools Map
@@ -32,11 +32,11 @@ For closed products and APIs "active" means the product is sold and documented t
 
 ## 📒 The review in numbers
 
-- **126 tools** in **13 categories**, each checked on 2026-11-13.
+- **126 tools** in **13 categories**, each checked on 2026-11-13. Two of them were archived after the review, so the map below lists **124**.
 - **107 active** and **8 maintained**: most of the field moves fast, many tools ship weekly or daily.
 - **3 slowing**: [[Space Agent]], [[OpenKB]], [[Santander AI Open Source]].
-- **5 stale**: [[MCP Language Server]], [[Claude Peers MCP]], [[Autoresearch]], [[Meme Factory]], [[Slack GIF Creator]].
-- **2 dead**: [[Chatterbox TTS]] (retired by its authors in August 2026) and [[Magic MCP]] (replaced by its vendor's 21st MCP).
+- **5 stale**: [[MCP Language Server]], Claude Peers MCP (archived), [[Autoresearch]], [[Meme Factory]], [[Slack GIF Creator]].
+- **2 dead**: Chatterbox TTS (retired by its authors in August 2026; archived) and [[Magic MCP]] (replaced by its vendor's 21st MCP).
 - **1 done**: [[Karpathy Skills]], a static rules file that needs no maintenance.
 - Notable changes my notes did not cover yet: Cursor's maker was acquired by SpaceX, Topaz Labs by Adobe, Replicate became part of Cloudflare; Graft was renamed Trail-code, Personal AI Infrastructure became LifeOS, Browser Use 1.0 rewrote the library around Browser Harness; Serena moved to GPL-3.0 and Graphify to Apache-2.0.
 
@@ -83,7 +83,6 @@ Tools that run several agents, or one agent many times: workflow engines, contro
 | [[Ruflo]] | An npm harness that adds agent swarms, vector memory, learned task routing, hooks and an MCP server to Claude Code. | active, v3.77.0 (2026-11-12) |
 | [[CrewAI]] | A Python framework for multi-agent work: role-based agent teams (Crews) and deterministic event-driven pipelines (Flows). | active, 1.15.41 (2026-11-12) |
 | [[LangGraph]] | A low-level library for long-running, stateful agents as explicit graphs with checkpoints, human-approval interrupts and resumption. | active, 1.2.21 (2026-11-12) |
-| [[Claude Peers MCP]] | An MCP server and local broker that let Claude Code sessions on one machine find each other and exchange messages. | **stale**, no releases; last commit 2026-04-26 |
 | [[Claudex Loop]] | Claude Code and Codex skills for a bounded plan, cross-review, build and inspect loop where each provider checks the other's work. | maintained, no releases; last commit 2026-10-14 |
 | [[Autoharness]] | A Claude Code plugin that distils reusable skills from your real sessions, merges duplicates and retires the ones nobody loads. | active, v0.2.5 (2026-07-02) |
 | [[Autoresearch]] | Karpathy's minimal setup that lets a coding agent run 5-minute GPU training experiments overnight and keep only the improvements. | **stale**, no releases; last commit 2026-03-26 |
@@ -220,7 +219,6 @@ Speech in and out: TTS models and platforms, voice agents and meeting transcript
 | Tool | What it is | Status |
 |---|---|---|
 | [[ElevenLabs]] | A cloud voice platform: expressive multilingual TTS, voice cloning, dubbing, speech to text, sound effects and voice agents. | active, updated 2026-11-09 |
-| [[Chatterbox TTS]] | Resemble AI's MIT text-to-speech models with zero-shot voice cloning, retired as unmaintained research in August 2026. | **dead**, 0.1.7 (2026-03-26) |
 | [[Pocket TTS]] | Kyutai's small open TTS model that streams speech with voice cloning on two CPU cores, no GPU needed. | active, v4.0.1 (2026-10-21) |
 | [[Voicebox]] | A free local desktop voice studio that clones voices, generates speech with open engines, dictates, and speaks for agents over MCP. | maintained, v0.5.0 (2026-04-25) |
 | [[VAPI]] | A developer platform for real-time phone and web voice agents that wires your choice of STT, LLM and TTS to telephony and tools. | active, updated 2026-11-09 |
@@ -272,10 +270,10 @@ Specialised tools for finance, healthcare, decisions and model distribution.
 
 | Tool | Status | What happened | Use instead |
 |---|---|---|---|
-| [[Chatterbox TTS]] | dead | the authors declared it retired research in August 2026; the MIT weights still work, with no fixes | [[Pocket TTS]] for a free local tier |
+| Chatterbox TTS (note archived) | dead | the authors declared it retired research in August 2026; the MIT weights still work, with no fixes | [[Pocket TTS]] for a free local tier |
 | [[Magic MCP]] | dead | rebranded the day after my note: the local server became a proxy to the hosted 21st MCP | 21st MCP from the same vendor |
 | [[MCP Language Server]] | stale | no code change since mid-2025 | [[Serena]], or Claude Code's native LSP plugins |
-| [[Claude Peers MCP]] | stale | no commit since April 2026 | Claude Code's built-in cross-session messaging (since 2.1.224) |
+| Claude Peers MCP (note archived) | stale | no commit since April 2026 | Claude Code's built-in cross-session messaging (since 2.1.224) |
 | [[Meme Factory]] | stale | unchanged since January 2026, with templates that now return 404 | [[OpenClaw Meme Maker]] |
 | [[Autoresearch]] | stale | Karpathy's experiment, untouched since March 2026; forks carry it on other hardware | still fine as a reference design |
 | [[Slack GIF Creator]] | stale | Anthropic still ships it, but known bugs have open, unmerged fixes | apply the open fix PRs locally |

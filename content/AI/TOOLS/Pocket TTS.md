@@ -40,11 +40,11 @@ Generating audio is `pip install pocket-tts` (or `uvx pocket-tts generate`) and 
 
 ## Reasoning for
 
-Fills the **free local tier** of my TTS stack thinking — the same slot [[Chatterbox TTS]] holds in [[Travelcast AI]]'s fallback chain, but radically cheaper to run: no GPU, no torch-CUDA install, ~instant startup via `uvx`. For agent voice output ([[Voicebox]] pattern) or any pipeline where [[ElevenLabs]]-quality is overkill, a 100M CPU model with streaming and cloning is the new floor. Main limitation for my use: **no Polish** — see [[TTS Engines Comparison (Polish)]], where Azure still wins Polish quality. The prohibited-use policy requires lawful consent for voice cloning.
+Fills the **free local tier** of my TTS stack thinking — the same slot Chatterbox TTS (retired upstream in August 2026) holds in [[Travelcast AI]]'s fallback chain, but radically cheaper to run: no GPU, no torch-CUDA install, ~instant startup via `uvx`. For agent voice output ([[Voicebox]] pattern) or any pipeline where [[ElevenLabs]]-quality is overkill, a 100M CPU model with streaming and cloning is the new floor. Main limitation for my use: **no Polish** — see [[TTS Engines Comparison (Polish)]], where Azure still wins Polish quality. The prohibited-use policy requires lawful consent for voice cloning.
 
 ## Alternatives considered
 
-- [[Chatterbox TTS]] — open-source local TTS with cloning, but torch-heavy; Pocket TTS is far lighter.
+- Chatterbox TTS — open-source local TTS with cloning, but torch-heavy and retired by its authors in August 2026; Pocket TTS is far lighter.
 - [[Voicebox]] — local-first voice *studio* (7 TTS engines, STT, MCP) — an app, not a library; could adopt Pocket TTS as an engine.
 - [[ElevenLabs]] — best-in-class quality and languages (paid API); Pocket TTS is the zero-cost offline end of that spectrum.
 - [[OpenAI]] TTS — cloud API voices; no offline story.
@@ -61,7 +61,7 @@ Fills the **free local tier** of my TTS stack thinking — the same slot [[Chatt
 ## 🔗 Related notes
 
 - [[TTS Engines Comparison (Polish)]] — my Polish TTS quality/cost benchmark (Pocket TTS doesn't support Polish)
-- [[Chatterbox TTS]] · [[Voicebox]] — local/open TTS siblings
+- [[Voicebox]] — local/open TTS sibling (Chatterbox TTS was another, now retired)
 - [[ElevenLabs]] · [[OpenAI]] — the cloud tiers above it
 - [[Travelcast AI]] — project with a TTS fallback chain this could slot into
 

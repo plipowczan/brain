@@ -54,7 +54,7 @@ The most complete answer so far to "how do I run Claude Code and Codex as one pe
 ## Alternatives considered
 
 - [[oh-my-pi]] — a single agent with LSP and a debugger, not a team layer (OpenRig can host it)
-- [[Claude Peers MCP]] — lightweight Claude-to-Claude messaging without topology management
+- Claude Peers MCP (retired) — lightweight Claude-to-Claude messaging without topology management; Claude Code now has this built in
 - [[Hermes Agent]] — agent gateway rather than a multi-harness team manager
 - [[Harness Engineering]] — the concept; OpenRig is one implementation of "harness of harnesses"
 

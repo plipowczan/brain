@@ -60,4 +60,4 @@ Source: a deep-research run on 2026-10-15 (30 items × 37 fields, one agent each
 
 ## Resources
 
-- Related: [[Claude Code]], [[Loop Engineering]], [[Claude Peers MCP]], [[Claude Code Mods (RoboNuggets)]], [[Hermes Agent]], [[n8n]], [[AI Agent Security]]
+- Related: [[Claude Code]], [[Loop Engineering]], Claude Peers MCP (retired; Claude Code now has built-in cross-session messaging), [[Claude Code Mods (RoboNuggets)]], [[Hermes Agent]], [[n8n]], [[AI Agent Security]]

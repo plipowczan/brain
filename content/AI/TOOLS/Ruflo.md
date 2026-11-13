@@ -149,7 +149,7 @@ claude mcp add ruflo -- npx ruflo@latest mcp start
 - [[Hermes Agent]] — self-improving agent with messaging federation
 - [[Superpowers]], [[gstack]] — methodology stacks
 - [[Archon]] — harness builder
-- [[Claude Peers MCP]] — multi-session communication
+- Claude Peers MCP (retired; built into Claude Code since 2.1.224) — multi-session communication
 - [[LightRAG]] — RAG framework with KG (peer for ruflo-knowledge-graph)
 - [[Agent Skills]], [[Awesome Agent Skills]], [[Awesome Claude Code]]
 - [[Everything Claude Code]] — peer cross-harness perf system

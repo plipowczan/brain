@@ -9,6 +9,8 @@ agent-created: true
 summary: "Open-source, local, torch-based text-to-speech with voice cloning — the free final-tier fallback in Travelcast AI's TTS chain"
 status-checked: 2026-11-13
 project-status: dead
+archived: 2026-11-13
+archived-reason: "dead: retired by Resemble AI as unmaintained research in August 2026; free local fallback now Pocket TTS; status check 2026-11-13, confirmed by Paweł"
 ---
 
 # Chatterbox TTS

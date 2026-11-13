@@ -62,7 +62,7 @@ A short demo video: an open-source desktop app called **Voice Studio** does most
 - [[Voicebox]] — the local-first voice studio I already track; compare once the repo is identified
 - [[ElevenLabs]] — the paid incumbent being replaced
 - [[TTS Engines Comparison (Polish)]] — where local engines sit for Polish
-- [[Chatterbox TTS]] — another free local cloning engine
+- Chatterbox TTS — another free local cloning engine (retired by its authors in August 2026; [[Pocket TTS]] is the maintained alternative)
 - [[Claude Code]] — used as the installer
 
 ## 📖 Further reading/watching

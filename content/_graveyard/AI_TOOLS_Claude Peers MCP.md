@@ -10,6 +10,8 @@ agent-created: true
 summary: "MCP that lets multiple Claude Code instances on the same machine discover each other and exchange messages in real time"
 status-checked: 2026-11-13
 project-status: stale
+archived: 2026-11-13
+archived-reason: "stale since 2026-04-26 (no commits); replaced by Claude Code's built-in cross-session messaging (2.1.224+); status check 2026-11-13, confirmed by Paweł"
 ---
 
 # Claude Peers MCP
