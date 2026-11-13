@@ -8,7 +8,7 @@ type: compiled-note
 source: "research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/"
 agent-created: true
 status-checked: 2026-11-13
-summary: "LightRAG, PageIndex, CocoIndex, OpenKB, OpenWiki, Super Brain, Graphify, Codebase Memory MCP and HOMER: four different jobs, when to pick which, and what none of them solves."
+summary: "LightRAG, PageIndex, CocoIndex, OpenKB, OpenWiki, Super Brain, Graphify, Codebase Memory MCP and HORMA: four different jobs, when to pick which, and what none of them solves."
 ---
 
 # Agent Memory and Knowledge Base Tools Compared
@@ -29,7 +29,7 @@ Every status line was checked against the repository, releases page or docs on *
 | A hand-run second brain with the decisions already made | [[Super Brain]] | this vault's own protocol ([[Brain]]) |
 | A coding agent that queries structure instead of grepping files | [[Codebase Memory MCP]] | [[Graphify]] |
 | One graph over code **and** docs, screenshots, papers | [[Graphify]] | — |
-| An agent that learns how to organise its own long-run memory | [[HOMER — Structured Agent Memory\|HOMER]] (paper only) | — |
+| An agent that learns how to organise its own long-run memory | [[HORMA — Structured Agent Memory\|HORMA]] (paper only) | — |
 
 ## 🧩 Four jobs, four families
 
@@ -45,7 +45,7 @@ Every status line was checked against the repository, releases page or docs on *
    - [[Codebase Memory MCP]]: a single binary MCP server with a SQLite graph, a Hybrid LSP pass and Cypher-like queries.
    - [[Graphify]]: a CLI and skill that builds a graph from code (tree-sitter) and adds docs, images and media through an optional LLM pass.
 4. **Experience memory.** The agent's own trajectories, organised so it can find what worked last time.
-   - [[HOMER — Structured Agent Memory|HOMER]] (Duke + Snowflake AI Research): build a hierarchical memory tree first, then navigate it with a small RL-trained policy instead of similarity search. It is a research method, not a product. The paper itself calls the method **HORMA** (Hierarchical Organize-and-Retrieve Memory Agent); "HOMER" is the name my note took from the video that introduced it.
+   - [[HORMA — Structured Agent Memory|HORMA]] (Duke + Snowflake AI Research): build a hierarchical memory tree first, then navigate it with a small RL-trained policy instead of similarity search. It is a research method, not a product. HORMA stands for Hierarchical Organize-and-Retrieve Memory Agent; the video that introduced it called it "HORMA", the name my note used until 2026-11-13.
 
 ## 📒 Side by side
 
@@ -59,7 +59,7 @@ Every status line was checked against the repository, releases page or docs on *
 | [[Super Brain]] | Compiled wiki (template) | folders + `index.md` | the agent reads the index | per ingest | per query | active, no releases (commits to 10-26) | MIT |
 | [[Codebase Memory MCP]] | Code graph | SQLite graph + bundled code embeddings | 14 MCP tools, Cypher subset | none (no LLM) | none on the server side | active, v0.12.1 (2026-10-16), commits to 11-13 | MIT |
 | [[Graphify]] | Code + multimodal graph | `graph.json`, HTML, report | `/graphify query`, MCP, hooks | none for code; tokens for docs and media | low | active, v0.9.108 (2026-11-12) | Apache-2.0 (was MIT until 2026-07-22); paid Graphify Cloud |
-| [[HOMER — Structured Agent Memory\|HOMER]] | Experience memory | hierarchical tree with provenance pointers | RL-trained navigation policy | learned by a failure loop | 1–22% of baseline tokens, depending on benchmark (paper) | **done**: one arXiv preprint (v1, 2026-06-10), no code or weights released | arXiv licence (paper only) |
+| [[HORMA — Structured Agent Memory\|HORMA]] | Experience memory | hierarchical tree with provenance pointers | RL-trained navigation policy | learned by a failure loop | 1–22% of baseline tokens, depending on benchmark (paper) | **done**: one arXiv preprint (v1, 2026-06-10), no code or weights released | arXiv licence (paper only) |
 
 ## ☘️ When to choose which
 
@@ -95,19 +95,19 @@ Every status line was checked against the repository, releases page or docs on *
 - **Pick it when** a project is more than code: papers, screenshots, design docs, recordings. Code parsing stays local and deterministic, every edge is tagged EXTRACTED / INFERRED / AMBIGUOUS, and one installer wires it into 20+ assistants.
 - **Watch out:** the docs and media pass sends that content to your model provider. The project became a YC-backed company in 2026, so the README now leads with Graphify Cloud, and near-daily releases mean frequent behaviour changes.
 
-### [[HOMER — Structured Agent Memory|HOMER]]: the idea to borrow, not a tool to install
+### [[HORMA — Structured Agent Memory|HORMA]]: the idea to borrow, not a tool to install
 - **Use it as a design rule:** organise experience at write time, keep a provenance pointer from every summary to the raw trajectory, and navigate a hierarchy (logarithmic steps) instead of scoring the whole pool (linear).
-- It is a research result with no code or weights, so you can't reproduce it. The strong numbers come with Claude Sonnet 4.5 doing the reasoning; the small open navigator (Qwen 3.5 4B, trained with GRPO) scores much lower on its own, and the evaluations are small.
-- The other eight tools store documents or code; none of them stores what the agent itself learned in the way HOMER does.
+- It is a research result with no code or weights, so you can't reproduce it. The strong numbers come with Claude Sonnet 4.5 doing the reasoning; the small open navigator (Qwen 3.5 4B, trained with GRPO) trails it on LoCoMo (42.2 vs 51.6), though it posts the paper's best LongMemEval score (58.0) with Sonnet still managing the memory; the evaluations are small.
+- The other eight tools store documents or code; none of them stores what the agent itself learned in the way HORMA does.
 
 ## ⚠️ What none of them does
 
-- **Decide what is true.** Compiled wikis compound errors, since a wrong page today is a wrong answer for months, and graph extraction only labels its confidence. Nothing here checks a claim against ground truth; OpenWiki's grounded claims and HOMER's provenance pointers only make checking possible.
+- **Decide what is true.** Compiled wikis compound errors, since a wrong page today is a wrong answer for months, and graph extraction only labels its confidence. Nothing here checks a claim against ground truth; OpenWiki's grounded claims and HORMA's provenance pointers only make checking possible.
 - **Forget on purpose or resolve contradictions.** None has a policy for expiring facts or for two sources that disagree. Freshness comes from re-running (CocoIndex does it incrementally), not from judgement.
 - **Cover all four jobs.** A real setup needs at least two: a code map for the coding agent plus a document index or a wiki for everything else. None of them shares one store across those jobs.
 - **Prove the gains independently.** Every token-saving and accuracy number in these READMEs and preprints is measured by the authors. Plan a small test on your own repo or corpus before you rely on one.
 - **Handle multi-user permissions.** None ships per-user access control over what an agent may read. OpenKB's web UI is open by default; the rest assume one person on one machine.
-- **Learn its own structure.** Apart from HOMER, the structure is hand-designed or fixed by the tool's schema; it doesn't improve from failed lookups.
+- **Learn its own structure.** Apart from HORMA, the structure is hand-designed or fixed by the tool's schema; it doesn't improve from failed lookups.
 
 ## 🎨 How I use this
 

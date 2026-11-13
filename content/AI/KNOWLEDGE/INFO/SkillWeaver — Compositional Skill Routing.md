@@ -21,7 +21,7 @@ VentureBeat report (Ben Dickson, July 2026) on **SkillWeaver**, a tool-routing f
 
 The problem it attacks: an enterprise agent may sit on **hundreds to thousands of tools/skills** (e.g. a whole Model Context Protocol (MCP) server ecosystem). Stuffing that entire library into the prompt so the LLM can "pick the right tool" overwhelms the context window, burns hundreds of thousands of tokens, and — counter-intuitively — routes *worse*, not better. SkillWeaver replaces load-everything with **retrieve-and-route**: decompose the task, retrieve a shortlist of candidate tools per sub-task, then compose them into an execution graph.
 
-Headline result: accuracy up **and** context consumption down from an estimated **884,000 tokens → ~1,160 tokens per query — a 99.9% reduction**. Same index-first / structure-beats-search principle as [[Progressive Disclosure]] and [[HOMER — Structured Agent Memory]], applied to *tool selection* rather than knowledge or memory.
+Headline result: accuracy up **and** context consumption down from an estimated **884,000 tokens → ~1,160 tokens per query — a 99.9% reduction**. Same index-first / structure-beats-search principle as [[Progressive Disclosure]] and [[HORMA — Structured Agent Memory]], applied to *tool selection* rather than knowledge or memory.
 
 ## 🚀 The main message
 
@@ -44,7 +44,7 @@ LLMs draft **generic** step descriptions that don't match the **specific technic
 - Those retrieved skills are fed **back into the LLM as hints**.
 - The LLM **rewrites its decomposition** so granularity and wording align with tools that actually exist.
 
-This iterative retrieve-then-rewrite shape is the same [[Loop Engineering]] pattern seen in [[HOMER — Structured Agent Memory]]'s contrastive loop — draft, probe reality, correct against what came back.
+This iterative retrieve-then-rewrite shape is the same [[Loop Engineering]] pattern seen in [[HORMA — Structured Agent Memory]]'s contrastive loop — draft, probe reality, correct against what came back.
 
 ## 📒 Results (CompSkillBench)
 
@@ -64,7 +64,7 @@ Custom benchmark: **300 multi-step queries**, **2,209 real skills** scraped from
 
 ## ☘️ Why it matters / how I'd apply it
 
-- **Retrieve, don't load.** The same lesson my vault keeps hitting — [[Progressive Disclosure]] for KBs, [[HOMER — Structured Agent Memory]] for memory, [[Codebase Memory MCP]] for code (~99% fewer tokens each). SkillWeaver is the **tool-catalog** instance of the pattern: index the tools, fetch on demand, never dump the library. Directly relevant as MCP (Model Context Protocol) tool counts explode in [[Agentic Systems]].
+- **Retrieve, don't load.** The same lesson my vault keeps hitting — [[Progressive Disclosure]] for KBs, [[HORMA — Structured Agent Memory]] for memory, [[Codebase Memory MCP]] for code (~99% fewer tokens each). SkillWeaver is the **tool-catalog** instance of the pattern: index the tools, fetch on demand, never dump the library. Directly relevant as MCP (Model Context Protocol) tool counts explode in [[Agentic Systems]].
 - **Vocabulary alignment > model size.** Cheap decomposer + good retrieval hints beats an expensive model flying blind. A [[Token Optimization for Claude Code]] and cost lever, not just an accuracy one.
 - **Reproducible today.** No source released, but built on off-the-shelf parts: MiniLM/BGE embeddings, FAISS, LangChain / LlamaIndex / raw Python. Indexing all 2,209 skills took **15 s**; per-query retrieval adds **<15 ms**.
 - **Retrieval is good, not perfect.** A bi-encoder gets the right tool into the **top-10 ~70%** of the time but ranks it **#1 only ~37%** → add a **cross-encoder / LLM reranker** over the top-10.
@@ -79,7 +79,7 @@ Custom benchmark: **300 multi-step queries**, **2,209 real skills** scraped from
 
 - Source: [New Alibaba AI framework skips loading every tool, cutting agent token use 99%](https://venturebeat.com/orchestration/new-alibaba-ai-framework-skips-loading-every-tool-cutting-agent-token-use-99) — VentureBeat, Ben Dickson, 2026-07-02
 - [[Progressive Disclosure]] — index-first context priming; the parent pattern
-- [[HOMER — Structured Agent Memory]] — organize-then-retrieve, same loop shape for memory
+- [[HORMA — Structured Agent Memory]] — organize-then-retrieve, same loop shape for memory
 - [[Codebase Memory MCP]] — ~99% token cut via a code knowledge graph instead of file dumps
 - [[Context Engineering]] — managing the LLM attention budget
 - [[Token Optimization for Claude Code]] — the cost lens

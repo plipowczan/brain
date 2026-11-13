@@ -24,7 +24,7 @@ summary: "SwarmResearch (arXiv 2607.02807, UIUC/Lingming Zhang group) — a shep
 
 ## 🗒️ Description
 
-A [[HOMER — Structured Agent Memory|Discover AI]] explainer of **SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery** ([arXiv 2607.02807](https://arxiv.org/abs/2607.02807), 2 July 2026; Yuvraj Virk, Zack Edds, Chunqiu Steven Xia, **Lingming Zhang** — the UIUC code-agent group). The core idea: use ordinary software-engineering tooling — **Git branches, work trees, and `git merge`** — as the *persistent memory* of a multi-agent system, so a large agent swarm can explore many high-level ideas in parallel instead of getting trapped polishing the first one it finds.
+A [[HORMA — Structured Agent Memory|Discover AI]] explainer of **SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery** ([arXiv 2607.02807](https://arxiv.org/abs/2607.02807), 2 July 2026; Yuvraj Virk, Zack Edds, Chunqiu Steven Xia, **Lingming Zhang** — the UIUC code-agent group). The core idea: use ordinary software-engineering tooling — **Git branches, work trees, and `git merge`** — as the *persistent memory* of a multi-agent system, so a large agent swarm can explore many high-level ideas in parallel instead of getting trapped polishing the first one it finds.
 
 The task the swarm attacks is *open-ended* (an optimization problem with no known best answer), but the agents themselves are **limited to coding** — this is not open-ended scientific discovery like [[Self-Improving Company]] envisions, it is a coding-agent orchestration harness.
 
@@ -95,7 +95,7 @@ Workflow:
 4. Days later the shepherd may realize that dead end held a **missing puzzle piece**, and drop a fresh optimizer straight back into that exact frozen folder to **reactivate** it.
 5. If `researcher-1` and `researcher-3` each solve *half* the problem, the shepherd runs a literal **`git merge`** between the folders — "**no crazy AI stitching**; the file system handles the collision, mathematically precise."
 
-The payoff: **nothing is ever permanently overwritten**, so the system **never loses a good alternative idea**, and context-window limits stop mattering because memory lives on disk. (Compare the on-disk / navigate-don't-reload principle in [[HOMER — Structured Agent Memory]].)
+The payoff: **nothing is ever permanently overwritten**, so the system **never loses a good alternative idea**, and context-window limits stop mattering because memory lives on disk. (Compare the on-disk / navigate-don't-reload principle in [[HORMA — Structured Agent Memory]].)
 
 ## Lineage — Lilian Weng, Coral, and the RL framing
 
@@ -156,7 +156,7 @@ Practical advice from the video: **set hard financial limits**, or run **local m
 **Vault links:**
 
 - 🔗 Video: [Self-Learning AI Swarm Intelligence (New Code, RSI)](https://www.youtube.com/watch?v=u-lMMDCfmSM) — Discover AI (@code4AI), 33 min
-- [[HOMER — Structured Agent Memory]] — the same channel on organize-then-retrieve on-disk agent memory
+- [[HORMA — Structured Agent Memory]] — the same channel on organize-then-retrieve on-disk agent memory
 - [[Harness Engineering (Ryan Lopopolo)]] · [[Harness Engineering]] — the harness-optimization thesis this paper sits inside
 - [[Loop Engineering]] — self-prompting / heartbeat-style loops and their cost/reliability trade-offs
 - [[Self-Improving Company]] — recursive self-improvement as a company-design pattern

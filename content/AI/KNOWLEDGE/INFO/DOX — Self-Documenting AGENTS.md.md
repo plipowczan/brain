@@ -53,7 +53,7 @@ The failure mode this targets: the agent does the task but in the wrong place, b
 
 The markdown files are a **map / preview of the whole codebase**. The agent navigates the map and only touches actual code at the leaf where the edit lands. On the way down it sees **only the docs on the path to the target** — parent instructions compound top-to-bottom (high-level "where to put things / how to organize" near the root, specific function names near the leaves), and it never loads sibling folders unless they're explicitly linked as relevant.
 
-Result: the context window fills with exactly the relevant chain and nothing else. Same math as [[HOMER — Structured Agent Memory]] — logarithmic navigation over a hierarchy instead of linear scan / retrieval over a flat pile.
+Result: the context window fills with exactly the relevant chain and nothing else. Same math as [[HORMA — Structured Agent Memory]] — logarithmic navigation over a hierarchy instead of linear scan / retrieval over a flat pile.
 
 ## 🛠️ How to adopt it
 
@@ -78,7 +78,7 @@ That split is exact and useful: OpenSpec leaves untouched code undocumented (the
 - **Minimum context, minimal edit** — the whole design goal. Right-size context, don't maximize it. ([[Context Engineering]], [[Token Optimization for Claude Code]])
 - **Tightly couple docs to code** — not a detached wiki; one doc per folder, versioned with the code it describes.
 - **The doc tree is a self-maintaining map** — read-before / update-after keeps it from rotting, which is the usual reason docs are worthless to agents.
-- **This is progressive disclosure for codebases** — the exact pattern behind this vault's own navigation protocol and behind [[HOMER — Structured Agent Memory]] / [[Open Knowledge Format (OKF)]].
+- **This is progressive disclosure for codebases** — the exact pattern behind this vault's own navigation protocol and behind [[HORMA — Structured Agent Memory]] / [[Open Knowledge Format (OKF)]].
 - **Cross-harness** — plain `AGENTS.md`, so it works in Codex, Claude Code, Cursor, etc., not tied to Agent Zero.
 
 ## 📖 Further reading / watching
@@ -88,7 +88,7 @@ That split is exact and useful: OpenSpec leaves untouched code undocumented (the
 - [[Agent Zero]] — the framework whose developer built this
 - [[Space Agent]] — the fully AI-coded project where the pattern originated
 - [[Progressive Disclosure]] — index-first context priming, the core principle here
-- [[HOMER — Structured Agent Memory]] — same organize-then-navigate hierarchy, for agent memory
+- [[HORMA — Structured Agent Memory]] — same organize-then-navigate hierarchy, for agent memory
 - [[Context Engineering]] — right-sizing the attention budget
 - [[Harness Engineering]] — where an `AGENTS.md` doc layer lives in the agent runtime
 - [[Open Knowledge Format (OKF)]] — markdown-per-node knowledge representation for agents
