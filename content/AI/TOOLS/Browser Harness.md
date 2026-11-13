@@ -7,8 +7,8 @@ tags: ["tool", "ai", "agents", "browser", "harness", "cdp", "self-improving", "o
 type: tool
 source: "_raw/inbox/Self-healing harness that enables LLMs to complete any task.md"
 agent-created: true
-agent-reviewed: 2026-08-06
-summary: "Thin self-healing CDP harness (~1k lines) connecting an LLM directly to your real browser — agent writes the missing helpers itself; the engine behind Browser Use CLI 3.0, pinned at 0.1.8"
+agent-reviewed: 2026-11-13
+summary: "Self-healing CDP harness connecting an LLM directly to your real browser — agent writes the missing helpers itself; the engine inside browser-use 1.0 (pins 0.1.13), also an MCP server; MIT"
 status-checked: 2026-11-13
 project-status: active
 ---
@@ -27,20 +27,24 @@ project-status: active
 
 Same org as [[Browser Use]] and [[Video Use]]. Where Browser Use is a full framework, Browser Harness goes the opposite direction: a thin shell where the agent writes its own helpers. Embodies the "bitter lesson of agent harnesses" — stop over-engineering, let the agent fill in gaps as it works.
 
-> [!success] The thesis won (2026-07-01)
-> **Browser Use CLI 3.0** is now officially powered by Browser Harness. The parent framework dropped its fixed action menu (`click`/`type`) in favor of this harness's model — the agent executes arbitrary **Python** in the browser and self-heals in one coding loop. So Browser Harness is no longer just the minimal sibling; it is the **engine behind [[Browser Use]]'s flagship CLI**. As of pip `browser-use` 0.13.7 (2026-08-06), the package pins `browser-harness==0.1.8` and `browser-use-sdk==3.4.2`.
+> [!success] The thesis won (2026-07-01, then fully on 2026-11-10)
+> **Browser Use CLI 3.0** (2026-07-01) was the first product powered by Browser Harness. With **browser-use 1.0** (2026-11-10) the whole parent library followed: the fixed action menu and the DOM serializer are gone, and the agent writes **Python** in one persistent REPL on raw CDP with this harness's helpers. The README now opens with "Browser Harness is now the engine inside Browser Use". As of browser-use 1.0.3 (2026-11-12) the package pins `browser-harness==0.1.13` and no longer depends on `browser-use-sdk`.
+
+> [!info] Version status (checked 2026-11-13)
+> Latest harness release **v0.1.13** (2026-09-04, GitHub and PyPI). v0.1.9 to v0.1.13 added reusable background tabs in the daemon, a macOS remote-debugging approval helper (`mac-approve`), permission and accessibility fixes, and an MCP server (`browser-harness-mcp`, extra `mcp`). Commits still land daily on `main`, but since 2026-09-07 almost all of them are agent-written domain skills; core `src/` has been quiet.
 
 ## 🧩 Features
 
-- ~1k lines across 4 core files
+- Started as ~1k lines across 4 core files; by v0.1.13 `src/browser_harness/` has grown to about a dozen modules (daemon, admin, helpers, auth, recorder, video, MCP CLI), so "thin" now describes the agent-facing surface more than the code size
 - `install.md` — first-time install and browser bootstrap
 - `SKILL.md` — day-to-day usage
 - `src/browser_harness/` — protected core
 - `agent-workspace/agent_helpers.py` — helper code the agent edits
 - `agent-workspace/domain-skills/` — reusable per-site playbooks the agent builds (LinkedIn, Amazon, GitHub…)
 - Set `BH_DOMAIN_SKILLS=1` to enable surfacing of community-contributed per-domain skills
-- Works with Claude Code, Codex, any agent with shell access
-- Connects via `chrome://inspect/#remote-debugging` (Chrome 144+ allow popup)
+- Works with Claude Code, Codex, any agent with shell access; Cursor and other MCP clients via `browser-harness-mcp`
+- Connects via `chrome://inspect/#remote-debugging` (Chrome 144+ allow popup), or to a browser you name: `BU_CDP_WS` (WebSocket URL, wins) or `BU_CDP_URL` (HTTP endpoint such as `http://127.0.0.1:9222`, resolved via `/json/version`); `BU_NAME` picks a named daemon
+- `start_remote_daemon(name)` drives a paid Browser Use Cloud browser instead of a local one
 
 ## 🎨 Self-healing pattern
 
@@ -55,9 +59,11 @@ agent writes it → + custom helper
 
 ## 🛠️ Install & bring-up (verified 2026-07-10)
 
-Distribution has converged: the harness now ships **inside the `browser-use` pip package** — `uv tool install browser-use` (pkg v0.13.7 as of 2026-08-06) gives you the CLI `browser-use`, and `browser-use --doctor` self-identifies as `browser-harness`. The `browser-use` CLI *is* this harness. `browser-use --version` reports the internal harness version (`0.1.8`), not the pip version — see the version-confusion warning in [[Browser Use]].
+Distribution has converged: the harness ships **inside the `browser-use` pip package**. `uv tool install browser-use==1.0.3` gives you the `browser-use` CLI, which pipes Python to this harness's daemon; `browser-use --doctor` is the harness's own doctor. My bring-up was on 0.13.7 / harness 0.1.8 (when `browser-use --version` printed only the harness version). On 1.0 it prints both: `browser-use 1.0.3 (browser-harness 0.1.13)`. You can also install the harness alone (`browser-harness` on PyPI) if you don't want the browser-use library.
 
-Day-to-day: `browser-use <<'PY' ... PY` heredocs, helpers pre-imported (`new_tab`, `page_info`, `js`, `click_at_xy`, `fill_input`, `wait_for_load`…). First navigation must be `new_tab(url)`. No LLM key needed in this mode — the agent writes the Python; keys are only for the framework `Agent(...)` loop or the hosted cloud agent.
+Day-to-day: `browser-use <<'PY' ... PY` heredocs, helpers pre-imported (`new_tab`, `page_info`, `js`, `click_at_xy`, `fill_input`, `wait_for_load`…). First navigation must be `new_tab(url)`. No LLM key needed in this mode — the agent writes the Python; a Browser Use key is only for the library's `Agent(...)` loop on its default gateway model, for cloud browsers, or for the hosted cloud agent.
+
+On 1.0, attaching to a browser is stricter. The CLI no longer falls back to whatever answers on `127.0.0.1:9222`/`9223`: with neither `BU_CDP_WS` nor `BU_CDP_URL` set it attaches only to a browser whose live `DevToolsActivePort` sits in your own profile dirs, or it launches a Chromium of its own. The browser-use code says why: a process listening on 9222 could be another user's browser or a fake one, and the agent would type your secrets into it.
 
 Full real-world Windows bring-up (no Chrome → isolated Edge over CDP, `BU_CDP_WS`, launcher, skill install, gotchas): **[[Running Browser Use on Windows via Edge CDP]]**.
 
@@ -68,6 +74,7 @@ For browser tasks where you need **complete freedom** — no opinionated framewo
 ## Alternatives considered
 
 - [[Browser Use]] — fuller framework, opinionated agent loop
+- [[Playwright MCP]] / [[Chrome DevTools MCP]] — fixed MCP tool sets. In the vendor's own matched eval (100 BU Bench V2.1 tasks, Codex CLI with GPT-6 Luna, 2026-10-14) Browser Harness scored 60.4, statistically tied with Playwright MCP 0.0.83 (60.0) and Chrome DevTools MCP 1.10.1 (61.0). It used the fewest median input tokens (2.1M vs 4.4M and 6.7M) but was slower per task. It's a vendor benchmark run with one agent, so I read it as "no worse, cheaper on tokens", not as a win
 - Playwright with custom selectors — no learning, no self-improvement
 - Stagehand / Skyvern — agentic browser frameworks with more structure
 
@@ -88,6 +95,7 @@ For browser tasks where you need **complete freedom** — no opinionated framewo
 - [[Claude Code]] — primary host agent
 - [[Awesome Claude Code]] — broader CC ecosystem
 - [[Running Browser Use on Windows via Edge CDP]] — verified Windows bring-up how-to
+- [[Browser Tools for AI Agents Compared]] — the four layers of browser tooling for agents
 
 ---
 Template: [[templates/tool]]

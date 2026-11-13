@@ -36,7 +36,7 @@ For closed products and APIs "active" means the product is sold and documented t
 - **107 active** and **8 maintained**: most of the field moves fast, many tools ship weekly or daily.
 - **3 slowing**: [[Space Agent]], [[OpenKB]], [[Santander AI Open Source]].
 - **5 stale**: [[MCP Language Server]], Claude Peers MCP (archived), [[Autoresearch]], [[Meme Factory]], [[Slack GIF Creator]].
-- **2 dead**: Chatterbox TTS (retired by its authors in August 2026; archived) and [[Magic MCP]] (replaced by its vendor's 21st MCP).
+- **2 dead**: Chatterbox TTS (retired by its authors in August 2026; archived) and Magic MCP (replaced by its vendor's [[21st MCP]]; the note was rewritten to cover the successor).
 - **1 done**: [[Karpathy Skills]], a static rules file that needs no maintenance.
 - Notable changes my notes did not cover yet: Cursor's maker was acquired by SpaceX, Topaz Labs by Adobe, Replicate became part of Cloudflare; Graft was renamed Trail-code, Personal AI Infrastructure became LifeOS, Browser Use 1.0 rewrote the library around Browser Harness; Serena moved to GPL-3.0 and Graphify to Apache-2.0.
 
@@ -251,7 +251,7 @@ Skills and tools that make agents better at interface design, and AI design gene
 | [[UI UX Pro Max]] | A skill with a local database of UI styles, palettes, fonts and UX rules that produces a design-system spec before building UI. | active, v2.15.0 (2026-08-13) |
 | [[Open Design]] | A desktop and web app that turns your coding-agent CLI or a hosted model into a design agent for prototypes, decks and video. | active, v0.27.1 (2026-11-10) |
 | [[DESIGN MD Spec]] | Google Labs' DESIGN.md format: design tokens in YAML front matter, reasoning in prose, plus a CLI to lint and export. | active, 0.4.0 (2026-07-27) |
-| [[Magic MCP]] | Formerly an MCP server that generated React components from prompts; now only a proxy to 21st.dev's hosted 21st MCP. | **dead**, v0.2.3 (2026-09-09) |
+| [[21st MCP]] | 21st.dev's hosted MCP server: agents search 12,000+ React/Tailwind components, install their code and, on a paid AI plan, generate new ones. Replaced Magic MCP (dead) in July 2026. | active, CLI 1.18.0 (2026-10-06) |
 | [[UX Pilot]] | An AI wireframe and high-fidelity UI generator that goes from sketch or PRD to screens and exports to Figma and code. | active, 2.0 (July 2026), updated 2026-10-22 |
 
 ### Domain tools
@@ -271,7 +271,7 @@ Specialised tools for finance, healthcare, decisions and model distribution.
 | Tool | Status | What happened | Use instead |
 |---|---|---|---|
 | Chatterbox TTS (note archived) | dead | the authors declared it retired research in August 2026; the MIT weights still work, with no fixes | [[Pocket TTS]] for a free local tier |
-| [[Magic MCP]] | dead | rebranded the day after my note: the local server became a proxy to the hosted 21st MCP | 21st MCP from the same vendor |
+| Magic MCP (note rewritten as 21st MCP) | dead | rebranded the day after my note: the local server became a proxy to the hosted 21st MCP | [[21st MCP]] from the same vendor |
 | [[MCP Language Server]] | stale | no code change since mid-2025 | [[Serena]], or Claude Code's native LSP plugins |
 | Claude Peers MCP (note archived) | stale | no commit since April 2026 | Claude Code's built-in cross-session messaging (since 2.1.224) |
 | [[Meme Factory]] | stale | unchanged since January 2026, with templates that now return 404 | [[OpenClaw Meme Maker]] |
