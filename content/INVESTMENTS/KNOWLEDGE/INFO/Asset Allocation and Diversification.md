@@ -6,7 +6,7 @@ openToc: true
 tags: ["knowledge", "info", "investments", "asset-allocation", "diversification", "risk-management"]
 type: knowledge-note
 agent-created: true
-agent-reviewed: 2026-06-21
+agent-reviewed: 2026-11-13
 summary: "Mechanics of building a multi-asset portfolio — allocation, correlation, MPT, asset-class roles, glide paths, rebalancing, position sizing, cushion, model portfolios."
 ---
 
@@ -213,6 +213,7 @@ A one-page version of the mechanics:
 - Pfau & Kitces, "Reducing Retirement Risk with a Rising Equity Glide Path" (2013)
 - Bogleheads wiki — "Three-fund portfolio" & "Rebalancing"; Ray Dalio, *Principles* / All-Weather (Bridgewater)
 - Related: [[Investment Strategies]] · [[Investing Psychology]] · [[Cognitive Biases in Investing]] · [[Bear Markets — 100 Years of History]] · [[Crypto Market State 2026]]
+- Deeper evidence (Nov 2026): [[Rebalancing — Threshold vs Calendar]] · [[Position Sizing and Loss Limits in a Speculative Sleeve]] · [[Choosing an ETF]] · [[Polish Investor Taxes 2026]]
 
 ---
 Template: [[templates/knowledge_note_info]]
