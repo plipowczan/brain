@@ -214,6 +214,7 @@ After a review, the plugin adds an HTML comment with the next due date under the
 - [[Pomodoro]] — a daily review fits into one pomodoro
 - [[LIFE/TOOLS/Obsidian]] — plugins for cards inside notes
 - [[LLM Knowledge Bases]] and [[Building an AI Second Brain]] — the agent-maintained vault that AI-drafted cards would come from
+- [[Second Brain Design]] — the Obsidian + Claude Code + skills setup such a card workflow would run in
 
 ## 📖 Sources
 **Learning science**

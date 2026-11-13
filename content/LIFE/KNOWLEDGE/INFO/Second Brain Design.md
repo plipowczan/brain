@@ -7,49 +7,50 @@ tags: ["knowledge", "info", "pkm", "obsidian", "ai"]
 type: knowledge-note
 agent-created: true
 summary: "PKM system design: Obsidian vault + Claude Code + Skills — Capture, Organize, Retrieve with AI automation"
+agent-reviewed: 2026-11-13
 ---
 
 # Second Brain Design
 
 ## 🗒️ Description
 
-**Second Brain** to zewnętrzny system do przechowywania i organizacji wiedzy. Koncepcja wywodzi się z **PKM (Personal Knowledge Management)** — świadomego zbierania, organizowania i wykorzystywania informacji.
+A **second brain** is an external system for storing and organising knowledge. The idea comes from **PKM (Personal Knowledge Management)**: deliberately collecting, organising and using information.
 
-Tradycyjny second brain opiera się na trzech funkcjach:
-- **Capture** — szybkie przechwytywanie myśli, notatek, pomysłów
-- **Organize** — kategoryzacja i łączenie informacji
-- **Retrieve** — odnajdywanie wiedzy gdy jej potrzebujesz
+A traditional second brain rests on three functions:
+- **Capture** — quickly capturing thoughts, notes and ideas
+- **Organize** — categorising and connecting information
+- **Retrieve** — finding knowledge when you need it
 
-Problem? Te trzy funkcje wymagają dużo manualnej pracy. AI zmienia zasady gry — zamiast ręcznie organizować, AI przetwarza notatki, znajduje powiązania i generuje dokumenty z istniejącej bazy.
+The problem? All three take a lot of manual work. AI changes the rules. Instead of you organising by hand, AI processes the notes, finds connections and generates documents from the existing base.
 
-Second brain z AI to nie tylko storage — to **system, który aktywnie pomaga korzystać z wiedzy**.
+A second brain with AI is more than storage. It's **a system that actively helps you use your knowledge**.
 
 ## 🧩 Architecture
 
-### Obsidian jako fundament
-- **Pliki lokalne** — notatki to zwykłe pliki `.md` na dysku
-- **Offline-capable** — nie wymaga internetu
-- **Markdown** — format najlepiej rozumiany przez LLM-y
-- **Graph view** — wizualizacja połączeń między notatkami
-- **Brak vendor lock-in** — pliki otworzysz w dowolnym edytorze
+### Obsidian as the foundation
+- **Local files** — notes are plain `.md` files on disk
+- **Offline-capable** — no internet needed
+- **Markdown** — the format LLMs understand best
+- **Graph view** — shows the connections between notes
+- **No vendor lock-in** — the files open in any editor
 
-W przeciwieństwie do Notion czy Evernote — notatki w [[Obsidian]] to zwykłe pliki tekstowe. [[Claude Code]] może je bezpośrednio czytać, edytować i tworzyć nowe, bez dodatkowej konfiguracji.
+Unlike Notion or Evernote, notes in [[LIFE/TOOLS/Obsidian|Obsidian]] are plain text files. [[Claude Code]] can read, edit and create them directly, with no extra setup.
 
-### Claude Code jako mózg
-Możliwości CC wykraczające poza kodowanie:
-- **File operations** — czytanie, edycja, tworzenie plików
-- **Search** — przeszukiwanie zawartości i struktury projektu
-- **Terminal commands** — uruchamianie skryptów, narzędzi
-- **Web search** — research bezpośrednio z terminala
+### Claude Code as the brain
+What Claude Code can do beyond coding:
+- **File operations** — reading, editing and creating files
+- **Search** — searching the content and structure of a project
+- **Terminal commands** — running scripts and tools
+- **Web search** — research straight from the terminal
 
-Tylko code intelligence (rozumienie składni, refactoring) jest specyficzne dla kodowania. Reszta to uniwersalne możliwości asystenta AI z dostępem do systemu plików.
+Only code intelligence (understanding syntax, refactoring) is specific to coding. The rest are general abilities of an AI assistant with access to the file system.
 
-### Skills jako trzeci filar
-[[Agent Skills]] łączą wszystko w system — dają Claude Code wiedzę, procesy i wytyczne specyficzne dla workflow. Pliki markdown z instrukcjami, ładowane dynamicznie gdy potrzebne.
+### Skills as the third pillar
+[[Agent Skills]] tie it all into a system. They give Claude Code the knowledge, processes and guidelines for a specific workflow: Markdown files with instructions, loaded on demand.
 
 ## 📐 PARA Method
 
-Struktura folderów oparta na PARA (Projects, Areas, Resources, Archive):
+A folder structure based on PARA (Projects, Areas, Resources, Archive), Tiago Forte's method from [[LIFE/BOOKS/Building a Second Brain]]:
 
 ```text
 obsidian-vault/
@@ -63,95 +64,101 @@ obsidian-vault/
     └── skills/         # Claude Code skills
 ```
 
-- **Projects** — aktywne projekty z konkretnym deadlinem
-- **Areas** — stałe obszary odpowiedzialności (zdrowie, finanse, kariera)
-- **Resources** — materiały referencyjne na przyszłość
-- **Archive** — zakończone projekty, nieaktywne tematy
+- **Projects** — active projects with a concrete deadline
+- **Areas** — ongoing areas of responsibility (health, finances, career)
+- **Resources** — reference material for later
+- **Archive** — finished projects and inactive topics
 
 ## 🤖 Skills for PKM
 
 ### Research Engine
-- Przeszukuje web na zadany temat
-- Zbiera kluczowe informacje i źródła
-- Tworzy notatkę w formacie markdown
-- Zapisuje do odpowiedniego folderu w vault
+- Searches the web on a given topic
+- Collects the key information and sources
+- Creates a Markdown note
+- Saves it to the right folder in the vault
 
 ### Document Generator
-- Czyta wskazane notatki źródłowe
-- Analizuje strukturę i kluczowe koncepty
-- Aplikuje template i style guide
-- Generuje gotowy dokument (np. notatki ze spotkania → dokument z action items)
+- Reads the chosen source notes
+- Analyses their structure and key concepts
+- Applies a template and style guide
+- Generates a finished document (e.g. meeting notes → a document with action items)
 
 ### Daily Review
-- Skanuje notatki z dzisiaj
-- Tworzy podsumowanie dnia
-- Identyfikuje połączenia z istniejącą wiedzą
-- Sugeruje next actions
+- Scans today's notes
+- Writes a summary of the day
+- Finds connections with existing knowledge
+- Suggests next actions
 
 ### Content Creator
-- Analizuje notatki na dany temat
-- Generuje pomysły na content
-- Tworzy drafty (artykuły, posty, scripts)
-- Utrzymuje spójny głos i styl
+- Analyses the notes on a topic
+- Generates content ideas
+- Writes drafts (articles, posts, scripts)
+- Keeps a consistent voice and style
 
 ## 🔧 Integrations
 
-Dwa podejścia do łączenia z zewnętrznymi narzędziami:
+Two ways to connect external tools:
 
-**1. MCP servers** — bezpośrednie połączenie z usługami:
-- Gmail/Outlook — przez biblioteki lub serwery MCP
+**1. MCP servers** — a direct connection to services:
+- Gmail/Outlook — through libraries or MCP servers
 - Google Calendar — MCP server
-- ClickUp — MCP server lub API
+- ClickUp — MCP server or API
 
-**2. Skills ze skryptami** (preferowane podejście):
-- Własne skrypty Python/Node.js w folderze skills
-- Pełna kontrola nad logiką
-- Łatwe debugowanie
-- Wszystko w jednym miejscu (w vault)
+**2. Skills with scripts** (the preferred approach):
+- Your own Python/Node.js scripts in the skills folder
+- Full control over the logic
+- Easy debugging
+- Everything in one place (in the vault)
 
 ## 📊 Why Scripts over MCP
 
-MCP servers ładują **wszystkie narzędzia z góry** — to context bloat. Skills ze skryptami rozwiązują ten problem:
-- **Szybkość** — brak dodatkowej warstwy komunikacji
-- **Kontrola** — pełna kontrola nad logiką
-- **Reduced context overhead** — skrypt ładowany tylko gdy potrzebny
-- **Debugowanie** — wszystko w jednym miejscu, łatwiej znaleźć problem
+MCP servers load **all their tools up front**, which is context bloat. Skills with scripts solve that:
+- **Speed** — no extra communication layer
+- **Control** — full control over the logic
+- **Reduced context overhead** — a script is loaded only when it's needed
+- **Debugging** — everything is in one place, so problems are easier to find
 
-Make.com pozwala wystawić scenariusze jako narzędzia MCP — ciekawa opcja, ale dodatkowa warstwa. Skrypty w skills są prostsze.
+Make.com can expose scenarios as MCP tools. It's an interesting option, but it adds another layer. Scripts in skills are simpler.
+
+> [!note] Update, November 2026
+> Newer Claude Code versions can defer MCP tool definitions and load each one only when it's needed (tool search), so the up-front cost is much smaller than when this note was written in January 2026. The argument still holds for clients that load every tool at the start, and scripts in skills keep the other advantages above.
 
 ## 📝 Progressive Disclosure
 
-Koncepcja odróżniająca skills od innych podejść do rozszerzania AI. Trzy poziomy ładowania:
+The idea that sets skills apart from other ways of extending AI. There are three levels of loading:
 
-1. **Description** — krótki opis zawsze widoczny (jedna linijka)
-2. **SKILL.md** — pełne instrukcje ładowane tylko gdy potrzebne
-3. **Reference files** — dodatkowe zasoby ładowane dla konkretnych operacji
+1. **Description** — a short description that is always visible (one line)
+2. **SKILL.md** — the full instructions, loaded only when needed
+3. **Reference files** — extra resources loaded for specific operations
 
-Efekt: setki skills bez przytłaczania context window. Agent specjalizuje się per sesja — ładuje tylko to co potrzebuje.
+The effect: hundreds of skills without overwhelming the context window. The agent specialises per session and loads only what it needs.
 
-Porównanie z MCP servers: MCP ładuje **wszystkie narzędzia z góry**. Jeśli masz 50 narzędzi, wszystkie opisy zajmują miejsce w context window. To **context bloat** — marnujesz cenne miejsce na rzeczy których nie używasz. Więcej: [[Context Engineering]].
+Compared with MCP servers: MCP loads **all tools up front**. With 50 tools, all their descriptions take up space in the context window. That's **context bloat**: valuable space spent on things you don't use. More in [[Context Engineering]].
 
-## 📒 Podsumowanie
+## 📒 Summary
 
-1. **Claude Code to nie tylko kodowanie** — file operations, search, web search czynią go asystentem ogólnego przeznaczenia
-2. **Obsidian + Claude Code = perfect match** — markdown + lokalne pliki + AI processing
-3. **Skills dają context-efficient extensibility** — progressive disclosure zapobiega context bloat
-4. **Start simple, grow gradually** — jeden skill na raz, iteruj bazując na realnych potrzebach
-5. **Human touch remains essential** — AI augmentuje, nie zastępuje myślenia
-6. **File-based workflow is powerful** — version control, przenośność, prywatność
+1. **Claude Code isn't only for coding** — file operations, search and web search make it a general-purpose assistant
+2. **Obsidian + Claude Code = a perfect match** — Markdown + local files + AI processing
+3. **Skills give context-efficient extensibility** — progressive disclosure prevents context bloat
+4. **Start simple, grow gradually** — one skill at a time, iterating on real needs
+5. **The human touch remains essential** — AI augments thinking, it doesn't replace it
+6. **A file-based workflow is powerful** — version control, portability, privacy
 
-## 🔗 Zasoby
+## 🔗 Resources
 
-- [Obsidian](https://obsidian.md) — oficjalna strona
-- [Claude Code Documentation](https://docs.anthropic.com/claude-code) — dokumentacja
-- [PARA Method](https://fortelabs.com/blog/para/) — system organizacji wiedzy
-- [[Obsidian]] — narzędzie jako fundament
+- [Obsidian](https://obsidian.md) — official site
+- [Claude Code Documentation](https://docs.anthropic.com/claude-code) — documentation
+- [PARA Method](https://fortelabs.com/blog/para/) — a system for organising knowledge
+- [[LIFE/TOOLS/Obsidian|Obsidian]] — the tool as the foundation
 - [[Claude Code]] — primary AI assistant
-- [[Agent Skills]] — system rozszerzania agenta
-- [[Context Engineering]] — zarządzanie kontekstem w pracy z LLM
-- [[Digital Garden]] — publikowanie bazy wiedzy
+- [[Agent Skills]] — the system for extending the agent
+- [[Context Engineering]] — managing context when working with LLMs
+- [[Digital Garden]] — publishing a knowledge base
 - [[LIFE/BOOKS/Building a Second Brain]] — Tiago Forte's book behind PARA and the capture–organise–distil–express loop
 - [[Zettelkasten]] — the slip-box method: one idea per note, linked; how an agent-maintained vault keeps it
+- [[LLM Knowledge Bases]] — Andrej Karpathy's method: an LLM builds and maintains the knowledge base from raw sources
+- [[Building an AI Second Brain]] — step-by-step build of a Claude + Obsidian second brain on that pattern
+- [[Spaced Repetition and Flashcards from Your Own Notes]] — the retrieve step for what you need in your head, not only in the vault
 
 ---
 Template: [[templates/knowledge_note_info]]
