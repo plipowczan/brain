@@ -85,7 +85,7 @@ Stack: Make / n8n / Python automation, AI integrations (OpenAI, Claude, Qdrant),
 | Nonprofit client | diagnoza-strategiczna-IT | All sessions DONE; presentation 2026-05-12 16:00 |
 | JAREK_KALASZ (Aireveo) | architektura-agentowa | Discovery — warm lead, meeting end of May |
 | ANNA_JEGLINSKA | warsztat-analityczno-projektowy | On Hold — DIY mode |
-| Fintech client | warsztat-ai-optymalizacja | Active — 20k PLN paid for 66.67h. Vault: the client's own git repo (migrated 2026-04-17 from Google Drive). The client has collaborator access. |
+| Fintech client | warsztat-ai-optymalizacja | Active. Vault: the client's own git repo (migrated 2026-04-17 from Google Drive). The client has collaborator access. |
 
 Sessions are conversation-style (TO-BE > AS-IS); diagrams produced ex-post from transcripts.
 
