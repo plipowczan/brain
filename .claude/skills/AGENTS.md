@@ -12,12 +12,12 @@ e.g. skill `brain-ingest` ↔ command `/b:ingest`); all are described in root `A
 One folder per skill, each with a `SKILL.md` (YAML frontmatter: `name`, `description` +
 body: "When to use" trigger phrases + "Workflow" steps). The frontmatter `name` MUST equal
 the folder name. Some skills carry a `scripts/` subfolder (`brain-curate`, `brain-export`,
-`brain-gaps`, `brain-ingest`, `brain-lint`, `brain-refactor`, `brain-reindex`). Workflows
+`brain-gaps`, `brain-ingest`, `brain-lint`, `brain-refactor`, `brain-reindex`, `brain-watch`). Workflows
 are listed in root `AGENTS.md` → "Workflows".
 
 Core KB skills: `brain-ingest`, `brain-compile`, `brain-qa`, `brain-lint`, `brain-enhance`,
 `brain-curate`, `brain-gaps`, `brain-refactor`, `brain-reindex`, `brain-output`,
-`brain-export`, `brain-import`. Plus `openspec-*` (OPSX workflow) and general utilities.
+`brain-export`, `brain-import`, `brain-watch`. Plus `openspec-*` (OPSX workflow) and general utilities.
 
 Bundle transfer pair: `brain-export` packs notes into a `brain-pack-*.zip` (read-only for
 the vault — no note writes, no index updates); `brain-import` brings a bundle into this
@@ -42,6 +42,8 @@ scratchpad copies; source notes stay byte-identical.
 - The `research*` suite dispatches the `web-search-agent` sub-agent in [`../agents/`](../agents/AGENTS.md); `research-deep` also shells out to `brain-research/validate_json.py`. Both use **project-relative** paths — keep them project-scoped. Agent changes follow the same template-first rule — see [`../agents/AGENTS.md`](../agents/AGENTS.md) (the drift script does not cover agents).
 - `brain-reindex/scripts/build_indexes.py` is a **full deterministic rebuild** — running it twice on an unchanged vault must produce byte-identical indexes apart from the `updated:` stamp. Two consequences: (a) `catalog.md` summaries come from each note's frontmatter `summary:`, so hand-editing `catalog.md` is always overwritten — fix the note, not the index; (b) `## Recent Changes` in `vault-map.md` is a hand-maintained change log that **nothing in the frontmatter records**, so the script preserves an existing section verbatim and only derives one when it is absent. Do not "restore" the old regenerate-always behavior: it silently ate curated narrative and made every scheduled `kb-maintain` run open a no-op PR.
 - `brain-research/validate_json.py` accepts **both** `fields.yaml` schema styles: the original `field_categories:`/`category:` and the `/b:research`-emitted `categories:`/`name:`. When no field is marked `required:`, it treats **all** defined fields as required and enforces full coverage (missing field → FAIL, exit 1). Keep this file byte-identical (LF endings) to the template's copy in `../second-brain-template` or the drift check flags it.
+
+- `brain-watch` is shared with the template (it is in `SHARED`). `scripts/watch.py` is one CLI with five steps: `scan` (cheap pass, read-only: GitHub via `gh api` with an explicit `repos/<owner>/<name>` path on every call, else HTTPS + `GH_TOKEN`; URL check for notes with only `homepage:`) → `outline` → deep pass (the skill dispatches `web-search-agent`, validated with `brain-research/validate_json.py` against `brain-watch/fields.yaml`) → `digest` → `apply` → `report`. Flags fire on a **change** against `content/_outputs/watch/snapshot.json`, never on a state that was already known, so a long-quiet repo is not researched every month. `write_snapshot` keeps the old baseline for a note that was flagged but not researched, so the flag survives to the next run: keep that, or an interrupted deep pass silently loses archive/licence/release flags. Writes are limited to the status box (`MARK` regex: any `> [!kind] Status check YYYY-MM-DD` callout is replaced), `status-checked`, `project-status`, `repo:`/`homepage:`/`watch:` (only when missing, or `repo:` on a researched rename) and the snapshot; `apply` twice on the same inputs is a no-op. The privacy guard reads the "Always cut" section of `content/_privacy.md` and of the git-ignored `content/_privacy.local.md`, matches each term also in its slug forms (`Acme Labs` → `acmelabs`, `acme-labs`), and holds back status boxes, seeds and report lines that match. Tests: `python -m unittest` in `brain-watch/scripts/` (no network; GitHub is faked).
 
 ## Verify
 

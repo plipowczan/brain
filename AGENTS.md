@@ -25,6 +25,7 @@ directly — that is your domain. You have full autonomy to create and edit note
 | `/content/_indexes/` | Auto-maintained navigation indexes | No |
 | `/content/_outputs/answers/` | Saved Q&A results | No |
 | `/content/_outputs/reports/` | Lint/health reports | No |
+| `/content/_outputs/watch/` | `/b:watch` snapshot (`snapshot.json`): the baseline the next run compares with | No |
 | `/content/templates/` | Obsidian note templates | No |
 
 Sub-patterns within topics: `BOOKS/`, `TOOLS/`, `KNOWLEDGE/INFO/`, `KNOWLEDGE/HOWTO/`, `NOTES/`, `HABITS/`
@@ -180,6 +181,11 @@ source: "_raw/inbox/filename.md"
 agent-created: true
 agent-reviewed: YYYY-MM-DD
 summary: "One-line description for indexes"
+# Optional tool-note fields (read and written by /b:watch):
+repo: "https://github.com/owner/name"   # or homepage: "https://product.example/"
+watch: false                          # opt this note out of /b:watch
+status-checked: YYYY-MM-DD            # last deep status check
+project-status: active                # active | maintained | slowing | stale | dead | done | sunset
 ---
 ```
 
@@ -209,6 +215,7 @@ Each workflow is a skill with a matching slash command:
 - **REFACTOR** (`rename note`, `merge notes`, `split note`) — `.claude/skills/brain-refactor/`, command `/b:refactor` — note surgery (rename/move/merge/split) with automatic wikilink repair
 - **GAPS** (`find gaps`, `coverage analysis`, `what's missing`) — `.claude/skills/brain-gaps/`, command `/b:gaps` — surfaces weakly-connected notes, missing topics, thin areas
 - **CURATE** (`curate`, `prune`, `cleanup`, `retire stale notes`) — `.claude/skills/brain-curate/`, command `/b:curate` — staleness/relevance hygiene: scores notes, proposes archive/merge/refresh, retires confirmed notes to `_graveyard/` (reversible)
+- **WATCH** (`watch`, `check my tools`, `re-check tool status`, `is X still maintained`) — `.claude/skills/brain-watch/`, command `/b:watch` — recurring status check of `type: tool` notes: a cheap GitHub/URL pass flags archives, renames, licence changes, new releases and stale repos against `content/_outputs/watch/snapshot.json`; web-search agents research flagged + due notes (`--deep-budget`, default 40); writes only each note's `Status check YYYY-MM-DD` box + `status-checked` / `project-status` (and `repo:` / `homepage:` once), plus `content/_outputs/reports/YYYY-MM-DD_watch.md` with `/b:enhance` and `/b:curate` candidates; never moves a note. Private terms: the git-ignored `content/_privacy.local.md`. Runs monthly as the desktop scheduled task `brain-watch-monthly` (1st of the month, 09:00; own worktree, branch `kb-watch/YYYY-MM-DD`, never pushes)
 - **EXPORT** (`export [[A]] [[B]]`, `export #tag`, `export FOLDER`, `export --public …`) — `.claude/skills/brain-export/`, command `/b:export` — packs selected notes into a portable `brain-pack-*.zip`; two privacy levels: `me` (default, verbatim, read-only) and `--public` (redaction pipeline: policy + `content/_privacy.md` overrides, verdict table, sweep + audit nets, local report)
 - **IMPORT** (`import <pack.zip>`) — `.claude/skills/brain-import/`, command `/b:import` — imports a brain-pack bundle from another brain: validates, triages collisions, adapts placement to this vault's taxonomy, stamps provenance, updates indexes, writes report; ≤2 prompts per run
 
