@@ -109,7 +109,7 @@ What I'd steal even without running the factory:
 - 🔗 Repo: [github.com/coleam00/ai-software-factory](https://github.com/coleam00/ai-software-factory)
 - 📄 [docs/first-hour.md](https://github.com/coleam00/ai-software-factory/blob/main/docs/first-hour.md) · [docs/server-cheat-sheet.md](https://github.com/coleam00/ai-software-factory/blob/main/docs/server-cheat-sheet.md) · [docs/incidents.md](https://github.com/coleam00/ai-software-factory/blob/main/docs/incidents.md) · [migration guide](https://github.com/coleam00/ai-software-factory/blob/main/template/factory/MIGRATION.md)
 - 🔗 Archon SDLC pack pin: [template/factory/pack.json](https://github.com/coleam00/ai-software-factory/blob/main/template/factory/pack.json)
-- 📖 Related: [[Archon]] · [[AI-Native SDLC Playbook]] · [[Loop Engineering]] · [[Harness Engineering]] · [[Orca]] · [[Claude Code]]
+- 📖 Related: [[Archon]] · [[AI-Native SDLC Playbook]] · [[Loop Engineering]] · [[Harness Engineering]] · [[Orca]] · [[Claude Code]] · [[Software Factory with Claude Code (ZazenCodes)]]
 
 ---
 Template: [[templates/tool]]
