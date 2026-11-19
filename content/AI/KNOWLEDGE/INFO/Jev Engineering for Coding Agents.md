@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "coding-agents", "harness", "context-engineering", "token-optimization", "cost-optimization", "orchestration"]
 type: knowledge-note
-source: "_raw/processed/2026-09-29_Jev-Engineering-for-Coding-Agents.pdf"
+sources: ["_raw/processed/2026-09-29_Jev-Engineering-for-Coding-Agents.pdf", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md"]
 agent-created: true
 summary: "Diogo Almeida's (TypeSafe) harness thesis: design a coding agent as if there were no KV cache — typed state, per-query context, routing priced per context rebuild"
 ---
@@ -35,6 +35,7 @@ The thesis in one line: **a coding agent is a while loop around a model, and the
 - [[Claudex Loop]] — cross-model review, one of the background patterns
 - [[Claude Code]] — the harness I actually run; several of these ideas already exist in it in weaker form
 - [[Drex]] · [[Laya]] — the two challengers. Drex (Nace.ai, under 10B) claims #1 on Decision Index 0.2, 1.15 points ahead of Jev. Laya is an open-source, Jev-compatible encoder engine that answers in 33 ms, but you have to fine-tune it. Both say Jev's probabilities are overconfident.
+- [[colibri]] — a third Jev-compatible `/v1/systemone` server, this time inside a local inference engine for large MoE models. A Jev client switches by changing `TYPESAFE_BASE_URL`, and the two official Jev SDKs are tested unmodified against `coli serve`. It answers either with any chat model it runs, by scoring each option (four questions about one document came back 5.7× faster than generating the answers), or natively with Laya, GLiNER2.5-Decide and Clef. *(Added 2026-11-19.)*
 
 ## 🚀 The organizing question
 

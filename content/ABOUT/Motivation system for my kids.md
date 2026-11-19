@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["basic", "kids", "father", "pocket-money"]
 type: basic-note
+sources: ["_raw/processed/2026-11-19_yt-GGetWrJRCjc_wyklad-prof-dr-hab-mariusza-jedrzejko-iii-powiatowa-konferen.md"]
 summary: "Revolut Junior-based task-and-reward system to motivate kids with daily checklists and pocket money."
 ---
 # Motivation system for my kids
@@ -79,6 +80,7 @@ We can introduce a rule from this podcast ex. give 5 USD from which 3 they can s
 
 ## See also
 - [[Octalysis (Yu-kai Chou)]] — this system read through the gamification lens: it runs on money, loss and scarcity drives; the research says paid rewards hurt kids' intrinsic motivation most, so pay for chores, not for reading or music
+- [[Screens and Child Development (Mariusz Jędrzejko)]] — a pedagogue's house rules that fit this system: each child cooks dinner and washes up on one fixed weekday, no phones at meals, screens off at 20:00 under 13 and at 21:30 under 18, and the parents keep the same rules. Where my rule 3 says no phone or TV before the day's tasks are done, he adds a daily cap: 90 minutes for younger children, 180 for older ones. *(Added 2026-11-19.)*
 
 
 

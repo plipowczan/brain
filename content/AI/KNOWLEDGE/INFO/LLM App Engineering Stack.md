@@ -6,6 +6,7 @@ openToc: true
 tags: ["knowledge", "info", "ai", "llm", "rag", "agents", "open-source", "map"]
 type: knowledge-note
 agent-created: true
+sources: ["_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md"]
 summary: "Map of the open-source LLM application stack by lane — gateway, agents, ingestion/RAG, structured outputs, eval & observability — with the tool I track in each"
 ---
 
@@ -55,6 +56,7 @@ Make the model return valid, typed data instead of free text.
 ### 7. Local model serving
 Run open models privately, offline, at zero marginal cost.
 - **[[Ollama]]** — one-command local models behind an OpenAI-compatible REST API.
+- **[[colibri]]** — for MoE models larger than RAM: dense weights in RAM, routed experts streamed from NVMe, hottest experts on the GPU; OpenAI- and Anthropic-compatible endpoints plus a Jev-compatible decision endpoint. Slow for the frontier-sized models (1–2 tok/s), about 100 tok/s for Qwen3.6-35B-A3B on a 24 GB card.
 
 ### 8. Evaluation & observability
 Catch regressions and vulnerabilities before ship; watch quality + cost in production.

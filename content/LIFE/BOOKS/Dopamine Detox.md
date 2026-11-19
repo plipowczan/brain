@@ -8,6 +8,7 @@ tags:
   - productivity
   - self-development
 type: book-note
+sources: ["_raw/processed/2026-11-19_yt-GGetWrJRCjc_wyklad-prof-dr-hab-mariusza-jedrzejko-iii-powiatowa-konferen.md"]
 summary: "Thibaut Meurisse's method to reset dopamine response, cut overstimulation, and reclaim focused attention."
 ---
 
@@ -89,6 +90,12 @@ By reducing overstimulation, you can regain control over your attention, improve
 - Create contingency plans (e.g., meditate instead of checking phone).
 - Try a **30-day challenge** to solidify habits.
 - Engage in serotonin-boosting activities: nature walks, deep conversations, mindfulness.
+
+### 👨‍👩‍👧 A family version (added 2026-11-19)
+
+- [[Screens and Child Development (Mariusz Jędrzejko)]] prescribes the same idea for children, at home and for the whole family: **3–4 days, ideally a week, with no digital technology** (parents included), with more walks and ball games instead. Then alternate days on and off, with an evening screen curfew, and finally 6 days on and 1 off.
+- He frames it as a controlled return, not abstinence: in his practice a child with a "cyber-disorder" can go back to a smartphone, which an addicted person can't do with alcohol.
+- The dopamine figure he uses to justify it (blue light raising dopamine by 800%) has no source I could find; see that note's claims check.
 
 ---
 

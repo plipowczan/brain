@@ -5,10 +5,10 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "compiled", "ai", "tools", "map", "agents", "coding-agents", "comparison", "index"]
 type: compiled-note
-source: "research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/"
+sources: ["research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md"]
 agent-created: true
 status-checked: 2026-11-13
-summary: "All 124 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13: what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
+summary: "All 125 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13 (colibri, added 2026-11-19, not yet): what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
 ---
 
 # AI Tools Map
@@ -32,7 +32,8 @@ For closed products and APIs "active" means the product is sold and documented t
 
 ## 📒 The review in numbers
 
-- **126 tools** in **13 categories**, each checked on 2026-11-13. Two of them were archived after the review, so the map below lists **124**.
+- **126 tools** in **13 categories**, each checked on 2026-11-13. Two of them were archived after the review, so the map below listed **124**.
+- **Added after the review:** [[colibri]] (2026-11-19), so the map now lists **125**. It has no status check yet; the counts below are the 2026-11-13 review's.
 - **107 active** and **8 maintained**: most of the field moves fast, many tools ship weekly or daily.
 - **3 slowing**: [[Space Agent]], [[OpenKB]], [[Santander AI Open Source]].
 - **5 stale**: [[MCP Language Server]], Claude Peers MCP (archived), [[Autoresearch]], [[Meme Factory]], [[Slack GIF Creator]].
@@ -198,6 +199,7 @@ The parts of an LLM product around the model: structured output, prompt optimisa
 | [[Langfuse]] | An open, self-hostable platform on OpenTelemetry for tracing, evaluating and monitoring LLM apps, with prompt versioning. | active, v4.79.0 (2026-11-12) |
 | [[LibreChat]] | A self-hosted ChatGPT-style web app that puts many model providers behind one multi-user interface with agents and MCP tools. | active, v0.8.8 (2026-10-01) |
 | [[Ollama]] | A local runtime that pulls quantised open-weight models and serves them on your machine through a CLI, app and REST API. | active, v0.40.16 (2026-11-09) |
+| [[colibri]] | An inference engine in C that runs MoE models larger than RAM by streaming the routed experts from NVMe, with OpenAI-, Anthropic- and Jev-compatible endpoints. | added 2026-11-19, not status-checked yet |
 
 ### Model APIs & platforms
 

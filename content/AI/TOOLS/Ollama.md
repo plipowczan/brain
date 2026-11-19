@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "llm", "local", "inference", "models", "self-hosted", "open-source"]
 type: tool
-source: "https://github.com/ollama/ollama"
+sources: ["https://github.com/ollama/ollama", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md"]
 agent-created: true
 summary: "Run open LLMs locally with one command — pulls and serves Kimi-K2.6, GLM-5.2, DeepSeek, gpt-oss, Qwen, Gemma etc. behind a REST API; macOS/Linux/Windows/Docker"
 status-checked: 2026-11-13
@@ -70,6 +70,7 @@ Weak points: local models still trail frontier hosted models on hard reasoning; 
 - **LM Studio** — GUI-first local runner; friendlier UI, less scriptable/serverless.
 - **llama.cpp** — the lower-level engine Ollama builds on; more control, more setup.
 - **vLLM** — production-grade high-throughput serving; heavier, GPU-centric, not a desktop tool.
+- **[[colibri]]** — for mixture-of-experts models bigger than your RAM: it keeps the dense part in RAM, streams the routed experts from NVMe and puts the hottest ones on the GPU, and it reads published GGUF files unchanged. That softens the "large models need serious VRAM" weak point above, but only for MoE models and at a price in speed: GLM-5.2 (744B) decodes at 0.05–0.1 tok/s on a 25 GB laptop and 1.83 tok/s on a 128 GB box. For models that fit, Ollama stays the simpler choice.
 - **Hosted APIs (OpenAI/Anthropic)** — best quality, but paid and off-device; opposite trade-off.
 
 ## 🔗 Resources

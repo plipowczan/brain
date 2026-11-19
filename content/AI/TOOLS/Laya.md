@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "llm", "decision-models", "classification", "multilingual", "python", "mcp", "self-hosted", "open-source", "apache-2.0"]
 type: tool
-source: "_raw/processed/2026-10-01_NandhaKishorMlaya Non-autoregressive System 1 decision engine.md"
+sources: ["_raw/processed/2026-10-01_NandhaKishorMlaya Non-autoregressive System 1 decision engine.md", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md"]
 agent-created: true
 summary: "NandhaKishorM/laya — open-source Jev-compatible System 1 decision engine: typed choice/score/yes-no answers in one encoder pass (33 ms on T4), 100+ languages via a router; fine-tune first"
 status-checked: 2026-11-13
@@ -81,6 +81,8 @@ Fine-tuning notebook: runs on Kaggle's free 2× T4 (build the dataset, train, fi
 
 So my workflow would be: label a few hundred real decisions, fine-tune on the free Kaggle notebook, fit temperatures, then gate on confidence. The result is a 421M model I own, which can run on CPU through the INT8 ONNX export and costs nothing per call. The README publishes no CPU latency figures, so I'd measure that first. For PLSOFT client automations (ticket triage, intake routing, prompt-injection guards) that's a better deal than a per-token API, provided the client has labelled history. MASSIVE covers 51 languages, so `BENCHMARKS.md` is where I'd check Polish before relying on the multilingual checkpoint.
 
+**CPU latency, measured elsewhere (added 2026-11-19).** [[colibri]] runs Laya natively in C as one of its decision engines, behind the same Jev-compatible `/v1/systemone` endpoint, and publishes the CPU numbers this README lacks: **219 ms for one question and 882 ms for three** on an i7-1355U laptop. On an i5-13500 box twelve questions took 11.4–13.0 s on the CPU and 0.69 s with CUDA. That's colibri's own C port, not Laya's INT8 ONNX export, so it's a data point for the model, not for the Python package. Laya there is a 0.85 GB download and needs 1.7 GB of RAM.
+
 ## Alternatives considered
 **Laya vs Jev**, as published in the README. Jev's figures are third-party numbers; Laya's authors had no TypeSafe API access, so samples and prompts differ:
 
@@ -98,13 +100,14 @@ Jev keeps the lead on high-cardinality label sets, soft accuracy against a teach
 - **Jev (TypeSafe)**: the closed, hosted original. See [[Jev Engineering for Coding Agents]].
 - **[[Drex]]**: Nace.ai's commercial sub-10B decision model. It claims #1 on Decision Index 0.2, with self-hosting and custom tuning sold as a service. It's much bigger than Laya and closed, but positioned to work zero-shot.
 - **An LLM plus [[Instructor]] / [[Outlines]]**: no training, any model, but a sampled answer and no calibrated distribution.
+- **GLiNER2.5-Decide (fastino) and Clef (Cloudflare)**: two more decision models that [[colibri]] serves on the same Jev-compatible endpoint. GLiNER2.5-Decide is English, a 1.95 GB download, 294 ms for one question on a laptop CPU; Clef is Qwen3.8-27B with a decision head, so it also chats, at 20.4 s per request in int8. colibri can also answer the same questions with any chat model it runs, by scoring each option.
 
 ## Resources
 - 🔗 Repo: [github.com/NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) · [docs](https://nandhakishorm.github.io/laya/) · [BENCHMARKS.md](https://github.com/NandhaKishorM/laya/blob/main/BENCHMARKS.md)
 - 🤗 Checkpoints: [laya](https://huggingface.co/convaiinnovations/laya) · [laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual) · [laya-typed-decisions](https://huggingface.co/convaiinnovations/laya-typed-decisions)
 - 📓 [Fine-tuning notebook (Kaggle 2× T4)](https://github.com/NandhaKishorM/laya/blob/main/notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb)
 - 📊 Third-party Jev latency benchmarks: [AbdelStark/jev-benchmarks](https://github.com/AbdelStark/jev-benchmarks) · [nibzard/decision-model-benchmark](https://github.com/nibzard/decision-model-benchmark)
-- 📖 Related: [[Drex]] · [[Jev Engineering for Coding Agents]] · [[Instructor]] · [[Outlines]] · [[LangGraph]] · [[Overmind]] (a fine-tune-from-production-traces pipeline, if the "fine-tune first" advice applies)
+- 📖 Related: [[Drex]] · [[Jev Engineering for Coding Agents]] · [[colibri]] (runs Laya natively in C) · [[Instructor]] · [[Outlines]] · [[LangGraph]] · [[Overmind]] (a fine-tune-from-production-traces pipeline, if the "fine-tune first" advice applies)
 
 ---
 Template: [[templates/tool]]
