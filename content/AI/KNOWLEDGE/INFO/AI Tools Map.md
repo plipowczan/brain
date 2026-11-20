@@ -5,10 +5,10 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "compiled", "ai", "tools", "map", "agents", "coding-agents", "comparison", "index"]
 type: compiled-note
-sources: ["research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md"]
+sources: ["research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md", "_raw/processed/2026-11-20_cathrynlaverydiagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.md", "_raw/processed/2026-11-20_morlutorea Reverse engineer anything with agents, from app behavior down to native binaries.md"]
 agent-created: true
 status-checked: 2026-11-13
-summary: "All 125 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13 (colibri, added 2026-11-19, not yet): what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
+summary: "All 128 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13 (colibri, Context Mode, Diagram Design and REA, added 2026-11-19 and 2026-11-20, not yet): what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
 ---
 
 # AI Tools Map
@@ -33,7 +33,7 @@ For closed products and APIs "active" means the product is sold and documented t
 ## 📒 The review in numbers
 
 - **126 tools** in **13 categories**, each checked on 2026-11-13. Two of them were archived after the review, so the map below listed **124**.
-- **Added after the review:** [[colibri]] (2026-11-19), so the map now lists **125**. It has no status check yet; the counts below are the 2026-11-13 review's.
+- **Added after the review:** [[colibri]] (2026-11-19), [[Context Mode]], [[Diagram Design]] and [[REA]] (2026-11-20), so the map now lists **128**. They have no status check yet; the counts below are the 2026-11-13 review's.
 - **107 active** and **8 maintained**: most of the field moves fast, many tools ship weekly or daily.
 - **3 slowing**: [[Space Agent]], [[OpenKB]], [[Santander AI Open Source]].
 - **5 stale**: [[MCP Language Server]], Claude Peers MCP (archived), [[Autoresearch]], [[Meme Factory]], [[Slack GIF Creator]].
@@ -141,6 +141,7 @@ Long-term memory for agents: document RAG, compiled wikis, code graphs and vecto
 | [[NotebookLM-py]] | An unofficial library, CLI and MCP server that drives Google NotebookLM through undocumented endpoints, so agents can use it. | active, v0.8.6 (2026-10-29) |
 | [[Qdrant]] | An open-source vector database in Rust with filtered, sparse and hybrid search over REST and gRPC, self-hosted or managed. | active, v1.20.0 (2026-10-22) |
 | [[Archify]] | A cross-agent skill where the agent writes a typed JSON description and a renderer turns it into an interactive architecture diagram. | active, v3.2.0 (2026-10-19) |
+| [[REA]] | An MCP server and CLI that lets an agent reverse-engineer binaries (through Ghidra, IDA, Hopper or Kuna), Electron and .NET apps, APKs and websites, with evidence for each finding. | added 2026-11-20, not status-checked yet |
 
 ### Token & cost optimisation, model routing
 
@@ -151,6 +152,7 @@ Fewer tokens per task and cheaper models per token: compression proxies, terse-o
 | [[Caveman]] | A token-cost toolkit for coding agents: terse replies, a local proxy that compresses what the agent reads, and cheaper-model routing. | active, 4.1.0 (2026-11-08) |
 | [[Headroom]] | A library, proxy and MCP server that compresses tool outputs, logs and history before they reach the model and keeps the originals. | active, v0.44.0 (2026-11-10) |
 | [[billion-context]] | A local proxy that gives the model tools to fold old conversation ranges into summaries and search them back when needed. | active, v0.1.213 (2026-11-07) |
+| [[Context Mode]] | An MCP server and hooks that keep raw tool output in a sandbox and a local search index, so only results enter context, and restore the working state after compaction. | added 2026-11-20, not status-checked yet |
 | [[Ponytail]] | A skill that makes coding agents reuse existing code, the standard library or platform features before writing new code. | active, v5.3.3 (2026-10-29) |
 | [[OmniRoute]] | A self-hosted AI gateway with one OpenAI-compatible endpoint over hundreds of providers and their free tiers, with failover. | active, v3.8.53 (2026-11-06) |
 | [[LiteLLM]] | A Python SDK and self-hosted proxy that calls 100+ LLM providers in the OpenAI format, with virtual keys, budgets and fallbacks. | active, v1.109.1 (2026-11-12) |
@@ -254,6 +256,7 @@ Skills and tools that make agents better at interface design, and AI design gene
 | [[Open Design]] | A desktop and web app that turns your coding-agent CLI or a hosted model into a design agent for prototypes, decks and video. | active, v0.27.1 (2026-11-10) |
 | [[DESIGN MD Spec]] | Google Labs' DESIGN.md format: design tokens in YAML front matter, reasoning in prose, plus a CLI to lint and export. | active, 0.4.0 (2026-07-27) |
 | [[21st MCP]] | 21st.dev's hosted MCP server: agents search 12,000+ React/Tailwind components, install their code and, on a paid AI plan, generate new ones. Replaced Magic MCP (dead) in July 2026. | active, CLI 1.18.0 (2026-10-06) |
+| [[Diagram Design]] | A skill that draws 45 diagram types as one self-contained HTML/SVG file in a strict editorial style matched to your site's brand, and redraws draw.io, Mermaid and Excalidraw files. | added 2026-11-20, not status-checked yet |
 | [[UX Pilot]] | An AI wireframe and high-fidelity UI generator that goes from sketch or PRD to screens and exports to Figma and code. | active, 2.0 (July 2026), updated 2026-10-22 |
 
 ### Domain tools

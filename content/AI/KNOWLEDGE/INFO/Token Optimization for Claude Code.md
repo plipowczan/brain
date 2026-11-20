@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude-code", "token-optimization", "cost-optimization", "context-engineering"]
 type: knowledge-note
-source: "_raw/processed/2026-04-20_stop-burning-tokens.md"
+sources: ["_raw/processed/2026-04-20_stop-burning-tokens.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md"]
 agent-created: true
 summary: "Curated list of 10 open-source tools that reduce Claude Code token usage by 40–98% — proxies, context sandboxes, CLAUDE.md templates, code graphs"
 ---
@@ -22,7 +22,7 @@ A short catalog of tools that cut token usage in [[Claude Code]] and LLM work in
 - **[[Caveman|Caveman Claude]]** — forces Claude to reply in a "caveman" style, cuts ~65% output tokens (README headline ~75%) with no accuracy loss.
 - **RTK (Rust Token Killer)** — Rust proxy that filters terminal output, 60–90% reduction, no dependencies.
 - **Code Review Graph** — Tree-sitter graph, Claude reads only relevant nodes — claimed 49× reduction on large monorepos.
-- **Context Mode** — sandboxes raw output (logs, GitHub) into SQLite instead of dumping into context; claimed 98% reduction.
+- **[[Context Mode]]** — sandboxes raw output (logs, GitHub) into SQLite instead of dumping into context; claimed 98% reduction. Its own README (read 2026-11-20) adds two things the post left out: the 98% assumes hooks that route tool calls into the sandbox, while agents that only get a routing instruction file (Zed, Antigravity IDE) save ~60%; and the licence is Elastic License 2.0, source-available rather than open source. It also keeps a session event log that restores the working state after compaction.
 - **Claude Token Optimizer** — a bundle of setup prompts; 90% savings on documentation (11K → 1.3K tokens).
 - **Token Optimizer** — detects "ghost tokens" (invisible characters/duplications) eating the context.
 - **Token Optimizer MCP** — aggressive caching and compression for MCP tools; 95%+ reduction.
@@ -32,14 +32,14 @@ A short catalog of tools that cut token usage in [[Claude Code]] and LLM work in
 
 ## 🧩 Taxonomy (mine, organized)
 - **Output compression** — [[Caveman]], RTK
-- **Context sandboxing** — Context Mode, Token Optimizer MCP
+- **Context sandboxing** — [[Context Mode]], Token Optimizer MCP
 - **Code graph / symbol index** — Code Review Graph, Token Savior, Claude Context
 - **Prompt / CLAUDE.md templates** — Claude Token Optimizer, Claude Token Efficient
 - **Hygiene** — Token Optimizer (ghost tokens)
 
 ## ☘️ Reasoning for me
 - My [[Agentic Systems]] and [[Qamera AI]] Claude Code sessions regularly exceed 200k context — the most sensible bets are **code graph** (Token Savior, Claude Context) + **CLAUDE.md hygiene** (Claude Token Efficient).
-- Context Mode (SQLite sandbox) fits log and GitHub API ingest scenarios perfectly — slots into [[Context Engineering]] as another layer.
+- [[Context Mode]] (SQLite sandbox) fits log and GitHub API ingest scenarios perfectly — slots into [[Context Engineering]] as another layer.
 - Worth verifying repos before installing — this is a LinkedIn list, not peer-reviewed.
 
 ## 📖 Further reading

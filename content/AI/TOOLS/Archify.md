@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agent-skills", "diagrams", "claude-code", "codex", "opencode", "open-source", "mit"]
 type: tool
-source: "_raw/processed/2026-09-06_tt-a1iarchify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams.md"
+sources: ["_raw/processed/2026-09-06_tt-a1iarchify Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams.md", "_raw/processed/2026-11-20_cathrynlaverydiagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.md"]
 agent-created: true
 agent-reviewed: 2026-09-06
 summary: "tt-a1i/archify — cross-agent skill (Claude Code / Cursor / Codex / opencode) that turns plain-English descriptions into verifiable, interactive self-contained HTML architecture, workflow, sequence, data-flow & lifecycle diagrams; 2.17 adds a fourth visual preset, route/reach share cards, a DeepSeek Harness plugin and Raven support, and a no-telemetry update check you can disable."
@@ -120,6 +120,7 @@ npx -y skills add tt-a1i/archify --skill archify --agent cursor --global --copy 
 ## Alternatives considered
 - **Mermaid** — text-to-diagram, but generic auto-layout and limited emphasis control; Archify explicitly is *not* a Mermaid theme and chooses hierarchy/spacing/routes for the story.
 - **[[CODE/TOOLS/Excalidraw|Excalidraw]]** — great for hand-drawn manual diagramming, but you draw it yourself; Archify generates from a description.
+- **[[Diagram Design]]** — the editorial counterpart: 45 static diagram types in one strict style (one accent colour, 4px grid, no shadows), matched to your site's palette and fonts, and it redraws draw.io, Mermaid and Excalidraw files. It has no typed JSON description and no validation receipts, and its README admits the same prompt can lay out differently twice. I'd reach for Archify for a system map I need to trust and explore, and for Diagram Design for a figure in a post or deck.
 - **Generic auto-layout / WYSIWYG editors** — Archify's roadmap deliberately excludes Mermaid parsing, generic auto-layout, hosted sharing, and a WYSIWYG editor.
 
 Archify is a fork/rewrite of [Cocoon-AI/architecture-diagram-generator](https://github.com/Cocoon-AI/architecture-diagram-generator) v1.0; the original visual language is credited there. Both MIT.

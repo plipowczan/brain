@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude-code", "agent-skills", "coding-agents", "video", "design", "memory", "research", "token-optimization"]
 type: compiled-note
-source: "_outputs/answers/2026-07-12_claude-code-tools-i-use-by-operation.md"
+sources: ["_outputs/answers/2026-07-12_claude-code-tools-i-use-by-operation.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md"]
 agent-created: true
 summary: "The tools I actually use to extend Claude Code where it's weak out of the box — video, design, memory, research and token usage — with how I use each."
 ---
@@ -111,6 +111,7 @@ I've used Caveman ([JuliusBrussee/caveman](https://github.com/JuliusBrussee/cave
 From [[Token Optimization for Claude Code]] — tools that cut usage 40–98%:
 
 - **[[Headroom]]** — compresses everything the agent *reads* (tool outputs, logs, RAG, files, history): 60–95% fewer tokens. The input-side complement to Caveman.
+- **[[Context Mode]]** — keeps raw tool output out of context altogether: hooks route Bash, file reads and fetches into a sandbox and a local search index, so only printed results enter (98% claimed with hooks, ~60% without). It also restores the working state after compaction.
 - **[[Ponytail]]** — YAGNI-first minimal code: −54% LOC, −22% tokens.
 - **[[Graphify]]** — code/docs → queryable knowledge graph: 71× token reduction.
 - **[[Codebase Memory MCP]]** — persistent repo knowledge graph: ~99% fewer tokens on navigation.

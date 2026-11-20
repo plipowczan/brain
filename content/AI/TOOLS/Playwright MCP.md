@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "mcp", "browser", "testing", "playwright", "coding-agents"]
 type: tool
-source: "_raw/processed/2026-07-29_claude-in-chrome-v-chrome-devtools-mcp.md"
+sources: ["_raw/processed/2026-07-29_claude-in-chrome-v-chrome-devtools-mcp.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md"]
 agent-created: true
 summary: "Microsoft's accessibility-tree-based browser automation MCP — cross-browser E2E testing, most token-efficient of the three main browser MCPs"
 status-checked: 2026-11-13
@@ -35,6 +35,8 @@ Free, no subscription; Node.js required locally.
 
 ## Reasoning for
 The default choice for **day-to-day E2E testing and test-script generation**: cross-browser coverage, deterministic accessibility-tree selectors (fewer flaky tests than CSS/XPath), excellent CI/CD and headless support, and it can generate reusable Playwright test files from natural-language instructions rather than just performing one-off actions. Lowest token footprint of the three browser MCPs, leaving more context for actual code.
+
+The ~13.7k tokens above is the cost of the tool definitions. Each call's output is a separate bill: [[Context Mode]]'s benchmark measures one page snapshot at 56.2 KB of raw output (299 B when run through its sandbox), and its README warns that a single unrouted snapshot can wipe out a session's savings. On long sessions, many snapshots cost more than the tool list does.
 
 Weaker than [[Chrome DevTools MCP]] on performance tracing and deep network inspection, and weaker than [[Claude in Chrome]] when the task specifically needs your logged-in session rather than a fresh isolated context.
 

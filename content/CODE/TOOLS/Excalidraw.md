@@ -6,6 +6,7 @@ openToc: true
 tags: ["tool", "ai", "diagrams", "claude-code"]
 type: tool
 agent-created: true
+sources: ["_raw/processed/2026-11-20_cathrynlaverydiagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.md"]
 summary: "Diagram generation skill for Claude Code — integrates with Obsidian and VS Code for process mapping"
 ---
 
@@ -59,6 +60,7 @@ Sam Claude Code generuje diagramy, ale ich nie wyświetla. Potrzebujesz narzędz
 - **draw.io** — potężne, ale brak integracji z agent workflow
 - **Miro** — brak kontroli nad stylami w AI generation
 - **Whimsical** — ładne diagramy, ale nie open source
+- **[[Diagram Design]]** — not a replacement but a finishing step: this agent skill redraws `.excalidraw` scenes (and draw.io or Mermaid files) into a polished, on-brand HTML/SVG diagram for a deck or post, at a chosen size and level of detail, and lists what it merged or dropped.
 
 ## 📖 Resources
 - [Excalidraw](https://plus.excalidraw.com/) — main app

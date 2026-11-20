@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "claude-code", "token-optimization", "cost-optimization", "context-engineering", "open-source", "apache-2.0"]
 type: tool
-source: "_raw/processed/2026-06-14_yt-zjFE-dBzP_E_you-need-to-try-these-open-source-ai-projects-right-now.md"
+sources: ["_raw/processed/2026-06-14_yt-zjFE-dBzP_E_you-need-to-try-these-open-source-ai-projects-right-now.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md"]
 agent-created: true
 agent-reviewed: 2026-11-13
 summary: "headroomlabs-ai/headroom (formerly chopratejas/headroom) — compresses what an AI agent reads (tool outputs, logs, RAG chunks, files, history) before it hits the LLM. Now claims 21–57% fewer input tokens on agent scenarios, 90%+ only on repetitive JSON/logs. Library, proxy, middleware or MCP. Apache 2.0 OSS; paid Enterprise tier from Headroom Labs."
@@ -53,6 +53,8 @@ Headroom's pitch vs. neighbours: it runs **locally**, covers **all** content (to
 
 Until mid-2026 Headroom also **shipped the RTK binary** and could use lean-ctx as its CLI context tool (`HEADROOM_CONTEXT_TOOL=lean-ctx`). RTK became opt-in in v0.33.0 (2026-07-29), and both CLI context tools were removed in v0.34.0 (2026-08-05, PR #2677), so that integration no longer exists. The README now names [[Serena]] (opt-in, `headroom wrap --code-memory serena`) as the recommended companion for code navigation, plus [[Ponytail]] for leaner model output, and says any other MCP server (code memory, [[Graphify]], [[Caveman]]) can sit upstream while Headroom compresses downstream of it.
 
+[[Context Mode]] works one step earlier, inside the agent. It does not compress what reaches the model; its hooks route Bash, file reads and web fetches into a sandboxed subprocess and a local SQLite search index, so only what a script prints or a search returns enters context (98% claimed with hooks, ~60% without). It also logs session events and restores the working state after compaction, which Headroom does not try to do. On paper the two could stack, Context Mode deciding what leaves the tool and Headroom compressing what still goes to the model; I have not tested that.
+
 ## Reasoning for
 
 The input-side complement to [[Caveman]] (which shrinks *output* tokens). Together they attack both halves of the bill. Fits squarely in the [[Context Engineering]] / [[Progressive Disclosure]] toolkit — instead of curating what the agent fetches, Headroom compresses whatever it does fetch, transparently. Worth trialing on [[Qamera AI]] / [[PLSoft]] agent work where long codebase-exploration loops burn quota.
@@ -85,6 +87,7 @@ The input-side complement to [[Caveman]] (which shrinks *output* tokens). Togeth
 - [[OmniRoute]] — vendors Headroom's GCF codec as engine #6 of its compression stack
 - [[Ponytail]] — the README's recommended companion for leaner model output
 - [[billion-context]] — a different bet: the model itself folds and restores conversation ranges
+- [[Context Mode]] — keeps raw tool output out of context in a sandbox and search index, plus session memory across compaction
 
 ---
 Template: [[templates/tool]]
