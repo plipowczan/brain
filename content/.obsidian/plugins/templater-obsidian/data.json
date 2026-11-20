@@ -1,18 +1,14 @@
 {
+  "data_version": 2,
   "command_timeout": 5,
   "templates_folder": "",
-  "templates_pairs": [
-    [
-      "",
-      ""
-    ]
-  ],
-  "trigger_on_file_creation": true,
+  "templates_pairs": [],
+  "trigger_on_file_creation_mode": "folder",
+  "only_trigger_for_matching_files": false,
   "auto_jump_to_cursor": false,
-  "enable_system_commands": false,
+  "jump_to_cursor_after_file_name": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "enable_folder_templates": true,
   "folder_templates": [
     {
       "folder": "PRIVATE/PL/JOURNAL",
@@ -23,12 +19,12 @@
       "template": "templates/puls.md"
     }
   ],
+  "file_templates": [],
   "syntax_highlighting": true,
-  "enabled_templates_hotkeys": [
-    ""
-  ],
-  "startup_templates": [
-    ""
-  ],
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
+  "intellisense_render": "1",
+  "ignore_folders_on_creation": [],
   "enable_ribbon_icon": true
 }
