@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "agent-skills", "claude-code", "design", "frontend", "animation", "methodology"]
 type: knowledge-note
-source: "_raw/processed/2026-11-08_yt-of628n5754g_head-of-design-at-x-s-new-claude-skill-is-insane.md"
+sources: ["_raw/processed/2026-11-08_yt-of628n5754g_head-of-design-at-x-s-new-claude-skill-is-insane.md", "_raw/processed/2026-11-22_How I prompt AI to build good looking demos.md"]
 agent-created: true
 summary: "Stageshow, the skill where X's head of design Benji Taylor writes down his process for faux-UI landing-page demos (AI LABS video plus the author's page): seven planning-heavy steps, gold examples, a React kit and a film-and-contact-sheet check. Not run by me."
 source_url: "https://www.youtube.com/watch?v=of628n5754g"
@@ -63,6 +63,20 @@ Video by AI LABS (12:16, published 2026-11-07). They show the problem, the seven
 - It sits next to the design-direction skills in [[AI UX Design Tools]], [[Impeccable]] and [[UI UX Pro Max]]: those set overall look, Stage Show handles one narrow artefact. It reads brand tokens from the app, so a [[DESIGN MD Spec]] file would be the natural input.
 - Possible use: a demo section for client landing pages in [[PLSoft]] / [[Qamera AI]] work, run from [[Claude Code]].
 
+## 🧩 A sibling: Leon Lin's cook skill
+
+Added 2026-11-22. [[Cook]], from [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]], is another demo skill, built for a different artefact and with a different idea of "done":
+
+| | Stage Show | cook |
+|---|---|---|
+| Artefact | a 10–16 s animated faux-UI demo for a landing page | 3D worlds in code, films, launch videos, games, UI |
+| Target | the app's own look plus Benji's gold examples | 9–12 reference images (often generated first), treated as the minimum bar |
+| Density | keep it simple: 3–7 real words on screen | detail everywhere, also far away |
+| Done when | the filmed contact sheet and the layout and jump scripts pass | a numeric bar per dimension (99.9%, 9/10) met in the scores of zero-context critics, then your approval of the stills |
+| Run length | one interaction, short | a floor of at least 8 h for demos |
+
+What they share: the agent has to look at rendered frames, not trust its own code. Stage Show lays them out on a contact sheet, cook puts each reference next to its render with `side-by-side.mjs`. Stage Show's check is mechanical (scripts measure overflow and jumps), so it catches defects but not a dull idea. Cook's check is a model's judgement, so it can push the look higher but its score is softer.
+
 ## ⚠️ Claim check
 - **Unverified:** "Insane" is clickbait framing. I did not install the skill or compare it with other design skills; the quality claim rests on the channel's own demo of one app against a no-direction first version.
 - "No other design skill checks like this" is the video's statement, and "about 40" demos is firmer than the author's own "dozens". The author's page documents the check (`film.mjs`, `jumps.mjs`, `layout.mjs`) but I did not run it.
@@ -77,6 +91,7 @@ Video by AI LABS (12:16, published 2026-11-07). They show the problem, the seven
 ## 📖 Further reading/watching
 - [[Router and Workers — DeepSeek Super Agent in Claude Code (AI LABS)]] (another AI LABS video)
 - [[Vibe Coding]], [[Context Engineering]]
+- [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]] · [[Cook]]: reference-matched demos with a numeric bar and zero-context critics
 
 ---
 Template: [[templates/knowledge_note_info]]

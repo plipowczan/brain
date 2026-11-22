@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "design", "skills", "frontend", "claude-code", "open-source", "apache-2.0"]
 type: tool
-source: "_raw/processed/2026-05-28_pbakaus-impeccable.md"
+sources: ["_raw/processed/2026-05-28_pbakaus-impeccable.md", "_raw/processed/2026-11-22_How I prompt AI to build good looking demos.md"]
 agent-created: true
 summary: "pbakaus/impeccable — a design-language skill (1 skill, 23 commands, 27 anti-pattern rules) that makes any AI coding harness better at frontend design; builds on Anthropic's frontend-design skill, Apache 2.0"
 status-checked: 2026-11-13
@@ -52,6 +52,8 @@ What it adds on top of a base design skill:
 
 - **27 deterministic anti-pattern rules** + a 12-rule LLM critique pass. The deterministic rules run with no LLM and no API key (CLI or browser extension); each maps to specific guidance the skill teaches against.
 
+**A second slop list, written into the prompt** (added 2026-11-22). Leon Lin puts a ban list into every demo prompt ([[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]]): eyebrow labels, monospace uppercase text, random serif fonts, beige, 01 / 02 / 03 counters, glowing orbs, shockwave rings popping out of everything, and em dashes. It overlaps with Impeccable on fonts and glows. Eyebrow labels, numbered counters, beige and em dashes are clichés I had not seen named here. The two work at different points: his list stops the model from producing the clichés, Impeccable's detector finds the ones that got through anyway. His [[Cook]] skill ships the list as part of its rules.
+
 ## 🧩 Features
 
 - **23 commands** under `/impeccable`, a shared design vocabulary with the agent. Workflow: `teach` / `document` / `extract` (set up the design system) → `shape` → `craft` → `critique` / `audit` → `polish`. Tone/adjustment verbs: `bolder`, `quieter`, `distill`, `animate`, `colorize`, `typeset`, `layout`, `delight`, `overdrive`, `harden`, `onboard`, `clarify`, `adapt`, `optimize`, `live`. `pin <command>` creates standalone shortcuts (e.g. `/audit`).
@@ -72,6 +74,7 @@ What it adds on top of a base design skill:
 - Follow @pbakaus on Twitter for release notes and lint-rule highlights
 - [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
 - [[Stage Show — Benji Taylor's Demo Design Skill (AI LABS)]] — narrower sibling: Benji Taylor's skill just for animated landing-page product demos
+- [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]] — a prompt-level slop ban list and reference-first prompting for visual builds
 
 ---
 Template: [[templates/tool]]

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude", "prompts", "agents", "multi-agent", "verifiability", "red-teaming", "methodology", "psychology", "ambition"]
 type: knowledge-note
-source: "_raw/processed/2026-11-02_How to be more ambitious A tutorial for humans with models.md"
+sources: ["_raw/processed/2026-11-02_How to be more ambitious A tutorial for humans with models.md", "_raw/processed/2026-11-22_How I prompt AI to build good looking demos.md"]
 source_url: "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/"
 author: "Felix Rieseberg"
 published: 2026-10-13
@@ -65,6 +65,15 @@ Running example: Acme's customer churn. Five techniques:
 - **Challenge what you know.** Give it the raw data and ask it to attack your assumptions. Is churn really an onboarding problem?
 - **Produce new knowledge.** Ask it to find your blind spots: build a simulation of your customers, find the earliest churn signal nobody knows about, and test it on data it has not seen.
 - **Use an outside judge.** Don't let the model grade its own work. Validate externally, ideally with a tool the model can run itself for immediate feedback. Same idea as the verifier layer in [[Karpathy Method]] and the zero-context reviewers in [[Elephant-Goldfish Model (EGM)]].
+
+### A worked case: Leon Lin's demo runs
+
+Added 2026-11-22 from [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]], a demo maker's account of building 3D worlds and films with Opus 5.5. It is depth and range in practice, with numbers:
+
+- **The unreasonable goal, stated as a number.** A 99.9% match with the reference images, or for a video at least 9/10 when he rates the references at 8.5. He knows neither is reachable. The number tells the model the job is not done when it first works.
+- **Time as part of the goal.** A floor of at least 8 hours for a demo, days for big builds. His ancient Greek world took about 45 hours, 55 subagents, about 11M output tokens and an API-equivalent \$1.8k–2.3k (run on a Max plan).
+- **The outside judge.** Subagents with no context score the work, or a different model does. Because models rate themselves too high, he also tells the builder his own, lower estimate. That is weaker than Rieseberg's runnable check: the judge is still a model, so his own approval of rendered stills stays the last gate.
+- **Range.** Rieseberg's example of a 3D homepage nobody thought of, taken to the end: whole worlds in three.js with zero external assets.
 
 ### A reusable "make it deeper" prompt
 
@@ -166,6 +175,7 @@ Added on enhance. Rieseberg only name-drops these, so this is the short version 
 - [[Karpathy Method]] · [[Agentic Engineering]]: verifier-first use of models
 - [[Loop Engineering]] · [[Harness Engineering]] · [[External Triggers for Claude Code]]: building the durable workflows altitude needs
 - [[Elephant-Goldfish Model (EGM)]] · [[Claudex Loop]]: outside judges and red teams in practice
+- [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]] · [[Cook]]: a numeric bar, a time floor and zero-context critics for visual builds
 - [[DELEGATE-52]]: what delegated work looks like with no outside judge
 - [[40 AI Prompts for Expert Output]]: the persona-prompt style the "do, don't write like" caution pushes against
 - [[Software 3.0]]: sell the outcome, the business version of altitude

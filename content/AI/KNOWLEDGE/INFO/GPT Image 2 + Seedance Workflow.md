@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "video", "image-generation", "workflow", "ads"]
 type: knowledge-note
-source: "_raw/processed/2026-05-09_Post LinkedIn GPT Image 2 Seedance.md"
+sources: ["_raw/processed/2026-05-09_Post LinkedIn GPT Image 2 Seedance.md", "_raw/processed/2026-11-22_How I prompt AI to build good looking demos.md"]
 agent-created: true
 summary: "Storyboard-driven AI video ad workflow: GPT Image 2 generates a frame-by-frame storyboard, Seedance 2 turns each frame into a clip"
 ---
@@ -46,10 +46,21 @@ Output: a video ad where **every frame is intentional**. No guessing, no credit 
 
 ⚠️ Open question: interior vs exterior — indoor lighting control is still hard for AI video (most tools struggle with professional architectural).
 
+## 🧩 The same order, with the scene built in code
+
+Added 2026-11-22 from [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]]. Leon Lin uses the same sequencing for 3D demos, with a coding agent in place of the video model:
+
+1. **GPT Image Gen makes the target:** 9–12 reference images of the scene.
+2. **Opus 5.5 builds it in code:** a three.js world with no external assets, matched to the images ("aim for 99.9%").
+3. **Stills before the video:** the agent renders the shots that match the references and shows them first. The final 4K video (about 13 h of GPU time for his Greek world) is rendered only after he approves them. It is the same checkpoint as reviewing the storyboard grid here before spending video credits.
+
+His caveat: next to the references the code-built result still looks clearly weaker, so the reference images set a ceiling as well as a target. His [[Cook]] skill automates the loop.
+
 ## 📖 Further reading
 
 - [[Awesome Nano Banana Pro Prompts]] — prompt library for Google Nano Banana Pro (alternative image model)
 - [[Agentic Systems]] — broader context for multi-model pipelines
+- [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]] — generated reference images as the target for a code-built 3D world, stills before the render
 - [[Open Design]] — bundles the same stack: gpt-image-2 + Seedance 2.0 + HyperFrames as built-in media generation with a prompt gallery (93 prompts)
 
 ---

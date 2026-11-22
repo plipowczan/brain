@@ -6,6 +6,7 @@ openToc: true
 tags: ["knowledge", "info", "ai", "ux", "design", "product"]
 type: knowledge-note
 agent-created: true
+sources: ["_raw/processed/2026-11-22_How I prompt AI to build good looking demos.md"]
 summary: "Hub for AI-driven UX/product design tools — methodology skills (UX RULER) and generative design platforms (UX Pilot)"
 ---
 
@@ -28,6 +29,7 @@ In practice the sensible stack is: **UX RULER** for decisions and product memory
 - [[Open Design]] — local-first OSS alternative to Claude Design: 31 design skills, 72+ design systems, 16 CLI agents, HTML/PDF/PPTX/MP4 export, BYOK
 - [[UI UX Pro Max]] — Claude Code design system skill (v2.0 Design System Generator)
 - [[Impeccable]] — design-language skill (1 skill, 23 commands, anti-slop linter) that hardens any AI harness against generic AI design; extends Anthropic's frontend-design
+- [[Cook]] — Leon Lin's skill for visual builds that must match reference images (3D worlds in code, films, launch videos): a numeric bar, a time floor, zero-context critics, stills before the final render
 
 ## 🧩 Feature comparison
 
@@ -47,6 +49,7 @@ In practice the sensible stack is: **UX RULER** for decisions and product memory
 - [[Awesome Agent Skills]] — curated list where skills like UX RULER are indexed
 - [[Spec-driven SEO and GEO]] — related pattern: methodology recorded as files in the repo
 - [[Stage Show — Benji Taylor's Demo Design Skill (AI LABS)]] — a narrow design skill: animated product demos with a record-and-check loop
+- [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]] — reference-first prompting for visual builds, the method behind Cook
 
 ---
 Template: [[templates/knowledge_note_info]]

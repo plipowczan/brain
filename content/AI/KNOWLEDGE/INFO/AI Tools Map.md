@@ -5,10 +5,10 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "compiled", "ai", "tools", "map", "agents", "coding-agents", "comparison", "index"]
 type: compiled-note
-sources: ["research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md", "_raw/processed/2026-11-20_cathrynlaverydiagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.md", "_raw/processed/2026-11-20_morlutorea Reverse engineer anything with agents, from app behavior down to native binaries.md"]
+sources: ["research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md", "_raw/processed/2026-11-20_cathrynlaverydiagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.md", "_raw/processed/2026-11-20_morlutorea Reverse engineer anything with agents, from app behavior down to native binaries.md", "_raw/processed/2026-11-22_Leonxlnxcook Give your agent a target, a bar and time, then let it cook.md"]
 agent-created: true
 status-checked: 2026-11-13
-summary: "All 128 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13 (colibri, Context Mode, Diagram Design and REA, added 2026-11-19 and 2026-11-20, not yet): what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
+summary: "All 129 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13 (colibri, Context Mode, Diagram Design, REA and Cook, added 2026-11-19 to 2026-11-22, not yet): what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
 ---
 
 # AI Tools Map
@@ -33,7 +33,7 @@ For closed products and APIs "active" means the product is sold and documented t
 ## 📒 The review in numbers
 
 - **126 tools** in **13 categories**, each checked on 2026-11-13. Two of them were archived after the review, so the map below listed **124**.
-- **Added after the review:** [[colibri]] (2026-11-19), [[Context Mode]], [[Diagram Design]] and [[REA]] (2026-11-20), so the map now lists **128**. They have no status check yet; the counts below are the 2026-11-13 review's.
+- **Added after the review:** [[colibri]] (2026-11-19), [[Context Mode]], [[Diagram Design]] and [[REA]] (2026-11-20), and [[Cook]] (2026-11-22), so the map now lists **129**. They have no status check yet; the counts below are the 2026-11-13 review's.
 - **107 active** and **8 maintained**: most of the field moves fast, many tools ship weekly or daily.
 - **3 slowing**: [[Space Agent]], [[OpenKB]], [[Santander AI Open Source]].
 - **5 stale**: [[MCP Language Server]], Claude Peers MCP (archived), [[Autoresearch]], [[Meme Factory]], [[Slack GIF Creator]].
@@ -257,6 +257,7 @@ Skills and tools that make agents better at interface design, and AI design gene
 | [[DESIGN MD Spec]] | Google Labs' DESIGN.md format: design tokens in YAML front matter, reasoning in prose, plus a CLI to lint and export. | active, 0.4.0 (2026-07-27) |
 | [[21st MCP]] | 21st.dev's hosted MCP server: agents search 12,000+ React/Tailwind components, install their code and, on a paid AI plan, generate new ones. Replaced Magic MCP (dead) in July 2026. | active, CLI 1.18.0 (2026-10-06) |
 | [[Diagram Design]] | A skill that draws 45 diagram types as one self-contained HTML/SVG file in a strict editorial style matched to your site's brand, and redraws draw.io, Mermaid and Excalidraw files. | added 2026-11-20, not status-checked yet |
+| [[Cook]] | A skill for visual builds that must match reference images (3D worlds in code, films, launch videos): numeric bar, time floor, zero-context critics, stills before the final render. | added 2026-11-22, not status-checked yet |
 | [[UX Pilot]] | An AI wireframe and high-fidelity UI generator that goes from sketch or PRD to screens and exports to Figma and code. | active, 2.0 (July 2026), updated 2026-10-22 |
 
 ### Domain tools

@@ -6,6 +6,7 @@ openToc: true
 tags: ["knowledge", "howto", "ai", "ui", "design", "vibe-coding"]
 type: knowledge-note
 agent-created: true
+sources: ["_raw/processed/2026-11-22_How I prompt AI to build good looking demos.md"]
 summary: "Creating UI with AI by describing vibe/impression — 3 pillars, design tokens, prompt templates"
 ---
 
@@ -36,6 +37,10 @@ Nie zaczynaj od zera:
 ### 2. Dobre i sprawdzone prompty
 
 Sedno vibe codingu — umiejętność rozmowy z AI dla sensownych wyników. Konkretne instrukcje z kontekstem designu.
+
+> [!contradiction] What carries the quality: the prompt or the references
+> Earlier: good, proven prompts are the core of vibe coding.
+> New: the reference images carry most of the quality and the text "barely" matters; his big demos start from 9–12 reference images and a short prompt (Leon Lin, [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]]) (source: _raw/processed/2026-11-22_How I prompt AI to build good looking demos.md)
 
 ### 3. Dobry kontekst dla AI
 
@@ -172,6 +177,10 @@ Bez kontekstu AI daje nudny, generyczny UI. Zawsze podaj:
 ### Za duże komponenty
 Nie proś o "całą landing page". Podziel na: Hero → Features → Pricing → Footer. Mniejsze kawałki = lepsza kontrola.
 
+> [!contradiction] One big build or small pieces
+> Earlier: don't ask for the whole landing page; split it into Hero → Features → Pricing → Footer, because smaller pieces give more control.
+> New: one short prompt for a whole 3D world, with a time floor of at least 8 hours; the agent splits the work itself (55 subagents for his Greek world) and control comes from reference images, a numeric bar and approving stills between rounds (Leon Lin, [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]]) (source: _raw/processed/2026-11-22_How I prompt AI to build good looking demos.md)
+
 ### Brak design systemu
 Każdy komponent z innymi odcieniami i zaokrągleniami = UI Frankenstein. Design tokens rozwiązują ten problem.
 
@@ -184,6 +193,16 @@ Każdy komponent z innymi odcieniami i zaokrągleniami = UI Frankenstein. Design
 5. Powtarzaj
 
 **Screenshoty jako input:** AI (szczególnie Claude z vision) odwzorowuje design ze zdjęcia. Dribbble/Behance → screenshot → "Recreate this design using React and Tailwind CSS."
+
+## 🧩 References first (added 2026-11-22)
+
+From [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]], an approach that takes the screenshot idea above much further:
+
+- **Many references, short text.** 9–12 reference images per build. Images show light, colour and materials that are hard to describe.
+- **Where UI references come from:** screens of real products. [Mobbin](https://mobbin.com/) collects sections and screens from professional websites and apps; design posts on X are another source.
+- **Motion references:** give reference videos and tell the model to analyse them frame by frame, list every effect, transition and timing, and take inspiration from all of them without copying any single element. It is the same "be inspired, don't copy" rule as in the summary below.
+- **A bar as a number** (match the references, aiming for 99.9%) instead of "make it nice", and a list of banned clichés (eyebrow labels, monospace uppercase text, random serif fonts, beige, 01/02/03 counters, glowing orbs, em dashes).
+- **Feedback with targets:** name colours, timecodes and distances, or mark up a screenshot. "Make the button larger" from the loop above is the right kind.
 
 ## 📒 Podsumowanie
 
@@ -202,6 +221,8 @@ Każdy komponent z innymi odcieniami i zaokrągleniami = UI Frankenstein. Design
 - [Font Pair](https://fontpair.co) — inspiracje typografii
 - [[Cursor]] — AI IDE
 - [[Claude Code]] — AI coding assistant
+- [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]] — reference-first prompting for visual builds, with a numeric bar and zero-context critics
+- [Mobbin](https://mobbin.com/) — library of real product screens to use as UI references
 
 ---
 Template: [[templates/knowledge_note_how_to]]
