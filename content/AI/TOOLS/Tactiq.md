@@ -10,6 +10,7 @@ summary: "AI meeting transcription and summaries for Google Meet/Zoom/Teams — 
 status-checked: 2026-11-13
 project-status: active
 homepage: "https://tactiq.io/"
+sources: ["_raw/processed/2026-11-22_yt-OMfU5iq8Eik_anthropic-just-dropped-7-massive-claude-features-master-them.md"]
 ---
 
 # Tactiq
@@ -47,6 +48,7 @@ Tactiq is the meeting-capture tool noted in the [[Nonprofit AI-Native Platform|n
 - **Fireflies.ai / Fathom** — bot-joins-the-call model with CRM integrations; Tactiq's extension captures without a bot participant.
 - **Granola** — AI notepad that augments your own notes; lighter than full transcription.
 - **Native Zoom/Meet transcription** — built-in and free, but weaker AI summaries/search.
+- **Claude Meetings** (November 2026, beta) — Claude joins a Google Meet call as its own participant, answers when addressed by name or in the chat, builds artifacts during the call, and leaves a page per meeting with summary, action items and transcript. The opposite capture model to Tactiq's (a visible bot, not an extension), and narrower for now: Team and Enterprise plans only, Google Meet only. See [[7 New Claude Features (RoboNuggets)]].
 - **Hardware AI recorders** (HiDock P1, Pocket, Plaud Note Pro…) — researched in [[AI Voice Recorders for Meetings (Polish)]]: they cover in-person meetings and phone calls, but for online calls none of them adds much over Tactiq.
 
 ## Resources

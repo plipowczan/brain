@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "whiteboard", "diagrams", "drawing", "collaboration"]
 type: tool
-source: "_raw/processed/2026-04-05_excalidraw.md"
+sources: ["_raw/processed/2026-04-05_excalidraw.md", "_raw/processed/2026-11-22_yt-OMfU5iq8Eik_anthropic-just-dropped-7-massive-claude-features-master-them.md"]
 agent-created: true
 summary: "Open-source virtual whiteboard for hand-drawn style diagrams, collaborative and end-to-end encrypted"
 repo: "https://github.com/excalidraw/excalidraw"
@@ -51,6 +51,7 @@ Szybkie tworzenie diagramów, wireframes, schematów architektonicznych w luźny
 - [[Miro]] — bardziej rozbudowany, ale płatny i nie open-source
 - draw.io / diagrams.net — bardziej formalny styl diagramów
 - tldraw — podobna koncepcja, inny styl
+- **Claude Whiteboards** (November 2026, beta, all plans) — a shared board inside Claude that turns talk, text or sketches into diagrams, flows and timelines; drag a box around a part to have Claude change only that part. Export is PNG only and there is no import, so it can't open an `.excalidraw` file. Fine for a quick brainstorm, but Excalidraw's open format stays my choice for diagrams I keep in the vault. See [[7 New Claude Features (RoboNuggets)]]
 
 ## Resources
 - [excalidraw.com](https://excalidraw.com/)

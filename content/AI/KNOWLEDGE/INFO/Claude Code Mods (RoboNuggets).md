@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude-code", "harness", "extensibility", "mods"]
 type: knowledge-note
-source: "_raw/processed/2026-10-12_yt-lDrAZ1wAyVs_9-new-claude-mods-that-can-truly-change-how-you-work.md"
+sources: ["_raw/processed/2026-10-12_yt-lDrAZ1wAyVs_9-new-claude-mods-that-can-truly-change-how-you-work.md", "_raw/processed/2026-11-22_yt-OMfU5iq8Eik_anthropic-just-dropped-7-massive-claude-features-master-them.md"]
 agent-created: true
 summary: "Jay (RoboNuggets) on Claude Code mods, the add-ons that run inside Claude Code and change its UI and behaviour: how they differ from skills and MCP, nine worth installing, and how to have Claude build your own."
 source_url: "https://www.youtube.com/watch?v=lDrAZ1wAyVs"
@@ -78,6 +78,14 @@ A 13-minute YouTube walkthrough by Jay of [RoboNuggets](https://www.youtube.com/
 4. Iterate by talking to it normally ("make the bar thinner").
 5. A mod Claude builds is **temporary by default**. When you like one, ask Claude to **save it as a plugin and install it**, and it loads every time.
 
+## 🧩 Follow-up: custom themes (November 2026)
+
+In a later video, [[7 New Claude Features (RoboNuggets)]], Jay covers **custom themes** for the Code tab of the desktop app: colours, light or dark mode and an animated background behind the chat, built on the same technology as mods.
+
+- **Make one** by describing the look in a normal Code-tab session, or install Anthropic's **theme examples plugin** with **20 animated backdrops**.
+- **Themes that carry information**, made by users within days of the release: snow (or rain) that gets heavier as the **context window fills**, a campfire that burns down as you near your **usage limit**, and a companion that stops walking when Claude **finishes or needs you**.
+- These are the display-only end of mods (like **Claude Skins** above), but used as a status signal, the same idea as **Cache Tax**: show the state before it costs you.
+
 ## 📒 What I take from it
 
 - **Corroborated here:** my Claude Code install lists a built-in `plugin-authoring` skill described as "Make a mod", which matches the name and purpose the video gives. Everything else about the nine mods is from the video alone; none were run while writing this note.
@@ -103,6 +111,7 @@ A 13-minute YouTube walkthrough by Jay of [RoboNuggets](https://www.youtube.com/
 - [[Extending Claude Code — Tools for Its Blind Spots]] — the skills and MCP tools I use to extend Claude Code
 - [[Autoharness]] · [[Token Optimization for Claude Code]] · [[AI-Native SDLC Playbook]] · [[AI Agent Security]]
 - [[oh-my-pi]] — another harness built around user-written extensions
+- [[7 New Claude Features (RoboNuggets)]] — Jay's follow-up: custom themes built on mods, plus six other Claude releases
 - [[Meme Generation for Coding Agents]] — mods as the in-process host for a meme skill (`turn.complete`, the Desktop-only `Svg` element); the mod API churns and mods are unsandboxed
 
 ---

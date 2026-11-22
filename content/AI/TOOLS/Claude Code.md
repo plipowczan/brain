@@ -8,6 +8,7 @@ type: tool
 agent-reviewed: 2026-04-10
 agent-created: true
 summary: "Anthropic's CLI for AI-assisted development — primary dev environment"
+sources: ["_raw/processed/2026-11-22_yt-OMfU5iq8Eik_anthropic-just-dropped-7-massive-claude-features-master-them.md"]
 status-checked: 2026-11-13
 project-status: active
 repo: "https://github.com/anthropics/claude-code"
@@ -35,6 +36,8 @@ This is where I spend most of my development time. Instead of writing code manua
 - **Hooks** — automated responses to agent events
 - **Sub-agents** — parallel task execution with isolated context
 - **[[Harness Engineering]]** — the practice of configuring all the above
+- **Advisor** (`/advisor`, per [[7 New Claude Features (RoboNuggets)]]) — the everyday model (Sonnet or Opus) calls in a stronger model only at big decisions, such as before committing to a plan or when stuck on the same error. `/advisor fable` makes Fable 5.2 the advisor for one chat; a settings change turns it on for every chat. Not yet tried by me
+- **Custom themes** (desktop app, Code tab) — colours, light/dark mode and animated backgrounds, built on [[Claude Code Mods (RoboNuggets)|mods]]; Anthropic ships a theme examples plugin
 
 ## How I use it
 - 99% of small code fixes in [[Qamera AI]] are done by Claude Code agents
@@ -76,6 +79,7 @@ Framework [claude-piv-skeleton](https://github.com/plipowczan/claude-piv-skeleto
 [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 - [[Claude Code Mods (RoboNuggets)]] — mods: add-ons that run inside Claude Code and change its UI and behaviour
+- [[7 New Claude Features (RoboNuggets)]] — November 2026 releases: `/advisor`, custom themes, and the new Claude apps (Meetings, Whiteboards, Sheets, Data)
 - [[oh-my-pi]] — open-source terminal coding agent with a different tool surface (hashline edits, LSP and debugger wired in)
 - [[Meme Generation for Coding Agents]] — research on a skill or MCP that lets Claude Code make memes: an own skill on Satori, Stop-hook reactions, mods as phase 2
 
