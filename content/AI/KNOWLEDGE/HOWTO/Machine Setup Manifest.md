@@ -209,8 +209,14 @@ npm i -g @github/copilot @google/gemini-cli @marp-team/marp-cli @openai/codex \
 | Machine | OS | Last synced | Notes |
 |---------|----|-----------  |-------|
 | **PLSOFT-PCD1** | Windows 11 Pro (build 26200) | 2026-07-13 | reference machine; audited & converged to unified state. Node via **nvm4w** (fnm installed but unused); stack = video/browser/serena + full plugin set |
+| **PLSOFT-PCL2** | Windows 11 Pro (build 26300) | not audited against the manifest | only the YouTube-ingest stack checked (2026-11-22), see below |
 
 > The original 2026-07-11 draft described a different tool profile (notebooklm/scoop/supabase-centric, Node 22 in `Program Files`). The 2026-07-12 audit reconciled the manifest against the **actual** box (PLSOFT-PCD1) and merged both into one unified desired state.
+
+#### PLSOFT-PCL2 — YouTube ingest (checked 2026-11-22)
+- **yt-dlp:** standalone `yt-dlp.exe` **2026.07.04** in `C:\Users\pawel\.local\bin` (on PATH; Smart App Control lets it run on this box). `/b:ingest` uses it first; the pip module (2026.06.09) is only its fallback. If the exe goes missing, re-download it: `Invoke-WebRequest https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe -OutFile C:\Users\pawel\.local\bin\yt-dlp.exe`
+- **ffmpeg:** **8.0.1** essentials build (gyan.dev) via chocolatey, in `C:\ProgramData\chocolatey\bin` — meets the §0 minimum.
+- **Whisper fallback for `/b:ingest`:** not configured. `WHISPER_CPP_BIN` and `WHISPER_MODEL` are unset and there is no whisper.cpp binary, so YouTube ingest works from captions only; a video without captions is skipped.
 
 ### Open cleanups
 
