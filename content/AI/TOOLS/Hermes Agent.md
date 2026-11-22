@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agents", "open-source", "self-improving", "messaging", "memory"]
 type: tool
-source: "_raw/processed/2026-05-03_NousResearchhermes-agent.md"
+sources: ["_raw/processed/2026-05-03_NousResearchhermes-agent.md", "_raw/processed/2026-11-22_Building always-on agents.md"]
 agent-created: true
 agent-reviewed: 2026-05-16
 summary: "Nous Research self-improving agent — TUI + Telegram/Discord/Slack/WhatsApp/Signal gateway, autonomous skill creation, FTS5 cross-session search, Honcho user modeling, runtime on a $5 VPS"
@@ -71,6 +71,10 @@ The most interesting bits for me:
 2. **Closed learning loop + Honcho user modeling** — this is exactly what's missing from "stateless" agents like plain Claude Code. Every session starts from zero there; here the agent adapts.
 3. **Modal/Daytona serverless persistence** — idle cost ≈ 0. Perfect for fire-and-forget cron jobs like a daily LinkedIn brief for [[LinkedIn Strategy]] or a nightly digest from [[Brain]].
 
+> [!contradiction] Does plain Claude Code start every session from zero?
+> Earlier: plain Claude Code is "stateless": every session starts from zero, and the cross-session memory loop is what Hermes adds (source: _raw/processed/2026-05-03_NousResearchhermes-agent.md, my reading on 2026-05-03)
+> New: Claude Code's auto memory keeps memory as a directory of files across sessions, and Anthropic presents it as the model for an always-on agent's memory (source: _raw/processed/2026-11-22_Building always-on agents.md)
+
 Risks:
 - No native Windows — I'll run it on WSL2 or a VPS.
 - Self-improving skills sound cool, but [[DELEGATE-52]] is a reminder: after ~20 delegated edits LLMs corrupt 25% of a document. You need checkpoints and `--dry-run` as default.
@@ -92,6 +96,7 @@ Risks:
 - [[Agent Skills]] / [[Vercel Skills]] — compatible skills ecosystem
 - [[NemoClaw]] — my self-hosted inference, compatible with Hermes via NVIDIA NIM
 - [[DELEGATE-52]] — why self-improving skills require an eval pipeline
+- [[Building Always-On Agents (Anthropic)]] — Anthropic's generic architecture for always-on agents (inbox, timers, memory, permissions, outbox); my reading: Hermes's gateway, cron and curated memory cover parts of it
 - [[Autoharness]] — the same self-learning-skills idea as a Claude Code plugin. It credits Hermes as inspiration, but prunes by adherence (loads ÷ requests) instead of wall-clock inactivity, and runs without a daemon.
 
 ---

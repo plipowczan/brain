@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude-code", "webhooks", "automation", "agents", "research", "compiled"]
 type: compiled-note
-source: "_raw/processed/2026-11-01_2026-10-15-research-claude-code-external-triggers.md"
+sources: ["_raw/processed/2026-11-01_2026-10-15-research-claude-code-external-triggers.md", "_raw/processed/2026-11-22_Building always-on agents.md"]
 agent-created: true
 summary: "Deep research on 30 ways to trigger Claude Code or the Desktop Code tab from outside on Windows when the URL changes and the PC may be off — no first-party answer; stable ingress plus outbound poller wins"
 ---
@@ -45,6 +45,17 @@ Source: a deep-research run on 2026-10-15 (30 items × 37 fields, one agent each
 - Channels (CLI only), cross-session messaging (no public API), Remote Control and Projects (nothing external can start them), Dispatch, deep links and Slack (a human is in the loop), background sessions (terminal only)
 - Chat bridges, OpenClaw and [[Hermes Agent]] gateways, GitHub/Linear bridges (no durability, or abandoned), Power Automate, Temporal and Inngest (licensing or over-engineered), Managed Agents (not Claude Code, API billing, WSL)
 
+## 🧩 The same shape in Anthropic's always-on agent design
+
+Anthropic's [[Building Always-On Agents (Anthropic)]] (2026-11-13) builds agents for products, not for my desktop, but its **event inbox** is design 3 written out as rules. Worth applying to whichever design I build:
+
+- **The inbox is the source of truth.** Every source writes an event row (a database table with a status column); a worker pulls from it. Nothing calls the agent directly, because two events at once start competing runs and a crash loses an event.
+- **De-duplicate by the sender's event ID.** My reading: the same rule would cover the Routines gap above, where no idempotency key means retries create duplicate sessions, so the de-duplication would have to sit in front of the trigger.
+- **Acknowledge fast, check later.** The handler replies quickly (webhook providers count slow replies as failures); deeper checks such as prompt-injection screening run inside the run.
+- **One active worker per inbox**, and **batch what's pending**: several events in a row become one run.
+- **Timers live in their own table.** A scheduler polls it, marks follow-ups done, moves schedules to their next occurrence, and drops an event into the inbox. That is the same split as a cheap queue check before a model session in the Desktop Scheduled Task option.
+- The article accepts a durable execution engine as the scheduler. My "over-engineered" verdict on Temporal and Inngest above was for one person's Windows desktop, so the two don't conflict.
+
 ## 📖 Full item list (fit for my scenario)
 
 - **High:** Routines, mods as in-session poller, GitHub self-hosted runner, always-on host with headless Claude Code, Svix Ingest + polling, outbound pull queues (Cloudflare Queues, SQS, Upstash Redis), AgentsRoom (flagged uncertain)
@@ -60,4 +71,4 @@ Source: a deep-research run on 2026-10-15 (30 items × 37 fields, one agent each
 
 ## Resources
 
-- Related: [[Claude Code]], [[Loop Engineering]], Claude Peers MCP (retired; Claude Code now has built-in cross-session messaging), [[Claude Code Mods (RoboNuggets)]], [[Hermes Agent]], [[n8n]], [[AI Agent Security]]
+- Related: [[Building Always-On Agents (Anthropic)]], [[Claude Code]], [[Loop Engineering]], Claude Peers MCP (retired; Claude Code now has built-in cross-session messaging), [[Claude Code Mods (RoboNuggets)]], [[Hermes Agent]], [[n8n]], [[AI Agent Security]]

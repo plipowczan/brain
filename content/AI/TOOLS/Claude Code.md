@@ -8,7 +8,7 @@ type: tool
 agent-reviewed: 2026-04-10
 agent-created: true
 summary: "Anthropic's CLI for AI-assisted development — primary dev environment"
-sources: ["_raw/processed/2026-11-22_yt-OMfU5iq8Eik_anthropic-just-dropped-7-massive-claude-features-master-them.md"]
+sources: ["_raw/processed/2026-11-22_yt-OMfU5iq8Eik_anthropic-just-dropped-7-massive-claude-features-master-them.md", "_raw/processed/2026-11-22_Building always-on agents.md"]
 status-checked: 2026-11-13
 project-status: active
 repo: "https://github.com/anthropics/claude-code"
@@ -38,6 +38,9 @@ This is where I spend most of my development time. Instead of writing code manua
 - **[[Harness Engineering]]** — the practice of configuring all the above
 - **Advisor** (`/advisor`, per [[7 New Claude Features (RoboNuggets)]]) — the everyday model (Sonnet or Opus) calls in a stronger model only at big decisions, such as before committing to a plan or when stuck on the same error. `/advisor fable` makes Fable 5.2 the advisor for one chat; a settings change turns it on for every chat. Not yet tried by me
 - **Custom themes** (desktop app, Code tab) — colours, light/dark mode and animated backgrounds, built on [[Claude Code Mods (RoboNuggets)|mods]]; Anthropic ships a theme examples plugin
+- **Auto memory** — memory kept as a directory of files across sessions (on my machine: a `MEMORY.md` index plus one file per fact, opened when relevant). Anthropic names it as the model for an always-on agent's memory ([[Building Always-On Agents (Anthropic)]])
+- **Auto mode** — classifiers review higher-risk actions and block the dangerous ones, so Claude can work without constant confirmation; the most important decisions still go to me
+- **Deferred tool calls** — a hook can defer a tool call until the user answers; the article uses the same pattern to pause an unattended agent mid-call and resume it when the answer arrives
 
 ## How I use it
 - 99% of small code fixes in [[Qamera AI]] are done by Claude Code agents
@@ -84,6 +87,7 @@ Framework [claude-piv-skeleton](https://github.com/plipowczan/claude-piv-skeleto
 - [[Meme Generation for Coding Agents]] — research on a skill or MCP that lets Claude Code make memes: an own skill on Satori, Stop-hook reactions, mods as phase 2
 
 - [[External Triggers for Claude Code]] — research on firing Claude Code from webhooks when the PC may be off
+- [[Building Always-On Agents (Anthropic)]] — Anthropic's architecture for proactive agents built on auto memory, auto mode and deferred tool calls
 - [[OpenRig]] — runs Claude Code and Codex as one persistent YAML-defined team
 - [[billion-context]] — proxy that lets the model compress and restore its own context
 ---

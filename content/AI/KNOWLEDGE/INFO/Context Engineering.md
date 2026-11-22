@@ -7,6 +7,7 @@ tags: ["knowledge", "info", "ai", "context-engineering", "llm", "agents"]
 type: knowledge-note
 agent-created: true
 agent-reviewed: 2026-04-30
+sources: ["_raw/processed/2026-11-22_Building always-on agents.md"]
 summary: "Designing optimal context for LLM agents — CLAUDE.md, MCP, skills, sub-agents, attention budget"
 ---
 
@@ -78,6 +79,15 @@ Summarize conversation nearing context limit, reinitiate with summary. Preserve 
 ### 2. Structured note-taking (agentic memory)
 Agent writes notes persisted outside context (to-do lists, NOTES.md, project logs). Persistent memory with minimal overhead. Best for iterative development.
 
+**For agents that work across many separate runs** ([[Building Always-On Agents (Anthropic)]], 2026-11-13), Anthropic splits that memory into four kinds of file:
+
+- **User instructions** — how the agent should behave; loaded every run, because the user isn't there to steer
+- **User notes** — role, preferences, corrections; an index every run, single files on demand
+- **Past messages** — what the agent already told the user, so it doesn't repeat itself
+- **Task progress** — one file per ongoing task, done and left, so the next run picks up where the last stopped
+
+Two rules come with it: **store only what the agent can't look up again** (keep a pointer to the issue tracker, not a copy), and **treat the fixed per-run overhead** (system prompt, tool definitions, memory files) **as a cost to keep small**, cached with prompt caching. Compaction and a fresh session both lose detail, so anything that must last goes into memory during the run, not afterwards.
+
 ### 3. Sub-agent architectures
 Specialized sub-agents with clean context windows. Main agent coordinates plan; sub-agents explore (tens of thousands of tokens) and return condensed summaries (1-2k tokens). See [[Harness Engineering]].
 
@@ -114,6 +124,7 @@ Specialized sub-agents with clean context windows. Main agent coordinates plan; 
 - [[Agent Skills]] — dynamically loaded instruction packages
 - [[Token Optimization for Claude Code]] — tools that reduce context spend 40–98%
 - [[Jev Engineering for Coding Agents]] — query-aware "visibility ladder" per context chunk as the fix for blind compaction; tiered tool disclosure
+- [[Building Always-On Agents (Anthropic)]] — memory files, per-run context overhead and compaction for agents that wake for short runs
 - **Context window management** — knowing what fits and what to prioritize
 
 ## 📖 Further reading

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "compiled", "ai", "memory", "knowledge-base", "rag", "code-intelligence", "comparison", "agents"]
 type: compiled-note
-source: "research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/"
+sources: ["research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/", "_raw/processed/2026-11-22_Building always-on agents.md"]
 agent-created: true
 status-checked: 2026-11-13
 summary: "LightRAG, PageIndex, CocoIndex, OpenKB, OpenWiki, Super Brain, Graphify, Codebase Memory MCP and HORMA: four different jobs, when to pick which, and what none of them solves."
@@ -104,6 +104,7 @@ Every status line was checked against the repository, releases page or docs on *
 
 - **Decide what is true.** Compiled wikis compound errors, since a wrong page today is a wrong answer for months, and graph extraction only labels its confidence. Nothing here checks a claim against ground truth; OpenWiki's grounded claims and HORMA's provenance pointers only make checking possible.
 - **Forget on purpose or resolve contradictions.** None has a policy for expiring facts or for two sources that disagree. Freshness comes from re-running (CocoIndex does it incrementally), not from judgement.
+  - Anthropic names a pattern for this layer in [[Building Always-On Agents (Anthropic)]]: **dreaming**, a separate pass over past sessions that curates an agent's own memory files, replaces outdated entries and finds patterns that only show across many runs. It is a design for agent-written memory, not a feature of any tool here, and the article gives no implementation.
 - **Cover all four jobs.** A real setup needs at least two: a code map for the coding agent plus a document index or a wiki for everything else. None of them shares one store across those jobs.
 - **Prove the gains independently.** Every token-saving and accuracy number in these READMEs and preprints is measured by the authors. Plan a small test on your own repo or corpus before you rely on one.
 - **Handle multi-user permissions.** None ships per-user access control over what an agent may read. OpenKB's web UI is open by default; the rest assume one person on one machine.
@@ -120,6 +121,7 @@ My own vault ([[Brain]]) is the hand-run version of the compiled-wiki family: an
 - [[Spec-Driven + Self-Documenting]] · [[DOX — Self-Documenting AGENTS.md]]: hand-written alternatives to generated code docs
 - [[Serena]] · [[MCP Language Server]] · [[Understand Anything]] · [[Qdrant]]: neighbours in the same category, see [[AI Tools Map]]
 - [[Context Engineering]] · [[Progressive Disclosure]]
+- [[Building Always-On Agents (Anthropic)]]: the memory an agent writes for itself between runs (instructions, user notes, past messages, task progress) and dreaming
 
 ## 🔗 Resources
 

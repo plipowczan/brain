@@ -120,6 +120,7 @@ Risks:
 - Roadmap: bring-your-own-ticket-system, Clipmart (one-click company templates)
 - [[Claude Code]] / [[Cursor]] / OpenClaw — supported adapters
 - [[Agentic Systems]] — my earlier thinking on multi-agent architectures
+- [[Building Always-On Agents (Anthropic)]] — Anthropic's generic architecture for agents that sleep and wake for short runs; my reading: Paperclip's heartbeats and atomic task checkout cover its timers and its one-worker-per-inbox rule
 - [[Agentic Coding]] — the paradigm Paperclip layers a "company" on top of
 - [[Autonomous Sales Agent Playbook]] — the economics Paperclip enables (governance + budgets instead of a SaaS stack)
 

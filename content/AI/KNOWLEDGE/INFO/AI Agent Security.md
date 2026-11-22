@@ -6,6 +6,7 @@ openToc: true
 tags: ["knowledge", "info", "ai", "security", "agents"]
 type: knowledge-note
 agent-created: true
+sources: ["_raw/processed/2026-11-22_Building always-on agents.md"]
 summary: "Security analysis of autonomous AI agents — OpenClaw case study, CVEs, supply chain risks, safety practices"
 ---
 
@@ -85,6 +86,10 @@ Wniosek: boty nie mają woli ani świadomości, ale infrastruktura do masowej ko
 | Koszt | Wysoki, niekontrolowany | Kontrolowany |
 | Ryzyko | **WYSOKIE** | **NISKIE** |
 
+> [!contradiction] Is Claude Code only on demand with confirmation?
+> Earlier: Claude Code + MCP works "on demand with confirmation", with a human in the loop (source: this note, 2026-02-09; no source file recorded)
+> New: Claude Code's auto mode lets classifiers review higher-risk actions and block the dangerous ones, so Claude works without constant user input; the user reviews only the most important decisions (source: _raw/processed/2026-11-22_Building always-on agents.md)
+
 # 🛡️ Safety Practices
 
 1. **Izolowane środowisko** — dedykowany serwer, VM lub kontener. Nigdy codzienny laptop z wrażliwymi danymi
@@ -94,6 +99,15 @@ Wniosek: boty nie mają woli ani świadomości, ale infrastruktura do masowej ko
 5. **Monitoring kosztów** — alerty na nieoczekiwane zużycie tokenów
 6. **Alternatywy z kontrolą** — [[Claude Code]] + MCP daje podobne możliwości z human-in-the-loop
 
+# 🔐 Keeping an unattended agent under control
+
+Anthropic's [[Building Always-On Agents (Anthropic)]] (2026-11-13) calls permissions the place where always-on agents carry the most risk: a run holds the user's access and nobody watches it. For every tool call the agent decides to go ahead, block it, or wait for approval. Three pieces, each answering a failure from the OpenClaw case above:
+
+- **Credential proxy instead of keys in files.** A proxy outside the agent's environment adds the real credentials to outgoing requests; the agent never holds them. That is the direct fix for OpenClaw's plaintext keys in Markdown and JSON.
+- **Classifiers on risky actions** (Claude Code's auto mode): higher-risk actions are reviewed and the dangerous ones blocked, so the agent looks for a safer route. The most important decisions still go to the user.
+- **Deferred tool calls.** The run stops mid-call, the session is saved, the user gets the request (for example an MCP Apps card), and the answer comes back as an event that resumes the session. The agent asks instead of guessing, without blocking other work.
+- Deeper checks such as prompt-injection screening belong inside the run, not in the webhook handler that receives the event.
+
 # 📒 Podsumowanie
 
 - OpenClaw wyważył drzwi do ery agentów — próg wejścia drastycznie obniżony, te drzwi się nie zamkną
@@ -102,6 +116,7 @@ Wniosek: boty nie mają woli ani świadomości, ale infrastruktura do masowej ko
 - Autonomia wymaga zaufania, a zaufanie wymaga weryfikowalnego bezpieczeństwa
 - Nadzorowane agenty ([[Claude Code]] + MCP) to praktyczna, bezpieczna alternatywa
 - Powiązane: [[NemoClaw]], [[Agentic Systems]]
+- [[Building Always-On Agents (Anthropic)]] — Anthropic's architecture for unattended agents: credential proxy, auto mode, deferred tool calls
 - [[AI-Native SDLC Playbook]] — Anthropic's managed-settings policy for a regulated enterprise: deny secrets and network egress, an OS-level sandbox with a domain allowlist, managed-only hooks, MCP servers and plugin marketplaces
 
 # 🔗 Zasoby

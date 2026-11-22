@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "coding-agents", "agentic-engineering", "orchestration", "cost-optimization", "claude-code"]
 type: knowledge-note
-source: "_raw/processed/2026-06-18_yt-UztrFXaSWv0_the-creators-of-claude-code-and-openclaw-don-t-prompt-their.md"
+sources: ["_raw/processed/2026-06-18_yt-UztrFXaSWv0_the-creators-of-claude-code-and-openclaw-don-t-prompt-their.md", "_raw/processed/2026-11-22_Building always-on agents.md"]
 source_url: "https://www.youtube.com/watch?v=UztrFXaSWv0"
 video_id: "UztrFXaSWv0"
 channel: "Cole Medin"
@@ -63,6 +63,15 @@ Cole's experimental [[Second Brain Design|second-brain]]-oriented loop dashboard
 - Human-in-the-loop between rounds (e.g. inspect round 1 before the orchestrator dispatches round 2).
 - Deployable to the cloud via **Retool** (import the React front end as a zip, wire it to the Pi backend + Neon, get a shared URL with permission groups / approval gates / audit trails).
 
+## 🧩 Short runs instead of one long loop — Anthropic's always-on design
+
+Anthropic's [[Building Always-On Agents (Anthropic)]] (2026-11-13) describes the same goal — an agent that keeps working without being prompted — built from short runs instead of one loop. My reading: that design eases the idle cost in downside 2 and the context bloat in downside 3, but does nothing about the orchestrator fan-out cost.
+
+- **The agent sleeps between runs and spends no tokens.** It wakes only when an event arrives: a user message, a webhook, or a timer it set for itself or the user scheduled.
+- **Each run opens a new session or resumes one.** Only events that continue earlier work (a user's reply) resume a session; everything else starts fresh, with only the fixed overhead (system prompt, tools, memory files) plus the triggering events. A resumed session still grows, so the article compacts it or starts a new one.
+- **Lasting state lives outside the session**, in memory files: user instructions, notes, what was already reported, and one progress file per task, so the next run picks up where the last one stopped. Same idea as the external Postgres state in Cole's dashboard above.
+- **Human in the loop by design.** A tool call that needs approval is deferred: the run ends, the user answers, and the answer starts the next run.
+
 ## 📒 Takeaways
 
 - **Loop engineering ≈ harness engineering.** The durable skill is designing the harness, not writing magic loop prompts. Don't let the buzzword fool you into thinking it's a new discipline.
@@ -86,6 +95,7 @@ Cole's experimental [[Second Brain Design|second-brain]]-oriented loop dashboard
 - [[4 Claude Code Upgrades for Making Money (Nate Herk)]] — `/goal` + parallel subagents applied to a business build
 - [[How to Be More Ambitious with Models (Felix Rieseberg)]] — "altitude": asking for the outcome (keep the apps crash-free) and building the environment that lets the loop run without you
 - [[Software Factory with Claude Code (ZazenCodes)]] — an issue-driven orchestrator whose state lives in files and one script, so it restarts cleanly after the session dies
+- [[Building Always-On Agents (Anthropic)]] — event-driven short runs with memory files, the always-on alternative to one continuous loop
 
 ---
 Template: [[templates/knowledge_note_info]]

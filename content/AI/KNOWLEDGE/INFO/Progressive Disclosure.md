@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "context-engineering", "progressive-disclosure", "agents", "memory"]
 type: knowledge-note
-source: "_raw/processed/2026-04-30_progressive-disclosure.md"
+sources: ["_raw/processed/2026-04-30_progressive-disclosure.md", "_raw/processed/2026-11-22_Building always-on agents.md"]
 agent-created: true
 agent-reviewed: 2026-08-12
 summary: "Index-first context priming — show what exists and retrieval cost, let the agent decide what to fetch"
@@ -93,6 +93,15 @@ Emoji icons signal observation type — visual scanning, language-agnostic, toke
 - **Layer 2 — timeline** — `timeline({ anchor: 2543, depth_before: 3, depth_after: 3 })` → narrative arc around an observation
 - **Layer 3 — get_observations** — `get_observations({ ids: [2543, 2102] })` → full details for selected IDs
 
+## The same pattern in agent memory (Anthropic)
+
+Anthropic's example memory layout for always-on agents ([[Building Always-On Agents (Anthropic)]], 2026-11-13) is this pattern applied to what an agent remembers between runs:
+
+- **Loaded at the start of every run:** `instructions.md` (how the user wants the agent to behave), `index.md` (what notes and tasks exist) and `reported.md` (what the agent already told the user)
+- **Read only when needed:** the `notes/` folder (one small file per fact about the user) and the `progress/` folder (one file per ongoing task)
+
+The article's reason is the same as here: the always-loaded part is paid on every run, so it stays small, and details come in on demand. My own Claude Code auto memory works the same way: a `MEMORY.md` index of one-line pointers, one file per fact.
+
 ## Cognitive load theory
 - **Intrinsic load** — inherent task difficulty (unavoidable)
 - **Extraneous load** — burden of poorly-presented information. Traditional RAG adds this. Progressive disclosure minimizes it.
@@ -133,6 +142,7 @@ Emoji icons signal observation type — visual scanning, language-agnostic, toke
 - [[SkillWeaver — Compositional Skill Routing]] — the pattern applied to tool/skill selection: retrieve a shortlist per sub-task instead of loading the whole MCP library (~884k → ~1.2k tokens/query)
 - [[Open Knowledge Format (OKF)]] — a knowledge-format spec whose `index.md` files implement this pattern
 - [[HORMA — Structured Agent Memory]] — same organize-then-retrieve principle applied to long-horizon agent memory
+- [[Building Always-On Agents (Anthropic)]] — index-first memory files for agents that wake for short runs
 - [[DOX — Self-Documenting AGENTS.md]] — this exact pattern applied to a codebase: hierarchical AGENTS.md tree the agent navigates to the minimal edit
 
 ## 📖 Further reading
