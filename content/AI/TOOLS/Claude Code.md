@@ -8,7 +8,7 @@ type: tool
 agent-reviewed: 2026-04-10
 agent-created: true
 summary: "Anthropic's CLI for AI-assisted development — primary dev environment"
-sources: ["_raw/processed/2026-11-22_yt-OMfU5iq8Eik_anthropic-just-dropped-7-massive-claude-features-master-them.md", "_raw/processed/2026-11-22_Building always-on agents.md"]
+sources: ["_raw/processed/2026-11-22_yt-OMfU5iq8Eik_anthropic-just-dropped-7-massive-claude-features-master-them.md", "_raw/processed/2026-11-22_Building always-on agents.md", "_raw/processed/2026-11-22_yt-EFGvVCpW9zc_fable-5-2-is-insane-only-if-you-use-it-anthropic-s-way.md"]
 status-checked: 2026-11-13
 project-status: active
 repo: "https://github.com/anthropics/claude-code"
@@ -41,6 +41,9 @@ This is where I spend most of my development time. Instead of writing code manua
 - **Auto memory** — memory kept as a directory of files across sessions (on my machine: a `MEMORY.md` index plus one file per fact, opened when relevant). Anthropic names it as the model for an always-on agent's memory ([[Building Always-On Agents (Anthropic)]])
 - **Auto mode** — classifiers review higher-risk actions and block the dangerous ones, so Claude can work without constant confirmation; the most important decisions still go to me
 - **Deferred tool calls** — a hook can defer a tool call until the user answers; the article uses the same pattern to pause an unattended agent mid-call and resume it when the answer arrives
+- **Effort levels** (`/effort`: `low`, `medium`, `high`, `xhigh`, `max`) — per [[Fable 5.2 — Nine Rules for Using It (AI LABS)]] and Anthropic's Fable 5.2 guide: `high` for long unattended runs, a small gain for many more tokens above it, `max` only when time and tokens don't matter. In the API, Opus 5.5 defaults to `medium` and Fable 5.2 to `high`
+- **Prompt audit** (`/claude-api prompt-audit`) — scans `CLAUDE.md`, skills and agent files for instructions written for older models, such as "NEVER" / "IMPORTANT" lines that Fable reads as rules with no exceptions
+- **Auto mode scope** — per Lydia Hallie (Claude Code team, retold by AI LABS), auto mode trusts only the working folder and repo by default, so a deploy to a staging site elsewhere gets blocked until the auto mode settings are changed. Not checked by me
 
 ## How I use it
 - 99% of small code fixes in [[Qamera AI]] are done by Claude Code agents
@@ -90,5 +93,6 @@ Framework [claude-piv-skeleton](https://github.com/plipowczan/claude-piv-skeleto
 - [[Building Always-On Agents (Anthropic)]] — Anthropic's architecture for proactive agents built on auto memory, auto mode and deferred tool calls
 - [[OpenRig]] — runs Claude Code and Codex as one persistent YAML-defined team
 - [[billion-context]] — proxy that lets the model compress and restore its own context
+- [[Fable 5.2 — Nine Rules for Using It (AI LABS)]] — when to use Fable over Opus, lead-and-workers and reviewer setups, effort, and preparing `CLAUDE.md` for unattended runs
 ---
 Template: [[templates/tool]]

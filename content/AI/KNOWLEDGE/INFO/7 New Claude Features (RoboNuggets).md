@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude", "claude-code", "meetings", "whiteboard", "analytics", "mods", "cost-optimization"]
 type: knowledge-note
-sources: ["_raw/processed/2026-11-22_yt-OMfU5iq8Eik_anthropic-just-dropped-7-massive-claude-features-master-them.md"]
+sources: ["_raw/processed/2026-11-22_yt-OMfU5iq8Eik_anthropic-just-dropped-7-massive-claude-features-master-them.md", "_raw/processed/2026-11-22_yt-EFGvVCpW9zc_fable-5-2-is-insane-only-if-you-use-it-anthropic-s-way.md"]
 agent-created: true
 summary: "Jay (RoboNuggets) on seven new Claude features: Meetings, Whiteboards, Sheets and Data as built-in replacements for Granola, Miro, Google Sheets and Power BI, plus interactive connectors, custom desktop themes, and /advisor for Fable 5.2 judgement on a small share of its usage."
 source_url: "https://www.youtube.com/watch?v=OMfU5iq8Eik"
@@ -140,6 +140,10 @@ A 15-minute YouTube walkthrough by Jay of [RoboNuggets](https://www.youtube.com/
 - **The "replace every app" thesis is real but early.** Every replacement ships with a limit that matters for serious use: Meetings is Google Meet and Team-plan only, Whiteboards can't import or export anything but PNG, Sheets has no pivot tables and a ~200k-cell ceiling. The limits also mean the data stays in Claude. For my vault diagrams I'd keep [[BUSINESS/TOOLS/Excalidraw|Excalidraw]]: its open `.excalidraw` format lives in Obsidian and git, which a PNG export can't replace. Whiteboards look like a better fit for a quick brainstorm with a client than for anything I want to keep.
 - **Meetings vs [[Tactiq]]:** Tactiq captures through a browser extension with no bot on the call and covers Meet, Zoom and Teams. Claude Meetings is a visible participant that can build artifacts during the call. Different trade-offs on consent and coverage; for in-person meetings and phone calls neither helps, see [[AI Voice Recorders for Meetings (Polish)]].
 - **The advisor and the routing arithmetic.** [[Jev Engineering for Coding Agents]] argues that switching models mid-session usually costs more than staying on the frontier model, because the big model has to reread the context on every hand-back. The advisor is a different shape: the everyday model keeps the session and only *consults* the stronger one. Whether that is cheap depends on how much context each consultation sends, which the video doesn't say. Jay's 460 calls / 3% is one user on the top plan over four days, not a measurement. [[oh-my-pi]] has the same idea as an `advisor` model role, but there it reads every turn rather than being called on demand.
+- **Where the advisor sits among Fable's other uses** *(added 2026-11-22, from [[Fable 5.2 — Nine Rules for Using It (AI LABS)]])*:
+  - Anthropic's own Fable 5.2 guide agrees with Jay: Opus 5.5 stays the default, and Fable is for when Opus at a higher effort still falls short.
+  - AI LABS adds two other placements: Fable as a **fresh-context reviewer** of what Opus built, and Fable as a **lead** handing tasks to cheaper models. The lead setup pays only on big jobs: it cost about 1.7× Opus alone on a small feature.
+  - The advisor itself is now partly corroborated. Per the guide bundled in the `claude-api` skill, every executor model accepts `claude-fable-5-2` as its advisor, and a Fable 5.2 advisor returns its advice encrypted. My own Claude Code session runs Opus 5.5 with an advisor tool backed by a stronger model. Jay's usage numbers are still his alone.
 - **Functional themes** are the same move as the guardrail mods in [[Claude Code Mods (RoboNuggets)]]: surface state (context fill, usage limit, "Claude needs you") before it bites. The context-fill snow is a visual version of the cost signals in [[Token Optimization for Claude Code]].
 
 ## 📖 Takeaways
@@ -158,6 +162,7 @@ A 15-minute YouTube walkthrough by Jay of [RoboNuggets](https://www.youtube.com/
 - [[Tactiq]] · [[AI Voice Recorders for Meetings (Polish)]] — meeting capture outside Claude
 - [[BUSINESS/TOOLS/Excalidraw|Excalidraw]] · [[Miro]] — whiteboards outside Claude
 - [[Jev Engineering for Coding Agents]] · [[oh-my-pi]] — model routing and advisor models
+- [[Fable 5.2 — Nine Rules for Using It (AI LABS)]] — when to use Fable at all, and the lead and reviewer placements
 
 ---
 Template: [[templates/knowledge_note_info]]

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude-code", "token-optimization", "cost-optimization", "context-engineering"]
 type: knowledge-note
-sources: ["_raw/processed/2026-04-20_stop-burning-tokens.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md"]
+sources: ["_raw/processed/2026-04-20_stop-burning-tokens.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md", "_raw/processed/2026-11-22_yt-EFGvVCpW9zc_fable-5-2-is-insane-only-if-you-use-it-anthropic-s-way.md"]
 agent-created: true
 summary: "Curated list of 10 open-source tools that reduce Claude Code token usage by 40–98% — proxies, context sandboxes, CLAUDE.md templates, code graphs"
 ---
@@ -37,6 +37,13 @@ A short catalog of tools that cut token usage in [[Claude Code]] and LLM work in
 - **Prompt / CLAUDE.md templates** — Claude Token Optimizer, Claude Token Efficient
 - **Hygiene** — Token Optimizer (ghost tokens)
 
+## 🧩 Model choice and effort *(added 2026-11-22)*
+The tools above cut tokens per call. [[Fable 5.2 — Nine Rules for Using It (AI LABS)]], checked against Anthropic's Fable 5.2 guide, adds four levers that act before any tool does:
+- **Model.** Fable 5.2 costs twice Opus 5.5 per token (\$8 / \$40 vs \$4 / \$20 per million) and drains plan limits faster. Start on Opus; move up only when Opus at a higher effort still falls short.
+- **Effort.** Most of the gain arrives by `high`. `xhigh` adds a little for many more tokens, and `max` is for when tokens don't matter.
+- **Sub-agents.** Fable starts them readily when instructions invite it, and they can become a large share of a session's cost. State what a sub-agent costs (Anthropic: in the sub-agent tool's description), and keep lead-and-workers for big parallel jobs: AI LABS measured about 1.7× Opus alone on a small feature.
+- **Model switches.** The prompt cache belongs to one model, so the first message after a switch rereads the whole conversation at full price. Switch between tasks, after `/compact` or in a fresh session. This is the cache cost the Cache Tax mod in [[Claude Code Mods (RoboNuggets)]] warns about.
+
 ## ☘️ Reasoning for me
 - My [[Agentic Systems]] and [[Qamera AI]] Claude Code sessions regularly exceed 200k context — the most sensible bets are **code graph** (Token Savior, Claude Context) + **CLAUDE.md hygiene** (Claude Token Efficient).
 - [[Context Mode]] (SQLite sandbox) fits log and GitHub API ingest scenarios perfectly — slots into [[Context Engineering]] as another layer.
@@ -53,5 +60,6 @@ A short catalog of tools that cut token usage in [[Claude Code]] and LLM work in
 - [[Jev Engineering for Coding Agents]] — why retrieval (reading + searching ≈ two-thirds of tokens) is the bucket to optimize, and why mid-session routing to a cheaper model usually costs more
 
 - [[billion-context]] — model-driven reversible context compression via proxy
+- [[Fable 5.2 — Nine Rules for Using It (AI LABS)]] — model, effort, sub-agents and model switches as cost levers
 ---
 Template: [[templates/knowledge_note_info]]

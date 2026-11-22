@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "coding-agents", "context-engineering", "claude"]
 type: knowledge-note
-source: "_raw/processed/2026-04-09_skill_issue_harness_engineering.md"
+sources: ["_raw/processed/2026-04-09_skill_issue_harness_engineering.md", "_raw/processed/2026-11-22_yt-EFGvVCpW9zc_fable-5-2-is-insane-only-if-you-use-it-anthropic-s-way.md"]
 agent-created: true
 summary: "Configuring coding agent harness (CLAUDE.md, MCP, skills, sub-agents, hooks) to maximize output quality"
 ---
@@ -41,6 +41,16 @@ Pierwszy punkt konfiguracji. Markdown files injected do system prompt. Kluczowe 
 - **Less is more** — concise, universally applicable instructions. HumanLayer trzyma < 60 linii
 - **Progressive disclosure** — nie upychaj wszystkiego w jednym pliku
 - **Unikaj codebase overviews** — agenty same odkrywają strukturę repo
+
+### CLAUDE.md for Fable 5.2 *(added 2026-11-22)*
+From [[Fable 5.2 — Nine Rules for Using It (AI LABS)]], checked against Anthropic's Fable 5.2 guide:
+- **Rewrite "never" rules with the exception inside.** Lines with NEVER or IMPORTANT written for older models make results worse, and Fable follows "never" as a rule with no exceptions. Under a "never" rule it took a step the person in charge had approved in about one try in ten, against nine in ten when the rule said to ask first. Write "ask before deleting files", not "never delete files". `/claude-api prompt-audit` finds such lines in `CLAUDE.md`, skills and agent files.
+- **Name the worker model per kind of task** (Sonnet for simple work, Opus for harder work, Haiku for search and logs), so a Fable lead picks the right one when it starts a sub-agent.
+- **Say what a sub-agent costs.** Anthropic puts this in the description of the tool that starts sub-agents, cost first, and only when Fable delegates more than the task needs.
+- **List where it may work** (project folders, repos, the staging site) and which steps need no approval: reversible steps go ahead, irreversible ones wait.
+- **Keep-going text** for long runs on `medium`. Anthropic's "Finishing work" block halved unfinished sessions and cost about 30% more output tokens.
+- **Report text.** Anthropic's "Communicating clearly" block asks for a report written for someone who hasn't seen the work: key points first, plain words. Add a request for screenshots and test results.
+- **Watch for caution piling up** in memory, notes and instruction files. Anthropic found Fable follows carried-over cautions closely enough to hold back routine work.
 
 ### MCP Servers — dla tools
 Rozszerzają capabilities agenta poza file I/O i bash. Tool descriptions trafiają do system prompt — **nigdy nie podłączaj untrusted MCP servers** (prompt injection vector!).
@@ -118,6 +128,7 @@ Likelihood sukcesu silnie koreluje z agent's ability to verify own work:
 - [[AI Software Factory]] — the harness taken to lights-out: issues in, merged PRs out, behind journeys and holdout gates
 - [[oh-my-pi]] — a coding agent that fixes the harness at the tool layer: content-hash edits, LSP and debugger wired in, just-in-time rules
 - [[Claude Code Mods (RoboNuggets)]] — mods, a way to change Claude Code's own UI and behaviour
+- [[Fable 5.2 — Nine Rules for Using It (AI LABS)]] — preparing `CLAUDE.md` and permissions for Fable: "never" rules, worker models, sub-agent cost, keep-going and report text
 
 ---
 Template: [[templates/knowledge_note_info]]

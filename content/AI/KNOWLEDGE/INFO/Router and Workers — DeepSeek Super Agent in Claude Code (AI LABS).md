@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude-code", "coding-agents", "multi-agent", "orchestration", "workflow", "sdd", "methodology"]
 type: knowledge-note
-source: "_raw/processed/2026-11-07_yt-3DklR44DHnM_deepseek-just-released-the-greatest-claude-code-workflow-eve.md"
+sources: ["_raw/processed/2026-11-07_yt-3DklR44DHnM_deepseek-just-released-the-greatest-claude-code-workflow-eve.md", "_raw/processed/2026-11-22_yt-EFGvVCpW9zc_fable-5-2-is-insane-only-if-you-use-it-anthropic-s-way.md"]
 agent-created: true
 summary: "AI LABS rebuilds DeepSeek's 'super agent' in Claude Code: one router that only talks to you and dispatches tickets, workers that build them, a watchdog, merger and checker. Numbers are the channel's retelling of DeepSeek's test, unverified."
 source_url: "https://www.youtube.com/watch?v=3DklR44DHnM"
@@ -68,6 +68,9 @@ Video by AI LABS (a software company's channel), published 2026-11-05, [14:16](h
 - The board with mode and dependency columns is a plain-Markdown task graph, no tooling needed. Similar fleet ideas live in [[Orca]] (worktree per agent) and [[Swarm Research — Orchestrating Coding Agents]] (shepherd/expert split).
 - Merge pain is real once workers write in parallel worktrees: see [[Two-Slice Teams — Git and Code Review After Agents (Przeprogramowani)]] for why task ownership by module matters.
 - Worth trying on a small project in [[Claude Code]] before trusting it, starting with solo tickets only (agent teams are experimental).
+- **A week later the same channel put Fable in the lead** *(added 2026-11-22)*. In [[Fable 5.2 — Nine Rules for Using It (AI LABS)]] (2026-11-14), AI LABS puts Fable 5.2 in the lead role, still on `high` effort like the Opus router here. Anthropic's Fable guide reports good results with Fable as planner and orchestrator for other models.
+  - The roles differ. That lead splits a job into tasks and picks a worker model per task (Sonnet for simple, Opus 5.5 for harder, Haiku for search and logs). This router only hands out tickets that are already written.
+  - The video adds the cost side this note lacks: on a small feature, lead-and-workers cost about 1.7× Opus alone, because the lead rereads everything it checks. Telling Fable what a sub-agent costs cuts how many it starts. My guess, not measured: the router's checking step has the same reread cost, so it is likelier to pay off on a backlog of tickets than on a single feature.
 
 ## ⚠️ Claim check
 - **Unverified:** the 15.7 vs 29.5 minutes result and "3-5 sessions" come only from this video's retelling. I did not find or read the DeepSeek post. Five runs per arm is also a small sample, and the benchmark task set is not described.
@@ -83,6 +86,7 @@ Video by AI LABS (a software company's channel), published 2026-11-05, [14:16](h
 ## 📖 Further reading/watching
 - [[Agentic Coding]], [[Harness Engineering]], [[Context Engineering]]
 - [[AI-Native SDLC Playbook]]
+- [[Fable 5.2 — Nine Rules for Using It (AI LABS)]] — the same channel on Fable as lead, worker models per task, and what sub-agents cost
 
 ---
 Template: [[templates/knowledge_note_info]]

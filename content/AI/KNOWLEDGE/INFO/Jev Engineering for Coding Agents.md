@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "coding-agents", "harness", "context-engineering", "token-optimization", "cost-optimization", "orchestration"]
 type: knowledge-note
-sources: ["_raw/processed/2026-09-29_Jev-Engineering-for-Coding-Agents.pdf", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md"]
+sources: ["_raw/processed/2026-09-29_Jev-Engineering-for-Coding-Agents.pdf", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md", "_raw/processed/2026-11-22_yt-EFGvVCpW9zc_fable-5-2-is-insane-only-if-you-use-it-anthropic-s-way.md"]
 agent-created: true
 summary: "Diogo Almeida's (TypeSafe) harness thesis: design a coding agent as if there were no KV cache — typed state, per-query context, routing priced per context rebuild"
 ---
@@ -34,6 +34,7 @@ The thesis in one line: **a coding agent is a while loop around a model, and the
 - [[AI Agent Security]] — programmable permissions and security-aware routing
 - [[Claudex Loop]] — cross-model review, one of the background patterns
 - [[Claude Code]] — the harness I actually run; several of these ideas already exist in it in weaker form
+- [[Fable 5.2 — Nine Rules for Using It (AI LABS)]] — field numbers for the routing arithmetic (lead-and-workers at 1.7× Opus on a small job) and a counter-claim on how often agents delegate
 - [[Drex]] · [[Laya]] — the two challengers. Drex (Nace.ai, under 10B) claims #1 on Decision Index 0.2, 1.15 points ahead of Jev. Laya is an open-source, Jev-compatible encoder engine that answers in 33 ms, but you have to fine-tune it. Both say Jev's probabilities are overconfident.
 - [[colibri]] — a third Jev-compatible `/v1/systemone` server, this time inside a local inference engine for large MoE models. A Jev client switches by changing `TYPESAFE_BASE_URL`, and the two official Jev SDKs are tested unmodified against `coli serve`. It answers either with any chat model it runs, by scoring each option (four questions about one document came back 5.7× faster than generating the answers), or natively with Laya, GLiNER2.5-Decide and Clef. *(Added 2026-11-19.)*
 
@@ -81,6 +82,12 @@ A few of these are worth expanding:
 - **Tool calling is a weird tradeoff.** Tools are declared up front with full schemas whether or not they're relevant, which eats context and still doesn't produce smart selection. The working hypothesis: models struggle with **high cardinality** (many tools at once) plus **off-policy tool calling** (usage patterns unlike training). That may be why skills (short description, detail deferred) often beat raw tool lists and MCP servers.
 - **Compaction compresses blind.** It makes sense only if every future turn wants the same state. Generic compression is hard and lossy. Query-aware compression is easy: if you know the next question, you know what to keep. *A summary written before the question is known will reliably throw away something the question needed.*
 - **Sub-agents are "meh"** because deciding which parent context to pass in and which findings to merge back is expensive and error-prone, so the model avoids it.
+
+> [!contradiction] How often agents start sub-agents
+> Earlier: sub-agents are rare, because choosing what context to pass in and merge back is hard, so the model avoids them (source: _raw/processed/2026-09-29_Jev-Engineering-for-Coding-Agents.pdf)
+> New: Fable 5.2 starts sub-agents quickly when instructions invite delegation, and at its highest effort uses them to review its own work, so sub-agents can become a large part of a session's cost (source: _raw/processed/2026-11-22_yt-EFGvVCpW9zc_fable-5-2-is-insane-only-if-you-use-it-anthropic-s-way.md)
+
+Anthropic's Fable 5.2 guide (bundled in the `claude-api` skill, read 2026-11-22) sits between the two: with a minimal sub-agent tool Fable rarely starts one, and where prompts invite delegation it delegates readily.
 - **Restarting** throws away good state with bad. With addressable state you could start clean and reload only the still-relevant chunks on demand.
 
 ## 🧩 The routing arithmetic
@@ -95,6 +102,11 @@ The intuitive plan is to let a frontier model plan, hand execution to a cheaper 
 With a plausible session shape of X = 0.65, Y = 0.12, Z = 0.23: **pure Opus 4.15 vs routed 6.19**. Staying on the frontier model costs about two-thirds of the route that was supposed to save money. The routed path loses whenever the session is long (large X), whenever the work reads much more than it writes, or both.
 
 **The lesson is not that routing is wrong. Routing priced per token is wrong. Price it per context rebuild.** Routing only pays when the harness can hand the cheaper model a small, purpose-built context instead of the full transcript, and when the return trip doesn't force the frontier model to reread everything the helper produced.
+
+**Field data** *(added 2026-11-22)*:
+
+- [[Fable 5.2 — Nine Rules for Using It (AI LABS)]] reports a Fable lead with cheaper workers costing about **1.7× Opus alone on a small feature**, because the lead rereads everything to check it. That is this arithmetic at work: one team's test, but the direction the notes predict.
+- Anthropic's Fable 5.2 guide adds two switch costs the notes don't price. Prompt caches are scoped to one model. And no earlier model reads Fable 5.2's thinking blocks, so the first turn after a switch rereads the conversation at full price and runs without Fable's reasoning.
 
 ## 🧩 Where tokens actually go
 
