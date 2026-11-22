@@ -2,7 +2,8 @@
 
 ## Purpose
 
-Custom **sub-agents** the workflow skills dispatch via the `Task` tool. Each agent is a
+Custom **sub-agents** the workflow skills dispatch via Claude Code's sub-agent tool (`Agent`;
+older releases called it `Task`). Each agent is a
 markdown file with YAML frontmatter (`name`, `description`, optional `model`) + a system
 prompt body. Claude Code auto-discovers `.claude/agents/*.md` (project-scoped).
 

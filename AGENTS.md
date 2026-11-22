@@ -43,7 +43,7 @@ GitHub/open-source repositories → individual `tool` notes in the topic folder 
 
 You maintain three index files. Read them in order, stopping when you have enough info.
 
-### Level 0: `_indexes/vault-map.md` — read FIRST on every operation
+### Level 0: `_indexes/vault-map.md` — read first
 
 Bird's-eye view: folder table (note counts, types, top tags), tag cloud, last 10 changes.
 ~50-80 lines at current scale, ~150 lines at 500 notes. Always fits in context.
@@ -123,37 +123,40 @@ PROJECTS/SHAREFUND/ShareFund <- ABOUT/About
 
 ### Navigation Rules
 
-1. **ALWAYS** read `vault-map.md` first for any KB operation
+1. Start a KB operation by reading `vault-map.md`: its folder table and tag cloud tell you
+   which `catalog.md` sections to open. A workflow that already names its note
+   (`/b:enhance [[Note]]`) or runs only a script (`/b:reindex`, `/b:refactor`) can skip it.
 2. For search: scan vault-map tags/folders → read matching sections of `catalog.md`
 3. For specific note: find entry in `catalog.md` → read the note
 4. For related notes: read `graph.md` → follow link chains
-5. **NEVER** grep the entire `content/` directory — use indexes first
+5. Find notes through the indexes, not by searching all of `content/`: the indexes exist so
+   you open only the notes you need. Search `content/` directly only for a value the
+   indexes don't carry, such as the `video_id` that brain-ingest's idempotency check looks
+   for. The skills' own scanners (`lint_scan.py`, `lint_links.py`, `build_indexes.py`,
+   `refactor.py`) read `content/` by design.
 6. If any index is missing or `updated` is stale: run full REINDEX before proceeding
 
-### Auto-Update Rules (after EVERY write)
+### Auto-Update Rules
 
-After creating or editing ANY note, update indexes IMMEDIATELY — don't defer to a separate reindex.
+An operation that created, edited, moved or deleted notes brings the indexes up to date
+before it ends, in the same run. Leaving it for a later `/b:reindex` is not the plan.
 
-**On note create:**
-- `catalog.md`: add entry line in correct folder section
-- `vault-map.md`: increment folder count, update top-tags, add to Recent Changes
-- `graph.md`: add outgoing links, update incoming links for target notes
+1. Run `python .claude/skills/brain-reindex/scripts/build_indexes.py`. It rebuilds all
+   three indexes from the notes, and `catalog.md` takes each summary from the note's
+   `summary:`, so give every note you wrote a one-line `summary:` first. Hand edits to
+   `catalog.md` or `graph.md` are overwritten by the next rebuild.
+2. Add one line at the top of `## Recent Changes` in `vault-map.md` for the operation
+   (`- YYYY-MM-DD <what changed>`). The script keeps that section exactly as it finds it.
 
-**On note edit:**
-- `catalog.md`: update the entry line (summary, tags, links)
-- `vault-map.md`: update Recent Changes, update top-tags if changed
-- `graph.md`: recompute outgoing links, update incoming links for affected targets
+Notes under `_outputs/`, `_raw/` and `templates/` are not indexed. If Python or PyYAML is
+not available, update the three files by hand: the entry line in `catalog.md`, folder
+counts and top tags in `vault-map.md`, outgoing and incoming links in `graph.md`.
 
-**On note delete:**
-- Remove from all three indexes, decrement counts, clean up incoming links
+### Index size
 
-### Scale Breakpoints
-
-| Notes | Action |
-|-------|--------|
-| 0-300 | Single file per index |
-| 300-800 | Split catalog into per-folder files: `catalog-LIFE.md`, `catalog-BUSINESS.md`, etc. |
-| 800+ | Split graph per-folder too |
+`build_indexes.py` writes one `catalog.md` and one `graph.md`, whatever the size of the
+vault. Read only the folder sections you need. Splitting an index into per-folder files
+is a change to the script, not a hand edit: the next rebuild would overwrite it.
 
 ## Writing Style
 
@@ -235,12 +238,16 @@ Run `npx quartz build` after bulk operations to verify. Deploy triggers on push 
 
 ## Safety Rules
 
-- Never modify `.obsidian/`, `quartz/`, `.github/`
+- Leave `.obsidian/` (the owner's Obsidian settings), `quartz/` (the vendored Quartz 4
+  engine) and `.github/` (the deploy workflow) alone unless the task is about them, that
+  is, the owner asked in this session for a change there.
 - Never delete user-authored content without confirmation
 - Always preserve existing frontmatter when editing
 - Always add `agent-created: true` to new notes
-- Always update indexes after every write
-- Always work on `v4` branch
+- Bring the indexes up to date before an operation ends (see "Auto-Update Rules")
+- Vault work lands on `v4`, the branch that deploys. A session that starts on another
+  branch (its own worktree, or the `brain-watch-monthly` task's `kb-watch/YYYY-MM-DD`
+  branch) keeps working there; don't switch branches to reach `v4`.
 
 ## kb-template maintenance
 
