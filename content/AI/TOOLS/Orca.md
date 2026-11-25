@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "coding-agents", "orchestration", "ide", "workspaces", "mobile", "open-source", "mit"]
 type: tool
-source: "_raw/processed/2026-09-06_stablyaiorca Orca is the ADE for working with a fleet of parallel agents.md"
+sources: ["_raw/processed/2026-09-06_stablyaiorca Orca is the ADE for working with a fleet of parallel agents.md", "_raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md"]
 agent-created: true
 agent-reviewed: 2026-10-01
 summary: "stablyai/orca — free MIT desktop ADE for running a fleet of coding agents in parallel, each in its own git worktree, with a mobile companion for steering them from your phone, click-to-prompt Design Mode, native GitHub/Linear and SSH worktrees."
@@ -59,6 +59,12 @@ Mobile pairs with the desktop app via a relay that lives in the same repo under 
 ## Reasoning for
 The interesting bit is not "an IDE for agents" — it's that **worktree isolation is the default unit of work**. Running five agents on the same checkout is how you get corrupted state and unmergeable diffs; giving each its own worktree turns parallel agents from a stunt into a workflow, and makes "compare and merge the winner" an actual review step rather than a hope.
 
+> [!contradiction] Shared checkout or a worktree per agent
+> Earlier: five agents on one checkout end in corrupted state and unmergeable diffs; a worktree per agent is what makes parallel agents workable (source: this note, written from _raw/processed/2026-09-06_stablyaiorca Orca is the ADE for working with a fleet of parallel agents.md)
+> New: in STORM (its authors' own test; Commit0-Lite, 4 engineers, Sonnet 4.6, macro score) a shared workspace with checks at write time scored 82.5, worktrees 63.8 and a single agent 66.4; most of the gain came from intent comments (70.9 without them). A shared checkout with instructions only was about equal to worktrees (65.4), and CAID, also measuring its own method, found worktrees better (59.1 against 56.1). Undecided (source: _raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md)
+
+**What worktrees don't isolate** (2026-11-25): ports, databases and caches, and they share refs and configuration of one `.git`. Landing is also outside: worktrees make comparing easy, but five *different* tasks still need an order, a queue and tests on the merged tree. "Merge the winner" avoids that, because only one result lands.
+
 Two features I'd use immediately:
 - **Design Mode** — click an element in a live browser and the agent receives its HTML, CSS and a cropped screenshot. That's the shortest path yet from "this looks wrong" to a prompt with real context, and it beats describing the problem in prose.
 - **Usage tracking with account hot-swap** — seeing Claude and Codex rate-limit resets in one place, and switching accounts without re-logging in, addresses the same quota-juggling pain [[OmniRoute]] attacks from the gateway side.
@@ -76,6 +82,7 @@ Two features I'd use immediately:
 - 🔗 [Releases / changelog](https://github.com/stablyai/orca/releases) · [Discord](https://discord.gg/fzjDKHxv8Q)
 - 📖 Related: [[herdr]] · [[Claude Code]] · [[Cursor]] · [[Swarm Research — Orchestrating Coding Agents]] · [[Agentic Coding]] · [[OmniRoute]]
 - 📖 [[AI-Native SDLC Playbook]]: the "parallel sessions and subagents" play (2–3 sessions in separate worktrees, add more only while review keeps up), which is the workflow Orca packages
+- 📖 [[Version Control for Parallel AI Coding Agents]]: worktrees compared with merge queues, merge drivers and new version control systems
 - 📖 [[Two-Slice Teams — Git and Code Review After Agents (Przeprogramowani)]]: worktrees isolate agents on one machine, but merge collisions between people need module ownership
 - 📖 [[AI Software Factory]]: the opposite end of the spectrum. Orca keeps a human reviewing every diff; the factory merges behind verification gates nobody watches.
 - 🗂️ Re-clipped source: `_raw/processed/2026-10-01_stablyaiorca Orca is the ADE for working with a fleet of parallel agents.md`

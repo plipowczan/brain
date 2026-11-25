@@ -8,6 +8,7 @@ type: tool
 agent-reviewed: 2026-11-13
 agent-created: true
 summary: "AI-powered IDE based on VS Code with built-in coding agents"
+sources: ["_raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md"]
 status-checked: 2026-11-13
 project-status: active
 homepage: "https://cursor.com/"
@@ -41,6 +42,7 @@ Key features:
 - Composer — the name now belongs to Cursor's own coding model (Composer 2.5, in the included pool); multi-file editing is what agent mode does
 - Model selection — Cursor's own models (Grok, Composer) come out of the plan; Claude, GPT and Gemini are still selectable, but on the new plans they bill at API list price (Premium and above)
 - Added since April 2026: cloud agents that start without a repo and save to Cursor-hosted Origin repos, Cursor Projects with a coordinator agent, self-hosted worker machines, Rollouts and Security Review bots, an Agent SDK (2026-10-20), live apps shared by link (2026-11-05) and voice chat with agents (2026-11-06)
+- **Origin** (early beta, docs read 2026-11-24, from [[Version Control for Parallel AI Coding Agents]]) — Cursor's own Git forge with stacked pull requests, as a home for a repo or a mirror of a GitHub one. Not a way to land many agents' work: a cloud agent's token can't merge, service accounts can't turn on auto-merge, the MCP server works only in Cursor and Grok Bot, GitHub Actions doesn't run on Origin-hosted repos, and the merge queue is mentioned without documentation. The mirror is useful when agents clone one repo many times a day
 
 ## How I use it
 Complementary to [[Claude Code]] — Cursor for visual/frontend work, Claude Code for backend/architecture/batch operations. On the plans sold since 2026-10-12, Claude inside Cursor is billed at API list price, so Claude-heavy work no longer rides on a flat Cursor subscription.
@@ -62,6 +64,11 @@ Most users tap only **20% of what Cursor can do**. The key areas:
 
 ### Worktrees — feature isolation
 Git worktrees in Cursor = isolated copies of the project on separate branches. They let you test **3 different approaches at once** (different models or the same model 3x). Each version runs on its own port. After comparing — Apply the best one to the main branch. Setup: `.cursor/worktrees.json` with auto-install + auto-dev-server. Since Cursor 3.0 the `/worktree` and `/best-of-n` commands do this from the Agents Window.
+
+### What Cursor learned from running swarms
+Two vendor posts, summarised in [[Version Control for Parallel AI Coding Agents]]. Self-reported, one or a few runs each:
+- **January 2026** ([scaling agents](https://cursor.com/blog/scaling-agents)): flat agents locking a shared task file fell from 20 agents to the output of 2–3, and a single integrator became the bottleneck. Planners that own a scope and workers with their own copies, who don't talk to each other, worked
+- **July 2026** ([agent swarms and the new model economics](https://cursor.com/blog/agent-swarm-model-economics)): more than 70,000 conflicts in the old run against fewer than 1,000 in the new one, with a neutral agent resolving them. Not like for like: the new run made about one seventieth of the commits, several things changed at once, and it ran on an unpublished version control system
 
 ### Agent mode workflows
 - **Two-model workflow**: GPT-5 plans (a detailed plan with edge cases), then switch to Claude Sonnet for implementation (speed). Saves ~70% of the time vs. one model for both. On the plans sold since 2026-10-12 both are third-party models billed at API list price; only Cursor's own models (Grok, Composer) come out of the included pool
@@ -89,6 +96,7 @@ Git worktrees in Cursor = isolated copies of the project on separate branches. T
 - [Cursor is now part of SpaceX](https://cursor.com/blog/joining-spacex) — 2026-08-14
 - [Pricing](https://cursor.com/pricing) · [Plan details and model billing](https://cursor.com/docs/account/pricing)
 
+- [[Version Control for Parallel AI Coding Agents]] — where Origin and the swarm posts sit among 29 options
 - [[Cursor Plugins]] — the official plugin marketplace and manifest spec (skills, rules, MCP in one package)
 ---
 Template: [[templates/tool]]

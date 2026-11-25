@@ -7,6 +7,7 @@ tags: ["tool", "git", "version-control"]
 type: tool
 summary: "Distributed version control system — the backbone of every code project I work on; branching, history, and collaboration."
 agent-reviewed: 2026-06-25
+sources: ["_raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md"]
 homepage: "https://git-scm.com/"
 
 ---
@@ -32,10 +33,17 @@ It is the default for all my agentic project repos (Brain, Qamera, a fintech-exe
 - **SVN (Subversion)** — centralised, no cheap local branching.
 Git won on ubiquity: every host, CI system, and coding agent assumes it.
 
+Re-checked 2026-11-25 for teams of parallel coding agents ([[Version Control for Parallel AI Coding Agents]]):
+- **Clients on top of Git** — [[Jujutsu]] (conflicts stored as data, undo) and [[GitButler]] (several branches in one directory). Less rebase friction, not fewer conflicts.
+- **Merge drivers inside Git** — [[Mergiraf]] and [[Weave]] merge syntax instead of lines. Fewer textual conflicts, some silent wrong merges; only with tests on the merged tree.
+- **Systems that replace the Git client for agents** — [[AVP]] (a pilot beside Git at most) and [[gitai]] (disposable repository only).
+- **Why I stay on Git:** nothing public is shown to work with hundreds of agents on one repository, and for 5–30 a merge queue already removes the push races that make agents loop on fetch–rebase–push. Leaving Git costs pull requests, CI and tooling.
+
 ## Resources
 - [Pro Git book (free)](https://git-scm.com/book/en/v2)
 - Paired editor: [[Visual Studio Code]]
 - [[Two-Slice Teams — Git and Code Review After Agents (Przeprogramowani)]]: why Anthropic replaced Git with Scion once its monorepo passed 30,000 merges a day, and why the real fix for agent merge conflicts is module ownership
+- [[Version Control for Parallel AI Coding Agents]]: 29 alternatives and add-ons compared, with a setup for 5–30 agents
 
 ---
 Template: [[templates/tool]]

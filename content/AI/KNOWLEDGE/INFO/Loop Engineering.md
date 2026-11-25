@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "coding-agents", "agentic-engineering", "orchestration", "cost-optimization", "claude-code"]
 type: knowledge-note
-sources: ["_raw/processed/2026-06-18_yt-UztrFXaSWv0_the-creators-of-claude-code-and-openclaw-don-t-prompt-their.md", "_raw/processed/2026-11-22_Building always-on agents.md"]
+sources: ["_raw/processed/2026-06-18_yt-UztrFXaSWv0_the-creators-of-claude-code-and-openclaw-don-t-prompt-their.md", "_raw/processed/2026-11-22_Building always-on agents.md", "_raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md"]
 source_url: "https://www.youtube.com/watch?v=UztrFXaSWv0"
 video_id: "UztrFXaSWv0"
 channel: "Cole Medin"
@@ -51,6 +51,11 @@ The pattern: one **orchestrator** agent you talk to with minimal prompting → i
 - **Separate session per step.** Steps hand off via markdown docs but each runs in its own agent session — no single bloated `/loop` getting overwhelmed across plan → implement → validate.
 - **Durability.** All logs/runs stored in Postgres (Neon) → resume any workflow on the exact step even if the machine dies.
 - **Parallel + isolation.** Orchestrator (primary Claude Code) dispatches N workflows in parallel — e.g. 4 GitHub-issue fixes + 4 code reviews + 1 orchestrator = 9+ sessions. Worktrees (and Neon DB branches) keep them from stepping on each other (code *and* DB changes, port conflicts).
+
+> [!contradiction] Do worktrees solve port conflicts?
+> Earlier: worktrees (and Neon DB branches) keep parallel sessions apart in code, database changes and ports (source: the video, _raw/processed/2026-06-18_yt-UztrFXaSWv0_the-creators-of-claude-code-and-openclaw-don-t-prompt-their.md)
+> New: a worktree isolates only files and the checked-out branch; ports, databases and caches are shared and need their own isolation per worktree. Database branches cover the database; nothing here covers ports (source: _raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md)
+
 - **Human-in-the-loop nodes.** Any node can pause for you to validate before continuing — the antidote to "let it run all day and come back to crap."
 
 ## 🧩 Pure loops done right — the open-source dashboard
@@ -85,6 +90,7 @@ Anthropic's [[Building Always-On Agents (Anthropic)]] (2026-11-13) describes the
 - Source video: [The Creators of Claude Code and OpenClaw don't Prompt Their Agents Anymore?!](https://www.youtube.com/watch?v=UztrFXaSWv0) — Cole Medin, 2026-06-18 (24:39)
 - [[Loop Engineering (cobusgreyling)]] — the practical companion: patterns, starter kits, and `loop-audit` / `loop-init` / `loop-cost` CLIs
 - [[Archon]] — the harness builder used throughout
+- [[Version Control for Parallel AI Coding Agents]] — what parallel sessions need beyond worktrees: ownership, one queue onto main, tests on the merged tree
 - [[AI Software Factory]] — Cole Medin's follow-through: Archon's SDLC pack run on a schedule, with a mission, journeys and holdout as the gates that make an unread merge defensible
 - [[Harness Engineering]] — the broader discipline loop engineering folds into
 - [[Agentic Engineering]] · [[Agentic Coding]] — the paradigm

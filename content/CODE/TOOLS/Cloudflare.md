@@ -7,6 +7,7 @@ tags: ["tool", "cdn", "storage", "dns", "edge", "security", "r2"]
 type: tool
 agent-created: true
 summary: "Global edge platform — R2 object storage (zero egress), DNS, CDN, Turnstile CAPTCHA, Workers; my object-storage + DNS + bot-protection layer across projects"
+sources: ["_raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md"]
 homepage: "https://www.cloudflare.com/"
 ---
 
@@ -23,6 +24,7 @@ A global edge platform that started as a CDN/DNS provider and grew into a full d
 - **CDN / caching** — global edge cache in front of origins.
 - **Turnstile** — invisible/low-friction CAPTCHA replacement to block bots without harming UX.
 - **Workers & Pages** — serverless edge compute and static/edge hosting.
+- **Artifacts** (open beta since 2026-10-01, Workers Paid) — Git storage over HTTPS on Durable Objects, meant for a repository or fork **per agent or session**. No pull requests, merge queue, branch protection or merge API, and the docs advise against many agents on one repository, so you build the integrator yourself. Limits: 1 GB per repository, 32 MiB per file, 64 MiB per push. Price: 10,000 operations a month included, then \$0.15 per 1,000, storage \$0.50 per GB-month; the billing start was moved three times, last to 2026-11-19, and I couldn't confirm it began. Not used by me; details in [[Version Control for Parallel AI Coding Agents]].
 - **Web Analytics & Insights** — privacy-first traffic analytics without cookies.
 
 ### Download or use
@@ -49,6 +51,8 @@ Cloudflare is my object-storage + DNS + bot-protection layer. **R2** is the deci
 - 🪣 [R2 storage](https://developers.cloudflare.com/r2/)
 - 🛡️ [Turnstile](https://developers.cloudflare.com/turnstile/)
 - ⚙️ [Workers](https://developers.cloudflare.com/workers/)
+- 🗃️ [Artifacts](https://developers.cloudflare.com/artifacts/)
+- 📖 [[Version Control for Parallel AI Coding Agents]]: Artifacts among the Git storage options for agents
 
 ---
 Template: [[templates/tool]]

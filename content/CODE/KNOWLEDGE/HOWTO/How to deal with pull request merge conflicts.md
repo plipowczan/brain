@@ -6,6 +6,7 @@ openToc: true
 tags: ["knowledge", "howto", "git", "merge", "conflict"]
 type: knowledge-note
 summary: "Step-by-step guide to resolving git pull request merge conflicts using Visual Studio."
+sources: ["_raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md"]
 ---
 
 # How to deal with pull request merge conflicts
@@ -40,6 +41,11 @@ The conflicts will be resolved:
 
 ## 📖Further reading
 [Resolve Git merge conflicts - Azure Repos | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/repos/git/merging?view=azure-devops&tabs=visual-studio-2022)
+
+Fewer conflicts to resolve by hand (added 2026-11-25):
+- [[Mergiraf]] and [[Weave]]: merge drivers that merge syntax instead of lines, so two people adding separate functions to one file don't conflict. Both can also merge wrongly without saying so; run the tests on the merged result
+- `git rerere`: Git remembers a resolution and replays it the next time the same conflict appears
+- [[Version Control for Parallel AI Coding Agents]]: why conflicts appear when coding agents work in parallel, and what lowers them (short-lived branches, one owner per file, a merge queue)
 
 ---
 Template: [[templates/knowledge_note_how_to]]

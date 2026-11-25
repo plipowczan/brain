@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "agents", "coding-agents", "orchestration", "multi-agent", "harness", "research"]
 type: knowledge-note
-source: "_raw/processed/2026-07-09_yt-u-lMMDCfmSM_self-learning-ai-swarm-intelligence-new-code-rsi.md"
+sources: ["_raw/processed/2026-07-09_yt-u-lMMDCfmSM_self-learning-ai-swarm-intelligence-new-code-rsi.md", "_raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md"]
 source_url: "https://www.youtube.com/watch?v=u-lMMDCfmSM"
 video_id: "u-lMMDCfmSM"
 channel: "Discover AI"
@@ -95,6 +95,10 @@ Workflow:
 4. Days later the shepherd may realize that dead end held a **missing puzzle piece**, and drop a fresh optimizer straight back into that exact frozen folder to **reactivate** it.
 5. If `researcher-1` and `researcher-3` each solve *half* the problem, the shepherd runs a literal **`git merge`** between the folders — "**no crazy AI stitching**; the file system handles the collision, mathematically precise."
 
+> [!contradiction] Is a clean `git merge` a correct combination?
+> Earlier: a literal `git merge` combines two half-solutions without AI stitching, mathematically precise (source: the video, _raw/processed/2026-07-09_yt-u-lMMDCfmSM_self-learning-ai-swarm-intelligence-new-code-rsi.md); the takeaway below calls it deterministic idea-combination
+> New: the text merge is deterministic, the result isn't necessarily correct. In "Passes Alone, Fails Together" (STALE) constructed pairs that merged cleanly failed together in 97% of runs, real pull-request pairs in 1 of 834 runs. Run the tests on the merged tree (source: _raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md)
+
 The payoff: **nothing is ever permanently overwritten**, so the system **never loses a good alternative idea**, and context-window limits stop mattering because memory lives on disk. (Compare the on-disk / navigate-don't-reload principle in [[HORMA — Structured Agent Memory]].)
 
 ## Lineage — Lilian Weng, Coral, and the RL framing
@@ -165,5 +169,6 @@ Practical advice from the video: **set hard financial limits**, or run **local m
 - [[Agentic Systems]] — my running map of multi-agent architecture
 
 - [[OpenRig]] — tmux-based manager for persistent multi-agent teams
+- [[Version Control for Parallel AI Coding Agents]] — Git for agents as a landing problem instead of a memory: isolation, conflicts and merges from 5 to hundreds of agents
 ---
 Template: [[templates/knowledge_note_info]]

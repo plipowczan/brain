@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "claude-code", "sdlc", "coding-agents", "harness", "governance", "agent-skills", "methodology"]
 type: knowledge-note
-source: "_raw/processed/2026-10-01_ai-native-sdlc-playbookbook.md at main.md"
+sources: ["_raw/processed/2026-10-01_ai-native-sdlc-playbookbook.md at main.md", "_raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md"]
 agent-created: true
 summary: "Anthropic's Claude Academy course: the SDLC as a loop of committed artifacts (intent.md → spec.md → plan.md → PR → incident); skills advise, hooks enforce, humans approve at gates"
 ---
@@ -65,6 +65,8 @@ Each stage ends by **committing an artifact to version control**, and that commi
 - **Skills as institutional knowledge:** pick one policy that's enforced inconsistently today, write it as a skill from the policy owner's source of truth, test that it triggers when you phrase the task in different ways, and have the owner sign off on every change.
 - **A skill is an advisory control; a hook is the deterministic one behind it.** Build-phase hooks block protected paths, run formatter and linter, keep credentials out of the diff, and must stay fast. Human-approval hooks belong at deploy gates, not mid-build, or a person ends up blocking every parallel session.
 - **Parallel sessions and subagents:** one engineer runs 2–3 sessions, each in its own worktree on a task that touches different files. Add more only while review keeps up. Recurring jobs become subagents in `.claude/agents/` (simplifier, verifier, researcher).
+  - **Evidence for "different files"** (added 2026-11-25 from [[Version Control for Parallel AI Coding Agents]]): the rule helps but doesn't cover everything. In MergeGym 79 of 167 conflicts had no authored file in common, and a stale base predicted conflicts better than overlap. CooperBench shows why overlap hurts: success fell from 68.6% with 2 agents to 30.0% with 4 on overlapping tasks.
+  - **The clipped course has no merge queue** (I searched its text). Once several sessions finish on the same day, the missing play is one way onto main: a queue without bypass, the full suite on the merged tree, and a capped number of automatic repair attempts. Merged changes that each passed alone can still fail together.
 
 ### Stage 4 · Test
 
@@ -110,6 +112,7 @@ The most concretely useful block in the course is a managed-settings policy, pus
 - Clipped copy: [yibie/ai-native-sdlc-playbook — book.md](https://github.com/yibie/ai-native-sdlc-playbook/blob/main/book.md)
 - The course's own reading order for platform teams: Claude Code org setup → settings reference and managed-only keys → permissions → sandboxing → hooks → skills → plugins and private marketplaces → managed MCP → enterprise deployment (Bedrock, Vertex AI, Foundry) → OpenTelemetry monitoring → Compliance API
 - [[AI Software Factory]]: the closed loop, open source
+- [[Version Control for Parallel AI Coding Agents]]: landing the work of many parallel sessions, and which tools help
 - [[Two-Slice Teams — Git and Code Review After Agents (Przeprogramowani)]]: Imprint's small-change rule, a concrete gate for merging without a second human, and two-slice teams as the org-level answer to parallel agents
 
 ---

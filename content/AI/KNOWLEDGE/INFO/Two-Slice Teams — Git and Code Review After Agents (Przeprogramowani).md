@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "coding-agents", "sdlc", "git", "code-review", "team-structure", "methodology"]
 type: knowledge-note
-source: "_raw/processed/2026-11-03_yt-TGVtRGHhruM_git-i-code-review-to-przeszlosc-jak-agenci-ai-zmienia-twoja.md"
+sources: ["_raw/processed/2026-11-03_yt-TGVtRGHhruM_git-i-code-review-to-przeszlosc-jak-agenci-ai-zmienia-twoja.md", "_raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md"]
 agent-created: true
 summary: "Przeprogramowani: agent-driven merge conflicts are a team-shape problem, not a Git-tooling one. Two-slice teams own whole modules, Anthropic replaced Git with Scion at 30,000 merges a day, Imprint auto-approves small PRs."
 source_url: "https://www.youtube.com/watch?v=TGVtRGHhruM"
@@ -39,6 +39,7 @@ Przemek's answer is that this second sentence is the fix. The conflicts don't co
 - [Anthropic: Git gives way to Scion](#-anthropic-git-gives-way-to-scion)
 - [Imprint: the small-change path](#-imprint-the-small-change-path)
 - [Claim check](#-claim-check)
+- [Evidence on ownership](#-evidence-on-ownership)
 - [What I take from it](#-what-i-take-from-it)
 - [Takeaways](#-takeaways)
 
@@ -79,12 +80,20 @@ Przemek cites a recent Anthropic report on how AI changed its own organisation. 
 | Changes merged per day into the monorepo | 2,500 → 30,000+ |
 | CI checkouts per day | 25 million |
 
+> [!contradiction] Is 30,000+ the daily level or the peak?
+> Earlier: changes merged per day went from 2,500 to 30,000+ (source: the video, _raw/processed/2026-11-03_yt-TGVtRGHhruM_git-i-code-review-to-przeszlosc-jak-agenci-ai-zmienia-twoja.md; also The New Stack in the claim check below)
+> New: Anthropic's text says "over 30,000" as of September, but its chart ends on the peak day, 30,401 on 2026-09-09, when the 7-day average was about 18,000 (read from the chart by eye); whether the peak level was sustained is not shown (source: _raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md)
+
 Classic Git, built for a human working locally with the full repository history, stopped coping. [In five months](https://youtube.com/watch?v=TGVtRGHhruM&t=525s) Anthropic engineers wrote a new version control system, **Scion**, from scratch:
 
 - Far fewer repository downloads than Git; more of the work happens on the server, less on the client.
 - The **server performs commits, merges and rebases**, so nothing needs pushing.
 - The client fetches only the files it actually needs, not the whole repository.
 - The infrastructure is **200× smaller**, and a checkout takes seconds instead of minutes.
+
+> [!contradiction] What went from minutes to seconds
+> Earlier: a checkout takes seconds instead of minutes (source: the video, _raw/processed/2026-11-03_yt-TGVtRGHhruM_git-i-code-review-to-przeszlosc-jak-agenci-ai-zmienia-twoja.md)
+> New: Anthropic's chart gives the CI checkout median as 31 s with Git and 3.5 s with Scion; minutes to seconds holds for a new agent worktree (7.1 min to 5.1 s) and for pulling the latest changes in agent environments (3.0 min to 9.0 s) (source: _raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md)
 
 ## 🧩 Imprint: the small-change path
 
@@ -111,6 +120,17 @@ The captions are auto-generated, so I checked names against the video descriptio
 - **Imprint small change: partly corroborated, secondhand.** I couldn't reach Will Larson's own post. A summary of it (dated 17 October 2026) matches the 1,000-line limit and the P1/P2 rule, and adds three details: the author needs 10+ earlier merges in that service, sensitive areas such as payments and security are excluded, and the reviewer skill can only approve or do nothing. It never comments, so reviews don't become rubber stamps that just forward AI feedback. The merge and incident figures are Imprint's own and not independently checked.
 - **Anthropic workforce figures** (agent hours, junior hiring, 5× commits, 10% → 22%): from the video only, not checked.
 - **"Idron" and Maciej Mendrela:** no match found. The captions probably garbled the company name. I didn't check Dan Shipper's two-slice piece either.
+  - **Read since (research of 2026-11-24/25):** Dan Shipper's [The Two-Slice Team](https://every.to/chain-of-thought/the-two-slice-team) (Every, 2026-02-13) proposes one person plus agents owning a *product*. It says nothing about modules, repositories or merge conflicts, so the module-ownership version is Przemek's own.
+
+## 🔬 Evidence on ownership
+
+Added 2026-11-25 from [[Version Control for Parallel AI Coding Agents]], a research run on 29 version control options for parallel agents:
+
+- **Vendor swarm runs point the same way, without a controlled test.** Cursor's locks on a shared task file cut 20 agents to the output of 2–3; giving a planner a scope and narrow tasks to workers with their own copies replaced them. In Anthropic's C compiler run (16 agents), claim files took two thirds of the commits and the same work was still done twice; a test oracle that gave each agent a different failing file brought the parallelism back.
+- **Nobody measured ownership against no ownership.** Przemek's claim stays an opinion that fits the cases.
+- **Owning files is not enough.** In MergeGym 79 of 167 conflicts (47.3%) had no authored file in common, and a stale base predicted a conflict better than file overlap (AUROC 0.873 against 0.694–0.702). Short-lived branches and tests on the merged tree are needed next to ownership.
+- **"Explodes rather than grows linearly"** is at least right about the number of pairs: with n agents there are n(n−1)/2 of them, so 6 agents make 15 pairs and 30 make 435 (arithmetic, not a measured conflict rate).
+- **The tooling layer does matter beyond tens of agents.** Ownership lowers conflicts; it does nothing about push races, clone load or CI on every landing, which is what Scion was built for.
 
 ## ☘️ What I take from it
 
@@ -134,6 +154,7 @@ The captions are auto-generated, so I checked names against the video descriptio
 - [The New Stack on Anthropic's Scion](https://thenewstack.io/anthropic-scion-git-replacement/), covering Anthropic's engineering post of 13 October 2026
 - [Greptile's auto-approve for PRs](https://www.greptile.com/docs/code-review/auto-approve-prs): an off-the-shelf version of the small-change idea (beta, low-risk changes only)
 - [[Git]] · [[How to deal with pull request merge conflicts]] · [[Orca]]: the tooling layer the video says isn't the real fix
+- [[Version Control for Parallel AI Coding Agents]]: the tooling layer checked in depth, with Scion and 28 alternatives; also [[gitai]], the closest public tool to Scion's landing path
 - [[AI-Native SDLC Playbook]]: review gates, and adding parallel sessions only while review keeps up
 - [[Self-Improving Company]] · [[Agentic Coding]] · [[Agentic Engineering]] · [[Claude Code]]
 - [[How to Be More Ambitious with Models (Felix Rieseberg)]]: aiming past what models can do today

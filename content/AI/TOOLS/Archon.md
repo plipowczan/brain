@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "coding-agents", "harness", "workflow", "open-source"]
 type: tool
-source: "_raw/processed/2026-04-29_coleam00Archon.md"
+sources: ["_raw/processed/2026-04-29_coleam00Archon.md", "_raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md"]
 agent-created: true
 summary: "Open-source harness builder — YAML workflows for AI coding agents (plan/implement/validate/review/PR), deterministic + parallel via worktrees"
 status-checked: 2026-11-13
@@ -58,6 +58,10 @@ A workflow is a DAG of nodes, where each node is either:
 - **Interactive** — `loop: until: APPROVED` with `interactive: true` (pauses for human review)
 
 Each run gets **its own git worktree** — you can run 5 fixes in parallel without conflicts. Fire and forget — come back to a finished PR.
+
+> [!contradiction] Do worktrees prevent conflicts?
+> Earlier: with a git worktree per run you can run 5 fixes in parallel without conflicts (source: _raw/processed/2026-04-29_coleam00Archon.md)
+> New: worktrees only keep agents from overwriting each other's files while they work; textual conflicts are postponed to the merge, semantic ones are not addressed, and refs, ports, databases and caches stay shared (source: _raw/processed/2026-11-25_2026-11-25-research-version-control-for-ai-agents.md)
 
 ### 🧩 Example workflow
 
@@ -147,6 +151,8 @@ Weak spot: 17 bundled workflows is a lot of abstraction to learn. I'll probably 
 - **n8n / Zapier** — workflow engines, but not designed for git/coding context
 
 See [[Loop Engineering]] for how Archon extracts the good parts of self-prompting loops into deterministic, cost-controlled workflows, and [[Loop Engineering (cobusgreyling)]] for the lighter patterns + readiness-audit CLIs.
+
+See [[Version Control for Parallel AI Coding Agents]] for what has to sit next to the worktrees when several runs land on one main: ownership before writing, a merge queue, and tests on the merged tree.
 
 🔄 **2026-10-01:** Archon now ships a shared **SDLC pack** (`archon-backlog`, `-triage`, `-ship`, `-deliver`, `-verify-runtime`, `-regress`, `-merge-queue`, `-deploy`, `-lifecycle`…). [[AI Software Factory]] is Cole Medin's lights-out consumer of that pack: GitHub issues in, verified and merged PRs out, gated by a mission out-of-scope list, user journeys and holdout scenarios.
 
