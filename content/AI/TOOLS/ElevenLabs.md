@@ -10,6 +10,7 @@ summary: "Best-in-class AI text-to-speech and voice cloning — multilingual, ex
 status-checked: 2026-11-13
 project-status: active
 homepage: "https://elevenlabs.io/"
+sources: ["_raw/processed/2026-11-26_Claude Motion Graphics - Guide.pdf", "_raw/processed/2026-11-26_Claude Motion Graphics Pack (everything).zip"]
 ---
 
 # ElevenLabs
@@ -45,6 +46,13 @@ npm i @elevenlabs/elevenlabs-js   # or: pip install elevenlabs
 ## Reasoning for
 
 ElevenLabs is the **first tier** in [[Travelcast AI]]'s TTS fallback chain — it generates the podcast narration, with [[OpenAI]] TTS and the local Chatterbox model behind it so a render never fully fails. It's the primary because voice quality is the product in an AI-podcast: expressive, natural multilingual speech is what makes a generated episode listenable rather than robotic. It also features in [[Value Builders]] as the go-to voice tool when teaching AI audio/media workflows. The architectural lesson it embodies — and one I reused elsewhere — is **multi-provider fallback for any external generative dependency**: best-quality vendor first, cheaper/local options as safety nets (see the broader pattern in [[TTS Engines Comparison (Polish)]]).
+
+### Through Higgsfield, for ads
+
+Added 2026-11-26 from [[Claude Motion Graphics in Three Levels (Samin Yasar)]]. Samin Yasar reached ElevenLabs models through [[Higgsfield]] rather than directly, with Claude driving them:
+
+- **Voiceover on `elevenlabs_v4`:** the whole script as one take (a blank line between lines, numbers spelled as spoken), four preset voices to compare, stability 0.5, similarity 0.8, about 1.6 Higgsfield credits a take. Each take is transcribed back to check the words, then split at its pauses and placed shot by shot.
+- **Music on `elevenlabs_music_v2_5`:** exact duration, instrumental forced, two takes at once, the structure written second by second in the prompt. About 4 credits for 27 seconds. His 27-second promo bed came back at 118–120 BPM and lined up after a 60 ms nudge.
 
 ## Alternatives considered
 

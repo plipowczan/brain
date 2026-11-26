@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "video", "claude-code", "coding-agents", "open-source", "ffmpeg"]
 type: tool
-source: "_raw/processed/2026-05-19_browser-usevideo-use Edit videos with coding agents.md"
+sources: ["_raw/processed/2026-05-19_browser-usevideo-use Edit videos with coding agents.md", "_raw/processed/2026-11-26_Claude Motion Graphics Pack (everything).zip"]
 agent-created: true
 summary: "Open-source video editor for coding agents — drop raw footage in a folder, chat with Claude Code, get final.mp4. Reads transcripts (not frames) for word-level cuts"
 status-checked: 2026-11-13
@@ -55,6 +55,7 @@ Talking-head edits, montages, travel cuts. Anything where speech boundaries driv
 - [[HyperFrames]] — for synthesized video from HTML; video-use composes them in
 - Remotion — React-based, source-available license; HyperFrames offers Apache 2.0
 - Manual NLE — better taste control, no automation
+- [[Motion Ads]] Level 2 — the same job (a folder of raw footage → a finished cut with Claude Code), done differently (added 2026-11-26). It reads the footage as frame sheets (one frame a second, then every 0.2–0.4 s around the best moments) plus a transcript, writes a JSON cut list on a beat grid that is approved before cutting, then adds code-built graphics, a voiceover written only from facts in the footage, and generated music through [[Higgsfield]]. Built for promos and recaps where the visuals decide the cuts; Video Use fits talking heads where speech decides them. See [[Claude Motion Graphics in Three Levels (Samin Yasar)]]
 
 ## 🔗 Links
 

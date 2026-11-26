@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "prompts", "design", "agent-skills", "claude-code", "coding-agents", "video", "image-generation", "methodology"]
 type: knowledge-note
-sources: ["_raw/processed/2026-11-22_How I prompt AI to build good looking demos.md", "_raw/processed/2026-11-22_Leonxlnxcook Give your agent a target, a bar and time, then let it cook.md", "https://github.com/Leonxlnx/unlazy (README read 2026-11-22)"]
+sources: ["_raw/processed/2026-11-22_How I prompt AI to build good looking demos.md", "_raw/processed/2026-11-22_Leonxlnxcook Give your agent a target, a bar and time, then let it cook.md", "https://github.com/Leonxlnx/unlazy (README read 2026-11-22)", "_raw/processed/2026-11-26_yt-E70WCbv1nYc_anthropic-just-dropped-claude-motion-2-0-tutorial.md", "_raw/processed/2026-11-26_Claude Motion Graphics - Guide.pdf"]
 source_url: "https://x.com/LexnLin/status/2116662591363690999"
 author: "Leon Lin (@LexnLin)"
 published: 2026-10-31
@@ -164,6 +164,17 @@ A motion video about an AI product took, by his count, 3B tokens.
 
 He packaged all of this as the **Cook Loop**, an agent skill for Claude Code and Codex: questions up front, references as the minimum bar, a number per dimension, a time floor and usage pacing, rounds of build, stills, zero-context critics and fixes, a stills gate before the final render, and a slop ban list. Details in [[Cook]].
 
+## 🧩 A second case: ads (Samin Yasar)
+
+Added 2026-11-26 from [[Claude Motion Graphics in Three Levels (Samin Yasar)]]. Samin Yasar's three-level method for Claude-made ads reaches several of the same conclusions from a different kind of work:
+
+- **References carry the quality.** His first tip is real assets: the real logo file, product photos and screens, used pixel for pixel. "You can't turn cheap ingredients into a five-star meal."
+- **A cheap checkpoint before the expensive step.** He approves a numbered storyboard before any code runs or any credit is spent; for paid generations he also has Claude write the full prompt first and edits it on the page.
+- **Code-built materials look weaker.** He built a luxury steel watch in code and it looked fake (flat light, plastic steel), so photoreal products go to a video model (Kling 4.0) instead. Lin's caveat about the gap between his code-built worlds and their references points the same way.
+- **Motion references, taken apart, not copied.** Lin asks the model to analyse reference videos frame by frame; Yasar's skill measures a reference video's cuts, shot lengths, motion, colour and tempo, writes the style down without any of the reference's content, and applies that.
+
+Where they differ: Lin raises the bar with numbers and outside critics and gives the agent hours; Yasar's builds are short (37 minutes to about 2 hours) and gated by the person's approval at the storyboard.
+
 ## 🔍 Claim check
 
 - **Who is speaking:** a demo maker whose posts promote his own skills (cook, unlazy, earshot). The Mobbin link in the article is an affiliate link, which he discloses; I link the plain site. Everything here comes from his own demos. There is no comparison of the same build with and without references, numbers or critics.
@@ -193,6 +204,7 @@ He packaged all of this as the **Cook Loop**, an agent skill for Claude Code and
 - [[Stage Show — Benji Taylor's Demo Design Skill (AI LABS)]] · [[Impeccable]] · [[AI UX Design Tools]]: design skills for agents
 - [[Vibe Coding]]: my older notes on prompting UI, which put more weight on the text prompt
 - [[GPT Image 2 + Seedance Workflow]]: generate the target image first, then animate it
+- [[Claude Motion Graphics in Three Levels (Samin Yasar)]] · [[Motion Ads]]: the same references-first, approve-before-building loop for ads
 - [[How to Be More Ambitious with Models (Felix Rieseberg)]] · [[Elephant-Goldfish Model (EGM)]] · [[Claudex Loop]]: high bars and outside judges
 - [[Loop Engineering]] · [[Agent Skills]] · [[Claude Code]]
 

@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "video", "image-generation", "workflow", "ads"]
 type: knowledge-note
-sources: ["_raw/processed/2026-05-09_Post LinkedIn GPT Image 2 Seedance.md", "_raw/processed/2026-11-22_How I prompt AI to build good looking demos.md"]
+sources: ["_raw/processed/2026-05-09_Post LinkedIn GPT Image 2 Seedance.md", "_raw/processed/2026-11-22_How I prompt AI to build good looking demos.md", "_raw/processed/2026-11-26_Claude Motion Graphics - Guide.pdf", "_raw/processed/2026-11-26_Claude Motion Graphics Pack (everything).zip"]
 agent-created: true
 summary: "Storyboard-driven AI video ad workflow: GPT Image 2 generates a frame-by-frame storyboard, Seedance 2 turns each frame into a clip"
 ---
@@ -38,6 +38,11 @@ Output: a video ad where **every frame is intentional**. No guessing, no credit 
 - **Camera control** — respects camera path intention (smooth dolly, consistent horizon), which was an AI video pain point
 - **Economics of revision** — in a traditional shoot, revision = reshoot. Here, revision = updating the prompt
 
+> [!contradiction] Does Seedance hold the reference frame?
+> Earlier: Seedance 2 keeps product detail between cuts and preserves the structure of the reference frame (source: _raw/processed/2026-05-09_Post LinkedIn GPT Image 2 Seedance.md)
+> New: in Samin Yasar's model comparison of first-frame/last-frame shots (November 2026), `seedance_2_5` "treated the start frame as a loose reference", misspelt text and never moved the part it was asked to move, so he didn't use it; Kling 4.0 held the stills (source: _raw/processed/2026-11-26_Claude Motion Graphics Pack (everything).zip)
+> Context: one tester, a later Seedance version (2.5 vs 2) and a stricter job (landing exactly on an end frame). See [[Claude Motion Graphics in Three Levels (Samin Yasar)]].
+
 ## 🧩 Use cases (from comments)
 
 - **Luxury / jewelry commercials** — temporal consistency good enough for the brand
@@ -56,12 +61,25 @@ Added 2026-11-22 from [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]]
 
 His caveat: next to the references the code-built result still looks clearly weaker, so the reference images set a ceiling as well as a target. His [[Cook]] skill automates the loop.
 
+## 🧩 First and last frames instead of a storyboard grid
+
+Added 2026-11-26 from [[Claude Motion Graphics in Three Levels (Samin Yasar)]]. Samin Yasar's Level 3 keeps the same order (approve the images first, then pay for motion) but makes the video join into one camera move:
+
+1. **Real photos, not generated ones,** as the reference: about ten from every angle, turned into a fixed PRODUCT block and a LOOK block (one hard light, 100 mm macro) pasted into every prompt.
+2. **Keyframe stills on Nano Banana Pro:** the hero frame first, then each later keyframe with the hero as reference image 1 and "same crop, ONE CHANGE ONLY".
+3. **Each shot from one keyframe to the next** on Kling 4.0 (start image + end image, 5 s), so shot N ends exactly where shot N+1 starts, then a script re-times the joins so the camera never stops.
+
+Two rules from his failures: the video model keeps only text it was shown in a keyframe, and both keyframes should be at the same scale unless the shot pushes in or pulls back.
+
+**Code vs video model on the same product:** he built a luxury steel watch both ways. The code-only version had flat light and steel that looked like plastic; the Kling 4.0 version looked filmed. That matches Leon Lin's caveat above: code-built scenes look weaker than real or generated imagery, and for metal, glass and skin the gap is too wide. His 20-second ad cost about 790 credits in total, about 330 of them in the final cut, and 29 takes for 6 shots.
+
 ## 📖 Further reading
 
 - [[Awesome Nano Banana Pro Prompts]] — prompt library for Google Nano Banana Pro (alternative image model)
 - [[Agentic Systems]] — broader context for multi-model pipelines
 - [[How I Prompt AI to Build Good-Looking Demos (Leon Lin)]] — generated reference images as the target for a code-built 3D world, stills before the render
 - [[Open Design]] — bundles the same stack: gpt-image-2 + Seedance 2.0 + HyperFrames as built-in media generation with a prompt gallery (93 prompts)
+- [[Claude Motion Graphics in Three Levels (Samin Yasar)]] — keyframe stills joined by first/last-frame shots, with a model comparison; [[Higgsfield]] — the platform he ran them on
 
 ---
 Template: [[templates/knowledge_note_info]]

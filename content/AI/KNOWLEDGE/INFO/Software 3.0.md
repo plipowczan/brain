@@ -47,7 +47,7 @@ When the big LLMs (Gemini, ChatGPT, Claude) can do the task directly, four defen
 
 1. **Your proprietary data** — a model trained on your own knowledge/style (Hormozi's LLM; an agent that edits in *your* last-100-videos style). Your value lives in the training data, used well so it isn't AI slop.
 2. **Prompt engineering / context** — a good outcome needs both the knowledge *and* the instructions + [[Context Engineering\|context]] you give the engine. Get good at this.
-3. **System design around the AI engine** — the LLM is "just the engine"; you design the car, the wheels, the UX. Example: Higgsfield wraps Nano Banana in a UI that helps people get the most out of it.
+3. **System design around the AI engine** — the LLM is "just the engine"; you design the car, the wheels, the UX. Example: [[Higgsfield]] wraps Nano Banana in a UI that helps people get the most out of it.
 4. **Trust from your audience** — "I trained an LLM on all of Elon's knowledge" from a random on Twitter vs. from Elon himself. Trust in the person and their access to genuine data is the most valuable asset.
 
 ## 📒 Takeaways

@@ -5,10 +5,10 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "compiled", "ai", "tools", "map", "agents", "coding-agents", "comparison", "index"]
 type: compiled-note
-sources: ["research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md", "_raw/processed/2026-11-20_cathrynlaverydiagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.md", "_raw/processed/2026-11-20_morlutorea Reverse engineer anything with agents, from app behavior down to native binaries.md", "_raw/processed/2026-11-22_Leonxlnxcook Give your agent a target, a bar and time, then let it cook.md"]
+sources: ["research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md", "_raw/processed/2026-11-20_cathrynlaverydiagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.md", "_raw/processed/2026-11-20_morlutorea Reverse engineer anything with agents, from app behavior down to native binaries.md", "_raw/processed/2026-11-22_Leonxlnxcook Give your agent a target, a bar and time, then let it cook.md", "_raw/processed/2026-11-26_Claude Motion Graphics Pack (everything).zip"]
 agent-created: true
 status-checked: 2026-11-13
-summary: "All 129 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13 (colibri, Context Mode, Diagram Design, REA and Cook, added 2026-11-19 to 2026-11-22, not yet): what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
+summary: "All 131 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13 (colibri, Context Mode, Diagram Design, REA, Cook, Motion Ads and Higgsfield, added 2026-11-19 to 2026-11-26, not yet): what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
 ---
 
 # AI Tools Map
@@ -33,7 +33,7 @@ For closed products and APIs "active" means the product is sold and documented t
 ## 📒 The review in numbers
 
 - **126 tools** in **13 categories**, each checked on 2026-11-13. Two of them were archived after the review, so the map below listed **124**.
-- **Added after the review:** [[colibri]] (2026-11-19), [[Context Mode]], [[Diagram Design]] and [[REA]] (2026-11-20), and [[Cook]] (2026-11-22), so the map now lists **129**. They have no status check yet; the counts below are the 2026-11-13 review's.
+- **Added after the review:** [[colibri]] (2026-11-19), [[Context Mode]], [[Diagram Design]] and [[REA]] (2026-11-20), [[Cook]] (2026-11-22), and [[Motion Ads]] and [[Higgsfield]] (2026-11-26), so the map now lists **131**. They have no status check yet; the counts below are the 2026-11-13 review's.
 - **107 active** and **8 maintained**: most of the field moves fast, many tools ship weekly or daily.
 - **3 slowing**: [[Space Agent]], [[OpenKB]], [[Santander AI Open Source]].
 - **5 stale**: [[MCP Language Server]], Claude Peers MCP (archived), [[Autoresearch]], [[Meme Factory]], [[Slack GIF Creator]].
@@ -238,6 +238,8 @@ Generating, editing and understanding images and video, plus the meme tooling fo
 | [[OpenMontage]] | YAML pipelines, tools and 'director skills' that turn a coding agent into a video production studio, from script to render. | active, no releases; last commit 2026-11-09 |
 | [[Video Use]] | A skill that lets a coding agent edit a folder of raw footage into a final video by working from a word-level transcript. | maintained, no releases; last commit 2026-10-08 |
 | [[Claude Video]] | The /watch skill: it downloads a video, extracts frames and a timestamped transcript, and lets the agent answer questions about it. | maintained, v0.3.2 (2026-09-25) |
+| [[Motion Ads]] | Samin Yasar's skill for ads and motion graphics in three levels (code only, real footage, photoreal keyframe shots) with a storyboard gate and 14 render, review and sound scripts. | added 2026-11-26, not status-checked yet |
+| [[Higgsfield]] | A paid platform with image, video, voice, music and effect models behind one credit account, driven from Claude through an MCP connector or a CLI. | added 2026-11-26, not status-checked yet |
 | [[Topaz Labs]] | Desktop, web and API tools (now owned by Adobe) that upscale, sharpen, denoise and restore photos and video. | active, updated 2026-11-03 |
 | [[Awesome Nano Banana Pro Prompts]] | A CC BY 4.0 library of 15,000+ community image prompts for Google's Nano Banana Pro, each with a preview image. | active, no releases; last commit 2026-11-13 |
 | [[Memegen]] | An open-source service (memegen.link) that renders meme images from a URL with about 200 templates and no account. | active, no releases; last commit 2026-11-12 |

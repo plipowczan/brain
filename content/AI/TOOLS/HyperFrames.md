@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "video", "html", "agents", "skills", "apache-2.0", "open-source", "claude-code"]
 type: tool
-sources: ["_raw/processed/2026-05-19_heygen-comhyperframes Write HTML. Render video. Built for agents.md", "_raw/processed/2026-11-01_heygen-comhyperframes Write HTML. Render video. Built for agents.md"]
+sources: ["_raw/processed/2026-05-19_heygen-comhyperframes Write HTML. Render video. Built for agents.md", "_raw/processed/2026-11-01_heygen-comhyperframes Write HTML. Render video. Built for agents.md", "_raw/processed/2026-11-26_Claude Motion Graphics Pack (everything).zip"]
 agent-created: true
 summary: "HeyGen's open-source video rendering framework — write HTML + CSS + GSAP, render to MP4. First-class Claude Code / Codex / Cursor skills. Apache 2.0"
 status-checked: 2026-11-13
@@ -79,6 +79,7 @@ For agent-generated video — product intros, vertical TikTok hooks, animated ch
 - Remotion — more mature, Lambda distribution, but source-available license
 - Manim — Python, math-heavy; HyperFrames is more general-purpose
 - [[Video Use]] — different layer: edits existing footage rather than synthesizing from scratch
+- [[Motion Ads]] — Samin Yasar's ad skill ships its own one-file renderer instead (added 2026-11-26). The page exposes `window.ad = { duration, width, height, seek(t), events }`, and `render_page.mjs` screenshots each frame in the local Chrome and pipes it to ffmpeg: the same deterministic, seek-by-time idea with no framework and no packages, plus `--alpha` for transparent ProRes overlays and `--events` to hand named beats to the sound mix. HyperFrames is the maintained framework with far more around it; the skill's value is its method (storyboard gate, transform-not-dissolve, frame-sheet review), which applies to HyperFrames compositions as well. See [[Claude Motion Graphics in Three Levels (Samin Yasar)]]
 
 ## 🔗 Links
 
@@ -96,6 +97,7 @@ For agent-generated video — product intros, vertical TikTok hooks, animated ch
 - [[Extending Claude Code — Tools for Its Blind Spots]] — compiled article featuring this tool
 - [[Meme Generation for Coding Agents]] — tested for a 480x480 Polish GIF meme: 5.3 s render, a root-element background turns transparent in GIF mode, lint rejects fonts without `@font-face`, telemetry on by default
 - [[Stage Show — Benji Taylor's Demo Design Skill (AI LABS)]] — frame-sheet self-check for motion, an idea worth borrowing for rendered video
+- [[Claude Motion Graphics in Three Levels (Samin Yasar)]] — a code-only 4K ad (three.js, sound by code) and the rules for motion that looks premium
 
 ---
 Template: [[templates/tool]]
