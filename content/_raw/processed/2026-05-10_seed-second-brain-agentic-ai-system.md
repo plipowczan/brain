@@ -1,6 +1,8 @@
 # Seed: agentic-ai-system → Second Brain
 
 > Plik wsadowy do zaimportowania w second brain. Zbiera wszystko, czego potrzeba, by zrozumieć repo `agentic-ai-system` bez wchodzenia do kodu. Wygenerowany 2026-05-10.
+>
+> Redacted 2026-11-27: §10 lost its commit, client, conference, runway, funding, register and budget lines; the private repo keeps the original.
 
 ---
 
@@ -293,13 +295,9 @@ cp .env.example .env                      # uzupełnij API keys
 ## 10. Aktualne stany / kontekst (snapshot 2026-05-10)
 
 - **Branch:** `master` (clean).
-- **Ostatnie commity:** blog 200IQ finances, ingest discovery JustIdea (Marcin + Martyna), PrestaShop one-pager + IdoSell brief, fix MCP qamera-ai-hetzner (Streamable HTTP zamiast SSE), tech-stack & finances skill updates.
-- **Aktywne projekty:** `ECOMMERCE_WARSAW_2026`, `QAMERA_AI` (folder strategiczny — kod żyje w `shorts-lab-ai/saas-platform`).
-- **Aktywni customers Qamera:** LAVEL (zmigrowany z legacy 2026-04-22). Miss Lou + FEBA — ręczne dodanie do Airtable pending.
-- **Konferencje maj 2026:** No-Code Poland (7-8.05), InfoShare.
-- **Runway maj-czerwiec 2026:** zabezpieczony (UoD payout częściowy + emisja 100k bez opóźnień, potwierdzone 2026-05-04).
-- **Rejestr Akcjonariuszy PSA:** Kancelaria Smolski, utworzony 2026-04-28. 7-dniowy obowiązek raportowania (Art. 300³³ KSH), 100 PLN/wpis.
-- **Marketing:** Meta Ads off (decyzja close 2026-04). Migracja Cursor → Claude planowana (90 EUR cap). GCP plan 700 → 1500-1800 PLN.
+- **Kod Qamera AI:** osobne repo produktowe.
+
+> [redacted 2026-11-27: recent commits, projects, customers, conferences, runway, funding, register details and budget decisions — kept in the private repo]
 
 ---
 

@@ -147,7 +147,7 @@ if __name__ == "__main__":
 ### 4.1 Łączenia z innymi skills
 
 - **`ingest`** ([[Agentic Skills Submodules]]) — gdy user wkleja URL do `01-Inbox/`, `ingest` może wywołać `web-scrape` żeby pobrać markdown przed klasyfikacją. Update SKILL.md `ingest` o opcjonalną gałąź "URL detected → web-scrape first".
-- **`research`** (PLSoft skill z plsoft-vsoft-agent) — provider chain dziś: Firecrawl + WebSearch. Dodaj Scrapling jako tańszą self-hosted alternatywę dla cases gdzie Firecrawl quota się skończyła lub strona ma anti-bot.
+- **`research`** (PLSoft skill z plsoft-<client>-agent) — provider chain dziś: Firecrawl + WebSearch. Dodaj Scrapling jako tańszą self-hosted alternatywę dla cases gdzie Firecrawl quota się skończyła lub strona ma anti-bot.
 - **[[LightRAG]]** — output spiderów (JSONL z `result.items.to_jsonl()`) → bezpośredni input do LightRAG indexing pipeline.
 
 ### 4.2 Konflikt z `firecrawl` skillami

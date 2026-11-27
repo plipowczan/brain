@@ -53,7 +53,7 @@ Pytanie do audience: sprzedajesz bieliznę / modę online, męczą cię sesje? �
 - Nie wymyślać metryk (konwersja, oszczędność %, liczba klientów) — brak w źródle.
 - Nie wymieniać nazw dostawców AI (BytePlus, Gemini itd.) — to detal techniczny, off-message dla tego kąta.
 - Nie pisać negatywnie o konkretnym konkurencie z nazwy — krytyka generyczna ("pole tekstowe") OK.
-- Nie używać głosu VSoft/Jakuba — to produkt 200IQ Labs / Paweł.
+- Nie używać głosu klienta z innego projektu — to produkt 200IQ Labs / Paweł.
 
 ## 📏 Parametry formalne
 - Język: polski (terminy techniczne EN naturalnie).

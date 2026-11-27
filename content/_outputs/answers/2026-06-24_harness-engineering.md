@@ -6,7 +6,7 @@ openToc: true
 tags: ["answer", "ai", "coding-agents", "harness", "context-engineering"]
 type: answer-note
 agent-created: true
-summary: "Q&A: plain explanation of harness engineering and concrete ways to apply it across Paweł's agentic projects (Brain, Qamera AI, Jakub Głąb, TTTR)."
+summary: "Q&A: plain explanation of harness engineering and concrete ways to apply it across Paweł's agentic projects (Brain, Qamera AI and two client systems)."
 ---
 
 # Harness Engineering — explained simply + how to use it in my projects
@@ -30,7 +30,7 @@ Ryan Lopopolo's definition ([[Harness Engineering (Ryan Lopopolo)]]): *make the 
 
 ## How to apply it across my projects
 - **[[Brain]] (this vault)** — already harness engineering: `CLAUDE.md` Navigation Protocol, skills (`/ingest`, `/qa`), progressive disclosure via 3 indexes. Next step: **review-persona files** (bulleted guardrails per note type) + a numbered operating loop in the skills.
-- **[[Qamera AI]] / [[Jakub Głąb Agent System]] / [[Tech To The Rescue]]** — add a **review-agent on every PR** + static guardrails instead of catching errors by hand (classic: lint for missing timeout+retry on network calls).
+- **[[Qamera AI]] and two client systems** — add a **review-agent on every PR** + static guardrails instead of catching errors by hand (classic: lint for missing timeout+retry on network calls).
 - **All repos** — self-improvement loop: collect every interrupt / failed build / prod exception as a **signal of missing context**, distil nightly with sub-agents into new guardrails ([[Self-Improving Company]], [[Loop Engineering]]).
 - **Ready tool**: [[Archon]] — YAML workflow (plan/implement/validate/review/PR) = harness engineering out of the box, deterministic + parallel via worktrees.
 

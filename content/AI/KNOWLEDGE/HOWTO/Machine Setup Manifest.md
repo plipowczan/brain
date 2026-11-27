@@ -57,8 +57,8 @@ Add each marketplace once, then install its plugins. `claude plugin install <plu
 /plugin marketplace add getsentry/sentry-mcp
 /plugin marketplace add 200iqlabs/shared-skills
 /plugin marketplace add JuliusBrussee/caveman
-# personal/project marketplace (git, autoUpdate): plsoft-vsoft-marketplace
-#   git: https://github.com/plipowczan/plsoft-vsoft-agent.git
+# personal/project marketplace (git, autoUpdate): plsoft-<client>-marketplace
+#   git: https://github.com/plipowczan/plsoft-<client>-agent.git
 ```
 
 ### Plugins (user scope — sync everywhere) — 30 enabled
@@ -117,7 +117,7 @@ npx skills add heygen-com/hyperframes -g         # → hyperframes + family (ani
 ```
 
 - **notebooklm** — NOT installed this way; ships with the uv tool via `notebooklm skill install` (see §3).
-- **Additional local skills present on this box** (source varies — #todo/complete confirm provenance): `browser-use` ([[Browser Use]] uv tool, §3), `graphify`, `uxruler`, `prd` / `to-prd`, `review-fix`, `review-loop`, `prepare-openspec-goal`. Some likely come from the `plsoft-vsoft` marketplace or manual drops.
+- **Additional local skills present on this box** (source varies — #todo/complete confirm provenance): `browser-use` ([[Browser Use]] uv tool, §3), `graphify`, `uxruler`, `prd` / `to-prd`, `review-fix`, `review-loop`, `prepare-openspec-goal`. Some likely come from the `plsoft-<client>` marketplace or manual drops.
 
 ---
 
@@ -234,7 +234,7 @@ npm i -g @github/copilot @google/gemini-cli @marp-team/marp-cli @openai/codex \
 ### Project-scoped plugins (do NOT global-sync — tied to specific local repos)
 - `skill-creator@claude-plugins-official` — general skill authoring (currently user scope here)
 - `200iqlabs-agent-skills@shared-skills` → repo `…/portfolio` (installed **local**, disabled globally)
-- `plsoft-vsoft-marketplace` (git, autoUpdate) — personal marketplace
+- `plsoft-<client>-marketplace` (git, autoUpdate) — personal marketplace
 
 ### Secrets / logins required (values live in env or `.env`, never in this note)
 - Claude Code — Anthropic account login
