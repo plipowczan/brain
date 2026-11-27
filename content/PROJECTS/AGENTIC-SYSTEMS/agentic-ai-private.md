@@ -68,3 +68,4 @@ agentic-ai-private/
 - [[PLSoft]] — JDG profile
 - [[About]] — owner profile
 - [[Tech News Weekly]] · [[Value Builders]]
+- [[Open Hive Playbooks — Fit for My Agent Systems]] — which Open Hive sales playbooks this repo already covers and what to build next (2026-11-27)

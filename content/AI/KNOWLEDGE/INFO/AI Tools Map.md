@@ -5,10 +5,10 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "compiled", "ai", "tools", "map", "agents", "coding-agents", "comparison", "index"]
 type: compiled-note
-sources: ["research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md", "_raw/processed/2026-11-20_cathrynlaverydiagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.md", "_raw/processed/2026-11-20_morlutorea Reverse engineer anything with agents, from app behavior down to native binaries.md", "_raw/processed/2026-11-22_Leonxlnxcook Give your agent a target, a bar and time, then let it cook.md", "_raw/processed/2026-11-26_Claude Motion Graphics Pack (everything).zip"]
+sources: ["research deep research — content/_raw/research-workspaces/ai-tools-review-2026-11/", "_raw/processed/2026-11-19_JustVuggcolibri A hierarchical inference engine for frontier MoE models.md", "_raw/processed/2026-11-20_mksglucontext-mode Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.md", "_raw/processed/2026-11-20_cathrynlaverydiagram-design Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.md", "_raw/processed/2026-11-20_morlutorea Reverse engineer anything with agents, from app behavior down to native binaries.md", "_raw/processed/2026-11-22_Leonxlnxcook Give your agent a target, a bar and time, then let it cook.md", "_raw/processed/2026-11-26_Claude Motion Graphics Pack (everything).zip", "_raw/processed/2026-11-27_aden-hive-hive-repo.md"]
 agent-created: true
 status-checked: 2026-11-13
-summary: "All 131 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13 (colibri, Context Mode, Diagram Design, REA, Cook, Motion Ads and Higgsfield, added 2026-11-19 to 2026-11-26, not yet): what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
+summary: "All 132 AI tool notes in the vault sorted into 13 categories, one sentence each, with the status checked on 2026-11-13 (colibri, Context Mode, Diagram Design, REA, Cook, Motion Ads, Higgsfield and Open Hive, added 2026-11-19 to 2026-11-27, not yet): what it is, whether it is still alive, what to use instead of the retired ones, and where the comparison notes go deeper."
 ---
 
 # AI Tools Map
@@ -33,7 +33,7 @@ For closed products and APIs "active" means the product is sold and documented t
 ## 📒 The review in numbers
 
 - **126 tools** in **13 categories**, each checked on 2026-11-13. Two of them were archived after the review, so the map below listed **124**.
-- **Added after the review:** [[colibri]] (2026-11-19), [[Context Mode]], [[Diagram Design]] and [[REA]] (2026-11-20), [[Cook]] (2026-11-22), and [[Motion Ads]] and [[Higgsfield]] (2026-11-26), so the map now lists **131**. They have no status check yet; the counts below are the 2026-11-13 review's.
+- **Added after the review:** [[colibri]] (2026-11-19), [[Context Mode]], [[Diagram Design]] and [[REA]] (2026-11-20), [[Cook]] (2026-11-22), [[Motion Ads]] and [[Higgsfield]] (2026-11-26), and [[Open Hive]] (2026-11-27), so the map now lists **132**. They have no status check yet; the counts below are the 2026-11-13 review's.
 - **107 active** and **8 maintained**: most of the field moves fast, many tools ship weekly or daily.
 - **3 slowing**: [[Space Agent]], [[OpenKB]], [[Santander AI Open Source]].
 - **5 stale**: [[MCP Language Server]], Claude Peers MCP (archived), [[Autoresearch]], [[Meme Factory]], [[Slack GIF Creator]].
@@ -81,6 +81,7 @@ Tools that run several agents, or one agent many times: workflow engines, contro
 | [[Archon]] | A self-hosted engine for YAML workflows that mix agent steps, scripts and human approval gates, each run in its own git worktree. | active, v0.14.0 (2026-11-07) |
 | [[AI Software Factory]] | A setup on Archon's SDLC pack where agents slice a PRD into issues, build, review and merge them, while you plan and test in staging. | active, no releases; last commit 2026-10-27 |
 | [[Paperclip]] | A self-hosted control plane that runs a team of coding agents like a company: org chart, tickets, goals, budgets and approvals. | active, v2026.1106.0 (2026-11-06) |
+| [[Open Hive]] | A Python runtime where a long-lived "queen" agent pilots one unit of work, saves the method as a skill, then fans resumable workers out over a shared SQLite tracker; also sold as a hosted sales product. | added 2026-11-27, not status-checked yet |
 | [[Ruflo]] | An npm harness that adds agent swarms, vector memory, learned task routing, hooks and an MCP server to Claude Code. | active, v3.77.0 (2026-11-12) |
 | [[CrewAI]] | A Python framework for multi-agent work: role-based agent teams (Crews) and deterministic event-driven pipelines (Flows). | active, 1.15.41 (2026-11-12) |
 | [[LangGraph]] | A low-level library for long-running, stateful agents as explicit graphs with checkpoints, human-approval interrupts and resumption. | active, 1.2.21 (2026-11-12) |

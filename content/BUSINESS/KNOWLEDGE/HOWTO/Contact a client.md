@@ -5,6 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "howto"]
 type: knowledge-note
+sources: ["_raw/processed/2026-11-27_open-hive-playbooks.md"]
 summary: "Step-by-step follow-up strategy for re-engaging clients: reminders, personalisation, and timing guidelines."
 ---
 
@@ -27,6 +28,8 @@ No relation with client.
 5.  Follow-up #3 ➝ 5-10 days (no point in pressing if there was no contact before) ➝ We are parking the topic temporarily, because we see that they are probably overworked; we are available, we are willing to return to it; if they find the time, it is great if they let us know how we can help and if there is anything in the way
 
 Ad hoc above, but it is only from the hand. In general, if we have a good relationship, we can use the phone, it can be tried, because it is often the simplest, fastest and least problem (phone + sms as if he did not answer, that on the email there is a topic, if it was time we will be happy to talk, and also it is possible to return to the topic in the future)
+
+A written sequence for prospects with no relationship yet, from Open Hive's Drip Email Campaign playbook ([[Open Hive Sales Playbooks]]): opener about *their* problem → value drop (an insight or a data point) → proof point → soft break-up. The break-up is the same move as follow-up #3 above: park the topic, leave the door open. Their Reply Handler adds one rule worth keeping: a reply to an objection is drafted but flagged for my review before anything goes out.
   
 ## Outcome:
 Build a nice relation with client and get response from him.
@@ -36,6 +39,7 @@ Build a nice relation with client and get response from him.
 
 ## 🔗 Related
 - [[Autonomous Sales Agent Playbook]]
+- [[Open Hive Sales Playbooks]]
 - [[LinkedIn Strategy]]
 - [[Build in Public]]
 

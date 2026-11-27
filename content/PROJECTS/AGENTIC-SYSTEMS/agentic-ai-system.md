@@ -106,3 +106,4 @@ Generators:
 - [[Qamera AI]] — product
 - [[Agentic Systems]] — architecture principles
 - [[OpenSpec]] · [[Claude Code]]
+- [[Open Hive Playbooks — Fit for My Agent Systems]] — which Open Hive sales playbooks this repo already covers and what to build next (2026-11-27)

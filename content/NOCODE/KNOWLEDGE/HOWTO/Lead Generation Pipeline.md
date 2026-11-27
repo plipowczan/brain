@@ -6,6 +6,7 @@ openToc: true
 tags: ["knowledge", "howto", "nocode", "lead-generation", "automation"]
 type: knowledge-note
 agent-created: true
+sources: ["_raw/processed/2026-11-27_open-hive-playbooks.md"]
 summary: "Automated lead gen system using n8n, Snov.io, Apollo, Airtable — from manual 2-3h/10 leads to automated pipeline"
 ---
 
@@ -40,6 +41,10 @@ Ręczne pozyskiwanie leadów B2B to jeden z najbardziej czasochłonnych procesó
 2. **Automatyczne wyszukiwanie firm** — n8n trigger na nową kampanię → Apollo Search → The Company API (wzbogacanie) → filtrowanie duplikatów → zapis do Airtable
 3. **Pozyskiwanie kontaktów decydentów** — Apollo (profile LinkedIn) → Snov.io (email finder) → Snov.io (weryfikacja) → zapis kontaktów
 4. **Wzbogacanie danych** — wielkość firmy, przychody, technologie na stronie, aktywność social media, ostatnie newsy
+
+> [!contradiction] Enrich everything, or qualify first
+> Earlier: every company found is enriched (Apollo Search → The Company API → duplicate filter), and contacts are looked up for every new company (source: unknown)
+> New: Open Hive's Personalized Outbound Drip says "Never enrich a lead you have not pre-qualified": check company size from the free search results, dedupe against the tracker *before* enriching, capture every field on the first enrichment, and aim for about 1.2 paid credits per email sent (source: _raw/processed/2026-11-27_open-hive-playbooks.md)
 
 ### DB Structure (Airtable)
 
@@ -107,6 +112,8 @@ Czas wdrożenia: **3-4 tygodnie**
 - Alternatywa do n8n: [[Make]] (płatny, ale łatwiejszy setup)
 
 ## 🔗 Zasoby
+
+- [[Open Hive Sales Playbooks]] — agent-run versions of the same pipeline, with credit rules and a skip list before every send
 
 - [Snov.io](https://snov.io/) — email finder & verifier
 - [Apollo.io](https://www.apollo.io/) — sales intelligence platform

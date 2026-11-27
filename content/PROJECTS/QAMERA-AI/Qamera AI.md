@@ -55,5 +55,6 @@ Primary niche: swimwear & lingerie brands (high sizing complexity, ad censorship
 - [[Agentic Systems]] — agent architecture used in development
 - [[agentic-ai-system]] — 200IQ LABS multi-agent advisory repo (orchestrator + context)
 - [[Agentic AI Repos]] — full 3-repo architecture
+- [[Open Hive Playbooks — Fit for My Agent Systems]] — which Open Hive sales playbooks fit the 200IQ LABS agent repo
 - [[Spec-driven SEO and GEO]] — SEO foundation case study (2026-04, 9 spec-driven changes in 5 days)
 - [[Dev Libraries & Build Tools]] (Zod, Playwright, Vitest, Pino) · [[Marketing, Sales & Publishing SaaS]] (Keystatic, Meta Ads)

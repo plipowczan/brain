@@ -56,3 +56,4 @@ My solo consulting practice (Jednoosobowa Dzialalnosc Gospodarcza), operating si
 - [[agentic-ai-private]] — agent system + context for PLSoft + personal scope
 - [[Agentic AI Repos]] — full 3-repo architecture
 - [[MACH Architecture]] — when composable/headless fits a client, and when it's overkill
+- [[Open Hive Playbooks — Fit for My Agent Systems]] — sales-agent ideas for a small consultancy: warm intros, referral asks, drafts only

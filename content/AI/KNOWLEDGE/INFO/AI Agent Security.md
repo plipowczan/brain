@@ -6,7 +6,7 @@ openToc: true
 tags: ["knowledge", "info", "ai", "security", "agents"]
 type: knowledge-note
 agent-created: true
-sources: ["_raw/processed/2026-11-22_Building always-on agents.md"]
+sources: ["_raw/processed/2026-11-22_Building always-on agents.md", "_raw/processed/2026-11-27_aden-hive-hive-repo.md", "_raw/processed/2026-11-27_open-hive-playbooks.md"]
 summary: "Security analysis of autonomous AI agents — OpenClaw case study, CVEs, supply chain risks, safety practices"
 ---
 
@@ -108,6 +108,11 @@ Anthropic's [[Building Always-On Agents (Anthropic)]] (2026-11-13) calls permiss
 - **Deferred tool calls.** The run stops mid-call, the session is saved, the user gets the request (for example an MCP Apps card), and the answer comes back as an event that resumes the session. The agent asks instead of guessing, without blocking other work.
 - Deeper checks such as prompt-injection screening belong inside the run, not in the webhook handler that receives the event.
 
+Two traps from [[Open Hive]] (2026-11-27), both relevant to any agent that reads mail and works in batches:
+
+- **An inbound sweep is an injection surface.** Its Inbound Sales Email Sweep reads every vendor pitch, spam folders included, and answers it ([[Open Hive Sales Playbooks]]). Each of those emails is untrusted text the agent acts on. Treat inbound mail as data, and keep the reply a draft.
+- **An LLM supervisor can approve on your behalf.** Open Hive's opt-in Sentinel classifier treats "should I proceed to the next batch?" as needless permission-seeking and prefers `continue` when unsure, and its docs say goal constraints such as "never more than 3 messages per person per week" are only prompt text. An approval written as a question the agent asks is weaker than a gate the runtime enforces ([[Pilot, Skill, Playbook — Open Hive's Fan-out Pattern]]).
+
 # 📒 Podsumowanie
 
 - OpenClaw wyważył drzwi do ery agentów — próg wejścia drastycznie obniżony, te drzwi się nie zamkną
@@ -117,6 +122,7 @@ Anthropic's [[Building Always-On Agents (Anthropic)]] (2026-11-13) calls permiss
 - Nadzorowane agenty ([[Claude Code]] + MCP) to praktyczna, bezpieczna alternatywa
 - Powiązane: [[NemoClaw]], [[Agentic Systems]]
 - [[Building Always-On Agents (Anthropic)]] — Anthropic's architecture for unattended agents: credential proxy, auto mode, deferred tool calls
+- [[Open Hive]] — a batch-agent runtime whose supervisor leans toward continuing and whose goal constraints are prompt text only
 - [[AI-Native SDLC Playbook]] — Anthropic's managed-settings policy for a regulated enterprise: deny secrets and network egress, an OS-level sandbox with a domain allowlist, managed-only hooks, MCP servers and plugin marketplaces
 
 # 🔗 Zasoby

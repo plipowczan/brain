@@ -71,3 +71,4 @@ CFO, Tax Advisor, Legal, Business Consultant, LinkedIn Content, Marketing (Phase
 - [[PLSoft]] — JDG consulting practice
 - [[Agent Skills]] — agentskills.io standard
 - [[Awesome Claude Code]], [[Superpowers]], [[Karpathy Skills]]
+- [[Open Hive Playbooks — Fit for My Agent Systems]] · [[Open Hive Sample Prompts — Shortlist]] — what from Open Hive's sales playbooks and prompts is worth adding to both repos (2026-11-27)

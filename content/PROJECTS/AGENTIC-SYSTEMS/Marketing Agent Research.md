@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["project", "ai", "agents", "marketing", "social-media", "claude-code", "research"]
 type: compiled-note
-source: "_raw/research-workspaces/marketing-agent-research/report.md"
+sources: ["_raw/research-workspaces/marketing-agent-research/report.md", "_raw/processed/2026-11-27_aden-hive-hive-repo.md", "_raw/processed/2026-11-27_open-hive-playbooks.md"]
 agent-created: true
 agent-reviewed: 2026-08-25
 summary: "Brief decyzyjny z researchu 31 itemów: agent marketingowy dla agentic-ai-system i agentic-ai-private — co budować, co kupić, w jakiej kolejności"
@@ -103,6 +103,9 @@ researchu i to musi trafić do specu jako wymagania negatywne.
   ElevenLabs Scribe. Uwaga: self-hostowana Vexa transkrybuje właśnie faster-whisperem.
 - **`Pause` w Kestrze ma domyślnie `behavior: RESUME`** — po upływie czasu leci dalej, jakby
   zaakceptowano. Cicha auto-publikacja.
+- **Open Hive's Sentinel leans toward "continue" too** (added 2026-11-27): an opt-in LLM classifier
+  that treats "should I proceed to the next batch?" as needless permission-seeking and prefers
+  `continue` when unsure. Another silent auto-proceed, this time decided by a model ([[Open Hive]]).
 - **`waitForEvent` w Cloudflare Workflows ma domyślny timeout 24h**, dokładnie w oknie
   oczekiwania na człowieka; firmowy przykład HITL łapie go i „proceeds with default action".
 - **Required reviewers w GitHub Actions działają tylko na repo publicznych** dla planów
@@ -157,5 +160,6 @@ a kary dla MŚP to **niższa** z wartości 3% obrotu albo 15 mln EUR.
 - Korekty tego, co nie przetrwało weryfikacji: sekcja `post_deep_corrections` w `outline.yaml`
 - [[Agentic AI Repos]] · [[agentic-ai-system]] · [[agentic-ai-private]] · [[Agentic Systems]]
 - [[Tech News Weekly]] — działający pipeline referencyjny
+- [[Open Hive Sales Playbooks]] — its Competitor Intelligence playbook is a ready spec for the listening layer's first job (what changed → what it means → one action, weekly); mapped in [[Open Hive Playbooks — Fit for My Agent Systems]]
 - [[OpenSpec]] · [[Progressive Disclosure]]
 - [[Writing Social Media Posts with AI — What Actually Drives Virality]] — the craft layer under this agent: evidence-graded writing tactics, the human-in-the-loop gate and the Art. 50 check

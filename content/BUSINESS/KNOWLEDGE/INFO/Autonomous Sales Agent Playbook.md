@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "business", "ai", "agents", "sales", "automation", "lead-generation"]
 type: knowledge-note
-source: "_raw/processed/2026-04-14_Autonomous_Sales_Agent_Playbook.md"
+sources: ["_raw/processed/2026-04-14_Autonomous_Sales_Agent_Playbook.md", "_raw/processed/2026-11-27_open-hive-playbooks.md"]
 agent-created: true
 summary: "Playbook for building autonomous AI sales agents replacing $1.4k/mo SaaS stacks with ~$20/mo agent architecture"
 ---
@@ -19,6 +19,10 @@ A playbook by Romàn from [gojiberry.ai](https://gojiberry.ai/) — how to repla
 - Average lead response time: **47 hours** (Harvard Business Review, 2,241 firms)
 - A response within 5 minutes = **21x higher chance** of qualification vs. 30 min
 - The agent answers in < 2 minutes, follow-up rate ~100%
+
+> [!contradiction] Replies without a human, or drafts only
+> Earlier: the agent handles follow-up "without a human in the loop" and answers a lead in under 2 minutes (source: _raw/processed/2026-04-14_Autonomous_Sales_Agent_Playbook.md)
+> New: Open Hive's Reply Handler & Meeting Booker says "Do NOT auto-send any reply. Save everything as drafts" and flags objections for review; speed comes from the draft being ready, not from sending (source: _raw/processed/2026-11-27_open-hive-playbooks.md)
 
 ## 🧩 Architecture — 4 components
 
@@ -63,7 +67,12 @@ A playbook by Romàn from [gojiberry.ai](https://gojiberry.ai/) — how to repla
 Stack: GoHighLevel (\$297) + Zapier (\$74) + Calendly (\$16) + Mailchimp (\$60) + VA (\$1,000) = **\$1,447/mo**
 Agent: OpenClaw (\$0) + TidyCal (\$29 lifetime) + Resend (\$0) + Claude API (~\$15) + VPS (~\$5) = **~\$20/mo**
 
+## 🧩 The approval-first counterpart (2026-11-27)
+
+[[Open Hive Sales Playbooks]] cover the same ground — signal detection, research, triage, copy, a file-or-table CRM — but stop at a draft. The Reply Handler sorts each reply into seven classes (interested, not now, wrong person, objection, unsubscribe, out of office, question) and maps each to a next step: interested → a time slot with the booking link, objection → a draft flagged for my review, unsubscribe → off every sequence at once. My own agent repos follow that model, not the one above ([[Open Hive Playbooks — Fit for My Agent Systems]]).
+
 ## 🔗 Links
+- [[Open Hive Sales Playbooks]] · [[Open Hive]] — the approval-first version of the same stack
 - [[AI/KNOWLEDGE/INFO/Agentic Coding|Agentic Coding]] — related concept of AI agents in development
 - [[BUSINESS/TOOLS/Make|Make]], [[BUSINESS/TOOLS/n8n|n8n]] — alternative automation platforms mentioned in comparison
 

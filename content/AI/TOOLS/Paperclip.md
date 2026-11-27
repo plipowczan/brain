@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["tool", "ai", "agents", "orchestration", "company-of-agents", "open-source", "self-hosted"]
 type: tool
-source: "_raw/processed/2026-05-03_paperclipaipaperclip.md"
+sources: ["_raw/processed/2026-05-03_paperclipaipaperclip.md", "_raw/processed/2026-11-27_aden-hive-hive-repo.md"]
 agent-created: true
 summary: "paperclipai/paperclip — Node.js + React control plane for running a 'company' of AI agents: org chart, goals, budgets, governance, heartbeats, audit log; bring-your-own-agent (Claude Code/Codex/Cursor/OpenClaw/HTTP)"
 status-checked: 2026-11-13
@@ -113,6 +113,7 @@ Risks:
 - **n8n / Make / Zapier** — workflow engines, they don't model a company/goals/budgets
 - **[[Archon]]** — YAML workflows per-repo, not a cross-company control plane
 - **[[Hermes Agent]]** — single self-improving agent, Paperclip orchestrates many
+- **[[Open Hive]]** — one long-lived agent pilots a task, then fans worker clones out over a shared SQLite tracker. Paperclip governs many agents over time; Open Hive spreads one agent's method over many rows of work
 - **[[Agentic Systems]]** (my own architecture sketch) — Paperclip is a ready-made implementation of a similar idea
 
 ## 🔗 Resources

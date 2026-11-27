@@ -5,7 +5,7 @@ enableToc: true
 openToc: true
 tags: ["knowledge", "info", "ai", "agents", "architecture", "memory", "security", "orchestration", "webhooks", "claude-code"]
 type: knowledge-note
-sources: ["_raw/processed/2026-11-22_Building always-on agents.md"]
+sources: ["_raw/processed/2026-11-22_Building always-on agents.md", "_raw/processed/2026-11-27_aden-hive-hive-repo.md"]
 source_url: "https://claude.com/resources/articles/building-always-on-agents"
 author: "William Hu (Anthropic)"
 published: 2026-11-13
@@ -125,6 +125,7 @@ Every run starts with an event from the inbox: a user message, a webhook or a ti
 - **The credential proxy is the direct fix for OpenClaw's plaintext keys** ([[AI Agent Security]]). If the CFO agent from [[Agentic Systems]] (Revolut, Stripe, inFakt access) ever ran unattended, a proxy plus a deferred approval before any payment would be my minimum.
 - **Short runs instead of one endless loop** (my reading) address two of the complaints in [[Loop Engineering]]: idle cost, because the agent sleeps between runs, and context bloat, because lasting state lives in memory files and a long session gets compacted or replaced. They do nothing about the cost of one expensive orchestrator fanning out to workers.
 - **My reading, not the article's:** [[Hermes Agent]] and [[Paperclip]] already ship parts of this. Hermes has a messaging gateway, built-in cron and agent-curated memory; Paperclip wakes agents on heartbeats and checks tasks out atomically.
+- **[[Open Hive]] ships much of this design, with one default reversed** (my reading, 2026-11-27). Its triggers are timers and webhooks, the queen is parked on disk between turns and resumed, the SQLite tracker is memory with SQL on top, and workers with a 3+1 turn budget are short runs. But its Sentinel supervisor prefers `continue` when the agent asks whether to go on, where Anthropic sends the important decisions to the user ([[Pilot, Skill, Playbook — Open Hive's Fan-out Pattern]]).
 - I have not built any of this. The article gives no code, and its cost figures are Anthropic's own.
 
 ## 📖 Further reading/watching
@@ -133,7 +134,7 @@ Every run starts with an event from the inbox: a user message, a webhook or a ti
 - Linked from the article, not ingested: [Building effective agents](https://www.anthropic.com/research/building-effective-agents) (the core loop) · [components of agent memory](https://www.anthropic.com/research/components-of-agent-memory) (dreaming) · [Claude Code auto mode](https://www.anthropic.com/research/claude-code-auto-mode) · [agent identity and access model](https://claude.com/resources/articles/agent-identity-access-model) · [credential management](https://code.claude.com/docs/en/agent-sdk/secure-deployment#credential-management) · [deferring a tool call in a hook](https://code.claude.com/docs/en/hooks#defer-a-tool-call-for-later) · [memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool) · [MCP Apps](https://modelcontextprotocol.io/extensions/apps/overview)
 - [[External Triggers for Claude Code]] · [[AI Agent Security]] · [[Claude Code]]: inbox, permissions and the Claude Code pieces
 - [[Context Engineering]] · [[Progressive Disclosure]] · [[Agent Memory and Knowledge Base Tools Compared]] · [[HORMA — Structured Agent Memory]]: memory and context
-- [[Loop Engineering]] · [[Hermes Agent]] · [[Paperclip]] · [[Agentic Systems]]: agents that run without me
+- [[Loop Engineering]] · [[Hermes Agent]] · [[Paperclip]] · [[Open Hive]] · [[Agentic Systems]]: agents that run without me
 
 ---
 Template: [[templates/knowledge_note_info]]
