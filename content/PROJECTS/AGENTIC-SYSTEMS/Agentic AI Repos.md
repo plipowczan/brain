@@ -63,7 +63,7 @@ CFO, Tax Advisor, Legal, Business Consultant, LinkedIn Content, Marketing (Phase
 
 > [!contradiction] What the shared plugin ships
 > Earlier: the shared agents include Marketing, Product Manager and Ingest (source: _raw/processed/2026-05-10_seed-second-brain-skills-submodules.md)
-> New: the `ss` plugin today ships business-consultant, cfo, environment-setup, find-skills, legal, linkedin-content, prd, prepare-goal, prepare-openspec-goal, process-mapping, research (with add-fields, add-items, deep and report), review-fix, review-loop, slides, task-delegation-workspace, tax-advisor and vibe-coding. Marketing, Product Manager and Ingest are not in it, and ingest is the foundation skill `sa-ingest` in agentic-ai-system. Coach The Five is still the only skill in `private-skills` (source: `../shared-skills/skills/` and `private-skills/skills/`, read 2026-11-27)
+> New: the `ss` plugin today ships 20 skills: business-consultant, cfo, environment-setup, find-skills, legal, linkedin-content, prd, prepare-goal, prepare-openspec-goal, process-mapping, research (with add-fields, add-items, deep and report), review-fix, review-loop, slides, tax-advisor and vibe-coding. The `task-delegation-workspace` folder beside them is a git-ignored eval workspace, not a skill. Marketing, Product Manager and Ingest are not in it, and ingest is the foundation skill `sa-ingest` in agentic-ai-system. Coach The Five is still the only skill in `private-skills` (source: `../shared-skills/skills/` and `private-skills/skills/`, read 2026-11-27)
 
 ## 🔧 Key process skills
 - `/ingest` — inbox → data + archive + catalog/index update
@@ -99,7 +99,7 @@ agentic-ai-system/   (branch main)       agentic-ai-private/   (branch master)
 - **Both repos give the same answer to "which skill ran".** Each skill source reaches the agent through exactly one channel, because two channels give two entries with the same description.
 - **Codex has its own role.** agentic-ai-system loads its rules for Codex like any other tool through `AGENTS.md`. In agentic-ai-private, Codex is the code reviewer and gets no skills.
 - **The routing boundary is unchanged:** 200IQ LABS and Qamera AI go to agentic-ai-system, PLSoft and personal go to agentic-ai-private.
-- [[Agentic Skills Submodules]] still describes the May submodule setup and has not been refreshed yet.
+- [[Agentic Skills Submodules]] has its own 2026-11-27 snapshot with the skill-by-skill changes: the plugin rename, what moved to the foundation, the review skills on Codex, and company data in `company/`.
 
 ## 📒 Snapshot 2026-05-10
 - Branch: `master` (clean) on both repos.

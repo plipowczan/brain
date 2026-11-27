@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-27T11:08:41Z
+updated: 2026-11-27T12:15:14Z
 total_notes: 486
 ---
 # Vault Map
@@ -60,6 +60,8 @@ total_notes: 486
 
 ## Recent Changes
 - 2026-11-27 AI/KNOWLEDGE/HOWTO/Machine Setup Manifest (modified — the client name in its plugin and marketplace names replaced with `<client>`; the same redaction in two May raw sources, a speaking-research raw and four `_outputs/` files, none of them in the build)
+- 2026-11-27 PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos (modified — the plugin's skill list is corrected to 20 skills, since task-delegation-workspace is a git-ignored eval folder, not a skill; the snapshot now points to the refreshed Agentic Skills Submodules)
+- 2026-11-27 PROJECTS/AGENTIC-SYSTEMS/Agentic Skills Submodules (modified — new 2026-11-27 snapshot from a read-only read of shared-skills and both agent repos: shared skills come only as the plugin ss@shared-skills (renamed 2026-08-04), private-skills is the only submodule and holds only coach-the-five, ingest moved to sa-ingest, placeholders removed, review skills run on Codex, company data in company/; 12 May–July claims kept and marked with contradiction callouts)
 - 2026-11-27 PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos (modified — business lines cut from the 2026-05-10 snapshots for privacy: customers, finances, goals, plans)
 - 2026-11-27 PROJECTS/AGENTIC-SYSTEMS/agentic-ai-system, PROJECTS/AGENTIC-SYSTEMS/agentic-ai-private, PROJECTS/AGENTIC-SYSTEMS/Agentic AI Repos (modified — new 2026-11-27 snapshot sections from a read-only read of both repos: shared-skills is now a plugin, agentic-ai-system has no context/; May layout claims kept and marked with contradiction callouts)
 - 2026-11-27 AI/TOOLS/Open Hive, AI/KNOWLEDGE/INFO/Pilot, Skill, Playbook — Open Hive's Fan-out Pattern, BUSINESS/KNOWLEDGE/INFO/Open Hive Sales Playbooks, PROJECTS/AGENTIC-SYSTEMS/Open Hive Playbooks — Fit for My Agent Systems, PROJECTS/AGENTIC-SYSTEMS/Open Hive Sample Prompts — Shortlist (created — the 16 public open-hive.com sales playbooks plus the aden-hive/hive repo (Apache-2.0, commit 6703b43) and its 499 sample prompts: queen/worker/tracker runtime and the pilot-before-fan-out pattern; per-playbook mechanics, twelve patterns, LinkedIn/PKE/RB2B caveats; playbook-by-playbook verdicts for agentic-ai-system and agentic-ai-private at architecture level, eight things to build first, what not to adopt; 30 prompts verbatim with priority, repo and the change each needs, five rejects; written for an agent in either repo to read)
