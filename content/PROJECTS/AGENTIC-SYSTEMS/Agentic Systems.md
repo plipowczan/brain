@@ -86,7 +86,7 @@ Ta architektura **to** harness engineering — konfigurowanie otoczenia agenta z
 ## 🔗 Links
 - [[Harness Engineering]] · [[Harness Engineering (Ryan Lopopolo)]] · [[Harness Engineering in Practice]] — dyscyplina i playbook stojące za tą architekturą
 - [[Agentic AI Repos]] — implementation hub: 3 actual repos (system + private + skills submodules)
-- [[agentic-ai-system]] · [[agentic-ai-private]] · [[Agentic Skills Submodules]]
+- [[agentic-ai-system]] · [[agentic-ai-private]] · [[Agentic Skills — Plugin and Submodule]]
 - [[Agentic Coding]]
 - [[Context Engineering]]
 - [[Qamera AI]] — primary product using this architecture

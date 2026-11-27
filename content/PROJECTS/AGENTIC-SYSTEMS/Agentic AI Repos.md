@@ -27,7 +27,7 @@ This is the implementation layer of [[Agentic Systems]] — the architecture not
 |------|---------|-----------|----------|
 | [[agentic-ai-system]] | 200IQ LABS PSA + Qamera AI multi-agent advisory | Private | uses both submodules |
 | [[agentic-ai-private]] | PLSoft (JDG) + personal context | Private | uses both submodules |
-| [[Agentic Skills Submodules]] | `shared-skills` (Apache 2.0) + `private-skills` (proprietary) | Mixed | shared by both repos |
+| [[Agentic Skills — Plugin and Submodule]] | `shared-skills` (Apache 2.0) + `private-skills` (proprietary) | Mixed | shared by both repos |
 
 ## 🔄 How they compose
 
@@ -99,7 +99,7 @@ agentic-ai-system/   (branch main)       agentic-ai-private/   (branch master)
 - **Both repos give the same answer to "which skill ran".** Each skill source reaches the agent through exactly one channel, because two channels give two entries with the same description.
 - **Codex has its own role.** agentic-ai-system loads its rules for Codex like any other tool through `AGENTS.md`. In agentic-ai-private, Codex is the code reviewer and gets no skills.
 - **The routing boundary is unchanged:** 200IQ LABS and Qamera AI go to agentic-ai-system, PLSoft and personal go to agentic-ai-private.
-- [[Agentic Skills Submodules]] has its own 2026-11-27 snapshot with the skill-by-skill changes: the plugin rename, what moved to the foundation, the review skills on Codex, and company data in `company/`.
+- [[Agentic Skills — Plugin and Submodule]] has its own 2026-11-27 snapshot with the skill-by-skill changes: the plugin rename, what moved to the foundation, the review skills on Codex, and company data in `company/`.
 
 ## 📒 Snapshot 2026-05-10
 - Branch: `master` (clean) on both repos.
@@ -109,7 +109,7 @@ agentic-ai-system/   (branch main)       agentic-ai-private/   (branch master)
 - [[Agentic Systems]] — architecture / principles note
 - [[agentic-ai-system]] — 200IQ LABS / Qamera AI
 - [[agentic-ai-private]] — PLSoft / personal
-- [[Agentic Skills Submodules]] — shared-skills + private-skills
+- [[Agentic Skills — Plugin and Submodule]] — shared-skills + private-skills
 - [[Qamera AI]] — flagship product
 - [[PLSoft]] — JDG consulting practice
 - [[Agent Skills]] — agentskills.io standard

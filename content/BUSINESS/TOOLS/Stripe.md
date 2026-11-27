@@ -38,7 +38,7 @@ npm i stripe       # or: pip install stripe
 
 ## Reasoning for
 
-Stripe is the monetization layer for my SaaS work. [[Qamera AI]] uses it for both **subscriptions and one-off credit top-ups** that feed the application-level credit ledger — and Stripe's revenue data is what surfaces MRR/usage for the business side. [[Value Builders]] teaches it as *the* way to add payments to a startup MVP, and it's referenced in the shared-skills ([[Agentic Skills Submodules]]) CFO/finance tooling. The design principle I follow: **treat the Stripe webhook as the source of truth** for entitlement, and keep the credit ledger application-first (the app's own accounting reconciles against Stripe events) so a missed webhook or race never silently grants or revokes access. That separation — Stripe owns money movement, the app owns entitlement state — is what keeps billing auditable.
+Stripe is the monetization layer for my SaaS work. [[Qamera AI]] uses it for both **subscriptions and one-off credit top-ups** that feed the application-level credit ledger — and Stripe's revenue data is what surfaces MRR/usage for the business side. [[Value Builders]] teaches it as *the* way to add payments to a startup MVP, and it's referenced in the shared-skills ([[Agentic Skills — Plugin and Submodule]]) CFO/finance tooling. The design principle I follow: **treat the Stripe webhook as the source of truth** for entitlement, and keep the credit ledger application-first (the app's own accounting reconciles against Stripe events) so a missed webhook or race never silently grants or revokes access. That separation — Stripe owns money movement, the app owns entitlement state — is what keeps billing auditable.
 
 ## Alternatives considered
 

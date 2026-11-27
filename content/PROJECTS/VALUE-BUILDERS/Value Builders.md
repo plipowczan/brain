@@ -32,7 +32,7 @@ Each week's output is the next week's input (validated problem → GTM → PRD �
 - **GIGO demo**: same topic, two PRDs — an evidence-rich one generates the correct core flow; a one-line generic one hallucinates features. Spec quality ∝ code quality.
 - **"Vibe engineering," not vibe coding**: prompts are engineering artifacts; verification via unit + manual + Playwright; the human reviews the reasoning, not just the output.
 - **Analytics boundary**: my week wires only Vercel Analytics + empty `data-analytics-event` hooks; full instrumentation ([[PostHog]]) is Week 4's job.
-- Design polish via the [[Impeccable]] skill; the `/prd` + `/prepare-goal` skills come from the 200IQ Labs [[Agentic Skills Submodules|shared-skills]] plugin.
+- Design polish via the [[Impeccable]] skill; the `/prd` + `/prepare-goal` skills come from the 200IQ Labs [[Agentic Skills — Plugin and Submodule|shared-skills]] plugin.
 
 ## My role
 Trainer (Week 3) — sharing practical knowledge from building [[Qamera AI]], [[Agentic Systems]], and consulting at [[PLSoft]]. Engagement runs through [[PLSoft]]. Cohort community on Skool.

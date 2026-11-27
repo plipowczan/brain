@@ -1,5 +1,5 @@
 ---
-title: "Agentic Skills Submodules"
+title: "Agentic Skills — Plugin and Submodule"
 date: 2026-05-10
 enableToc: true
 openToc: true
@@ -10,7 +10,7 @@ agent-created: true
 agent-reviewed: 2026-11-27
 summary: "shared-skills (Apache 2.0, the Claude Code plugin ss@shared-skills since 2026-08) + private-skills (proprietary, the only submodule left) — the skill layers of both agentic-ai repos"
 ---
-# Agentic Skills Submodules
+# Agentic Skills — Plugin and Submodule
 
 ## 🗒️ Description
 Two git submodules feeding the agent system in [[agentic-ai-system]] and [[agentic-ai-private]]. One of three repos in the [[Agentic AI Repos]] cluster.
@@ -159,11 +159,7 @@ Personal business coach based on **Tomasz Karwatka's** methodology from *"The Fi
 - References: 7 modules + checklists per phase of first 5 years.
 
 #### 2. `platforma-tworzenie-sesji-zdjeciowych`
-Operator skill for **Qamera AI** platform via MCP server `qamera-ai-hetzner`.
-- Goal: agent (not human) registers + monitors photo sessions in Qamera AI SaaS.
-- MCP transport: Streamable HTTP (fix `dbf9a55` in main repo).
-- Tools: `get_products`, `get_models`, `get_sceneries`, `get_presets`, `register_photo_shoot`, `get_images`.
-- Use cases: create session from existing records, validate IDs, run generation, check image status.
+Operator skill for the **Qamera AI** platform: an agent, not a person, registered and monitored photo sessions through the platform's MCP server. It was removed on 2026-06-05 (see the callout below). On 2026-11-27 I cut its server name and tool list from this note. They stay in the private repo.
 
 ### Recent commits (2026-05-10)
 - `6f59ac9` feat: add platforma-tworzenie-sesji-zdjeciowych skill (Qamera MCP)

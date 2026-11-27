@@ -10,7 +10,7 @@ summary: "Tools used across the 8 active projects that have no note in the vault
 ---
 # Missing Tools — Active Projects Audit
 
-Audit of tools/services used across the 8 active projects ([[Qamera AI]], three client projects (C1–C3), [[Value Builders]], [[Tech News Weekly]], [[Travelcast AI]], [[Agentic Skills Submodules|shared-skills]]) that **do not yet have a note** in this vault. Already-documented tools (Next.js, React, Supabase, Docker, Git, Google Cloud, Sentry, PostHog, Make, n8n, Zapier, Notion, Airtable, Cursor, Claude Code, MakerKit, VAPI, Excalidraw, Marp, ClickUp, 1Password, OpenSpec, Scrapling, Remotion, Sendgrid, Revolut, Superpowers, Agent Skills, Voicebox, Langfuse, LightRAG, Impeccable) are excluded.
+Audit of tools/services used across the 8 active projects ([[Qamera AI]], three client projects (C1–C3), [[Value Builders]], [[Tech News Weekly]], [[Travelcast AI]], [[Agentic Skills — Plugin and Submodule|shared-skills]]) that **do not yet have a note** in this vault. Already-documented tools (Next.js, React, Supabase, Docker, Git, Google Cloud, Sentry, PostHog, Make, n8n, Zapier, Notion, Airtable, Cursor, Claude Code, MakerKit, VAPI, Excalidraw, Marp, ClickUp, 1Password, OpenSpec, Scrapling, Remotion, Sendgrid, Revolut, Superpowers, Agent Skills, Voicebox, Langfuse, LightRAG, Impeccable) are excluded.
 
 **Project key:** Q = Qamera AI · C1, C2, C3 = client projects · VB = Value Builders · TNW = Tech News Weekly · TC = Travelcast AI · SS = shared-skills
 

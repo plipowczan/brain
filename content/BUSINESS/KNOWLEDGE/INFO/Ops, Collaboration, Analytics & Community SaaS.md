@@ -12,7 +12,7 @@ summary: "Reference roundup of the collaboration, analytics/BI, community/educat
 
 A collective reference for the operational, analytics, community, and region-specific SaaS used across my projects and client engagements. These are well-known products kept here as grouped entries rather than standalone notes.
 
-**Project key:** Q = [[Qamera AI]] · RE = [[Costa Blanca Real Estate Platform]] · NP = [[Nonprofit AI-Native Platform]] · FE = [[Fintech Executive Agent System]] · VB = [[Value Builders]] · SS = [[Agentic Skills Submodules|shared-skills]]
+**Project key:** Q = [[Qamera AI]] · RE = [[Costa Blanca Real Estate Platform]] · NP = [[Nonprofit AI-Native Platform]] · FE = [[Fintech Executive Agent System]] · VB = [[Value Builders]] · SS = [[Agentic Skills — Plugin and Submodule|shared-skills]]
 
 ## 🧩 Collaboration & productivity
 - **Slack** — team communication + a channel for system/pipeline notifications and Slack-fronted agents. *Used by: NP.* — [slack.com](https://slack.com/)

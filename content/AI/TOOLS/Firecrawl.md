@@ -59,7 +59,7 @@ Until the v4 SDKs the packages were `firecrawl-py` and `@mendable/firecrawl-js` 
 
 ## Reasoning for
 
-Firecrawl is the research-scraping layer where an agent needs *clean* content, not raw HTML. In the [[Fintech Executive Agent System]] it feeds the research/ingest skills — pulling articles and pages into the Markdown entity-wiki the agent reasons over — and it's part of the 200IQ Labs [[Agentic Skills Submodules|shared-skills]] toolkit. The reason it earns a slot alongside [[Perplexity]]: Perplexity answers *questions* with citations, while Firecrawl gives you the *full source content* in a form an LLM can chew on — complementary halves of a research pipeline. This repo already ships a Firecrawl *skill*; this note is the corresponding tool reference.
+Firecrawl is the research-scraping layer where an agent needs *clean* content, not raw HTML. In the [[Fintech Executive Agent System]] it feeds the research/ingest skills — pulling articles and pages into the Markdown entity-wiki the agent reasons over — and it's part of the 200IQ Labs [[Agentic Skills — Plugin and Submodule|shared-skills]] toolkit. The reason it earns a slot alongside [[Perplexity]]: Perplexity answers *questions* with citations, while Firecrawl gives you the *full source content* in a form an LLM can chew on — complementary halves of a research pipeline. This repo already ships a Firecrawl *skill*; this note is the corresponding tool reference.
 
 ## Alternatives considered
 

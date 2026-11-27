@@ -65,7 +65,7 @@ W Claude Code: zrestartuj sesję → MCP `scrapling` powinien być widoczny w `/
 
 ### 2.1 Workflow
 
-Zgodnie z MANDATORY workflow z [[Agentic Skills Submodules]]:
+Zgodnie z MANDATORY workflow z [[Agentic Skills — Plugin and Submodule]]:
 
 ```bash
 cd ~/PROJEKTY/shared-skills
@@ -146,7 +146,7 @@ if __name__ == "__main__":
 
 ### 4.1 Łączenia z innymi skills
 
-- **`ingest`** ([[Agentic Skills Submodules]]) — gdy user wkleja URL do `01-Inbox/`, `ingest` może wywołać `web-scrape` żeby pobrać markdown przed klasyfikacją. Update SKILL.md `ingest` o opcjonalną gałąź "URL detected → web-scrape first".
+- **`ingest`** ([[Agentic Skills — Plugin and Submodule]]) — gdy user wkleja URL do `01-Inbox/`, `ingest` może wywołać `web-scrape` żeby pobrać markdown przed klasyfikacją. Update SKILL.md `ingest` o opcjonalną gałąź "URL detected → web-scrape first".
 - **`research`** (PLSoft skill z plsoft-<client>-agent) — provider chain dziś: Firecrawl + WebSearch. Dodaj Scrapling jako tańszą self-hosted alternatywę dla cases gdzie Firecrawl quota się skończyła lub strona ma anti-bot.
 - **[[LightRAG]]** — output spiderów (JSONL z `result.items.to_jsonl()`) → bezpośredni input do LightRAG indexing pipeline.
 
@@ -201,7 +201,7 @@ Hooki `post-checkout` / `post-merge` z [[Agentic Systems]] zrobią sync automaty
 ## 🔗 Linki
 
 - [[Scrapling]] — tool note (źródło)
-- [[Agentic AI Repos]] · [[Agentic Skills Submodules]] · [[Agentic Systems]]
+- [[Agentic AI Repos]] · [[Agentic Skills — Plugin and Submodule]] · [[Agentic Systems]]
 - [[agentic-ai-system]] · [[agentic-ai-private]]
 - [[Firecrawl]] (jeśli istnieje, inaczej skill `firecrawl`)
 - [[Progressive Disclosure]] · [[Token Optimization for Claude Code]]

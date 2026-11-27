@@ -170,7 +170,7 @@ agentic-ai-system/
 ## 🔗 Links
 - [[Agentic AI Repos]] — hub
 - [[agentic-ai-private]] — sibling repo for PLSoft
-- [[Agentic Skills Submodules]] — shared-skills + private-skills
+- [[Agentic Skills — Plugin and Submodule]] — shared-skills + private-skills
 - [[Qamera AI]] — product
 - [[Agentic Systems]] — architecture principles
 - [[OpenSpec]] · [[Claude Code]]

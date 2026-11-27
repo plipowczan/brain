@@ -113,7 +113,7 @@ agentic-ai-private/
 ## 🔗 Links
 - [[Agentic AI Repos]] — hub
 - [[agentic-ai-system]] — sibling repo for 200IQ LABS / Qamera AI
-- [[Agentic Skills Submodules]] — shared-skills + private-skills
+- [[Agentic Skills — Plugin and Submodule]] — shared-skills + private-skills
 - [[PLSoft]] — JDG profile
 - [[About]] — owner profile
 - [[Tech News Weekly]] · [[Value Builders]]

@@ -37,7 +37,7 @@ Nie zaczynamy od zera i to zmienia cały rachunek.
 | Pipeline referencyjny | działa — `fetch → select → generate → cover → social → publish` | `tech_news_weekly_summary` |
 | **Nasłuch, scoring, kalendarz, akceptacja, orkiestrator** | **brak** | — |
 
-`ss:marketing` w [[Agentic Skills Submodules]] to nadal placeholder `TODO Phase 2`.
+`ss:marketing` w [[Agentic Skills — Plugin and Submodule]] to nadal placeholder `TODO Phase 2`.
 
 ## ☘️ Werdykt: czego nie da się kupić
 
