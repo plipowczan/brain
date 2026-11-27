@@ -3,14 +3,14 @@ title: "AI Software Factory"
 date: 2026-10-01
 enableToc: true
 openToc: true
-tags: ["tool", "ai", "coding-agents", "harness", "sdlc", "orchestration", "testing", "source-available"]
+tags: ["tool", "ai", "coding-agents", "harness", "sdlc", "orchestration", "testing", "open-source", "mit"]
 type: tool
 source: "_raw/processed/2026-10-01_coleam00ai-software-factory A repository that ships without anyone reading the diff.md"
 agent-created: true
-summary: "coleam00/ai-software-factory — you plan the release (PRD), agents on Archon's SDLC pack build and independently review/merge, you test in staging (explicitly 'not a dark factory'); MISSION.md out-of-scope list, journeys and fenced holdouts are the trust gates; no licence"
+summary: "coleam00/ai-software-factory — you plan the release (PRD), agents on Archon's SDLC pack build and independently review/merge, you test in staging (explicitly 'not a dark factory'); MISSION.md out-of-scope list, journeys and fenced holdouts are the trust gates; MIT since 2026-11-13"
 status-checked: 2026-11-13
 project-status: active
-agent-reviewed: 2026-11-13
+agent-reviewed: 2026-11-27
 repo: "https://github.com/coleam00/ai-software-factory"
 ---
 # AI Software Factory
@@ -21,6 +21,9 @@ repo: "https://github.com/coleam00/ai-software-factory"
 > **Repo:** https://github.com/coleam00/ai-software-factory
 > **Changed since this note:** Since 2026-10-01 the project has been reframed: the README now says humans plan the release and test it in staging, and explicitly that this is not a dark factory, so the note's 'ships without anyone reading the diff' framing is outdated. The flow now starts from a PRD (archon-holdouts writes hidden holdout scenarios, archon-backlog slices issues), the recommended scheduled workflow is archon-loop with a deterministic merge gate, and scheduling moved to Archon's native triggers (.factory/loop.sh is gone).
 
+> [!important] My decision 2026-11-27 — the code may be reused
+> MIT since 2026-11-13 (commit `3c696c8`, "chore: add MIT license (#66)", 17:54 UTC; "Copyright (c) 2026 Cole Medin"), so the status check above, which found no licence, predates it. The code may be reused as long as the copyright and licence notice stay in the copies. Pinned to factory commit `3c696c8` and Archon `1cfb8fc5`, the same Archon revision the factory pins (Archon is MIT too). Still an experiment, with no releases and Archon on a side branch: it goes near a client project only after one trial run on a repo of my own.
+
 🗒️ **[coleam00/ai-software-factory](https://github.com/coleam00/ai-software-factory)** by Cole Medin is a setup with a simple split: **you plan the release, the factory builds it, you test it in staging.** You start from a PRD for the next release (a proof of concept, or a small epic for an existing app), or you file issues against an app that already exists. The factory slices the PRD into linked issues and works out what can run in parallel. Then it loops: an agent picks an issue and builds it, and two reviewers that didn't write the code decide whether it merges. Merged work lands in staging, where you use the whole release like a customer would. Anything that's off becomes a new issue, and the factory picks it up.
 
 The framing changed after I first wrote this (2026-10-01). Back then the README pitched a repo that ships "without anyone reading the diff", what some people call a *dark factory*, after lights-out manufacturing. It now says outright **"This is not a dark factory"**. The middle runs on its own, but humans stay at the two ends: deciding what to build, and judging in staging whether what got built is right.
@@ -29,7 +32,7 @@ The framing changed after I first wrote this (2026-10-01). Back then the README 
 
 It writes none of the AI steps itself. Every agent step is a workflow from the **SDLC pack of [[Archon]]**, pinned to an exact Archon revision (as of 2026-11-13: `1cfb8fc5` on Archon's `factory/sdlc-on-dev` branch). The factory supplies setup, scheduling, project context and the files only a human can write.
 
-⚖️ **No licence.** The repo has no LICENSE file and GitHub reports none, so by default all rights are reserved. GitHub's terms let you view and fork it on GitHub, but nothing grants reuse of the code. I treat it as a reference design to learn from, not something to copy into a client repo. There are also no releases or tags, only commits on `main` (last on 2026-10-27, with work continuing on branches into November).
+⚖️ **MIT since 2026-11-13.** Until then the repo had no LICENSE file, so by default all rights were reserved and I treated it as a reference design only. On 2026-11-13 Cole Medin added an MIT licence (commit `3c696c8`), so the code may now be copied and adapted as long as the copyright and licence notice come along (see my decision above). There are still no releases or tags, only commits on `main`.
 
 ## Links
 ### Description
@@ -89,7 +92,7 @@ Scheduling stays **off** until you've watched one lap complete. Then `.factory/s
 On a server it runs as a systemd user service and timer printed by `schedule install` (`bin/bootstrap-ubuntu.sh` installs the toolchain on Ubuntu). The unit carries what a timer otherwise lacks: `PATH` (`bun`, `uv` and `claude` live under the user's home; it's captured from the shell that ran the install), `IS_SANDBOX=1` (Claude Code refuses to run unattended as root without it) and `EnvironmentFile=-%h/.factory-env`, a mode-600 file for the Claude Code token, never the unit or the repo. A root user timer also needs `loginctl enable-linger root` to keep running after logout.
 
 ## Reasoning for
-This is the closest thing I've seen to a public implementation of the **Stage 6 closed loop** in Anthropic's [[AI-Native SDLC Playbook]]: issues and regressions come in, independent verification gates sit between stages, and humans review at the gates instead of starting each stage. The reframe makes the match closer. Humans now own the two ends, the PRD and acceptance in staging, instead of being written out entirely. The playbook describes the loop in enterprise terms. This repo makes it runnable on one Linux box. ("Public", not "open-source": there's no licence, see above.)
+This is the closest thing I've seen to a public implementation of the **Stage 6 closed loop** in Anthropic's [[AI-Native SDLC Playbook]]: issues and regressions come in, independent verification gates sit between stages, and humans review at the gates instead of starting each stage. The reframe makes the match closer. Humans now own the two ends, the PRD and acceptance in staging, instead of being written out entirely. The playbook describes the loop in enterprise terms. This repo makes it runnable on one Linux box. (Open source since 2026-11-13, under MIT.)
 
 What I'd steal even without running the factory:
 
@@ -97,7 +100,7 @@ What I'd steal even without running the factory:
 - **A deliberate fault must fail.** A verification step you haven't seen go red proves nothing. It's the same "make the test fail first" discipline the playbook asks for on bug fixes, applied to the whole runtime check.
 - **The builder must not read the holdout.** Naming a folder "holdout" doesn't make it private. The repo now enforces it with a hook fence and counts leaks, but only on Claude Code.
 
-⚠️ Caveats: the gate is only as good as the journeys and holdout you write. The README says so itself: a green gate means the machine-checkable layer is intact, **not that the product is good**, and it doesn't judge taste. It also doesn't invent a backlog: the backlog comes from your issues or from a PRD that `archon-backlog` slices into issues you approve. The first lap runs with `merge=approve` (the reviewer approves instead of merging) and backlog publication with `publication=approve`, which is the right default. On a free private GitHub repo you must set `required_checks`, or the merge queue holds everything. Cost isn't covered beyond "instrument your tokens on day one" and "start with one small issue". Everything depends on a pinned Archon revision, so an upgrade means pulling the repo and rerunning `init`. And there's no licence, so reuse isn't granted.
+⚠️ Caveats: the gate is only as good as the journeys and holdout you write. The README says so itself: a green gate means the machine-checkable layer is intact, **not that the product is good**, and it doesn't judge taste. It also doesn't invent a backlog: the backlog comes from your issues or from a PRD that `archon-backlog` slices into issues you approve. The first lap runs with `merge=approve` (the reviewer approves instead of merging) and backlog publication with `publication=approve`, which is the right default. On a free private GitHub repo you must set `required_checks`, or the merge queue holds everything. Cost isn't covered beyond "instrument your tokens on day one" and "start with one small issue". Everything depends on a pinned Archon revision, so an upgrade means pulling the repo and rerunning `init`.
 
 ## Alternatives considered
 - **[[Archon]] on its own**: the same workflows, run on demand without the mission, journeys, holdout and scheduler around them.

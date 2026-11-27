@@ -7,7 +7,7 @@ tags: ["tool", "ai", "web-scraping", "crawler", "markdown", "rag", "python", "se
 type: tool
 source: "https://github.com/unclecode/crawl4ai"
 agent-created: true
-agent-reviewed: 2026-11-13
+agent-reviewed: 2026-11-27
 summary: "Open-source LLM-friendly web crawler & scraper — turns the web into clean, LLM-ready markdown for RAG, agents and data pipelines; async, controllable, Docker/FastAPI, ~87k stars; Apache-2.0 plus a mandatory attribution clause; now also sold as hosted Crawl4AI Cloud"
 status-checked: 2026-11-13
 project-status: active
@@ -20,6 +20,9 @@ repo: "https://github.com/unclecode/crawl4ai"
 > **Last release:** v0.9.5 (2026-10-14), on GitHub Releases, PyPI (crawl4ai 0.9.5… · **last commit:** 2026-11-04 · **licence:** Apache-2.0, plus an 'Attribution Requirement' section appended to LICENSE that requires crediting UncleCode/Crawl4AI in…
 > **Repo:** https://github.com/unclecode/crawl4ai
 > **Changed since this note:** At the note date the version was v0.9.2. Since then: v0.9.3, v0.9.4 and v0.9.5 were security releases closing 14 coordinated-disclosure advisories in the Docker server's handling of untrusted request bodies.
+
+> [!important] My decision 2026-11-27 — keep
+> Crawl4AI stays. Pinned to `crawl4ai==0.9.6`, the security release of 2026-11-20 (11 advisories, 9 of them in the Docker server; the maintainers tell self-hosters to upgrade). 0.9.6 also changes the default LLM to `openai/gpt-6-luna` and stops sending `temperature: 0.01`, so LLM extraction gets a re-check when upgrading from an older version. Every client project carries the UncleCode attribution line in its README, and a public app also in its Credits; the client hears about it in the offer. If a client won't accept the credit in a public app, that project doesn't use Crawl4AI.
 
 `unclecode/crawl4ai` — an open-source **LLM-friendly web crawler and scraper** that turns web pages into **clean, LLM-ready markdown** for RAG, agents, and data pipelines. Fast, controllable, and self-hostable, with no rate-limited API and no lock-in: you own the pipeline. Runs as a Python package or a Dockerized **FastAPI** server; ~50k+ stars when I wrote this, ~87k on 2026-11-13. Releases v0.8.x–v0.9.5 hardened the Docker API to **secure-by-default** (auth on, loopback binding, request body treated as an untrusted boundary).
 
@@ -46,7 +49,7 @@ Internal use that is never distributed or shown publicly seems outside it. Anyth
 
 ### Download or use
 ```bash
-pip install -U crawl4ai
+pip install "crawl4ai==0.9.6"   # pinned (decision 2026-11-27)
 crawl4ai-setup            # install Playwright browsers
 crawl4ai-doctor           # check the installation
 ```
@@ -66,7 +69,7 @@ asyncio.run(main())
 export CRAWL4AI_API_TOKEN="$(openssl rand -hex 32)"
 docker run -d -p 11235:11235 --name crawl4ai --shm-size=1g \
   -e CRAWL4AI_API_TOKEN="$CRAWL4AI_API_TOKEN" \
-  unclecode/crawl4ai:latest
+  unclecode/crawl4ai:0.9.6
 # then call it with: -H "Authorization: Bearer $CRAWL4AI_API_TOKEN"
 ```
 

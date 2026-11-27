@@ -7,7 +7,7 @@ tags: ["tool", "ai", "context-engineering", "token-optimization", "proxy", "codi
 type: tool
 source: "_raw/processed/2026-11-01_ranxiangleibillion-context.md"
 agent-created: true
-agent-reviewed: 2026-11-13
+agent-reviewed: 2026-11-27
 summary: "ranxianglei/billion-context (bili) — proxy/plugin that lets the model itself compress and restore conversation ranges, targeting 5x fewer tokens and month-long single sessions on 100K windows"
 status-checked: 2026-11-13
 project-status: active
@@ -21,6 +21,9 @@ repo: "https://github.com/ranxianglei/billion-context"
 > **Last release:** v0.1.213, 2026-11-07 (GitHub release; npm billion-context 0.1.213 published the same day). · **last commit:** 2026-11-13 · **licence:** MIT plus an 'Additional Term - Attribution on Product Surfaces': any product or service with a user-facing surface that…
 > **Repo:** https://github.com/ranxianglei/billion-context
 > **Changed since this note:** On 2026-11-13 the repo added a governance policy for in-app announcements. The 1,500-item benchmark (LongMemEval-S, ContextBench, MemoryAgentBench, run on v0.1.202 by contributor Wang Tian Yi) was added on 2026-10-31, the day before the note.
+
+> [!important] My decision 2026-11-27 — don't use
+> I don't use billion-context. In Claude Code it breaks compaction and Remote Control: its managed settings switch off auto-compaction (`DISABLE_AUTO_COMPACT=1`) even in the desktop app's Code tab, which bypasses the proxy, and the changed API address turns off Remote Control in the terminal. It sees the whole conversation, and the advisory channel force-installs versions even with the local version lock `bili pin` (added 2026-11-15; the README says explicit installs and advisory repairs always take precedence). Fallback, if it ever has to run somewhere: `0.1.216` (latest on npm, 2026-11-17), `ACP_AUTO_UPDATE=0`, `BILI_ADVISORY_CHECK=0` and `bili pin`, all together.
 
 ## 🚀 Description
 

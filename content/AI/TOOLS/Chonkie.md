@@ -10,7 +10,7 @@ agent-created: true
 summary: "Lightweight MIT text-chunking library for RAG (the pygmy-hippo chunker) — v1.7.0 is the last 1.x and main is frozen; announced v2 is a small Rust core with only token, sentence, recursive and code chunkers; Chonkie Cloud is offline"
 status-checked: 2026-11-13
 project-status: maintained
-agent-reviewed: 2026-11-13
+agent-reviewed: 2026-11-27
 repo: "https://github.com/feyninc/chonkie"
 ---
 # Chonkie
@@ -22,9 +22,12 @@ repo: "https://github.com/feyninc/chonkie"
 > **Successor / fallback:** Not needed yet: v1 still works and is MIT. Chonkie v2 is announced but unreleased (a small Rust core with only token, sentence, recursive and code chunkers); until it ships, pin chonkie==1.7.0.
 > **Changed since this note:** (1) The Chonkie v2 RFC (2026-08-21) is a 'course correction'. It drops the semantic, neural and slumber (agentic) chunkers, which on Chonkie's own MTCB benchmark were worse than or within 2-3% of the recursive chunker with modern embedders.
 
+> [!important] My decision 2026-11-27 — keep
+> Chonkie stays. Pinned to `chonkie==1.7.0`, the last 1.x release (v2 RFC, 2026-08-21). New work uses only the token, sentence, recursive and code chunkers: the RFC names only these four as kept (it doesn't say outright that semantic goes, but semantic isn't on that list). The `v2` branch has been under construction since 2026-11-16 (recursive first, token on 2026-11-24), with no release yet. The migration gets its own task once v2 ships. As of 2026-11-27 none of my local projects depend on Chonkie.
+
 `feyninc/chonkie` — a **lightweight, fast chunking library** for RAG pipelines (mascot: a pygmy hippo). It covers the "split source text into good retrieval units" step end-to-end: **fetch → CHONK → refine → embed → ship to your vector DB**. The v1 pitch is no-bloat and "just works": small install, quick chunking, and 32+ integrations with embedders and vector stores out of the box, across 56 languages.
 
-**State as of 2026-11-13: v1 is frozen, v2 is announced but unreleased.** The Chonkie v2 RFC (2026-08-21) calls itself a "course correction": v1.7.0 (2026-07-07) is the last 1.x release, and a workflow auto-closes every new PR on `main`. v2 is planned as a 1–2k-line Rust core with only the token, sentence, recursive and code chunkers, `tokie` as the default tokenizer, a binary under 1 MB, Python and JS/TS bindings, and a 1.x → 2.0 migration guide. It drops the semantic, neural and slumber chunkers and the integration plumbing. The `v2` branch has no public commits after 2026-08-22 and there is no release date. The JS port (`chonkiejs`) is frozen too. Until v2 ships I pin `chonkie==1.7.0`, which still works and stays MIT.
+**State as of 2026-11-13: v1 is frozen, v2 is announced but unreleased.** The Chonkie v2 RFC (2026-08-21) calls itself a "course correction": v1.7.0 (2026-07-07) is the last 1.x release, and a workflow auto-closes every new PR on `main`. v2 is planned as a 1–2k-line Rust core with only the token, sentence, recursive and code chunkers, `tokie` as the default tokenizer, a binary under 1 MB, Python and JS/TS bindings, and a 1.x → 2.0 migration guide. It drops the semantic, neural and slumber chunkers and the integration plumbing. The `v2` branch had no public commits between 2026-08-22 and 2026-11-16; since then the recursive chunker and (on 2026-11-24) the token chunker have landed there, still with no release date. The JS port (`chonkiejs`) is frozen too. Until v2 ships I pin `chonkie==1.7.0`, which still works and stays MIT.
 
 In the [[LLM App Engineering Stack]] this is the **chunking lane** — the piece between document parsing ([[Marker]] for files, [[Crawl4AI]] for web) and vector storage ([[Qdrant]]). Chunk quality is one of the biggest hidden levers on retrieval quality, which is why it gets its own tool rather than a hand-rolled `text.split()`.
 
